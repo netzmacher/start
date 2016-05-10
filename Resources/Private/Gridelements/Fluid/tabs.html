@@ -1,0 +1,28 @@
+<f:if condition="{data.pi_flexform.data.sDEF.lDEF.tabstype.vDEF} == 'accordion'" >
+  <f:then>
+    <dl class="accordion" data-accordion>
+      <f:for each="{data.tx_gridelements_view_children}" as="el" iteration="i">
+        <dd class="accordion-navigation">
+          <a href="#c{el.uid}-accordion-{i.index}">{el.header}</a>
+          <div id="c{el.uid}-accordion-{i.index}" class="content">
+            <f:format.html parseFuncTSPath="lib.parseFunx">{el.bodytext}</f:format.html>
+          </div>
+        </dd>
+      </f:for>
+    </dl>
+  </f:then>
+  <f:else>
+    <ul class="tabs {data.pi_flexform.data.sDEF.lDEF.tabstype.vDEF}" data-tab>
+      <f:for each="{data.tx_gridelements_view_children}" as="el" iteration="i">
+        <li class='tab-title'><a href="#tabs-{i.index}">{el.header}</a></li>
+      </f:for>
+    </ul>
+    <div class="tabs-content">
+      <f:for each="{data.tx_gridelements_view_children}" as="el" iteration="i">
+        <div class="content" id="tabs-{i.index}">
+          <f:format.html parseFuncTSPath="lib.parseFunx">{el.bodytext}</f:format.html>
+        </div>
+      </f:for>
+    </div>
+  </f:else>
+</f:if>

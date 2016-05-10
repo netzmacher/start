@@ -1,0 +1,29 @@
+<f:alias map="{slider: data.pi_flexform.data.sDEF.lDEF.slider.el}">
+  <ul data-orbit data-options="{data.pi_flexform.data.sDEF.lDEF.options.vDEF}">
+    <f:for each="{slider}" as="slide" iteration="i">
+      <f:alias map="{item: slide.item.el}">
+        <f:if condition="{item.disable.vDEF} < 1" >
+          <li>
+          <f:image src="uploads/media/{item.image.vDEF}" alt="" title="" />
+
+          <div class="orbit-caption">
+            <f:if condition="{item.title.vDEF}">
+              <h2>{item.title.vDEF}</h2>
+            </f:if>
+
+            <f:if condition="{item.text.vDEF}">
+              <f:format.html>{item.text.vDEF}</f:format.html>
+            </f:if>
+            <!--
+            <f:if condition="{i.total} > 1">
+                <span class="orbit-prev"><img src="/fileadmin/_template/img/orbit-prev.png" alt="" /></span>
+                <span class="orbit-next"><img src="/fileadmin/_template/img/orbit-next.png" alt="" /></span>
+            </f:if>
+            -->
+          </div>
+          </li>
+        </f:if>
+      </f:alias>
+    </f:for>
+  </ul>
+</f:alias>

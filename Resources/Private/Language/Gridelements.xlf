@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2014-11-22T15:11:39Z" product-name="start">
+    <header/>
+    <body>
+
+      <trans-unit id="theme_name">
+        <source>Start TYPO3 Responsive</source>
+      </trans-unit>
+
+      <trans-unit id="gridelements.flexform.class">
+        <source>CSS class</source>
+      </trans-unit>
+      <trans-unit id="gridelements.flexform.columnslarge">
+        <source>Large columns arrangement</source>
+      </trans-unit>
+      <trans-unit id="gridelements.flexform.columnsmedium">
+        <source>Medium columns arrangement</source>
+      </trans-unit>
+      <trans-unit id="gridelements.flexform.columnssmall">
+        <source>Small columns arrangement</source>
+      </trans-unit>
+
+    </body>
+  </file>
+
+</xliff>

@@ -1,0 +1,64 @@
+  // for proper comments only
+start {
+}
+start =
+start {
+    // for proper comments only
+  structure {
+  }
+    // header
+  structure =
+  structure {
+    // bottom (12), main (11), top (10)
+    header =
+    header {
+      // CONTENT, stdWrap
+      bottom = COA
+      bottom {
+        // table, select, stdWrap
+        20 < styles.content.get
+        20 {
+          select {
+            where = colPos=12
+          }
+          slide = -1
+          stdWrap {
+            required  = 1
+            wrap      = <!--headerbottom--><section class="header headerbottom"><div class="row"><div class="small-12 columns"> |</div></div></section><!--/headerbottom-->
+          }
+        }
+      }
+      // CONTENT, stdWrap
+      main < start.structure.header.bottom
+      main {
+        20 {
+          select {
+            where = colPos=11
+          }
+          stdWrap {
+            wrap      = <!--headermain--><section class="header headermain"><div class="row"><div class="small-12 columns"> |</div></div></section><!--/headermain-->
+          }
+        }
+      }
+      // CONTENT, stdWrap
+      top < start.structure.header.bottom
+      top {
+        20 {
+          select {
+            where = colPos=10
+          }
+          stdWrap {
+            ifEmpty {
+              cObject {
+                select {
+                  where = colPos=10
+                }
+              }
+            }
+            wrap      = <!--headertop--><section class="header headertop"><div class="row"><div class="small-12 columns"> |</div></div></section><!--/headertop-->
+          }
+        }
+      }
+    }
+  }
+}

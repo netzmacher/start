@@ -1,0 +1,5 @@
+  // Resources/Public/JavaScript/Libs/Foundation-5.5.1/js/vendor/modernizr.js
+  // Resources/Public/JavaScript/Libs/Foundation-5.5.1/js/vendor/fastclick.js
+  // Resources/Public/JavaScript/Libs/Foundation-5.5.1/js/foundation.min.js
+script=Resources/Public/JavaScript/Libs/Foundation-5.5.1/js/vendor/modernizr.js,Resources/Public/JavaScript/Libs/Foundation-5.5.1/js/vendor/fastclick.js,Resources/Public/JavaScript/Libs/Foundation-5.5.1/js/foundation.min.js
+components=
