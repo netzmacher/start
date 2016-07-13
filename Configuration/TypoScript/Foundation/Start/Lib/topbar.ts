@@ -65,9 +65,9 @@ start {
                 20 = TEXT
                 20 {
                   value (
-  <section class="top-bar-section">
-    <ul class="{$start.foundation.topbar.section.position}">|</ul>
-  </section>
+<section class="top-bar-section">
+  <ul class="{$start.foundation.topbar.section.position}">|</ul>
+</section>
   )
                 }
               }
@@ -337,14 +337,19 @@ start {
         value (
           <ul class="{$start.foundation.topbar.searchform.position}">
             <li class="has-form">
-              <div class="row collapse">
-                <div class="large-8 small-9 columns">
-                  <input type="text" name="tx_browser_pi1[sword]" placeholder="{$start.foundation.topbar.searchform.placeholder}">
+              <form action="index.php?id=160&amp;no_cache=1" method="post">
+                <input type="hidden" name="no_cache" value="1">
+                <div class="row collapse">
+                  <div class="large-8 small-9 columns">
+                    <input type="text" name="tx_browser_pi1[sword]" placeholder="{$start.foundation.topbar.searchform.placeholder}">
+                  </div>
+                  <div class="large-4 small-3 columns">
+                    <button class="tiny expand hidesubmit" role="button">
+                      {$start.foundation.topbar.searchform.button}
+                    </button>
+                  </div>
                 </div>
-                <div class="large-4 small-3 columns">
-                  <a href="index.php?id=160" class="button expand">{$start.foundation.topbar.searchform.button}</a>
-                </div>
-              </div>
+              </form>
             </li>
           </ul>
 )
