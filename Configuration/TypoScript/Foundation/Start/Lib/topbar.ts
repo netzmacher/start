@@ -337,11 +337,11 @@ start {
         value (
           <ul class="{$start.foundation.topbar.searchform.position}">
             <li class="has-form">
-              <form action="index.php?id=160&amp;no_cache=1" method="post">
+              <form action="index.php?id={$start.foundation.topbar.searchform.pid}&amp;no_cache=1" method="{$start.foundation.topbar.searchform.method}">
                 <input type="hidden" name="no_cache" value="1">
                 <div class="row collapse">
                   <div class="large-8 small-9 columns">
-                    <input type="text" name="tx_browser_pi1[sword]" placeholder="{$start.foundation.topbar.searchform.placeholder}">
+                    <input type="text" name="{$start.foundation.topbar.searchform.param}" placeholder="{$start.foundation.topbar.searchform.placeholder}">
                   </div>
                   <div class="large-4 small-3 columns">
                     <button class="tiny expand hidesubmit" role="button">
