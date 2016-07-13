@@ -335,7 +335,7 @@ start {
           isTrue = {$start.foundation.topbar.searchform}
         }
         value (
-          <ul class="{$start.foundation.topbar.searchform.position}">
+          <ul class="{$start.foundation.topbar.searchform.position} pad-left pad-right">
             <li class="has-form">
               <form action="index.php?id={$start.foundation.topbar.searchform.pid}&amp;no_cache=1" method="{$start.foundation.topbar.searchform.method}">
                 <input type="hidden" name="no_cache" value="1">
