@@ -3,4 +3,4 @@ beLanguage = English
   # cat=language/198;            type=user[EXT:start/lib/userfunc/class.tx_start_userfunc.php:tx_start_userfunc->promptExternalLinks]; label=External Links
 beLanguageExternalLinks = 1
   # cat=language/199;           type=user[EXT:start/lib/userfunc/class.tx_start_userfunc.php:tx_start_userfunc->promptSponsors]; label=Subsidise the start project!
-beLanguageSponsors = 1ca
+beLanguageSponsors = 1

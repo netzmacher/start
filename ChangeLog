@@ -1,3 +1,13 @@
+2.4.5
+  2016-07-13
+  New Feature
+  * #i0068: Search form for the top-bar configurable by the Constant Editor
+
+2.4.4
+  2016-06-20
+  Improvement
+  * #i0067: Clean up tx_start_css
+
 2.4.3
   2016-05-11
   Improvement

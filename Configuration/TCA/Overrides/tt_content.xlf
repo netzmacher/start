@@ -4,7 +4,7 @@
     <header/>
     <body>
 
-      <trans-unit id="tx_start_css">
+      <trans-unit id="tx_start_palettecss">
         <source>Additional CSS</source>
       </trans-unit>
       <trans-unit id="tx_start_additionalclass">

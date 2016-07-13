@@ -1,6 +1,6 @@
 <?php
 
-// #i0065, 160510, dwildt,+
+use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
 $temporaryColumn = array(
   'tx_start_additionalclass' => array(
@@ -13,20 +13,20 @@ $temporaryColumn = array(
     )
   ),
 );
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns(
+ExtensionManagementUtility::addTCAcolumns(
         'tt_content'
         , $temporaryColumn
 );
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addFieldsToPalette(
+ExtensionManagementUtility::addFieldsToPalette(
         'tt_content'
-        , 'tx_start_css'
+        , 'tx_start_palettecss'
         , 'tx_start_additionalclass'
         , ''
 );
 
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes(
+ExtensionManagementUtility::addToAllTCAtypes(
         'tt_content'
-        , '--palette--;LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_css;tx_start_css'
+        , '--palette--;LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_palettecss;tx_start_palettecss'
         , ''
         , 'after:header'
 );
