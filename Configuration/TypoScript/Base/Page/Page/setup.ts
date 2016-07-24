@@ -48,9 +48,23 @@ page {
         stdWrap {
           cObject = TEXT
           cObject {
-            value = |<div style="background:white;border:red solid 1em;color:red;font-weight:bold;margin:2em;padding:1em;text-align:center;">The current backend layout "|" can't handled. Please choose a proper backend layout. This is a prompt of the extension Start TYPO3 Responsive! (start). </div>|
+            value (
+              |<div style="background:white;border:red solid 1em;color:red;font-weight:bold;margin:2em;padding:1em;text-align:center;">
+                The current backend layout "|" can't handled.<br />
+                Please empty the TYPO3-frontend-cache.<br />
+                If this hasn't any effect, please choose a proper backend layout. <br />
+                This is a prompt of the extension Start TYPO3 Responsive! (start). 
+              </div>|
+)
             lang {
-              de = |<div style="background:white;border:red solid 1em;color:red;font-weight:bold;margin:2em;padding:1em;text-align:center;">Das aktuelle Backend-Layout "|" kann nicht verarbeitet werden. Bitte w&auml;hle ein g&uuml;ltiges Backend-Layout aus. Das ist eine Meldung der Erweiterung Start TYPO3 Responsive! (start). </div>|
+              de (
+                |<div style="background:white;border:red solid 1em;color:red;font-weight:bold;margin:2em;padding:1em;text-align:center;">
+                  Das aktuelle Backend-Layout "|" kann nicht verarbeitet werden.<br />
+                  Bitte leere den TYPO-Frontend-Cache.<br />
+                  Wenn das nicht hilft, w&auml;hle bitte ein g&uuml;ltiges Backend-Layout.<br />
+                  Das ist eine Meldung der Erweiterung Start TYPO3 Responsive! (start). 
+                </div>|
+)
             }
           }
         }
@@ -129,9 +143,21 @@ page {
         stdWrap {
           cObject = TEXT
           cObject {
-            value = |<div style="background:white;border:red solid 1em;color:red;font-weight:bold;margin:2em;padding:1em;text-align:center;">The current backend layout "|" can't handled. If you like to use it, please include the static template "Start [8] +e-mail". This is a prompt of the extension Start TYPO3 Responsive! (start). </div>|
+            value (
+              |<div style="background:white;border:red solid 1em;color:red;font-weight:bold;margin:2em;padding:1em;text-align:center;">
+                The current backend layout "|" can't handled. 
+                If you like to use it, please include the static template "Start [8] +e-mail". 
+                This is a prompt of the extension Start TYPO3 Responsive! (start). 
+              </div>|
+)
             lang {
-              de = |<div style="background:white;border:red solid 1em;color:red;font-weight:bold;margin:2em;padding:1em;text-align:center;">Das aktuelle Backend-Layout "|" kann nicht verarbeitet werden. Wenn Du es verwenden möchtest, binde bitte das Static-Template "Start [8] +E-Mail" ein. Das ist eine Meldung der Erweiterung Start TYPO3 Responsive! (start). </div>|
+              de (
+                |<div style="background:white;border:red solid 1em;color:red;font-weight:bold;margin:2em;padding:1em;text-align:center;">
+                  Das aktuelle Backend-Layout "|" kann nicht verarbeitet werden. 
+                  Wenn Du es verwenden möchtest, binde bitte das Static-Template "Start [8] +E-Mail" ein. 
+                  Das ist eine Meldung der Erweiterung Start TYPO3 Responsive! (start).
+                </div>|
+)
             }
           }
         }

@@ -1,3 +1,8 @@
+2.4.6
+  2016-07-25
+  Improvement
+  * #i0069: Label in case of a missing backend layout
+
 2.4.5
   2016-07-13
   New Feature
