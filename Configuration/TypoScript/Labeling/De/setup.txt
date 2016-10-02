@@ -1,2 +1,0 @@
-start.foundation.topbar.searchform.placeholder = Begriff
-start.foundation.topbar.searchform.button = Suchen
