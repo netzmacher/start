@@ -1,5 +1,10 @@
 2.4.9
-  2016-10-02
+  2016-10-05
+  Features
+  * #i0073: Site line at the top and site line at the bottom
+            Configurable by
+            * the Constant Editor. See [Start - Pages]
+            * TypoScript setup. See start.structure.site
   Improvement
   * #i0072: Backend-Layouts: German labels are moved from
             * Kopfzeile to Kopf
