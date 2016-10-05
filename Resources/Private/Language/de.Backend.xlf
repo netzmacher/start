@@ -112,11 +112,11 @@
 
       <trans-unit id="backend_layout.column.header">
         <source>Header</source>
-        <target>Kopfzeile</target>
+        <target>Kopf</target>
       </trans-unit>
       <trans-unit id="backend_layout.column.header.bottom">
         <source>Below the header</source>
-        <target>Unter der Kopfzeile</target>
+        <target>Unter dem Kopf</target>
       </trans-unit>
       <trans-unit id="backend_layout.column.header.left">
         <source>Left margin</source>
@@ -128,16 +128,16 @@
       </trans-unit>
       <trans-unit id="backend_layout.column.header.top">
         <source>Above the header</source>
-        <target>Über der Kopfzeile</target>
+        <target>Über dem Kopf</target>
       </trans-unit>
 
       <trans-unit id="backend_layout.column.footer">
         <source>Footer</source>
-        <target>Fußzeile</target>
+        <target>Fuß</target>
       </trans-unit>
       <trans-unit id="backend_layout.column.footer.bottom">
         <source>Below the footer</source>
-        <target>Unter der Fußzeile</target>
+        <target>Unter dem Fuß</target>
       </trans-unit>
       <trans-unit id="backend_layout.column.footer.left">
         <source>Left margin</source>
@@ -149,7 +149,7 @@
       </trans-unit>
       <trans-unit id="backend_layout.column.footer.top">
         <source>Above the footer</source>
-        <target>Über der Fußzeile</target>
+        <target>Über dem Fuß</target>
       </trans-unit>
 
       <trans-unit id="backend_layout.column.hidden">

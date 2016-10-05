@@ -1,3 +1,10 @@
+2.4.9
+  2016-10-02
+  Improvement
+  * #i0072: Backend-Layouts: German labels are moved from
+            * Kopfzeile to Kopf
+            * Fußzeile to Fuß
+
 2.4.8
   2016-10-02
   Feature
