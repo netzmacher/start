@@ -1,3 +1,10 @@
+2.4.10
+  2016-11-28
+  Features
+  * #i0074: Foundation Topbar: Name isn't displayed, if there isn't any name in
+            Constant Editor > Categorie [STAERT - FOUNDATION - TOPBAR] > Name
+            Thanks to Falko Trojahn for feature request
+
 2.4.9
   2016-10-05
   Features

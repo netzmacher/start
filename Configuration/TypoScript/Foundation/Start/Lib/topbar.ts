@@ -5,17 +5,20 @@ start {
     // topbar
   lib =
   lib {
-        // 1, 2, 3, 4, stdWrap, wrap
+        // 1, 2, 3, 4, 5, 6, stdWrap, wrap
     topbar = COA
     topbar {
-        // 1, 2, 3, 4, stdWrap, wrap
+        // 1, 2, 3, 4, 5, 6, stdWrap, wrap
       10 = HMENU
       10 {
+          // ul, section
         1 = TMENU
         1 {
           expAll    = 1
           collapse  = 0
           noBlur    = 1
+            // ul, section
+          stdWrap =
           stdWrap {
             wrap {
                 // ul, section
@@ -24,9 +27,14 @@ start {
                   // <ul>|</ul>
                 10 = COA
                 10 {
-                    // li.name
+                    // li.name (topbar name) if is true $start.foundation.topbar.name (here: {$start.foundation.topbar.name})
                   10 = TEXT
-                  10 {
+                  10{
+                      // if is true $start.foundation.topbar.name (here: {$start.foundation.topbar.name})
+                    if =
+                    if {
+                      isTrue = {$start.foundation.topbar.name}
+                    }
                     value = {$start.foundation.topbar.name}
                     typolink {
                       parameter = {$start.pages.root}
@@ -329,8 +337,11 @@ start {
           wrap = <div class="{$start.foundation.topbar.position}">|</div>
         }
       }
+        // Searchform, if is true start.foundation.topbar.searchform (here: {$start.foundation.topbar.searchform})
       20 = TEXT
       20 {
+          // if is true start.foundation.topbar.searchform (here: {$start.foundation.topbar.searchform})
+        if =
         if {
           isTrue = {$start.foundation.topbar.searchform}
         }
@@ -359,6 +370,8 @@ start {
   }
 }
 
-tt_content.menu.20 {
-  startFoundationTopBar < start.lib.topbar
+tt_content.menu {
+  20 {
+    startFoundationTopBar < start.lib.topbar
+  }
 }
