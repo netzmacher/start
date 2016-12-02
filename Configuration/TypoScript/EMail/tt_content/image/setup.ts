@@ -285,7 +285,7 @@ tt_content.image {
 			noCaption.allStdWrap.dataWrap = |
 			singleCaption {
 				caption {
-					wrap = <td><p class="csc-textpic-caption###CLASSES###"> | <p></td>
+					wrap = <td><p class="csc-textpic-caption###CLASSES###"> | </p></td>
 				}
 				singleStdWrap {
 					wrap = <table><tbody><tr><td> | </td></tr><tr>###CAPTION###</tr></tbody></table>
