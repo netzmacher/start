@@ -12,7 +12,7 @@ tt_content.image {
                   <tr>
                     <td class="wrapper last">
                       <table class="twelve columns">
-                        <tr>
+                        <tr class="csc-textpic csc-textpic-center csc-textpic-above###CLASSES###">
 													###IMAGES###
                           <td class="expander"></td>
                         </tr>
@@ -94,13 +94,20 @@ tt_content.image {
                   <tr>
                     <td class="wrapper last">
                       <table class="twelve columns">
-                        <tr>
-                          <td>
-                            <div class="csc-textpic csc-textpic-center csc-textpic-below###CLASSES###">
-                              ###TEXT###
-                              ###IMAGES###
-                            </div>
+                        <tr class="csc-textpic csc-textpic-center csc-textpic-below###CLASSES###">
+                          <td align="center">
+														###TEXT###
                           </td>
+                          <td class="expander"></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="wrapper last">
+                      <table class="twelve columns">
+                        <tr class="csc-textpic csc-textpic-center csc-textpic-below###CLASSES###">
+													###IMAGES###
                           <td class="expander"></td>
                         </tr>
                       </table>
@@ -281,3 +288,4 @@ tt_content.image {
     }
   }
 }
+
