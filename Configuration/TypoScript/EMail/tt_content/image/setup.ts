@@ -1,6 +1,8 @@
 ## images
+
 tt_content.image {
   20 {
+		imageStdWrapNoWidth.wrap = |
     layout {
       # above-center
       default {
@@ -8,7 +10,7 @@ tt_content.image {
 
                 <table class="row">
                   <tr>
-                    <td class="wrapper">
+                    <td class="wrapper last">
                       <table class="twelve columns">
                         <tr>
                           <td align="center">
@@ -33,35 +35,7 @@ tt_content.image {
                   </tr>
                 </table>
 )
-        override (
-
-                <table class="row">
-                  <tr>
-                    <td class="wrapper">
-                      <table class="twelve columns">
-                        <tr>
-                          <td>
-														###IMAGES###
-                          </td>
-                          <td class="expander"></td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="wrapper last">
-                      <table class="twelve columns">
-                        <tr class="csc-textpic csc-textpic-center csc-textpic-above###CLASSES###">
-                          <td>
-														###TEXT###
-                          </td>
-                          <td class="expander"></td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-)
+        override >
       }
       # above-right
       1 = TEXT
@@ -458,16 +432,17 @@ tt_content.image {
 )
       }
     }
-    XXXrenderMethod = simple
-    XXXrendering {
-      simple {
-        imageStdWrapNoWidth.wrap = |
-        imageStdWrap.dataWrap = |
-        // #i0034, 150915, dwildt, 1-/+
-        //caption.wrap = <p>|<br /><br /></p>
-        //caption.wrap = </td></tr><tr><td>|
-        caption.wrap = <p>|</p>
-      }
+    renderMethod = singleNoCaption
+    rendering {
+			singleNoCaption {
+				allStdWrap {
+					innerWrap {
+						cObject {
+							0
+						}
+					}
+				}
+			}
     }
   }
 }
