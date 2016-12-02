@@ -319,6 +319,30 @@ img.center {
   float: none;
 }
 
+table.right, td.right {
+  text-align: right;
+}
+
+h1.right,
+h2.right,
+h3.right,
+h4.right,
+h5.right,
+h6.right {
+  text-align: right;
+}
+
+span.right {
+  display: block;
+  width: 100%;
+  text-align: right;
+}
+
+img.right {
+  margin: 0 auto;
+  float: none;
+}
+
 .show-for-small,
 .hide-for-desktop {
   display: none;
