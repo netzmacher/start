@@ -281,7 +281,7 @@ tt_content.image {
       }
     }
     renderMethod = singleNoCaption
-    rendering {
+    XXXrendering {
 			noCaption.allStdWrap.dataWrap = |
 			singleCaption {
 				caption {
@@ -299,10 +299,10 @@ tt_content.image {
 							0 {
 								value = <td class="center" align="center">|</td>
 							}
-							x1 {
+							1 {
 								value = <td class="right" align="right">|</td>
 							}
-							x2 {
+							2 {
 								value = <td>|</td>
 							}
 							8 {
