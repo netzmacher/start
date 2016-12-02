@@ -140,13 +140,20 @@ tt_content.image {
                   <tr>
                     <td class="wrapper last">
                       <table class="twelve columns">
-                        <tr>
-                          <td>
-                            <div class="csc-textpic csc-textpic-right csc-textpic-below###CLASSES###">
-                              ###TEXT###
-                              ###IMAGES###
-                            </div>
+                        <tr class="csc-textpic csc-textpic-right csc-textpic-below###CLASSES###">
+                          <td class="right" align="right">
+														###TEXT###
                           </td>
+                          <td class="expander"></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="wrapper last">
+                      <table class="twelve columns">
+                        <tr class="csc-textpic csc-textpic-right csc-textpic-below###CLASSES###">
+                          <td class="right" align="right">###IMAGES###</td>
                           <td class="expander"></td>
                         </tr>
                       </table>
@@ -165,13 +172,20 @@ tt_content.image {
                   <tr>
                     <td class="wrapper last">
                       <table class="twelve columns">
-                        <tr>
+                        <tr class="csc-textpic csc-textpic-left csc-textpic-below###CLASSES###">
                           <td>
-                            <div class="csc-textpic csc-textpic-left csc-textpic-below###CLASSES###">
-                              ###TEXT###
-                              ###IMAGES###
-                            </div>
+														###TEXT###
                           </td>
+                          <td class="expander"></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="wrapper last">
+                      <table class="twelve columns">
+                        <tr class="csc-textpic csc-textpic-left csc-textpic-below###CLASSES###">
+                          <td>###IMAGES###</td>
                           <td class="expander"></td>
                         </tr>
                       </table>
