@@ -13,9 +13,7 @@ tt_content.image {
                     <td class="wrapper last">
                       <table class="twelve columns">
                         <tr>
-                          <td align="center">
-														###IMAGES###
-                          </td>
+													###IMAGES###
                           <td class="expander"></td>
                         </tr>
                       </table>
