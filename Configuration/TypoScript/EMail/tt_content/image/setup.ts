@@ -283,6 +283,14 @@ tt_content.image {
     renderMethod = singleNoCaption
     rendering {
 			noCaption.allStdWrap.dataWrap = |
+			singleCaption {
+				caption {
+					wrap = <td><p class="csc-textpic-caption###CLASSES###"> | <p></td>
+				}
+				singleStdWrap {
+					wrap = <table><tbody><tr><td> | </td></tr><tr>###CAPTION###</tr></tbody></table>
+				}
+			}
 			singleNoCaption {
 				allStdWrap {
 					dataWrap = |
@@ -307,5 +315,10 @@ tt_content.image {
 			}
     }
   }
+}
+
+
+tt_content.textpic {
+	20.text.wrap = |
 }
 
