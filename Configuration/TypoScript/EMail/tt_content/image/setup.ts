@@ -264,6 +264,18 @@ tt_content.image {
 			noCaption.allStdWrap.dataWrap = |
 			singleNoCaption {
 				allStdWrap >
+					dataWrap = |
+					innerWrap {
+						cObject {
+							0 {
+								value = |
+							}
+							8 {
+								value = |
+							}
+						}
+					}
+				}
 				singleStdWrap.wrap = <td class="center" align="center">|</td>
 			}
     }
