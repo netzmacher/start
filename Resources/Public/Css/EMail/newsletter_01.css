@@ -44,14 +44,18 @@ body{
 }
 
 img {
-  outline:none;
+/*  outline:none;
   text-decoration:none;
   -ms-interpolation-mode: bicubic;
   width: auto;
   max-width: 100%;
   float: left;
   clear: both;
-  display: block;
+  display: block;*/
+}
+img {
+	max-width: 100%; 
+	height: auto;
 }
 
 center {
