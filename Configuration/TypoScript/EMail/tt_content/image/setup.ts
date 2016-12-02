@@ -45,7 +45,7 @@ tt_content.image {
                     <td class="wrapper last">
                       <table class="twelve columns">
                         <tr class="csc-textpic csc-textpic-right csc-textpic-above###CLASSES###">
-													###IMAGES###
+                          <td class="right" align="right">###IMAGES###</td>
                           <td class="expander"></td>
                         </tr>
                       </table>
@@ -77,7 +77,7 @@ tt_content.image {
                     <td class="wrapper last">
                       <table class="twelve columns">
                         <tr class="csc-textpic csc-textpic-left csc-textpic-above###CLASSES###">
-													###IMAGES###
+                          <td>###IMAGES###</td>
                           <td class="expander"></td>
                         </tr>
                       </table>
@@ -298,12 +298,6 @@ tt_content.image {
 						cObject {
 							0 {
 								value = <td class="center" align="center">|</td>
-							}
-							1 {
-								value = <td class="right" align="right">|</td>
-							}
-							2 {
-								value = <td>|</td>
 							}
 							8 {
 								value = <td class="center" align="center">|</td>
