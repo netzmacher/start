@@ -281,7 +281,7 @@ tt_content.image {
       }
     }
     renderMethod = singleNoCaption
-    XXXrendering {
+    rendering {
 			noCaption.allStdWrap.dataWrap = |
 			singleCaption {
 				caption {
