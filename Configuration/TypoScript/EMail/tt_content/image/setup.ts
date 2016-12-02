@@ -205,11 +205,11 @@ tt_content.image {
                     <td class="wrapper last">
                       <table class="twelve columns">
                         <tr>
-                          <td>
-                            <div class="csc-textpic csc-textpic-intext-right###CLASSES###">
-                              ###IMAGES###
+                          <td class="csc-textpic csc-textpic-intext-right-nowrap###CLASSES###">
                               ###TEXT###
-                            </div>
+                          </td>
+                          <td class="csc-textpic csc-textpic-intext-right-nowrap###CLASSES###">
+                              ###IMAGES###
                           </td>
                           <td class="expander"></td>
                         </tr>
@@ -230,11 +230,11 @@ tt_content.image {
                     <td class="wrapper last">
                       <table class="twelve columns">
                         <tr>
-                          <td>
-                            <div class="csc-textpic csc-textpic-intext-left###CLASSES###">
+                          <td class="csc-textpic csc-textpic-intext-left-nowrap###CLASSES###">
                               ###IMAGES###
+                          </td>
+                          <td class="csc-textpic csc-textpic-intext-left-nowrap###CLASSES###">
                               ###TEXT###
-                            </div>
                           </td>
                           <td class="expander"></td>
                         </tr>
@@ -280,11 +280,11 @@ tt_content.image {
                     <td class="wrapper last">
                       <table class="twelve columns">
                         <tr>
-                          <td>
-                            <div class="csc-textpic csc-textpic-intext-left-nowrap###CLASSES###">
+                          <td class="csc-textpic csc-textpic-intext-left-nowrap###CLASSES###">
                               ###IMAGES###
+                          </td>
+                          <td class="csc-textpic csc-textpic-intext-left-nowrap###CLASSES###">
                               ###TEXT###
-                            </div>
                           </td>
                           <td class="expander"></td>
                         </tr>
