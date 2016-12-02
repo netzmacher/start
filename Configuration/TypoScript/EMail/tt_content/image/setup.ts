@@ -208,7 +208,7 @@ tt_content.image {
                           <td class="csc-textpic csc-textpic-intext-right-nowrap###CLASSES###">
                               ###TEXT###
                           </td>
-                          <td class="csc-textpic csc-textpic-intext-right-nowrap###CLASSES###">
+                          <td class="right csc-textpic csc-textpic-intext-right-nowrap###CLASSES###">
                               ###IMAGES###
                           </td>
                           <td class="expander"></td>
@@ -258,7 +258,7 @@ tt_content.image {
                           <td class="csc-textpic csc-textpic-intext-right-nowrap###CLASSES###">
                               ###TEXT###
                           </td>
-                          <td class="csc-textpic csc-textpic-intext-right-nowrap###CLASSES###">
+                          <td class="right csc-textpic csc-textpic-intext-right-nowrap###CLASSES###">
                               ###IMAGES###
                           </td>
                           <td class="expander"></td>
