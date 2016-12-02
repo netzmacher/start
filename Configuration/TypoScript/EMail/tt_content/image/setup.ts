@@ -299,10 +299,10 @@ tt_content.image {
 							0 {
 								value = <td class="center" align="center">|</td>
 							}
-							1 {
+							x1 {
 								value = <td class="right" align="right">|</td>
 							}
-							2 {
+							x2 {
 								value = <td>|</td>
 							}
 							8 {
