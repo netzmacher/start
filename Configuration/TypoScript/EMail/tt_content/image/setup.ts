@@ -245,6 +245,7 @@ tt_content.image {
 )
         override >
       }
+				// Beside text right
       25 = TEXT
       25 {
         value (
@@ -254,11 +255,11 @@ tt_content.image {
                     <td class="wrapper last">
                       <table class="twelve columns">
                         <tr>
-                          <td>
-                            <div class="csc-textpic csc-textpic-intext-right-nowrap###CLASSES###">
-                              ###IMAGES###
+                          <td class="csc-textpic csc-textpic-intext-right-nowrap###CLASSES###">
                               ###TEXT###
-                            </div>
+                          </td>
+                          <td class="csc-textpic csc-textpic-intext-right-nowrap###CLASSES###">
+                              ###IMAGES###
                           </td>
                           <td class="expander"></td>
                         </tr>
@@ -269,6 +270,7 @@ tt_content.image {
 )
         override >
       }
+				// Beside text left
       26 = TEXT
       26 {
         value (
