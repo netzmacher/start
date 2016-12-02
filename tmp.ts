@@ -25,8 +25,8 @@ start {
     jss = 0
   }
   config {
-    baseURL                           = http://typo3-route.de
-    baseURLhttps                      = https://typo3-route.de
+    baseURL                           = http://typo3-quick-shop.de/
+    baseURLhttps                      = https://typo3-quick-shop.de/
     language                          = de
     htmlTag_langKey                   = de
     htmlTag_setParams                 = lang="de" class="no-js"
@@ -40,24 +40,24 @@ start {
     iconbarStart {
       class         = icon-bar five-up
       10.modal      = 0
-      10.pid        = 8065
-      10.title      = Zur Startseite von TYPO3 Route
+      10.pid        = 9009
+      10.title      = Zur Startseite von Quick Shop
       20.aria-label = Kontakt
       20.pid        = 8780
-      20.title      = Kontakt zum Entwickler von TYPO3 Route
+      20.title      = Kontakt zum Entwickler von Quick Shop
       30.aria-label = Nachrichten
       30.pid        = 8783
-      30.title      = Nachrichten zu TYPO3 Route
+      30.title      = Nachrichten zu Quick Shop
       40.aria-label = Sponsoring
       40.modal      = 0
-      40.pid        = 8138
-      40.title      = Sponsoring für TYPO3 Route
+      40.pid        = 9030
+      40.title      = Sponsoring für Quick Shop
       50.pid        = 8784
-      50.title      = Newsletter der Netzmacher, die Entwickler von TYPO3 Route
+      50.title      = Newsletter der Netzmacher, die Entwickler von Quick Shop
     }
-    topbar {
-      name = TYPO3 Route
-      title = TYPO3 mit Google Maps und OpenStreetMap
+    XXXtopbar {
+      name = Quick Shop
+      title = Quick Shop - responsive E-Commerce mit TYPO3
     }
   }
   page {
@@ -68,9 +68,9 @@ start {
   pages {
     contact         = 0
     news            = 0
-    shop            = 0
+    shop            = 9010
     footer.library  = 8900
-    root            = 8065
+    root            = 9009
     siteLineTop     = 0
     siteLineBottom  = 0
   }

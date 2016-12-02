@@ -8,23 +8,14 @@ tt_content.image {
 
                 <table class="row">
                   <tr>
-                    <td class="wrapper">
+                    <td class="wrapper last">
                       <table class="twelve columns">
                         <tr>
                           <td>
-														###IMAGES###
-                          </td>
-                          <td class="expander"></td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="wrapper last">
-                      <table class="twelve columns">
-                        <tr class="csc-textpic csc-textpic-center csc-textpic-above###CLASSES###">
-                          <td>
-														###TEXT###
+                            <div class="csc-textpic csc-textpic-center csc-textpic-above###CLASSES###">
+                              ###IMAGES###
+                              ###TEXT###
+                            </div>
                           </td>
                           <td class="expander"></td>
                         </tr>
@@ -37,23 +28,14 @@ tt_content.image {
 
                 <table class="row">
                   <tr>
-                    <td class="wrapper">
+                    <td class="wrapper last">
                       <table class="twelve columns">
                         <tr>
                           <td>
-														###IMAGES###
-                          </td>
-                          <td class="expander"></td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="wrapper last">
-                      <table class="twelve columns">
-                        <tr class="csc-textpic csc-textpic-center csc-textpic-above###CLASSES###">
-                          <td>
-														###TEXT###
+                            <div class="csc-textpic csc-textpic-responsive csc-textpic-center csc-textpic-above###CLASSES###">
+                              ###IMAGES###
+                              ###TEXT###
+                            </div>
                           </td>
                           <td class="expander"></td>
                         </tr>
