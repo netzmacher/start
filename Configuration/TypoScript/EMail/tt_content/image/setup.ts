@@ -289,15 +289,15 @@ tt_content.image {
 					innerWrap {
 						cObject {
 							0 {
-								value = |
+								value = <td class="center" align="center">|</td>
 							}
 							8 {
-								value = |
+								value = <td class="center" align="center">|</td>
 							}
 						}
 					}
 				}
-				singleStdWrap.wrap = <td class="center" align="center">|</td>
+				singleStdWrap.wrap = |
 			}
     }
   }
