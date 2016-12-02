@@ -58,26 +58,7 @@ tt_content.image {
                   </tr>
                 </table>
 )
-        override (
-
-                <table class="row">
-                  <tr>
-                    <td class="wrapper last">
-                      <table class="twelve columns">
-                        <tr>
-                          <td>
-                            <div class="csc-textpic csc-textpic-responsive csc-textpic-right csc-textpic-above###CLASSES###">
-                              ###IMAGES###
-                              ###TEXT###
-                            </div>
-                          </td>
-                          <td class="expander"></td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-)
+        override >
       }
       # above-left
       2 = TEXT
@@ -102,26 +83,7 @@ tt_content.image {
                   </tr>
                 </table>
 )
-        override (
-
-                <table class="row">
-                  <tr>
-                    <td class="wrapper last">
-                      <table class="twelve columns">
-                        <tr>
-                          <td>
-                            <div class="csc-textpic csc-textpic-responsive csc-textpic-left csc-textpic-above###CLASSES###">
-                              ###IMAGES###
-                              ###TEXT###
-                            </div>
-                          </td>
-                          <td class="expander"></td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-)
+        override >
       }
       # below-center
       8 = TEXT
@@ -146,26 +108,7 @@ tt_content.image {
                   </tr>
                 </table>
 )
-        override (
-
-                <table class="row">
-                  <tr>
-                    <td class="wrapper last">
-                      <table class="twelve columns">
-                        <tr>
-                          <td>
-                            <div class="csc-textpic csc-textpic-responsive csc-textpic-center csc-textpic-below###CLASSES###">
-                              ###TEXT###
-                              ###IMAGES###
-                            </div>
-                          </td>
-                          <td class="expander"></td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-)
+        override >
       }
       # below-right
       9 = TEXT
@@ -190,26 +133,7 @@ tt_content.image {
                   </tr>
                 </table>
 )
-        override (
-
-                <table class="row">
-                  <tr>
-                    <td class="wrapper last">
-                      <table class="twelve columns">
-                        <tr>
-                          <td>
-                            <div class="csc-textpic csc-textpic-responsive csc-textpic-right csc-textpic-below###CLASSES###">
-                              ###TEXT###
-                              ###IMAGES###
-                            </div>
-                          </td>
-                          <td class="expander"></td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-)
+        override >
       }
       # below-left
       10 = TEXT
@@ -234,26 +158,7 @@ tt_content.image {
                   </tr>
                 </table>
 )
-        override (
-
-                <table class="row">
-                  <tr>
-                    <td class="wrapper last">
-                      <table class="twelve columns">
-                        <tr>
-                          <td>
-                            <div class="csc-textpic csc-textpic-responsive csc-textpic-left csc-textpic-below###CLASSES###">
-                              ###TEXT###
-                              ###IMAGES###
-                            </div>
-                          </td>
-                          <td class="expander"></td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-)
+        override >
       }
       # intext-right
       17 = TEXT
@@ -278,26 +183,7 @@ tt_content.image {
                   </tr>
                 </table>
 )
-        override (
-
-                <table class="row">
-                  <tr>
-                    <td class="wrapper last">
-                      <table class="twelve columns">
-                        <tr>
-                          <td>
-                            <div class="csc-textpic csc-textpic-responsive csc-textpic-intext-right###CLASSES###">
-                              ###IMAGES###
-                              ###TEXT###
-                            </div>
-                          </td>
-                          <td class="expander"></td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-)
+        override >
       }
       # intext-left
       18 = TEXT
@@ -322,26 +208,7 @@ tt_content.image {
                   </tr>
                 </table>
 )
-        override (
-
-                <table class="row">
-                  <tr>
-                    <td class="wrapper last">
-                      <table class="twelve columns">
-                        <tr>
-                          <td>
-                            <div class="csc-textpic csc-textpic-responsive csc-textpic-intext-left###CLASSES###">
-                              ###IMAGES###
-                              ###TEXT###
-                            </div>
-                          </td>
-                          <td class="expander"></td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-)
+        override >
       }
       25 = TEXT
       25 {
@@ -365,26 +232,7 @@ tt_content.image {
                   </tr>
                 </table>
 )
-        override (
-
-                <table class="row">
-                  <tr>
-                    <td class="wrapper last">
-                      <table class="twelve columns">
-                        <tr>
-                          <td>
-                            <div class="csc-textpic csc-textpic-responsive csc-textpic-intext-right-nowrap###CLASSES###">
-                              ###IMAGES###
-                              ###TEXT###
-                            </div>
-                          </td>
-                          <td class="expander"></td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-)
+        override >
       }
       26 = TEXT
       26 {
@@ -408,26 +256,7 @@ tt_content.image {
                   </tr>
                 </table>
 )
-        override (
-
-                <table class="row">
-                  <tr>
-                    <td class="wrapper last">
-                      <table class="twelve columns">
-                        <tr>
-                          <td>
-                            <div class="csc-textpic csc-textpic-responsive csc-textpic-intext-left-nowrap###CLASSES###">
-                              ###IMAGES###
-                              ###TEXT###
-                            </div>
-                          </td>
-                          <td class="expander"></td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-)
+        override >
       }
     }
     renderMethod = singleNoCaption

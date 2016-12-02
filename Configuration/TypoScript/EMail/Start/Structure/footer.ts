@@ -30,7 +30,7 @@ start {
             stdWrap {
               required  = 1
               wrap      (
-                <table class="row footer">
+                <table class="container footer">
                   <tr>
                     <td class="wrapper last">
                       <table class="twelve columns">
