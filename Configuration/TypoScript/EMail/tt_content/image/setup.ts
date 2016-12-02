@@ -261,14 +261,10 @@ tt_content.image {
     }
     renderMethod = singleNoCaption
     rendering {
+			noCaption.allStdWrap.dataWrap = |
 			singleNoCaption {
-				allStdWrap {
-					innerWrap {
-						cObject {
-							0
-						}
-					}
-				}
+				allStdWrap >
+				singleStdWrap.wrap = <td class="center" align="center">|</td>
 			}
     }
   }
