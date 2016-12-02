@@ -263,7 +263,7 @@ tt_content.image {
     rendering {
 			noCaption.allStdWrap.dataWrap = |
 			singleNoCaption {
-				allStdWrap >
+				allStdWrap {
 					dataWrap = |
 					innerWrap {
 						cObject {
