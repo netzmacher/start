@@ -6,6 +6,7 @@
 @media only screen and (min-width: 40.063em) {
 	.vertical nav {
 		position:fixed;
+		z-index:2;
 	}
 	.vertical nav ul.left,
 	.vertical nav ul.right {
