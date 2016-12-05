@@ -115,7 +115,7 @@ start {
       icon.label.default  = Menu
       # cat=start - foundation - topbar//111;  type=string;                 label= Icon label (German):The icon lable for minimised menus in German language.
       icon.label.de       = Menü
-      # cat=start - foundation - topbar//200;  type=options[contain-to-grid,contain-to-grid fixed,fixed];  label= Top bar position: Full-browser width by default. To make the top bar stay fixed as you scroll, select "fixed". If you want your navigation to be set to your grid width, wrap it with "contain-to-grid". You may use fixed and contain-to-grid together.
+      # cat=start - foundation - topbar//200;  type=options[contain-to-grid,contain-to-grid fixed,fixed,contain-to-grid vertical];  label= Top bar position: Full-browser width by default. To make the top bar stay fixed as you scroll, select "fixed". If you want your navigation to be set to your grid width, wrap it with "contain-to-grid". You may use fixed and contain-to-grid together.
       position            = contain-to-grid
       # cat=start - foundation - topbar//201;  type=options[left,right];    label= Main menu position: left or right.
       section.position    = right

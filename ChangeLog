@@ -1,3 +1,18 @@
+2.4.12
+  2016-12-05
+  Improvement
+  * #i0078: Foundation top bar: 
+						* <li class="name">|</li> is wrapped in every case.
+						* <h1>|</h1> is wrapped in case of a topbar name only.
+						See: start.lib.topbar.20.10.1.stdWrap.wrap.cObject.10.10  
+  Features
+  * #i0077: Additional class for top-bar: contain-to-grid vertical
+  Bugfix
+  * #i0076: HTML of foundation top-bar: div-wrap wasn't on top.
+						Moved:
+						* start.lib.topbar.10 > start.lib.topbar.20.10	(HMENU)
+						* start.lib.topbar.20 > start.lib.topbar.20.20	(Searchform)
+
 2.4.11
   2016-12-02
   Features
