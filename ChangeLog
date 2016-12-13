@@ -1,3 +1,9 @@
+2.4.13
+  2016-12-13
+  Improvement
+  * #i0079: New CSS property: .clearing-thumbs .tx_browser_wrapbefore
+						See: Resources/Public/Css/basic.css
+
 2.4.12
   2016-12-05
   Improvement

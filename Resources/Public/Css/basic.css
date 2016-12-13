@@ -1,3 +1,7 @@
+.clearing-thumbs .tx_browser_wrapbefore {
+	clear: both;
+}
+
 .vertical nav li.separator {
 	color:transparent;
 	line-height:2.8125rem
