@@ -1,0 +1,10 @@
+start {
+
+  config {
+    language                          = de
+    htmlTag_langKey                   = de
+    htmlTag_setParams                 = lang="de" class="no-js"
+    locale_all                        = de_DE.UTF-8
+  }
+
+}

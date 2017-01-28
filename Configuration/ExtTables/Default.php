@@ -37,6 +37,7 @@ switch ($beLanguage) {
 switch (true) {
   case( $beLanguage == 'de' ):
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript/Base/', 'Start [1]');
+    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript/Config/Language/De/', 'Start [1] +Sprache: Deutsch');
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript/Base/Start/Gridelements/', 'Start [1] +Gridelements');
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript/Foundation/', 'Start [2] Foundation');
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript/FoundationIcons/', 'Start [2] +Foundation Icons 3');
@@ -46,6 +47,7 @@ switch (true) {
     break;
   default:
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript/Base/', 'Start [1]');
+    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript/Config/Language/De/', 'Start [1] +Language: German');
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript/Base/Start/Gridelements/', 'Start [1] +Gridelements');
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript/Foundation/', 'Start [2] Foundation');
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript/FoundationIcons/', 'Start [2] +Foundation Icons 3');
