@@ -1,5 +1,10 @@
 2.4.15
   2017-02-04
+  Features
+  * #i0086: Section frames. See:
+						* Configuration
+							* TSConfig/SectionFrame.ts
+							* TypoScript/Base/TtContent/setup.ts
   Improvement
   * #i0085: structure: footer bottom, main, library and top: element 20 is moved to 30
   * #i0084: structure: header bottom, main and top: element 20 is moved to 30

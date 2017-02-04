@@ -2,6 +2,20 @@
 	clear: both;
 }
 
+.startImgCircle img {
+	border-radius: 20em;
+}
+
+.startWoPadding {
+	margin: 0 -0.9375rem;
+}
+.startWoPaddingLeft {
+	margin-left: -0.9375rem;
+}
+.startWoPaddingRight {
+	margin-right: -0.9375rem;
+}
+
 .vertical nav li.separator {
 	color:transparent;
 	line-height:2.8125rem

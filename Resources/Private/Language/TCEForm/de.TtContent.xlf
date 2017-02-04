@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2017-02-04T15:11:39Z" product-name="startgreen">
+    <header/>
+    <body>
+      <trans-unit id="sectionFrameImgCircle">
+        <source>Start: images as circles</source>
+        <target>Start: Bilder als Kreise</target>
+      </trans-unit>
+      <trans-unit id="sectionFrameWoPadding">
+        <source>Start: without padding</source>
+        <target>Start: ohne Rand</target>
+      </trans-unit>
+      <trans-unit id="sectionFrameWoPaddingLeft">
+        <source>Start: without left padding</source>
+        <target>Start: ohne linken Rand</target>
+      </trans-unit>
+      <trans-unit id="sectionFrameWoPaddingRight">
+        <source>Start: without right padding</source>
+        <target>Start: ohne rechten Rand</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
