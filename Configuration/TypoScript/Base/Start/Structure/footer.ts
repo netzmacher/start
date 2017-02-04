@@ -16,8 +16,8 @@ start {
       bottom = COA
       bottom {
         // table, select, stdWrap
-        20 < styles.content.get
-        20 {
+        30 < styles.content.get
+        30 {
           select {
             where = colPos=22
           }
@@ -32,8 +32,8 @@ start {
       library = COA
       library {
         // table, select, stdWrap
-        20 < styles.content.get
-        20 {
+        30 < styles.content.get
+        30 {
           select {
             pidInList = {$start.pages.footer.library}
             where     = colPos=0
@@ -44,23 +44,22 @@ start {
           }
         }
       }
-      main < start.structure.content.bottom
+      // CONTENT, stdWrap
+      main = COA
       main {
-        20 {
+        30 < styles.content.get
+        30 {
           select {
-            where = colPos=21
+            where = colPos=22
           }
-          stdWrap {
-            wrap      = <!--footermain--><section class="footer footermain"><div class="row"><div class="columns"> |</div></div></section><!--/footermain-->
-            required  >
-            wrap      >
-          }
+          slide = -1
         }
       }
-      // CONTENT, stdWrap
       top < start.structure.content.bottom
+      // CONTENT, stdWrap
+      top = COA
       top {
-        20 {
+        30 {
           select {
             where = colPos=20
           }

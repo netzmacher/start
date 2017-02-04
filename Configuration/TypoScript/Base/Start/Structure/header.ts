@@ -28,8 +28,9 @@ start {
           }
         }
       }
-      // CONTENT, stdWrap
       main < start.structure.header.bottom
+      // CONTENT, stdWrap
+      main = COA
       main {
         30 {
           select {
@@ -40,8 +41,9 @@ start {
           }
         }
       }
-      // CONTENT, stdWrap
       top < start.structure.header.bottom
+			// CONTENT, stdWrap
+      top = COA
       top {
         30 {
           select {
