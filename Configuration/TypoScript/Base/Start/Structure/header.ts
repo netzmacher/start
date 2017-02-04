@@ -16,8 +16,8 @@ start {
       bottom = COA
       bottom {
         // table, select, stdWrap
-        20 < styles.content.get
-        20 {
+        30 < styles.content.get
+        30 {
           select {
             where = colPos=12
           }
@@ -31,7 +31,7 @@ start {
       // CONTENT, stdWrap
       main < start.structure.header.bottom
       main {
-        20 {
+        30 {
           select {
             where = colPos=11
           }
@@ -43,7 +43,7 @@ start {
       // CONTENT, stdWrap
       top < start.structure.header.bottom
       top {
-        20 {
+        30 {
           select {
             where = colPos=10
           }

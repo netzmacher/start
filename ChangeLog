@@ -1,6 +1,7 @@
 2.4.15
-  2017-02-03
+  2017-02-04
   Improvement
+  * #i0084: structure: header bottom, main and top: element 20 is moved to 30
   * #i0083: TypoScript of the Top Bar got the special property directory
   * #i0082: TypoScript structure
   * #i0081: Update (c) 2017
