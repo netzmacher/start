@@ -2,6 +2,14 @@
 	clear: both;
 }
 
+.no-pad-left {
+	padding-left: 0;
+}
+
+.no-pad-right {
+	padding-right: 0;
+}
+
 .vertical nav li.separator {
 	color:transparent;
 	line-height:2.8125rem
