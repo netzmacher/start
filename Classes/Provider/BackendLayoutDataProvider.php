@@ -720,7 +720,6 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
    */
   public function addBackendLayouts( DataProviderContext $dataProviderContext, BackendLayoutCollection $backendLayoutCollection )
   {
-var_dump(__METHOD__, __LINE__);
 		foreach ( $this->backendLayouts as $key => $data )
     {
       $data[ 'uid' ] = $key;
