@@ -364,6 +364,12 @@ start {
 							}
 						}
 					}
+					special = list
+					special {
+						value {
+							field = pages											
+						}
+					}
 				}
 					// Searchform, if is true start.foundation.topbar.searchform (here: {$start.foundation.topbar.searchform})
 				20 = TEXT
