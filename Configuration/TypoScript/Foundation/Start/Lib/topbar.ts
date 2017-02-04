@@ -364,7 +364,7 @@ start {
 							}
 						}
 					}
-					special = list
+					special = directory
 					special {
 						value {
 							field = pages											
