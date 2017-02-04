@@ -50,7 +50,7 @@ start {
         30 < styles.content.get
         30 {
           select {
-            where = colPos=22
+            where = colPos=21
           }
           slide = -1
         }
