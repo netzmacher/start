@@ -6,7 +6,7 @@ namespace Netzmacher\Start\Provider;
  *
  *  The MIT License (MIT)
  *
- *  Copyright (c) 2014-2016 Dirk Wildt, http://wildt.at.die-netzmacher.de
+ *  Copyright (c) 2014-2017 Dirk Wildt, http://wildt.at.die-netzmacher.de
  *
  *  Permission is hereby granted, free of charge, to any person obtaining a copy
  *  of this software and associated documentation files (the "Software"), to deal
@@ -720,7 +720,8 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
    */
   public function addBackendLayouts( DataProviderContext $dataProviderContext, BackendLayoutCollection $backendLayoutCollection )
   {
-    foreach ( $this->backendLayouts as $key => $data )
+var_dump(__METHOD__, __LINE__);
+		foreach ( $this->backendLayouts as $key => $data )
     {
       $data[ 'uid' ] = $key;
       $backendLayout = $this->createBackendLayout( $data );

@@ -1,23 +1,5 @@
 start {
   foundation {
-    breadcrumbs {
-      # cat=start - foundation - breadcrumbs//100; type=boolean;            label= includeNotInMenu:Display a page title even it isn't visible in the menu
-      includeNotInMenu = 0
-    }
-    gmenu {
-      # cat=start - foundation - gmenu//100;      type=int+;              label= listNum NO: position of the image in the list of images for the menu in the NO (normal) state
-      no.listNum = 0
-      # cat=start - foundation - gmenu//101;      type=int+;              label= listNum RO: position of the image in the list of images for the menu in the RO (rollover) state
-      ro.listNum = 1
-    }
-    iconbar {
-      # cat=start - foundation - iconbar//100;    type=string;            label= Class: HTML class of the icon-bar
-      class = icon-bar vertical five-up
-      # cat=start - foundation - iconbar//200;    type=int+;              label= listNum NO: position of the image in the list of images for the menu in the NO (normal) state
-      no.listNum = 0
-      # cat=start - foundation - iconbar//201;    type=int+;              label= listNum RO: position of the image in the list of images for the menu in the RO (rollover) state
-      ro.listNum = 1
-    }
     iconbarStart {
       # cat=start - foundation - iconbar start//100;    type=string;      label= Class: HTML class of the icon-bar
       class = icon-bar vertical five-up
@@ -82,61 +64,5 @@ start {
         aria-label = Newsletter
       }
     }
-    thumbnails {
-      # cat=start - foundation - thumbnails//100;      type=int+;              label= begin: position of the image in the list of images
-      begin     = 0
-      # cat=start - foundation - thumbnails//101;      type=int+;              label= max items: number of maximum items
-      maxItems  = 1
-      # cat=start - foundation - thumbnails//200;      type=string;            label= height: height of the image in pixel. If an "c" is appended, cropping is enabled.
-      height    = 100c
-      # cat=start - foundation - thumbnails//201;      type=string;            label= width: width of the image in pixel. If an "c" is appended, cropping is enabled.
-      width     = 100c
-      # cat=start - foundation - thumbnails//301;      type=string;            label= wrap menu: wrap the menu
-      wraps.menu     = <ul class="inline-list">|</ul>
-      # cat=start - foundation - thumbnails//302;      type=string;            label= wrap menu item: wrap the menu item
-      wraps.menu.item     = <li role="menuitem">|</li>
-      # cat=start - foundation - thumbnails//303;      type=string;            label= wrap thumbnail: wrap the thumbnail of the menu item
-      wraps.menu.item.thumbnail     = <div class="thumbnail">|</div>
-      # cat=start - foundation - thumbnails//304;      type=string;            label= wrap caption: wrap the caption of the menu item thumbnail
-      wraps.menu.item.caption     = <div class="caption">|</div>
-      # cat=start - foundation - thumbnails//305;      type=string;            label= wrap short: wrap the short of the menu item
-      wraps.menu.item.short     = <div class="short">|</div>
-      # cat=start - foundation - thumbnails//404;      type=booelan;           label= enable caption: enable the caption of the menu item thumbnail
-      enable.menu.item.caption  = 1
-      # cat=start - foundation - thumbnails//405;      type=boolean;           label= enable short: enable the short of the menu item
-      enable.menu.item.short    = 1
-    }
-    topbar {
-      # cat=start - foundation - topbar//100;  type=string;                 label= Name:Your company name. I.e: Die Netzmacher
-      name                = TYPO3 Start
-      # cat=start - foundation - topbar//100;  type=string;                 label= Title:Title tag of the top bar name. I.e: TYPO3 agency
-      title               = Start TYPO3 Responsive! (start)
-      # cat=start - foundation - topbar//110;  type=string;                 label= Icon label:The icon lable is displayed in minimised menus.
-      icon.label.default  = Menu
-      # cat=start - foundation - topbar//111;  type=string;                 label= Icon label (German):The icon lable for minimised menus in German language.
-      icon.label.de       = Menü
-      # cat=start - foundation - topbar//200;  type=options[contain-to-grid,contain-to-grid fixed,fixed,contain-to-grid vertical];  label= Top bar position: Full-browser width by default. To make the top bar stay fixed as you scroll, select "fixed". If you want your navigation to be set to your grid width, wrap it with "contain-to-grid". You may use fixed and contain-to-grid together.
-      position            = contain-to-grid
-      # cat=start - foundation - topbar//201;  type=options[left,right];    label= Main menu position: left or right.
-      section.position    = right
-      # cat=start - foundation - topbar//202;  type=options[true,false];    label= Mouse hover: Recommended. Top bar menus will open by a mouse hover, visitor doesn't need to click.
-      is_hover            = true
-      # cat=start - foundation - topbar//203;  type=options[true,false];    label= Show parent link:Recommended. Will copy parent links into dropdowns for mobile navigation.
-      mobile_show_parent_link = true
-      # cat=start - foundation - topbar//300;  type=boolean;                label= Search form:Enable the search form
-      searchform = 
-      # cat=start - foundation - topbar//301;  type=+int;                   label= Search form:[OBLIGATE!] Id of the result page
-      searchform.pid = 1
-      # cat=start - foundation - topbar//302;  type=string;                 label= Search form:[OBLIGATE!] Name of the parameter
-      searchform.param = sword
-      # cat=start - foundation - topbar//303;  type=options[get,post];      label= Search form:Method
-      searchform.method = post
-      # cat=start - foundation - topbar//304;  type=options[left,right];    label= Search form:Position of the search form
-      searchform.position = right
-      # cat=start - foundation - topbar//305;  type=string;                 label= Search form:Placeholder
-      searchform.placeholder = Find Stuff
-      # cat=start - foundation - topbar//306;  type=string;                 label= Search form:Label of the button
-      searchform.button = Search
-    }
-  }
+	}
 }
