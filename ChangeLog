@@ -14,6 +14,9 @@
   * #i0083: TypoScript of the Top Bar got the special property directory
   * #i0082: TypoScript structure
   * #i0081: Update (c) 2017
+	Bugfix
+  * #i0089: RTEhtml has missed default classes: text-center,text-justify,text-left,text-right. See:
+						* Configuration/TSConfig/RTE.ts
 
 2.4.14
   2017-01-28
