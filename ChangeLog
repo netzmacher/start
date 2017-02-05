@@ -1,7 +1,7 @@
 2.4.15
   2017-02-04
   Features
-  * #i0087: CSS: icons for href. See:
+  * #i0087: CSS: icons for href. href must have a class like: download, external..., internal..., mail. See:
 						* start/Resources/Public/Css/basic.css
   * #i0086: Section frames. See:
 						* Configuration
