@@ -8,6 +8,7 @@
 							* TSConfig/SectionFrame.ts
 							* TypoScript/Base/TtContent/setup.ts
   Improvement
+  * #i0088: Range of breadcrums is moved from 0|3 to 0|10
   * #i0085: structure: footer bottom, main, library and top: element 20 is moved to 30
   * #i0084: structure: header bottom, main and top: element 20 is moved to 30
   * #i0083: TypoScript of the Top Bar got the special property directory

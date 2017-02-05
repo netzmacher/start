@@ -29,7 +29,7 @@ start {
       includeNotInMenu = {$start.foundation.breadcrumbs.includeNotInMenu}
       special = rootline
       special {
-        range = 0|3
+        range = 0|10
       }
       wrap = <nav class="breadcrumbs">|</nav>
       1 = TMENU
