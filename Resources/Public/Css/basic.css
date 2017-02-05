@@ -1,3 +1,30 @@
+a.internal-link::after {
+	content: "\f165";
+	font-family: "foundation-icons";
+	padding-left: .4em;
+}
+
+a[href^="mailto"]::after,
+a[href^="javascript:linkTo_UnCryptMailto"]::after {
+	content: "\f16d";
+	font-family: "foundation-icons";
+	padding-left: .4em;
+}
+
+a.external-link::after,
+a.external-link-new-window::after {
+	content: "\f12d";
+	font-family: "foundation-icons";
+	padding-left: .4em;
+}
+
+a.download::after {
+	content: "\f143";
+	font-family: "foundation-icons";
+	padding-left: .4em;
+}
+
+
 .clearing-thumbs .tx_browser_wrapbefore {
 	clear: both;
 }

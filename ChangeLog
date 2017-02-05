@@ -1,6 +1,8 @@
 2.4.15
   2017-02-04
   Features
+  * #i0087: CSS: icons for href. See:
+						* start/Resources/Public/Css/basic.css
   * #i0086: Section frames. See:
 						* Configuration
 							* TSConfig/SectionFrame.ts
