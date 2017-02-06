@@ -42,6 +42,9 @@ a.download::after {
 .startWoPaddingRight {
 	margin-right: -0.9375rem;
 }
+.startTopMinus1Em {
+	margin-top: -1rem;
+}
 
 .vertical nav li.separator {
 	color:transparent;

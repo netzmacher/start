@@ -3,10 +3,17 @@
   Features
   * #i0087: CSS: icons for href. href must have a class like: download, external..., internal..., mail. See:
 						* start/Resources/Public/Css/basic.css
-  * #i0086: Section frames. See:
+  * #i0086: Section frames. 
+						Additional CSS classes:
+						* startTopMinus1Em
+						* startWoPadding
+						* startWoPaddingLeft
+						* startWoPaddingRight
+						Files:
 						* Configuration
 							* TSConfig/SectionFrame.ts
 							* TypoScript/Base/TtContent/setup.ts
+					* Resources/Public/Css/basic.css
   Improvement
   * #i0088: Range of breadcrums is moved from 0|3 to 0|10
   * #i0085: structure: footer bottom, main, library and top: element 20 is moved to 30
