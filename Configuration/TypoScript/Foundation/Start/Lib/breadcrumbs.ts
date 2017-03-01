@@ -32,7 +32,7 @@ start {
       special {
         range = {$start.foundation.breadcrumbs.special.range}
       }
-      wrap = <nav class="breadcrumbs">|</nav>
+      wrap = <nav class="breadcrumbs"><div>|</div></nav>
       1 = TMENU
       1 {
         noBlur = 1
