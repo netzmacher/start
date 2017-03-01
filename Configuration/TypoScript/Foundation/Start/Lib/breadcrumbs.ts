@@ -27,6 +27,7 @@ start {
         negate = 1
       }
       includeNotInMenu = {$start.foundation.breadcrumbs.includeNotInMenu}
+			entryLevel = {$start.foundation.breadcrumbs.entryLevel}
       special = rootline
       special {
         range = {$start.foundation.breadcrumbs.special.range}

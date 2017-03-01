@@ -3,7 +3,9 @@ start {
     breadcrumbs {
       # cat=start - foundation - breadcrumbs//100; type=boolean;          label= includeNotInMenu:Display a page title even it isn't visible in the menu
       includeNotInMenu = 0
-      # cat=start - foundation - breadcrumbs//101; type=string;           label= range:range of the rootline menu. See: https://docs.typo3.org/typo3cms/TyposcriptReference/ContentObjects/Hmenu/Index.html#special-rootline
+      # cat=start - foundation - breadcrumbs//101; type=string;           label= entryLevel:Defines at which level in the rootLine the menu should start. Default is "0" which gives us a menu of the very first pages on the site. If the value is < 0, entryLevel is chosen from "behind" in the rootLine. Thus "-1" is a menu with items from the outermost level, "-2" is the level before the outermost... See: https://docs.typo3.org/typo3cms/TyposcriptReference/ContentObjects/Hmenu/Index.html#hmenu
+      entryLevel = 1
+      # cat=start - foundation - breadcrumbs//102; type=string;           label= range:range of the rootline menu. See: https://docs.typo3.org/typo3cms/TyposcriptReference/ContentObjects/Hmenu/Index.html#special-rootline
       special.range = 0|10
     }
     gmenu {
