@@ -18,7 +18,7 @@ start {
       if {
         value {
             // rootpage uid
-          data = leveluid:0
+          data = leveluid:{$start.foundation.breadcrumbs.entryLevel}
         }
         equals {
             // current page uid
@@ -32,7 +32,7 @@ start {
       special {
         range = {$start.foundation.breadcrumbs.special.range}
       }
-      wrap = <nav class="breadcrumbs"><div>|</div></nav>
+      wrap = <nav class="breadcrumbs">|</nav>
       1 = TMENU
       1 {
         noBlur = 1
