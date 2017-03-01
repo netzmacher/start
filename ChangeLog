@@ -1,3 +1,9 @@
+2.4.16
+  2017-03-01
+  Feature
+  * #i0090: Constant editor: new property breadcrumbs special.range. See:
+						* Configuration/TypoScript/Foundation/Start/Constants/Foundation/all.ts
+
 2.4.15
   2017-02-04
   Features
