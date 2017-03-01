@@ -1,6 +1,7 @@
 2.4.16
   2017-03-01
   Feature
+  * #i0091: nav breadcrumbs got a inner div
   * #i0090: Constant editor: new properties for breadcrumbs:
 						* entryLevel
 						* special.range
