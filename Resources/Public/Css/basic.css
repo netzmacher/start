@@ -26,7 +26,9 @@ a.download::after {
 
 /* #i0091, 170303, dwildt: responsive images */
 figure,
-figcaption {
+div.csc-textpic .csc-textpic-imagewrap figure,
+figcaption,
+figcaption.csc-textpic-caption {
 	display: block;
 }
 
