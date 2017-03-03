@@ -31,7 +31,9 @@ figcaption,
 figcaption.csc-textpic-caption {
 	display: block;
 }
-
+.csc-textpic-center img {
+	margin:0 auto;
+}
 
 .clearing-thumbs .tx_browser_wrapbefore {
 	clear: both;
