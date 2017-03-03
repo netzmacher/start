@@ -1,6 +1,10 @@
 2.4.16
-  2017-03-01
+  2017-03-03
   Feature
+  * #i0091: Responsive images:
+						* Optimise tt_content. See: 
+							* Configuration/TypoScript/Foundation/tt_content/setup.ts
+							* Resources/Public/Css/basic.css
   * #i0090: Constant editor: new properties for breadcrumbs:
 						* entryLevel
 						* special.range

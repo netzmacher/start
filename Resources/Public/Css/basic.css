@@ -24,6 +24,12 @@ a.download::after {
 	padding-left: .4em;
 }
 
+/* #i0091, 170303, dwildt: responsive images */
+figure,
+figcaption {
+	display: block;
+}
+
 
 .clearing-thumbs .tx_browser_wrapbefore {
 	clear: both;
