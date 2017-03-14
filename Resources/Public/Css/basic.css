@@ -31,6 +31,10 @@ figcaption,
 figcaption.csc-textpic-caption {
 	display: block;
 }
+/* #i0091, 170303, dwildt: responsive images */
+.csc-textpic-imagewrap {
+	max-width: 100%;
+}
 .csc-textpic-center img {
 	margin:0 auto;
 }
