@@ -32,6 +32,7 @@ figcaption.csc-textpic-caption {
 	display: block;
 }
 /* #i0091, 170303, dwildt: responsive images */
+div.csc-textpic div.csc-textpic-imagecolumn,
 .csc-textpic-imagewrap {
 	max-width: 100%;
 }
