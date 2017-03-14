@@ -75,14 +75,20 @@ page {
     start__bronze_01 {
       file = {$start.fluid.path.templates}bronze_01.html
       layoutRootPath  = {$start.fluid.path.layouts}
+				// 10 = {$start.fluid.path.partials}
+      partialRootPaths =
       partialRootPaths {
         10 = {$start.fluid.path.partials}
       }
       variables {
       }
+				// classColMainContentMain 
+      settings =
       settings {
         classColMainContentMain =
       }
+				// wrap = <!--[if lt IE 9]> ...
+      stdWrap =
       stdWrap {
         wrap (
             <!--[if lt IE 9]>
@@ -96,6 +102,8 @@ page {
     start__bronze_02 < .start__bronze_01
     start__bronze_02 {
       file = {$start.fluid.path.templates}bronze_02.html
+				// classColMainContentRight
+      settings =
       settings {
         classColMainContentMain   >
         classColMainContentMain   = small-12 medium-8
@@ -106,6 +114,8 @@ page {
     start__bronze_03 < .start__bronze_01
     start__bronze_03 {
       file = {$start.fluid.path.templates}bronze_03.html
+				// classColMainContentLeft
+      settings =
       settings {
         classColMainContentMain >
         classColMainContentLeft = show-for-medium-up medium-4
@@ -116,6 +126,8 @@ page {
     start__bronze_04 < .start__bronze_01
     start__bronze_04 {
       file = {$start.fluid.path.templates}bronze_04.html
+				// classColMainContentLeft, classColMainContentRight
+      settings =
       settings {
         classColMainContentMain   >
         classColMainContentLeft   = show-for-medium-up medium-3
