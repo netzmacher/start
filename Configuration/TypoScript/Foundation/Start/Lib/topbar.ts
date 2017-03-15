@@ -90,7 +90,7 @@ start {
 															40 {
 																// #i0094, 170315, dwildt, ~
 																data = levelfield:-1, tx_start_foundation_topbar_title, slide
-																ifEmpty = {$start.foundation.topbar.name}
+																ifEmpty = {$start.foundation.topbar.title}
 																wrap = "|"
 															}
 														}
