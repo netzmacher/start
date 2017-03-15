@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2016-05-10T10:03:57Z" product-name="start">
+    <header/>
+    <body>
+
+      <trans-unit id="tx_start_divstart">
+        <source>Start!</source>
+      </trans-unit>
+      <trans-unit id="tx_start_foundation_topbar_name">
+        <source>Label in the top bar</source>
+      </trans-unit>
+      <trans-unit id="tx_start_foundation_topbar_title">
+        <source>Pop up in the top bar</source>
+      </trans-unit>
+      <trans-unit id="tx_start_palettefoundation">
+        <source>Foundation</source>
+      </trans-unit>
+
+    </body>
+  </file>
+
+</xliff>

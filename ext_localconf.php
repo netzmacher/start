@@ -1,19 +1,24 @@
 <?php
 
-if ( !defined( 'TYPO3_MODE' ) )
+if( !defined( 'TYPO3_MODE' ) )
 {
-  die( 'Access denied.' );
+	die( 'Access denied.' );
 }
 
-if ( TYPO3_MODE == 'BE' )
+if( TYPO3_MODE == 'BE' )
 {
 
-  /*   * ****************************************************************************
-   * BackendLayoutDataProvider
-   * **************************************************************************** */
-  $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'SC_OPTIONS' ][ 'BackendLayoutDataProvider' ][ 'start' ] = 'Netzmacher\\Start\\Provider\\BackendLayoutDataProvider';
-
+	/*	 * ****************************************************************************
+	 * BackendLayoutDataProvider
+	 * **************************************************************************** */
+	$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'SC_OPTIONS' ][ 'BackendLayoutDataProvider' ][ 'start' ] = 'Netzmacher\\Start\\Provider\\BackendLayoutDataProvider';
 }
+
+/* * ****************************************************************************
+ * FE addRootLineFields
+ * **************************************************************************** */
+// #i0094, 170315, dwildt, 1+
+$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'FE' ][ 'addRootLineFields' ] .= ($GLOBALS[ 'TYPO3_CONF_VARS' ][ 'FE' ][ 'addRootLineFields' ] ? ',' : '') . 'tx_start_foundation_topbar_name,tx_start_foundation_topbar_title';
 
 // PageTSConfig
 // #i0021, 150423, dwildt, +

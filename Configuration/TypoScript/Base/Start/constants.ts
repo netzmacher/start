@@ -3,9 +3,6 @@ start {
   # cat=start - favicon//100; type=string; label= Path:Path to the favicon
   favicon = typo3conf/ext/start/Resources/Public/Images/favicon.ico
 
-  # cat=start - pages*//200; type=int+; label=Home*:*Obligate:Uid of your home page.
-  pages.root            = 1
-  # cat=start - pages*//201; type=int+; label=Site top-line:Uid of the page, which contains the content for the top-line of the site.
   pages.siteLineTop     = 
   # cat=start - pages*//202; type=int+; label=Site bottom-line:Uid of the page, which contains the content for the bottom-line of the site.
   pages.siteLineBottom  = 

@@ -1,11 +1,19 @@
 2.5.0
   2017-03-15
-  Feature
+  Features
+  * #i0094: Start properties by tab [Start!] of page properties. See:
+						* ext_localconf.php
+						* ext_tables.sql
+						* Configuration
+							* TCA/Overrides/pages.php
+							* TypoScript/Foundation/Start/Lib/topbar.ts
   * #i0093: Piwik support
 						If you are using a pwik server for web statistic, you can configure websites by Start.
 						Workflow
 						* Include the static template [Start [7] Piwik]
 						* Configure piwik by the Constant Editor > Category > [START - PIWIK]
+  Improvement
+	* #i0095: Constant start.pages.root isn't needed any longer
 
 2.4.17
   2017-03-14

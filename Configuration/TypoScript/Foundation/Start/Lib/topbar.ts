@@ -60,10 +60,52 @@ start {
 												if {
 													isTrue = {$start.foundation.topbar.name}
 												}
-												value = {$start.foundation.topbar.name}
+												// #i0094, 170315, dwildt, ~
+												data = levelfield:-1, tx_start_foundation_topbar_name, slide
+												ifEmpty = {$start.foundation.topbar.name}
 												typolink {
+													parameter {
+														cObject = COA
+														cObject {
+																// URL
+															10 = TEXT
+															10 {
+																data = leveluid:0
+																noTrimWrap = || |
+															}
+																// target
+															20 = TEXT
+															20 {
+																value = -
+																noTrimWrap = || |
+															}
+																// class
+															30 = TEXT
+															30 {
+																value = -
+																noTrimWrap = |"|" |
+															}
+																// title
+															40 = TEXT
+															40 {
+																// #i0094, 170315, dwildt, ~
+																data = levelfield:-1, tx_start_foundation_topbar_title, slide
+																ifEmpty = {$start.foundation.topbar.name}
+																wrap = "|"
+															}
+														}
+													}
+												}
+												XXXtypolink {
 													parameter = {$start.pages.root}
-													title     = {$start.foundation.topbar.title}
+													//title     = {$start.foundation.topbar.title}
+													title {
+														stdWrap {
+															// #i0094, 170315, dwildt, ~
+															data = levelfield:-1, tx_start_foundation_topbar_title, slide
+															ifEmpty = {$start.foundation.topbar.name}
+														}
+													}
 												}
 												wrap = <h1>|</h1>
 											}
