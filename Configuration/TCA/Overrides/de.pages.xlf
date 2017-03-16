@@ -4,17 +4,29 @@
     <header/>
     <body>
 
+      <trans-unit id="tx_start_addressline">
+        <source>Addressline</source>
+        <target>Adresszeile</target>
+      </trans-unit>
       <trans-unit id="tx_start_divstart">
         <source>Start!</source>
         <target>Start!</target>
       </trans-unit>
+      <trans-unit id="tx_start_email">
+        <source>E-mail</source>
+        <target>E-Mail</target>
+      </trans-unit>
       <trans-unit id="tx_start_foundation_topbar_name">
-        <source>Label in the top bar</source>
-        <target>Bezeichnung im Hauptmenü</target>
+        <source>In the top bar: label</source>
+        <target>Im Hauptmenü: Bezeichnung</target>
       </trans-unit>
       <trans-unit id="tx_start_foundation_topbar_title">
-        <source>Pop up in the top bar</source>
-        <target>Pop up im Hauptmenü</target>
+        <source> In the top bar: Pop up for the label</source>
+        <target>Im Hauptmenü: Pop up für die Bezeichnung</target>
+      </trans-unit>
+      <trans-unit id="tx_start_palettecontactdata">
+        <source>Contact data</source>
+        <target>Kontaktdaten</target>
       </trans-unit>
       <trans-unit id="tx_start_palettefoundation">
         <source>Foundation</source>

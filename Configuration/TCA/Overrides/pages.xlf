@@ -4,14 +4,23 @@
     <header/>
     <body>
 
+      <trans-unit id="tx_start_addressline">
+        <source>Addressline</source>
+      </trans-unit>
       <trans-unit id="tx_start_divstart">
         <source>Start!</source>
       </trans-unit>
+      <trans-unit id="tx_start_email">
+        <source>E-mail</source>
+      </trans-unit>
       <trans-unit id="tx_start_foundation_topbar_name">
-        <source>Label in the top bar</source>
+        <source>In the top bar: label</source>
       </trans-unit>
       <trans-unit id="tx_start_foundation_topbar_title">
-        <source>Pop up in the top bar</source>
+        <source> In the top bar: Pop up for the label</source>
+      </trans-unit>
+      <trans-unit id="tx_start_palettecontactdata">
+        <source>Contact data</source>
       </trans-unit>
       <trans-unit id="tx_start_palettefoundation">
         <source>Foundation</source>
