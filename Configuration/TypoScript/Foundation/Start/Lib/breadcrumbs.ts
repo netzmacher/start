@@ -18,7 +18,7 @@ start {
       if {
         value {
             // rootpage uid
-          data = leveluid:{$start.foundation.breadcrumbs.entryLevel}
+          data = leveluid:{$start.navigation.entryLevel}
         }
         equals {
             // current page uid

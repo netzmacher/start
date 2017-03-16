@@ -13,6 +13,7 @@
 						* Include the static template [Start [7] Piwik]
 						* Configure piwik by the Constant Editor > Category > [START - PIWIK]
   Improvement
+	* #i0096: start.foundation.breadcrumbs.entryLevel is moved to start.navigation.entryLevel
 	* #i0095: Constant start.pages.root isn't needed any longer
 
 2.4.17

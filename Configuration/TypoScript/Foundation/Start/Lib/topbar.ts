@@ -96,17 +96,6 @@ start {
 														}
 													}
 												}
-												XXXtypolink {
-													parameter = {$start.pages.root}
-													//title     = {$start.foundation.topbar.title}
-													title {
-														stdWrap {
-															// #i0094, 170315, dwildt, ~
-															data = levelfield:-1, tx_start_foundation_topbar_title, slide
-															ifEmpty = {$start.foundation.topbar.name}
-														}
-													}
-												}
 												wrap = <h1>|</h1>
 											}
 											wrap  = <li class="name">|</li>
