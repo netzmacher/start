@@ -36,6 +36,26 @@ $temporaryColumns = array(
 						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startHyphensNone',
 								'1' => 'startHyphensNone',
 						),
+						'startDivImages' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startDivImages',
+								'1' => '--div--',
+						),
+						'startImgCircle' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startImgCircle',
+								'1' => 'startImgCircle',
+						),
+						'startImgCircleReset' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startImgCircleReset',
+								'1' => 'startImgCircleReset',
+						),
+						'startImgWiShadow' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startImgWiShadow',
+								'1' => 'startImgWiShadow',
+						),
+						'startImgWiShadowReset' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startImgWiShadowReset',
+								'1' => 'startImgWiShadowReset',
+						),
 						'startDivMargin' => array(
 						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startDivMargin',
 								'1' => '--div--',
@@ -55,14 +75,6 @@ $temporaryColumns = array(
 						'startTopMinus1Em' => array(
 						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startTopMinus1Em',
 								'1' => 'startTopMinus1Em',
-						),
-						'startDivMisc' => array(
-						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startDivMisc',
-								'1' => '--div--',
-						),
-						'startImgCircle' => array(
-						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startImgCircle',
-								'1' => 'startImgCircle img',
 						),
 				),
 				'renderType' => 'selectSingleBox',

@@ -17,17 +17,21 @@
         <target>CSS-Klasse (definiert)</target>
       </trans-unit>
 			
-      <trans-unit id="tx_start_additionalclassdefined.startDivMargin">
-        <source>--- Start: Margins -------------------------------------</source>
-        <target>--- Start: Ränder --------------------------------------</target>
-      </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startDivHyphens">
         <source>--- Start: Hyphenation ---------------------------------</source>
         <target>--- Start: Silbentrennung ------------------------------</target>
       </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startDivImages">
+        <source>--- Start: Images --------------------------------------</source>
+        <target>--- Start: Bilder --------------------------------------</target>
+      </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startDivMisc">
         <source>--- Start: Miscellaneous -------------------------------</source>
         <target>--- Start: Verschiedenes -------------------------------</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startDivMargin">
+        <source>--- Start: Margins -------------------------------------</source>
+        <target>--- Start: Ränder --------------------------------------</target>
       </trans-unit>
 			
       <trans-unit id="tx_start_additionalclassdefined.startHyphensAuto">
@@ -39,8 +43,20 @@
         <target>Keine</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startImgCircle">
-        <source>Images as circle (startImgCircle img)</source>
-        <target>Bilder als Kreis (startImgCircle img)</target>
+        <source>Images as circle (startImgCircle)</source>
+        <target>Bilder als Kreis (startImgCircle)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startImgCircleReset">
+        <source>Reset images as circle (startImgCircleReset)</source>
+        <target>Zurücksetzen: Bilder als Kreis (startImgCircleReset)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startImgWiShadow">
+        <source>Images as circle (startImgWiShadow)</source>
+        <target>Bilder als Kreis (startImgWiShadow)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startImgWiShadowReset">
+        <source>Reset images as circle (startImgWiShadowReset)</source>
+        <target>Zurücksetzen: Bilder als Kreis (startImgWiShadowReset)</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startWoMarginLeft">
         <source>Left: without (startWoMarginLeft)</source>
