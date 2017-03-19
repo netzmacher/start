@@ -48,13 +48,13 @@ div.csc-textpic div.csc-textpic-imagecolumn,
 	border-radius: 20em;
 }
 
-.startWoPadding {
+.startWoMargin {
 	margin: 0 -0.9375rem;
 }
-.startWoPaddingLeft {
+.startWoMarginLeft {
 	margin-left: -0.9375rem;
 }
-.startWoPaddingRight {
+.startWoMarginRight {
 	margin-right: -0.9375rem;
 }
 .startTopMinus1Em {

@@ -7,4 +7,5 @@ CREATE TABLE pages (
 
 CREATE TABLE tt_content (
   tx_start_additionalclass tinytext,
+  tx_start_additionalclassdefined tinytext,
 );

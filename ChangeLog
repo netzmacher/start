@@ -1,3 +1,10 @@
+2.5.1
+  2017-03-18
+  Feature
+  * #i0097: tx_start_additionalclass (see #i0065 too)
+  Improvement
+	* #i0098: css class is moved from startWoPadding* to startWoMargin*
+
 2.5.0
   2017-03-15
   Features
@@ -145,7 +152,7 @@
 2.4.2
   2016-05-09
   New Feature
-  * #i0065: Additional CSS class for tt_content
+  * #i0065: Additional CSS class for tt_content (see #i0097 too).
 
 2.4.1
   2016-03-04
