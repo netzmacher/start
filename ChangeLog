@@ -1,11 +1,13 @@
 2.5.1
-  2017-03-18
+  2017-03-19
   Feature
   * #i0097: tx_start_additionalclass (see #i0065 too)
 						section frames are removed:
 						* sectionFrameImgCircle (86)
 						* sectionFrameWoPadding* (87-89)
   Improvement
+  Improvement
+	* #i0099: CSS is optimised for merging. Porperties got the id #startBox02
 	* #i0098: css class is moved from startWoPadding* to startWoMargin*
 
 2.5.0
