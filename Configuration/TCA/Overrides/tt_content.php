@@ -28,13 +28,13 @@ $temporaryColumns = array(
 						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startImgCircle',
 								'1' => 'startImgCircle img',
 						),
-						'startWoMargin' => array(
-						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startWoMargin',
-								'1' => 'startWoMargin',
-						),
 						'startWoMarginLeft' => array(
 						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startWoMarginLeft',
 								'1' => 'startWoMarginLeft',
+						),
+						'startWoMargin' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startWoMarginLeftRight',
+								'1' => 'startWoMarginLeftRight',
 						),
 						'startWoMarginRight' => array(
 						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startWoMarginRight',
@@ -45,6 +45,7 @@ $temporaryColumns = array(
 								'1' => 'startTopMinus1Em',
 						),
 				),
+				'renderType' => 'selectSingleBox',
 		),
   ),
 );

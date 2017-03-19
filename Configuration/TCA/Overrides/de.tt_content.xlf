@@ -20,13 +20,13 @@
         <source>Images as circle (startImgCircle img)</source>
         <target>Bilder als Kreis (startImgCircle img)</target>
       </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startWoMargin">
-        <source>Margin: neither left nor right (startWoMargin)</source>
-        <target>Rand: weder links noch rechts (startWoMargin)</target>
-      </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startWoMarginLeft">
         <source>Margin: not left (startWoMarginLeft)</source>
         <target>Rand: nicht links (startWoMarginLeft)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWoMarginLeftRight">
+        <source>Margin: neither left nor right (startWoMarginLeftRight)</source>
+        <target>Rand: weder links noch rechts (startWoMarginLeftRight)</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startWoMarginRight">
         <source>Margin: not right (startWoMarginRight)</source>

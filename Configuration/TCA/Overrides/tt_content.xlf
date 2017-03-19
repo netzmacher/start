@@ -1,35 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="messages" date="2017-03-19T10:03:57Z" product-name="start">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2017-03-19T10:03:57Z" product-name="start">
     <header/>
     <body>
 
       <trans-unit id="tx_start_palettecss">
         <source>Additional CSS</source>
+        <target>Zusätzliches CSS</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclass">
         <source>CSS class</source>
+        <target>CSS-Klasse</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined">
         <source>CSS class (defined)</source>
+        <target>CSS-Klasse (definiert)</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startImgCircle">
         <source>Images as circle (startImgCircle img)</source>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startWoMargin">
-        <source>Padding: neither left nor right (startWoPadding)</source>
+        <target>Bilder als Kreis (startImgCircle img)</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startWoMarginLeft">
-        <source>Padding: not left (startWoPaddingLeft)</source>
+        <source>Margin: not left (startWoMarginLeft)</source>
+        <target>Rand: nicht links (startWoMarginLeft)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWoMarginLeftRight">
+        <source>Margin: neither left nor right (startWoMarginLeftRight)</source>
+        <target>Rand: weder links noch rechts (startWoMarginLeftRight)</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startWoMarginRight">
-        <source>Padding: not right (startWoPaddingRight)</source>
+        <source>Margin: not right (startWoMarginRight)</source>
+        <target>Rand: nicht rechts (startWoMarginRight)</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startTopMinus1Em">
-        <source>Padding: top minus 1em (startWoPaddingTopMinus1Em)</source>
+        <source>Margin: top minus 1em (startWoMarginTopMinus1Em)</source>
+        <target>Rand: oben minus 1em (startWoMarginTopMinus1Em)</target>
       </trans-unit>
 
     </body>
   </file>
-
 </xliff>
