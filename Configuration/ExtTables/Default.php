@@ -94,7 +94,8 @@ require_once(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( $_EXTK
  * PageTSConfig
  * **************************************************************************** */
 
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig( '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TSConfig/SectionFrame.ts">' );
+// #i0097, 170319, -
+//\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig( '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TSConfig/SectionFrame.ts">' );
 
 /* * ****************************************************************************
  * RTE
