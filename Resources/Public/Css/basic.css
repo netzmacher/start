@@ -95,7 +95,21 @@
 	margin-top: -1rem;
 }
 
-.vertical nav li.separator {
+#startBox01 .pad-left {
+  padding-left: 0.9375rem;
+}
+#startBox01 .pad-right {
+  padding-right: 0.9375rem;
+}
+
+#startBox01 .no-pad-left {
+  padding-left: 0;
+}
+#startBox01 .no-pad-right {
+  padding-right: 0;
+}
+
+#startBox01 .vertical nav li.separator {
 	color:transparent;
 	line-height:2.8125rem
 }
