@@ -24,9 +24,21 @@ $temporaryColumns = array(
 								'0' => '',
 								'1' => '',
 						),
-						'startImgCircle' => array(
-						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startImgCircle',
-								'1' => 'startImgCircle img',
+						'startDivHyphens' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startDivHyphens',
+								'1' => '--div--',
+						),
+						'startHyphensAuto' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startHyphensAuto',
+								'1' => 'startHyphensAuto',
+						),
+						'startHyphensNone' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startHyphensNone',
+								'1' => 'startHyphensNone',
+						),
+						'startDivMargin' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startDivMargin',
+								'1' => '--div--',
 						),
 						'startWoMarginLeft' => array(
 						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startWoMarginLeft',
@@ -43,6 +55,14 @@ $temporaryColumns = array(
 						'startTopMinus1Em' => array(
 						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startTopMinus1Em',
 								'1' => 'startTopMinus1Em',
+						),
+						'startDivMisc' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startDivMisc',
+								'1' => '--div--',
+						),
+						'startImgCircle' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startImgCircle',
+								'1' => 'startImgCircle img',
 						),
 				),
 				'renderType' => 'selectSingleBox',
