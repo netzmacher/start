@@ -17,6 +17,10 @@
         <target>CSS-Klasse (definiert)</target>
       </trans-unit>
 			
+      <trans-unit id="tx_start_additionalclassdefined.startDiv">
+        <source>--------------------------------------------------------</source>
+        <target>--------------------------------------------------------</target>
+      </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startDivHyphens">
         <source>--- Start: Hyphenation ---------------------------------</source>
         <target>--- Start: Silbentrennung ------------------------------</target>
@@ -35,44 +39,44 @@
       </trans-unit>
 			
       <trans-unit id="tx_start_additionalclassdefined.startHyphensAuto">
-        <source>Auto</source>
-        <target>Automatisch</target>
+        <source>Hyphenation: auto</source>
+        <target>Silbentrennung: automatisch</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startHyphensNone">
-        <source>None</source>
-        <target>Keine</target>
+        <source>Hyphenation: none</source>
+        <target>Silbentrennung: keine</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startImgCircle">
-        <source>Images as circle (startImgCircle)</source>
-        <target>Bilder als Kreis (startImgCircle)</target>
+        <source>Images: circle (startImgCircle)</source>
+        <target>Bilder: Kreis (startImgCircle)</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startImgCircleReset">
-        <source>Reset images as circle (startImgCircleReset)</source>
-        <target>Zurücksetzen: Bilder als Kreis (startImgCircleReset)</target>
+        <source>Images: reset circle (startImgCircleReset)</source>
+        <target>Bilder: Kreis zurücksetzen (startImgCircleReset)</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startImgWiShadow">
-        <source>Images as circle (startImgWiShadow)</source>
-        <target>Bilder als Kreis (startImgWiShadow)</target>
+        <source>Images: shadow (startImgWiShadow)</source>
+        <target>Bilder: Schatten (startImgWiShadow)</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startImgWiShadowReset">
-        <source>Reset images as circle (startImgWiShadowReset)</source>
-        <target>Zurücksetzen: Bilder als Kreis (startImgWiShadowReset)</target>
+        <source>Images: reset shadow (startImgWiShadowReset)</source>
+        <target>Bilder: Schatten zurücksetzen (startImgWiShadowReset)</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startWoMarginLeft">
-        <source>Left: without (startWoMarginLeft)</source>
-        <target>Links: ohne (startWoMarginLeft)</target>
+        <source>Margin: without left (startWoMarginLeft)</source>
+        <target>Ränder: ohne links (startWoMarginLeft)</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startWoMarginLeftRight">
-        <source>Left and Right: without(startWoMarginLeftRight)</source>
-        <target>Links und Rechts: ohne (startWoMarginLeftRight)</target>
+        <source>Margin: without left and right (startWoMarginLeftRight)</source>
+        <target>Ränder: ohne links und rechts (startWoMarginLeftRight)</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startWoMarginRight">
-        <source>Right: without (startWoMarginRight)</source>
-        <target>Rechts: ohne (startWoMarginRight)</target>
+        <source>Margin: without right (startWoMarginRight)</source>
+        <target>Ränder: ohne rechts (startWoMarginRight)</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startTopMinus1Em">
-        <source>Top: -1em (startWoMarginTopMinus1Em)</source>
-        <target>Oben: -1em (startWoMarginTopMinus1Em)</target>
+        <source>Margin: Top -1em (startWoMarginTopMinus1Em)</source>
+        <target>Ränder: Oben -1em (startWoMarginTopMinus1Em)</target>
       </trans-unit>
 
     </body>

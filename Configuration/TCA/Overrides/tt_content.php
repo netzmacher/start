@@ -25,7 +25,7 @@ $temporaryColumns = array(
 								'1' => '',
 						),
 						'startDivHyphens' => array(
-						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startDivHyphens',
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startDiv',
 								'1' => '--div--',
 						),
 						'startHyphensAuto' => array(
@@ -37,7 +37,7 @@ $temporaryColumns = array(
 								'1' => 'startHyphensNone',
 						),
 						'startDivImages' => array(
-						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startDivImages',
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startDiv',
 								'1' => '--div--',
 						),
 						'startImgCircle' => array(
@@ -57,7 +57,7 @@ $temporaryColumns = array(
 								'1' => 'startImgWiShadowReset',
 						),
 						'startDivMargin' => array(
-						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startDivMargin',
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startDiv',
 								'1' => '--div--',
 						),
 						'startWoMarginLeft' => array(
@@ -80,7 +80,7 @@ $temporaryColumns = array(
 		),
   ),
 );
-				
+
 ExtensionManagementUtility::addTCAcolumns(
         'tt_content'
         , $temporaryColumns

@@ -24,6 +24,7 @@ page {
 			}
     }
     startFoundation         = EXT:start/Resources/Public/JavaScript/Libs/Foundation-5.5.3/js/foundation.min.js
+    startFoundation         = EXT:start/Resources/Public/JavaScript/Libs/Foundation-5.5.3/js/foundation/foundation.js
     startFoundation {
 				// if.isTrue start.foundation.javascript.includeJS.startFoundation (here: {$start.foundation.javascript.includeJS.startFoundation})
 			if =
@@ -39,7 +40,7 @@ page {
 				isTrue = {$start.foundation.javascript.includeJS.startFoundationClearing}
 			}
     }
-    startFoundationInit     = EXT:start/Resources/Public/JavaScript/Libs/foundation.js
+    startFoundationInit     = EXT:start/Resources/Public/JavaScript/Libs/foundationInit.js
     startFoundationInit {
 				// if.isTrue start.foundation.javascript.includeJS.startFoundationInit (here: {$start.foundation.javascript.includeJS.startFoundationInit})
 			if =
@@ -102,7 +103,7 @@ startPrint {
 				isTrue = {$start.foundation.javascript.includeJS.startFoundationClearing}
 			}
     }
-    startFoundationInit     = EXT:start/Resources/Public/JavaScript/Libs/foundation.js
+    startFoundationInit     = EXT:start/Resources/Public/JavaScript/Libs/foundationInit.js
     startFoundationInit {
 				// if.isTrue start.foundation.javascript.includeJS.startFoundationInit (here: {$start.foundation.javascript.includeJS.startFoundationInit})
 			if =

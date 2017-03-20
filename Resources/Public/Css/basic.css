@@ -44,54 +44,56 @@
 	clear: both;
 }
 
-.startHyphensAuto,
-.startHyphensAuto p {
+#startBox01 .startHyphensAuto,
+#startBox01 .startHyphensAuto p {
 	hyphens:auto;
 }
-.startHyphensNone,
-.startHyphensNone p {
+#startBox01 .startHyphensNone,
+#startBox01 .startHyphensNone p {
 	hyphens:none;
 }
 
-.startImgCircle img {
+#startBox01 .startImgCircle img {
 	border-radius: 20em;
 }
-.startImgCircleReset img {
+#startBox01 .startImgCircleReset img {
 	border-radius: inherit;
 }
-.startImgWiShadow,
-.startImgWiShadow div.csc-textpic, 
-.startImgWiShadow div.csc-textpic div.csc-textpic-imagerow, 
-.startImgWiShadow ul.csc-uploads li {
+#startBox01 .startImgWiShadow,
+#startBox01 .startImgWiShadow div.csc-textpic, 
+#startBox01 .startImgWiShadow div.csc-textpic div.csc-textpic-imagerow, 
+#startBox01 .startImgWiShadow div.csc-textpic div.csc-textpic-imagewrap, 
+#startBox01 .startImgWiShadow ul.csc-uploads li {
 	overflow: visible;
 }
-.startImgWiShadow figure {
+#startBox01 .startImgWiShadow img {
   -moz-box-box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
   -webkit-box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
   box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
-.startImgWiShadowReset,
-.startImgWiShadowReset div.csc-textpic, 
-.startImgWiShadowReset div.csc-textpic div.csc-textpic-imagerow, 
-.startImgWiShadowReset ul.csc-uploads li {
+#startBox01 .startImgWiShadowReset,
+#startBox01 .startImgWiShadowReset div.csc-textpic, 
+#startBox01 .startImgWiShadowReset div.csc-textpic div.csc-textpic-imagerow, 
+#startBox01 .startImgWiShadowReset div.csc-textpic div.csc-textpic-imagewrap, 
+#startBox01 .startImgWiShadowReset ul.csc-uploads li {
 	overflow: hidden;
 }
-.startImgWiShadowReset figure {
+#startBox01 .startImgWiShadowReset img {
   -moz-box-box-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-.startWoMarginLeft {
+#startBox01 .startWoMarginLeft {
 	margin-left: -0.9375rem;
 }
-.startWoMarginLeftRight {
+#startBox01 .startWoMarginLeftRight {
 	margin: 0 -0.9375rem;
 }
-.startWoMarginRight {
+#startBox01 .startWoMarginRight {
 	margin-right: -0.9375rem;
 }
-.startTopMinus1Em {
+#startBox01 .startTopMinus1Em {
 	margin-top: -1rem;
 }
 
