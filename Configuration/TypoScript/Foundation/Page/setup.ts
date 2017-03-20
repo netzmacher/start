@@ -24,7 +24,6 @@ page {
 			}
     }
     startFoundation         = EXT:start/Resources/Public/JavaScript/Libs/Foundation-5.5.3/js/foundation.min.js
-    startFoundation         = EXT:start/Resources/Public/JavaScript/Libs/Foundation-5.5.3/js/foundation/foundation.js
     startFoundation {
 				// if.isTrue start.foundation.javascript.includeJS.startFoundation (here: {$start.foundation.javascript.includeJS.startFoundation})
 			if =
