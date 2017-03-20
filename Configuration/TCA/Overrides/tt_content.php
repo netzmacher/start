@@ -77,7 +77,6 @@ $temporaryColumns = array(
 								'1' => 'startTopMinus1Em',
 						),
 				),
-				'renderType' => 'selectSingleBox',
 		),
   ),
 );
