@@ -1,0 +1,1 @@
+plugin.tx_cbfoundation.settings.js.modernizr = 0

@@ -6,6 +6,7 @@
 						* sectionFrameImgCircle (86)
 						* sectionFrameWoPadding* (87-89)
   Improvement
+	* #i0099: modernizer.js by cb_foundation: will n ot included any longer
 	* #i0098: css class is moved from startWoPadding* to startWoMargin*
 
 2.5.0
