@@ -1,6 +1,8 @@
 2.5.1
   2017-03-19
   Feature
+  * #i0100: Including of Javascripts can controlled by the constant editor. See
+						* Constant Editor > Category > [START - FOUNDATION - JAVASCRIPT]
   * #i0097: tx_start_additionalclass (see #i0065 too)
 						section frames are removed:
 						* sectionFrameImgCircle (86)
