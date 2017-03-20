@@ -13,9 +13,11 @@ start {
       // lineBottom, lineTop
     site =
     site {
-        // 20
+        // 20: if.isTrue = $start.pages.siteLineBottom (here: {$start.pages.siteLineBottom})
       lineBottom = COA
       lineBottom {
+					// if.isTrue = $start.pages.siteLineBottom (here: {$start.pages.siteLineBottom})
+        if =
         if {
           isTrue = {$start.pages.siteLineBottom}
         }
@@ -25,14 +27,25 @@ start {
             pidInList = {$start.pages.siteLineBottom}
             //where     = colPos=21
           }
+						// if.isTrue = $start.pages.siteLineBottom (here: {$start.pages.siteLineBottom})
+					stdWrap =
+					stdWrap {
+							// if.isTrue = $start.pages.siteLineBottom (here: {$start.pages.siteLineBottom})
+						if =
+						if {
+							isTrue = {$start.pages.siteLineBottom}
+						}
+					}
         }
         stdWrap {
           wrap = <div class="siteLine siteLineBottom"><div class="row"><div class="columns"> |</div></div></div>
         }
       }
-        // lineTop
+        // 20: if.isTrue = $start.pages.siteLineTop (here: {$start.pages.siteLineTop})
       lineTop = COA
       lineTop {
+					// if.isTrue = $start.pages.siteLineTop (here: {$start.pages.siteLineTop})
+        if =
         if {
           isTrue = {$start.pages.siteLineTop}
         }
@@ -42,6 +55,15 @@ start {
             pidInList = {$start.pages.siteLineTop}
             //where     = colPos=21
           }
+						// if.isTrue = $start.pages.siteLineTop (here: {$start.pages.siteLineTop})
+					stdWrap =
+					stdWrap {
+							// if.isTrue = $start.pages.siteLineTop (here: {$start.pages.siteLineTop})
+						if =
+						if {
+							isTrue = {$start.pages.siteLineTop}
+						}
+					}
         }
         stdWrap {
           required  = 1
