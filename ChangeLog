@@ -8,6 +8,7 @@
 						* sectionFrameImgCircle (86)
 						* sectionFrameWoPadding* (87-89)
   Improvement
+	* #i0101: Top bar: if page uid for the selected pages isn't set, the root page uid will taken
 	* #i0099: cb_foundation javascripts will not included any longer:
 						* modernizer.js
 						* foundation all

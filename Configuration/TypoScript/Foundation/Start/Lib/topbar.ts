@@ -399,6 +399,9 @@ start {
 					special {
 						value {
 							field = pages											
+							ifEmpty {
+								data = leveluid:{$start.navigation.entryLevel}
+							}
 						}
 					}
 				}
