@@ -88,7 +88,10 @@ ExtensionManagementUtility::addTCAcolumns(
 ExtensionManagementUtility::addFieldsToPalette(
         'tt_content'
         , 'tx_start_palettecss'
-        , 'tx_start_additionalclass,tx_start_additionalclassdefined'
+        , ''
+				. 'tx_start_additionalclass,'
+				. '--linebreak--,'
+				. 'tx_start_additionalclassdefined'
         , ''
 );
 
