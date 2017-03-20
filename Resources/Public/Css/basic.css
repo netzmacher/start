@@ -44,6 +44,9 @@
 	clear: both;
 }
 
+#startBox01 .startFontLightOnDark {
+}
+
 #startBox01 .startHyphensAuto,
 #startBox01 .startHyphensAuto p {
 	hyphens:auto;

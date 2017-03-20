@@ -38,6 +38,10 @@
         <target>--- Start: Ränder --------------------------------------</target>
       </trans-unit>
 			
+      <trans-unit id="tx_start_additionalclassdefined.startFontLightOnDark">
+        <source>Font: light on dark (startFontLightOnDark)</source>
+        <target>Schrift: hell auf dunkel (startFontLightOnDark)</target>
+      </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startHyphensAuto">
         <source>Hyphenation: auto</source>
         <target>Silbentrennung: automatisch</target>
