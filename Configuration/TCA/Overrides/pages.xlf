@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="messages" date="2016-05-10T10:03:57Z" product-name="start">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2016-05-10T10:03:57Z" product-name="start">
     <header/>
     <body>
 
       <trans-unit id="tx_start_addressline">
         <source>Addressline</source>
+        <target>Adresszeile</target>
       </trans-unit>
       <trans-unit id="tx_start_divstart">
         <source>Start!</source>
+        <target>Start!</target>
       </trans-unit>
       <trans-unit id="tx_start_email">
         <source>E-mail</source>
+        <target>E-Mail</target>
       </trans-unit>
       <trans-unit id="tx_start_foundation_topbar_name">
-        <source>In the top bar: label</source>
+        <source>Label</source>
+        <target>Bezeichnung</target>
       </trans-unit>
       <trans-unit id="tx_start_foundation_topbar_title">
-        <source> In the top bar: Pop up for the label</source>
+        <source> Pop up for the label</source>
+        <target>Pop up für die Bezeichnung</target>
       </trans-unit>
       <trans-unit id="tx_start_palettecontactdata">
         <source>Contact data</source>
+        <target>Kontaktdaten</target>
       </trans-unit>
       <trans-unit id="tx_start_palettefoundation">
-        <source>Foundation</source>
+        <source>Top bar</source>
+        <target>Hauptmenü</target>
       </trans-unit>
 
     </body>
   </file>
-
 </xliff>
