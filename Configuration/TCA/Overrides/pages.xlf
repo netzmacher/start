@@ -17,12 +17,12 @@
         <target>E-Mail</target>
       </trans-unit>
       <trans-unit id="tx_start_foundation_topbar_name">
-        <source>Label</source>
-        <target>Bezeichnung</target>
+        <source>Top bar: Label</source>
+        <target>Hauptmenü: Bezeichnung</target>
       </trans-unit>
       <trans-unit id="tx_start_foundation_topbar_title">
-        <source>Pop up for the label</source>
-        <target>Pop up für die Bezeichnung</target>
+        <source>Top bar: Pop up for the label</source>
+        <target>Hauptmenü: Pop up für die Bezeichnung</target>
       </trans-unit>
       <trans-unit id="tx_start_social_facebook">
         <source>facebook</source>
