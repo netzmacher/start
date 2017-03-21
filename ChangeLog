@@ -1,3 +1,9 @@
+2.5.2
+  2017-03-21
+  Feature
+  * #i0101: sidenav for siteLine top.
+						BE AWARE: start foundation templates must included before start templates!
+
 2.5.1
   2017-03-19
   Feature

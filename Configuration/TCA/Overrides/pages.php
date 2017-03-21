@@ -43,6 +43,66 @@ $temporaryColumns = array(
 						'eval' => 'trim',
 				)
 		),
+		'tx_start_social_facebook' => array(
+				'exclude' => 0,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_facebook',
+				'config' => array(
+						'type' => 'input',
+						'size' => '30',
+						'max' => '192',
+						'eval' => 'trim',
+				)
+		),
+		'tx_start_social_googleplus' => array(
+				'exclude' => 0,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_googleplus',
+				'config' => array(
+						'type' => 'input',
+						'size' => '30',
+						'max' => '192',
+						'eval' => 'trim',
+				)
+		),
+		'tx_start_social_instagram' => array(
+				'exclude' => 0,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_instagram',
+				'config' => array(
+						'type' => 'input',
+						'size' => '30',
+						'max' => '192',
+						'eval' => 'trim',
+				)
+		),
+		'tx_start_social_twitter' => array(
+				'exclude' => 0,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_twitter',
+				'config' => array(
+						'type' => 'input',
+						'size' => '30',
+						'max' => '192',
+						'eval' => 'trim',
+				)
+		),
+		'tx_start_social_vimeo' => array(
+				'exclude' => 0,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_vimeo',
+				'config' => array(
+						'type' => 'input',
+						'size' => '30',
+						'max' => '192',
+						'eval' => 'trim',
+				)
+		),
+		'tx_start_social_youtube' => array(
+				'exclude' => 0,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_youtube',
+				'config' => array(
+						'type' => 'input',
+						'size' => '30',
+						'max' => '192',
+						'eval' => 'trim',
+				)
+		),
 );
 
 ExtensionManagementUtility::addTCAcolumns(
@@ -64,11 +124,21 @@ ExtensionManagementUtility::addFieldsToPalette(
 				, ''
 );
 
+ExtensionManagementUtility::addFieldsToPalette(
+				'pages'
+				, 'tx_start_palettesocialmedia'
+				, 'tx_start_social_facebook,tx_start_social_googleplus,tx_start_social_instagram,'
+				. '--linebreak--,'
+				. 'tx_start_social_twitter,tx_start_social_vimeo,tx_start_social_youtube'
+				, ''
+);
+
 ExtensionManagementUtility::addToAllTCAtypes(
 				'pages'
 				, ''
 				. '--div--;LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_divstart,'
 				. '	 --palette--;LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_palettecontactdata;tx_start_palettecontactdata,'
+				. '	 --palette--;LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_palettesocialmedia;tx_start_palettesocialmedia,'
 				. '  --palette--;LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_palettefoundation;tx_start_palettefoundation,'
 				, ''
 				, 'after:categories'

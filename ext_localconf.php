@@ -22,7 +22,13 @@ $addRootLineFields = ''
 				. 'tx_start_addressline,'
 				. 'tx_start_email,'
 				. 'tx_start_foundation_topbar_name,'
-				. 'tx_start_foundation_topbar_title'
+				. 'tx_start_foundation_topbar_title,'
+				. 'tx_start_social_facebook,'
+				. 'tx_start_social_googleplus,'
+				. 'tx_start_social_instagram,'
+				. 'tx_start_social_twitter,'
+				. 'tx_start_social_vimeo,'
+				. 'tx_start_social_youtube'
 				;
 $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'FE' ][ 'addRootLineFields' ] .= ($GLOBALS[ 'TYPO3_CONF_VARS' ][ 'FE' ][ 'addRootLineFields' ] ? ',' : '') . $addRootLineFields;
 

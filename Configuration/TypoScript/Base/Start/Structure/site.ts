@@ -67,7 +67,7 @@ start {
         }
         stdWrap {
           required  = 1
-          wrap      = <div class="siteLine siteLineTop"><div class="row"><div class="columns"> |</div></div></div>
+          wrap      = <div class="row"><div class="columns"><div class="siteLine siteLineTop startWoMarginLeftRight">|</div></div></div>
         }
       }
     }

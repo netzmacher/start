@@ -21,8 +21,32 @@
         <target>Bezeichnung</target>
       </trans-unit>
       <trans-unit id="tx_start_foundation_topbar_title">
-        <source> Pop up for the label</source>
+        <source>Pop up for the label</source>
         <target>Pop up für die Bezeichnung</target>
+      </trans-unit>
+      <trans-unit id="tx_start_social_facebook">
+        <source>facebook</source>
+        <target>Facebook</target>
+      </trans-unit>
+      <trans-unit id="tx_start_social_googleplus">
+        <source>google+</source>
+        <target>Goggle+</target>
+      </trans-unit>
+      <trans-unit id="tx_start_social_instagram">
+        <source>instagram</source>
+        <target>Instagram</target>
+      </trans-unit>
+      <trans-unit id="tx_start_social_twitter">
+        <source>twitter</source>
+        <target>Twitter</target>
+      </trans-unit>
+      <trans-unit id="tx_start_social_vimeo">
+        <source>vimeo</source>
+        <target>Vimeo</target>
+      </trans-unit>
+      <trans-unit id="tx_start_social_youtube">
+        <source>you tube</source>
+        <target>You Tube</target>
       </trans-unit>
       <trans-unit id="tx_start_palettecontactdata">
         <source>Contact data</source>
@@ -31,6 +55,10 @@
       <trans-unit id="tx_start_palettefoundation">
         <source>Top bar</source>
         <target>Hauptmenü</target>
+      </trans-unit>
+      <trans-unit id="tx_start_palettesocialmedia">
+        <source>Social media</source>
+        <target>Soziale Medien</target>
       </trans-unit>
 
     </body>
