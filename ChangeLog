@@ -1,3 +1,12 @@
+2.5.3
+  2017-03-30
+  Feature
+  * #i0103: start provides cb_foundation 1.5.6.
+						See:
+						* Initialisation/Extensions/cb_foundation/ChangeLog
+  * #i0101: sidenav for siteLine top.
+						BE AWARE: start foundation templates must included before start templates!
+
 2.5.2
   2017-03-21
   Feature
@@ -42,7 +51,9 @@
 2.4.17
   2017-03-14
   Improvement
-  * #i0092: TypoScript comments
+  * #i0030: * siteLineTop got the class hide-for-small-only
+						* New class: 
+							* startFigCaptionHideForSmallOnly: figcaption is hidden for small only
 
 2.4.16
   2017-03-03
@@ -119,7 +130,7 @@
   2016-11-28
   Features
   * #i0074: Foundation Topbar: Name isn't displayed, if there isn't any name in
-            Constant Editor > Categorie [STAERT - FOUNDATION - TOPBAR] > Name
+            Constant Editor > Categorie [START - FOUNDATION - TOPBAR] > Name
             Thanks to Falko Trojahn for feature request
 
 2.4.9

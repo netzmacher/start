@@ -66,6 +66,10 @@
         <source>Images: reset shadow (startImgWiShadowReset)</source>
         <target>Bilder: Schatten zurücksetzen (startImgWiShadowReset)</target>
       </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startFigCaptionHideForSmallOnly">
+        <source>Images: Caption hide for mobile (startFigCaptionHideForSmallOnly)</source>
+        <target>Bilder: Unterschrift für Smartphone verstecken (startFigCaptionHideForSmallOnly)</target>
+      </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startWoMarginLeft">
         <source>Margin: without left (startWoMarginLeft)</source>
         <target>Ränder: ohne links (startWoMarginLeft)</target>

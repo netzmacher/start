@@ -64,6 +64,10 @@ $temporaryColumns = array(
 						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startImgWiShadowReset',
 								'1' => 'startImgWiShadowReset',
 						),
+						'startFigCaptionHideForSmallOnly' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startFigCaptionHideForSmallOnly',
+								'1' => 'startFigCaptionHideForSmallOnly',
+						),
 						'startDivMargin' => array(
 						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startDiv',
 								'1' => '--div--',

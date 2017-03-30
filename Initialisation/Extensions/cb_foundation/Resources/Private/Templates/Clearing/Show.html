@@ -1,0 +1,27 @@
+{namespace c=Cbrunet\CbFoundation\ViewHelpers}
+
+<ul class="clearing-thumbs" data-clearing>
+	<c:fal uid="{data.uid}" categories="{settings.clearing.categories}">
+		<f:for each="{objects}" as="image">
+			<f:comment>
+				#i0001, 161213, condition
+			</f:comment>
+			<f:if condition="{image.properties.tx_browser_wrapbefore}">
+				<f:then>
+					<li class="tx_browser_wrapbefore">
+				</f:then>
+				<f:else>
+					<li>
+				</f:else>
+			</f:if>
+			<a href="{image.publicUrl}" class="th">
+				<c:image src="{image.publicUrl}"
+								 alt="{image.alternative}"
+								 width="{f:if(condition: data.imagewidth, then: '{data.imagewidth}c')}"
+								 height="{f:if(condition: data.imageheight, then: '{data.imageheight}c')}"
+								 data-caption="{f:if(condition:'{image.alternative}', then:'{image.alternative}', else:'{image.description}')}" />
+			</a>
+			</li>
+		</f:for>
+	</c:fal>
+</ul>

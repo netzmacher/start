@@ -50,6 +50,10 @@
         <source>Hyphenation: none</source>
         <target>Silbentrennung: keine</target>
       </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startFigCaptionHideForSmallOnly">
+        <source>Images: Caption hide for mobile (startFigCaptionHideForSmallOnly)</source>
+        <target>Bilder: Unterschrift für Smartphone verstecken (startFigCaptionHideForSmallOnly)</target>
+      </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startImgCircle">
         <source>Images: circle (startImgCircle)</source>
         <target>Bilder: Kreis (startImgCircle)</target>

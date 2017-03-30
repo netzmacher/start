@@ -31,6 +31,10 @@
 #startBox01 figcaption.csc-textpic-caption {
 	display: block;
 }
+#startBox01 .startFigCaptionHideForSmallOnly figcaption {
+	display: none;
+}
+
 /* #i0091, 170303, dwildt: responsive images */
 #startBox01 div.csc-textpic div.csc-textpic-imagecolumn,
 #startBox01 .csc-textpic-imagewrap {
@@ -120,6 +124,9 @@
 }
 
 @media only screen and (min-width: 40.063em) {
+	#startBox01 .startFigCaptionHideForSmallOnly figcaption {
+		display: block;
+	}
 	#startBox01 .vertical nav {
 		position:fixed;
 		z-index:2;
