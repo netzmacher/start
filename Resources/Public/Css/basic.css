@@ -91,6 +91,47 @@
   box-shadow: none;
 }
 
+#startBox01 .startTextAlignCenter,
+#startBox01 .startTextAlignCenter h1,
+#startBox01 .startTextAlignCenter h2,
+#startBox01 .startTextAlignCenter h3,
+#startBox01 .startTextAlignCenter h4,
+#startBox01 .startTextAlignCenter h5,
+#startBox01 .startTextAlignCenter h6,
+#startBox01 .startTextAlignCenter p {
+	text-align: center;
+}
+#startBox01 .startTextAlignJustify,
+#startBox01 .startTextAlignJustify h1,
+#startBox01 .startTextAlignJustify h2,
+#startBox01 .startTextAlignJustify h3,
+#startBox01 .startTextAlignJustify h4,
+#startBox01 .startTextAlignJustify h5,
+#startBox01 .startTextAlignJustify h6,
+#startBox01 .startTextAlignJustify p {
+	text-align: justify;
+}
+#startBox01 .startTextAlignLeft,
+#startBox01 .startTextAlignLeft h1,
+#startBox01 .startTextAlignLeft h2,
+#startBox01 .startTextAlignLeft h3,
+#startBox01 .startTextAlignLeft h4,
+#startBox01 .startTextAlignLeft h5,
+#startBox01 .startTextAlignLeft h6,
+#startBox01 .startTextAlignLeft p {
+	text-align: left;
+}
+#startBox01 .startTextAlignRight,
+#startBox01 .startTextAlignRight h1,
+#startBox01 .startTextAlignRight h2,
+#startBox01 .startTextAlignRight h3,
+#startBox01 .startTextAlignRight h4,
+#startBox01 .startTextAlignRight h5,
+#startBox01 .startTextAlignRight h6,
+#startBox01 .startTextAlignRight p {
+	text-align: right;
+}
+
 #startBox01 .startWoMarginLeft {
 	margin-left: -0.9375rem;
 }

@@ -38,6 +38,10 @@
         <target>--- Start: Ränder --------------------------------------</target>
       </trans-unit>
 			
+      <trans-unit id="tx_start_additionalclassdefined.startFigCaptionHideForSmallOnly">
+        <source>Images: Caption hide for mobile (startFigCaptionHideForSmallOnly)</source>
+        <target>Bilder: Unterschrift für Smartphone verstecken (startFigCaptionHideForSmallOnly)</target>
+      </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startFontLightOnDark">
         <source>Font: light on dark (startFontLightOnDark)</source>
         <target>Schrift: hell auf dunkel (startFontLightOnDark)</target>
@@ -66,9 +70,21 @@
         <source>Images: reset shadow (startImgWiShadowReset)</source>
         <target>Bilder: Schatten zurücksetzen (startImgWiShadowReset)</target>
       </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startFigCaptionHideForSmallOnly">
-        <source>Images: Caption hide for mobile (startFigCaptionHideForSmallOnly)</source>
-        <target>Bilder: Unterschrift für Smartphone verstecken (startFigCaptionHideForSmallOnly)</target>
+      <trans-unit id="tx_start_additionalclassdefined.startTextAlignCenter">
+        <source>Text-align: center (startTextAlignCenter)</source>
+        <target>Text-Ausrichtung: zentriert (startTextAlignCenter)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startTextAlignJustify">
+        <source>Text-align: justifiy (startTextAlignJustify)</source>
+        <target>Text-Ausrichtung: Block (startTextAlignJustify)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startTextAlignLeft">
+        <source>Text-align: left (startTextAlignLeft)</source>
+        <target>Text-Ausrichtung: linksbündig (startTextAlignLeft)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startTextAlignRight">
+        <source>Text-align: right (startTextAlignRight)</source>
+        <target>Text-Ausrichtung: rechtsbündig (startTextAlignRight)</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startWoMarginLeft">
         <source>Margin: without left (startWoMarginLeft)</source>

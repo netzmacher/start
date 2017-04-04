@@ -32,6 +32,26 @@ $temporaryColumns = array(
 						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startFontLightOnDark',
 								'1' => 'startFontLightOnDark',
 						),
+						'startDivTextAlign' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startDiv',
+								'1' => '--div--',
+						),
+						'startTextAlignCenter' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startTextAlignCenter',
+								'1' => 'startTextAlignCenter',
+						),
+						'startTextAlignJustify' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startTextAlignJustify',
+								'1' => 'startTextAlignJustify',
+						),
+						'startTextAlignLeft' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startTextAlignLeft',
+								'1' => 'startTextAlignLeft',
+						),
+						'startTextAlignRight' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startTextAlignRight',
+								'1' => 'startTextAlignRight',
+						),
 						'startDivHyphens' => array(
 						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startDiv',
 								'1' => '--div--',
