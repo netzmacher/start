@@ -14,13 +14,26 @@
 					<li>
 				</f:else>
 			</f:if>
-			<a href="{image.publicUrl}" class="th">
-				<c:image src="{image.publicUrl}"
-								 alt="{image.alternative}"
-								 width="{f:if(condition: data.imagewidth, then: '{data.imagewidth}c')}"
-								 height="{f:if(condition: data.imageheight, then: '{data.imageheight}c')}"
-								 data-caption="{f:if(condition:'{image.alternative}', then:'{image.alternative}', else:'{image.description}')}" />
-			</a>
+			<figure>
+				<f:comment>
+					#i0008, 170405, figure, figcaption, +
+				</f:comment>
+				<a href="{image.publicUrl}" class="th">
+					<f:comment>
+						#i0007, 170330, data-caption, ~
+					</f:comment>
+					<c:image src="{image.publicUrl}"
+									 alt="{image.alternative}"
+									 width="{f:if(condition: data.imagewidth, then: '{data.imagewidth}c')}"
+									 height="{f:if(condition: data.imageheight, then: '{data.imageheight}c')}"
+									 data-caption="{f:if(condition:'{image.alternative}', then:'{image.alternative}', else:'{image.description}')}" />
+				</a>
+				<f:if condition="{image.description}">
+					<f:then>
+						<figcaption>{image.description}</figcaption>
+					</f:then>
+				</f:if>
+			</figure>
 			</li>
 		</f:for>
 	</c:fal>
