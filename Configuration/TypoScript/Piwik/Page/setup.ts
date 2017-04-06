@@ -20,7 +20,7 @@ page {
 					_paq.push(['trackPageView']);
 					_paq.push(['enableLinkTracking']);
 					(function() {
-						var u="{$start.piwik.protocol}//{$start.piwik.url}/";
+						var u="{$start.piwik.protocol}://{$start.piwik.url}/";
 						_paq.push(['setTrackerUrl', u+'piwik.php']);
 						_paq.push(['setSiteId', '{$start.piwik.siteId}']);
 						var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
