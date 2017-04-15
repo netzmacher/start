@@ -132,6 +132,11 @@
 	text-align: right;
 }
 
+#startBox01 .startWoMarginBottom {
+  padding-bottom: 0;
+  margin-bottom: 1rem;	
+}
+
 #startBox01 .startWoMarginLeft {
 	margin-left: -0.9375rem;
 }
