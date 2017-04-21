@@ -1,7 +1,25 @@
+2.5.10
+  2017-04-21
+  Improvement
+  * #i0110: CSS: icons for a-tags (external-link, internal-link, ...) can added and removed by Constant Editor.
+						SEE [START - FOUNDATION - CSS]
+						* Configuration/TypoScript/Foundation/Start/Constants/Foundation/all.ts
+
+2.5.9
+  2017-04-20
+  Improvement
+  * #i0109: CSS @media print a {...}. See
+						* Resources/Public/Css/basic.css
+
+2.5.8
+  2017-04-18
+  Improvement
+  * #i0108: conflicts: templavoila
+
 2.5.7
   2017-04-15
   Improvement
-  * #i0107: CSS new .startWoMarginBottom
+  * #i0107: CSS new .startWoMarginBottom (experimental/commented out. See: Configuration/TCA/Overrides/tt_content.php)
 
 2.5.6
   2017-04-06

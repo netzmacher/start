@@ -92,10 +92,10 @@ $temporaryColumns = array(
 						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startDiv',
 								'1' => '--div--',
 						),
-						'startWoMarginBottom' => array(
-						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startWoMarginBottom',
-								'1' => 'startWoMarginBottom',
-						),
+//						'startWoMarginBottom' => array(
+//						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startWoMarginBottom',
+//								'1' => 'startWoMarginBottom',
+//						),
 						'startWoMarginLeft' => array(
 						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startWoMarginLeft',
 								'1' => 'startWoMarginLeft',

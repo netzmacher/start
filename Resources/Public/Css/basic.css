@@ -1,27 +1,10 @@
-#startBox01 a.internal-link::after {
-	content: "\f165";
-	font-family: "foundation-icons";
-	padding-left: .4em;
-}
+@media print {
+  #startBox01 a,
+  #startBox01 a:visited {
+    text-decoration: inherit; }
 
-#startBox01 a[href^="mailto"]::after,
-#startBox01 a[href^="javascript:linkTo_UnCryptMailto"]::after {
-	content: "\f16d";
-	font-family: "foundation-icons";
-	padding-left: .4em;
-}
-
-#startBox01 a.external-link::after,
-#startBox01 a.external-link-new-window::after {
-	content: "\f12d";
-	font-family: "foundation-icons";
-	padding-left: .4em;
-}
-
-#startBox01 a.download::after {
-	content: "\f143";
-	font-family: "foundation-icons";
-	padding-left: .4em;
+  #startBox01 a[href]:after {
+    content: ""; }
 }
 
 /* #i0091, 170303, dwildt: responsive images */

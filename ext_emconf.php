@@ -11,13 +11,14 @@ $EM_CONF[$_EXTKEY] = array(
   'uploadfolder' => '0',
   'createDirs' => '',
   'clearCacheOnLoad' => 1,
-  'version' => '2.5.6',
+  'version' => '2.5.10',
   'constraints' => array(
     'depends' => array(
       'cb_foundation' => '1.5.7',
       'typo3' => '6.2.0-7.6.99',
     ),
     'conflicts' => array(
+      'templavoila' => '',
     ),
     'suggests' => array(
       'startcustomer' => '',
