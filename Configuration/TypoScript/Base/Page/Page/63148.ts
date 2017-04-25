@@ -1,34 +1,7 @@
-page = PAGE
 page {
-  bodyTagCObject = TEXT
-  bodyTagCObject {
-    insertData = 1
-    value = <body id="bodyId-{TSFE:id}">
+		// empty statement for proper comments only
+  63148 {
   }
-  meta {
-    author = {$start.page.meta.author}
-    keywords {
-      field    = keywords
-      ifEmpty  = {$start.page.meta.keywords}
-      keywords = 1
-    }
-    description {
-      field = description
-      ifEmpty = {$start.page.meta.description}
-    }
-    viewport {
-      cObject = TEXT
-      cObject {
-        if {
-          isTrue = {$start.page.meta.viewport}
-        }
-        value = {$start.page.meta.viewport}
-      }
-    }
-  }
-  shortcutIcon = {$start.favicon}
-  typeNum = 0
-
     // start FLUIDTEMPLATES
   63148 = CASE
   63148 {

@@ -1,8 +1,16 @@
+2.5.11
+  2017-04-25
+  Improvement
+	* #i0112: body-tag got the class from the cirrent backend-layout.
+						Example: <body id="bodyId-12850" class="start__bronze_02">
+  * #i0111: Ids of gridelements are configurable by the Constant Editor.
+						See category [START - GRIDELEMENTS]
+
 2.5.10
   2017-04-21
   Improvement
   * #i0110: CSS: icons for a-tags (external-link, internal-link, ...) can added and removed by Constant Editor.
-						SEE [START - FOUNDATION - CSS]
+						See Category [START - FOUNDATION - CSS]
 						* Configuration/TypoScript/Foundation/Start/Constants/Foundation/all.ts
 
 2.5.9

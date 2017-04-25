@@ -3,6 +3,19 @@ start {
   # cat=start - favicon//100; type=string; label= Path:Path to the favicon
   favicon = typo3conf/ext/start/Resources/Public/Images/favicon.ico
 
+  # cat=start - gridelements//101; type=int+; label= Id 1:Id of the gridelement with 1 column
+  gridelement.col1 = 1
+  # cat=start - gridelements//102; type=int+; label= Id 2:Id of the gridelement with 2 columns
+  gridelement.col2 = 2
+  # cat=start - gridelements//103; type=int+; label= Id 3:Id of the gridelement with 3 columns
+  gridelement.col3 = 3
+  # cat=start - gridelements//104; type=int+; label= Id 4:Id of the gridelement with 4 columns
+  gridelement.col4 = 4
+  # cat=start - gridelements//105; type=int+; label= Id 5:Id of the gridelement with 5 columns
+  gridelement.col5 = 5
+  # cat=start - gridelements//106; type=int+; label= Id 6:Id of the gridelement with 6 columns
+  gridelement.col6 = 6
+
   # cat=start - pages*//201; type=int+; label=Site top-line:Uid of the page, which contains the content for the top-line of the site.
   pages.siteLineTop     = 
   # cat=start - pages*//202; type=int+; label=Site bottom-line:Uid of the page, which contains the content for the bottom-line of the site.

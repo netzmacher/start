@@ -2,16 +2,16 @@ start {
     // for proper comments only
   gridelements {
   }
-    // 2 columns
+    // start: 2 columns ({$start.gridelement.col2})
   gridelements =
   gridelements {
-    2 < lib.gridelements.defaultGridSetup
+    {$start.gridelement.col2} < lib.gridelements.defaultGridSetup
       // for proper comments only
-    2 {
+    {$start.gridelement.col2} {
     }
       // 2 columns: wrap, columns
-    2 =
-    2 {
+    {$start.gridelement.col2} =
+    {$start.gridelement.col2} {
       wrap {
         stdWrap {
           cObject = COA
@@ -126,4 +126,4 @@ start {
   }
 }
 
-tt_content.gridelements_pi1.20.10.setup.2 < start.gridelements.2
+tt_content.gridelements_pi1.20.10.setup.{$start.gridelement.col2} < start.gridelements.{$start.gridelement.col2}
