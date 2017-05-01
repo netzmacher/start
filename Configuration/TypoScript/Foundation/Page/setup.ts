@@ -35,7 +35,7 @@ page {
 		// empty statement for proper comments only
   includeJSFooter {
 	}
-		// startFastclick, startFoundation, startFoundationClearing, startFoundationInit
+		// startFastclick, startFoundation, startFoundationClearing, startFoundationInit, startBootstrapForFoundation
   includeJSFooter =
   includeJSFooter {
     startFastclick          = EXT:start/Resources/Public/JavaScript/Libs/Foundation-5.5.3/js/vendor/fastclick.js
@@ -68,6 +68,14 @@ page {
 			if =
 			if {
 				isTrue = {$start.foundation.javascript.includeJS.startFoundationInit}
+			}
+    }
+    startBootstrapForFoundation     = EXT:start/Resources/Public/JavaScript/Libs/extBootstrapForFoundation.js
+    startBootstrapForFoundation {
+				// if.isTrue start.foundation.javascript.includeJS.startBootstrapForFoundation (here: {$start.foundation.javascript.includeJS.startBootstrapForFoundation})
+			if =
+			if {
+				isTrue = {$start.foundation.javascript.includeJS.startBootstrapForFoundation}
 			}
     }
   }
@@ -127,7 +135,7 @@ startPrint {
 		// empty statement for proper comments only
   includeJSFooter {
 	}
-		// startFastclick, startFoundation, startFoundationClearing, startFoundationInit
+		// startFastclick, startFoundation, startFoundationClearing, startFoundationInit, startBootstrapForFoundation
   includeJSFooter =
   includeJSFooter {
     startFastclick          = EXT:start/Resources/Public/JavaScript/Libs/Foundation-5.5.3/js/vendor/fastclick.js
@@ -160,6 +168,14 @@ startPrint {
 			if =
 			if {
 				isTrue = {$start.foundation.javascript.includeJS.startFoundationInit}
+			}
+    }
+    startBootstrapForFoundation     = EXT:start/Resources/Public/JavaScript/Libs/extBootstrapForFoundation.js
+    startBootstrapForFoundation {
+				// if.isTrue start.foundation.javascript.includeJS.startBootstrapForFoundation (here: {$start.foundation.javascript.includeJS.startBootstrapForFoundation})
+			if =
+			if {
+				isTrue = {$start.foundation.javascript.includeJS.startBootstrapForFoundation}
 			}
     }
   }

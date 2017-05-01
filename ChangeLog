@@ -1,3 +1,13 @@
+2.5.14
+  2017-05-02
+  Improvement
+	* #i0115: extBootstrapForFoundation.js
+
+2.5.13
+  2017-04-28
+  Improvement
+	* #i0114: XXXbodyTagCObject is removed
+
 2.5.12
   2017-04-27
   Improvement

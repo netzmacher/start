@@ -14,6 +14,8 @@ start {
 				startFoundationClearing = 1
 				# cat=start - foundation - javascript - includes//403;  type=boolean; label= Foundation Init: Include the foundation init script
 				startFoundationInit = 1
+				# cat=start - foundation - javascript - includes//500;  type=boolean; label= Extend Bootstrap: Include the script for extending bootstrap. It extends bottstrap button classes for foundation.
+				startBootstrapForFoundation = 1
 			}
     }
   }

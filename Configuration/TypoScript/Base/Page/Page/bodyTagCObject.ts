@@ -1,12 +1,6 @@
 page = PAGE
 page {
 		// start: insertData, value
-  XXXbodyTagCObject = TEXT
-  XXXbodyTagCObject {
-    insertData = 1
-    value = <body id="bodyId-{TSFE:id}">
-  }
-		// start: insertData, value
   bodyTagCObject = COA
   bodyTagCObject {
 		10 = TEXT
