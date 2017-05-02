@@ -93,6 +93,10 @@
         <source>Text-align: right (startTextAlignRight)</source>
         <target>Text-Ausrichtung: rechtsbündig (startTextAlignRight)</target>
       </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWiMarginDefault">
+        <source>Margin: default (startWiMarginDefault)</source>
+        <target>Ränder: Standard (startWiMarginDefault)</target>
+      </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startWoMarginBottom">
         <source>Margin: without bottom (startWoMarginBottom)</source>
         <target>Ränder: ohne unten (startWoMarginBottom)</target>

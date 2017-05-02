@@ -43,6 +43,7 @@
   -moz-box-box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
   -webkit-box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
   box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  margin-bottom: 0.9375rem;
 }
 
 
@@ -128,7 +129,7 @@
 }
 
 #startBox01 .startWiMarginDefault {
-  margin-bottom: 0.9375rem;
+  /*padding: 0.9375rem 0.9375rem 0.2rem 0.9375rem;*/
   padding: 0.9375rem 0.9375rem 0.2rem 0.9375rem;
 }
 
