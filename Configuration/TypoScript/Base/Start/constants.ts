@@ -31,6 +31,11 @@ start {
   # cat=start - pages*//400; type=int+; label=Footer Library:Uid of the footer library folder.
   pages.footer.library  = 9999
 
+  # cat=start - structure - content//100; type=string; label= Class left column:Wrap content for the left column with a div with the current class. Example: startShadow startBackgroundWhite
+  structure.content.left.class    = 
+  # cat=start - structure - content//102; type=string; label= Class right column:Wrap content for the right column with a div with the current class. Example: startShadow startBackgroundWhite
+  structure.content.right.class    = 
+
   # cat=start - templates//300; type=string; label= Layout:Path to the fluid layouts. With ending slash!
   fluid.path.layouts    = EXT:start/Resources/Private/Templates/Layouts/
   # cat=start - templates//301; type=string; label= Partials:Path to the fluid partials. With ending slash!

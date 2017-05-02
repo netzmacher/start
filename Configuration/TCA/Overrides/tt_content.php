@@ -24,6 +24,14 @@ $temporaryColumns = array(
 								'0' => '',
 								'1' => '',
 						),
+						'startDivBackground' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startDiv',
+								'1' => '--div--',
+						),
+						'startBackgroundWhite' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startBackgroundWhite',
+								'1' => 'startBackgroundWhite',
+						),
 						'startDivFonts' => array(
 						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startDiv',
 								'1' => '--div--',
@@ -31,6 +39,14 @@ $temporaryColumns = array(
 						'startFontLightOnDark' => array(
 						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startFontLightOnDark',
 								'1' => 'startFontLightOnDark',
+						),
+						'startDivShadow' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startDiv',
+								'1' => '--div--',
+						),
+						'startShadow' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startShadow',
+								'1' => 'startShadow',
 						),
 						'startDivTextAlign' => array(
 						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/tt_content.xlf:tx_start_additionalclassdefined.startDiv',

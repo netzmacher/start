@@ -79,6 +79,23 @@ start {
           }
           slide = -1
         }
+				wrap {
+					stdWrap {
+						cObject = COA
+						cObject {
+							10 = TEXT
+							10 {
+								if.isTrue = {$start.structure.content.left.class}
+								value = <div class="{$start.structure.content.left.class}">|</div>
+							}
+							20 = TEXT
+							20 {
+								if.isFalse = {$start.structure.content.left.class}
+								value = |
+							}
+						}
+					}
+				}	
       }
         // CONTENT, stdWrap
       main = COA
@@ -101,6 +118,23 @@ start {
           }
           slide = -1
         }
+				wrap {
+					stdWrap {
+						cObject = COA
+						cObject {
+							10 = TEXT
+							10 {
+								if.isTrue = {$start.structure.content.right.class}
+								value = <div class="{$start.structure.content.right.class}">|</div>
+							}
+							20 = TEXT
+							20 {
+								if.isFalse = {$start.structure.content.right.class}
+								value = |
+							}
+						}
+					}
+				}	
       }
         // CONTENT, stdWrap
       topLeft = COA

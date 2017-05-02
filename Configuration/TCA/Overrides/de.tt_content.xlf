@@ -37,7 +37,10 @@
         <source>--- Start: Margins -------------------------------------</source>
         <target>--- Start: Ränder --------------------------------------</target>
       </trans-unit>
-			
+      <trans-unit id="tx_start_additionalclassdefined.startBackgroundWhite">
+        <source>Background: white (startBackgroundWhite)</source>
+        <target>Hintergrund: weiß (startBackgroundWhite)</target>
+      </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startFigCaptionHideForSmallOnly">
         <source>Images: Caption hide for mobile (startFigCaptionHideForSmallOnly)</source>
         <target>Bilder: Unterschrift für Smartphone verstecken (startFigCaptionHideForSmallOnly)</target>
@@ -69,6 +72,10 @@
       <trans-unit id="tx_start_additionalclassdefined.startImgWiShadowReset">
         <source>Images: reset shadow (startImgWiShadowReset)</source>
         <target>Bilder: Schatten zurücksetzen (startImgWiShadowReset)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startShadow">
+        <source>Shadow (startShadow)</source>
+        <target>Shadow (startShadow)</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startTextAlignCenter">
         <source>Text-align: center (startTextAlignCenter)</source>

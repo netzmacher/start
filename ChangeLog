@@ -1,3 +1,10 @@
+2.5.15
+  2017-05-02
+	Feature
+	* #i0117: New CSS classes: startShadow, startBackgroundWhite
+	* #i0116: Content for left and right column can wrap with a individual class. See
+						Constant Editor > Category: [START - STRUCTURE - CONTENT]
+
 2.5.14
   2017-05-02
   Improvement
