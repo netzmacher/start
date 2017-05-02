@@ -31,6 +31,11 @@
 	clear: both;
 }
 
+#startBox01 .startBackgroundWhite {
+	color: #0A321E;
+  background: #FFFFFF;
+}
+
 #startBox01 .startFontLightOnDark {
 }
 
@@ -38,10 +43,6 @@
   -moz-box-box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
   -webkit-box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
   box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-}
-#startBox01 .startBackgroundWhite {
-	color: #0A321E;
-  background: #FFFFFF;
 }
 
 
@@ -126,6 +127,11 @@
 	text-align: right;
 }
 
+#startBox01 .startWiMarginDefault {
+  margin-bottom: 0.9375rem;
+  padding: 0.9375rem 0.9375rem 0.2rem 0.9375rem;
+}
+
 #startBox01 .startWoMarginBottom {
   padding-bottom: 0;
   margin-bottom: 1rem;	
@@ -141,7 +147,7 @@
 	margin-right: -0.9375rem;
 }
 #startBox01 .startTopMinus1Em {
-	margin-top: -1rem;
+	margin-top: -0.9375rem;
 }
 
 #startBox01 .pad-left {
