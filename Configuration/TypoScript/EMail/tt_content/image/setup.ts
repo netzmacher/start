@@ -205,10 +205,10 @@ tt_content.image {
                     <td class="wrapper last">
                       <table class="twelve columns">
                         <tr>
-                          <td class="csc-textpic csc-textpic-intext-right-nowrap###CLASSES###">
+                          <td class="csc-textpic csc-textpic-intext-right-nowrap first###CLASSES###">
                               ###TEXT###
                           </td>
-                          <td class="right csc-textpic csc-textpic-intext-right-nowrap###CLASSES###">
+                          <td class="right csc-textpic csc-textpic-intext-right-nowrap last###CLASSES###">
                               ###IMAGES###
                           </td>
                           <td class="expander"></td>
@@ -230,10 +230,10 @@ tt_content.image {
                     <td class="wrapper last">
                       <table class="twelve columns">
                         <tr>
-                          <td class="csc-textpic csc-textpic-intext-left-nowrap###CLASSES###">
+                          <td class="csc-textpic csc-textpic-intext-left-nowrap first###CLASSES###">
                               ###IMAGES###
                           </td>
-                          <td class="csc-textpic csc-textpic-intext-left-nowrap###CLASSES###">
+                          <td class="csc-textpic csc-textpic-intext-left-nowrap last###CLASSES###">
                               ###TEXT###
                           </td>
                           <td class="expander"></td>
@@ -255,10 +255,10 @@ tt_content.image {
                     <td class="wrapper last">
                       <table class="twelve columns">
                         <tr>
-                          <td class="csc-textpic csc-textpic-intext-right-nowrap###CLASSES###">
+                          <td class="csc-textpic csc-textpic-intext-right-nowrap first###CLASSES###">
                               ###TEXT###
                           </td>
-                          <td class="right csc-textpic csc-textpic-intext-right-nowrap###CLASSES###">
+                          <td class="right csc-textpic csc-textpic-intext-right-nowrap last###CLASSES###">
                               ###IMAGES###
                           </td>
                           <td class="expander"></td>
@@ -280,10 +280,10 @@ tt_content.image {
                     <td class="wrapper last">
                       <table class="twelve columns">
                         <tr>
-                          <td class="csc-textpic csc-textpic-intext-left-nowrap###CLASSES###">
+                          <td class="csc-textpic csc-textpic-intext-left-nowrap first###CLASSES###">
                               ###IMAGES###
                           </td>
-                          <td class="csc-textpic csc-textpic-intext-left-nowrap###CLASSES###">
+                          <td class="csc-textpic csc-textpic-intext-left-nowrap last###CLASSES###">
                               ###TEXT###
                           </td>
                           <td class="expander"></td>

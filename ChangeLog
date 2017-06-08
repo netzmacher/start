@@ -1,3 +1,13 @@
+2.5.17
+  2017-06-06
+	Improvement
+	* #i0119: newsletter template: td got additional class first and last
+
+2.5.16
+  2017-05-09
+	Improvement
+	* #i0118: Update for cb_foundation 1.5.8
+
 2.5.15
   2017-05-02
 	Feature

@@ -1,3 +1,10 @@
+1.5.8
+  17-05-09
+  Improvement
+	* #i0009: Clearing Lightbox: ul got the class "small-block-grid-{data.imagecols}"
+						See:
+						* Resources/Private/Templates/Clearing/Show.html
+
 1.5.7
   17-04-05
   Improvement

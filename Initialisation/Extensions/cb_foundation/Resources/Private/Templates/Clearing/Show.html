@@ -1,6 +1,9 @@
 {namespace c=Cbrunet\CbFoundation\ViewHelpers}
 
-<ul class="clearing-thumbs" data-clearing>
+<f:comment>
+	#i0009, 170509, dwildt
+</f:comment>
+<ul class="clearing-thumbs small-block-grid-{data.imagecols}" data-clearing>
 	<c:fal uid="{data.uid}" categories="{settings.clearing.categories}">
 		<f:for each="{objects}" as="image">
 			<f:comment>

@@ -31,12 +31,14 @@ $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'cbfoundation_orbit' ][ 'showitem'
                                                                  --div--;" . $lllXml . ":tabs.access,
                                                                  --palette--;" . $lllXml . ":palette.visibility;visibility,
                                                                  --palette--;" . $lllXml . ":palette.access;access";
+// #i0009, 170509, dwildt: +palette.imageblock
 $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'cbfoundation_clearing' ][ 'showitem' ] = "--palette--;" . $lllXml . ":palette.general;general,
                                                                     --palette--;" . $lllXml . ":palette.header;header,
                                                                     --div--;" . $lllXml . ":tabs.images, image,
                                                                     --div--;" . $lllXml . ":tabs.appearance,
                                                                     --palette--;" . $lllXml . ":palette.frames;frames,
                                                                     --palette--;" . $lllXml . ":palette.image_settings;image_settings,
+                                                                    --palette--;" . $lllXml . ":palette.imageblock;imageblock,
                                                                     --div--;" . $lllXml . ":tabs.access,
                                                                     --palette--;" . $lllXml . ":palette.visibility;visibility,
                                                                     --palette--;" . $lllXml . ":palette.access;access";
