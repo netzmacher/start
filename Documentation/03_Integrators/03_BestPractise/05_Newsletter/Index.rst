@@ -6,13 +6,8 @@
 .. include:: ../../Includes.txt
 
 
-.. _introduction-audience:
+.. _integrators-newsletter:
 
-Audience
---------
 
-- TYPO3 agencies
-
-- TYPO3 integrators
-
-- TYPO3 developers
+Newsletter
+==========

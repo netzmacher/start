@@ -11,18 +11,32 @@
 Backend
 =======
 
-Plugin
-------
-
-.. figure:: 01_install_01_backend.jpg
+.. figure:: 01_start_pageproperties.jpg
 	:width: 600px
-	:alt: The Launch it! plugin
+	:alt: Start page properties
 
-	The Launch it! plugin
+	Start page properties
+
+Start extends the page with some properties.
+You can control important informations like the address data or hyperlinks to social networks on your root page for the whole website.
+You can overwrite this data on subpages - i.e. for a sub-division.
+
+.. figure:: 01_start_templates.jpg
+	:width: 600px
+	:alt: Start TypoScript templates
+
+	Start TypoScript templates
+
+Start provides some TypoScript templates of course.
 
 
-You have nothing to do than
+.. figure:: 01_start_user-interface.jpg
+	:width: 300px
+	:alt: Start user-interface
 
-* select a proper backend-user and
+	Start user-interface (here: categories)
 
-* enter any project-id
+Start enables you to control more than 100 properties per user-interface - the Constant-Editor.
+Usually you need to configure only the categories and fields with an asterisk (*). 
+This are less than five :)
+

@@ -3,13 +3,13 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../Includes.txt
+.. include:: ../../Includes.txt
 
 
-.. _editors:
+.. _editors_setup:
 
-Editors
-=======
+Setup
+=====
 
 **Table of Contents**
 
@@ -17,5 +17,5 @@ Editors
     :maxdepth: 2
     :titlesonly:
 
-    01_Setup/Index
-    02_BestPractise/Index
+    01_Essentials/Index
+    02_Layouts/Index

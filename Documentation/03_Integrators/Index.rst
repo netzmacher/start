@@ -17,6 +17,6 @@ Integrators
     :maxdepth: 2
     :titlesonly:
 
-    01_Launch/Index
-    02_Create/Index
-    03_Errorhandling/Index
+    01_Installation/Index
+    02_FirstSteps/Index
+    03_BestPractise/Index

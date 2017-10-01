@@ -3,16 +3,11 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../../Includes.txt
+.. include:: ../../../Includes.txt
 
 
-.. _introduction-audience:
+.. _integrators_bestpractise_css:
 
-Audience
---------
 
-- TYPO3 agencies
-
-- TYPO3 integrators
-
-- TYPO3 developers
+CSS
+===

@@ -13,23 +13,20 @@ What do you need?
 
 - A TYPO3 installation only. The installation can be empty.
 
-
 TYPO3 Versions
 --------------
 
-Launch it! should run proper with
-
 - TYPO3 6.2
+
 - TYPO3 7.6
 
+- TYPO3 8.7
 
-Setup
------
-
-- If you want to launch a TYPO3-project, you need its TypoScript-setup and its XML-files.
-
-
-Sample
+Themes
 ------
 
-- If you like to test Launch it! please use Launch TYPO3 GRÜNE! (launchstartgreen).
+If you like to extend Start with themes, you can install
+
+- Start TYPO3 Responsive +Customer (startcustomer)
+
+- TYPO3 GRÜNE (startgreen)

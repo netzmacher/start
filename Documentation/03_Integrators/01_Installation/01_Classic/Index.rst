@@ -3,19 +3,22 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../Includes.txt
+.. include:: ../../../Includes.txt
 
 
-.. _editors:
+.. _integrators_installation_classic:
 
-Editors
+Classic
 =======
 
+ 
 **Table of Contents**
 
 .. toctree::
     :maxdepth: 2
     :titlesonly:
 
-    01_Setup/Index
-    02_BestPractise/Index
+    01_Extensions/Index
+    02_Gridelements/Index
+    03_Start/Index
+ 

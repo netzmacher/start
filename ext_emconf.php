@@ -22,7 +22,7 @@ $EM_CONF[ $_EXTKEY ] = array(
 						'templavoila' => '',
 				),
 				'suggests' => array(
-						'startcustomer' => '',
+						'startcustomer' => '2.9.0',
 				),
 		),
 );

@@ -3,19 +3,21 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../Includes.txt
+.. include:: ../../Includes.txt
 
 
-.. _editors:
+.. _integrators_firststeps:
 
-Editors
-=======
+
+First Steps
+===========
 
 **Table of Contents**
 
 .. toctree::
-    :maxdepth: 2
-    :titlesonly:
+  :maxdepth: 3
+  :titlesonly:
 
-    01_Setup/Index
-    02_BestPractise/Index
+  01_Pages/Index
+  02_Navigation/Index
+  03_Modals/Index

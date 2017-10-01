@@ -6,13 +6,7 @@
 .. include:: ../../Includes.txt
 
 
-.. _introduction-audience:
+.. _editors_bestpractise_navigation:
 
-Audience
---------
-
-- TYPO3 agencies
-
-- TYPO3 integrators
-
-- TYPO3 developers
+Navigation
+==========
