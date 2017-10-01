@@ -8,14 +8,20 @@ start {
     # cat=start - config*//102; type=string;  label= Base URL*:*Obligate! Your base URL with ending slash. Example: http://die-netzmacher.de/
     baseURL                           =
     # cat=start - config*//103; type=string;  label= Base URL for https*:*Obligate! Your base URL with ending slash. Example: https://die-netzmacher.de/
-    baseURLhttps                      = Please configure TypoSCript Constant start.config.baseURLhttps
-    # cat=start - config*//104; type=options[html5,none,xhtml_11,xhtml_basic,xhtml_frames,xhtml+rdfa_10,xhtml_strict,xhtml_trans];  label= Document type:html5 for the HTML5 doctype. none for no doctype at all. xhtml_11 for the XHTML 1.1 doctype. xhtml_basic for the XHTML basic doctype. xhtml_frames for the XHTML 1.0 Frameset doctype. xhtml_strict for the XHTML 1.0 Strict doctype. xhtml+rdfa_10 for the XHTML+RDFa 1.0 doctype. xhtml_trans for the XHTML 1.0 Transitional doctype.
+    baseURLhttps                      = Please configure TypoScript Constant start.config.baseURLhttps
+    # cat=start - config*//105; type=boolean;  label= contentObjectExceptionHandler:Disable it, if you like to see error prompts for content objects instead of an exception handling. Error prompts will cached. Please enable exception handling after the debugging.
+    contentObjectExceptionHandler     = 1
+		contentObjectExceptionHandler {
+	    # cat=start - config*//106; type=string;  label= contentObjectExceptionHandler prompt:Error message in case of exception handling
+			errorMessage = Oops an error occurred. Code: %s. If you like to know more, please disable the ContentObjectExceptionHandler @ Constant Editor > category [START - CONFIG]
+		}
+    # cat=start - config*//107; type=options[html5,none,xhtml_11,xhtml_basic,xhtml_frames,xhtml+rdfa_10,xhtml_strict,xhtml_trans];  label= Document type:html5 for the HTML5 doctype. none for no doctype at all. xhtml_11 for the XHTML 1.1 doctype. xhtml_basic for the XHTML basic doctype. xhtml_frames for the XHTML 1.0 Frameset doctype. xhtml_strict for the XHTML 1.0 Strict doctype. xhtml+rdfa_10 for the XHTML+RDFa 1.0 doctype. xhtml_trans for the XHTML 1.0 Transitional doctype.
     doctype                           = html5
-    # cat=start - config*//105; type=boolean; label= Clear cache at midnight:Obligated, if your are using calender items.
+    # cat=start - config*//108; type=boolean; label= Clear cache at midnight:Obligated, if your are using calender items.
     cache_clearAtMidnight             = 0
-    # cat=start - config*//106; type=string;  label= Header comment:The content is added before the "TYPO3 Content Management Framework" comment in the <head> section of the page. Use this to insert a note like that "Programmed by My-Agency".
+    # cat=start - config*//109; type=string;  label= Header comment:The content is added before the "TYPO3 Content Management Framework" comment in the <head> section of the page. Use this to insert a note like that "Programmed by My-Agency".
     headerComment                     = Development by http://die-netzmacher.de: responsive TYPO3.
-    # cat=start - config*//107; type=boolean; label= Pagetitle first:TYPO3 by default prints a HTML title tag in the format "website: page title". If pageTitleFirst is set (and if the page title is printed), then the page title will be printed IN FRONT OF the template title. So it will look like "page title: website".
+    # cat=start - config*//110; type=boolean; label= Pagetitle first:TYPO3 by default prints a HTML title tag in the format "website: page title". If pageTitleFirst is set (and if the page title is printed), then the page title will be printed IN FRONT OF the template title. So it will look like "page title: website".
     pageTitleFirst                    = 0
     # cat=start - config*//200; type=string;  label= Language:Example for German: de
     language                          = en

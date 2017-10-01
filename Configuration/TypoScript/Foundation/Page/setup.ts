@@ -8,6 +8,7 @@ page {
     startNormalize  = EXT:start/Resources/Public/JavaScript/Libs/Foundation-5.5.3/css/normalize.css
     startFoundation = EXT:start/Resources/Public/JavaScript/Libs/Foundation-5.5.3/css/foundation.min.css
     startStart			= EXT:start/Resources/Public/Css/basic.css
+			// if.isTrue = $start.css.a.wiIcon (here: {$start.foundation.css.a.wiIcon})
     startCssAWiIcon = EXT:start/Resources/Public/Css/a-icon.css
     startCssAWiIcon {
 				// if.isTrue = $start.css.a.wiIcon (here: {$start.foundation.css.a.wiIcon})

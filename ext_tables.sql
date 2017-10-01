@@ -11,7 +11,9 @@ CREATE TABLE pages (
   tx_start_social_youtube varchar(196) default NULL,
 );
 
-CREATE TABLE tt_content (
-  tx_start_additionalclass tinytext,
-  tx_start_additionalclassdefined tinytext,
-);
+-- -- #t1578, 171001, dwildt
+-- CREATE TABLE tt_content (
+-- 	menu_type varchar(30) NOT NULL default '0', 
+--   tx_start_additionalclass tinytext,
+--   tx_start_additionalclassdefined tinytext,
+-- );

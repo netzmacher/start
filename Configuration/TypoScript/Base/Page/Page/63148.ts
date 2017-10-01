@@ -47,7 +47,16 @@ page {
     start__bronze_01 = FLUIDTEMPLATE
     start__bronze_01 {
       file = {$start.fluid.path.templates}bronze_01.html
-      layoutRootPath  = {$start.fluid.path.layouts}
+#			  // 10 = EXT:start/Resources/Private/Templates/
+#			templateRootPaths =
+#			templateRootPaths {
+#					10 = {$start.fluid.path.templates}
+#			}
+			  // 10 = {$start.fluid.path.layouts}
+      layoutRootPaths = 
+			layoutRootPaths {
+					10 = {$start.fluid.path.layouts}
+			}
 				// 10 = {$start.fluid.path.partials}
       partialRootPaths =
       partialRootPaths {
@@ -75,6 +84,7 @@ page {
     start__bronze_02 < .start__bronze_01
     start__bronze_02 {
       file = {$start.fluid.path.templates}bronze_02.html
+			templateName >
 				// classColMainContentRight
       settings =
       settings {

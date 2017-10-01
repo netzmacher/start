@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="283.465pt" version="1.1" xmlns="http://www.w3.org/2000/svg" height="283.465pt" viewBox="0 0 283.465 283.465" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="Grad0" y1="0" x1="0" y2="283.465" gradientUnits="userSpaceOnUse" x2="283.465">
+   <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+   <stop offset="50%" stop-color="#ff5e00" stop-opacity="1"/>
+  </linearGradient>
+ </defs>
+ <g id="Hintergrund">
+  <g transform="translate(0, 0)">
+   <path style="fill:url(#Grad0); fill-rule:evenodd;" d="M0 0 L283.465 0 L283.465 283.465 L0 283.465 L0 0 Z"/>
+   <path style="fill:none; stroke:none;" d="M0 0 L283.465 0 L283.465 283.465 L0 283.465 L0 0 Z"/>
+  </g>
+  <path style="fill:#ffffff; fill-rule:nonzero;stroke:none;" d="M170.824 0 C170.7 0 170.581 0.0319173 170.456 0.0377204 L170.456 0 L8.43777 0 L8.43777 0.0377204 C3.74883 0.235027 0 4.06801 0 8.80627 L0 238.21 C0 242.949 3.74883 246.782 8.43777 246.979 L8.43777 247.017 L170.456 247.017 L170.456 246.979 C170.581 246.985 170.697 247.017 170.824 247.017 C175.687 247.017 179.631 243.076 179.631 238.21 L179.631 8.80627 C179.631 3.94034 175.687 0 170.824 0 Z M89.4468 239.78 C85.4658 239.78 82.2393 236.551 82.2393 232.57 C82.2393 228.589 85.4658 225.362 89.4468 225.362 C93.4277 225.362 96.6543 228.589 96.6543 232.57 C96.6543 236.551 93.4277 239.78 89.4468 239.78 Z M150.74 218.126 L28.891 218.126 L28.891 28.891 L150.743 28.891 L150.743 218.126 L150.74 218.126 Z" transform="translate(51.917, 18.2239)"/>
+ </g>
+</svg>

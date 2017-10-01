@@ -462,3 +462,16 @@ tt_content.menu {
     startFoundationTopBar < start.lib.topbar
   }
 }
+// #t1577, 170930, dwildt, +
+#[compatVersion = 8.7]
+#	tt_content.menu {
+#		20 {
+#			startFoundationTopBar >
+#		}
+#	}
+#	tt_content.startFoundationTopBar = COA
+#	tt_content.startFoundationTopBar {
+#		10 = < lib.stdheader
+#		20 < start.lib.topbar
+#	}
+#[global]

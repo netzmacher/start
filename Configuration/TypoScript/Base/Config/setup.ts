@@ -7,6 +7,10 @@ config {
   compressJs                        = {$start.compress.jss}
   concatenateCss                    = {$start.compress.css}
   concatenateJs                     = {$start.compress.jss}
+	contentObjectExceptionHandler     = {$start.config.contentObjectExceptionHandler}
+	contentObjectExceptionHandler {
+		errorMessage = {$start.config.contentObjectExceptionHandler.errorMessage}
+	}
   disablePrefixComment              = {$start.config.disablePrefixComment}
   doctype                           = {$start.config.doctype}
   headerComment                     = {$start.config.headerComment}

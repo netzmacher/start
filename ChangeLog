@@ -1,3 +1,22 @@
+2.6.0
+  2017-10-01
+	Upgrade for TYPO3 8.x
+	* #t1580: cb_foundation > t3foundation
+						* Is removed: Initialisation/Extensions/cb_foundation
+	* #t1578: Rebuild of tt_content.menu (only for Start menues)
+	* #t1577: tt_content properties doesn't correspond with tt_content TypoScript of TYPO3 8.x. See
+						* TCEFORM.tt_content.menu_type among others
+							* @ Configuration/ExtLocalconf/addPageTSConfig/tt_content/menu_type.txt
+	* #t1572: Fluidtemplates
+						* Moved from small letters to CamelCase <- TYPO3 8.7 requirement
+							* layout files
+						* Moved from Templates/*.html to Templates/Templates/*.html
+						* layoutRootPath is moved to array layoutRootPaths
+	* #t1571: SpriteManager > IconRegistry
+	Improvement
+	* #i0120: 
+						Constant Editor > Category: [START - CONFIG]
+
 2.5.17
   2017-06-06
 	Improvement

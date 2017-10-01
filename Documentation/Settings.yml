@@ -4,14 +4,14 @@
 
 ---
 conf.py:
-  copyright: 2017
-  project: Start TYPO3 Responsive!
-  version: 2.5
-  release: 2.5.6
+  copyright: 2014-2017
+  project: Start
+  version: 2.6
+  release: 2.6.0
   latex_documents:
   - - Index
     - start.tex
-    - Start TYPO3 Responsive!
+    - Start
     - Dirk Wildt (Die Netzmacher)
     - manual
   latex_elements:
@@ -20,12 +20,12 @@ conf.py:
     preamble: \usepackage{typo3}
   intersphinx_mapping:
     t3tsref:
-    - https://docs.typo3.org/typo3cms/TyposcriptReference/
+    - http://docs.typo3.org/typo3cms/TyposcriptReference/
     - null
     t3start:
-    - https://docs.typo3.org/typo3cms/GettingStartedTutorial/
+    - http://docs.typo3.org/typo3cms/GettingStartedTutorial/
     - null
     t3editors:
-    - https://docs.typo3.org/typo3cms/EditorsTutorial/
+    - http://docs.typo3.org/typo3cms/EditorsTutorial/
     - null
 ...

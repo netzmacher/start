@@ -14,8 +14,6 @@ if( !defined( 'TYPO3_MODE' ) )
  * Enables the Include Static Templates
  * Add pagetree icons
  * Methods for backend workflows
- * PageTSConfig
- * RTE
  * **************************************************************************** */
 
 
@@ -50,7 +48,8 @@ switch( true )
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Piwik/', 'Start [7] Piwik' );
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/EMail/', 'Start [8] +E-Mail' );
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Labeling/De/', 'Start [9] +Bezeichnungen: deutsch' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Debug/', 'Start [99] Debug' );
+		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Debug/', 'Start [98] Debug' );
+		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Test/', 'Start [99] Test' );
 		break;
 	default:
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Base/', 'Start [1]' );
@@ -61,44 +60,37 @@ switch( true )
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Piwik/', 'Start [7] Piwik' );
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/EMail/', 'Start [8] +e-mail' );
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Labeling/De/', 'Start [9] +Labeling: German' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Debug/', 'Start [99] Debug' );
+		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Debug/', 'Start [98] Debug' );
+		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Test/', 'Start [99] Test' );
 		break;
 }
-
 
 /* * ****************************************************************************
  * Add pagetree icons
  * **************************************************************************** */
 
-switch( true )
-{
-	case( $beLanguage == 'de' ):
-		// German
-		$TCA[ 'pages' ][ 'columns' ][ 'module' ][ 'config' ][ 'items' ][] = array( 'Start', 'start', \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath( $_EXTKEY ) . 'ext_icon.gif' );
-		break;
-	default:
-		// English
-		$TCA[ 'pages' ][ 'columns' ][ 'module' ][ 'config' ][ 'items' ][] = array( 'Start', 'start', \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath( $_EXTKEY ) . 'ext_icon.gif' );
-		break;
-}
-TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-start', '../typo3conf/ext/start/ext_icon.gif' );
+$iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance( \TYPO3\CMS\Core\Imaging\IconRegistry::class );
+
+$extIcon = array(
+		'identifier' => 'app-start'
+		, 'key' => 'start'	 // <- Key must be the part behind contain- of the identifier!
+		, 'label' => 'Start'
+		, 'source' => 'EXT:start/ext_icon.svg'
+);
+$iconRegistry->registerIcon(
+				$extIcon[ 'identifier' ]
+				, \TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider::class
+				, [ 'source' => $extIcon[ 'source' ] ]
+);
+$TCA[ 'pages' ][ 'columns' ][ 'module' ][ 'config' ][ 'items' ][] = array(
+		$extIcon[ 'label' ]
+		, $extIcon[ 'key' ]
+		, $extIcon[ 'identifier' ]
+);
+$TCA[ 'pages' ][ 'ctrl' ][ 'typeicon_classes' ][ $extIcon[ 'identifier' ] ] = $extIcon[ 'identifier' ];
 
 /* * ****************************************************************************
  * Methods for backend workflows
  * **************************************************************************** */
 
-//require_once(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($_EXTKEY).'lib/flexform/class.tx_start_flexform.php');
 require_once(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( $_EXTKEY ) . 'lib/userfunc/class.tx_start_userfunc.php');
-
-/* * ****************************************************************************
- * PageTSConfig
- * **************************************************************************** */
-
-// #i0097, 170319, -
-//\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig( '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TSConfig/SectionFrame.ts">' );
-
-/* * ****************************************************************************
- * RTE
- * **************************************************************************** */
-
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig( '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TSConfig/RTE.ts">' );

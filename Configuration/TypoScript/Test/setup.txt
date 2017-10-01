@@ -1,0 +1,52 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Base/Config/setup.ts">
+
+page = PAGE
+page {
+	20 = FLUIDTEMPLATE
+	20 {
+    template = FILE
+    template.file = EXT:start/Resources/Private/Templates/Test/index.html
+    partialRootPath = EXT:start/Resources/Private/Templates/Test/Partials/
+    variables {
+        mylabel = TEXT
+        mylabel.value = Label coming from TypoScript!
+    }
+    settings {
+        copyrightYear = 2017
+    }
+	}
+	30 = FLUIDTEMPLATE
+	30 {
+		file = {$start.fluid.path.templates}Bronze_01.html
+		layoutRootPath  = {$start.fluid.path.layouts}
+			// 10 = {$start.fluid.path.partials}
+		partialRootPaths =
+		partialRootPaths {
+			10 = {$start.fluid.path.partials}
+		}
+    variables {
+        mylabel = TEXT
+        mylabel.value = Label coming from TypoScript!
+    }
+    settings {
+        copyrightYear = 2025
+    }
+#		variables {
+#		}
+#			// classColMainContentMain 
+#		settings =
+#		settings {
+#			classColMainContentMain =
+#		}
+			// wrap = <!--[if lt IE 9]> ...
+		stdWrap =
+		stdWrap {
+			wrap (
+					<!--[if lt IE 9]>
+						<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+					<![endif]-->
+					|
+)
+		}
+	}
+}
