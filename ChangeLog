@@ -1,6 +1,12 @@
+2.6.1
+  2017-10-03
+	Improvement
+	* #i0123: Documentation Upgrade
+
 2.6.0
   2017-10-01
 	Upgrade for TYPO3 8.x
+	* #i0122: Documentation Upgrade
 	* #t1580: cb_foundation > t3foundation
 						* Is removed: Initialisation/Extensions/cb_foundation
 	* #t1578: Rebuild of tt_content.menu (only for Start menues)

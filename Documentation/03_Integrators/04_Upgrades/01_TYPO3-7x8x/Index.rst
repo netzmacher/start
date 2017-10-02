@@ -24,3 +24,9 @@ The CSS for panels is controlled in TYPO3 from 8.x here:
 
 If you have used the property "Indentation and Frames" you must update the "Additional CSS" manually.
 
+
+Hide properties
+---------------
+
+Foundation hide properties of content elements will lost.
+
