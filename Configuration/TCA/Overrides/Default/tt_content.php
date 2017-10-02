@@ -64,7 +64,7 @@ $temporaryColumns = [
 										'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:menu_type.startThumbnailsFromDirs'
 										, 'startThumbnailsFromDirs'
 								],
-						],						
+						],
 						'default' => ''
 				]
 		],
@@ -104,6 +104,26 @@ $temporaryColumns = [
 								'startFontLightOnDark' => [
 										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startFontLightOnDark',
 										'1' => 'startFontLightOnDark',
+								],
+								'startDivPanels' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/7.6/tt_content.xlf:tx_start_additionalclassdefined.startDiv',
+										'1' => '--div--',
+								],
+								'startPanel' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/7.6/tt_content.xlf:tx_start_additionalclassdefined.startPanel',
+										'1' => 'panel',
+								],
+								'startPanelRadius' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/7.6/tt_content.xlf:tx_start_additionalclassdefined.startPanelRadius',
+										'1' => 'panel radius',
+								],
+								'startPanelCallout' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/7.6/tt_content.xlf:tx_start_additionalclassdefined.startPanelCallout',
+										'1' => 'panel callout',
+								],
+								'startPanelCalloutRadius' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/7.6/tt_content.xlf:tx_start_additionalclassdefined.startPanelCalloutRadius',
+										'1' => 'panel callout radius',
 								],
 								'startDivShadow' => [
 										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startDiv',

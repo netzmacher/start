@@ -27,10 +27,10 @@
 .. DEFINE SOME GENERAL LINKS
 .. --------------------------------------------------
 
-.. _Bugtracker: https://gitlab.die-netzmacher.de/typo3/launch/issues
-.. _Forum: https://typo3-browser-forum.de/foren/launch/
+.. _Bugtracker: https://gitlab.die-netzmacher.de/typo3/start/issues
+.. _Forum: https://typo3-browser-forum.de/foren/start/
 .. _gitlab.die-netzmacher.de: https://gitlab.die-netzmacher.de/typo3/
-.. _Sponsoring: https://typo3-browser-forum.de/sponsoring/organiser
+.. _Sponsoring: https://typo3-browser-forum.de/sponsoring/start
 
 .. _Browser: http://typo3-browser.de/
 .. _Caddy: http://typo3-caddy.de/

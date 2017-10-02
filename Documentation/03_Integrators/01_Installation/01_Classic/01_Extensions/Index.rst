@@ -15,7 +15,7 @@ You need at least:
 
 - Foundation Framework (t3foundation)
 
-- Grid Elements (gridelements)
+- Gridelements (gridelements)
 
 - Start TYPO3 Responsive! (start)
 

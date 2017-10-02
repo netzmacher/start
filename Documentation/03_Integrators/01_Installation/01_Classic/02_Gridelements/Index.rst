@@ -8,10 +8,10 @@
 
 .. _integrators_installation_classic_gridelements:
 
-Grid Elements
-=============
+Gridelements
+============
 
-You don't need to enter the needed grid elements manually :) but half automatically.
+You don't need to enter the needed gridelements manually :) but half automatically.
 
 - Add a folder for grid layouts. For example
 
@@ -36,3 +36,17 @@ You don't need to enter the needed grid elements manually :) but half automatica
   cp -aR typo3conf/ext/start/Resources/Public/uploads/tx_gridelements/* uploads/tx_gridelements/
 
 Check the content of your folder "backend layouts". It should contain 8 backend layouts.
+
+TYPO3 8.7
+---------
+
+The needed extension Gridelements 8.x isn't published in the TER currently.
+
+You must download it from the Git-repository at
+
+- https://github.com/TYPO3-extensions/gridelements
+
+Downlaod Zip-File
+^^^^^^^^^^^^^^^^^
+
+- https://github.com/TYPO3-extensions/gridelements/archive/master.zip

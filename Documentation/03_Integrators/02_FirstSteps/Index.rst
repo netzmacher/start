@@ -20,4 +20,3 @@ First Steps
 
   01_Pages/Index
   02_Navigation/Index
-  03_Modals/Index

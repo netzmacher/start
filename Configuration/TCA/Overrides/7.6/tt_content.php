@@ -40,6 +40,26 @@ $temporaryColumns = array(
 						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/7.6/tt_content.xlf:tx_start_additionalclassdefined.startFontLightOnDark',
 								'1' => 'startFontLightOnDark',
 						),
+						'startDivPanels' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/7.6/tt_content.xlf:tx_start_additionalclassdefined.startDiv',
+								'1' => '--div--',
+						),
+						'startPanel' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/7.6/tt_content.xlf:tx_start_additionalclassdefined.startPanel',
+								'1' => 'panel',
+						),
+						'startPanelRadius' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/7.6/tt_content.xlf:tx_start_additionalclassdefined.startPanelRadius',
+								'1' => 'panel radius',
+						),
+						'startPanelCallout' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/7.6/tt_content.xlf:tx_start_additionalclassdefined.startPanelCallout',
+								'1' => 'panel callout',
+						),
+						'startPanelCalloutRadius' => array(
+						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/7.6/tt_content.xlf:tx_start_additionalclassdefined.startPanelCalloutRadius',
+								'1' => 'panel callout radius',
+						),
 						'startDivShadow' => array(
 						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/7.6/tt_content.xlf:tx_start_additionalclassdefined.startDiv',
 								'1' => '--div--',

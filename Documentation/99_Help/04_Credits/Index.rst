@@ -13,4 +13,4 @@ Credits
 
 If you like to support the development of Launch it!, please donate to the developer.
 
-* Launch `Sponsoring`_
+* Start `Sponsoring`_

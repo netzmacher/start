@@ -17,8 +17,11 @@ Best Practise
     :maxdepth: 2
     :titlesonly:
 
-    01_Visibility/Index
-    02_NestedLayouts/Index
-    03_PanelsAndCallouts/Index
-    04_FlexibleVideos/Index
-    05_Navigation/Index
+    01_Addressdata/Index
+    02_SocialmediaIcons/Index
+    03_Navigation/Index
+    04_NestedLayouts/Index
+    05_PanelsAndCallouts/Index
+    06_Styling/Index
+    07_FlexibleVideos/Index
+    08_Visibility/Index

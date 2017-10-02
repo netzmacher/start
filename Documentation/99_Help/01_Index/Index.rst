@@ -24,13 +24,6 @@ G
 
 * :ref:`GIT <developers-git>`
 
-I
--
-
-Installation
-^^^^^^^^^^^^
-
-* :ref:`Creation <integrators-create>`
 
 S
 -

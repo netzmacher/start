@@ -12,7 +12,7 @@ What does it do?
 ================
 
 - Start TYPO3 Responsive! (start) extends TYPO3 with the responsive framework Foundation (Zurb),
-	a dozen responsive backend layouts and some responsive grid elements.
+	a dozen responsive backend layouts and some responsive gridelements.
 
 - It enables editors, to create responsive nested layouts within a few minutes.
 

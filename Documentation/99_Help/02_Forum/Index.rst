@@ -13,7 +13,7 @@ Forum
 
 Posts are welcome in English and German. The interface of the forum is German only - sorry.
 
-* Launch `Forum`_
+* Start `Forum`_
 
 
 Bug Tracker

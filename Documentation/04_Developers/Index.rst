@@ -1,4 +1,4 @@
-﻿.. ==================================================
+.. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
@@ -6,20 +6,16 @@
 .. include:: ../Includes.txt
 
 
-.. _developer:
-
+.. _developers:
 
 Developers
 ==========
 
-You are welcome to develop Launch it!
-
-If you like to use the latest extensions, you can get them at `gitlab.die-netzmacher.de`_.
-
 **Table of Contents**
 
 .. toctree::
-  :maxdepth: 3
-  :titlesonly:
+    :maxdepth: 2
+    :titlesonly:
 
-  02_Git/Index
+    01_Customer/Index
+    02_Git/Index

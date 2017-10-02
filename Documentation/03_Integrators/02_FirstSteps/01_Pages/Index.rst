@@ -11,3 +11,15 @@
 
 Pages
 =====
+
+Please install some dummy pages like
+
+- page 1
+
+- page 2
+
+  - page 2.1
+
+  - page 2.2
+
+- page 3

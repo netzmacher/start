@@ -22,6 +22,13 @@ TYPO3 Versions
 
 - TYPO3 8.7
 
+TYPO3 8.7
+---------
+
+The needed extension Gridelements 8.x isn't published in the TER currently.
+
+You must download it from the Git-repository. See at :ref:`Installation Gridelements <integrators_installation_classic_gridelements>`
+
 Themes
 ------
 

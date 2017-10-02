@@ -19,7 +19,8 @@ Best Practise
   :titlesonly:
 
   01_Customer/Index
-  02_CSS/Index
-  03_HTML/Index
-  04_Themes/Index
-  05_Newsletter/Index
+  02_Modals/Index
+  03_CSS/Index
+  04_HTML/Index
+  05_Themes/Index
+  06_Newsletter/Index

@@ -14,8 +14,8 @@
 						* layoutRootPath is moved to array layoutRootPaths
 	* #t1571: SpriteManager > IconRegistry
 	Improvement
-	* #i0120: 
-						Constant Editor > Category: [START - CONFIG]
+	* #i0121: ReST-Documentation 
+	* #i0120: Constant Editor > Category: [START - CONFIG]
 
 2.5.17
   2017-06-06
@@ -455,7 +455,7 @@
 0.3.0
   2014-07-03
   Development
-  * #i0010: Some Foundation Features are integrated as grid elements.
+  * #i0010: Some Foundation Features are integrated as gridelements.
             Database records and icons have to install manually for
             * backend_layout
             * tx_gridelements_backend_layout
