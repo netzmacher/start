@@ -35,6 +35,7 @@
 .. _Browser: http://typo3-browser.de/
 .. _Caddy: http://typo3-caddy.de/
 .. _Foundation: http://foundation.zurb.com/
+.. _Launch: https://extensions.typo3.org/extension/launch/
 .. _Organiser: http://typo3-organiser.de/
 .. _Quick Shop: http://typo3-quick-shop.de/
 .. _Slick: http://typo3-slick.de/
@@ -45,7 +46,8 @@
 .. _Browser (Git): https://gitlab.die-netzmacher.de/typo3/browser
 .. _Caddy (Git): https://gitlab.die-netzmacher.de/typo3/caddy
 .. _Launch (Git): https://gitlab.die-netzmacher.de/typo3/launch
-.. _Launch TYPO3 GRÜNE (Git): https://gitlab.die-netzmacher.de/typo3/launchstartgreen
+.. _Launch TYPO3 Responsive! (Git): https://gitlab.die-netzmacher.de/typo3/launchstart
+.. _Launch TYPO3 Gruene (Git): https://gitlab.die-netzmacher.de/typo3/launchstartgreen
 .. _Organiser (Git): https://gitlab.die-netzmacher.de/typo3/org
 .. _Organiser Installer (Git): https://gitlab.die-netzmacher.de/typo3/org_installer
 .. _Quick Shop (Git): https://gitlab.die-netzmacher.de/typo3/quick_shop

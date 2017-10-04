@@ -12,7 +12,7 @@ What does it do?
 ================
 
 - Start TYPO3 Responsive! (start) extends TYPO3 with the responsive framework Foundation (Zurb),
-	a dozen responsive backend layouts and some responsive gridelements.
+  a dozen responsive backend layouts and some responsive gridelements.
 
 - It enables editors, to create responsive nested layouts within a few minutes.
 
@@ -36,4 +36,4 @@ What does it do?
 
 - It provides a template for an extensive responsive newsletter.
 
-- You should need no longer than 15 minutes for a ready-for-use responsive TYPO3.
+- You can launch a ready-to-use website by Launch TYPO3 Responsive! (launchstart)

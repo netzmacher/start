@@ -31,7 +31,8 @@ Start TYPO3 Responsive!
 		Start extends TYPO3 with the responsive framework Foundation (Zurb), a dozen responsive Backend Layouts and some responsive Gridelements. 
 		It enables editors, to create responsive nested layouts within a few minutes. It extends some backend forms for controlling the display of 
 		content elements depending on devices like smartphones, tablets and desktops. It extends TYPO3 content elements and menus with some helpful 
-		responsive Foundation features. A template for a responsive newsletter is included.
+		responsive Foundation features. A template for a responsive newsletter is included. You can launch a ready-to-use website by Launch TYPO3 
+		Responsive!
 
 	:Keywords:
 		typo3, start, responsive, foundation, grid, layout

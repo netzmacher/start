@@ -11,30 +11,22 @@
 Desktop
 =======
 
+Some websites based on Start TYPO3 Responsive!
+
 start-typo3-responsive.de
 -------------------------
 
-.. figure:: 01_start_typo3_responsive_01_desktop_01.jpg
+.. figure:: start-typo3-responsive.de.jpg
 	:width: 600px
 	:alt: start-typo3-responsive.de
 
 	http://start-typo3-responsive.de/
 
 
-die-exen.de
--------------------------
-
-.. figure:: 01_start_typo3_responsive_01_desktop_02.jpg
-	:width: 600px
-	:alt: die-exen.de
-
-	http://die-exen.de/
-
-
 die-netzmacher.de
 -------------------------
 
-.. figure:: 01_start_typo3_responsive_01_desktop_03.jpg
+.. figure:: start_typo3_responsive_website_die-netzmacher.de.jpg
 	:width: 600px
 	:alt: die-netzmacher.de
 
@@ -44,7 +36,7 @@ die-netzmacher.de
 gruene-passauland.de
 -------------------------
 
-.. figure:: 01_startcustomer_samples_gruene-passauland.de.jpg
+.. figure:: start_typo3_responsive_website_gruene-passauland.de.jpg
 	:width: 600px
 	:alt: gruene-passauland.de
 
@@ -54,18 +46,8 @@ gruene-passauland.de
 hifi-vintage-shop.com
 -------------------------
 
-.. figure:: 01_startcustomer_samples_hifi-vintage-shop.com.jpg
+.. figure:: start_typo3_responsive_website_hifi-vintage-shop.com.jpg
 	:width: 600px
 	:alt: hifi-vintage-shop.com
 
 	http://hifi-vintage-shop.com/
-
-
-neukoellner-talente.de
--------------------------
-
-.. figure:: 01_start_typo3_responsive_01_desktop_04.jpg
-	:width: 600px
-	:alt: neukoellner-talente.de
-
-	http://neukoellner-talente.de/

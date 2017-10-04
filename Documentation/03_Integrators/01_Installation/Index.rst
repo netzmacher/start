@@ -13,11 +13,11 @@ Installation
 
 There are two ways of installation:
 
+- the automatic one: with the extension Launch TYPO3 Responsive!
+
 - the classic one: the manual installation
 
-- the automatic one: with the extension Launch it!
-
-Both have advantages and disadvantages.
+The first way is the recommended one.
  
 **Table of Contents**
 
@@ -25,7 +25,7 @@ Both have advantages and disadvantages.
     :maxdepth: 2
     :titlesonly:
 
-    01_Classic/Index
-    02_LaunchIt/Index
+    01_LaunchIt/Index
+    02_Classic/Index
 
  
