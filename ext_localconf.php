@@ -53,7 +53,7 @@ call_user_func( function ()
 	switch( TRUE )
 	{
 		case($typo3Version < 8000000):
-			$addPageTsConfig = '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/ExtLocalconf/PageTSConfig/7.6/tt_content/menu.ts">';
+		$addPageTsConfig = '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/ExtLocalconf/PageTSConfig/7.6/tt_content/menu_type.ts">';
 			break;
 		case($typo3Version >= 8000000):
 		default:

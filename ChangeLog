@@ -1,3 +1,8 @@
+2.6.2
+  2017-10-05
+	Bugfix
+	* #i0125: TYPO3 6.x, 7.x: menu_types were lost 
+
 2.6.1
   2017-10-03
 	Improvement
