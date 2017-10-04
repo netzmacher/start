@@ -199,7 +199,7 @@ start {
 				}
         stdWrap {
           required  = 1
-          wrap      = <div class="row"><div class="columns"><div class="siteLine siteLineTop startWoMarginLeftRight hide-for-small-only">|</div></div></div>
+          wrap      = <div class="siteLineTop hide-for-small-only"><div class="row siteLine"><div class="columns">|</div></div></div>
         }
       }
     }

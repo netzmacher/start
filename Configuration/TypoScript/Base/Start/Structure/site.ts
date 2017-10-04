@@ -16,11 +16,11 @@ start {
         // 20: if.isTrue = $start.pages.siteLineBottom (here: {$start.pages.siteLineBottom})
       lineBottom = COA
       lineBottom {
-					// if.isTrue = $start.pages.siteLineBottom (here: {$start.pages.siteLineBottom})
-        if =
-        if {
-          isTrue = {$start.pages.siteLineBottom}
-        }
+#					// if.isTrue = $start.pages.siteLineBottom (here: {$start.pages.siteLineBottom})
+#        if =
+#        if {
+#          isTrue = {$start.pages.siteLineBottom}
+#        }
         20 < styles.content.get
         20 {
           select {
@@ -37,8 +37,19 @@ start {
 						}
 					}
         }
+	        // (c) TYPO3 GRÜNE
+        30 = TEXT
+        30 {
+					value = Dies ist eine Website mit <a href="http://start-typo3-responsive.de/" class="external-link-new-window" title="start-typo3-responsive.de" data-htmlarea-external="1">Start TYPO3 Responsive!</a>. Einem kostenlosen TYPO3-Template.
+					lang {
+						de = Dies ist eine Website mit <a href="http://start-typo3-responsive.de/" class="external-link-new-window" title="start-typo3-responsive.de" data-htmlarea-external="1">Start TYPO3 Responsive!</a> Einem kostenlosen TYPO3-Template.
+						en = This is a Website based on <a href="http://start-typo3-responsive.de/" class="external-link-new-window" title="start-typo3-responsive.de" data-htmlarea-external="1">Start TYPO3 Responsive!</a> A TYPO3-Template without any fees.
+					}
+					wrap = <p class="copyright text-center">|</p>
+        }
+
         stdWrap {
-          wrap = <div class="siteLine siteLineBottom"><div class="row"><div class="columns"> |</div></div></div>
+          wrap = <div class="siteLineBottom"><div class="row siteLine"><div class="columns"> |</div></div></div>
         }
       }
         // 20: if.isTrue = $start.pages.siteLineTop (here: {$start.pages.siteLineTop})
@@ -67,7 +78,7 @@ start {
         }
         stdWrap {
           required  = 1
-          wrap      = <div class="row"><div class="columns"><div class="siteLine siteLineTop startWoMarginLeftRight hide-for-small-only">|</div></div></div>
+          wrap      = <div class="siteLineTop hide-for-small-only"><div class="row siteLine"><div class="columns">|</div></div></div>
         }
       }
     }

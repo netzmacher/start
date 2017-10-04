@@ -1,6 +1,8 @@
 2.6.1
   2017-10-03
 	Improvement
+	* #i0124: CSS: #startBox01 .siteLineTop is moved
+						from EXT:/startgreen/Resources/Public/Css/Extensions/foundation.css to Resources/Public/Css/basic.css
 	* #i0123: Documentation Upgrade
 
 2.6.0

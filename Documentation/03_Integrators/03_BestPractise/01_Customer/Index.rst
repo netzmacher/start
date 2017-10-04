@@ -14,7 +14,7 @@
 
 It is recommended to install the extension Start TYPO3 Responsive +Customer (startcustomer).
 
-It extends Start with an user-interface for managing alot of CSS properties by mouse clicks.
+It extends Start with an user-interface for managing a lot of CSS properties by mouse clicks.
 
 It delivers five templates - five themes.
 
