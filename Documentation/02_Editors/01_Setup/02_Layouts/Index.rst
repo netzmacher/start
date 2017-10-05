@@ -15,7 +15,7 @@ Page layouts
 ------------
 
 .. figure:: 01_page_properties_appearance.jpg
-	:width: 800px
+	:width: 1000px
 	:alt: Page properties appearance
 
 	Page properties appearance

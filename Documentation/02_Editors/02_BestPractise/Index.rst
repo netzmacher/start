@@ -18,10 +18,10 @@ Best Practise
     :titlesonly:
 
     01_Addressdata/Index
-    02_SocialmediaIcons/Index
+    02_FlexibleVideos/Index
     03_Navigation/Index
-    04_NestedLayouts/Index
+    04_Layouts/Index
     05_PanelsAndCallouts/Index
-    06_Styling/Index
-    07_FlexibleVideos/Index
+    06_SocialmediaIcons/Index
+    07_Styling/Index
     08_Visibility/Index

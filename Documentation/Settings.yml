@@ -1,3 +1,8 @@
+# This is the project specific Settings.yml file.
+# Place Sphinx specific build information here.
+# Settings given here will replace the settings of 'conf.py'.
+
+---
 conf.py:
   copyright: 2014-2017
   project: Start
@@ -13,3 +18,4 @@ conf.py:
     papersize: a4paper
     pointsize: 10pt
     preamble: \usepackage{typo3}
+...

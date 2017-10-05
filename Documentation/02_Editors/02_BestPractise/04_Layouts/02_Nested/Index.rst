@@ -3,10 +3,10 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../../Includes.txt
+.. include:: ../../../Includes.txt
 
 
-.. _editors_bestpractise_nestedlayouts:
+.. _editors_bestpractise_layouts_nested:
 
 Nested Layouts
 ==============
