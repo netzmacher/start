@@ -228,7 +228,7 @@ tt_content.image {
                 <table class="row">
                   <tr>
                     <td class="wrapper">
-                      <table class="four columns">
+                      <table class="three columns">
                         <tr>
                           <td class="csc-textpic csc-textpic-intext-left-nowrap first###CLASSES###">
                               ###IMAGES###
@@ -238,10 +238,10 @@ tt_content.image {
                       </table>
                     </td>
                     <td class="wrapper last">
-                      <table class="eight columns">
+                      <table class="nine columns">
                         <tr>
-                          <td class="csc-textpic csc-textpic-intext-left-nowrap first###CLASSES###">
-                              ###IMAGES###
+                          <td class="csc-textpic csc-textpic-intext-left-nowrap last###CLASSES###">
+                              ###TEXT###
                           </td>
                           <td class="expander"></td>
                         </tr>
@@ -285,7 +285,7 @@ tt_content.image {
                 <table class="row">
                   <tr>
                     <td class="wrapper">
-                      <table class="four columns">
+                      <table class="three columns">
                         <tr>
                           <td class="csc-textpic csc-textpic-intext-left-nowrap first###CLASSES###">
                               ###IMAGES###
@@ -295,10 +295,10 @@ tt_content.image {
                       </table>
                     </td>
                     <td class="wrapper last">
-                      <table class="eight columns">
+                      <table class="nine columns">
                         <tr>
-                          <td class="csc-textpic csc-textpic-intext-left-nowrap first###CLASSES###">
-                              ###IMAGES###
+                          <td class="csc-textpic csc-textpic-intext-left-nowrap last###CLASSES###">
+                              ###TEXT###
                           </td>
                           <td class="expander"></td>
                         </tr>
