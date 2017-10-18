@@ -227,14 +227,21 @@ tt_content.image {
 
                 <table class="row">
                   <tr>
-                    <td class="wrapper last">
-                      <table class="twelve columns">
+                    <td class="wrapper">
+                      <table class="four columns">
                         <tr>
                           <td class="csc-textpic csc-textpic-intext-left-nowrap first###CLASSES###">
                               ###IMAGES###
                           </td>
-                          <td class="csc-textpic csc-textpic-intext-left-nowrap last###CLASSES###">
-                              ###TEXT###
+                          <td class="expander"></td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td class="wrapper last">
+                      <table class="eight columns">
+                        <tr>
+                          <td class="csc-textpic csc-textpic-intext-left-nowrap first###CLASSES###">
+                              ###IMAGES###
                           </td>
                           <td class="expander"></td>
                         </tr>
