@@ -228,7 +228,7 @@ tt_content.image {
                 <table class="row">
                   <tr>
                     <td class="wrapper">
-                      <table class="three columns">
+                      <table class="four columns">
                         <tr>
                           <td class="csc-textpic csc-textpic-intext-left-nowrap first###CLASSES###">
                               ###IMAGES###
@@ -238,7 +238,7 @@ tt_content.image {
                       </table>
                     </td>
                     <td class="wrapper last">
-                      <table class="nine columns">
+                      <table class="eight columns">
                         <tr>
                           <td class="csc-textpic csc-textpic-intext-left-nowrap last###CLASSES###">
                               ###TEXT###
@@ -285,7 +285,7 @@ tt_content.image {
                 <table class="row">
                   <tr>
                     <td class="wrapper">
-                      <table class="three columns">
+                      <table class="six columns">
                         <tr>
                           <td class="csc-textpic csc-textpic-intext-left-nowrap first###CLASSES###">
                               ###IMAGES###
@@ -295,7 +295,7 @@ tt_content.image {
                       </table>
                     </td>
                     <td class="wrapper last">
-                      <table class="nine columns">
+                      <table class="sixcolumns">
                         <tr>
                           <td class="csc-textpic csc-textpic-intext-left-nowrap last###CLASSES###">
                               ###TEXT###
