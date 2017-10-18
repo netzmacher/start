@@ -42,9 +42,17 @@ tt_content.image {
 
                 <table class="row">
                   <tr>
+                    <td class="wrapper">
+                      <table class="six columns">
+                        <tr class="csc-textpic csc-textpic-right csc-textpic-below###CLASSES###">
+                          <td>&nbsp;</td>
+                          <td class="expander"></td>
+                        </tr>
+                      </table>
+                    </td>
                     <td class="wrapper last">
-                      <table class="twelve columns">
-                        <tr class="csc-textpic csc-textpic-right csc-textpic-above###CLASSES###">
+                      <table class="six columns">
+                        <tr class="csc-textpic csc-textpic-right csc-textpic-below###CLASSES###">
                           <td class="right" align="right">###IMAGES###</td>
                           <td class="expander"></td>
                         </tr>
@@ -74,10 +82,18 @@ tt_content.image {
 
                 <table class="row">
                   <tr>
-                    <td class="wrapper last">
-                      <table class="twelve columns">
-                        <tr class="csc-textpic csc-textpic-left csc-textpic-above###CLASSES###">
+                    <td class="wrapper">
+                      <table class="six columns">
+                        <tr class="csc-textpic csc-textpic-right csc-textpic-below###CLASSES###">
                           <td>###IMAGES###</td>
+                          <td class="expander"></td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td class="wrapper last">
+                      <table class="six columns">
+                        <tr class="csc-textpic csc-textpic-right csc-textpic-below###CLASSES###">
+                          <td>&nbsp;</td>
                           <td class="expander"></td>
                         </tr>
                       </table>
@@ -150,8 +166,16 @@ tt_content.image {
                     </td>
                   </tr>
                   <tr>
+                    <td class="wrapper">
+                      <table class="six columns">
+                        <tr class="csc-textpic csc-textpic-right csc-textpic-below###CLASSES###">
+                          <td>&nbsp;</td>
+                          <td class="expander"></td>
+                        </tr>
+                      </table>
+                    </td>
                     <td class="wrapper last">
-                      <table class="twelve columns">
+                      <table class="six columns">
                         <tr class="csc-textpic csc-textpic-right csc-textpic-below###CLASSES###">
                           <td class="right" align="right">###IMAGES###</td>
                           <td class="expander"></td>
@@ -182,10 +206,18 @@ tt_content.image {
                     </td>
                   </tr>
                   <tr>
-                    <td class="wrapper last">
-                      <table class="twelve columns">
+                    <td class="wrapper">
+                      <table class="six columns">
                         <tr class="csc-textpic csc-textpic-left csc-textpic-below###CLASSES###">
                           <td>###IMAGES###</td>
+                          <td class="expander"></td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td class="wrapper last">
+                      <table class="six columns">
+                        <tr class="csc-textpic csc-textpic-left csc-textpic-below###CLASSES###">
+                          <td>&nbsp;</td>
                           <td class="expander"></td>
                         </tr>
                       </table>
@@ -202,12 +234,19 @@ tt_content.image {
 
                 <table class="row">
                   <tr>
-                    <td class="wrapper last">
-                      <table class="twelve columns">
+                    <td class="wrapper">
+                      <table class="four columns">
                         <tr>
                           <td class="csc-textpic csc-textpic-intext-right-nowrap first###CLASSES###">
                               ###TEXT###
                           </td>
+                          <td class="expander"></td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td class="wrapper last">
+                      <table class="eight columns">
+                        <tr>
                           <td class="right csc-textpic csc-textpic-intext-right-nowrap last###CLASSES###">
                               ###IMAGES###
                           </td>
@@ -259,12 +298,19 @@ tt_content.image {
 
                 <table class="row">
                   <tr>
-                    <td class="wrapper last">
-                      <table class="twelve columns">
+                    <td class="wrapper">
+                      <table class="six columns">
                         <tr>
                           <td class="csc-textpic csc-textpic-intext-right-nowrap first###CLASSES###">
                               ###TEXT###
                           </td>
+                          <td class="expander"></td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td class="wrapper last">
+                      <table class="six columns">
+                        <tr>
                           <td class="right csc-textpic csc-textpic-intext-right-nowrap last###CLASSES###">
                               ###IMAGES###
                           </td>
@@ -295,7 +341,7 @@ tt_content.image {
                       </table>
                     </td>
                     <td class="wrapper last">
-                      <table class="sixcolumns">
+                      <table class="six columns">
                         <tr>
                           <td class="csc-textpic csc-textpic-intext-left-nowrap last###CLASSES###">
                               ###TEXT###
