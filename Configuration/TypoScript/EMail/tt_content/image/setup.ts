@@ -235,7 +235,7 @@ tt_content.image {
                 <table class="row">
                   <tr>
                     <td class="wrapper">
-                      <table class="four columns">
+                      <table class="eight columns">
                         <tr>
                           <td class="csc-textpic csc-textpic-intext-right-nowrap first###CLASSES###">
                               ###TEXT###
@@ -245,7 +245,7 @@ tt_content.image {
                       </table>
                     </td>
                     <td class="wrapper last">
-                      <table class="eight columns">
+                      <table class="four columns">
                         <tr>
                           <td class="right csc-textpic csc-textpic-intext-right-nowrap last###CLASSES###">
                               ###IMAGES###
