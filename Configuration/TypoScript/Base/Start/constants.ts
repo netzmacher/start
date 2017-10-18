@@ -16,6 +16,8 @@ start {
   # cat=start - gridelements//106; type=int+; label= Id 6:Id of the gridelement with 6 columns
   gridelement.col6 = 6
 
+  # cat=start - pages*//200; type=int+; label=Root:Uid of the root page
+  pages.root						= 
   # cat=start - pages*//201; type=int+; label=Site top-line:Uid of the page, which contains the content for the top-line of the site.
   pages.siteLineTop     = 
   # cat=start - pages*//202; type=int+; label=Site bottom-line:Uid of the page, which contains the content for the bottom-line of the site.

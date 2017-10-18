@@ -59,26 +59,13 @@ start {
             }
             slide = -1
           }
-          wrap (
+					wrap (
 
             <table class="row header">
               <tr>
                 <td class="center" align="center">
                   <center>
-                    <table class="container">
-                      <tr>
-                        <td class="wrapper last">
-                          <table class="twelve columns">
-                            <tr>
-                              <td>
-                                |
-                              </td>
-                              <td class="expander"></td>
-                            </tr>
-                          </table>
-                        </td>
-                      </tr>
-                    </table>
+										|
                   </center>
                 </td>
               </tr>

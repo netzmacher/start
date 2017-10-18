@@ -12,6 +12,10 @@
 Newsletter
 ==========
 
-Start has a template for a responsive Newsletter.
+**Table of Contents**
 
-Sorry, but more isn't documented here.
+.. toctree::
+  :maxdepth: 3
+  :titlesonly:
+
+  01_Extensions/Index
