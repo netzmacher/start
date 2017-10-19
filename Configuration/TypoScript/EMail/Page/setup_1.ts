@@ -66,10 +66,8 @@ page {
       // One column: content
     start__newsletter_01 = FLUIDTEMPLATE
     start__newsletter_01 {
-				// TYPO3 6.2 compatibillity. Will be ignored from TYPO3 7.6 
-      file = {$start.fluid.path.templates}newsletter_62.html
-				// Will be respected from TYPO3 7.6 and takes precedence over file
-			templateName = Newsletter
+			file = Newsletter.html
+			//templateName = Newsletter
       templateRootPaths {
         10 = {$start.fluid.path.templates}
       }

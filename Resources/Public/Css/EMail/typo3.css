@@ -4,7 +4,7 @@
 * typo3conf/ext/start/Resources/Public/Css/EMail/typo3.css *
 ***********************************************************/
 
-div.csc-textpic-intext-left .csc-textpic-imagewrap,
+/*div.csc-textpic-intext-left .csc-textpic-imagewrap,
 div.csc-textpic-intext-left-nowrap .csc-textpic-imagewrap {
   margin-left: 10px;
   margin-right: 10px;
@@ -14,7 +14,7 @@ div.csc-textpic-intext-right-nowrap .csc-textpic-imagewrap {
   margin-left: 10px;
   margin-right: 10px;
 }
-
+*/
 .text-center {
   text-align: center;
 }

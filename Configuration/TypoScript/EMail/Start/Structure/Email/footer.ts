@@ -29,24 +29,6 @@ start {
             slide = -1
             stdWrap {
               required  = 1
-              wrap      (
-                <table class="row footer">
-                  <tr>
-                    <td class="wrapper last">
-                      <table class="twelve columns">
-                        <tr>
-                          <td align="center">
-                            <center>
-                              |
-                            </center>
-                          </td>
-                          <td class="expander"></td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-)
             }
           }
         }

@@ -1,39 +1,36 @@
 ## images
 
-tt_content.image {
+xxtt_content.image {
   20 {
 		imageStdWrapNoWidth.wrap = |
     layout {
-      # above-center
+			default >
+
+        // start: value = <tr><th ...
+      default = TEXT
       default {
         value (
 
-                <table class="row">
-                  <tr>
-                    <td class="wrapper last">
-                      <table class="twelve columns">
-                        <tr class="csc-textpic csc-textpic-center csc-textpic-above###CLASSES###">
-													###IMAGES###
-                          <td class="expander"></td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="wrapper last">
-                      <table class="twelve columns">
-                        <tr class="csc-textpic csc-textpic-center csc-textpic-above###CLASSES###">
-                          <td class="center" align="center">
+								<!-- above center -->
+								<table>
+									<tr>
+										<th class="small-12 large-12 columns first last">
+											<table>
+												<tr>
+													<th class="center" align="center">
+														###IMAGES###
+													</th>
+												</tr>
+												<tr>
+													<th class="center" align="center">
 														###TEXT###
-                          </td>
-                          <td class="expander"></td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
+													</th>
+												</tr>
+											</table>
+										</th>
+									</tr>
+								</table>
 )
-        override >
       }
       # above-right
       1 = TEXT
@@ -358,30 +355,23 @@ tt_content.image {
     }
     renderMethod = singleNoCaption
     rendering {
-			noCaption.allStdWrap.dataWrap = |
-			singleCaption {
+
+			xnoCaption.allStdWrap.dataWrap = |
+			xsingleCaption {
 				caption {
-					wrap = <td><p class="csc-textpic-caption###CLASSES###"> | </p></td>
+					xwrap = <td><p class="csc-textpic-caption###CLASSES###"> | </p></td>
 				}
 				singleStdWrap {
-					wrap = <table><tbody><tr><td> | </td></tr><tr>###CAPTION###</tr></tbody></table>
+					xwrap = <table><tbody><tr><td> | </td></tr><tr>###CAPTION###</tr></tbody></table>
 				}
 			}
 			singleNoCaption {
 				allStdWrap {
-					dataWrap = |
-					innerWrap {
-						cObject {
-							0 {
-								value = <td class="center" align="center">|</td>
-							}
-							8 {
-								value = <td class="center" align="center">|</td>
-							}
-						}
-					}
+					datawrap >
+					xdataWrap = |
+					innerWrap >
 				}
-				singleStdWrap.wrap = |
+				xsingleStdWrap.wrap = |
 			}
     }
   }

@@ -1,3 +1,10 @@
+2.7.1
+  2017-10-19
+	Feature
+	* #i0129: Newsletter / e-mail is based on 
+						* Foundation e-mails v2.2.0
+						* https://foundation.zurb.com/emails/docs/css-guide.html
+
 2.6.4
   2017-10-18
 	Improvement

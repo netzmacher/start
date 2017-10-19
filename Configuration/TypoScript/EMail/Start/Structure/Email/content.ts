@@ -34,32 +34,15 @@ start {
 							data = date : U
 							strftime = %A, %e. %B %Y
 						}
-						wrap = <p class="newsletter">|</p>
+            stdWrap {
+              wrap = <p class="newsletter">|</p>					
+						}
 					}
 						// table, select, stdWrap
           30 < styles.content.get
           30 {
             select {
               where = colPos=0
-            }
-            stdWrap {
-              required  = 1
-              wrap      (
-                <table class="row">
-                  <tr>
-                    <td class="wrapper last">
-                      <table class="twelve columns">
-                        <tr>
-                          <td>
-                            |
-                          </td>
-                          <td class="expander"></td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-)
             }
           }
         }
