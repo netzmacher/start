@@ -10,7 +10,7 @@ start {
       lineTop {
 				20 = COA
 				20 {
-						// if.isTrue = $start.pages.siteLineTop (here: {$start.pages.siteLineTop})
+						// if.isTrue.cObject: an icon or $start.pages.siteLineTop is set (here: {$start.pages.siteLineTop})
 					if =
 					if {
 						isTrue {
@@ -39,6 +39,7 @@ start {
 							}
 						}
 					}
+						// social media links
 					20 = COA
 					20 {
 							// facebook
@@ -185,9 +186,25 @@ start {
 						}
 						wrap = <div class="icons">|</div>
 					}
-						// startgreen: foundation sidenav
-					30 = COA
+						// Searchform
+					30 = TEXT
 					30 {
+						if.isTrue = {$start.foundation.sitelinetop.searchform.enabled}
+						value (
+
+								<form id="siteLineTopSearch" action="index.php?id={$start.foundation.sitelinetop.searchform.pid}&amp;no_cache=1" method="{$start.foundation.sitelinetop.searchform.method}">
+									<input type="hidden" name="no_cache" value="1">
+										<input type="text" name="{$start.foundation.sitelinetop.searchform.param}" placeholder="{$start.foundation.sitelinetop.searchform.placeholder}">
+										<a href="#" onclick="$(this).closest('form').submit()">
+											<i class="fi-magnifying-glass"></i>
+										</a>
+								</form>
+
+)						
+					}
+						// start: foundation sidenav
+					40 = COA
+					40 {
 						if.isTrue = {$start.pages.siteLineTop}
 						20 < start.lib.sidenav
 						20 {

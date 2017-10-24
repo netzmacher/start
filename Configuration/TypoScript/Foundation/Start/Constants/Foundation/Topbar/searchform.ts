@@ -5,7 +5,7 @@ start {
       searchform = 
       # cat=start - foundation - topbar - searchform//301;  type=+int;                   label= Search form:[OBLIGATE!] Id of the result page
       searchform.pid = 1
-      # cat=start - foundation - topbar - searchform//302;  type=string;                 label= Search form:[OBLIGATE!] Name of the parameter
+      # cat=start - foundation - topbar - searchform//302;  type=string;                 label= Search form:[OBLIGATE!] Name of the parameter. I.e. tx_browser_pi1[sword]
       searchform.param = sword
       # cat=start - foundation - topbar - searchform//303;  type=options[get,post];      label= Search form:Method
       searchform.method = post

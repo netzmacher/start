@@ -14,16 +14,19 @@ config {
   disablePrefixComment              = {$start.config.disablePrefixComment}
   doctype                           = {$start.config.doctype}
   headerComment                     = {$start.config.headerComment}
-  htmlTag_langKey                   = {$start.config.htmlTag_langKey}
-  htmlTag_setParams                 = {$start.config.htmlTag_setParams}
+  htmlTag_langKey                   = {$start.config.language.htmlTag_langKey}
+  htmlTag_setParams                 = {$start.config.language.htmlTag_setParams}
   inlineStyle2TempFile              = {$start.config.inlineStyle2TempFile}
-  language                          = {$start.config.language}
-  locale_all                        = {$start.config.locale_all}
+  language                          = {$start.config.language.language}
+  locale_all                        = {$start.config.language.locale_all}
   pageTitleFirst                    = {$start.config.pageTitleFirst}
   prefixLocalAnchors                = {$start.config.prefixLocalAnchors}
   removeDefaultJS                   = {$start.config.removeDefaultJS}
   spamProtectEmailAddresses         = {$start.config.spamProtectEmailAddresses}
   spamProtectEmailAddresses_atSubst = {$start.config.spamProtectEmailAddresses_atSubst}
+  sys_language_mode									= {$start.config.language.sys_language_mode}
+  sys_language_overlay					  	= {$start.config.language.sys_language_overlay}
+  sys_language_uid									= {$start.config.language.sys_language_uid}
   tx_realurl_enable                 = {$start.config.tx_realurl_enable}
   typolinkEnableLinksAcrossDomains  = {$start.config.typolinkEnableLinksAcrossDomains}
 }

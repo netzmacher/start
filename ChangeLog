@@ -1,3 +1,23 @@
+2.7.3
+  2017-10-24
+	Feature
+	* #i0131: New serach form at sitelinetop. See:
+						* Configuration/TypoScript/Foundation/Start
+							* Constants/Foundation/SiteLineTop/searchform.ts
+							* Structure/site.ts
+						* Resources/Public/Css/Extensions/foundation.css
+
+2.7.2
+  2017-10-23
+	Improvement
+	* #i0130: Constant Editor [START - CONFIGURATION]
+						* new constants:
+							* sys_language_mode
+							* sys_language_uid
+					  New category [START - CONFIGURATION - LANGUAGE]
+					  * language constants are moved from 
+							start.config.* to start.config.language.*
+
 2.7.1
   2017-10-19
 	Feature
@@ -8,7 +28,7 @@
 2.6.4
   2017-10-18
 	Improvement
-	* #i0128: New constant start.pages.root. Neede for newsletters.
+	* #i0128: New constant start.pages.root. Needed for newsletters.
 
 2.6.3
   2017-10-05

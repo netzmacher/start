@@ -23,14 +23,6 @@ start {
     headerComment                     = Development by http://die-netzmacher.de: responsive TYPO3.
     # cat=start - config*//110; type=boolean; label= Pagetitle first:TYPO3 by default prints a HTML title tag in the format "website: page title". If pageTitleFirst is set (and if the page title is printed), then the page title will be printed IN FRONT OF the template title. So it will look like "page title: website".
     pageTitleFirst                    = 0
-    # cat=start - config*//200; type=string;  label= Language:Example for German: de
-    language                          = en
-    # cat=start - config*//201; type=string;  label= Language HTML:HTML tag langauge keyExample for German: de
-    htmlTag_langKey                   = en
-    # cat=start - config*//202; type=string;  label= HTML params:HTML parameter
-    htmlTag_setParams                 = lang="en" class="no-js"
-    # cat=start - config*//203; type=string;  label= Language local all:Example for German: de_DE.UTF-8
-    locale_all                        = en_GB.UTF-8
     # cat=start - config*//301; type=boolean; label= Real URL:
     tx_realurl_enable = 0
     # cat=start - config*//302; type=boolean; label= Enable links across domains:This option enables to create links across domains using current domain's linking scheme. This option implies "config.typolinkCheckRootline=1", which will be activated automatically. Setting value of "config. typolinkCheckRootline" inside TS template will have no effect.
