@@ -1,7 +1,7 @@
 2.7.3
   2017-10-24
 	Feature
-	* #i0131: New serach form at sitelinetop. See:
+	* #i0131: New search form at sitelinetop. See:
 						* Configuration/TypoScript/Foundation/Start
 							* Constants/Foundation/SiteLineTop/searchform.ts
 							* Structure/site.ts
