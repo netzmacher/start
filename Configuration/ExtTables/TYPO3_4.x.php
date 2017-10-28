@@ -55,11 +55,11 @@ switch ( true )
 {
   case( $beLanguage == 'de' ):
     // German
-    $TCA[ 'pages' ][ 'columns' ][ 'module' ][ 'config' ][ 'items' ][] = array( 'Start', 'start', \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath( $_EXTKEY ) . 'ext_icon.gif' );
+    $TCA[ 'pages' ][ 'columns' ][ 'module' ][ 'config' ][ 'items' ][] = array( 'Start', 'start', \Netzmacher\Switcher\Compatibility\ExtensionManagementUtility::extRelPath( $_EXTKEY ) . 'ext_icon.gif' );
     break;
   default:
     // English
-    $TCA[ 'pages' ][ 'columns' ][ 'module' ][ 'config' ][ 'items' ][] = array( 'Start', 'start', \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath( $_EXTKEY ) . 'ext_icon.gif' );
+    $TCA[ 'pages' ][ 'columns' ][ 'module' ][ 'config' ][ 'items' ][] = array( 'Start', 'start', \Netzmacher\Switcher\Compatibility\ExtensionManagementUtility::extRelPath( $_EXTKEY ) . 'ext_icon.gif' );
     break;
 }
 t3lib_SpriteManager::addTcaTypeIcon( 'pages', 'contains-start', '../typo3conf/ext/start/ext_icon.gif' );
