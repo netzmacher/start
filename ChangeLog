@@ -1,7 +1,7 @@
 3.0.0
   COMPATIBILITY TYPO3 9.x
   2017-10-28
-	* #t1651: Compatibility: ExtensionManagementUtility::extRelPath -> Netzmacher\Switcher\Compatibility\ExtensionManagementUtility::extRelPath
+	* #t1651: Compatibility: ExtensionManagementUtility::extRelPath -> Netzmacher\Refresh\Compatibility\Core\Utility\ExtensionManagementUtility::extRelPath
   
 2.7.3
   2017-10-24
