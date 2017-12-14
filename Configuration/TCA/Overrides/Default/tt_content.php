@@ -82,6 +82,8 @@ $temporaryColumns = [
 				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined',
 				'config' => [
 						'type' => 'select',
+						// #t1668, 171206, dwildt, 1+
+						'renderType' => 'selectMultipleSideBySide',
 						'minitems' => 0,
 						'maxitems' => 99,
 						'items' => [
