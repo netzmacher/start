@@ -9,12 +9,6 @@ start {
     baseURL                           =
     # cat=start - config*//103; type=string;  label= Base URL for https*:*Obligate! Your base URL with ending slash. Example: https://die-netzmacher.de/
     baseURLhttps                      = Please configure TypoScript Constant start.config.baseURLhttps
-    # cat=start - config*//105; type=boolean;  label= contentObjectExceptionHandler:Disable it, if you like to see error prompts for content objects instead of an exception handling. Error prompts will cached. Please enable exception handling after the debugging.
-    contentObjectExceptionHandler     = 1
-		contentObjectExceptionHandler {
-	    # cat=start - config*//106; type=string;  label= contentObjectExceptionHandler prompt:Error message in case of exception handling
-			errorMessage = Oops an error occurred. Code: %s. If you like to know more, please disable the ContentObjectExceptionHandler @ Constant Editor > category [START - CONFIG]
-		}
     # cat=start - config*//107; type=options[html5,none,xhtml_11,xhtml_basic,xhtml_frames,xhtml+rdfa_10,xhtml_strict,xhtml_trans];  label= Document type:html5 for the HTML5 doctype. none for no doctype at all. xhtml_11 for the XHTML 1.1 doctype. xhtml_basic for the XHTML basic doctype. xhtml_frames for the XHTML 1.0 Frameset doctype. xhtml_strict for the XHTML 1.0 Strict doctype. xhtml+rdfa_10 for the XHTML+RDFa 1.0 doctype. xhtml_trans for the XHTML 1.0 Transitional doctype.
     doctype                           = html5
     # cat=start - config*//108; type=boolean; label= Clear cache at midnight:Obligated, if your are using calender items.

@@ -3,14 +3,14 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../../Includes.txt
+.. include:: ../../../Includes.txt
 
 
-.. _integrators_upgrades_typo3-7x8x:
+.. _integrators_upgrades_typo3-7x8x_extensions:
 
-TYPO3: 7.x to 8.x
-=================
 
+Extensions
+==========
 
 **Table of Contents**
 
@@ -18,7 +18,5 @@ TYPO3: 7.x to 8.x
     :maxdepth: 2
     :titlesonly:
 
-    20_CSSPanels/Index
-    30_Extensions/Index
-    50_Menus/Index
-    70_ResponsiveProperties/Index
+    30_CssStyledContent/Index
+    40_Gridelements/Index
