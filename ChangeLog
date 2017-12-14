@@ -3,7 +3,7 @@ UPGRADE for TYPO3 8.7, 9.x. YOU NEED Refresh - the TYPO3 Compatibility Class. Se
 3.0.2
   17-12-14
   Improvement
-	* #i0133: New category debugging for the Constant Editor
+	* #i0133: New category "config debugging" for the Constant Editor
 
 3.0.1
   17-12-06
