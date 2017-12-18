@@ -6,10 +6,11 @@
 .. include:: ../../Includes.txt
 
 
-.. _integrators_upgrades:
+.. _integrators_upgrades_typo3-76-87_extensions:
 
-Upgrades
-========
+
+Extensions
+==========
 
 **Table of Contents**
 
@@ -17,4 +18,6 @@ Upgrades
     :maxdepth: 2
     :titlesonly:
 
-    01_TYPO3-7x8x/Index
+    30_CssStyledContent/Index
+    40_T3Foundation/Index
+    50_Gridelements/Index

@@ -3,10 +3,10 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../../../Includes.txt
+.. include:: ../../Includes.txt
 
 
-.. _integrators_upgrades_typo3-7x8x_csspanels:
+.. _integrators_upgrades_typo3-76-87_csspanels:
 
 CSS for the Panels
 ==================

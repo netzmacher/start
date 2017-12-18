@@ -6,17 +6,16 @@
 .. include:: ../../../Includes.txt
 
 
-.. _integrators_upgrades_typo3-7x8x_extensions:
+.. _integrators_upgrades_typo3-76-87_extensions_t3foundation:
 
 
-Extensions
-==========
+Foundation Framework
+====================
 
-**Table of Contents**
+Please replace cbfoundation with t3foundation:
 
-.. toctree::
-    :maxdepth: 2
-    :titlesonly:
+* Include Static Templates
 
-    30_CssStyledContent/Index
-    40_Gridelements/Index
+* Constants
+
+* Setup

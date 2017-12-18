@@ -3,13 +3,18 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../../../Includes.txt
+.. include:: ../Includes.txt
 
 
-.. _integrators_upgrades_typo3-7x8x_responsive:
+.. _integrators_upgrades:
 
+Upgrades
+========
 
-Hide properties
-===============
+**Table of Contents**
 
-Foundation hide properties of content elements will lost.
+.. toctree::
+    :maxdepth: 2
+    :titlesonly:
+
+    01_TYPO3-76-87/Index

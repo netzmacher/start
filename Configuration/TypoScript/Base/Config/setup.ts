@@ -5,8 +5,8 @@ config {
   cache_clearAtMidnight             = {$start.config.cache_clearAtMidnight}
   compressCss                       = {$start.compress.css}
   compressJs                        = {$start.compress.jss}
-  concatenateCss                    = {$start.compress.css}
-  concatenateJs                     = {$start.compress.jss}
+  concatenateCss                    = {$start.concatenate.css}
+  concatenateJs                     = {$start.concatenate.jss}
 	contentObjectExceptionHandler     = {$start.config.contentObjectExceptionHandler}
 	contentObjectExceptionHandler {
 		errorMessage = {$start.config.contentObjectExceptionHandler.errorMessage}

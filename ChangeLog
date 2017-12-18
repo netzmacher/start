@@ -1,5 +1,16 @@
 UPGRADE for TYPO3 8.7, 9.x. YOU NEED Refresh - the TYPO3 Compatibility Class. See: https://typo3-browser-forum.de/sponsoring/refresh/
 
+3.0.3
+  17-12-16
+	Feature
+	* #t1834: CSS and JSS won't compressed any longer by default but concatenated. See
+						Contant Editor > category
+						* [START - COMPRESS CSS AND JSS]
+						* [START - CONCATENATE CSS AND JSS]
+	* #t1827: TypoScript depending on CSS Styled Content or Fluid Styled Content
+  Bugfix
+	* #i0134: TCA: tx_start_additionalclassdefined: 'renderType' is set to 'selectMultipleSideBySide'
+
 3.0.2
   17-12-14
   Improvement

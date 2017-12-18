@@ -3,12 +3,12 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../../Includes.txt
+.. include:: ../Includes.txt
 
 
-.. _integrators_upgrades_typo3-7x8x:
+.. _integrators_upgrades_typo3-76-87:
 
-TYPO3: 7.x to 8.x
+TYPO3: 7.6 to 8.7
 =================
 
 
@@ -21,4 +21,4 @@ TYPO3: 7.x to 8.x
     20_CSSPanels/Index
     30_Extensions/Index
     50_Menus/Index
-    70_ResponsiveProperties/Index
+    90_Trouble/Index

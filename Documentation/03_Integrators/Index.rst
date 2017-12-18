@@ -20,4 +20,3 @@ Integrators
     01_Installation/Index
     02_FirstSteps/Index
     03_BestPractise/Index
-    04_Upgrades/Index

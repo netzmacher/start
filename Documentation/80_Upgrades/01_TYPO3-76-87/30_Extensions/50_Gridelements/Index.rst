@@ -3,10 +3,10 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../../../../Includes.txt
+.. include:: ../../../Includes.txt
 
 
-.. _integrators_upgrades_typo3-7x8x_extensions_gridelements:
+.. _integrators_upgrades_typo3-76-87_extensions_gridelements:
 
 
 Grid Elements

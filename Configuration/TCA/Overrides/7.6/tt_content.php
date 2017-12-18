@@ -18,7 +18,7 @@ $temporaryColumns = array(
 				'config' => array(
 						'type' => 'select',
 						// #t1668, 171206, dwildt, 1+
-						'renderType' => 'selectSingle',
+						'renderType' => 'selectMultipleSideBySide',
 						'minitems' => 0,
 						'maxitems' => 99,
 						'items' => array(
