@@ -1,5 +1,10 @@
 UPGRADE for TYPO3 8.7, 9.x. YOU NEED Refresh - the TYPO3 Compatibility Class. See: https://typo3-browser-forum.de/sponsoring/refresh/
 
+3.1.0
+  17-12-26
+	Feature
+	* #i0135: Documentation: Updated section "Update from TYPO3 7.6 to 8.7"
+
 3.0.3
   17-12-16
 	Feature

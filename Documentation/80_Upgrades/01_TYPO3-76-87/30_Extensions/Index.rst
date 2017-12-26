@@ -19,5 +19,7 @@ Extensions
     :titlesonly:
 
     30_CssStyledContent/Index
+    35_FluidStyledContent/Index
     40_T3Foundation/Index
     50_Gridelements/Index
+    80_Slick/Index

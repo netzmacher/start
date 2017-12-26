@@ -5,4 +5,4 @@
 [else]
 	// condition doesn't met, FluidStyledContent isn't included, CssStyledContent must be included.
   <INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Base/TtContent/CSS_Styled_Content/setup.ts">
-[end]
+[global]

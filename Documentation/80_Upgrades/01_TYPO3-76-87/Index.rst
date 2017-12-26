@@ -18,7 +18,10 @@ TYPO3: 7.6 to 8.7
     :maxdepth: 2
     :titlesonly:
 
-    20_CSSPanels/Index
+    10_GoodToKnow/Index
     30_Extensions/Index
+    40_Header/Index
+    44_IndentationAndFrames/Index
     50_Menus/Index
+    80_SpaceBeforeAfter/Index
     90_Trouble/Index
