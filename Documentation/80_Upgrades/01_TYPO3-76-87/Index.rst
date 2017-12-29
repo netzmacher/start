@@ -20,8 +20,10 @@ TYPO3: 7.6 to 8.7
 
     10_GoodToKnow/Index
     30_Extensions/Index
+    38_FileList/Index
     40_Header/Index
     44_IndentationAndFrames/Index
     50_Menus/Index
     80_SpaceBeforeAfter/Index
+    82_Table/Index
     90_Trouble/Index

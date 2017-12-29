@@ -14,7 +14,7 @@ CSS Styled Content
 
 The extension is deprecated.
 
-You can update the values by thge SQL statements from below or manually. 
+You can update the values by the SQL statements from below or manually. 
 
 
 SQL Statement

@@ -21,7 +21,7 @@ It's possible to update this changing by SQL statements from below.
 Condition
 ---------
 
-Yyou don't must remove the fields while updating (comparing) the database:
+You don't must remove the fields while updating (comparing) the database:
 
 * spaceBefore
 
@@ -58,7 +58,7 @@ The SQL statement from below will "translate" pixel values to classes:
 
 * from 56px to 71px: large (4em)
 
-* from 72px to unlimited: extra-large (4em)
+* from 72px to unlimited: extra-large (5em)
 
 
 SQL Statement
@@ -71,7 +71,7 @@ Get all records with spaceBefore or spaceAfter values:
 
 .. code:: php
 
-	SELECT `uid`, `pid`, `header`, `spaceAfter`, `spaceBefore`
+	SELECT `uid`, `pid`, `header`, `spaceAfter`, `spaceBefore`, `space_after_class`, `space_before_class`
 	FROM `tt_content` 
 	WHERE `spaceAfter` > 0 OR `spaceBefore` > 0; 
 
@@ -114,7 +114,10 @@ UPDATE
 In case of a database dump
 ---------------------------
 
-Get all records with spaceBefore or spaceAfter values:
+spaceAfter
+^^^^^^^^^^
+
+Get all records with spaceAfter values:
 
 .. code:: php
 
@@ -123,7 +126,12 @@ Get all records with spaceBefore or spaceAfter values:
 	WHERE `spaceAfter` > 0;
 
 Export the result to a table like Excel or Libre Office calc. You find a draft 
-with a ready-to-use formular for a SQL update here: `spaceAfter.ods <spaceAfter.ods>`_
+with a ready-to-use formula for a SQL update for download at my Git here: `spaceAfter.ods <https://gitlab.die-netzmacher.de/typo3/start/blob/master/Documentation/80_Upgrades/01_TYPO3-76-87/80_SpaceBeforeAfter/spaceAfter.ods>`_
+
+spaceBefore
+^^^^^^^^^^^
+
+Get all records with spaceBefore values:
 
 .. code:: php
 
@@ -131,3 +139,5 @@ with a ready-to-use formular for a SQL update here: `spaceAfter.ods <spaceAfter.
 	FROM `tt_content` 
 	WHERE `spaceBefore` > 0; 
 
+Export the result to a table like Excel or Libre Office calc. You find a draft 
+with a ready-to-use formula for a SQL update for download at my Git here: `spaceBefore.ods <https://gitlab.die-netzmacher.de/typo3/start/blob/master/Documentation/80_Upgrades/01_TYPO3-76-87/80_SpaceBeforeAfter/spaceBefore.ods>`_

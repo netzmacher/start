@@ -1,5 +1,16 @@
 UPGRADE for TYPO3 8.7, 9.x. YOU NEED Refresh - the TYPO3 Compatibility Class. See: https://typo3-browser-forum.de/sponsoring/refresh/
 
+3.1.2
+  17-12-30
+	Improvement
+	* #i0138: extending documentation for Upgrade of CType table
+
+3.1.1
+  17-12-28
+	Improvement
+	* #i0137: extending documentation for Upgrade from cb_foundation to t3foundation
+	* #i0136: Small bugfixes in the documentation
+
 3.1.0
   17-12-26
 	Feature
