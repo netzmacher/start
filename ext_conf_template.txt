@@ -1,6 +1,6 @@
-  # cat=language/100;            type=options[English,German]; label= Backend Langauge: Language for special backend labels like TypoScript static templates. Property has an effect in the backend only.
+# cat=Backend;	type=boolean; label= Disable:Disable the Corporate Design of TYPO3 Start at backend login.
+backendstyleDisabled  = 0
+
+# cat=language;       type=option[English,German]; label= Backend Langauge: Language for special backend labels like TypoScript static templates. Property has an effect in the backend only.
 beLanguage = English
-  # cat=language/198;            type=user[EXT:start/lib/userfunc/class.tx_start_userfunc.php:tx_start_userfunc->promptExternalLinks]; label=External Links
-beLanguageExternalLinks = 1
-  # cat=language/199;           type=user[EXT:start/lib/userfunc/class.tx_start_userfunc.php:tx_start_userfunc->promptSponsors]; label=Subsidise the start project!
-beLanguageSponsors = 1
+

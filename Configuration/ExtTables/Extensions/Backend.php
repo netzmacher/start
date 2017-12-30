@@ -1,10 +1,5 @@
 <?php
 
-if( !defined( 'TYPO3_MODE' ) )
-{
-	die( 'Access denied.' );
-}
-
 /* * ****************************************************************************
  * TYPO3 Version
  * **************************************************************************** */
@@ -21,23 +16,13 @@ $typo3Version = $version;
 
 switch( TRUE )
 {
-	case($typo3Version < 6000000):
-		require( PATH_typo3conf . 'ext/start/Configuration/ExtTables/TYPO3_4.x.php' );
-		break;
-	case($typo3Version < 8000000):
+	case($typo3Version < 9000000):
 		// #t1571, 170929, dwildt, ~
-		require( PATH_typo3conf . 'ext/start/Configuration/ExtTables/TYPO3_7.x.php' );
+		require( PATH_typo3conf . 'ext/start/Configuration/ExtTables/Extensions/8.7/Backend.php' );
 		break;
-	case($typo3Version >= 8000000):
+	case($typo3Version >= 9000000):
 	default:
 		// #t1571, 170929, dwildt, +
-		require( PATH_typo3conf . 'ext/start/Configuration/ExtTables/Default.php' );
+		require( PATH_typo3conf . 'ext/start/Configuration/ExtTables/Extensions/9.0/Backend.php' );
 		break;
 }
-
-
-/* * ****************************************************************************
- * Backend Styling
- * **************************************************************************** */
-
-require_once( PATH_typo3conf . 'ext/start/Configuration/ExtTables/Extensions/Backend.php' );

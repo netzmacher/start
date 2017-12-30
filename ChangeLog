@@ -1,4 +1,14 @@
-UPGRADE for TYPO3 8.7, 9.x. YOU NEED Refresh - the TYPO3 Compatibility Class. See: https://typo3-browser-forum.de/sponsoring/refresh/
+UPGRADE for TYPO3 9.0. You need Refresh - the TYPO3 Compatibility Class.
+
+4.0.0
+  17-12-30
+	Improvement
+	* #i0140.4: Backend Styling
+	UPGRADE TYPO3 9.0
+	* #i0141.4: ext_conf_template.txt:
+							* type=user[EXT:refresh/Classes/Utility/UserFunc/ExtManager.php:Netzmacher... > type=user[Netzmacher...
+							* ext_conf_template.txt: options > option
+	* #i0139.4: * ext_emconf.php
 
 3.1.2
   17-12-30
