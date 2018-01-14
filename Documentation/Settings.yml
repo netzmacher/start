@@ -4,10 +4,10 @@
 
 ---
 conf.py:
-  copyright: 2014-2017
+  copyright: 2014-2018
   project: Start
-  version: 3.1
-  release: 3.1.2
+  version: 4.0
+  release: 4.0.3
   latex_documents:
   - - Index
     - start.tex

@@ -19,7 +19,7 @@ tt_content {
 									10 {
 										field = tx_start_additionalclass
 										required = 1
-										noTrimWrap = || |
+										noTrimWrap = | ||
 									}
 										// field = tx_start_additionalclassdefined
 									20 = TEXT
@@ -29,7 +29,7 @@ tt_content {
 											token = ,
 											cObjNum = 1
 											1.current = 1
-											1.noTrimWrap = || |
+											1.noTrimWrap = | ||
 											required = 1
 										}
 									}							

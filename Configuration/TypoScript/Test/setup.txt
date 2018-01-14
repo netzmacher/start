@@ -12,7 +12,7 @@ page {
         mylabel.value = Label coming from TypoScript!
     }
     settings {
-        copyrightYear = 2017
+        copyrightYear = 2017-2018
     }
 	}
 	30 = FLUIDTEMPLATE

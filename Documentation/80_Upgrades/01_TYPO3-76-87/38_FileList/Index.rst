@@ -31,4 +31,5 @@ UPDATE
 
 .. code:: php
 
-	UPDATE `tt_content` SET `uploads_type` =  `layout` WHERE `uploads_type` = 0 AND `layout` > 0
+	UPDATE `tt_content` SET `uploads_type` =  1 WHERE `uploads_type` = 0 AND `layout` = 1;
+	UPDATE `tt_content` SET `uploads_type` =  2 WHERE `uploads_type` = 0 AND `layout` > 1;

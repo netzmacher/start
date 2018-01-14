@@ -1,5 +1,22 @@
 UPGRADE for TYPO3 9.0. You need Refresh - the TYPO3 Compatibility Class.
 
+4.0.3
+  18-01-14
+	Improvement
+	* #i0144.4: Update Copyright 2018
+	* #i0143.4: Documentation Upgrade Foundation Framework
+
+4.0.2
+  18-01-11
+	Bugfix
+	* #i0142.4: tx_start_additionalclass and tx_start_additionalclassdefined had a wrong noTrimWrap.
+							|| | is moved to | ||. Thanks to Falko Trojahn for bug report.
+
+4.0.1
+  18-01-02
+	Improvement
+	* #i0141.4: Documentation Upgrade file list
+
 4.0.0
   17-12-30
 	Improvement

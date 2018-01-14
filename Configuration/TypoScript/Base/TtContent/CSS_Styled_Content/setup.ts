@@ -44,15 +44,17 @@ tt_content {
 							// for proper comments only
 						90 {
 						}
-							// start: field = tx_start_additionalclass
+							// [start] 10: tx_start_additionalclass, 20: tx_start_additionalclassdefined
 						90 = COA
 						90 {
+								// field = tx_start_additionalclass
 							10 = TEXT
 							10 {
 								field = tx_start_additionalclass
 								required = 1
-								noTrimWrap = || |
+								noTrimWrap = | ||
 							}
+								// field = tx_start_additionalclassdefined
 							20 = TEXT
 							20 {
 								stdWrap.field = tx_start_additionalclassdefined
@@ -60,7 +62,7 @@ tt_content {
 									token = ,
 									cObjNum = 1
 									1.current = 1
-									1.noTrimWrap = || |
+									1.noTrimWrap = | ||
 									required = 1
 								}
 							}

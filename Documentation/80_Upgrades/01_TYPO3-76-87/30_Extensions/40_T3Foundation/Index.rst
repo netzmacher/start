@@ -81,12 +81,14 @@ Replace template of cb_foundation with the one of t3foundation
 	SET `title` = REPLACE(`title`, 'cbfoundation', 't3foundation')
 	WHERE `title` LIKE '%cbfoundation%';
 
-Replace cb_foundation content elements with the ones of t3foundation (here: clearing lightbox):
+Replace cb_foundation content elements with the ones of t3foundation (here: clearing lightbox, flexible video and orbit slider):
 
 .. code:: php
 
 	-- extension cb_foundation
 	UPDATE `tt_content` SET `CType` = 't3foundation_clearing' WHERE `tt_content`.`CType` LIKE 'cbfoundation_clearing';
+	UPDATE `tt_content` SET `CType` = 't3foundation_flexvid' WHERE `tt_content`.`CType` LIKE 'cbfoundation_flexvid';
+	UPDATE `tt_content` SET `CType` = 't3foundation_orbit' WHERE `tt_content`.`CType` LIKE 'cbfoundation_orbit';
 
 
 Manually
