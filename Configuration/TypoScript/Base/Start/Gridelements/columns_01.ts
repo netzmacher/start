@@ -1,8 +1,3 @@
-  // for proper comments only
-start {
-}
-  // gridelements
-start =
 start {
     // for proper comments only
   gridelements {
