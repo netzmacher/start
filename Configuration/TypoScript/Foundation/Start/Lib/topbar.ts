@@ -421,6 +421,8 @@ start {
 									<div class="row collapse">
 										<div class="large-8 small-9 columns">
 											<input type="text" name="{$start.foundation.topbar.searchform.param}" placeholder="{$start.foundation.topbar.searchform.placeholder}">
+											<input type="hidden" name="{$start.foundation.topbar.searchform.action.param}" value="{$start.foundation.topbar.searchform.action.value}">
+											<input type="hidden" name="{$start.foundation.topbar.searchform.controller.param}" value="{$start.foundation.topbar.searchform.controller.value}">
 										</div>
 										<div class="large-4 small-3 columns">
 											<button class="tiny expand hidesubmit" role="button">

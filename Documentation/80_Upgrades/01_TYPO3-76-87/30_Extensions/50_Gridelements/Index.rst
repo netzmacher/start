@@ -12,15 +12,32 @@
 Grid Elements
 =============
 
-Manual Update
--------------
+In case of broken frontend layouts
+----------------------------------
 
-TYPO3 8.x need's the extension Grid Elements (gridelements) from version 8.0.0.
+SELECT
+^^^^^^
 
-If this version isn't available at the TYPO3 repository, please download it here:
+Find content elements:
 
-* `gridelements.zip <https://github.com/TYPO3-extensions/gridelements/archive/master.zip>`__
+.. code:: php
 
-* `Git repository <https://github.com/TYPO3-extensions/gridelements>`__
+	-- extension gridelements
+	SELECT `uid`, `pid`, `header`, `colPos`, `tx_gridelements_container`
+	FROM `tt_content`
+	WHERE `colPos` >= 0
+	AND `tx_gridelements_container` > 0
+	-- AND `pid` = 5813
 
-Install the extension with extension manager.
+
+Update
+^^^^^^
+
+.. code:: php
+
+	-- extension gridelements
+	UPDATE `tt_content` 
+	SET `colPos` = -1
+	WHERE `colPos` >= 0
+	AND `tx_gridelements_container` > 0
+	-- AND `pid` = 5813

@@ -103,7 +103,7 @@ UPDATE
 	WHERE `frame_class` LIKE 'custom-2869';
 	UPDATE `tt_content` 
 	SET `frame_class` = 'default', `tx_start_additionalclassdefined` = CONCAT_WS(',', `tx_start_additionalclassdefined`, 'panel','startgreenWhiteShadow')
-	WHERE `frame_class` LIKE 'custom-2810';
+	WHERE `frame_class` LIKE 'custom-2870';
 
 	-- extension t3foundation
 	UPDATE `tt_content` 

@@ -25,7 +25,7 @@ start {
           slide = -1
           stdWrap {
             required  = 1
-            wrap      = <!--contentbottom--><!--TYPO3SEARCH_begin--><section class="content contentbottom"><div class="row"><div class="columns"> |</div></div></section><!--TYPO3SEARCH_end--><!--/contentbottom-->
+            wrap      = <!--contentbottom--><section class="content contentbottom"><div class="row"><div class="columns"> |</div></div></section><!--/contentbottom-->
           }
         }
       }
@@ -41,7 +41,7 @@ start {
           slide = -1
           stdWrap {
             required  = 1
-            wrap      = <!--bottomLeft--><!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end--><!--/bottomLeft-->
+            wrap      = <!--bottomLeft-->|<!--TYPO3SEARCH_end--><!--/bottomLeft-->
           }
         }
       }
@@ -53,7 +53,7 @@ start {
             where = colPos=6
           }
           stdWrap {
-            wrap      = <!--bottomCenter--><!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end--><!--/bottomCenter-->
+            wrap      = <!--bottomCenter-->|<!--TYPO3SEARCH_end--><!--/bottomCenter-->
           }
         }
       }
@@ -65,7 +65,7 @@ start {
             where = colPos=5
           }
           stdWrap {
-            wrap      = <!--bottomRight--><!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end--><!--/bottomRight-->
+            wrap      = <!--bottomRight-->|<!--TYPO3SEARCH_end--><!--/bottomRight-->
           }
         }
       }
@@ -85,12 +85,12 @@ start {
 								10 = TEXT
 								10 {
 									if.isTrue = {$start.structure.content.left.class}
-									value = <div class="{$start.structure.content.left.class}">|</div>
+									value = <div class="{$start.structure.content.left.class}"><!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end--></div>
 								}
 								20 = TEXT
 								20 {
 									if.isFalse = {$start.structure.content.left.class}
-									value = |
+									value = <!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end-->
 								}
 							}
 						}
@@ -106,6 +106,14 @@ start {
           select {
             where = colPos=0
           }
+					wrap {
+						stdWrap {
+							cObject = TEXT
+							cObject {
+								value = <!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end-->
+							}
+						}
+					}	
         }
       }
         // CONTENT, stdWrap
@@ -124,12 +132,12 @@ start {
 								10 = TEXT
 								10 {
 									if.isTrue = {$start.structure.content.right.class}
-									value = <div class="{$start.structure.content.right.class}">|</div>
+									value = <div class="{$start.structure.content.right.class}"><!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end--></div>
 								}
 								20 = TEXT
 								20 {
 									if.isFalse = {$start.structure.content.right.class}
-									value = |
+									value = <!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end-->
 								}
 							}
 						}
@@ -148,7 +156,7 @@ start {
           slide = -1
           stdWrap {
             required  = 1
-            wrap      = <!--topLeft--><!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end--><!--/topLeft-->
+            wrap      = <!--topLeft-->|<!--TYPO3SEARCH_end--><!--/topLeft-->
           }
         }
       }
@@ -160,7 +168,7 @@ start {
             where = colPos=3
           }
           stdWrap {
-            wrap      = <!--topCenter--><!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end--><!--/topCenter-->
+            wrap      = <!--topCenter-->|<!--TYPO3SEARCH_end--><!--/topCenter-->
           }
         }
       }
@@ -172,7 +180,7 @@ start {
             where = colPos=2
           }
           stdWrap {
-            wrap      = <!--topRight--><!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end--><!--/topRight-->
+            wrap      = <!--topRight-->|<!--TYPO3SEARCH_end--><!--/topRight-->
           }
         }
       }

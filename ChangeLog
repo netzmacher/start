@@ -1,5 +1,32 @@
 UPGRADE for TYPO3 9.0. You need Refresh - the TYPO3 Compatibility Class.
 
+4.0.7
+  18-02-05
+	Improvement
+	* #i0150: CSS shadow for image: #startBox01 .startImgWiShadow .frame-type-image 
+	* #i0149: Documentation: update section upgrades > gridelements 
+
+4.0.6
+  18-01-31
+	Improvement
+	* #i0148.4: Renamed
+							* Resources/Private/Gridelements/Fluid
+								* tabs.html > accordionOrTabs.html
+
+4.0.5
+  18-01-24
+	Feature
+	* #i0147.4: Search form sitelinetop and topbar get new proerties in constant editor:
+							* action.param
+							* action.value 
+							* controller.param 
+							* controller.value 
+
+	Improvement
+	* #i0146.4: Improvement indexed search:
+							* Columns left, main, right got a wrap <!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end-->
+							* The wrap is removed in all other columns
+
 4.0.4
   18-01-19
 	Improvement

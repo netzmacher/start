@@ -195,6 +195,8 @@ start {
 								<form id="siteLineTopSearch" action="index.php?id={$start.foundation.sitelinetop.searchform.pid}&amp;no_cache=1" method="{$start.foundation.sitelinetop.searchform.method}">
 									<input type="hidden" name="no_cache" value="1">
 										<input type="text" name="{$start.foundation.sitelinetop.searchform.param}" placeholder="{$start.foundation.sitelinetop.searchform.placeholder}">
+											<input type="hidden" name="{$start.foundation.sitelinetop.searchform.action.param}" value="{$start.foundation.sitelinetop.searchform.action.value}">
+											<input type="hidden" name="{$start.foundation.sitelinetop.searchform.controller.param}" value="{$start.foundation.sitelinetop.searchform.controller.value}">
 										<a href="#" onclick="$(this).closest('form').submit()">
 											<i class="fi-magnifying-glass"></i>
 										</a>

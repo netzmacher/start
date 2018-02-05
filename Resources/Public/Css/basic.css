@@ -73,7 +73,8 @@
 #startBox01 .startImgWiShadow ul.csc-uploads li {
 	overflow: visible;
 }
-#startBox01 .startImgWiShadow img {
+#startBox01 .startImgWiShadow img,
+#startBox01 .startImgWiShadow .frame-type-image {
   -moz-box-box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
   -webkit-box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
   box-shadow: 2px 2px 4px rgba(0,0,0,0.5);

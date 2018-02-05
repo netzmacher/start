@@ -19,7 +19,7 @@ start {
     {$start.gridelement.accordionOrTabs} {
 			cObject = FLUIDTEMPLATE
 			cObject {
-				file = EXT:start/Resources/Private/Gridelements/Fluid/tabs.html
+				file = EXT:start/Resources/Private/Gridelements/Fluid/accordionOrTabs.html
 			}
     }
   }
