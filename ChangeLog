@@ -1,8 +1,9 @@
 UPGRADE for TYPO3 9.0. You need Refresh - the TYPO3 Compatibility Class.
 
 4.0.7
-  18-02-05
+  18-02-07
 	Improvement
+	* #i0151: Documentation: update section upgrades: small improvements
 	* #i0150: CSS shadow for image: #startBox01 .startImgWiShadow .frame-type-image 
 	* #i0149: Documentation: update section upgrades > gridelements 
 

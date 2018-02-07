@@ -39,6 +39,9 @@ UPDATE
 	UPDATE `sys_template` 
 	SET `include_static_file` = REPLACE(`include_static_file`, 'EXT:css_styled_content/Configuration/TypoScript/', 'EXT:fluid_styled_content/Configuration/TypoScript/,EXT:fluid_styled_content/Configuration/TypoScript/Styling/')
 	WHERE `include_static_file` LIKE '%EXT:css_styled_content/Configuration/TypoScript/%'
+	UPDATE `sys_template` 
+	SET `title` = REPLACE(`title`, 'cssstyledcontent', 'fluidstyledcontent')
+	WHERE `title` LIKE '%cssstyledcontent%';
 
 
 Manually
