@@ -5,7 +5,7 @@
         <dd class="accordion-navigation">
           <a href="#c{el.uid}-accordion-{i.index}">{el.header}</a>
           <div id="c{el.uid}-accordion-{i.index}" class="content">
-            <f:format.html parseFuncTSPath="lib.parseFunx">{el.bodytext}</f:format.html>
+            <f:format.html parseFuncTSPath="lib.parseFunc">{el.bodytext}</f:format.html>
           </div>
         </dd>
       </f:for>
@@ -20,7 +20,7 @@
     <div class="tabs-content">
       <f:for each="{data.tx_gridelements_view_children}" as="el" iteration="i">
         <div class="content" id="tabs-{i.index}">
-          <f:format.html parseFuncTSPath="lib.parseFunx">{el.bodytext}</f:format.html>
+          <f:format.html parseFuncTSPath="lib.parseFunc">{el.bodytext}</f:format.html>
         </div>
       </f:for>
     </div>

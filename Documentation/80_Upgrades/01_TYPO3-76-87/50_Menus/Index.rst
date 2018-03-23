@@ -27,7 +27,7 @@ SELECT
 	-- Sitemap
 	SELECT `uid`, `pid`, `header`, `CType`, `menu_type` FROM `tt_content` WHERE `CType` = 'menu' AND `menu_type` = 2;
 	-- Menu Pages
-	SELECT `uid`, `pid`, `header`, `CType`, `menu_type` FROM `tt_content` WHERE `CType` = 'menu' AND `menu_type` = 0;
+	SELECT `uid`, `pid`, `header`, `CType`, `menu_type` FROM `tt_content` WHERE `CType` = 'menu' AND `menu_type` = '0';
 	-- Menu Subpages
 	SELECT `uid`, `pid`, `header`, `CType`, `menu_type` FROM `tt_content` WHERE `CType` = 'menu' AND `menu_type` = 1;
 	SELECT `uid`, `pid`, `header`, `CType`, `menu_type` FROM `tt_content` WHERE `CType` = 'menu' AND `menu_type` = 4;
@@ -45,7 +45,7 @@ UPDATE
 	-- Sitemap
 	UPDATE `tt_content` SET `CType` = 'menu_sitemap', `menu_type` = NULL WHERE `tt_content`.`CType` = 'menu' AND `menu_type` = 2;
 	-- Menu Pages
-	UPDATE `tt_content` SET `CType` = 'menu_pages', `menu_type` = NULL WHERE `tt_content`.`CType` = 'menu' AND `menu_type` = 0;
+	UPDATE `tt_content` SET `CType` = 'menu_pages', `menu_type` = NULL WHERE `tt_content`.`CType` = 'menu' AND `menu_type` = '0';
 	-- Menu Subpages
 	UPDATE `tt_content` SET `CType` = 'menu_subpages', `menu_type` = NULL WHERE `tt_content`.`CType` = 'menu' AND `menu_type` = 1;
 	UPDATE `tt_content` SET `CType` = 'menu_subpages', `menu_type` = NULL WHERE `tt_content`.`CType` = 'menu' AND `menu_type` = 4;

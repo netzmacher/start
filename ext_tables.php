@@ -40,4 +40,5 @@ switch( TRUE )
  * Backend Styling
  * **************************************************************************** */
 
-require_once( PATH_typo3conf . 'ext/start/Configuration/ExtTables/Extensions/Backend.php' );
+//require_once( PATH_typo3conf . 'ext/start/Configuration/ExtTables/Extensions/Backend.php' );
+\Netzmacher\Start\Backend\Extensions\Backend::Style();
