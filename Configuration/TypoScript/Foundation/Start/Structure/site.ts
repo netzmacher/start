@@ -5,10 +5,10 @@ start {
       lineTop {
 			}
       lineTop >
-				// 20: Content from page {$start.pages.siteLineTop}. 30: social media links, searchform, start: foundation sidenav
+				// 20: Content from page $start.pages.siteLineTop (here: {$start.pages.siteLineTop}). 30: social media links, searchform, start: foundation sidenav
       lineTop = COA
       lineTop {
-					// Content from page {$start.pages.siteLineTop}
+					// Content from page $start.pages.siteLineTop (here: {$start.pages.siteLineTop})
 				20 = COA
 				20 {
 						// if.isTrue = $start.pages.siteLineTop (here: {$start.pages.siteLineTop})
