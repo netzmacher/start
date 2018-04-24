@@ -5,7 +5,7 @@ start {
       lineTop {
 			}
       lineTop >
-        // 20 >, 20.30: start.lib.sidenav
+				// 20: Content from page {$start.pages.siteLineTop}. 30: 
       lineTop = COA
       lineTop {
 				20 = COA
@@ -36,6 +36,7 @@ start {
 						wrap      = <div class="siteLineTop siteLineTopContent hide-for-small-only"><div class="row siteLine"><div class="columns">|</div></div></div>
 					}
 				}
+					// social media links, searchform, start: foundation sidenav
 				30 = COA
 				30 {
 						// if.isTrue.cObject: an icon or $start.pages.siteLineTop is set (here: {$start.pages.siteLineTop})
