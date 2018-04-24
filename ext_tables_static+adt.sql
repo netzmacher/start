@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `tx_gridelements_backend_layout` (
   PRIMARY KEY (`uid`),
   KEY `parent` (`pid`),
   KEY `t3ver_oid` (`t3ver_oid`,`t3ver_wsid`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=13 ;
+) ENGINE=InnoDB  DEFAULT CHARACTER SET=utf8 AUTO_INCREMENT=13 ;
 
 DELETE FROM `tx_gridelements_backend_layout` WHERE `uid` = 1;
 DELETE FROM `tx_gridelements_backend_layout` WHERE `uid` = 2;

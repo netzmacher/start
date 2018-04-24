@@ -16,21 +16,43 @@ start {
 						isTrue {
 							cObject = COA
 							cObject {
+									// if.isTrue.data = levelfield:-1, tx_start_social_facebook, slide
 								10 = TEXT
 								10 {
 									if.isTrue.data = levelfield:-1, tx_start_social_facebook, slide
 									value = 1
 								}
-								20 < .10
-								20.if.isTrue.data = levelfield:-1, tx_start_social_googleplus, slide
-								30 < .10
-								30.if.isTrue.data = levelfield:-1, tx_start_social_instagram, slide
-								40 < .10
-								40.if.isTrue.data = levelfield:-1, tx_start_social_twitter, slide
-								50 < .10
-								50.if.isTrue.data = levelfield:-1, tx_start_social_vimeo, slide
-								60 < .10
-								60.if.isTrue.data = levelfield:-1, tx_start_social_youtube, slide
+									// if.isTrue.data = levelfield:-1, tx_start_social_googleplus, slide
+								20 = TEXT
+								20 {
+									if.isTrue.data = levelfield:-1, tx_start_social_googleplus, slide
+									value = 1
+								}
+									// if.isTrue.data = levelfield:-1, tx_start_social_instagram, slide
+								30 = TEXT
+								30 {
+									if.isTrue.data = levelfield:-1, tx_start_social_instagram, slide
+									value = 1
+								}
+									// if.isTrue.data = levelfield:-1, tx_start_social_twitter, slide
+								40 = TEXT
+								40 {
+									if.isTrue.data = levelfield:-1, tx_start_social_twitter, slide
+									value = 1
+								}
+									// if.isTrue.data = levelfield:-1, tx_start_social_vimeo, slide
+								50 = TEXT
+								50 {
+									if.isTrue.data = levelfield:-1, tx_start_social_vimeo, slide
+									value = 1
+								}
+									// if.isTrue.data = levelfield:-1, tx_start_social_youtube, slide
+								60 = TEXT
+								60 {
+									if.isTrue.data = levelfield:-1, tx_start_social_youtube, slide
+									value = 1
+								}
+									// if.isTrue = $start.pages.siteLineTop (here: {$start.pages.siteLineTop})
 								70 = TEXT
 								70 {
 									if.isTrue = {$start.pages.siteLineTop}

@@ -1,5 +1,16 @@
 UPGRADE for TYPO3 9.0. You need Refresh - the TYPO3 Compatibility Class.
 
+4.0.11
+  18-04-24
+	Improvement
+	* #i0155: TypoScript comments
+
+4.0.10
+  18-04-09
+	Bugfix
+	* #i0154: ext_tables_static+adt.sql: DEFAULT CHARSET > DEFAULT CHARACTER SET
+						Thanks to Dirk Gómez for the bug report and solution
+
 4.0.9
   18-03-23
 	Feature
