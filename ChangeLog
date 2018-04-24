@@ -3,6 +3,8 @@ UPGRADE for TYPO3 9.0. You need Refresh - the TYPO3 Compatibility Class.
 4.0.11
   18-04-24
 	Improvement
+	* #i0156: Template "Start [2] Foundation": siteLineTop got 10 = CONTENT. See
+						
 	* #i0155: TypoScript comments
 
 4.0.10

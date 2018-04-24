@@ -16,11 +16,6 @@ start {
         // 20: if.isTrue = $start.pages.siteLineBottom (here: {$start.pages.siteLineBottom})
       lineBottom = COA
       lineBottom {
-#					// if.isTrue = $start.pages.siteLineBottom (here: {$start.pages.siteLineBottom})
-#        if =
-#        if {
-#          isTrue = {$start.pages.siteLineBottom}
-#        }
         20 < styles.content.get
         20 {
           select {
@@ -37,7 +32,7 @@ start {
 						}
 					}
         }
-	        // (c) TYPO3 GRÜNE
+	        // (c) Start TYPO3 Responsive!
         30 = TEXT
         30 {
 					value = Dies ist eine Website mit <a href="http://start-typo3-responsive.de/" class="external-link-new-window" title="start-typo3-responsive.de" data-htmlarea-external="1">Start TYPO3 Responsive!</a>. Einem kostenlosen TYPO3-Template.
