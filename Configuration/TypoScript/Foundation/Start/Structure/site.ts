@@ -8,8 +8,8 @@ start {
         // 20 >, 20.30: start.lib.sidenav
       lineTop = COA
       lineTop {
-				10 = COA
-				10 {
+				20 = COA
+				20 {
 						// if.isTrue = $start.pages.siteLineTop (here: {$start.pages.siteLineTop})
 					if =
 					if {
@@ -36,8 +36,8 @@ start {
 						wrap      = <div class="siteLineTop siteLineTopContent hide-for-small-only"><div class="row siteLine"><div class="columns">|</div></div></div>
 					}
 				}
-				20 = COA
-				20 {
+				30 = COA
+				30 {
 						// if.isTrue.cObject: an icon or $start.pages.siteLineTop is set (here: {$start.pages.siteLineTop})
 					if =
 					if {
