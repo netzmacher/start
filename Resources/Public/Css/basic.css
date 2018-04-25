@@ -218,7 +218,7 @@
 }
 
 /* #i0157, 180425, dwildt, 5+ */
-#flexcenter {
+/*#flexcenter {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -227,7 +227,7 @@
 	display: inline;
 	width: 0;
 	overflow: hidden;
-}
+}*/
 
 @media only screen and (min-width: 40.063em) {
 	#startBox01 .startFigCaptionHideForSmallOnly figcaption {
