@@ -223,6 +223,9 @@
 	align-items: center;
 	justify-content: center;
 }
+.flexcenterbugfix {
+	display:none;
+}
 
 @media only screen and (min-width: 40.063em) {
 	#startBox01 .startFigCaptionHideForSmallOnly figcaption {
