@@ -1,12 +1,12 @@
-UPGRADE for TYPO3 9.0. You need Refresh - the TYPO3 Compatibility Class.
-
 4.0.11
-  18-04-24
+  18-04-25
 	Improvement
 	* #i0156: Template "Start [2] Foundation": siteLineTop got 20 = CONTENT. 20 = COA is moved to 30 = COA. See
-
-						
 	* #i0155: TypoScript comments
+	Bugfix
+	* #i0157: Conflict top-bar and select boxes on some devices with Android.
+						* Removed: #startBox02 {	margin:0 auto; }
+						* New div tag: <div class="flexcenter">
 
 4.0.10
   18-04-09
