@@ -224,7 +224,9 @@
 	justify-content: center;
 }
 .flexcenterbugfix {
-	display:none;
+	display: inline;
+	width: 0;
+	overflow: hidden;
 }
 
 @media only screen and (min-width: 40.063em) {
