@@ -1,11 +1,14 @@
-<f:layout name="Bronze" />
-<f:section name="Content">
+<f:layout name="simple" />
+<f:section name="content">
   <div class="maincontent">
     <div class="row">
       <div class="{settings.classColMainContentMain} columns maincontentmain">
         <!--content-->
         <f:cObject typoscriptObjectPath="start.structure.content.main" />
         <!--/content-->
+      </div>
+      <div class="{settings.classColMainContentRight} columns maincontentright">
+        <f:cObject typoscriptObjectPath="start.structure.content.right" />
       </div>
     </div>
   </div>

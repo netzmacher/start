@@ -5,11 +5,11 @@ page {
 		// startNormalize, startFoundation, startStart, startCssAWiIcon (if.isTrue = "{$start.css.a.wiIcon}")
   includeCSS =
   includeCSS {
-    startNormalize  = EXT:start/Resources/Public/JavaScript/Libs/Foundation-5.5.3/css/normalize.css
-    startFoundation = EXT:start/Resources/Public/JavaScript/Libs/Foundation-5.5.3/css/foundation.min.css
-    startStart			= EXT:start/Resources/Public/Css/basic.css
+    startNormalize  = {$start.foundation.files.css.normalize}
+    startFoundation = {$start.foundation.files.css.foundation}
+    startStart			= {$start.foundation.files.css.basic}
 			// if.isTrue = $start.css.a.wiIcon (here: {$start.foundation.css.a.wiIcon})
-    startCssAWiIcon = EXT:start/Resources/Public/Css/a-icon.css
+    startCssAWiIcon = {$start.foundation.files.css.aTagWiIcon}
     startCssAWiIcon {
 				// if.isTrue = $start.css.a.wiIcon (here: {$start.foundation.css.a.wiIcon})
 			if = 
@@ -24,7 +24,7 @@ page {
 		// startModernizr (if.isTrue = "{$start.foundation.javascript.includeJS.startModernizr}")
   includeJSlibs =
   includeJSlibs {
-    startModernizr = EXT:start/Resources/Public/JavaScript/Libs/Foundation-5.5.3/js/vendor/modernizr.js
+    startModernizr = {$start.foundation.files.javascript.modernizr}
     startModernizr {
 				// if.isTrue start.foundation.javascript.includeJS.startModernizr (here: {$start.foundation.javascript.includeJS.startModernizr})
 			if =
@@ -36,18 +36,19 @@ page {
 		// empty statement for proper comments only
   includeJSFooter {
 	}
-		// startFastclick, startFoundation, startFoundationClearing, startFoundationInit, startBootstrapForFoundation
+		// startFastclick, startFoundation, startFoundationClearing, startFoundationWhatInput, startFoundationInit, startBootstrapForFoundation
   includeJSFooter =
   includeJSFooter {
-    startFastclick          = EXT:start/Resources/Public/JavaScript/Libs/Foundation-5.5.3/js/vendor/fastclick.js
+			// if.isTrue start.foundation.javascript.includeJS.startFastclick (here: {$start.foundation.javascript.includeJS.startFastclick})
+    startFastclick          = {$start.foundation.files.javascript.fastclick}
     startFastclick {
-				// if.isTrue start.foundation.javascript.includeJS.startFastclick (here: {$start.foundation.javascript.includeJS.startFastclick})
 			if =
 			if {
 				isTrue = {$start.foundation.javascript.includeJS.startFastclick}
 			}
     }
-    startFoundation         = EXT:start/Resources/Public/JavaScript/Libs/Foundation-5.5.3/js/foundation.min.js
+			// if.isTrue start.foundation.javascript.includeJS.startFoundation (here: {$start.foundation.javascript.includeJS.startFoundation})
+    startFoundation         = {$start.foundation.files.javascript.foundation}
     startFoundation {
 				// if.isTrue start.foundation.javascript.includeJS.startFoundation (here: {$start.foundation.javascript.includeJS.startFoundation})
 			if =
@@ -55,7 +56,8 @@ page {
 				isTrue = {$start.foundation.javascript.includeJS.startFoundation}
 			}
     }
-    startFoundationClearing = EXT:start/Resources/Public/JavaScript/Libs/Foundation-5.5.3/js/foundation/foundation.clearing.js
+			// if.isTrue start.foundation.javascript.includeJS.startFoundationClearing (here: {$start.foundation.javascript.includeJS.startFoundationClearing})
+    startFoundationClearing = {$start.foundation.files.javascript.clearing}
     startFoundationClearing {
 				// if.isTrue start.foundation.javascript.includeJS.startFoundationClearing (here: {$start.foundation.javascript.includeJS.startFoundationClearing})
 			if =
@@ -63,7 +65,17 @@ page {
 				isTrue = {$start.foundation.javascript.includeJS.startFoundationClearing}
 			}
     }
-    startFoundationInit     = EXT:start/Resources/Public/JavaScript/Libs/foundationInit.js
+			// if.isTrue start.foundation.javascript.includeJS.startFoundationWhatInput (here: {$start.foundation.javascript.includeJS.startFoundationWhatInput})
+    startFoundationWhatInput     = {$start.foundation.files.javascript.whatinput}
+    startFoundationWhatInput {
+				// if.isTrue start.foundation.javascript.includeJS.startFoundationWhatInput (here: {$start.foundation.javascript.includeJS.startFoundationWhatInput})
+			if =
+			if {
+				isTrue = {$start.foundation.javascript.includeJS.startFoundationWhatInput}
+			}
+    }
+			// if.isTrue start.foundation.javascript.includeJS.startFoundationInit (here: {$start.foundation.javascript.includeJS.startFoundationInit})
+    startFoundationInit     = {$start.foundation.files.javascript.init}
     startFoundationInit {
 				// if.isTrue start.foundation.javascript.includeJS.startFoundationInit (here: {$start.foundation.javascript.includeJS.startFoundationInit})
 			if =
@@ -71,7 +83,8 @@ page {
 				isTrue = {$start.foundation.javascript.includeJS.startFoundationInit}
 			}
     }
-    startBootstrapForFoundation     = EXT:start/Resources/Public/JavaScript/Libs/extBootstrapForFoundation.js
+			// if.isTrue start.foundation.javascript.includeJS.startBootstrapForFoundation (here: {$start.foundation.javascript.includeJS.startBootstrapForFoundation})
+    startBootstrapForFoundation     = {$start.foundation.files.javascript.bootstrap}
     startBootstrapForFoundation {
 				// if.isTrue start.foundation.javascript.includeJS.startBootstrapForFoundation (here: {$start.foundation.javascript.includeJS.startBootstrapForFoundation})
 			if =
@@ -86,7 +99,8 @@ page {
 		// startJquery (if.isTrue = "{$start.foundation.javascript.includeJS.startJquery}")
   includeJSFooterlibs =
   includeJSFooterlibs {
-    startJquery = EXT:start/Resources/Public/JavaScript/Libs/Foundation-5.5.3/js/vendor/jquery.js
+			// if.isTrue start.foundation.javascript.includeJS.startJquery (here: {$start.foundation.javascript.includeJS.startJquery})
+    startJquery = {$start.foundation.files.javascript.jquery}
     startJquery {
 				// if.isTrue start.foundation.javascript.includeJS.startJquery (here: {$start.foundation.javascript.includeJS.startJquery})
 			if =
@@ -106,10 +120,10 @@ startPrint {
 		// startNormalize, startFoundation, startStart, startCssAWiIcon (if.isTrue = "{$start.css.a.wiIcon}")
   includeCSS =
   includeCSS {
-    startNormalize  = EXT:start/Resources/Public/JavaScript/Libs/Foundation-5.5.3/css/normalize.css
-    startFoundation = EXT:start/Resources/Public/JavaScript/Libs/Foundation-5.5.3/css/foundation.min.css
-    startStart			= EXT:start/Resources/Public/Css/basic.css
-    startCssAWiIcon = EXT:/start/Resources/Public/Css/a-icon.css
+    startNormalize  = {$start.foundation.files.css.normalize}
+    startFoundation = {$start.foundation.files.css.foundation}
+    startStart			= {$start.foundation.files.css.basic}
+    startCssAWiIcon = {$start.foundation.files.css.aTagWiIcon}
     startCssAWiIcon {
 				// if.isTrue = $start.css.a.wiIcon (here: {$start.css.a.wiIcon})
 			if = 
@@ -124,7 +138,7 @@ startPrint {
 		// startModernizr (if.isTrue = "{$start.foundation.javascript.includeJS.startModernizr}")
   includeJSlibs =
   includeJSlibs {
-    startModernizr = EXT:start/Resources/Public/JavaScript/Libs/Foundation-5.5.3/js/vendor/modernizr.js
+    startModernizr = {$start.foundation.files.javascript.modernizr}
     startModernizr {
 				// if.isTrue start.foundation.javascript.includeJS.startModernizr (here: {$start.foundation.javascript.includeJS.startModernizr})
 			if =
@@ -136,18 +150,19 @@ startPrint {
 		// empty statement for proper comments only
   includeJSFooter {
 	}
-		// startFastclick, startFoundation, startFoundationClearing, startFoundationInit, startBootstrapForFoundation
+		// startFastclick, startFoundation, startFoundationClearing, startFoundationWhatInput, startFoundationInit, startBootstrapForFoundation
   includeJSFooter =
   includeJSFooter {
-    startFastclick          = EXT:start/Resources/Public/JavaScript/Libs/Foundation-5.5.3/js/vendor/fastclick.js
+			// if.isTrue start.foundation.javascript.includeJS.startFastclick (here: {$start.foundation.javascript.includeJS.startFastclick})
+    startFastclick          = {$start.foundation.files.javascript.fastclick}
     startFastclick {
-				// if.isTrue start.foundation.javascript.includeJS.startFastclick (here: {$start.foundation.javascript.includeJS.startFastclick})
 			if =
 			if {
 				isTrue = {$start.foundation.javascript.includeJS.startFastclick}
 			}
     }
-    startFoundation         = EXT:start/Resources/Public/JavaScript/Libs/Foundation-5.5.3/js/foundation.min.js
+			// if.isTrue start.foundation.javascript.includeJS.startFoundation (here: {$start.foundation.javascript.includeJS.startFoundation})
+    startFoundation         = {$start.foundation.files.javascript.foundation}
     startFoundation {
 				// if.isTrue start.foundation.javascript.includeJS.startFoundation (here: {$start.foundation.javascript.includeJS.startFoundation})
 			if =
@@ -155,7 +170,8 @@ startPrint {
 				isTrue = {$start.foundation.javascript.includeJS.startFoundation}
 			}
     }
-    startFoundationClearing = EXT:start/Resources/Public/JavaScript/Libs/Foundation-5.5.3/js/foundation/foundation.clearing.js
+			// if.isTrue start.foundation.javascript.includeJS.startFoundationClearing (here: {$start.foundation.javascript.includeJS.startFoundationClearing})
+    startFoundationClearing = {$start.foundation.files.javascript.clearing}
     startFoundationClearing {
 				// if.isTrue start.foundation.javascript.includeJS.startFoundationClearing (here: {$start.foundation.javascript.includeJS.startFoundationClearing})
 			if =
@@ -163,7 +179,17 @@ startPrint {
 				isTrue = {$start.foundation.javascript.includeJS.startFoundationClearing}
 			}
     }
-    startFoundationInit     = EXT:start/Resources/Public/JavaScript/Libs/foundationInit.js
+			// if.isTrue start.foundation.javascript.includeJS.startFoundationWhatInput (here: {$start.foundation.javascript.includeJS.startFoundationWhatInput})
+    startFoundationWhatInput     = {$start.foundation.files.javascript.whatinput}
+    startFoundationWhatInput {
+				// if.isTrue start.foundation.javascript.includeJS.startFoundationWhatInput (here: {$start.foundation.javascript.includeJS.startFoundationWhatInput})
+			if =
+			if {
+				isTrue = {$start.foundation.javascript.includeJS.startFoundationWhatInput}
+			}
+    }
+			// if.isTrue start.foundation.javascript.includeJS.startFoundationInit (here: {$start.foundation.javascript.includeJS.startFoundationInit})
+    startFoundationInit     = {$start.foundation.files.javascript.init}
     startFoundationInit {
 				// if.isTrue start.foundation.javascript.includeJS.startFoundationInit (here: {$start.foundation.javascript.includeJS.startFoundationInit})
 			if =
@@ -171,7 +197,8 @@ startPrint {
 				isTrue = {$start.foundation.javascript.includeJS.startFoundationInit}
 			}
     }
-    startBootstrapForFoundation     = EXT:start/Resources/Public/JavaScript/Libs/extBootstrapForFoundation.js
+			// if.isTrue start.foundation.javascript.includeJS.startBootstrapForFoundation (here: {$start.foundation.javascript.includeJS.startBootstrapForFoundation})
+    startBootstrapForFoundation     = {$start.foundation.files.javascript.bootstrap}
     startBootstrapForFoundation {
 				// if.isTrue start.foundation.javascript.includeJS.startBootstrapForFoundation (here: {$start.foundation.javascript.includeJS.startBootstrapForFoundation})
 			if =
@@ -186,7 +213,8 @@ startPrint {
 		// startJquery (if.isTrue = "{$start.foundation.javascript.includeJS.startJquery}")
   includeJSFooterlibs =
   includeJSFooterlibs {
-    startJquery = EXT:start/Resources/Public/JavaScript/Libs/Foundation-5.5.3/js/vendor/jquery.js
+			// if.isTrue start.foundation.javascript.includeJS.startJquery (here: {$start.foundation.javascript.includeJS.startJquery})
+    startJquery = {$start.foundation.files.javascript.jquery}
     startJquery {
 				// if.isTrue start.foundation.javascript.includeJS.startJquery (here: {$start.foundation.javascript.includeJS.startJquery})
 			if =

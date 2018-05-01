@@ -1,0 +1,30 @@
+plugin.tx_t3foundation.settings.js.modernizr = 0
+
+start {
+  fluid.path.layouts    = EXT:start/Resources/Private/Templates/foundation-6.4.3/Layouts/
+  fluid.path.partials   = EXT:start/Resources/Private/Templates/foundation-6.4.3/Partials/
+  fluid.path.templates  = EXT:start/Resources/Private/Templates/foundation-6.4.3/Templates/
+  foundation {
+    files {
+      css {
+				foundation = EXT:t3foundation/Resources/Public/JavaScript/foundation-6.4.3/css/foundation.min.css
+			}
+      javascript {
+				foundation = EXT:t3foundation/Resources/Public/JavaScript/foundation-6.4.3/js/vendor/foundation.min.js
+				jquery = EXT:t3foundation/Resources/Public/JavaScript/foundation-6.4.3/js/vendor/jquery.js
+			}
+    }
+    javascript {
+      includeJS {
+				startBootstrapForFoundation = 1
+				startFastclick = 0
+				startFoundation = 1
+				startFoundationClearing = 0
+				startFoundationInit = 1
+				startFoundationWhatInput = 1
+				startModernizr = 0
+			}
+    }
+		version = foundation-6.4.3
+  }
+}

@@ -4,10 +4,10 @@ start {
   favicon = typo3conf/ext/start/Resources/Public/Images/favicon.ico
 
   # cat=start - templates//200; type=string; label= Layout:Path to the fluid layouts. With ending slash!
-  fluid.path.layouts    = EXT:start/Resources/Private/Templates/Layouts/
+  fluid.path.layouts    = EXT:start/Resources/Private/Templates/foundation-5.5.3/Layouts/
   # cat=start - templates//201; type=string; label= Partials:Path to the fluid partials. With ending slash!
-  fluid.path.partials   = EXT:start/Resources/Private/Templates/Partials/
+  fluid.path.partials   = EXT:start/Resources/Private/Templates/foundation-5.5.3/Partials/
   # cat=start - templates//202; type=string; label= Templates:Path to the fluid templates. With ending slash!
-  fluid.path.templates  = EXT:start/Resources/Private/Templates/
+  fluid.path.templates  = EXT:start/Resources/Private/Templates/foundation-5.5.3/Templates/
 
 }

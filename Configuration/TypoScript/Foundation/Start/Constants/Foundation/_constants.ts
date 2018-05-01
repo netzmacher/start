@@ -1,6 +1,9 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Foundation/Start/Constants/Foundation/all.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Foundation/Start/Constants/Foundation/filescss.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Foundation/Start/Constants/Foundation/filesjs.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Foundation/Start/Constants/Foundation/iconbarStart.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Foundation/Start/Constants/Foundation/javascript.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Foundation/Start/Constants/Foundation/SiteLineTop/_constants.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Foundation/Start/Constants/Foundation/thumbnails.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Foundation/Start/Constants/Foundation/Topbar/constants.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Foundation/Start/Constants/Foundation/version.ts">

@@ -47,7 +47,7 @@ page {
     start__bronze_01 = FLUIDTEMPLATE
     start__bronze_01 {
       file = {$start.fluid.path.templates}bronze_01.html
-#			  // 10 = EXT:start/Resources/Private/Templates/
+#			  // 10 = EXT:start/Resources/Private/Templates/foundation-5.5.3/
 #			templateRootPaths =
 #			templateRootPaths {
 #					10 = {$start.fluid.path.templates}

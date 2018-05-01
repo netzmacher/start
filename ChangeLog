@@ -1,3 +1,26 @@
+4.0.12
+  18-05-01
+	Improvement	
+	* #t2276: Top Bar
+	* #t2275: In preparation for foundation 6.4.3
+						* Constant Editor
+							see new categories 
+							* START - FOUNDATION - FILES - CSS
+							* START - FOUNDATION - FILES - JAVASCRIPT
+						* Files
+							* Configuration/TypoScript/Foundation
+								* Page/setup.ts
+								* Start/Constants/Foundation
+									* filescss.ts
+									* filesjs.ts
+						* Fluid
+							Resources/Private/Templates/* is moved to Resources/Private/Templates/foundation-5.5.3/* 
+	* #i0158:	Removed:
+						* Configuration/TypoScript/Test
+						* Resources/Private/Templates/Test
+	Bugfix					
+	* #i0159:	Fluid templates simple got a simple layout (before it was bronze)
+
 4.0.11
   18-04-25
 	Improvement
