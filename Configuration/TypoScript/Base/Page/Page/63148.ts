@@ -55,7 +55,7 @@ page {
 			  // 10 = {$start.fluid.path.layouts}
       layoutRootPaths = 
 			layoutRootPaths {
-					10 = {$start.fluid.path.layouts}
+				10 = {$start.fluid.path.layouts}
 			}
 				// 10 = {$start.fluid.path.partials}
       partialRootPaths =
@@ -64,10 +64,12 @@ page {
       }
       variables {
       }
-				// classColMainContentMain 
+				// classCell = {$start.foundation.grid.class.cell}, classColMainContentMain, classRow	= {$start.foundation.grid.class.row}
       settings =
       settings {
+        classCell								= {$start.foundation.grid.class.cell}
         classColMainContentMain =
+        classRow								= {$start.foundation.grid.class.row}
       }
 				// wrap = <!--[if lt IE 9]> ...
       stdWrap =

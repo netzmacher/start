@@ -1,21 +1,21 @@
 <f:layout name="silver" />
 <f:section name="content">
   <div class="maincontent">
-    <div class="row">
-      <div class="{settings.classColMainContentMain} columns maincontentmain">
+    <div class="{settings.classRow}">
+      <div class="{settings.classColMainContentMain} {settings.classCell} maincontentmain">
         <!--content-->
         <f:cObject typoscriptObjectPath="start.structure.content.main" />
         <!--/content-->
       </div>
     </div>
-    <div class="row">
-      <div class="{settings.classColMainContentBottomLeft} columns">
+    <div class="{settings.classRow}">
+      <div class="{settings.classColMainContentBottomLeft} {settings.classCell}">
         <f:cObject typoscriptObjectPath="start.structure.content.bottomLeft" />
       </div>
-      <div class="{settings.classColMainContentBottomCenter} columns">
+      <div class="{settings.classColMainContentBottomCenter} {settings.classCell}">
         <f:cObject typoscriptObjectPath="start.structure.content.bottomCenter" />
       </div>
-      <div class="{settings.classColMainContentBottomRight} columns">
+      <div class="{settings.classColMainContentBottomRight} {settings.classCell}">
         <f:cObject typoscriptObjectPath="start.structure.content.bottomRight" />
       </div>
     </div>

@@ -5,6 +5,13 @@ start {
   fluid.path.partials   = EXT:start/Resources/Private/Templates/foundation-6.4.3/Partials/
   fluid.path.templates  = EXT:start/Resources/Private/Templates/foundation-6.4.3/Templates/
   foundation {
+		grid {
+			class {
+				cell				= cell 
+				row					=	grid-x grid-padding-x
+				rowWoMargin = grid-x
+			}
+		}
     files {
       css {
 				foundation = EXT:t3foundation/Resources/Public/JavaScript/foundation-6.4.3/css/foundation.min.css

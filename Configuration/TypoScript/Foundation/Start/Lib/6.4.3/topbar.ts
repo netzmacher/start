@@ -42,7 +42,7 @@ start {
 								cObject = TEXT
 								cObject {
 									value     = |
-									dataWrap	= <ul id="dropdown-{field:uid}" class="dropdown menu" data-dropdown-menu>|</ul>
+									dataWrap	= <ul id="dropdown-{field:uid}" class="dropdown vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown" data-auto-height="true" data-animate-height="true" data-parent-link="true">|</ul>
 								}
 							}
 						}
