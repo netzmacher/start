@@ -34,6 +34,7 @@
 	* #i0156: Template "Start [2] Foundation": siteLineTop got 20 = CONTENT. 20 = COA is moved to 30 = COA. See
 	* #i0155: TypoScript comments
 	Bugfix
+	CANCELED
 	* #i0157: Conflict top-bar and select boxes on some devices with Android.
 						* Removed: #startBox02 {	margin:0 auto; }
 						* New div tag: <div class="flexcenter">
