@@ -167,10 +167,12 @@ page {
       file = {$start.fluid.path.templates}silver_01.html
       settings >
       settings {
+        classCell												= {$start.foundation.grid.class.cell}
         classColMainContentTopLeft      = small-12 medium-4 large-4
         classColMainContentTopCenter    = small-12 medium-4 large-4
         classColMainContentTopRight     = small-12 medium-4 large-4
         classColMainContentMain         = small-12
+        classRow												= {$start.foundation.grid.class.row}
       }
     }
       // Three rows: header (left | center | right) | content | bottom (left | center | right)
@@ -179,6 +181,7 @@ page {
       file = {$start.fluid.path.templates}silver_02.html
       settings >
       settings {
+        classCell												= {$start.foundation.grid.class.cell}
         classColMainContentTopLeft      = small-12 medium-4 large-4
         classColMainContentTopCenter    = small-12 medium-4 large-4
         classColMainContentTopRight     = small-12 medium-4 large-4
@@ -186,6 +189,7 @@ page {
         classColMainContentBottomLeft   = small-12 medium-4 large-4
         classColMainContentBottomCenter = small-12 medium-4 large-4
         classColMainContentBottomRight  = small-12 medium-4 large-4
+        classRow												= {$start.foundation.grid.class.row}
       }
     }
       // Two rows: content | bottom (left | center | right)
@@ -194,10 +198,12 @@ page {
       file = {$start.fluid.path.templates}silver_03.html
       settings >
       settings {
+        classCell												= {$start.foundation.grid.class.cell}
         classColMainContentMain         = small-12
         classColMainContentBottomLeft   = small-12 medium-4 large-4
         classColMainContentBottomCenter = small-12 medium-4 large-4
         classColMainContentBottomRight  = small-12 medium-4 large-4
+        classRow												= {$start.foundation.grid.class.row}
       }
     }
       // One column
