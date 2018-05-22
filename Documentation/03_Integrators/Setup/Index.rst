@@ -3,21 +3,19 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../Includes.txt
+.. include:: ../../Includes.txt
 
 
-.. _integrators:
+.. _integrators_setup:
 
-Integrators
-===========
+
+Setup
+=====
 
 **Table of Contents**
 
 .. toctree::
-    :maxdepth: 2
-    :titlesonly:
+  :maxdepth: 3
+  :titlesonly:
 
-    Installation/Index
-    Setup/Index
-    FirstSteps/Index
-    BestPractise/Index
+  Privacy/Index
