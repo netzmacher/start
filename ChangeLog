@@ -1,7 +1,8 @@
 4.0.13
   18-05-22
 	Improvement	
-	* #i0160: Constant Editor: property pages GDPR/DSGVO
+	* #i0160: Constant Editor: property pages GDPR/DSGVO. TypoScript for forms.
+						See manual @  Integrators / Setup / Privacy / Forms
 
 4.0.12
   18-05-01
