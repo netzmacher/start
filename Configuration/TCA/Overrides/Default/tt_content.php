@@ -272,7 +272,9 @@ ExtensionManagementUtility::addToAllTCAtypes(
 				'tt_content'
 				, '--palette--;LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_palettecss;tx_start_palettecss'
 				, ''
-				, 'after:header'
+				// #i0161, 180524, dwildt, 1-/+
+				//, 'after:appearanceLinks'
+				, 'after:linkToTop'
 );
 
 $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'ctrl' ][ 'typeicon_classes' ][ 'menu' ] = 'app-start';
