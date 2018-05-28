@@ -2,7 +2,7 @@ start {
 
   config {
     # cat=start - config*//100; type=string;  label= absRefPrefix:If this value is set, then all relative links in TypoScript are prepended with this string. Prefixing all links with a "/" results in absolute link paths: /. Prefixing all links with the path to a subdirectory: /some-subsite/. Prefixing all links with a URI scheme: http://example.com/.
-    absRefPrefix                      =
+    absRefPrefix                      = /
     # cat=start - config*//101; type=boolean; label= Admin Panel:Display the admin panel in the frontend for a logged in backend user
     admPanel                          = 1
     # cat=start - config*//102; type=string;  label= Base URL*:*Obligate! Your base URL with ending slash. Example: http://die-netzmacher.de/
