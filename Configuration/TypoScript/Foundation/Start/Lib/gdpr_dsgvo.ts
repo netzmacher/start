@@ -14,15 +14,15 @@ start {
 			typolink {
 				parameter = {$start.pages.gdpr}
 			}
-			//noTrimWrap = |Details zur Datenverarbeitung erfahren Sie hier: | |
+				// stdWrap.cObject.value = |Which data we are storing, you would like to know here: | |
 			noTrimWrap {
 				stdWrap {
 					cObject = TEXT
 					cObject {
-						value = |Please take account of our | |
+						value = |Which data we are storing, you would like to know here: | |
 						lang {
-							de = |Beachten Sie bitte unsere | |
-							en = |Please take account of our | |
+							de = |Was wir speichern, erfahren Sie hier: | |
+							en = |Which data we are storing, you would like to know here: | |
 						}
 					}
 				}

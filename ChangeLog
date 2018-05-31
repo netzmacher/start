@@ -1,3 +1,9 @@
+4.0.17
+  18-05-31
+	Improvement	
+	* #i0164: Link to GDPR/DSGVO. See
+						* Configuration/TypoScript/Foundation/Start/Lib/gdpr_dsgvo.ts
+
 4.0.16
   18-05-27
 	Improvement	
