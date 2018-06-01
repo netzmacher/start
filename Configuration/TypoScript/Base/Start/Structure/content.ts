@@ -115,6 +115,102 @@ start {
 						}
 					}	
         }
+				90 = COA
+				90 {
+					// wrap modal: div ...
+					wrap (
+
+						<div id="newsletterModal" class="reveal-modal" data-expires="30" data-delay="10" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+							|
+							<a class="close-reveal-modal newsletterModal_close" aria-label="Close">&#215;</a>
+						</div>
+
+)
+						// row columns: {$start.foundation.newsletter.modalHeaderTag}, p
+					10 = COA
+					10 {
+						wrap = <div class="row"><div class="columns">|</div></div>
+							// {$start.foundation.newsletter.modalHeaderTag}
+						20 = TEXT
+						20 {
+							wrap = <{$start.foundation.newsletter.modalHeaderTag}>|</{$start.foundation.newsletter.modalHeaderTag}>
+							value = Don't miss neither events nor latest news?
+							lang {
+								de = Keine Neuigkeit und Veranstaltung versäumen?
+								en = Don't miss neither events nor latest news?
+							}
+						}
+					}
+						// row columns: buttons
+					30 = COA
+					30 {
+						wrap (
+
+							<div class="row">
+								|
+							</div>
+
+)
+							// columns medium-6: newsletter subcription
+						10 = COA
+						10 {
+							wrap (
+
+									<div class="columns medium-6">
+										|
+									</div>
+
+)
+							20 = TEXT
+							20 {
+								value = Subscribe to our newsletter :)
+								lang {
+									de = Newsletter abonnieren :)
+									en = Subscribe to our newsletter :)
+								}
+								typolink {
+									ATagParams	= class="button expand newsletterModal_close"
+									parameter		= {$start.pages.newslettersubscription}
+								}
+							}
+						}
+							// columns medium-6: no thanks
+						20 = TEXT
+						20 {
+							wrap (
+
+								<div class="columns medium-6">
+									<span class="button expand secondary newsletterModal_close">|</span>
+								</div>
+
+)
+							value = No thanks, I'm not interested :(
+							lang {
+								de = Nein danke, ich bin nicht interessiert :(
+								en = No thanks, I'm not interested :(
+							}
+						}
+					}
+						// row columns: p, if.isTrue demo enabled (here: {$start.demo.enabled})
+					50 = COA
+					50 {
+						wrap = <div class="row"><div class="columns">|</div></div>
+							// p, if.isTrue demo enabled (here: {$start.demo.enabled})
+						10 = TEXT
+						10 {
+							if =
+							if {
+								isTrue = {$start.demo.enabled}
+							}
+							wrap = <p style="background: orange;color: white;font-weight: bold;margin:2em 0 0 0;padding: 1em;text-align: center;">|</p>
+							value = This is a demo only: no newsleter won't send.
+							lang {
+								de = Dies ist eine Demo: Es werden kein Newsletter versendet.
+								en = This is a demo only: no newsleter won't send.
+							}
+						}
+					}
+				}
       }
         // CONTENT, stdWrap
       right = COA

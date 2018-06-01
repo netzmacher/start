@@ -1,34 +1,80 @@
-page {
-  includeJSFooter {
-			// if.isTrue start.foundation.javascript.includeJS.startFastclick (here: {$start.foundation.javascript.includeJS.startFastclick})
-    newsletterModal	= EXT:start/Resources/Public/JavaScript/Libs/start/newsletterModal.js
-		jQueryCookie		= EXT:start/Resources/Public/JavaScript/Libs/jquery-cookie/1.4.1/jquery.cookie.js
-	}
-}
-
 start.structure.content.main.11 = COA
 start.structure.content.main.11 {
-	10 = TEXT
-	10 {
-		value (
+		// wrap modal: div ...
+		wrap (
 
 			<div id="newsletterModal" class="reveal-modal" data-expires="30" data-delay="10" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-				<div class="row">
-					<div class="columns">
-						<h1 id="modalTitle">Keine Neuigkeit und Veranstaltung versäumen?</h1>
-					</div>
-				</div>
-				<div class="row">
-					<div class="columns medium-6">
-						<a href="index.php?id=9656" class="button expand newsletterModal_close">Newsletter abonnieren :)</a>
-					</div>
-					<div class="columns medium-6">
-						<span class="button expand secondary newsletterModal_close">Ich bin nicht interessiert :(</span>
-					</div>
-				</div>
+				|
 				<a class="close-reveal-modal newsletterModal_close" aria-label="Close">&#215;</a>
 			</div>
 			
 )
+		// row columns: h1
+	10 = TEXT
+	10 {
+		wrap (
+
+				<div class="row">
+					<div class="columns">
+						<h1>|</h1>
+					</div>
+				</div>
+			
+)
+		value = Don't miss neither events nor latest news?
+		lang {
+			de = Keine Neuigkeit und Veranstaltung versäumen?
+			en = Don't miss neither events nor latest news?
+		}
+	}
+		// row columns: buttons
+	20 = COA
+	20 {
+		wrap (
+
+			<div class="row">
+				|
+			</div>
+
+)
+			// columns medium-6: newsletter subcription
+		10 = COA
+		10 {
+			wrap (
+
+					<div class="columns medium-6">
+						|
+					</div>
+
+)
+			20 = TEXT
+			20 {
+				value = Subscribe to our newsletter :)
+				lang {
+					de = Newsletter abonnieren :)
+					en = Subscribe to our newsletter :)
+				}
+				typolink {
+					ATagParams	= class="button expand newsletterModal_close"
+					parameter		= {$start.pages.newslettersubscription}
+				}
+			}
+		}
+			// columns medium-6: no thanks
+		20 = TEXT
+		20 {
+			wrap (
+
+				<div class="columns medium-6">
+					<span class="button expand secondary newsletterModal_close">|</span>
+				</div>
+
+)
+			value = No thanks, I'm not interested :(
+			lang {
+				de = Nein danke, ich bin nicht interessiert :(
+				en = No thanks, I'm not interested :(
+			}
+		}
 	}
 }

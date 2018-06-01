@@ -36,7 +36,7 @@ page {
 		// empty statement for proper comments only
   includeJSFooter {
 	}
-		// startFastclick, startFoundation, startFoundationClearing, startFoundationWhatInput, startFoundationInit, startBootstrapForFoundation
+		// startFastclick, startFoundation, startFoundationClearing, startFoundationWhatInput, startFoundationInit, startJQueryCookie, startNewsletterModal, startBootstrapForFoundation
   includeJSFooter =
   includeJSFooter {
 			// if.isTrue start.foundation.javascript.includeJS.startFastclick (here: {$start.foundation.javascript.includeJS.startFastclick})
@@ -82,6 +82,16 @@ page {
 			if {
 				isTrue = {$start.foundation.javascript.includeJS.startFoundationInit}
 			}
+    }
+			// true, if page newslettersubscription is set (here: {$start.pages.newslettersubscription}) AND if newsletter popup (modal) is enabled (here: {$start.foundation.newsletter.modalEnabled})
+    startJQueryCookie = {$start.foundation.files.javascript.jqueryCookie}
+    startJQueryCookie {
+			if < start.rules.newsletterModal 
+    }
+			// true, if page newslettersubscription is set (here: {$start.pages.newslettersubscription}) AND if newsletter popup (modal) is enabled (here: {$start.foundation.newsletter.modalEnabled})
+    startNewsletterModal = {$start.foundation.files.javascript.newsletterModal}
+    startNewsletterModal {
+			if < start.rules.newsletterModal 
     }
 			// if.isTrue start.foundation.javascript.includeJS.startBootstrapForFoundation (here: {$start.foundation.javascript.includeJS.startBootstrapForFoundation})
     startBootstrapForFoundation     = {$start.foundation.files.javascript.bootstrap}
