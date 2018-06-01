@@ -115,9 +115,13 @@ start {
 						}
 					}	
         }
+					// newsletter popup (modal). True, if page newslettersubscription is set (here: {$start.pages.newslettersubscription}) AND if newsletter popup (modal) is enabled (here: {$start.foundation.newsletter.modalEnabled})
 				90 = COA
 				90 {
-					// wrap modal: div ...
+					if < start.rules.newsletterModal 
+						// True, if page newslettersubscription is set (here: {$start.pages.newslettersubscription}) AND if newsletter popup (modal) is enabled (here: {$start.foundation.newsletter.modalEnabled})
+					if = 
+						// wrap modal: div ...
 					wrap (
 
 						<div id="newsletterModal" class="reveal-modal" data-expires="30" data-delay="10" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
@@ -126,7 +130,7 @@ start {
 						</div>
 
 )
-						// row columns: {$start.foundation.newsletter.modalHeaderTag}, p
+						// row columns: {$start.foundation.newsletter.modalHeaderTag}
 					10 = COA
 					10 {
 						wrap = <div class="row"><div class="columns">|</div></div>

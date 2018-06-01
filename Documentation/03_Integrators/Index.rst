@@ -14,10 +14,10 @@ Integrators
 **Table of Contents**
 
 .. toctree::
-    :maxdepth: 2
-    :titlesonly:
+	:maxdepth: 2
+	:titlesonly:
 
-    Installation/Index
-    Setup/Index
-    FirstSteps/Index
-    BestPractise/Index
+	Installation/Index
+	Setup/Index
+	FirstSteps/Index
+	BestPractise/Index

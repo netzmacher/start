@@ -1,7 +1,35 @@
 4.1.0
   18-06-01
 	Feature	
+	* #i0166: Demo mode for typo3-gruene.de
+						Constant Editor:
+						* START - DEMO
+						Files:
+						* Configuration/TypoScript/Base/Demo/constants.ts
 	* #i0165: Newsletter PopUp (modal)
+						Documentation
+						* Docs / Integrators / Best Practise / Newsletter / Popup (Modal)
+						Setup:
+						* page.includeJSFooter
+							* startJQueryCookie
+							* startNewsletterModal
+						* start
+							* rules.newsletterModal
+							* structure.content.main.90
+						Constant Editor:
+						* START - FOUNDATION - NEWSLETTER
+						* START - PAGES
+						Files:
+						* Configuration/TypoScript
+							* Base/Start
+								* Rules/newsletterModal.ts
+								* Structure/content.ts
+							* Foundation
+								* Page/setup.ts
+								* Start/Constants/Foundation/newsletter.ts
+						* Resources/Public/JavaScript/Libs
+							* jquery-cookie/1.4.1/jquery.cookie.js
+							* start/newsletterModal.js
 
 4.0.17
   18-05-31

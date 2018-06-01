@@ -15,7 +15,8 @@ Newsletter
 **Table of Contents**
 
 .. toctree::
-  :maxdepth: 3
-  :titlesonly:
+	:maxdepth: 3
+	:titlesonly:
 
-  01_Extensions/Index
+	Extensions/Index
+	Modal/Index
