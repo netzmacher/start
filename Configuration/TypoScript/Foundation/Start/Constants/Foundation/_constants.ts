@@ -2,6 +2,7 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Foundation/Start/Constants/Foundation/css.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Foundation/Start/Constants/Foundation/filescss.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Foundation/Start/Constants/Foundation/filesjs.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Foundation/Start/Constants/Foundation/footer.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Foundation/Start/Constants/Foundation/gmenu.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Foundation/Start/Constants/Foundation/grid.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Foundation/Start/Constants/Foundation/iconbar.ts">

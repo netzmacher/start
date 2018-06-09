@@ -47,6 +47,135 @@ start {
       // CONTENT, stdWrap
       main = COA
       main {
+					// register: footeruids, footertitles
+				10 = LOAD_REGISTER
+				10 {
+					footeruids.cObject = CONTENT
+					footeruids.cObject {
+						 table = pages
+						 select {
+								pidInList = {$start.pages.footer}
+								selectFields = uid, title
+								orderBy = sorting
+								begin = 0
+								max = 6
+						 }
+						renderObj = TEXT
+						renderObj {
+							field = uid
+							wrap = |,
+						}
+					}
+					footertitles.cObject = CONTENT
+					footertitles.cObject {
+						 table = pages
+						 select {
+								pidInList = {$start.pages.footer}
+								selectFields = uid, title
+								orderBy = sorting
+								begin = 0
+								max = 6
+						 }
+						renderObj = TEXT
+						renderObj {
+							field = title
+							wrap = |,
+						}
+					}
+				}
+					// 2 columns, 2 columns, 2 columns
+        20 = COA
+				20 {
+						// if isTrue.data = register:footeruids AND listNum = 0
+					if =
+					if {
+						isTrue {
+							data = register:footeruids
+							listNum = 0
+						}
+					}
+						// startgreen:  2 columns with directories (0, 1)
+					10 = COA
+					10 {
+							// title, sidenav
+						10 = COA
+						10 {
+								// if isTrue.data = register:footeruids AND listNum = 0
+							if =
+							if {
+								isTrue {
+									data = register:footeruids
+									listNum = 0
+								}
+							}
+							10 = TEXT
+							10 {
+								data = register:footertitles
+								listNum = 0
+								wrap = <h3>|</h3>
+							}
+							20 < start.lib.sidenavFromDirs
+							20 {
+								special {
+									value >
+									value {
+										data = register:footeruids
+										listNum = 0
+									}
+								}
+							}
+							wrap = {$start.foundation.footer.innerWrap}
+						}
+						20 < .10
+						20 {
+								// if isTrue.data = register:footeruids AND listNum = 1
+							if =
+							if.isTrue.listNum = 1
+							10.listNum = 1
+							20.special.value.listNum = 1
+						}
+						wrap = {$start.foundation.footer.outerWrap}
+					}
+					20 < .10
+						// startgreen:  2 columns with directories (2, 3)
+					20 = COA
+					20 {
+						10 {
+								// if isTrue.data = register:footeruids AND listNum = 2
+							if =
+							if.isTrue.listNum = 2
+							10.listNum = 2
+							20.special.value.listNum = 2
+						}
+						20 {
+								// if isTrue.data = register:footeruids AND listNum = 3
+							if =
+							if.isTrue.listNum = 3
+							10.listNum = 3
+							20.special.value.listNum = 3
+						}
+					}
+					30 < .10
+						// startgreen:  2 columns with directories (4, 5)
+					30 = COA
+					30 {
+						10 {
+								// if isTrue.data = register:footeruids AND listNum = 4
+							if =
+							if.isTrue.listNum = 4
+							10.listNum = 4
+							20.special.value.listNum = 4
+						}
+						20 {
+								// if isTrue.data = register:footeruids AND listNum = 5
+							if =
+							if.isTrue.listNum = 5
+							10.listNum = 5
+							20.special.value.listNum = 5
+						}
+					}
+					wrap = <div class="{$start.foundation.grid.class.row}"><!-- start.structure.footer.main.30 //-->|</div>
+				}
         30 < styles.content.get
         30 {
           select {
