@@ -1,6 +1,18 @@
+4.1.1
+  18-06-09
+	Feature
+	* #i0168: Improve the management of backend groups and users by TCA. Here: enableMultiSelectFilterTextfield
+						* be_groups
+							* file_mountpoints
+							* subgroups
+						* sys_filemounts
+							* path
+
 4.1.0
-  18-06-01
+  18-06-04
 	Feature	
+	* #i0167: Elements for icon-bar are increased from five to eight. See
+						* Constant Editor / Category: START - FOUNDATION - ICONBAR START
 	* #i0166: Demo mode for typo3-gruene.de
 						Constant Editor:
 						* START - DEMO
