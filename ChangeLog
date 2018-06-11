@@ -1,7 +1,13 @@
+4.1.2
+  18-06-11
+	Feature
+	* #i0170: SEO / semantic HTML: content got the article-wrap. See
+						* Configuration/TypoScript/Base/Start/Structure/content.ts
+
 4.1.1
   18-06-09
 	Feature
-	* #i0169: Footer by page id. See:
+	* #i0169: Footer by page id UNDER PROGRESS!. See:
 						* Constant Editor:
 							* Category: [START - FOUNDATION - FOOTER]
 							* Category: [START - PAGES]

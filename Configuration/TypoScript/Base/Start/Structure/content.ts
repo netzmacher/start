@@ -110,7 +110,7 @@ start {
 						stdWrap {
 							cObject = TEXT
 							cObject {
-								value = <!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end-->
+								value = <article><!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end--></article>
 							}
 						}
 					}	
