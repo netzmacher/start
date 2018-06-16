@@ -1,3 +1,19 @@
+4.1.3
+  18-06-15
+	Improvement
+	* #i0172: TypoScript newsletter: First element with date of today (dynamic) is removed. 
+						Please add date manually, if you neeed it.
+						* Removed: start.structure.e-mail.content.main.20
+	* #i0171: HTML newsletter: table.th is moved to table.td
+						See:
+						* Resources/Private/Templates/foundation-5.5.3
+							* Partials
+								* Footer/email
+									* default.html
+									* startgreen.html
+								* Header/email/default.html
+							* Templates/Newsletter.html
+
 4.1.2
   18-06-11
 	Feature

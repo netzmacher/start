@@ -22,9 +22,8 @@ start {
           // CONTENT, stdWrap
         main = COA
         main {
-						// 4.1.3, #i0172, dwildt, -
-					XXX20 = COA
-					XXX20 {
+					20 = COA
+					20 {
 						10 = TEXT
 						10 {
 							value = Newsletter |
