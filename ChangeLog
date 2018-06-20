@@ -1,3 +1,13 @@
+4.1.4
+  18-06-20
+	Bugfix
+	* #i0173: TypoScript: page.includeJSlibs.startModernizr  is moved to page.includeJSLibs.startModernizr.
+						* start/Configuration/TypoScript/Foundation/Page/setup.ts
+						---------
+						ATTENTION
+						---------
+						Check your HTML code: avoid to include Foundation-5.5.3/js/vendor/modernizr.js twice!
+
 4.1.3
   18-06-15
 	Improvement
