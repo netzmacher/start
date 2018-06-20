@@ -19,11 +19,11 @@ page {
 		}
   }
 		// empty statement for proper comments only
-  includeJSlibs {
+  includeJSLibs {
 	}
 		// startModernizr (if.isTrue = "{$start.foundation.javascript.includeJS.startModernizr}")
-  includeJSlibs =
-  includeJSlibs {
+  includeJSLibs =
+  includeJSLibs {
     startModernizr = {$start.foundation.files.javascript.modernizr}
     startModernizr {
 				// if.isTrue start.foundation.javascript.includeJS.startModernizr (here: {$start.foundation.javascript.includeJS.startModernizr})
@@ -104,11 +104,11 @@ page {
     }
   }
 		// empty statement for proper comments only
-  includeJSFooterLibs {
+  includeJSFooterlibs {
 	}
 		// startJquery (if.isTrue = "{$start.foundation.javascript.includeJS.startJquery}")
-  includeJSFooterLibs =
-  includeJSFooterLibs {
+  includeJSFooterlibs =
+  includeJSFooterlibs {
 			// if.isTrue start.foundation.javascript.includeJS.startJquery (here: {$start.foundation.javascript.includeJS.startJquery})
     startJquery = {$start.foundation.files.javascript.jquery}
     startJquery {
@@ -143,11 +143,11 @@ startPrint {
 		}
   }
 		// empty statement for proper comments only
-  includeJSlibs {
+  includeJSLibs {
 	}
 		// startModernizr (if.isTrue = "{$start.foundation.javascript.includeJS.startModernizr}")
-  includeJSlibs =
-  includeJSlibs {
+  includeJSLibs =
+  includeJSLibs {
     startModernizr = {$start.foundation.files.javascript.modernizr}
     startModernizr {
 				// if.isTrue start.foundation.javascript.includeJS.startModernizr (here: {$start.foundation.javascript.includeJS.startModernizr})
@@ -218,11 +218,11 @@ startPrint {
     }
   }
 		// empty statement for proper comments only
-  includeJSFooterLibs {
+  includeJSFooterlibs {
 	}
 		// startJquery (if.isTrue = "{$start.foundation.javascript.includeJS.startJquery}")
-  includeJSFooterLibs =
-  includeJSFooterLibs {
+  includeJSFooterlibs =
+  includeJSFooterlibs {
 			// if.isTrue start.foundation.javascript.includeJS.startJquery (here: {$start.foundation.javascript.includeJS.startJquery})
     startJquery = {$start.foundation.files.javascript.jquery}
     startJquery {
