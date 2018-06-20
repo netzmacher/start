@@ -19,11 +19,11 @@ page {
 		}
   }
 		// empty statement for proper comments only
-  includeJSLibs {
+  includeJS {
 	}
 		// startModernizr (if.isTrue = "{$start.foundation.javascript.includeJS.startModernizr}")
-  includeJSLibs =
-  includeJSLibs {
+  includeJS =
+  includeJS {
     startModernizr = {$start.foundation.files.javascript.modernizr}
     startModernizr {
 				// if.isTrue start.foundation.javascript.includeJS.startModernizr (here: {$start.foundation.javascript.includeJS.startModernizr})
@@ -143,11 +143,11 @@ startPrint {
 		}
   }
 		// empty statement for proper comments only
-  includeJSLibs {
+  includeJS {
 	}
 		// startModernizr (if.isTrue = "{$start.foundation.javascript.includeJS.startModernizr}")
-  includeJSLibs =
-  includeJSLibs {
+  includeJS =
+  includeJS {
     startModernizr = {$start.foundation.files.javascript.modernizr}
     startModernizr {
 				// if.isTrue start.foundation.javascript.includeJS.startModernizr (here: {$start.foundation.javascript.includeJS.startModernizr})
