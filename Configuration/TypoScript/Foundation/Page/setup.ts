@@ -104,11 +104,11 @@ page {
     }
   }
 		// empty statement for proper comments only
-  includeJSFooterlibs {
+  includeJSFooterLibs {
 	}
 		// startJquery (if.isTrue = "{$start.foundation.javascript.includeJS.startJquery}")
-  includeJSFooterlibs =
-  includeJSFooterlibs {
+  includeJSFooterLibs =
+  includeJSFooterLibs {
 			// if.isTrue start.foundation.javascript.includeJS.startJquery (here: {$start.foundation.javascript.includeJS.startJquery})
     startJquery = {$start.foundation.files.javascript.jquery}
     startJquery {
@@ -218,11 +218,11 @@ startPrint {
     }
   }
 		// empty statement for proper comments only
-  includeJSFooterlibs {
+  includeJSFooterLibs {
 	}
 		// startJquery (if.isTrue = "{$start.foundation.javascript.includeJS.startJquery}")
-  includeJSFooterlibs =
-  includeJSFooterlibs {
+  includeJSFooterLibs =
+  includeJSFooterLibs {
 			// if.isTrue start.foundation.javascript.includeJS.startJquery (here: {$start.foundation.javascript.includeJS.startJquery})
     startJquery = {$start.foundation.files.javascript.jquery}
     startJquery {
