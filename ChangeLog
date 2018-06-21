@@ -1,3 +1,12 @@
+4.1.6
+  18-06-21
+	Feature
+	* #i0176: Include static templates for subscribing and unsubscribing newsletter
+	Improvement
+	* #i0175: Optimise TypoScript page.cssInline:
+						* e-mail.css is splited. CSS-file for a-colors can removed by:
+							page.cssInline.10.30 >
+
 4.1.5
   18-06-21
 	Improvement
@@ -7,7 +16,7 @@
 4.1.4
   18-06-20
 	Bugfix
-	* #i0173: TypoScript: page.includeJSlibs.startModernizr  is moved to page.includeJS.startModernizr.
+	* #i0173: TypoScript: page.includeJSlibs.startModernizr is moved to page.includeJS.startModernizr.
 						* start/Configuration/TypoScript/Foundation/Page/setup.ts
 						---------
 						ATTENTION
