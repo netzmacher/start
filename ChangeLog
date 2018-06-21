@@ -3,6 +3,7 @@
 	Feature
 	* #i0176: Include static templates for subscribing and unsubscribing newsletter
 	Improvement
+	* #i0177: State is moved from beta to stable
 	* #i0175: Optimise TypoScript page.cssInline:
 						* e-mail.css is splited. CSS-file for a-colors can removed by:
 							page.cssInline.10.30 >
