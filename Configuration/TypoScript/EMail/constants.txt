@@ -1,3 +1,1 @@
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/EMail/Config/constants.ts">
-//<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/EMail/Page/constants.ts">
-//<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/EMail/Start/constants.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/EMail/Start/_constants.ts">

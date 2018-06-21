@@ -1,0 +1,3 @@
+page {
+	typeNum = 0
+}
