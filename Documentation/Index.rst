@@ -66,5 +66,6 @@ Start TYPO3 Responsive!
 	02_Editors/Index
 	03_Integrators/Index
 	04_Developers/Index
+	WhatsNew/Index
 	80_Upgrades/Index
 	99_Help/Index

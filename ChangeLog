@@ -1,3 +1,18 @@
+4.2.0
+  18-06-23
+	Feature
+	* #i0180: TCA properties can disabled by the extension manager.
+	* #i0179: Backend layouts can disabled by the extension manager.
+  Improvement
+	* #i0178: Newsletter: Powermail submit is managed by AJAX. See
+						* Configuration/TypoScript/Extensions/tt_address
+							* subscribe/constants.txt
+							* unsubscribe/constants.txt
+	Manual
+	* #i0181: New sections
+						* Integrators / Setup / Extension Manager
+						* What's new / 4.2
+
 4.1.6
   18-06-21
 	Feature

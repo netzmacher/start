@@ -1,5 +1,8 @@
-start {
+plugin.tx_powermail {
+  settings.misc.ajaxSubmit = 1
+}
 
+start {
 	extensions {
 		tt_address {
 			subscribe {
@@ -10,5 +13,4 @@ start {
 			}
 		}
 	}
-
 }

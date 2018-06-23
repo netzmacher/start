@@ -1,8 +1,15 @@
 <?php
 
+use Netzmacher\Start\Backend\Extensions\Extensionmanager;
+
 if( !defined( 'TYPO3_MODE' ) )
 {
 	die( 'Access denied.' );
+}
+
+// #i0180, 180622, dwildt, 3+
+if( Extensionmanager::getProperty( 'tcaTtcontentDisabled' )){
+	return;
 }
 
 // #t1578, 171001, dwildt, ~

@@ -1,6 +1,12 @@
 <?php
 
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
+use Netzmacher\Start\Backend\Extensions\Extensionmanager;
+
+// #i0180, 180622, dwildt, 3+
+if( Extensionmanager::getProperty( 'tcaTtcontentDisabled' )){
+	return;
+}
 
 // #t1578, 171001, dwildt, ~
 

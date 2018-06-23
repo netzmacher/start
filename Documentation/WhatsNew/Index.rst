@@ -3,20 +3,18 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../../Includes.txt
+.. include:: ../Includes.txt
 
 
-.. _integrators_setup:
+.. _integrators_wahtsnew:
 
-
-Setup
-=====
+What's new
+==========
 
 **Table of Contents**
 
 .. toctree::
-		:maxdepth: 3
-		:titlesonly:
+	:maxdepth: 2
+	:titlesonly:
 
-		ExtensionManager/Index
-		Privacy/Index
+	4.2/Index
