@@ -24,3 +24,9 @@ The extension manager got new properties for
 * TCA 
 
 See @ :ref:`Integrators > Setup > Extension Manager <integrators_setup_extensionmanager>`
+
+
+Newsletter
+^^^^^^^^^^^
+
+Powermail submit is managed by AJAX. You can disable this behaviour by the Constant Editor of powermail.
