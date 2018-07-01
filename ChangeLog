@@ -1,3 +1,9 @@
+4.2.2
+  18-07-01
+	Feature
+	* #i0183: Additional CSS. Attribute [data-ce-columns]. See:
+						* Resources/Public/Css/data-ce-columns.css
+
 4.2.1
   18-06-23
 	Improvement

@@ -2,14 +2,14 @@ page {
 		// empty statement for proper comments only
   includeCSS {
 	}
-		// startNormalize, startFoundation, startStart, startCssAWiIcon (if.isTrue = "{$start.css.a.wiIcon}")
+		// startNormalize, startFoundation, startStart, startCssAWiIcon (if.isTrue = "{$start.css.a.wiIcon}"), startDataCeColumns
   includeCSS =
   includeCSS {
-    startNormalize  = {$start.foundation.files.css.normalize}
-    startFoundation = {$start.foundation.files.css.foundation}
-    startStart			= {$start.foundation.files.css.basic}
+    startNormalize			= {$start.foundation.files.css.normalize}
+    startFoundation			= {$start.foundation.files.css.foundation}
+    startStart					= {$start.foundation.files.css.basic}
 			// if.isTrue = $start.css.a.wiIcon (here: {$start.foundation.css.a.wiIcon})
-    startCssAWiIcon = {$start.foundation.files.css.aTagWiIcon}
+    startCssAWiIcon			= {$start.foundation.files.css.aTagWiIcon}
     startCssAWiIcon {
 				// if.isTrue = $start.css.a.wiIcon (here: {$start.foundation.css.a.wiIcon})
 			if = 
@@ -17,6 +17,7 @@ page {
 				isTrue = {$start.foundation.css.a.wiIcon}
 			}
 		}
+    startDataCeColumns	= {$start.foundation.files.css.dataCeColumns}
   }
 		// empty statement for proper comments only
   includeJS {
