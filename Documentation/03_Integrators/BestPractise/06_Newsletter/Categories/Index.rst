@@ -3,14 +3,16 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../../Includes.txt
+.. include:: ../../../Includes.txt
 
 
-.. _integrators-newsletter:
+.. _integrators-newsletter-categories:
 
 
-Newsletter
+Categories
 ==========
+
+The templates of Start can handle up to three newsletter categories.
 
 **Table of Contents**
 
@@ -18,6 +20,5 @@ Newsletter
 	:maxdepth: 3
 	:titlesonly:
 
-	Categories/Index
-	Extensions/Index
-	Modal/Index
+	Exclusive/Index
+	Rename/Index

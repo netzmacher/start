@@ -5,7 +5,7 @@ start {
     // gdpr_dsgvo
   lib =
   lib {
-			// Link to the page with GDPR/DSGVO
+                        // Link to the page with GDPR/DSGVO
     gdpr_dsgvo = TEXT
     gdpr_dsgvo {
 			if {
@@ -14,7 +14,7 @@ start {
 			typolink {
 				parameter = {$start.pages.gdpr}
 			}
-				// stdWrap.cObject.value = |Which data we are storing, you would like to know here: | |
+							// stdWrap.cObject.value = |Which data we are storing, you would like to know here: | |
 			noTrimWrap {
 				stdWrap {
 					cObject = TEXT
