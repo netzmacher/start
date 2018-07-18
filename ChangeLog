@@ -1,17 +1,11 @@
 4.3.0
   18-07-18
 	Feature
-	* #i0184: Managing of multiple newsletters in one form
-						------------------------------------
-						CONSTANT EDITOR: CATEGRORY IS MOVED!
-						------------------------------------
-						* From: START - EXTENSIONS - TT_ADDRESS - ...
-						* To:		START - DIRECT_MAIL
-						Please move
-						* From: start.extensions.tt_address.subscribe.[1..n]
-						* To:		start.extensions.tt_address.[1..n]
-						* From: start.extensions.tt_address.unsubscribe.[1..n]
-						* To:		start.extensions.tt_address.[1..n]
+	* #i0184: Managing of multiple newsletters in one form. See:
+						* Constant editor > categories: START - DIRECT_MAIL
+						* Include static templates
+							* Start [20.1.1] Newsletter management (direct_mail)
+							* Start [20.1.1] Newsletter unsubscribe (direct_mail)
 
 4.2.2
   18-07-01

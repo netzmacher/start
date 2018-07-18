@@ -49,8 +49,8 @@ switch( true )
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Piwik/', 'Start [07.1.1] Piwik' );
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/EMail/', 'Start [08.1.1] +E-Mail' );
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Labeling/De/', 'Start [09.1.1] +Bezeichnungen: deutsch' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Extensions/direct_mail/subscribe/', 'Start [20.1.1] Newsletter abonnieren (direct_mail)' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Extensions/direct_mail/unsubscribe/', 'Start [20.1.1] Newsletter verwalten (direct_mail)' );
+		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Extensions/direct_mail/subscribe/', 'Start [20.1.1] Newsletter verwalten (direct_mail)' );
+		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Extensions/direct_mail/unsubscribe/', 'Start [20.1.1] Newsletter kündigen (direct_mail)' );
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Extensions/tt_address/subscribe/', 'Start [20.2.1] E-Mail eintragen (tt_address) [VERALTET!]' );
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Extensions/tt_address/unsubscribe/', 'Start [20.2.1] E-Mail austragen (tt_address) [VERALTET!]' );
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Debug/', 'Start [98.1.1] Debug' );
@@ -66,8 +66,8 @@ switch( true )
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Piwik/', 'Start [07.1.1] Piwik' );
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/EMail/', 'Start [08.1.1] +e-mail' );
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Labeling/De/', 'Start [09.1.1] +Labeling: German' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Extensions/direct_mail/subscribe/', 'Start [20.1.1] Newsletter subscription (direct_mail)' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Extensions/direct_mail/unsubscribe/', 'Start [20.1.1] Newsletter management (direct_mail)' );
+		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Extensions/direct_mail/subscribe/', 'Start [20.1.1] Newsletter management (direct_mail)' );
+		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Extensions/direct_mail/unsubscribe/', 'Start [20.1.1] Newsletter unsubscribe (direct_mail)' );
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Extensions/tt_address/subscribe/', 'Start [20.2.1] E-Mail subscribe (tt_address) [DEPRECATED!]' );
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Extensions/tt_address/unsubscribe/', 'Start [20.2.1] E-Mail unsubscribe (tt_address) [DEPRECATED!]' );
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Debug/', 'Start [98.1.1] Debug' );
