@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2018-07-19T15:11:39Z" product-name="start">
+		<header/>
+		<body>
+
+			<trans-unit id="sys_dmail_category">
+				<source>Newsletter Category</source>
+				<target>Newsletter-Kategorie</target>
+			</trans-unit>
+			<trans-unit id="sys_dmail_group.type.I.5">
+				<source>Direct Mail Newsletter Categories</source>
+				<target>Direct Mail Newsletter-Kategorien</target>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

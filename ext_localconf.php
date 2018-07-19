@@ -53,7 +53,7 @@ call_user_func( function ()
 	switch( TRUE )
 	{
 		case($typo3Version < 8000000):
-		$addPageTsConfig = '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/ExtLocalconf/PageTSConfig/7.6/tt_content/menu_type.ts">';
+			$addPageTsConfig = '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/ExtLocalconf/PageTSConfig/7.6/tt_content/menu_type.ts">';
 			break;
 		case($typo3Version >= 8000000):
 		default:
@@ -61,4 +61,7 @@ call_user_func( function ()
 			break;
 	}
 	\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig( $addPageTsConfig );
+
+	// #i0185, 180719, dwildt, +
+	$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXTCONF' ][ 'direct_mail' ][ 'mod3' ][ 'cmd_compileMailGroup' ][] = 'Netzmacher\Start\Backend\Extensions\DirectMail\RecipientList';
 } );

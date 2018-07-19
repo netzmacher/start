@@ -17,3 +17,8 @@ CREATE TABLE tt_content (
   tx_start_additionalclass tinytext,
   tx_start_additionalclassdefined tinytext,
 );
+
+-- #i0185, 180719, dwildt
+CREATE TABLE sys_dmail_group (
+  sys_dmail_category tinyblob NULL,
+);

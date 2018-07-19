@@ -1,6 +1,12 @@
 4.3.0
   18-07-18
 	Feature
+	* #i0185: Enable Direct mail mm-query with sys_dmial_categories
+						* ext_tables.sql
+							extended: sys_dmail_group.sys_dmail_category
+						* Classes/Backend/Extensions/DirectMail/RecipientList.php
+							Hook
+						* Configuration/TCA/Overrides/sys_dmail_group.php
 	* #i0184: Managing of multiple newsletters in one form. See:
 						* Constant editor > categories: START - DIRECT_MAIL
 						* Include static templates
