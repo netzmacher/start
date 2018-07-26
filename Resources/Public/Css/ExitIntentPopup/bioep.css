@@ -1,0 +1,126 @@
+.bio_ep {
+  border-radius: 3px;
+  display: none;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  width: 100%;
+  z-index: 1005;
+  left: 0;
+  background-color: #FFFFFF;
+  padding: 1rem 1rem 0 1rem;
+  /*border: solid 1px #666666;*/
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
+  @media only screen and (max-width: 40em) {
+    .bio_ep {
+      min-height: 100vh; } }
+  .bio_ep .column, .bio_ep .columns {
+    min-width: 0; }
+  .bio_ep > :first-child {
+    margin-top: 0; }
+  .bio_ep > :last-child {
+    margin-bottom: 0; }
+  @media only screen and (min-width: 40.0625em) {
+    .bio_ep {
+      left: 0;
+      margin: 0 auto;
+      max-width: 62.5rem;
+      right: 0;
+      width: 80%; } }
+  @media only screen and (min-width: 40.0625em) {
+    .bio_ep {
+      top: 6.25rem; } }
+  .bio_ep.radius {
+    box-shadow: none;
+    border-radius: 3px; }
+  .bio_ep.round {
+    box-shadow: none;
+    border-radius: 1000px; }
+  .bio_ep.collapse {
+    padding: 0;
+    box-shadow: none; }
+  @media only screen and (min-width: 40.0625em) {
+    .bio_ep.tiny {
+      left: 0;
+      margin: 0 auto;
+      max-width: 62.5rem;
+      right: 0;
+      width: 30%; } }
+  @media only screen and (min-width: 40.0625em) {
+    .bio_ep.small {
+      left: 0;
+      margin: 0 auto;
+      max-width: 62.5rem;
+      right: 0;
+      width: 40%; } }
+  @media only screen and (min-width: 40.0625em) {
+    .bio_ep.medium {
+      left: 0;
+      margin: 0 auto;
+      max-width: 62.5rem;
+      right: 0;
+      width: 60%; } }
+  @media only screen and (min-width: 40.0625em) {
+    .bio_ep.large {
+      left: 0;
+      margin: 0 auto;
+      max-width: 62.5rem;
+      right: 0;
+      width: 70%; } }
+  @media only screen and (min-width: 40.0625em) {
+    .bio_ep.xlarge {
+      left: 0;
+      margin: 0 auto;
+      max-width: 62.5rem;
+      right: 0;
+      width: 95%; } }
+  .bio_ep.full {
+    height: 100vh;
+    height: 100%;
+    left: 0;
+    margin-left: 0 !important;
+    max-width: none !important;
+    min-height: 100vh;
+    top: 0; }
+    @media only screen and (min-width: 40.0625em) {
+      .bio_ep.full {
+        left: 0;
+        margin: 0 auto;
+        max-width: 62.5rem;
+        right: 0;
+        width: 100%; } }
+  .bio_ep.toback {
+    z-index: 1003; }
+  .bio_ep .bio_ep_close {
+    color: #AAAAAA;
+    cursor: pointer;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1;
+    position: absolute;
+    top: 0.625rem;
+    right: 1.375rem; }
+
+.bio_ep .powermail_form h3,
+.bio_ep .powermail_form legend {
+  display: none;
+}
+.bio_ep .powermail_form fieldset {
+	border: inherit;
+	margin: 1em 0;
+	padding: 0;
+}
+	
+.bio_ep_bg {
+	display: none; 
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+	background-color: #000; 
+	opacity: 0.3; 
+	z-index: 1000;
+}
+	
+

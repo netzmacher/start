@@ -3,10 +3,10 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../../Includes.txt
+.. include:: ../../../Includes.txt
 
 
-.. _integrators-newsletter:
+.. _integrators_bestpractise_newsletter:
 
 
 Newsletter
@@ -21,3 +21,4 @@ Newsletter
 	Categories/Index
 	Extensions/Index
 	Modal/Index
+	Popup/Index

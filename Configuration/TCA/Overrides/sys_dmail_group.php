@@ -37,7 +37,7 @@ ExtensionManagementUtility::addTCAcolumns(
  * TCA type 5
  * **************************************************************************** */
 
-$GLOBALS[ 'TCA' ][ 'sys_dmail_group' ][ 'types' ][ '5' ] = array(
+$GLOBALS[ 'TCA' ][ 'sys_dmail_group' ][ 'types' ][ '10' ] = array(
 		'showitem' => ''
 		. 'type;;;;1-1-1, sys_language_uid, title;;;;3-3-3, description,'
 		. '--div--;LLL:EXT:direct_mail/Resources/Private/Language/locallang_tca.xlf:sys_dmail_group.advanced,pages;;;;5-5-5,sys_dmail_category,'
@@ -50,8 +50,8 @@ $GLOBALS[ 'TCA' ][ 'sys_dmail_group' ][ 'types' ][ '5' ] = array(
  * **************************************************************************** */
 
 $item = [
-		'LLL:EXT:start/Configuration/TCA/Overrides/sys_dmail_group.xlf:sys_dmail_group.type.I.5'
-		, '5'
+		'LLL:EXT:start/Configuration/TCA/Overrides/sys_dmail_group.xlf:sys_dmail_group.type.I.10'
+		, '10'
 ];
 ExtensionManagementUtility::addTcaSelectItem(
 				'sys_dmail_group'

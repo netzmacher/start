@@ -4,13 +4,13 @@
 		<header/>
 		<body>
 
-			<trans-unit id="sys_dmail_category">
-				<source>Newsletter Category</source>
-				<target>Newsletter-Kategorie</target>
+			<trans-unit id="sys_dmail_group.sys_dmail_category">
+				<source>By Categories</source>
+				<target>Bei Kategorien</target>
 			</trans-unit>
-			<trans-unit id="sys_dmail_group.type.I.5">
-				<source>Direct Mail Newsletter Categories</source>
-				<target>Direct Mail Newsletter-Kategorien</target>
+			<trans-unit id="sys_dmail_group.type.I.10">
+				<source>By Categories</source>
+				<target>Mit Kategorien</target>
 			</trans-unit>
 
 		</body>

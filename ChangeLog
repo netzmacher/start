@@ -1,7 +1,28 @@
+4.4.0
+  18-07-25
+	Feature
+	* #t2512: Newsletter-Popup on exit page
+						See Documentation
+						* Integrators > Best Practise > Newsletter > Popup
+						* What's new > 4.4
+						---------
+						ATTENTION
+						---------
+						* (Former) newsletter modal is disabled:
+							Constant Editor > Category [START - FOUNDATION - NEWSLETTER]
+							start.foundation.newsletter.modalEnabled = 0
+
+4.3.1
+  18-07-25
+	Improvement
+	* #i0187: Hook for mod2
+	* #i0186: Move recipient case from 5 to 10
+						:ref: #i0185
+
 4.3.0
   18-07-18
 	Feature
-	* #i0185: Enable Direct mail mm-query with sys_dmial_categories
+	* #i0185: Enable Direct mail mm-query with sys_dmail_categories
 						* ext_tables.sql
 							extended: sys_dmail_group.sys_dmail_category
 						* Classes/Backend/Extensions/DirectMail/RecipientList.php

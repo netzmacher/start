@@ -84,7 +84,7 @@ page {
 				isTrue = {$start.foundation.javascript.includeJS.startFoundationInit}
 			}
     }
-			// true, if page newslettersubscription is set (here: {$start.pages.newslettersubscription}) AND if newsletter popup (modal) is enabled (here: {$start.foundation.newsletter.modalEnabled})
+			// true, if page newslettersubscription is set (here: {$start.newsletterpopup.enter.page}) AND if newsletter popup (modal) is enabled (here: {$start.newsletterpopup.enter.modalEnabled})
     startJQueryCookie = {$start.foundation.files.javascript.jqueryCookie}
     startJQueryCookie {
 			if < start.rules.newsletterModal 

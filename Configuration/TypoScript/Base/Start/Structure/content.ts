@@ -115,7 +115,6 @@ start {
 						}
 					}	
         }
-					// newsletter popup (modal). True, if page newslettersubscription is set (here: {$start.pages.newslettersubscription}) AND if newsletter popup (modal) is enabled (here: {$start.foundation.newsletter.modalEnabled})
 				90 = COA
 				90 {
 					if < start.rules.newsletterModal 

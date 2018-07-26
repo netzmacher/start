@@ -3,14 +3,14 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../../../Includes.txt
+.. include:: ../../../../Includes.txt
 
 
-.. _integrators-newsletter_modal:
+.. _integrators_bestpractise_newsletter_modal:
 
 
-Popup (Modal)
-=============
+Dialog
+======
 
 Start opens a popup (modal) to point to the newsletter subscription form. 
 
@@ -36,7 +36,7 @@ Constant Editor
 
 * Page tree: root page
 
-* Edit aera:
+* Edit area:
 
   * [Constanten Editor]
 

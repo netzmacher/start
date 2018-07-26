@@ -62,6 +62,12 @@ call_user_func( function ()
 	}
 	\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig( $addPageTsConfig );
 
+	/*	 * ****************************************************************************
+	 * Direct Mail Hooks
+	 * **************************************************************************** */
+
+	// #i0187, 180725, dwildt, 1+
+	$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXTCONF' ][ 'direct_mail' ][ 'mod2' ][ 'cmd_compileMailGroup' ][] = 'Netzmacher\Start\Backend\Extensions\DirectMail\RecipientList';
 	// #i0185, 180719, dwildt, +
 	$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXTCONF' ][ 'direct_mail' ][ 'mod3' ][ 'cmd_compileMailGroup' ][] = 'Netzmacher\Start\Backend\Extensions\DirectMail\RecipientList';
 } );

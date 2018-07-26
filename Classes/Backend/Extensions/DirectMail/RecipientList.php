@@ -2,7 +2,7 @@
 
 namespace Netzmacher\Start\Backend\Extensions\DirectMail;
 
-use DirectMailTeam\DirectMail\DirectMailUtility;
+use TYPO3\CMS\Backend\Utility\BackendUtility;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 /* * *************************************************************
@@ -40,45 +40,25 @@ class RecipientList
 {
 
 	/**
-	 * @param array idLists
-	 * @param \TYPO3\CMS\Core\TypoScript\TemplateService $parentObject
-	 * @param array mailGroup
-	 * @access public
-	 * @return      void
-	 * @version     4.3.0
-	 * @since       4.3.0
-	 * @internal		#i0185
-	 * @link https://docs.typo3.org/typo3cms/Snippets/2017/Index.html#register-a-hook
+	 * @param array		mailGroup
+	 * @access private
+	 * @return      array
+	 * @version     4.3.1
+	 * @since       4.3.1
+	 * @internal		#i0187
 	 */
-	public function cmd_compileMailGroup_postProcess( $idLists, $pObj, $mailGroup )
+	private function _getMailGroup( $mailGroup )
 	{
-		$rows = NULL;
-
-		// Special query list
-		if( $mailGroup[ 'type' ] != 5 )
+//		var_dump(__METHOD__, __LINE__, $mailGroup);
+		if( isset( $mailGroup[ 'type' ] ) )
 		{
-			return $idLists;
+			return $mailGroup;
 		}
 
-		$whichTables = intval( $mailGroup[ 'whichtables' ] );
-		if( $whichTables & 1 )
-		{
-			$table = 'tt_address';
-		}
-		elseif( $whichTables & 2 )
-		{
-			$table = 'fe_users';
-		}
-		elseif( $pObj->userTable && ($whichTables & 4) )
-		{
-			$table = $pObj->userTable;
-		}
-		if( $table )
-		{
-			$idLists[ $table ] = $this->_idListFromTable( $table, $mailGroup );
-		}
-		//var_dump( __METHOD__, __LINE__, $idLists );
-		return $idLists;
+		$groupUid = $mailGroup[ '0' ];
+		$mailGroup = BackendUtility::getRecord( 'sys_dmail_group', $groupUid );
+//		var_dump(__METHOD__, __LINE__, $mailGroup);
+		return $mailGroup;
 	}
 
 	/**
@@ -126,6 +106,47 @@ class RecipientList
 		}
 
 		return $rows;
+	}
+
+	/**
+	 * @param array idLists
+	 * @param \TYPO3\CMS\Core\TypoScript\TemplateService $parentObject
+	 * @param array mailGroup
+	 * @access public
+	 * @return      void
+	 * @version     4.3.1
+	 * @since       4.3.0
+	 * @internal		#i0185
+	 * @link https://docs.typo3.org/typo3cms/Snippets/2017/Index.html#register-a-hook
+	 */
+	public function cmd_compileMailGroup_postProcess( $idLists, $pObj, $mailGroup )
+	{
+		// #i0187, 180725, dwildt, 1+
+		$mailGroup = $this->_getMailGroup( $mailGroup );
+		if( $mailGroup[ 'type' ] != 10 )
+		{
+			return $idLists;
+		}
+
+		$whichTables = intval( $mailGroup[ 'whichtables' ] );
+		if( $whichTables & 1 )
+		{
+			$table = 'tt_address';
+		}
+		elseif( $whichTables & 2 )
+		{
+			$table = 'fe_users';
+		}
+		elseif( $pObj->userTable && ($whichTables & 4) )
+		{
+			$table = $pObj->userTable;
+		}
+		if( $table )
+		{
+			$idLists[ $table ] = $this->_idListFromTable( $table, $mailGroup );
+		}
+		//var_dump( __METHOD__, __LINE__, $idLists );
+		return $idLists;
 	}
 
 }

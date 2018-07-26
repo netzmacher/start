@@ -6,8 +6,8 @@
 conf.py:
   copyright: 2014-2018
   project: Start
-  version: 4.3
-  release: 4.3.0
+  version: 4.4
+  release: 4.4.0
   latex_documents:
   - - Index
     - start.tex
