@@ -1,10 +1,19 @@
+4.4.1
+  18-07-27
+	Feature
+	* #i0188: CSS position for .reveal-modal configurable by 
+						* Constant Editor > Category [START - FOUNDATION - CSS - REVEAL-MODAL - POSITION]
+						* Configuration/TypoScript/Foundation/Page/cssInline.ts
+
 4.4.0
   18-07-25
 	Feature
 	* #t2512: Newsletter-Popup on exit page
-						See Documentation
-						* Integrators > Best Practise > Newsletter > Popup
-						* What's new > 4.4
+						See 
+						* Documentation
+							* Integrators > Best Practise > Newsletter > Popup
+							* What's new > 4.4
+						* Constant Editor > Category [START - NEWSLETTER - POPUP - ON EXIT INTENT]
 						---------
 						ATTENTION
 						---------

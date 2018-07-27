@@ -54,6 +54,7 @@ switch( true )
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Extensions/direct_mail/unsubscribe/', 'Start [20.3.1] Newsletter kündigen (direct_mail)' );
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Extensions/tt_address/subscribe/', 'Start [20.4.1] E-Mail eintragen (tt_address) [VERALTET!]' );
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Extensions/tt_address/unsubscribe/', 'Start [20.4.1] E-Mail austragen (tt_address) [VERALTET!]' );
+		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Base/Demo/', 'Start [80.1.1] Demo' );
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Debug/', 'Start [98.1.1] Debug' );
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Test/', 'Start [99.1.1] Test' );
 		break;
@@ -72,6 +73,7 @@ switch( true )
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Extensions/direct_mail/unsubscribe/', 'Start [20.3.1] Newsletter unsubscribe (direct_mail)' );
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Extensions/tt_address/subscribe/', 'Start [20.4.1] E-Mail subscribe (tt_address) [DEPRECATED!]' );
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Extensions/tt_address/unsubscribe/', 'Start [20.4.1] E-Mail unsubscribe (tt_address) [DEPRECATED!]' );
+		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Base/Demo/', 'Start [80.1.1] Demo' );
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Debug/', 'Start [98.1.1] Debug' );
 		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Test/', 'Start [99.1.1] Test' );
 		break;

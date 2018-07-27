@@ -14,7 +14,7 @@ Popup
 
 Popup, which contains the newsletter subscription form (or any other content).
 
-The popup appeares on exit intent: if the mouse leaves the window, which contains
+The popup appears on exit intent: if the mouse leaves the window, which contains
 the website. Website must loaded 5 seconds before at least.
 
 
@@ -45,3 +45,9 @@ Constant Editor
 * Edit area:
 
   * [Constanten Editor] > Category: [START - NEWSLETTER - POPUP - ON EXIT INTENT]
+
+
+CSS
+^^^
+
+See @ :ref:`Integrators > First Steps > Modals > CSS <integrators_firststeps_modals_css>`

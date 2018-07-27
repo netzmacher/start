@@ -1,40 +1,5 @@
 page {
 		// empty statement for proper comments only
-  includeCSS {
-	}
-		// startNormalize, startFoundation, startStart, startCssAWiIcon (if.isTrue = "{$start.css.a.wiIcon}"), startDataCeColumns
-  includeCSS =
-  includeCSS {
-    startNormalize			= {$start.foundation.files.css.normalize}
-    startFoundation			= {$start.foundation.files.css.foundation}
-    startStart					= {$start.foundation.files.css.basic}
-			// if.isTrue = $start.css.a.wiIcon (here: {$start.foundation.css.a.wiIcon})
-    startCssAWiIcon			= {$start.foundation.files.css.aTagWiIcon}
-    startCssAWiIcon {
-				// if.isTrue = $start.css.a.wiIcon (here: {$start.foundation.css.a.wiIcon})
-			if = 
-			if {
-				isTrue = {$start.foundation.css.a.wiIcon}
-			}
-		}
-    startDataCeColumns	= {$start.foundation.files.css.dataCeColumns}
-  }
-		// empty statement for proper comments only
-  includeJS {
-	}
-		// startModernizr (if.isTrue = "{$start.foundation.javascript.includeJS.startModernizr}")
-  includeJS =
-  includeJS {
-    startModernizr = {$start.foundation.files.javascript.modernizr}
-    startModernizr {
-				// if.isTrue start.foundation.javascript.includeJS.startModernizr (here: {$start.foundation.javascript.includeJS.startModernizr})
-			if =
-			if {
-				isTrue = {$start.foundation.javascript.includeJS.startModernizr}
-			}
-    }
-  }
-		// empty statement for proper comments only
   includeJSFooter {
 	}
 		// startFastclick, startFoundation, startFoundationClearing, startFoundationWhatInput, startFoundationInit, startJQueryCookie, startNewsletterModal, startBootstrapForFoundation
@@ -104,61 +69,10 @@ page {
 			}
     }
   }
-		// empty statement for proper comments only
-  includeJSFooterlibs {
-	}
-		// startJquery (if.isTrue = "{$start.foundation.javascript.includeJS.startJquery}")
-  includeJSFooterlibs =
-  includeJSFooterlibs {
-			// if.isTrue start.foundation.javascript.includeJS.startJquery (here: {$start.foundation.javascript.includeJS.startJquery})
-    startJquery = {$start.foundation.files.javascript.jquery}
-    startJquery {
-				// if.isTrue start.foundation.javascript.includeJS.startJquery (here: {$start.foundation.javascript.includeJS.startJquery})
-			if =
-			if {
-				isTrue = {$start.foundation.javascript.includeJS.startJquery}
-			}
-      forceOnTop = 1
-    }
-  }
 }
 
   // #71476
 startPrint {
-		// empty statement for proper comments only
-  includeCSS {
-	}
-		// startNormalize, startFoundation, startStart, startCssAWiIcon (if.isTrue = "{$start.css.a.wiIcon}")
-  includeCSS =
-  includeCSS {
-    startNormalize  = {$start.foundation.files.css.normalize}
-    startFoundation = {$start.foundation.files.css.foundation}
-    startStart			= {$start.foundation.files.css.basic}
-    startCssAWiIcon = {$start.foundation.files.css.aTagWiIcon}
-    startCssAWiIcon {
-				// if.isTrue = $start.css.a.wiIcon (here: {$start.css.a.wiIcon})
-			if = 
-			if {
-				isTrue = {$start.css.a.wiIcon}
-			}
-		}
-    startPowermail	= {$start.foundation.files.css.powermail}
-  }
-		// empty statement for proper comments only
-  includeJS {
-	}
-		// startModernizr (if.isTrue = "{$start.foundation.javascript.includeJS.startModernizr}")
-  includeJS =
-  includeJS {
-    startModernizr = {$start.foundation.files.javascript.modernizr}
-    startModernizr {
-				// if.isTrue start.foundation.javascript.includeJS.startModernizr (here: {$start.foundation.javascript.includeJS.startModernizr})
-			if =
-			if {
-				isTrue = {$start.foundation.javascript.includeJS.startModernizr}
-			}
-    }
-  }
 		// empty statement for proper comments only
   includeJSFooter {
 	}
@@ -217,23 +131,6 @@ startPrint {
 			if {
 				isTrue = {$start.foundation.javascript.includeJS.startBootstrapForFoundation}
 			}
-    }
-  }
-		// empty statement for proper comments only
-  includeJSFooterlibs {
-	}
-		// startJquery (if.isTrue = "{$start.foundation.javascript.includeJS.startJquery}")
-  includeJSFooterlibs =
-  includeJSFooterlibs {
-			// if.isTrue start.foundation.javascript.includeJS.startJquery (here: {$start.foundation.javascript.includeJS.startJquery})
-    startJquery = {$start.foundation.files.javascript.jquery}
-    startJquery {
-				// if.isTrue start.foundation.javascript.includeJS.startJquery (here: {$start.foundation.javascript.includeJS.startJquery})
-			if =
-			if {
-				isTrue = {$start.foundation.javascript.includeJS.startJquery}
-			}
-      forceOnTop = 1
     }
   }
 }
