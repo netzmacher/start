@@ -1,3 +1,9 @@
+4.4.2
+  18-08-19
+	Bugfix
+	* #i0190: ext_tables_static+adt is moved to XXXext_tables_static+adt.sql
+	* #i0189: sys_dmail_group is extended only, if direct mail is loaded
+
 4.4.1
   18-07-27
 	Feature

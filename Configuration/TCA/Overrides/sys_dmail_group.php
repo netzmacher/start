@@ -8,6 +8,13 @@ use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
  * TCA column sys_dmail_category
  * **************************************************************************** */
 
+
+// #i0189, 180819, dwildt, 4+
+if( !is_array( $GLOBALS[ 'TCA' ][ 'sys_dmail_group' ][ 'columns' ] ) )
+{
+	return;
+}
+
 $temporaryColumns = array(
 		'sys_dmail_category' => array(
 				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/sys_dmail_group.xlf:sys_dmail_category',
