@@ -1,6 +1,6 @@
 # cat=Backend;	type=boolean; label= Disable:Disable the Corporate Design of TYPO3 Start at backend login.
 backendstyleDisabled  = 0
 
-# cat=language;       type=options[English,German]; label= Backend Langauge: Language for special backend labels like TypoScript static templates. Property has an effect in the backend only.
+# cat=language;       type=options[English,German]; label= Backend Language: Language for special backend labels like TypoScript static templates. Property has an effect in the backend only.
 beLanguage = English
 

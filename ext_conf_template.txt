@@ -6,7 +6,7 @@ backendstyleDisabled  = 0
   # cat=Backend style//101;		type=string; label= Hosts:Limited for hosts (csv-list). If empty: backend style is enabled on all hosts. Example for limiting: myhost.de, myotherhost.com
 backendstyleHosts			= 
 
-	# cat=language;							type=options[English,German]; label= Backend Langauge: Language for special backend labels like TypoScript static templates. Property has an effect in the backend only.
+	# cat=language;							type=options[English,German]; label= Backend Language: Language for special backend labels like TypoScript static templates. Property has an effect in the backend only.
 beLanguage = English
 
 	# cat=TCA//100;							type=boolean; label= Pages:Disable additional TCA properties for the table pages.
