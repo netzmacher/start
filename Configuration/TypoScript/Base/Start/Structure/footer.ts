@@ -94,7 +94,7 @@ start {
 							listNum = 0
 						}
 					}
-						// startgreen:  2 columns with directories (0, 1)
+						// 2 columns with directories (0, 1)
 					10 = COA
 					10 {
 							// title, sidenav
@@ -137,7 +137,7 @@ start {
 						wrap = {$start.foundation.footer.outerWrap}
 					}
 					20 < .10
-						// startgreen:  2 columns with directories (2, 3)
+						// 2 columns with directories (2, 3)
 					20 = COA
 					20 {
 						10 {
@@ -156,7 +156,7 @@ start {
 						}
 					}
 					30 < .10
-						// startgreen:  2 columns with directories (4, 5)
+						// 2 columns with directories (4, 5)
 					30 = COA
 					30 {
 						10 {

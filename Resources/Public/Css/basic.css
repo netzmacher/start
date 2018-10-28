@@ -211,6 +211,21 @@
 	padding:0 0 0 1em;
 }
 
+/* #i0193, 181028, dwildt, +*/
+#startBox01 footer ul.side-nav {
+	padding: 0;
+}
+/* #i0193, 181028, dwildt, +*/
+#startBox01 footer .side-nav h3 {
+	font-size: 1rem;
+	margin: 0;
+	text-transform: uppercase;
+}
+/* #i0193, 181028, dwildt, +*/
+#startBox01 footer .side-nav li a:not(.button) {
+	padding: 0;
+}
+
 #startBox01 p.copyright {
 	font-size:.75rem;
 	margin:0;
