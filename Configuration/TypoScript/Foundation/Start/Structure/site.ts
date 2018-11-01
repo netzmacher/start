@@ -37,7 +37,7 @@ start {
 						wrap      = <div class="siteLineTop siteLineTopContent hide-for-small-only"><div class="row siteLine"><div class="columns">|</div></div></div>
 					}
 				}
-					// social media links, searchform, start: foundation sidenav
+					// social media links, searchform, start: foundation sidenav, org: pages.newsrss
 				30 = COA
 				30 {
 						// if.isTrue.cObject: an icon or $start.pages.siteLineTop is set (here: {$start.pages.siteLineTop})
@@ -86,6 +86,12 @@ start {
 								70 = TEXT
 								70 {
 									if.isTrue = {$start.pages.siteLineTop}
+									value = 1
+								}
+									// if.isTrue = $plugin.org.pages.newsrss (here: {$plugin.org.pages.newsrss})
+								80 = TEXT
+								80 {
+									if.isTrue = {$plugin.org.pages.newsrss}
 									value = 1
 								}
 							}
@@ -231,6 +237,47 @@ start {
 										}
 										40 {
 											data = LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_youtube
+										}
+									}
+								}
+							}
+						}
+							// RSS feed for news, if.isTrue = $plugin.org.pages.newsrss (here: {$plugin.org.pages.newsrss})
+						70 = TEXT
+						70 {
+								// isTrue = $plugin.org.pages.newsrss (here: {$plugin.org.pages.newsrss})
+							if =
+							if {
+								isTrue = {$plugin.org.pages.newsrss}
+							}
+							value = <i class="fi-rss"></i>
+							typolink {
+								parameter {
+									cObject = COA
+									cObject {
+										10 = TEXT
+										10 {
+											value = {$plugin.org.pages.newsrss}
+											noTrimWrap = || |
+										}
+										20 = TEXT
+										20 {
+											value = _blank
+											noTrimWrap = || |
+										}
+										30 = TEXT
+										30 {
+											value = -
+											noTrimWrap = || |
+										}
+										40 = TEXT
+										40 {
+											value = News feed
+											lang {
+												de = Nachrichten-Feed
+												en = News feed
+											}
+											noTrimWrap = |"|"|
 										}
 									}
 								}

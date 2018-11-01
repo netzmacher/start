@@ -156,6 +156,16 @@
 	margin-top: -0.9375rem;
 }
 
+#startBox01 .fi-icon-125 div:first-child {
+	height: 12.5rem;
+}
+
+#startBox01 .fi-icon-125 div:first-child i {
+	font-size: 12.5rem;
+	position: relative;
+	top: -2.5rem;
+}
+
 #startBox01 .pad-left {
   padding-left: 0.9375rem;
 }

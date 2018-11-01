@@ -8,7 +8,8 @@ if( !defined( 'TYPO3_MODE' ) )
 }
 
 // #i0180, 180622, dwildt, 3+
-if( Extensionmanager::getProperty( 'tcaTtcontentDisabled' )){
+if( Extensionmanager::getProperty( 'tcaTtcontentDisabled' ) )
+{
 	return;
 }
 
@@ -27,6 +28,7 @@ $typo3Version = $version;
 /* * ****************************************************************************
  * TCA Override tt_content
  * **************************************************************************** */
+
 
 switch( TRUE )
 {
