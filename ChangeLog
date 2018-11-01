@@ -1,12 +1,14 @@
 4.5.0
   18-11-01
 	Feature:
-	* #i0194: RSS Feed.
+	* #i0194: RSS Feed. Constant Editor: new property start.pages.rss
 						Needs:
 						* EXT:browser from 9.4.5
 						* EXT:org from 8.15.0
 						Affected files:
-						* Configuration/TypoScript/Foundation/Start/Structure/site.ts
+						* Configuration/TypoScript
+							* Base/Start/constants.ts
+							* Foundation/Start/Structure/site.ts
 
 4.4.3
   18-10-28

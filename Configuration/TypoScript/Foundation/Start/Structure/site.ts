@@ -37,7 +37,7 @@ start {
 						wrap      = <div class="siteLineTop siteLineTopContent hide-for-small-only"><div class="row siteLine"><div class="columns">|</div></div></div>
 					}
 				}
-					// social media links, searchform, start: foundation sidenav, org: pages.newsrss
+					// social media links, searchform, start: foundation sidenav, pages.rss
 				30 = COA
 				30 {
 						// if.isTrue.cObject: an icon or $start.pages.siteLineTop is set (here: {$start.pages.siteLineTop})
@@ -88,10 +88,10 @@ start {
 									if.isTrue = {$start.pages.siteLineTop}
 									value = 1
 								}
-									// if.isTrue = $plugin.org.pages.newsrss (here: {$plugin.org.pages.newsrss})
+									// if.isTrue = $start.pages.rss (here: {$start.pages.rss})
 								80 = TEXT
 								80 {
-									if.isTrue = {$plugin.org.pages.newsrss}
+									if.isTrue = {$start.pages.rss}
 									value = 1
 								}
 							}
@@ -242,13 +242,13 @@ start {
 								}
 							}
 						}
-							// RSS feed for news, if.isTrue = $plugin.org.pages.newsrss (here: {$plugin.org.pages.newsrss})
+							// RSS feed for news, if.isTrue = $start.pages.rss (here: {$start.pages.rss})
 						70 = TEXT
 						70 {
-								// isTrue = $plugin.org.pages.newsrss (here: {$plugin.org.pages.newsrss})
+								// isTrue = $start.pages.rss (here: {$start.pages.rss})
 							if =
 							if {
-								isTrue = {$plugin.org.pages.newsrss}
+								isTrue = {$start.pages.rss}
 							}
 							value = <i class="fi-rss"></i>
 							typolink {
@@ -257,7 +257,7 @@ start {
 									cObject {
 										10 = TEXT
 										10 {
-											value = {$plugin.org.pages.newsrss}
+											value = {$start.pages.rss}
 											noTrimWrap = || |
 										}
 										20 = TEXT

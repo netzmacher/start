@@ -34,7 +34,9 @@ start {
   pages.news										=
   # cat=start - pages*//305; type=int+; label=Newsletter:Uid of page which the form for subscribing the newsletter
   pages.newslettersubscription	=
-  # cat=start - pages*//306; type=int+; label=Shop:Uid of page which contains your shop.
+  # cat=start - pages*//306; type=int+; label=RSS:Uid of the rss feed
+  pages.rss 										=
+  # cat=start - pages*//307; type=int+; label=Shop:Uid of page which contains your shop.
   pages.shop										=
   # cat=start - pages*//400; type=int+; label=Print:Page with header and footer for the print page.
   pages.print										= 9999999
