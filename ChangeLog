@@ -9,6 +9,8 @@
 						* Configuration/TypoScript
 							* Base/Start/constants.ts
 							* Foundation/Start/Structure/site.ts
+	Improvement
+	* #i0195: Manual: new section: Integrators / Best Practise / RSS
 
 4.4.3
   18-10-28

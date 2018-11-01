@@ -18,9 +18,10 @@ Best Practise
   :maxdepth: 3
   :titlesonly:
 
-  01_Customer/Index
-  02_Modals/Index
-  03_CSS/Index
-  04_HTML/Index
-  05_Themes/Index
-  06_Newsletter/Index
+  CSS/Index
+  Customer/Index
+  Modals/Index
+  HTML/Index
+  Newsletter/Index
+  RSS/Index
+  Themes/Index
