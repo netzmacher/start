@@ -262,7 +262,7 @@ start {
 										}
 										20 = TEXT
 										20 {
-											value = _blank
+											value = -
 											noTrimWrap = || |
 										}
 										30 = TEXT
