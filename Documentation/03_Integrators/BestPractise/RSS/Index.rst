@@ -9,21 +9,18 @@
 .. _integrators_bestpractise_rss:
 
 
-RSS Alternate Tag
-^^^^^^^^^^^^^^^^^
+RSS Icon
+========
 
-Start implements a relation alternate tag for an RSS feed.
-
+If you are providing a RSS feed, it is easy to display a RSS icon in the frontend on the top right.
 You have nothing to but to enter the page id of the rss feed at
 
 * Constant Editor > Category [START - PAGES] > RSS
 
-If you've done this, Start will display an RSS icon in the frontend on the top right.
 
+How to provide a RSS feed?
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Precondition
-````````````
-
-You need a RSS feed. If you like a sample, please refer to the Organiser (ext:org).
+If you want know, how to provide a RSS feed, please refer to the sample in the manual of the Organiser (ext:org).
 
 See: Integrators > Best Practise > RSS feeds Tag @ https://docs.typo3.org/typo3cms/extensions/org/
