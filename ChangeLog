@@ -1,3 +1,8 @@
+4.5.1
+  18-11-05
+	Bugfix:
+	* #i0195: Git: Check in: Resources/Public/JavaScript/Libs/ExitIntentPopup/*
+
 4.5.0
   18-11-01
 	Feature:
