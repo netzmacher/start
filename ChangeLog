@@ -1,6 +1,7 @@
 4.5.2
   19-01-10
 	Improvement:
+	* #i0198: Update Copyright 2019
 	* #i0196: CSS: new property body.overflow-x: hidden. Affected file:
 						* Resources/Public/Css/basic.css
 

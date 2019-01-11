@@ -4,7 +4,7 @@
 
 ---
 conf.py:
-  copyright: 2014-2018
+  copyright: 2014-2019
   project: Start
   version: 4.5
   release: 4.5.0

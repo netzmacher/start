@@ -38,7 +38,7 @@ Start TYPO3 Responsive!
 		typo3, start, responsive, foundation, grid, layout
 
 	:Copyright:
-		2014-2018
+		2014-2019
 
 	:Author:
 		Dirk Wildt (Die Netzmacher)
