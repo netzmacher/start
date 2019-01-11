@@ -1,3 +1,9 @@
+4.5.2
+  19-01-10
+	Improvement:
+	* #i0196: CSS: new property body.overflow-x: hidden. Affected file:
+						* Resources/Public/Css/basic.css
+
 4.5.1
   18-11-05
 	Bugfix:
