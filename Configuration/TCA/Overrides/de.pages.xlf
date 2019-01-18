@@ -28,6 +28,14 @@
         <source>facebook</source>
         <target>Facebook</target>
       </trans-unit>
+      <trans-unit id="tx_start_social_flickr">
+        <source>flickr</source>
+        <target>Flickr</target>
+      </trans-unit>
+      <trans-unit id="tx_start_social_github">
+        <source>github</source>
+        <target>Github</target>
+      </trans-unit>
       <trans-unit id="tx_start_social_googleplus">
         <source>google+</source>
         <target>Goggle+</target>
@@ -35,6 +43,22 @@
       <trans-unit id="tx_start_social_instagram">
         <source>instagram</source>
         <target>Instagram</target>
+      </trans-unit>
+      <trans-unit id="tx_start_social_linkedin">
+        <source>linkedin</source>
+        <target>Linkedin</target>
+      </trans-unit>
+      <trans-unit id="tx_start_social_picasa">
+        <source>picasa</source>
+        <target>Picasa</target>
+      </trans-unit>
+      <trans-unit id="tx_start_social_pinterest">
+        <source>pinterest</source>
+        <target>Pinterest</target>
+      </trans-unit>
+      <trans-unit id="tx_start_social_spotify">
+        <source>spotify</source>
+        <target>Spotify</target>
       </trans-unit>
       <trans-unit id="tx_start_social_twitter">
         <source>twitter</source>

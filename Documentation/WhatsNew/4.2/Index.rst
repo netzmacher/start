@@ -6,7 +6,7 @@
 .. include:: ../../Includes.txt
 
 
-.. _integrators_wahtsnew_4002000:
+.. _administrators_wahtsnew_4002000:
 
 4.2
 ===
@@ -23,7 +23,7 @@ The extension manager got new properties for
 
 * TCA 
 
-See @ :ref:`Integrators > Setup > Extension Manager <integrators_setup_extensionmanager>`
+See @ :ref:`Administrators > Setup > Extension Manager <administrators_setup_extensionmanager>`
 
 
 Newsletter

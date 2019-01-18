@@ -6,7 +6,7 @@
 .. include:: ../Includes.txt
 
 
-.. _integrators_wahtsnew:
+.. _administrators_wahtsnew:
 
 What's new
 ==========

@@ -62,10 +62,10 @@ Start TYPO3 Responsive!
 	:maxdepth: 3
 	:titlesonly:
 
-	01_Introduction/Index
-	02_Editors/Index
-	03_Integrators/Index
-	04_Developers/Index
+	Introduction/Index
+	Users/Index
+	Administrators/Index
+	Developers/Index
 	WhatsNew/Index
-	80_Upgrades/Index
-	99_Help/Index
+	Upgrades/Index
+	Help/Index

@@ -59,6 +59,26 @@ $temporaryColumns = array(
 						'eval' => 'trim',
 				)
 		),
+		'tx_start_social_flickr' => array(
+				'exclude' => 0,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_flickr',
+				'config' => array(
+						'type' => 'input',
+						'size' => '30',
+						'max' => '192',
+						'eval' => 'trim',
+				)
+		),
+		'tx_start_social_github' => array(
+				'exclude' => 0,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_github',
+				'config' => array(
+						'type' => 'input',
+						'size' => '30',
+						'max' => '192',
+						'eval' => 'trim',
+				)
+		),
 		'tx_start_social_googleplus' => array(
 				'exclude' => 0,
 				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_googleplus',
@@ -72,6 +92,46 @@ $temporaryColumns = array(
 		'tx_start_social_instagram' => array(
 				'exclude' => 0,
 				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_instagram',
+				'config' => array(
+						'type' => 'input',
+						'size' => '30',
+						'max' => '192',
+						'eval' => 'trim',
+				)
+		),
+		'tx_start_social_linkedin' => array(
+				'exclude' => 0,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_linkedin',
+				'config' => array(
+						'type' => 'input',
+						'size' => '30',
+						'max' => '192',
+						'eval' => 'trim',
+				)
+		),
+		'tx_start_social_picasa' => array(
+				'exclude' => 0,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_picasa',
+				'config' => array(
+						'type' => 'input',
+						'size' => '30',
+						'max' => '192',
+						'eval' => 'trim',
+				)
+		),
+		'tx_start_social_pinterest' => array(
+				'exclude' => 0,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_pinterest',
+				'config' => array(
+						'type' => 'input',
+						'size' => '30',
+						'max' => '192',
+						'eval' => 'trim',
+				)
+		),
+		'tx_start_social_spotify' => array(
+				'exclude' => 0,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_spotify',
 				'config' => array(
 						'type' => 'input',
 						'size' => '30',
@@ -133,7 +193,11 @@ ExtensionManagementUtility::addFieldsToPalette(
 ExtensionManagementUtility::addFieldsToPalette(
 				'pages'
 				, 'tx_start_palettesocialmedia'
-				, 'tx_start_social_facebook,tx_start_social_googleplus,tx_start_social_instagram,'
+				, 'tx_start_social_facebook,tx_start_social_flickr,tx_start_social_github,'
+				. '--linebreak--,'
+				. 'tx_start_social_googleplus,tx_start_social_instagram,tx_start_social_linkedin,'
+				. '--linebreak--,'
+				. 'tx_start_social_picasa,tx_start_social_pinterest,tx_start_social_spotify,'
 				. '--linebreak--,'
 				. 'tx_start_social_twitter,tx_start_social_vimeo,tx_start_social_youtube'
 				, ''

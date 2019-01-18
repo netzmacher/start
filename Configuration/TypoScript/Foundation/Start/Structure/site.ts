@@ -52,45 +52,81 @@ start {
 									if.isTrue.data = levelfield:-1, tx_start_social_facebook, slide
 									value = 1
 								}
-									// if.isTrue.data = levelfield:-1, tx_start_social_googleplus, slide
+									// if.isTrue.data = levelfield:-1, tx_start_social_flickr, slide
 								20 = TEXT
 								20 {
+									if.isTrue.data = levelfield:-1, tx_start_social_flickr, slide
+									value = 1
+								}
+									// if.isTrue.data = levelfield:-1, tx_start_social_github, slide
+								30 = TEXT
+								30 {
+									if.isTrue.data = levelfield:-1, tx_start_social_github, slide
+									value = 1
+								}
+									// if.isTrue.data = levelfield:-1, tx_start_social_googleplus, slide
+								40 = TEXT
+								40 {
 									if.isTrue.data = levelfield:-1, tx_start_social_googleplus, slide
 									value = 1
 								}
 									// if.isTrue.data = levelfield:-1, tx_start_social_instagram, slide
-								30 = TEXT
-								30 {
+								50 = TEXT
+								50 {
 									if.isTrue.data = levelfield:-1, tx_start_social_instagram, slide
 									value = 1
 								}
+									// if.isTrue.data = levelfield:-1, tx_start_social_linkedin, slide
+								60 = TEXT
+								60 {
+									if.isTrue.data = levelfield:-1, tx_start_social_linkedin, slide
+									value = 1
+								}
+									// if.isTrue.data = levelfield:-1, tx_start_social_picasa, slide
+								70 = TEXT
+								70 {
+									if.isTrue.data = levelfield:-1, tx_start_social_picasa, slide
+									value = 1
+								}
+									// if.isTrue.data = levelfield:-1, tx_start_social_pinterest, slide
+								80 = TEXT
+								80 {
+									if.isTrue.data = levelfield:-1, tx_start_social_pinterest, slide
+									value = 1
+								}
+									// if.isTrue.data = levelfield:-1, tx_start_social_spotify, slide
+								90 = TEXT
+								90 {
+									if.isTrue.data = levelfield:-1, tx_start_social_spotify, slide
+									value = 1
+								}
 									// if.isTrue.data = levelfield:-1, tx_start_social_twitter, slide
-								40 = TEXT
-								40 {
+								100 = TEXT
+								100 {
 									if.isTrue.data = levelfield:-1, tx_start_social_twitter, slide
 									value = 1
 								}
 									// if.isTrue.data = levelfield:-1, tx_start_social_vimeo, slide
-								50 = TEXT
-								50 {
+								110 = TEXT
+								110 {
 									if.isTrue.data = levelfield:-1, tx_start_social_vimeo, slide
 									value = 1
 								}
 									// if.isTrue.data = levelfield:-1, tx_start_social_youtube, slide
-								60 = TEXT
-								60 {
+								120 = TEXT
+								120 {
 									if.isTrue.data = levelfield:-1, tx_start_social_youtube, slide
 									value = 1
 								}
 									// if.isTrue = $start.pages.siteLineTop (here: {$start.pages.siteLineTop})
-								70 = TEXT
-								70 {
+								130 = TEXT
+								130 {
 									if.isTrue = {$start.pages.siteLineTop}
 									value = 1
 								}
 									// if.isTrue = $start.pages.rss (here: {$start.pages.rss})
-								80 = TEXT
-								80 {
+								140 = TEXT
+								140 {
 									if.isTrue = {$start.pages.rss}
 									value = 1
 								}
@@ -138,7 +174,55 @@ start {
 							}
 						}
 						20 < .10
+							// flickr
+						20 = TEXT
 						20 {
+							if {
+								isTrue {
+									data = levelfield:-1, tx_start_social_flickr, slide
+								}
+							}
+							value = <i class="fi-social-flickr"></i>
+							typolink {
+								parameter {
+									cObject {
+										10 {
+											data = levelfield:-1, tx_start_social_flickr, slide
+										}
+										40 {
+											data = LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_flickr
+										}
+									}
+								}
+							}
+						}
+						30 < .10
+							// github
+						30 = TEXT
+						30 {
+							if {
+								isTrue {
+									data = levelfield:-1, tx_start_social_github, slide
+								}
+							}
+							value = <i class="fi-social-github"></i>
+							typolink {
+								parameter {
+									cObject {
+										10 {
+											data = levelfield:-1, tx_start_social_github, slide
+										}
+										40 {
+											data = LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_github
+										}
+									}
+								}
+							}
+						}
+						40 < .10
+							// googleplus
+						40 = TEXT
+						40 {
 							if {
 								isTrue {
 									data = levelfield:-1, tx_start_social_googleplus, slide
@@ -158,8 +242,10 @@ start {
 								}
 							}
 						}
-						30 < .10
-						30 {
+						50 < .10
+							// instagram
+						50 = TEXT
+						50 {
 							if {
 								isTrue {
 									data = levelfield:-1, tx_start_social_instagram, slide
@@ -179,8 +265,102 @@ start {
 								}
 							}
 						}
-						40 < .10
-						40 {
+						60 < .10
+							// linkedin
+						60 = TEXT
+						60 {
+							if {
+								isTrue {
+									data = levelfield:-1, tx_start_social_linkedin, slide
+								}
+							}
+							value = <i class="fi-social-linkedin"></i>
+							typolink {
+								parameter {
+									cObject {
+										10 {
+											data = levelfield:-1, tx_start_social_linkedin, slide
+										}
+										40 {
+											data = LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_linkedin
+										}
+									}
+								}
+							}
+						}
+						70 < .10
+							// picasa
+						70 = TEXT
+						70 {
+							if {
+								isTrue {
+									data = levelfield:-1, tx_start_social_picasa, slide
+								}
+							}
+							value = <i class="fi-social-picasa"></i>
+							typolink {
+								parameter {
+									cObject {
+										10 {
+											data = levelfield:-1, tx_start_social_picasa, slide
+										}
+										40 {
+											data = LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_picasa
+										}
+									}
+								}
+							}
+						}
+						80 < .10
+							// pinterest
+						80 = TEXT
+						80 {
+							if {
+								isTrue {
+									data = levelfield:-1, tx_start_social_pinterest, slide
+								}
+							}
+							value = <i class="fi-social-pinterest"></i>
+							typolink {
+								parameter {
+									cObject {
+										10 {
+											data = levelfield:-1, tx_start_social_pinterest, slide
+										}
+										40 {
+											data = LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_pinterest
+										}
+									}
+								}
+							}
+						}
+						90 < .10
+							// spotify
+						90 = TEXT
+						90 {
+							if {
+								isTrue {
+									data = levelfield:-1, tx_start_social_spotify, slide
+								}
+							}
+							value = <i class="fi-social-spotify"></i>
+							typolink {
+								parameter {
+									cObject {
+										10 {
+											data = levelfield:-1, tx_start_social_spotify, slide
+										}
+										40 {
+											data = LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_spotify
+										}
+									}
+								}
+							}
+						}
+						100 < .10
+							// twitter
+						100 = TEXT
+						100 {
 							if {
 								isTrue {
 									data = levelfield:-1, tx_start_social_twitter, slide
@@ -200,8 +380,10 @@ start {
 								}
 							}
 						}
-						50 < .10
-						50 {
+						110 < .10
+							// vimeo
+						110 = TEXT
+						110 {
 							if {
 								isTrue {
 									data = levelfield:-1, tx_start_social_vimeo, slide
@@ -221,8 +403,10 @@ start {
 								}
 							}
 						}
-						60 < .10
-						60 {
+						120 < .10
+							// youtube
+						120 = TEXT
+						120 {
 							if {
 								isTrue {
 									data = levelfield:-1, tx_start_social_youtube, slide
@@ -243,8 +427,8 @@ start {
 							}
 						}
 							// RSS feed for news, if.isTrue = $start.pages.rss (here: {$start.pages.rss})
-						70 = TEXT
-						70 {
+						200 = TEXT
+						200 {
 								// isTrue = $start.pages.rss (here: {$start.pages.rss})
 							if =
 							if {

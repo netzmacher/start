@@ -6,7 +6,7 @@
 .. include:: ../../Includes.txt
 
 
-.. _integrators_wahtsnew_4004000:
+.. _administrators_wahtsnew_4004000:
 
 4.4
 ===
@@ -20,7 +20,7 @@ CSS for a Modal
 
 The newsletter popup from below can positioned absolute or fixed.
 
-See @ :ref:`Integrators > First Steps > Modals > CSS <integrators_firststeps_modals_css>`
+See @ :ref:`Administrators > First Steps > Modals > CSS <administrators_firststeps_modals_css>`
 
 
 4.4.0
@@ -35,4 +35,4 @@ New newsletter popup:
 
 * The popup contains the newsletter subscription form
 
-See @ :ref:`Integrators > Best Practise > Newsletter > Popup <integrators_bestpractise_newsletter_popup>`
+See @ :ref:`Administrators > Best Practise > Newsletter > Popup <administrators_bestpractise_newsletter_popup>`
