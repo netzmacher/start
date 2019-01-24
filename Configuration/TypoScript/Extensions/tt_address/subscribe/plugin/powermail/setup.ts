@@ -33,6 +33,9 @@ plugin.tx_powermail {
                   # update: update record if there is an existing entry (e.g. if email is already there)
                   # none: no entry if field is filled (do nothing if record already exists)
           _ifUnique.email = update
+					# optional: add additional where clause (only in mode "update") for search if a record still exists. 
+					# You could use a plain string (see example below) or a cObject if needed
+					_ifUniqueWhereClause = AND pid = {$plugin.org.extensions.tt_address.subscribe.pid}
 
           # Fill tt_address.crdate with the current time as timestamp (like 123456789)
           crdate = TEXT

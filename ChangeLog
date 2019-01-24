@@ -1,3 +1,13 @@
+4.5.4
+	19-01-24
+	Bugfix: 
+	* #i0201: subscription and unsubcription could cause anwanted effects, if there were more than
+						one newsletter within a TYPO3 instance
+						Affected files:
+						* Configuration/TypoScript/Extensions/tt_address/
+							* subscribe/plugin/powermail/setup.ts
+							* unsubscribe/plugin/powermail/setup.ts
+
 4.5.3
   19-01-18
 	Feature:
