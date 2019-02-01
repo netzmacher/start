@@ -23,12 +23,6 @@ start {
 						width = {$start.lib.pagemedia.width}
 					}
 					stdWrap.typolink.parameter.data = file:current:link
-					XXXstdWrap {
-						typolink {
-							parameter = {$myConst.pages.root}
-							title     = {$myConst.words.title_tag_rootpage}
-						}
-					}
 					begin = 0
 					maxItems = 1
 				} 
