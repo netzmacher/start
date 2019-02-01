@@ -1,3 +1,12 @@
+4.5.5
+	19-02-01
+	Feature: 
+	* #i0202: TypoScript library for page media.
+						New TypoScript property
+						* start.lib.pagemedia
+						New file:
+						* Configuration/TypoScript/Base/Start/Lib/pagemedia.ts
+
 4.5.4
 	19-01-24
 	Bugfix: 
