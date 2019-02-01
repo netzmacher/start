@@ -15,6 +15,7 @@ start {
 				10 = IMAGE
 				10 {
 					file {
+						crop.data = file:current:crop
 						import {
 							data = file:current:publicUrl
 						}
