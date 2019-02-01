@@ -1,14 +1,16 @@
-<f:layout name="simple" />
+<f:layout name="silver" />
 <f:section name="content">
   <div class="maincontent">
     <div class="{settings.classRow}">
-      <div class="{settings.classColMainContentLeft} {settings.classCell} maincontentleft">
-        <f:cObject typoscriptObjectPath="start.structure.content.left" />
-      </div>
       <div class="{settings.classColMainContentMain} {settings.classCell} maincontentmain">
         <!--content-->
         <f:cObject typoscriptObjectPath="start.structure.content.main" />
         <!--/content-->
+      </div>
+    </div>
+    <div class="{settings.classRow}">
+      <div class="{settings.classColMainContentBottomCenter} {settings.classCell}">
+        <f:cObject typoscriptObjectPath="start.structure.content.bottomCenter" />
       </div>
     </div>
   </div>

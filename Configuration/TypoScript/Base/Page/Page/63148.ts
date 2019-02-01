@@ -220,7 +220,7 @@ page {
       }
     }
       // Three rows: header | content
-    start__silver_05 < .start__bronze_04
+    start__silver_05 < .start__silver_04
     start__silver_05 {
       file = {$start.fluid.path.templates}silver_05.html
       settings {
@@ -228,7 +228,7 @@ page {
       }
     }
       // Three rows: content | bottom
-    start__silver_06 < .start__bronze_04
+    start__silver_06 < .start__silver_04
     start__silver_06 {
       file = {$start.fluid.path.templates}silver_06.html
       settings {
