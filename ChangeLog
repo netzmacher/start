@@ -1,6 +1,18 @@
 4.5.5
 	19-02-01
 	Feature: 
+	* #i0203: New backend layout silver 4: header | top | content | bottom | footer
+						New file:
+						* Resources/Public/Images/BackendLayouts/start_silver_04.gif
+						Affected files:
+						* Classes/Provider/BackendLayoutDataProvider.php
+						* Configuration/TypoScript/Base/Page/Page/63148.ts
+						* Resources/Private/Templates
+							* foundation-5.5.3/Templates/silver_04.html
+							* foundation-6.4.3/Templates/silver_04.html
+						* Resources/Private/Language
+							* Backend.xlf
+							* de.Backend.xlf
 	* #i0202: TypoScript library for page media.
 						New TypoScript property
 						* start.lib.pagemedia

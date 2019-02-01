@@ -206,6 +206,19 @@ page {
         classRow												= {$start.foundation.grid.class.row}
       }
     }
+      // Three rows: header | content | bottom
+    start__silver_04 < .start__bronze_02
+    start__silver_04 {
+      file = {$start.fluid.path.templates}silver_04.html
+      settings >
+      settings {
+        classCell												= {$start.foundation.grid.class.cell}
+        classColMainContentTopCenter    = small-12
+        classColMainContentMain         = small-12
+        classColMainContentBottomCenter = small-12
+        classRow												= {$start.foundation.grid.class.row}
+      }
+    }
       // One column
     start__simple_01 < .start__bronze_01
     start__simple_01 {

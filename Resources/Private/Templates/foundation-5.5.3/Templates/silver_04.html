@@ -2,16 +2,20 @@
 <f:section name="content">
   <div class="maincontent">
     <div class="{settings.classRow}">
-      <div class="{settings.classColMainContentLeft} {settings.classCell} maincontentleft">
-        <f:cObject typoscriptObjectPath="start.structure.content.left" />
+      <div class="{settings.classColMainContentTopCenter} {settings.classCell}">
+        <f:cObject typoscriptObjectPath="start.structure.content.topCenter" />
       </div>
+    </div>
+    <div class="{settings.classRow}">
       <div class="{settings.classColMainContentMain} {settings.classCell} maincontentmain">
         <!--content-->
         <f:cObject typoscriptObjectPath="start.structure.content.main" />
         <!--/content-->
       </div>
-      <div class="{settings.classColMainContentRight} {settings.classCell} maincontentright">
-        <f:cObject typoscriptObjectPath="start.structure.content.right" />
+    </div>
+    <div class="{settings.classRow}">
+      <div class="{settings.classColMainContentBottomCenter} {settings.classCell}">
+        <f:cObject typoscriptObjectPath="start.structure.content.bottomCenter" />
       </div>
     </div>
   </div>

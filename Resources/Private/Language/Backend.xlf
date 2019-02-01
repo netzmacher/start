@@ -1,123 +1,165 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-  <file source-language="en" datatype="plaintext" original="messages" date="2014-11-22T15:11:39Z" product-name="start">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2014-11-22T15:11:39Z" product-name="start">
     <header/>
     <body>
 
       <trans-unit id="theme_name">
         <source>Start TYPO3 Responsive</source>
+        <target>Start TYPO3 Responsive</target>
       </trans-unit>
 
       <trans-unit id="backend_layout.bronze_01">
         <source>Start Bronze 1: | MAIN |</source>
+        <target>Start Bronze 1: | INHALT |</target>
       </trans-unit>
       <trans-unit id="backend_layout.bronze_02">
         <source>Start Bronze 2: | MAIN | right |</source>
+        <target>Start Bronze 2: | INHALT | rechts |</target>
       </trans-unit>
       <trans-unit id="backend_layout.bronze_03">
         <source>Start Bronze 3: | left | MAIN |</source>
+        <target>Start Bronze 3: | links | INHALT |</target>
       </trans-unit>
       <trans-unit id="backend_layout.bronze_04">
         <source>Start Bronze 4: | left | MAIN | right |</source>
+        <target>Start Bronze 4: | links | INHALT | rechts |</target>
       </trans-unit>
       <trans-unit id="backend_layout.default">
-        <source>Start: TYPO3 default</source>
+        <source>Start: TYPO3 Standard</source>
       </trans-unit>
       <trans-unit id="backend_layout.newsletter_01">
         <source>Start Newsletter Basic: | MAIN |</source>
+        <target>Start Newsletter Basic: | INHALT |</target>
       </trans-unit>
       <trans-unit id="backend_layout.silver_01">
-        <source>Start Silver 1: | top | MAIN |</source>
+        <source>Start Silber 1: | top | MAIN |</source>
+        <target>Start Silber 1: | oben | INHALT |</target>
       </trans-unit>
       <trans-unit id="backend_layout.silver_02">
-        <source>Start Silver 2: | top | MAIN | bottom |</source>
+        <source>Start Silber 2: | top | MAIN | bottom |</source>
+        <target>Start Silber 2: | oben | INHALT | unten |</target>
       </trans-unit>
       <trans-unit id="backend_layout.silver_03">
-        <source>Start Silver 3: | MAIN | bottom |</source>
+        <source>Start Silber 3: | MAIN | bottom |</source>
+        <target>Start Silber 3: | INHALT | unten |</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.silver_04">
+        <source>Start Silber 4: | top | MAIN | bottom |</source>
+        <target>Start Silber 4: | oben | INHALT | unten |</target>
       </trans-unit>
       <trans-unit id="backend_layout.simple_01">
         <source>Start Simple 1: | MAIN |</source>
+        <target>Start Einfach 1: | INHALT |</target>
       </trans-unit>
       <trans-unit id="backend_layout.simple_02">
         <source>Start Simple 2: | MAIN | right |</source>
+        <target>Start Einfach 2: | INHALT | rechts |</target>
       </trans-unit>
       <trans-unit id="backend_layout.simple_03">
         <source>Start Simple 3: | left | MAIN |</source>
+        <target>Start Einfach 3: | links | INHALT |</target>
       </trans-unit>
       <trans-unit id="backend_layout.simple_04">
         <source>Start Simple 4: | left | MAIN | right |</source>
+        <target>Start Einfach 4: | links | INHALT | rechts |</target>
       </trans-unit>
 
       <trans-unit id="backend_layout.column.content">
         <source>Content</source>
+        <target>Inhalt</target>
       </trans-unit>
       <trans-unit id="backend_layout.column.content.bottom">
         <source>Below the content</source>
+        <target>Unter dem Inhalt</target>
       </trans-unit>
       <trans-unit id="backend_layout.column.content.bottomCenter">
         <source>Below the content in the center</source>
+        <target>Unter dem Inhalt in der Mitte</target>
       </trans-unit>
       <trans-unit id="backend_layout.column.content.bottomLeft">
         <source>Below the content on the left</source>
+        <target>Unter dem Inhalt links</target>
       </trans-unit>
       <trans-unit id="backend_layout.column.content.bottomRight">
         <source>Below the content on the right</source>
+        <target>Unter dem Inhalt rechts</target>
       </trans-unit>
       <trans-unit id="backend_layout.column.content.left">
         <source>Left margin</source>
+        <target>Linke Spalte</target>
       </trans-unit>
       <trans-unit id="backend_layout.column.content.right">
         <source>Right margin</source>
+        <target>Rechte Spalte</target>
       </trans-unit>
       <trans-unit id="backend_layout.column.content.top">
         <source>Above the content</source>
+        <target>Über dem Inhalt</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.column.content.top">
+        <source>Above the content</source>
+        <target>Über dem Inhalt</target>
       </trans-unit>
       <trans-unit id="backend_layout.column.content.topCenter">
         <source>Above the content in the center</source>
+        <target>Über dem Inhalt in der Mitte</target>
       </trans-unit>
       <trans-unit id="backend_layout.column.content.topLeft">
         <source>Above the content on the left</source>
+        <target>Über dem Inhalt links</target>
       </trans-unit>
       <trans-unit id="backend_layout.column.content.topRight">
         <source>Above the content on the right</source>
+        <target>Über dem Inhalt rechts</target>
       </trans-unit>
 
       <trans-unit id="backend_layout.column.header">
         <source>Header</source>
+        <target>Kopf</target>
       </trans-unit>
       <trans-unit id="backend_layout.column.header.bottom">
         <source>Below the header</source>
+        <target>Unter dem Kopf</target>
       </trans-unit>
       <trans-unit id="backend_layout.column.header.left">
         <source>Left margin</source>
+        <target>Linke Spalte</target>
       </trans-unit>
       <trans-unit id="backend_layout.column.header.right">
         <source>Right margin</source>
+        <target>Rechte Spalte</target>
       </trans-unit>
       <trans-unit id="backend_layout.column.header.top">
         <source>Above the header</source>
+        <target>Über dem Kopf</target>
       </trans-unit>
 
       <trans-unit id="backend_layout.column.footer">
         <source>Footer</source>
+        <target>Fuß</target>
       </trans-unit>
       <trans-unit id="backend_layout.column.footer.bottom">
         <source>Below the footer</source>
+        <target>Unter dem Fuß</target>
       </trans-unit>
       <trans-unit id="backend_layout.column.footer.left">
         <source>Left margin</source>
+        <target>Linke Spalte</target>
       </trans-unit>
       <trans-unit id="backend_layout.column.footer.right">
         <source>Right margin</source>
+        <target>Rechte Spalte</target>
       </trans-unit>
       <trans-unit id="backend_layout.column.footer.top">
         <source>Above the footer</source>
+        <target>Über dem Fuß</target>
       </trans-unit>
 
       <trans-unit id="backend_layout.column.hidden">
         <source>Hidden</source>
+        <target>Versteckt</target>
       </trans-unit>
     </body>
   </file>
-
 </xliff>

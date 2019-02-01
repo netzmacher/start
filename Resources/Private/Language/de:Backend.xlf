@@ -44,6 +44,10 @@
         <source>Start Silber 3: | MAIN | bottom |</source>
         <target>Start Silber 3: | INHALT | unten |</target>
       </trans-unit>
+      <trans-unit id="backend_layout.silver_04">
+        <source>Start Silber 4: | top | MAIN | bottom |</source>
+        <target>Start Silber 4: | oben | INHALT | unten |</target>
+      </trans-unit>
       <trans-unit id="backend_layout.simple_01">
         <source>Start Simple 1: | MAIN |</source>
         <target>Start Einfach 1: | INHALT |</target>
