@@ -1,15 +1,27 @@
 4.5.5
 	19-02-01
 	Feature: 
-	* #i0203: New backend layout silver 4: header | top | content | bottom | footer
+	* #i0203: New backend layouts
+						* silver 4: header | top | content | bottom | footer
+						* silver 5: header | top | content | footer
+						* silver 6: header | content | bottom | footer
 						New file:
-						* Resources/Public/Images/BackendLayouts/start_silver_04.gif
+						* Resources/Public/Images/BackendLayouts
+							* start_silver_04.gif
+							* start_silver_05.gif
+							* start_silver_06.gif
 						Affected files:
 						* Classes/Provider/BackendLayoutDataProvider.php
 						* Configuration/TypoScript/Base/Page/Page/63148.ts
 						* Resources/Private/Templates
-							* foundation-5.5.3/Templates/silver_04.html
-							* foundation-6.4.3/Templates/silver_04.html
+							* foundation-5.5.3/Templates
+								* silver_04.html
+								* silver_05.html
+								* silver_06.html
+							* foundation-6.4.3/Templates
+								* silver_04.html
+								* silver_05.html
+								* silver_06.html
 						* Resources/Private/Language
 							* Backend.xlf
 							* de.Backend.xlf
