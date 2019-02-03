@@ -249,7 +249,7 @@ page {
       // Five rows: header || top || content | right || bottom || footer
     start__silver_08 < .start__silver_07
     start__silver_08 {
-      file = {$start.fluid.path.templates}silver_07.html
+      file = {$start.fluid.path.templates}silver_08.html
       settings {
         classColMainContentLeft >
         classColMainContentMain   = small-12 medium-9
@@ -258,7 +258,7 @@ page {
       // Five rows: header || top || left | content || bottom || footer
     start__silver_09 < .start__silver_07
     start__silver_09 {
-      file = {$start.fluid.path.templates}silver_07.html
+      file = {$start.fluid.path.templates}silver_09.html
       settings {
         classColMainContentRight >
         classColMainContentMain   = small-12 medium-9
