@@ -50,11 +50,23 @@
       </trans-unit>
       <trans-unit id="backend_layout.silver_05">
         <source>Start Silber 5: | top | MAIN |</source>
-        <target>Start Silber 4: | oben | INHALT</target>
+        <target>Start Silber 5: | oben | INHALT</target>
       </trans-unit>
       <trans-unit id="backend_layout.silver_06">
         <source>Start Silber 6: | MAIN | bottom |</source>
         <target>Start Silber 6: | INHALT | unten |</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.silver_07">
+        <source>Start Silber 7: | top || left | MAIN | right || bottom |</source>
+        <target>Start Silber 7: | oben || links | INHALT | rechts || unten |</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.silver_08">
+        <source>Start Silber 8: | top || MAIN | right || bottom |</source>
+        <target>Start Silber 8: | oben || INHALT | rechts || unten |</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.silver_09">
+        <source>Start Silber 9: | top || left | MAIN || bottom |</source>
+        <target>Start Silber 9: | oben || links | INHALT | unten |</target>
       </trans-unit>
       <trans-unit id="backend_layout.simple_01">
         <source>Start Simple 1: | MAIN |</source>

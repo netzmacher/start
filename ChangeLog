@@ -1,15 +1,25 @@
 4.5.5
-	19-02-01
+	19-02-03
 	Feature: 
 	* #i0203: New backend layouts
-						* silver 4: header | top | content | bottom | footer
-						* silver 5: header | top | content | footer
-						* silver 6: header | content | bottom | footer
+						* silver 4: header || top || content || bottom || footer
+						* silver 5: header || top || content || footer
+						* silver 6: header || content || bottom || footer
+						* silver 7: header || top || left | content | right || bottom || footer
+						* silver 8: header || top || content | right || bottom || footer
+						* silver 9: header || top || left | content || bottom || footer
+						Deprecated backend layouts
+						* silver 1
+						* silver 2
+						* silver 3
 						New file:
 						* Resources/Public/Images/BackendLayouts
 							* start_silver_04.gif
 							* start_silver_05.gif
 							* start_silver_06.gif
+							* start_silver_07.gif
+							* start_silver_08.gif
+							* start_silver_09.gif
 						Affected files:
 						* Classes/Provider/BackendLayoutDataProvider.php
 						* Configuration/TypoScript/Base/Page/Page/63148.ts
@@ -18,10 +28,16 @@
 								* silver_04.html
 								* silver_05.html
 								* silver_06.html
+								* silver_07.html
+								* silver_08.html
+								* silver_09.html
 							* foundation-6.4.3/Templates
 								* silver_04.html
 								* silver_05.html
 								* silver_06.html
+								* silver_07.html
+								* silver_08.html
+								* silver_09.html
 						* Resources/Private/Language
 							* Backend.xlf
 							* de.Backend.xlf

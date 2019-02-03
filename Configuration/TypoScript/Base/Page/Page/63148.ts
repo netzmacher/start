@@ -206,7 +206,7 @@ page {
         classRow												= {$start.foundation.grid.class.row}
       }
     }
-      // Three rows: header | content | bottom
+      // Five rows: header || top || content || bottom || footer
     start__silver_04 < .start__bronze_02
     start__silver_04 {
       file = {$start.fluid.path.templates}silver_04.html
@@ -219,7 +219,7 @@ page {
         classRow												= {$start.foundation.grid.class.row}
       }
     }
-      // Three rows: header | content
+      // Four rows: header || top || content || footer
     start__silver_05 < .start__silver_04
     start__silver_05 {
       file = {$start.fluid.path.templates}silver_05.html
@@ -227,7 +227,7 @@ page {
         classColMainContentBottomCenter >
       }
     }
-      // Three rows: content | bottom
+      // Four rows: header || content || right || footer
     start__silver_06 < .start__silver_04
     start__silver_06 {
       file = {$start.fluid.path.templates}silver_06.html
@@ -235,6 +235,36 @@ page {
         classColMainContentTopCenter >
       }
     }
+      // Five rows: header || top || left | content | right || bottom || footer
+    start__silver_07 < .start__silver_04
+    start__silver_07 {
+      file = {$start.fluid.path.templates}silver_07.html
+      settings {
+        classColMainContentMain   >
+        classColMainContentLeft   = show-for-medium-up medium-3
+        classColMainContentMain   = small-12 medium-6
+        classColMainContentRight  = show-for-medium-up medium-3
+      }
+    }
+      // Five rows: header || top || content | right || bottom || footer
+    start__silver_08 < .start__silver_07
+    start__silver_08 {
+      file = {$start.fluid.path.templates}silver_07.html
+      settings {
+        classColMainContentLeft >
+        classColMainContentMain   = small-12 medium-9
+      }
+    }
+      // Five rows: header || top || left | content || bottom || footer
+    start__silver_09 < .start__silver_07
+    start__silver_09 {
+      file = {$start.fluid.path.templates}silver_07.html
+      settings {
+        classColMainContentRight >
+        classColMainContentMain   = small-12 medium-9
+      }
+    }
+
       // One column
     start__simple_01 < .start__bronze_01
     start__simple_01 {

@@ -475,7 +475,7 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
             }
             2 {
               columns {
-                2 {
+                1 {
                   name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.top
                   colPos  = 3
                   colspan = 12
@@ -541,7 +541,7 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
             }
             2 {
               columns {
-                2 {
+                1 {
                   name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.top
                   colPos  = 3
                   colspan = 12
@@ -636,6 +636,224 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
         }
       ',
 					'icon' => 'EXT:start/Resources/Public/Images/BackendLayouts/start_silver_06.gif'
+			),
+			'silver_07' => array(
+					'title' => 'LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.silver_07',
+					'config' => '
+        backend_layout {
+          colCount = 12
+          rowCount = 6
+          rows {
+            1 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.header
+                  colPos  = 11
+                  colspan = 12
+                }
+              }
+            }
+            2 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.top
+                  colPos  = 3
+                  colspan = 12
+                }
+              }
+            }
+            3 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.left
+                  colPos  = 1
+                  colspan = 3
+                }
+                2 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content
+                  colPos  = 0
+                  colspan = 6
+                }
+                3 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.right
+                  colPos  = 2
+                  colspan = 3
+                }
+              }
+            }
+            4 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.bottom
+                  colPos  = 6
+                  colspan = 12
+                }
+              }
+            }
+            5 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.footer
+                  colPos  = 21
+                  colspan = 12
+                }
+              }
+            }
+            6 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.hidden
+                  colPos  = -2
+                  colspan = 12
+                }
+              }
+            }
+          }
+        }
+      ',
+					'icon' => 'EXT:start/Resources/Public/Images/BackendLayouts/start_silver_07.gif'
+			),
+			'silver_08' => array(
+					'title' => 'LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.silver_08',
+					'config' => '
+        backend_layout {
+          colCount = 12
+          rowCount = 6
+          rows {
+            1 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.header
+                  colPos  = 11
+                  colspan = 12
+                }
+              }
+            }
+            2 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.top
+                  colPos  = 3
+                  colspan = 12
+                }
+              }
+            }
+            3 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content
+                  colPos  = 0
+                  colspan = 9
+                }
+                2 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.right
+                  colPos  = 2
+                  colspan = 3
+                }
+              }
+            }
+            4 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.bottom
+                  colPos  = 6
+                  colspan = 12
+                }
+              }
+            }
+            5 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.footer
+                  colPos  = 21
+                  colspan = 12
+                }
+              }
+            }
+            6 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.hidden
+                  colPos  = -2
+                  colspan = 12
+                }
+              }
+            }
+          }
+        }
+      ',
+					'icon' => 'EXT:start/Resources/Public/Images/BackendLayouts/start_silver_08.gif'
+			),
+			'silver_09' => array(
+					'title' => 'LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.silver_09',
+					'config' => '
+        backend_layout {
+          colCount = 12
+          rowCount = 6
+          rows {
+            1 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.header
+                  colPos  = 11
+                  colspan = 12
+                }
+              }
+            }
+            2 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.top
+                  colPos  = 3
+                  colspan = 12
+                }
+              }
+            }
+            3 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.left
+                  colPos  = 1
+                  colspan = 3
+                }
+                2 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content
+                  colPos  = 0
+                  colspan = 9
+                }
+              }
+            }
+            4 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.bottom
+                  colPos  = 6
+                  colspan = 12
+                }
+              }
+            }
+            5 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.footer
+                  colPos  = 21
+                  colspan = 12
+                }
+              }
+            }
+            6 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.hidden
+                  colPos  = -2
+                  colspan = 12
+                }
+              }
+            }
+          }
+        }
+      ',
+					'icon' => 'EXT:start/Resources/Public/Images/BackendLayouts/start_silver_09.gif'
 			),
 			'silver_01' => array(
 					'title' => 'LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.silver_01',
