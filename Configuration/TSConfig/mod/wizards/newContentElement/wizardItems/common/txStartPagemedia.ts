@@ -5,7 +5,7 @@ mod.wizards.newContentElement.wizardItems.common {
 		txStartPagemedia {
 			iconIdentifier = app-txStartPagemedia
 			title = Page Media
-			description = Include items of the page media field
+			description = LLL:EXT:start/Resources/Private/Language/mod/wizards.xlf:txStartPagemedia.description
 			tt_content_defValues {
 				CType = txStartPagemedia
 				header = PageMedia

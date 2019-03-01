@@ -3,19 +3,12 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../Includes.txt
+.. include:: ../../Includes.txt
 
 
-.. _users:
+.. _users_bestpractice_addressdate:
 
-Users
-=======
+Address data
+============
 
-**Table of Contents**
-
-.. toctree::
-    :maxdepth: 2
-    :titlesonly:
-
-    Setup/Index
-    BestPractice/Index
+Please refer to :ref:`Users setup essentials <users_setup_essentials>`

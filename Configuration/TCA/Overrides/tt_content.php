@@ -53,6 +53,6 @@ switch( TRUE )
 		, 'txStartPagemedia'
 		, 'app-txStartPagemedia'
 				]
-				, 'textmedia'
+				, 'image'
 				, 'after'
 );

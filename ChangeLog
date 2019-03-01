@@ -3,7 +3,7 @@
 	Manual
 	* #i0207: New section
 	Feature
-	* #i0206: New content element pagemedia
+	* #i0206: New content element Page Media
 						New files:
 						* Configuration/TSConfig/mod/wizards/newContentElement/wizardItems/common/pagemedia.ts
 						* Configuration/TypoScript/Base/tt_content/

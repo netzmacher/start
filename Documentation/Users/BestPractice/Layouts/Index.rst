@@ -3,21 +3,19 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../Includes.txt
+.. include:: ../../../Includes.txt
 
 
-.. _administrators:
+.. _users_bestpractice_layouts:
 
-Administrators
-==============
+Layouts
+=======
 
 **Table of Contents**
 
 .. toctree::
-	:maxdepth: 2
-	:titlesonly:
+    :maxdepth: 2
+    :titlesonly:
 
-	Installation/Index
-	Setup/Index
-	FirstSteps/Index
-	BestPractice/Index
+    Basic/Index
+    Nested/Index

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2019-03-01T15:11:39Z" product-name="start">
+    <header/>
+    <body>
+      <trans-unit id="txStartPagemedia.description">
+        <source>Display images of page resources media field.</source>
+        <target>Bilder des Felds Media aus den Seiteneigenschaften (Ressourcen) anzeigen.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -6,11 +6,19 @@
 .. include:: ../../../Includes.txt
 
 
-.. _administrators_firststeps_navigation:
+.. _administrators_bestpractice_newsletter:
 
 
-Navigation
+Newsletter
 ==========
 
-Please add a main navigation and a breadcrumb navigation like shown in the section
-:ref:`Users > Best Practice > Navigation <users_bestpractice_navigation>`
+**Table of Contents**
+
+.. toctree::
+	:maxdepth: 3
+	:titlesonly:
+
+	Categories/Index
+	Extensions/Index
+	Modal/Index
+	Popup/Index

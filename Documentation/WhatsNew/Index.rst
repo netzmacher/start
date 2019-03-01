@@ -11,7 +11,21 @@
 What's new
 ==========
 
-**Table of Contents**
+
+New content element Page Media
+------------------------------
+
+4.6.0
+
+Display images of page resources media field. See
+
+* :ref:`Administrators > Best Practice > Page Media <administrators_bestpractice_pagemedia>`
+
+* :ref:`Users > Best Practice > Page Media <users_bestpractice_pagemedia>`
+
+
+Former Updates
+--------------
 
 .. toctree::
 	:maxdepth: 2

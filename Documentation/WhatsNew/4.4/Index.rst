@@ -35,4 +35,4 @@ New newsletter popup:
 
 * The popup contains the newsletter subscription form
 
-See @ :ref:`Administrators > Best Practise > Newsletter > Popup <administrators_bestpractise_newsletter_popup>`
+See @ :ref:`Administrators > Best Practice > Newsletter > Popup <administrators_bestpractice_newsletter_popup>`
