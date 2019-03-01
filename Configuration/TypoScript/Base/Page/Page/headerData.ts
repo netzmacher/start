@@ -2,11 +2,11 @@ page {
 		// empty statement for proper comments only
 	headerData {
 	}
+		// 333: start: RSS Alternate Link, if.isTrue = $start.pages.rss (here: {$start.pages.rss})
 	headerData =
-		// 341: org: RSS Alternate Link for news, if.isTrue = $start.pages.rss (here: {$start.pages.rss})
 	headerData {
-		341 = COA
-		341 {
+		333 = COA
+		333 {
 				// isTrue = {$start.pages.rss}
 			if =
 			if.isTrue = {$start.pages.rss}
