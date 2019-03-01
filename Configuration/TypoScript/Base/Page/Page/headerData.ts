@@ -5,6 +5,7 @@ page {
 		// 333: start: RSS Alternate Link, if.isTrue = $start.pages.rss (here: {$start.pages.rss})
 	headerData =
 	headerData {
+			// RSS Alternate Link, if.isTrue = $start.pages.rss (here: {$start.pages.rss})
 		333 = COA
 		333 {
 				// isTrue = {$start.pages.rss}
