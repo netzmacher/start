@@ -4,8 +4,8 @@
     <header/>
     <body>
       <trans-unit id="txStartPagemedia.description">
-        <source>Display images of page resources media field.</source>
-        <target>Bilder des Felds Media aus den Seiteneigenschaften (Ressourcen) anzeigen.</target>
+        <source>Display images of page resources media field. Usefull for header images.</source>
+        <target>Bilder des Felds Media aus den Seiteneigenschaften (Ressourcen) anzeigen. Sinnvoll für Header-Bilder.</target>
       </trans-unit>
     </body>
   </file>
