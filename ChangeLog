@@ -1,3 +1,30 @@
+4.6.0
+	19-03-01
+	Manual
+	* #i0207: New section
+	Feature
+	* #i0206: New content element pagemedia
+						New files:
+						* Configuration/TSConfig/mod/wizards/newContentElement/wizardItems/common/pagemedia.ts
+						* Configuration/TypoScript/Base/tt_content/
+						Affected files:
+						* Configuration
+							* ExtTables/Default.php
+							* TCA/Overrides/tt_content.php
+							* TypoScript/Base/tt_content/_setup.ts
+	Improvement
+	* #i0205: Clean up deprecated classes
+						* lib/userfunc/class.tx_start_userfunc.php is removed
+	* #i0204: Clean up directory structure
+						* Configuration/ExtLocalconf/PageTSConfig/7.6/tt_content/menu_type.ts
+							is moved to Configuration/TSConfig/mod/wizards/newContentElement/wizardItems/7.6/menu_type.ts
+						* Configuration/ExtLocalconf/PageTSConfig/Default/tt_content/menu.ts
+							is moved to Configuration/TSConfig/mod/wizards/newContentElement/wizardItems/Default/menu.ts
+						* lib/icons/* are moved to Resources/Public/Images/Icons/
+						* lib/userfunc/locallang.xml is moved to Resources/Private/Language/Userfunc/locallang.xml
+						Affected file:
+						* lib/userfunc/locallang.xml
+
 4.5.5
 	19-02-03
 	Feature: 

@@ -18,7 +18,7 @@
             alt="start is powered by Dirk Wildt (die-netzmacher.de)"
             title="start is powered by Dirk Wildt (die-netzmacher.de)"
             target="_blank">
-            <img src="../../../../typo3conf/ext/start/lib/icons/start_90x80.gif"
+            <img src="../../../../typo3conf/ext/start/Resources/Public/Images/Icons/start_90x80.gif"
               width="90"
               height="80"
               title="start is powered by Dirk Wildt (die-netzmacher.de)" /></a>
@@ -26,7 +26,7 @@
             alt="start is powered by Dirk Wildt (die-netzmacher.de)"
             title="start is powered by Dirk Wildt (die-netzmacher.de)"
             target="_blank">
-            <img src="../../../../typo3conf/ext/start/lib/icons/die-netzmacher-logo-quadrat.png"
+            <img src="../../../../typo3conf/ext/start/Resources/Public/Images/Icons/die-netzmacher-logo-quadrat.png"
               width="80"
               height="80"
               title="start is powered by Dirk Wildt (die-netzmacher.de)" /></a>
@@ -99,7 +99,7 @@
           Donating and Sponsoring
         </h1>
         <div style="float:left;padding-right:1em;">
-          <img src="../../../../typo3conf/ext/start/lib/icons/dirk_wildt_30x30.gif"
+          <img src="../../../../typo3conf/ext/start/Resources/Public/Images/Icons/dirk_wildt_30x30.gif"
             width="30"
             height="30"
             title="Please support my job!" />
@@ -123,7 +123,7 @@
           alt="made in nature, Germany, sponsors the TYPO3-Foundation project"
           title="made in nature, Germany, sponsors the TYPO3-Foundation project"
           target="_blank">
-          <img src="../../../../typo3conf/ext/start/lib/icons/made-in-nature.de_120x90.gif"
+          <img src="../../../../typo3conf/ext/start/Resources/Public/Images/Icons/made-in-nature.de_120x90.gif"
             width="120"
             height="90"
             alt="made in nature, Germany, sponsors the TYPO3-Foundation project" /></a>
@@ -140,7 +140,7 @@
           alt="Your logo with your URL. 120 x 90 pixel."
           title="Your logo with your URL. 120 x 90 pixel."
           target="_blank">
-          <img src="../../../../typo3conf/ext/start/lib/icons/your-logo_default-blue.gif"
+          <img src="../../../../typo3conf/ext/start/Resources/Public/Images/Icons/your-logo_default-blue.gif"
             width="120"
             height="90"
             title="Your logo with your URL. 120 x 90 pixel." /></a>
@@ -149,7 +149,7 @@
           alt="Your logo with your URL. 120 x 90 pixel."
           title="Your logo with your URL. 120 x 90 pixel."
           target="_blank">
-          <img src="../../../../typo3conf/ext/start/lib/icons/your-logo_default-grey.gif"
+          <img src="../../../../typo3conf/ext/start/Resources/Public/Images/Icons/your-logo_default-grey.gif"
             width="120"
             height="90"
             title="Your logo with your URL. 120 x 90 pixel." /></a>
@@ -158,7 +158,7 @@
           alt="Your logo with your URL. 120 x 90 pixel."
           title="Your logo with your URL. 120 x 90 pixel."
           target="_blank">
-          <img src="../../../../typo3conf/ext/start/lib/icons/your-logo_default-grey.gif"
+          <img src="../../../../typo3conf/ext/start/Resources/Public/Images/Icons/your-logo_default-grey.gif"
             width="120"
             height="90"
             title="Your logo with your URL. 120 x 90 pixel." /></a>
@@ -178,7 +178,7 @@
             alt="start is powered by Dirk Wildt (die-netzmacher.de)"
             title="start is powered by Dirk Wildt (die-netzmacher.de)"
             target="_blank">
-            <img src="../../../../typo3conf/ext/start/lib/icons/start_90x80.gif"
+            <img src="../../../../typo3conf/ext/start/Resources/Public/Images/Icons/start_90x80.gif"
               width="90"
               height="80"
               title="start is powered by Dirk Wildt (die-netzmacher.de)" /></a>
@@ -186,7 +186,7 @@
             alt="start is powered by Dirk Wildt (die-netzmacher.de)"
             title="start is powered by Dirk Wildt (die-netzmacher.de)"
             target="_blank">
-            <img src="../../../../typo3conf/ext/start/lib/icons/die-netzmacher-logo-quadrat.png"
+            <img src="../../../../typo3conf/ext/start/Resources/Public/Images/Icons/die-netzmacher-logo-quadrat.png"
               width="80"
               height="80"
               title="start is powered by Dirk Wildt (die-netzmacher.de)" /></a>
@@ -259,7 +259,7 @@
           Spenden und Sponsern
         </h1>
         <div style="float:left;padding-right:1em;">
-          <img src="../../../../typo3conf/ext/start/lib/icons/dirk_wildt_30x30.gif"
+          <img src="../../../../typo3conf/ext/start/Resources/Public/Images/Icons/dirk_wildt_30x30.gif"
             width="30"
             height="30"
             title="Bitte unterst&uuml;tze meine Arbeit!" />
@@ -283,7 +283,7 @@
           alt="made in nature, Deutschland, Sponsor des TYPO3-Foundation-Projekts"
           title="made in nature, Deutschland, Sponsor des TYPO3-Foundation-Projekts"
           target="_blank">
-          <img src="../../../../typo3conf/ext/start/lib/icons/made-in-nature.de_120x90.gif"
+          <img src="../../../../typo3conf/ext/start/Resources/Public/Images/Icons/made-in-nature.de_120x90.gif"
             width="120"
             height="90"
             title="made in nature, Deutschland, Sponsor des TYPO3-Foundation-Projekts" /></a>
@@ -300,7 +300,7 @@
           alt="Dein Logo mit Deiner URL. 120 x 90 Pixel."
           title="Dein Logo mit Deiner URL. 120 x 90 Pixel."
           target="_blank">
-          <img src="../../../../typo3conf/ext/start/lib/icons/your-logo_de-blue.gif"
+          <img src="../../../../typo3conf/ext/start/Resources/Public/Images/Icons/your-logo_de-blue.gif"
             width="120"
             height="90"
             title="Dein Logo mit Deiner URL. 120 x 90 Pixel." /></a>
@@ -309,7 +309,7 @@
           alt="Dein Logo mit Deiner URL. 120 x 90 Pixel."
           title="Dein Logo mit Deiner URL. 120 x 90 Pixel."
           target="_blank">
-          <img src="../../../../typo3conf/ext/start/lib/icons/your-logo_de-grey.gif"
+          <img src="../../../../typo3conf/ext/start/Resources/Public/Images/Icons/your-logo_de-grey.gif"
             width="120"
             height="90"
             title="Dein Logo mit Deiner URL. 120 x 90 Pixel." /></a>
@@ -318,7 +318,7 @@
           alt="Dein Logo mit Deiner URL. 120 x 90 Pixel."
           title="Dein Logo mit Deiner URL. 120 x 90 Pixel."
           target="_blank">
-          <img src="../../../../typo3conf/ext/start/lib/icons/your-logo_de-grey.gif"
+          <img src="../../../../typo3conf/ext/start/Resources/Public/Images/Icons/your-logo_de-grey.gif"
             width="120"
             height="90"
             title="Dein Logo mit Deiner URL. 120 x 90 Pixel." /></a>

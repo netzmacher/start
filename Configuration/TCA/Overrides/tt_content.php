@@ -30,6 +30,10 @@ $typo3Version = $version;
  * **************************************************************************** */
 
 
+// #i0206, 190301, dwildt, 1+
+$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'ctrl' ][ 'typeicon_classes' ][ 'txStartPagemedia' ] = 'app-txStartPagemedia';
+$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'txStartPagemedia' ] = $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'header' ];
+
 switch( TRUE )
 {
 	case($typo3Version < 8000000):
@@ -40,3 +44,15 @@ switch( TRUE )
 		require( PATH_typo3conf . 'ext/start/Configuration/TCA/Overrides/Default/tt_content.php' );
 		break;
 }
+
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTcaSelectItem(
+				'tt_content'
+				, 'CType'
+				, [
+		'Page Media'
+		, 'txStartPagemedia'
+		, 'app-txStartPagemedia'
+				]
+				, 'textmedia'
+				, 'after'
+);

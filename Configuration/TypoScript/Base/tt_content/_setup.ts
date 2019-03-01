@@ -1,5 +1,6 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Base/tt_content/image.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Base/tt_content/menu.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Base/tt_content/txStartPagemedia.ts">
 
 [globalVar = LIT:tt_content = {$styles.content.shortcut.tables}]
 	// condition meets, if TypoScript template FluidStyledContent is included. Internal: #t1827, #i0192

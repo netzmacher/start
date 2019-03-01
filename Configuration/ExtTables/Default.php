@@ -93,7 +93,7 @@ $extIcon = array(
 );
 $iconRegistry->registerIcon(
 				$extIcon[ 'identifier' ]
-				, \TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider::class
+				, \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class
 				, [ 'source' => $extIcon[ 'source' ] ]
 );
 $TCA[ 'pages' ][ 'columns' ][ 'module' ][ 'config' ][ 'items' ][] = array(
@@ -103,8 +103,21 @@ $TCA[ 'pages' ][ 'columns' ][ 'module' ][ 'config' ][ 'items' ][] = array(
 );
 $TCA[ 'pages' ][ 'ctrl' ][ 'typeicon_classes' ][ $extIcon[ 'identifier' ] ] = $extIcon[ 'identifier' ];
 
-/* * ****************************************************************************
- * Methods for backend workflows
- * **************************************************************************** */
-
-require_once(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( $_EXTKEY ) . 'lib/userfunc/class.tx_start_userfunc.php');
+$extIcon = array(
+		'identifier' => 'app-txStartPagemedia'
+		, 'key' => 'txStartPagemedia' // <- Key must be the part behind contain- of the identifier!
+		, 'label' => 'Page Media'
+		, 'source' => 'EXT:start/ext_icon.svg'
+		, 'source' => 'EXT:start/Resources/Public/Images/Icons/txStartPagemedia.svg'
+);
+$iconRegistry->registerIcon(
+				$extIcon[ 'identifier' ]
+				, \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class
+				, [ 'source' => $extIcon[ 'source' ] ]
+);
+$TCA[ 'pages' ][ 'columns' ][ 'module' ][ 'config' ][ 'items' ][] = array(
+		$extIcon[ 'label' ]
+		, $extIcon[ 'key' ]
+		, $extIcon[ 'identifier' ]
+);
+$TCA[ 'pages' ][ 'ctrl' ][ 'typeicon_classes' ][ $extIcon[ 'identifier' ] ] = $extIcon[ 'identifier' ];

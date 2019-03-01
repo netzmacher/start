@@ -88,7 +88,8 @@ TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-start
  * **************************************************************************** */
 
 //require_once(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($_EXTKEY).'lib/flexform/class.tx_start_flexform.php');
-require_once(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( $_EXTKEY ) . 'lib/userfunc/class.tx_start_userfunc.php');
+// #i0205, 190301, dwildt, 1-
+//require_once(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( $_EXTKEY ) . 'Resources/Private/Language/Userfunc/class.tx_start_userfunc.php');
 
 /* * ****************************************************************************
  * PageTSConfig
