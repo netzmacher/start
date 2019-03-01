@@ -1,5 +1,9 @@
 4.6.1
 	19-03-01
+	Feature
+	* #i0209: Link to RSS feed is integrated in HTML code, if page id for rss feed is set.
+						New file:
+						* Configuration/TypoScript/Base/Page/Page/headerData.ts
 	Improvement
 	* #i0208: Description content element Page Media in the content element wizard.
 
