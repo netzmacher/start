@@ -1,0 +1,2 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Development/jsNotMinified/constants/start/foundation/_constants.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Development/jsNotMinified/constants/start/newsletterpopup/_constants.ts">

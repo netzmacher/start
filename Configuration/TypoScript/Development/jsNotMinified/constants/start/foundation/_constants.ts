@@ -1,0 +1,1 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Development/jsNotMinified/constants/start/foundation/files/_constants.ts">

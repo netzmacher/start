@@ -1,3 +1,17 @@
+4.6.3
+	19-03-13
+	Improvement
+	* #i0212: Minifying JS
+						If you like to include scripts, which aren't minified, please include the static template:
+						* [Start [97.2.1] +JS not minified]
+						New files:
+						* Configuration/TypoScript/Development/jsNotMinified/*
+	* #i0211: Minifying CSS
+						If you like to include style sheets, which aren't minified, please include the static template:
+						* [Start [97.1.1] +CSS not minified]
+						New files:
+						* Configuration/TypoScript/Development/cssNotMinified/*
+
 4.6.2
 	19-03-07
 	Feature
