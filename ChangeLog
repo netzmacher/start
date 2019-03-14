@@ -15,15 +15,6 @@
 						* [Start [97.1.1] +CSS not minified]
 						New files:
 						* Configuration/TypoScript/Development/cssNotMinified/*
-  Bugfix
-	* #i0214: Fluid templates
-						* plugin.slick.item.templates.defaults > plugin.slick.item.templates.10
-						Affected files:
-						* Configuration/TypoScript
-							* 7.6/Item
-								* constants.ts
-								* tt_content/slickitem.ts
-							* Default/Deprecated/Item/tt_content/slickitem.ts
 
 4.6.2
 	19-03-07
