@@ -1,6 +1,10 @@
 4.6.3
 	19-03-13
 	Improvement
+	* #i0213: Font performance
+						New property: font-display: auto;
+						Affected file:
+						* Resources/Public/Css/foundation-icons-3/foundation-icons.css
 	* #i0212: Minifying JS
 						If you like to include scripts, which aren't minified, please include the static template:
 						* [Start [97.2.1] +JS not minified]

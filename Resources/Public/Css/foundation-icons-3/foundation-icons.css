@@ -6,6 +6,7 @@
 
 @font-face {
   font-family: "foundation-icons";
+	font-display: auto;
   src: url("foundation-icons.eot");
   src: url("foundation-icons.eot?#iefix") format("embedded-opentype"),
        url("foundation-icons.woff") format("woff"),
