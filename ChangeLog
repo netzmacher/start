@@ -1,3 +1,15 @@
+4.6.4
+	19-03-17
+	Feature
+	* #i0214: gridelements got a header
+						New file:
+						* Configuration/TypoScript/Base/tt_content/gridelements.ts
+						====
+						INFO
+						====
+						If you don't like the new feature, please remove
+						* tt_content.gridelements_pi1.10
+
 4.6.3
 	19-03-13
 	Improvement

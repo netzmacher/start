@@ -22,7 +22,7 @@ tt_content.gridelements_pi1 {
       }
     }
   }
-		// FILES tt_content.media > background-image:url(###SRC###);
+		// FILES tt_content.media > background-image:url(###SRC###);	
   30 = COA
   30 {
 			// tt_content.media > background-image:url(###SRC###);
