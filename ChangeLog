@@ -22,6 +22,10 @@
 	* #i0210: Backgroundimage for Grid Elements
 						Constant Editor: new category
 						* [START - GRIDELEMENTS - BACKGROUND]
+						New file:
+						* Configuration/TypoScript/Base/tt_content/Fluid_Styled_Content/tt_content.gridelements_pi1.ts
+						Affected file:
+						* Configuration/TypoScript/Base/Start/Gridelements/constants/gridelements.ts
 
 4.6.1
 	19-03-01

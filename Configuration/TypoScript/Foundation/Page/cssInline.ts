@@ -5,7 +5,7 @@ page {
 		// EXT:start 188
   cssInline =
   cssInline {
-      // EXT:start
+      // EXT:start div.reveal-modal
     188 = TEXT
     188 {
       value (
