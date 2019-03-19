@@ -24,6 +24,15 @@ Bugfix columns confusion with three column gridelement
 * or include a static template, to continue with non fixed gridelements (see: :ref:`Start [92.1.1] +Workaround ChangeLog #i0215 <administrators_upgrades_workarounds_i0215_template>`)
 
 
+Gridelement will display its header
+-----------------------------------
+
+4.6.4
+
+**You MUST**
+
+* update your database (see: :ref:`SQL statements <administrators_upgrades_workarounds_i0214>`)
+
 
 New content element Page Media
 ------------------------------

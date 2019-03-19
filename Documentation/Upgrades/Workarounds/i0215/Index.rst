@@ -9,8 +9,8 @@
 .. _administrators_upgrades_workarounds_i0215:
 
 
-Changeog #i0215
-===============
+ChangeLog #i0215
+================
 
 The three columns grid element had a bug: first column was confused with second column. 
 This bug is fixed with Ext:start version 4.6.5.

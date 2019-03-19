@@ -8,8 +8,9 @@
 
 .. _administrators_upgrades:
 
-Upgrades
-========
+
+Upgrades and Workarounds
+========================
 
 **Table of Contents**
 
@@ -17,5 +18,5 @@ Upgrades
     :maxdepth: 2
     :titlesonly:
 
-    TYPO3-76-87/Index
     Workarounds/Index
+    TYPO3-76-87/Index
