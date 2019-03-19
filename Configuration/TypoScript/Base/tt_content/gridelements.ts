@@ -8,8 +8,8 @@ tt_content.gridelements_pi1 {
 			// if header_layout != 100
 		if =
 		if {
-			value.field = header_layout
-			equals = 100
+			value = 100
+			equals.field = header_layout
 			negate = 1
 		}
 		field = header
