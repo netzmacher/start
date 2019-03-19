@@ -3,13 +3,15 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../Includes.txt
+.. include:: ../../Includes.txt
 
 
-.. _administrators_upgrades:
+.. _administrators_upgrades_workarounds:
 
-Upgrades
-========
+
+Workarounds
+===========
+
 
 **Table of Contents**
 
@@ -17,5 +19,4 @@ Upgrades
     :maxdepth: 2
     :titlesonly:
 
-    TYPO3-76-87/Index
-    Workarounds/Index
+    i0215/Index

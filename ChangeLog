@@ -1,8 +1,21 @@
 4.6.5
+	Manual
+	* #i0216: New section Workarounds
 	Bugfix
 	* #i0215: Gridelements: 3 columns has proper colPos now: 0, 1, 2
-						Affected file:
-						* Configuration/TypoScript/Base/Start/Gridelements/setup/columns_03.ts
+						New files:
+						* Configuration/TypoScript/Workaround/ChangeLogI0215/start.gridelements.ts
+						* Documentation/Upgrades/Workarounds/*
+						Affected files:
+						* Configuration
+							* ExtTables/Default.php
+							* TypoScript/Base/Start/Gridelements/setup/columns_03.ts
+            ==========
+						WORKAROUND
+						==========
+						You MUST do one of the followong options:
+						* Update your database with SQL statements at ...
+						* Or include the static template: "Start [92.1.1] +Workaround ChangeLog #i0215"
 
 4.6.4
 	19-03-17
