@@ -16,6 +16,7 @@
 						You MUST do one of the followong options:
 						* Update your database with SQL statements at ...
 						* Or include the static template: "Start [92.1.1] +Workaround ChangeLog #i0215"
+						See MANUAL > What's new
 
 4.6.4
 	19-03-17
@@ -23,11 +24,11 @@
 	* #i0214: gridelements got a header
 						New file:
 						* Configuration/TypoScript/Base/tt_content/gridelements.ts
-						====
-						INFO
-						====
-						If you don't like the new feature, please remove
-						* tt_content.gridelements_pi1.10
+            ==========
+						WORKAROUND
+						==========
+						You MUST update your database with SQL statements at ...
+						See MANUAL > What's new
 
 4.6.3
 	19-03-13

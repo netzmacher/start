@@ -36,27 +36,19 @@ Statements
 SELECT
 ''''''
 
+Data won't changed. Statements serves only information.
+
 .. code:: php
 
-  -- Find all Gridelements wiih three columns and one row
+  -- Find all grid layouts with three columns and one row
   SELECT uid, pid, title, description, config FROM `tx_gridelements_backend_layout` WHERE config LIKE '%colCount = 3%' AND config LIKE '%rowCount = 1%'
 
-.. code:: php
-
-  -- Find all Content Eelements with CType gridelements_pi1 and the three columns grid layout
-  CREATE TEMPORARY TABLE gridLayoutColumns03 SELECT uid FROM `tx_gridelements_backend_layout` WHERE config LIKE '%colCount = 3%' AND config LIKE '%rowCount = 1%';
-  SELECT uid, pid, header, tx_gridelements_backend_layout FROM `tt_content` WHERE `CType` LIKE 'gridelements_pi1' AND tx_gridelements_backend_layout IN(SELECT uid FROM gridLayoutColumns03);
-
-.. code:: php
-
-  -- Find all Content Elements, which are a three columns grid layout
+  -- Find all content elements, which are using the three columns grid layout
   CREATE TEMPORARY TABLE gridLayoutColumns03 SELECT uid FROM `tx_gridelements_backend_layout` WHERE config LIKE '%colCount = 3%' AND config LIKE '%rowCount = 1%';
   CREATE TEMPORARY TABLE gridElementColumns03 SELECT uid FROM `tt_content` WHERE `CType` LIKE 'gridelements_pi1' AND tx_gridelements_backend_layout IN(SELECT uid FROM gridLayoutColumns03);
   SELECT uid, pid, header, tx_gridelements_backend_layout FROM tt_content WHERE uid IN(SELECT uid FROM gridElementColumns03);
 
-.. code:: php
-
-  -- Find all Content Elements, which are part of a three columns grid layout
+  -- Find all content elements, which are part of a three columns grid layout
   CREATE TEMPORARY TABLE gridLayoutColumns03 SELECT uid FROM `tx_gridelements_backend_layout` WHERE config LIKE '%colCount = 3%' AND config LIKE '%rowCount = 1%';
   CREATE TEMPORARY TABLE gridElementColumns03 SELECT uid FROM `tt_content` WHERE `CType` LIKE 'gridelements_pi1' AND tx_gridelements_backend_layout IN(SELECT uid FROM gridLayoutColumns03);
   CREATE TEMPORARY TABLE contentForColumns03 SELECT uid FROM tt_content WHERE uid IN(SELECT uid FROM gridElementColumns03);
@@ -66,9 +58,11 @@ SELECT
 UPDATE
 ''''''
 
+Data will updated.
+
 .. code:: php
 
-  -- Update columns configuration in all Gridelements wiih three columns and one row
+  -- Update columns configuration in all grid layouts with three columns and one row
   CREATE TEMPORARY TABLE gridLayoutColumns03 SELECT uid FROM `tx_gridelements_backend_layout` WHERE config LIKE '%colCount = 3%' AND config LIKE '%rowCount = 1%';
   UPDATE tx_gridelements_backend_layout SET config = REPLACE(config, 'colPos = 0', 'colPos = x') WHERE uid IN(SELECT uid FROM gridLayoutColumns03);
   UPDATE tx_gridelements_backend_layout SET config = REPLACE(config, 'colPos = 1', 'colPos = 0') WHERE uid IN(SELECT uid FROM gridLayoutColumns03);
@@ -77,7 +71,7 @@ UPDATE
 
 .. code:: php
 
-  -- Update all Content Elements, which are part of column 0 or column 1 of a three columns grid layout
+  -- Update the columns number of all content elements, which are part of a three columns grid layout
   CREATE TEMPORARY TABLE gridLayoutColumns03 SELECT uid FROM `tx_gridelements_backend_layout` WHERE config LIKE '%colCount = 3%' AND config LIKE '%rowCount = 1%';
   CREATE TEMPORARY TABLE gridElementColumns03 SELECT uid FROM `tt_content` WHERE `CType` LIKE 'gridelements_pi1' AND tx_gridelements_backend_layout IN(SELECT uid FROM gridLayoutColumns03);
   CREATE TEMPORARY TABLE contentForColumns03 SELECT uid FROM tt_content WHERE uid IN(SELECT uid FROM gridElementColumns03);
