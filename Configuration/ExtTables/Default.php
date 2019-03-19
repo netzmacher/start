@@ -39,51 +39,26 @@ switch( $beLanguage )
 
 $tempPath = 'Configuration/TypoScript/';
 
-switch( true )
-{
-	case( $beLanguage == 'de' ):
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Base/', 'Start [01.1.1]' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Config/Language/De/', 'Start [01.2.1] +Sprache: Deutsch' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Base/Start/Gridelements/', 'Start [01.2.2] +Gridelements' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Foundation/', 'Start [02.1.1] Foundation' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'FoundationIcons/', 'Start [02.2.2] +Foundation Icons 3' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Foundation6x/', 'Start [02.9.1] +Upgrade Foundation 6.4.3' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Piwik/', 'Start [07.1.1] Piwik' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'EMail/', 'Start [08.1.1] +E-Mail' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Labeling/De/', 'Start [09.1.1] +Bezeichnungen: deutsch' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Newsletter/', 'Start [20.2.1] Newsletter Popup' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Extensions/direct_mail/subscribe/', 'Start [20.3.1] Newsletter verwalten (direct_mail)' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Extensions/direct_mail/unsubscribe/', 'Start [20.3.1] Newsletter kündigen (direct_mail)' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Extensions/tt_address/subscribe/', 'Start [20.4.1] E-Mail eintragen (tt_address) [VERALTET!]' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Extensions/tt_address/unsubscribe/', 'Start [20.4.1] E-Mail austragen (tt_address) [VERALTET!]' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Base/Demo/', 'Start [80.1.1] Demo' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Development/cssNotMinified/', 'Start [97.1.1] +CSS not minified' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Development/jsNotMinified/', 'Start [97.2.1] +JS not minified' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Debug/', 'Start [98.1.1] Debug' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Test/', 'Start [99.1.1] Test' );
-		break;
-	default:
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Base/', 'Start [01.1.1]' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Config/Language/De/', 'Start [01.2.1] +Language: German' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Base/Start/Gridelements/', 'Start [01.2.2] +Gridelements' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Foundation/', 'Start [02.1.1] Foundation' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'FoundationIcons/', 'Start [02.2.1] +Foundation Icons 3' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Foundation6x/', 'Start [02.2.2] +Upgrade Foundation 6.4.3' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Piwik/', 'Start [07.1.1] Piwik' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'EMail/', 'Start [08.1.1] +e-mail' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Labeling/De/', 'Start [09.1.1] +Labeling: German' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Newsletter/', 'Start [20.2.1] Newsletter Popup' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Extensions/direct_mail/subscribe/', 'Start [20.3.1] Newsletter management (direct_mail)' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Extensions/direct_mail/unsubscribe/', 'Start [20.3.1] Newsletter unsubscribe (direct_mail)' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Extensions/tt_address/subscribe/', 'Start [20.4.1] E-Mail subscribe (tt_address) [DEPRECATED!]' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Extensions/tt_address/unsubscribe/', 'Start [20.4.1] E-Mail unsubscribe (tt_address) [DEPRECATED!]' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Base/Demo/', 'Start [80.1.1] Demo' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Development/cssNotMinified/', 'Start [97.1.1] +CSS not minified' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Development/jsNotMinified/', 'Start [97.2.1] +JS not minified' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Debug/', 'Start [98.1.1] Debug' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Test/', 'Start [99.1.1] Test' );
-		break;
-}
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Base/', 'Start [01.1.1]' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Config/Language/De/', 'Start [01.2.1] +Language: German' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Base/Start/Gridelements/', 'Start [01.2.2] +Gridelements' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Foundation/', 'Start [02.1.1] Foundation' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'FoundationIcons/', 'Start [02.2.1] +Foundation Icons 3' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Foundation6x/', 'Start [02.2.2] +Upgrade Foundation 6.4.3' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Piwik/', 'Start [07.1.1] Piwik' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'EMail/', 'Start [08.1.1] +e-mail' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Labeling/De/', 'Start [09.1.1] +Labeling: German' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Newsletter/', 'Start [20.2.1] Newsletter Popup' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Extensions/direct_mail/subscribe/', 'Start [20.3.1] Newsletter management (direct_mail)' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Extensions/direct_mail/unsubscribe/', 'Start [20.3.1] Newsletter unsubscribe (direct_mail)' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Extensions/tt_address/subscribe/', 'Start [20.4.1] E-Mail subscribe (tt_address) [DEPRECATED!]' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Extensions/tt_address/unsubscribe/', 'Start [20.4.1] E-Mail unsubscribe (tt_address) [DEPRECATED!]' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Base/Demo/', 'Start [80.1.1] Demo' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Development/cssNotMinified/', 'Start [90.1.1] +CSS not minified' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Development/jsNotMinified/', 'Start [90.2.1] +JS not minified' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Debug/', 'Start [91.1.1] Debug' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Workaround/', 'Start [92.1.1] +Workaround ChangeLog #i0205' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Test/', 'Start [99.1.1] Test' );
 
 /* * ****************************************************************************
  * Add pagetree icons

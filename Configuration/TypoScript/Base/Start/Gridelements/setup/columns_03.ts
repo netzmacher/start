@@ -46,14 +46,14 @@ start {
                 10 = TEXT
                 10 {
                   field       = flexform_class
-                  noTrimWrap  = ||-1 |
+                  noTrimWrap  = ||-0 |
                   required    = 1
                 }
                   // small
                 20 = TEXT
                 20 {
                   field = flexform_columnssmall
-                  listNum = 1
+                  listNum = 0
                   listNum {
                     splitChar = /
                   }
@@ -64,7 +64,7 @@ start {
                 30 = TEXT
                 30 {
                   field = flexform_columnsmedium
-                  listNum = 1
+                  listNum = 0
                   listNum {
                     splitChar = /
                   }
@@ -75,7 +75,7 @@ start {
                 40 = TEXT
                 40 {
                   field = flexform_columnslarge
-                  listNum = 1
+                  listNum = 0
                   listNum {
                     splitChar = /
                   }
@@ -94,16 +94,16 @@ start {
             stdWrap {
               cObject {
                 10 {
-                  noTrimWrap  = ||-0 |
+                  noTrimWrap  = ||-1 |
                 }
                 20 {
-                  listNum = 0
+                  listNum = 1
                 }
                 30 {
-                  listNum = 0
+                  listNum = 1
                 }
                 40 {
-                  listNum = 0
+                  listNum = 1
                 }
                   // first
                 99 = TEXT

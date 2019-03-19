@@ -1,3 +1,9 @@
+4.6.5
+	Bugfix
+	* #i0215: Gridelements: 3 columns has proper colPos now: 0, 1, 2
+						Affected file:
+						* Configuration/TypoScript/Base/Start/Gridelements/setup/columns_03.ts
+
 4.6.4
 	19-03-17
 	Feature
