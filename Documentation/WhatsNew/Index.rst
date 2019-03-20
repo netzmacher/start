@@ -11,6 +11,31 @@
 What's new
 ==========
 
+Respect the **You MUST** in sections bewlow!
+
+
+Constant Editor: width of columns 
+---------------------------------
+
+4.6.6
+
+Backend layout: width of columns can configured by the Constant Editor. See
+
+* :ref:`Administrators > Best Practice > Html > Column width <administrators_bestpractice_html_columnwidth>`
+
+
+Margin columns are visible on mobile devices
+--------------------------------------------
+
+4.6.6
+
+Backend layout: margin columns are displayed in small view too. CSS class "show-for-medium-up" is moved to "small-12".
+If you don't like it, please configure
+
+.. code:: php
+
+  page.63148.start__[layout].settings { ... }
+
 
 Bugfix columns confusion with three column gridelement
 ------------------------------------------------------

@@ -91,8 +91,8 @@ page {
       settings =
       settings {
         classColMainContentMain   >
-        classColMainContentMain   = small-12 medium-8
-        classColMainContentRight  = show-for-medium-up medium-4
+        classColMainContentMain   = small-12 medium-{$start.templates.grid.columns02.main}
+        classColMainContentRight  = small-12 medium-{$start.templates.grid.columns02.margin}
       }
     }
       // Two columns: left | content
@@ -103,8 +103,8 @@ page {
       settings =
       settings {
         classColMainContentMain >
-        classColMainContentLeft = show-for-medium-up medium-4
-        classColMainContentMain = small-12 medium-8
+        classColMainContentLeft = small-12 medium-{$start.templates.grid.columns02.margin}
+        classColMainContentMain = small-12 medium-{$start.templates.grid.columns02.main}
       }
     }
       // Three columns: left | content | right
@@ -115,9 +115,9 @@ page {
       settings =
       settings {
         classColMainContentMain   >
-        classColMainContentLeft   = show-for-medium-up medium-3
-        classColMainContentMain   = small-12 medium-6
-        classColMainContentRight  = show-for-medium-up medium-3
+        classColMainContentLeft   = small-12 medium-{$start.templates.grid.columns03.left}
+        classColMainContentMain   = small-12 medium-{$start.templates.grid.columns03.main}
+        classColMainContentRight  = small-12 medium-{$start.templates.grid.columns03.right}
       }
     }
       // Four columns
@@ -241,9 +241,9 @@ page {
       file = {$start.fluid.path.templates}silver_07.html
       settings {
         classColMainContentMain   >
-        classColMainContentLeft   = show-for-medium-up medium-3
-        classColMainContentMain   = small-12 medium-6
-        classColMainContentRight  = show-for-medium-up medium-3
+        classColMainContentLeft   = small-12 medium-{$start.templates.grid.columns03.left}
+        classColMainContentMain   = small-12 medium-{$start.templates.grid.columns03.main}
+        classColMainContentRight  = small-12 medium-{$start.templates.grid.columns03.right}
       }
     }
       // Five rows: header || top || content | right || bottom || footer

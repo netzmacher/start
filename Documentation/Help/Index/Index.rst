@@ -17,6 +17,12 @@ Alphabetical Index
 B
 -
 
+.. _help_alphabetical-index_backendlayouts:
+
+* Backend Layouts
+
+	* :ref:`Columns width <administrators_bestpractice_html_columnwidth>`
+
 * Bugfixes (see: :ref:`Workarounds <help_alphabetical-index_Workarounds>`)
 
 
@@ -33,10 +39,30 @@ C
 
     * :ref:`Template <administrators_upgrades_workarounds_i0215_template>`
 
+.. _help_alphabetical-index_columns:
+
+* Columns
+
+	* :ref:`Width <administrators_bestpractice_html_columnwidth>`
+
+* CSS
+
+  * See :ref:`Columns <help_alphabetical-index_columns>`
+
 G
 -
 
 * :ref:`GIT <developers_git>`
+
+* Grid Layouts see :ref: `Backend Layouts <help_alphabetical-index_backendlayouts>`
+
+
+H
+-
+
+* HTML
+
+	* :ref:`Columns width <administrators_bestpractice_html_columnwidth>`
 
 
 S

@@ -1,4 +1,33 @@
+4.6.6
+	19-03-20
+	Feature
+	* #i0217: Grid layout: width of columns can configured by the Constant Editor.
+						See new categories:
+						* [START - TEMPLATES - GRID - 2 COLUMNS]
+						* [START - TEMPLATES - GRID - 3 COLUMNS]
+						New files:
+						* TypoScript/Base/Page/Page/constants
+							* templatesGrid2Columns.ts
+							* templatesGrid3Columns.ts
+						Affected file:
+						* TypoScript/Base/Page/Page/63148.ts
+	Improvements
+	* #i0219: ".top-bar .toggle-topbar" toogles now at 64.0625em (former: 40.0625em)
+						Affected files:
+						* Configuration/TypoScript
+							* Development/cssNotMinified/constants/start/foundation/filescss.ts
+							* Foundation/Start/Constants/Foundation/filescss.ts
+						New files:
+						* Resources/Public/Css
+							* app.css
+							* app.min.css
+	* #i0218: Grid layout: margin columns are displayed in small view too.
+						CSS class "show-for-medium-up" is moved to "small-12"
+						Affected file:
+						* TypoScript/Base/Page/Page/63148.ts
+
 4.6.5
+	19-03-18
 	Manual
 	* #i0216: New section Workarounds
 	Bugfix
