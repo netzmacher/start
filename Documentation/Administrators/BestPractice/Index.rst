@@ -25,4 +25,5 @@ Best Practice
   Newsletter/Index
   PageMedia/Index
   RSS/Index
+  Spellcheck/Index
   Themes/Index

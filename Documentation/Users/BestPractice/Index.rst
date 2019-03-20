@@ -24,5 +24,6 @@ Best Practice
     PageMedia/Index
     PanelsAndCallouts/Index
     SocialmediaIcons/Index
+    Spellcheck/Index
     Styling/Index
     Visibility/Index

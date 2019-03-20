@@ -3,10 +3,10 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../../Includes.txt
+.. include:: ../Includes.txt
 
 
-.. _help_alphabetical-index:
+.. _alphabetical-index:
 
 Alphabetical Index
 ==================
@@ -17,13 +17,13 @@ Alphabetical Index
 B
 -
 
-.. _help_alphabetical-index_backendlayouts:
+.. _alphabetical-index_backendlayouts:
 
 * Backend Layouts
 
 	* :ref:`Columns width <administrators_bestpractice_html_columnwidth>`
 
-* Bugfixes (see: :ref:`Workarounds <help_alphabetical-index_Workarounds>`)
+* Bugfixes (see: :ref:`Workarounds <alphabetical-index_Workarounds>`)
 
 
 C
@@ -39,7 +39,7 @@ C
 
     * :ref:`Template <administrators_upgrades_workarounds_i0215_template>`
 
-.. _help_alphabetical-index_columns:
+.. _alphabetical-index_columns:
 
 * Columns
 
@@ -47,14 +47,14 @@ C
 
 * CSS
 
-  * See :ref:`Columns <help_alphabetical-index_columns>`
+  * See :ref:`Columns <alphabetical-index_columns>`
 
 G
 -
 
 * :ref:`GIT <developers_git>`
 
-* Grid Layouts see :ref: `Backend Layouts <help_alphabetical-index_backendlayouts>`
+* Grid Layouts see :ref: `Backend Layouts <alphabetical-index_backendlayouts>`
 
 
 H
@@ -70,11 +70,17 @@ S
 
 * :ref:`Screenshots <introduction-screenshots>`
 
+Spell Check
+
+* :ref:`Administrators <administrators_bestpractice_spellcheck>`
+
+* :ref:`Users <users_bestpractice_spellcheck>`
+
 
 W
 -
 
-.. _help_alphabetical-index_Workarounds:
+.. _alphabetical-index_Workarounds:
 
 * :ref:`Workarounds <administrators_upgrades_workarounds>`
 

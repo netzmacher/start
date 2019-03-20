@@ -16,8 +16,6 @@ Help
 	:maxdepth: 3
 	:titlesonly:
 
-	Index/Index
-	Forum/Index
 	Support/Index
 	Credits/Index
 	Links/Index

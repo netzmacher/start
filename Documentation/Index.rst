@@ -69,3 +69,4 @@ Start TYPO3 Responsive!
 	WhatsNew/Index
 	Upgrades/Index
 	Help/Index
+	Index/Index
