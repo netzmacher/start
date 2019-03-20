@@ -213,3 +213,10 @@ ExtensionManagementUtility::addToAllTCAtypes(
 				, ''
 				, 'after:categories'
 );
+
+	// #i0220, 190320, dwildt, 4+
+ExtensionManagementUtility::registerPageTSConfigFile(
+    'start',
+    'Configuration/TSconfig/Page/RTE/Start.ts',
+    'Start [1.0.0.] RTE with spellchecking by your Browser');
+

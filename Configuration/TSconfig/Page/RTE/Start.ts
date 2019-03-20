@@ -1,0 +1,3 @@
+RTE {
+  default.preset = start
+}

@@ -1,6 +1,14 @@
 4.6.6
 	19-03-20
 	Feature
+	* #i0220: Spell checking RTE editor
+						Affected files:
+						* ext_localconf.php
+						* Configuration
+							* RTE
+								* Start.yaml
+								* Start.txt
+							* TCA/Overrides/pages.php
 	* #i0217: Grid layout: width of columns can configured by the Constant Editor.
 						See new categories:
 						* [START - TEMPLATES - GRID - 2 COLUMNS]
@@ -12,6 +20,7 @@
 						Affected file:
 						* TypoScript/Base/Page/Page/63148.ts
 	Improvements
+	* #i0221: folder TSConfig is moved to TSconfig
 	* #i0219: ".top-bar .toggle-topbar" toogles now at 64.0625em (former: 40.0625em)
 						Affected files:
 						* Configuration/TypoScript
@@ -104,7 +113,7 @@
 	Feature
 	* #i0206: New content element Page Media
 						New files:
-						* Configuration/TSConfig/mod/wizards/newContentElement/wizardItems/common/pagemedia.ts
+						* Configuration/TSconfig/mod/wizards/newContentElement/wizardItems/common/pagemedia.ts
 						* Configuration/TypoScript/Base/tt_content/
 						Affected files:
 						* Configuration
@@ -116,9 +125,9 @@
 						* lib/userfunc/class.tx_start_userfunc.php is removed
 	* #i0204: Clean up directory structure
 						* Configuration/ExtLocalconf/PageTSConfig/7.6/tt_content/menu_type.ts
-							is moved to Configuration/TSConfig/mod/wizards/newContentElement/wizardItems/7.6/menu_type.ts
+							is moved to Configuration/TSconfig/mod/wizards/newContentElement/wizardItems/7.6/menu_type.ts
 						* Configuration/ExtLocalconf/PageTSConfig/Default/tt_content/menu.ts
-							is moved to Configuration/TSConfig/mod/wizards/newContentElement/wizardItems/Default/menu.ts
+							is moved to Configuration/TSconfig/mod/wizards/newContentElement/wizardItems/Default/menu.ts
 						* lib/icons/* are moved to Resources/Public/Images/Icons/
 						* lib/userfunc/locallang.xml is moved to Resources/Private/Language/Userfunc/locallang.xml
 						Affected file:
@@ -844,7 +853,7 @@
   * #i0081: Update (c) 2017
 	Bugfix
   * #i0089: RTEhtml has missed default classes: text-center,text-justify,text-left,text-right. See:
-						* Configuration/TSConfig/RTE.ts
+						* Configuration/TSconfig/RTE.ts
 
 2.4.14
   17-01-28

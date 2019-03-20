@@ -56,7 +56,7 @@ call_user_func( function ()
 	 * **************************************************************************** */
 
 	// #i0204, 190301, dwildt, 1+, 12-
-	require( PATH_typo3conf . 'ext/start/Configuration/TSConfig/mod.php' );
+	require( PATH_typo3conf . 'ext/start/Configuration/TSconfig/mod.php' );
 //	// #t1578, 171001, dwildt, ~
 //	switch( TRUE )
 //	{
@@ -78,4 +78,7 @@ call_user_func( function ()
 	$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXTCONF' ][ 'direct_mail' ][ 'mod2' ][ 'cmd_compileMailGroup' ][] = 'Netzmacher\Start\Backend\Extensions\DirectMail\RecipientList';
 	// #i0185, 180719, dwildt, +
 	$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXTCONF' ][ 'direct_mail' ][ 'mod3' ][ 'cmd_compileMailGroup' ][] = 'Netzmacher\Start\Backend\Extensions\DirectMail\RecipientList';
+	
+	// #i0220, 190320, dwildt, 1+
+	$GLOBALS['TYPO3_CONF_VARS']['RTE']['Presets']['start'] = 'EXT:start/Configuration/RTE/Start.yaml';
 } );

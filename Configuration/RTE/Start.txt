@@ -1,0 +1,9 @@
+See:
+
+* https://docs.typo3.org/typo3cms/extensions/rte_ckeditor/
+
+* https://usetypo3.com/ckeditor.html
+
+* https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR_config.html
+
+* https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR_config.html#cfg-disableNativeSpellChecker
