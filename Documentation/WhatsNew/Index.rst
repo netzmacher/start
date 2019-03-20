@@ -16,8 +16,8 @@ If you update from smaller than 4.6.5 please respect the both **You MUST / You S
 at :ref:`4.6 <administrators_wahtsnew_4006000>`.
 
 
-Feature: Width of columns Constant Editor
------------------------------------------
+Feature: Width of columns by Constant Editor
+--------------------------------------------
 
 Backend layout: width of columns can configured by the Constant Editor. See
 
