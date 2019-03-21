@@ -1,5 +1,13 @@
 Short link What's new: https://bit.ly/2TeRnRS
 
+4.7.1
+	19-03-20
+  Bugfix
+	* #i0222: CSS: mobile version of top-bar: app.css compiled
+						Affected file:
+						* Resources/Public/Css/app.css
+						:ref: EXT:startcustomer #i0057
+
 4.7.0
 	19-03-20
 	Feature
