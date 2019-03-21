@@ -2,6 +2,10 @@ Short link What's new: https://bit.ly/2TeRnRS
 
 4.7.1
 	19-03-20
+  Imrovement
+	* #i0223: Setup of t3foundation is optimized
+						New file:
+						* Configuration/TypoScript/Foundation/Ext/t3foundation/constants.ts
   Bugfix
 	* #i0222: CSS: mobile version of top-bar: app.css compiled
 						Affected file:
