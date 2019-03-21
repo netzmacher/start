@@ -252,7 +252,8 @@ page {
       file = {$start.fluid.path.templates}silver_08.html
       settings {
         classColMainContentLeft >
-        classColMainContentMain   = small-12 medium-9
+        classColMainContentRight = small-12 medium-{$start.templates.grid.columns02.margin}
+        classColMainContentMain = small-12 medium-{$start.templates.grid.columns02.main}
       }
     }
       // Five rows: header || top || left | content || bottom || footer
@@ -261,7 +262,8 @@ page {
       file = {$start.fluid.path.templates}silver_09.html
       settings {
         classColMainContentRight >
-        classColMainContentMain   = small-12 medium-9
+        classColMainContentLeft = small-12 medium-{$start.templates.grid.columns02.margin}
+        classColMainContentMain = small-12 medium-{$start.templates.grid.columns02.main}
       }
     }
 
