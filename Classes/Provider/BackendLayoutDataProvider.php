@@ -879,7 +879,7 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
                   colspan = 4
                 }
                 2 {
-                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.topCenter
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.topMain
                   colPos  = 3
                   colspan = 4
                 }
@@ -946,7 +946,7 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
                   colspan = 4
                 }
                 2 {
-                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.topCenter
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.topMain
                   colPos  = 3
                   colspan = 4
                 }
@@ -974,7 +974,7 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
                   colspan = 4
                 }
                 2 {
-                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.bottomCenter
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.bottomMain
                   colPos  = 6
                   colspan = 4
                 }
@@ -1041,7 +1041,7 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
                   colspan = 4
                 }
                 2 {
-                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.bottomCenter
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.bottomMain
                   colPos  = 6
                   colspan = 4
                 }

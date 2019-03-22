@@ -1,5 +1,22 @@
 Short link What's new: https://bit.ly/2TeRnRS
 
+4.7.2
+	19-03-20
+  Imrovement
+	* #i0224: CSS for start grid
+						==========
+						DEPRECATED
+						==========
+						* .maincontentleft, .maincontentmain, .maincontentright
+						Please use
+						* ".main .left", ".main .main" or ".main .right"
+						--------------------
+						Own fluid templates?
+						--------------------
+						TypoScript property is moved
+						* bottomCenter > bottomMain							
+						* topCenter > topMain							
+
 4.7.1
 	19-03-20
   Imrovement

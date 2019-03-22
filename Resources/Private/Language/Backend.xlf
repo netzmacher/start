@@ -93,7 +93,7 @@
         <source>Below the content</source>
         <target>Unter dem Inhalt</target>
       </trans-unit>
-      <trans-unit id="backend_layout.column.content.bottomCenter">
+      <trans-unit id="backend_layout.column.content.bottomMain">
         <source>Below the content in the center</source>
         <target>Unter dem Inhalt in der Mitte</target>
       </trans-unit>
@@ -121,7 +121,7 @@
         <source>Above the content</source>
         <target>Über dem Inhalt</target>
       </trans-unit>
-      <trans-unit id="backend_layout.column.content.topCenter">
+      <trans-unit id="backend_layout.column.content.topMain">
         <source>Above the content in the center</source>
         <target>Über dem Inhalt in der Mitte</target>
       </trans-unit>

@@ -10,7 +10,7 @@ start {
     // content
   structure =
   structure {
-      // bottomLeft (4), bottomCenter (6), bottomRight (5), left (1), main (0), right (2), topLeft (1), topCenter (3), topRight (2)
+      // bottomLeft (4), bottomMain (6), bottomRight (5), left (1), main (0), right (2), topLeft (1), topMain (3), topRight (2)
     content =
     content {
         // CONTENT, stdWrap
@@ -46,14 +46,14 @@ start {
         }
       }
         // CONTENT, stdWrap
-      bottomCenter < start.structure.content.bottomLeft
-      bottomCenter {
+      bottomMain < start.structure.content.bottomLeft
+      bottomMain {
         20 {
           select {
             where = colPos=6
           }
           stdWrap {
-            wrap      = <!--bottomCenter-->|<!--TYPO3SEARCH_end--><!--/bottomCenter-->
+            wrap      = <!--bottomMain-->|<!--TYPO3SEARCH_end--><!--/bottomMain-->
           }
         }
       }
@@ -260,14 +260,14 @@ start {
         }
       }
         // CONTENT, stdWrap
-      topCenter < start.structure.content.topLeft
-      topCenter {
+      topMain < start.structure.content.topLeft
+      topMain {
         20 {
           select {
             where = colPos=3
           }
           stdWrap {
-            wrap      = <!--topCenter-->|<!--TYPO3SEARCH_end--><!--/topCenter-->
+            wrap      = <!--topMain-->|<!--TYPO3SEARCH_end--><!--/topMain-->
           }
         }
       }
