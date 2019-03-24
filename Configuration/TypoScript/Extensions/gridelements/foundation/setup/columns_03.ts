@@ -12,30 +12,7 @@ start {
       // 3 columns: wrap, columns
     {$start.gridelement.col3} =
     {$start.gridelement.col3} {
-      wrap {
-        stdWrap {
-          cObject = COA
-          cObject {
-              // <div ...
-            10 = TEXT
-            10 {
-              value = <div class="row
-            }
-              // class
-            20 = TEXT
-            20 {
-              field       = flexform_class
-              noTrimWrap  = | ||
-              required    = 1
-            }
-              // ... /div>
-            30 = TEXT
-            30 {
-              value = ">|</div>
-            }
-          }
-        }
-      }
+			wrap < start.gridelements.{$start.gridelement.col1}.wrap
       columns {
         default {
           wrap {
@@ -82,6 +59,12 @@ start {
                   noTrimWrap = |large-| |
                   required = 1
                 }
+                  // first
+                99 = TEXT
+                99 {
+                  value       = first
+                  noTrimWrap  = || |
+                }
               }
             }
             noTrimWrap = |<div class="columns |">|
@@ -105,12 +88,7 @@ start {
                 40 {
                   listNum = 1
                 }
-                  // first
-                99 = TEXT
-                99 {
-                  value       = first
-                  noTrimWrap  = || |
-                }
+                99 >
               }
             }
           }

@@ -14,25 +14,43 @@ start {
     {$start.gridelement.col1} {
       wrap {
         stdWrap {
+						// <div class="{field:flexform_class}"><div class="row">|</div></div>
           cObject = COA
           cObject {
-              // <div ...
+							// if.isTrue.field = flexform_class: <div class="{field:flexform_class}">
             10 = TEXT
             10 {
-              value = <div class="row
+								// isTrue.field = flexform_class
+							if =
+							if {
+									// field = flexform_class
+								isTrue = 
+								isTrue {
+									field = flexform_class
+								}
+							}
+							field   = flexform_class
+              wrap		= <div class="|">
             }
-              // class
-            20 = TEXT
-            20 {
-              field       = flexform_class
-              noTrimWrap  = | ||
-              required    = 1
-            }
-              // ... /div>
+							// <div class="row
+						20 = TEXT
+						20 {
+							value = <div class="row">|<div>
+						}
+							// if.isTruefield = flexform_class: </div>
             30 = TEXT
             30 {
-              value = ">|</div>
-            }
+								// isTrue.field = flexform_class
+							if =
+							if {
+									// field = flexform_class
+								isTrue = 
+								isTrue {
+									field = flexform_class
+								}
+							}
+              value = </div>
+						}
           }
         }
       }

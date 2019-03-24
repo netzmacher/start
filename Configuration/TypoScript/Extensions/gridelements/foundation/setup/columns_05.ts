@@ -12,30 +12,7 @@ start {
       // 5 columns: wrap, columns
     {$start.gridelement.col5} =
     {$start.gridelement.col5} {
-      wrap {
-        stdWrap {
-          cObject = COA
-          cObject {
-              // <div ...
-            10 = TEXT
-            10 {
-              value = <div class="row
-            }
-              // class
-            20 = TEXT
-            20 {
-              field       = flexform_class
-              noTrimWrap  = | ||
-              required    = 1
-            }
-              // ... /div>
-            30 = TEXT
-            30 {
-              value = ">|</div>
-            }
-          }
-        }
-      }
+			wrap < start.gridelements.{$start.gridelement.col1}.wrap
       columns {
         default {
           wrap {

@@ -1,0 +1,1 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Extensions/gridelements/bootstrap/setup/_setup.ts">

@@ -41,7 +41,6 @@ $tempPath = 'Configuration/TypoScript/';
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Base/', 'Start [01.1.1]' );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Config/Language/De/', 'Start [01.2.1] +Language: German' );
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Base/Start/Gridelements/', 'Start [01.2.2] +Gridelements' );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Foundation/', 'Start [02.1.1] Foundation' );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'FoundationIcons/', 'Start [02.2.1] +Foundation Icons 3' );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Foundation6x/', 'Start [02.2.2] +Upgrade Foundation 6.4.3' );
@@ -51,14 +50,17 @@ $tempPath = 'Configuration/TypoScript/';
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Newsletter/', 'Start [20.2.1] Newsletter Popup' );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Extensions/direct_mail/subscribe/', 'Start [20.3.1] Newsletter management (direct_mail)' );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Extensions/direct_mail/unsubscribe/', 'Start [20.3.1] Newsletter unsubscribe (direct_mail)' );
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Extensions/tt_address/subscribe/', 'Start [20.4.1] E-Mail subscribe (tt_address) [DEPRECATED!]' );
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Extensions/tt_address/unsubscribe/', 'Start [20.4.1] E-Mail unsubscribe (tt_address) [DEPRECATED!]' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Extensions/gridelements/bootstrap/', 'Start [20.4.1] Gridelements (Bootstrap)' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Extensions/gridelements/foundation/', 'Start [20.4.1] Gridelements (Foundation)' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Extensions/tt_address/subscribe/', 'Start [20.5.1] E-Mail subscribe (tt_address) [DEPRECATED!]' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Extensions/tt_address/unsubscribe/', 'Start [20.5.1] E-Mail unsubscribe (tt_address) [DEPRECATED!]' );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Base/Demo/', 'Start [80.1.1] Demo' );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Development/cssNotMinified/', 'Start [90.1.1] +CSS not minified' );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Development/jsNotMinified/', 'Start [90.2.1] +JS not minified' );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Debug/', 'Start [91.1.1] Debug' );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Workaround/', 'Start [92.1.1] +Workaround ChangeLog #i0215' );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Test/', 'Start [99.1.1] Test' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $tempPath . 'Base/Start/Gridelements/', 'Start [DEPRECATED!] +Gridelements [USE 20.4.1!]' );
 
 /* * ****************************************************************************
  * Add pagetree icons

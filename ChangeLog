@@ -2,7 +2,24 @@ Short link What's new: https://bit.ly/2TeRnRS
 
 4.7.2
 	19-03-20
+  Feature
+	* #i0246: Gridelements supported by Bootstrap. Please include the static template:
+						* Start [20.4.1] Gridelements (Bootstrap)
+						New files:
+						* Configuration/TypoScript/Extensions/gridelements/bootstrap/*
+	* #i0245: Template is moved:
+						* Start [02.1.2] +Gridelements > Start [20.4.1] Gridelements (Foundation)
   Imrovement
+	* #i0247: CSS for gridelements: If plugin / flexform property "CSS class" contains a value,
+            the gridelement will get a div-wrap with this value as CSS class.
+						Examples:
+						* value is empty:				<div class="row">{gridelement}</div>
+						* value is "container": <div class="container"><div class="row">{gridelement}</div></div>
+						--------------------------
+						BE AWARE: former behaviour
+						--------------------------
+						* value was empty:       <div class="row">{gridelement}</div>
+						* value was "container": <div class="row container">{gridelement}</div>
 	* #i0224: CSS for start grid
 						==========
 						DEPRECATED

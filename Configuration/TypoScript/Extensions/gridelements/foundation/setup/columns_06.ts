@@ -2,40 +2,17 @@ start {
     // for proper comments only
   gridelements {
   }
-    // start: 2 columns ({$start.gridelement.col2})
+    // start: 6 columns ({$start.gridelement.col6})
   gridelements =
   gridelements {
-    {$start.gridelement.col2} < lib.gridelements.defaultGridSetup
+    {$start.gridelement.col6} < lib.gridelements.defaultGridSetup
       // for proper comments only
-    {$start.gridelement.col2} {
+    {$start.gridelement.col6} {
     }
-      // 2 columns: wrap, columns
-    {$start.gridelement.col2} =
-    {$start.gridelement.col2} {
-      wrap {
-        stdWrap {
-          cObject = COA
-          cObject {
-              // <div ...
-            10 = TEXT
-            10 {
-              value = <div class="row
-            }
-              // class
-            20 = TEXT
-            20 {
-              field       = flexform_class
-              noTrimWrap  = | ||
-              required    = 1
-            }
-              // ... /div>
-            30 = TEXT
-            30 {
-              value = ">|</div>
-            }
-          }
-        }
-      }
+      // 6 columns: wrap, columns
+    {$start.gridelement.col6} =
+    {$start.gridelement.col6} {
+			wrap < start.gridelements.{$start.gridelement.col1}.wrap
       columns {
         default {
           wrap {
@@ -111,6 +88,94 @@ start {
                 40 {
                   listNum = 1
                 }
+                99 >
+              }
+            }
+          }
+        }
+        2 < .default
+        2 {
+          wrap {
+            stdWrap {
+              cObject {
+                10 {
+                  noTrimWrap  = ||-2 |
+                }
+                20 {
+                  listNum = 2
+                }
+                30 {
+                  listNum = 2
+                }
+                40 {
+                  listNum = 2
+                }
+                99 >
+              }
+            }
+          }
+        }
+        3 < .default
+        3 {
+          wrap {
+            stdWrap {
+              cObject {
+                10 {
+                  noTrimWrap  = ||-3 |
+                }
+                20 {
+                  listNum = 3
+                }
+                30 {
+                  listNum = 3
+                }
+                40 {
+                  listNum = 3
+                }
+                99 >
+              }
+            }
+          }
+        }
+        4 < .default
+        4 {
+          wrap {
+            stdWrap {
+              cObject {
+                10 {
+                  noTrimWrap  = ||-4 |
+                }
+                20 {
+                  listNum = 4
+                }
+                30 {
+                  listNum = 4
+                }
+                40 {
+                  listNum = 4
+                }
+                99 >
+              }
+            }
+          }
+        }
+        5 < .default
+        5 {
+          wrap {
+            stdWrap {
+              cObject {
+                10 {
+                  noTrimWrap  = ||-5 |
+                }
+                20 {
+                  listNum = 5
+                }
+                30 {
+                  listNum = 5
+                }
+                40 {
+                  listNum = 5
+                }
                   // last
                 99 = TEXT
                 99 {
@@ -126,4 +191,4 @@ start {
   }
 }
 
-tt_content.gridelements_pi1.20.10.setup.{$start.gridelement.col2} < start.gridelements.{$start.gridelement.col2}
+tt_content.gridelements_pi1.20.10.setup.{$start.gridelement.col6} < start.gridelements.{$start.gridelement.col6}
