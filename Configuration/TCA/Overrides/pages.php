@@ -219,3 +219,8 @@ ExtensionManagementUtility::registerPageTSConfigFile(
     'start',
     'Configuration/TSconfig/Page/RTE/Start.ts',
     'Start [1.0.0] RTE with spellchecking by your Browser');
+
+ExtensionManagementUtility::registerPageTSConfigFile(
+    'start',
+    'Configuration/TSconfig/Page/RTE/StartWiExternalPlugin.ts',
+    'Start [1.0.0] RTE with additional plugins');

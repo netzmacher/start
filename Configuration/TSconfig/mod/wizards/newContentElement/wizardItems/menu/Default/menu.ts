@@ -1,6 +1,6 @@
 mod.wizards.newContentElement.wizardItems.menu {
 	elements {
-		menu {
+		txBlogMain {
 			iconIdentifier = app-start
 			title = LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:CType.menu
 			description = LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:CType.menu.desription

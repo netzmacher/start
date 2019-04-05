@@ -16,25 +16,65 @@ If you update from smaller than 4.6.5 please respect the both **You MUST / You S
 at :ref:`4.6 <administrators_wahtsnew_4006000>`.
 
 
-Feature: Width of columns by Constant Editor
---------------------------------------------
+Features
+--------
+
+Background Image for Grid Elements
+''''''''''''''''''''''''''''''''''
+
+* :ref:`Users > Best Practice > Gridelements > Background Image <users_bestpractice_gridelements_backgroundimage>`
+
+
+Bootstrap support for Grid Elements
+'''''''''''''''''''''''''''''''''''
+
+You have to include a the new static template only:
+
+* Start [20.4.1] Gridelements (Bootstrap)
+
+
+RTE with additional Features
+''''''''''''''''''''''''''''
+
+* Color Button. Details @ :ref:`Aministrators > Best Practice > RTE > Plugins <administrators_bestpractice_rte_plugins>`
+
+* Spell checking. Details 
+
+	* for :ref:`Aministrators <administrators_bestpractice_rte_spellcheck>`
+
+	* for :ref:`Users <users_bestpractice_spellcheck>`
+
+
+Width of columns by Constant Editor
+'''''''''''''''''''''''''''''''''''
 
 Backend layout: width of columns can configured by the Constant Editor. See
 
 * :ref:`Administrators > Best Practice > Html > Column width <administrators_bestpractice_html_columnwidth>`
 
 
-Feature: Spell checking while writing
-------------------------------------
 
-Start supports spell checking while writing. You have to include a page 
-TypoScript at the root page only. See
-
-* :ref:`Aministrators > Best Practice > Spell check <administrators_bestpractice_spellcheck>`
+Improvements
+------------
 
 
-Improvement: Margin columns are visible on mobile devices
----------------------------------------------------------
+CSS
+'''
+
+CSS is improved: 
+
+From 5.0
+
+* .main .left, .main .main or .main .right
+
+To 4.6:
+
+* .maincontentleft, .maincontentmain, .maincontentright [DEPRECATED]
+
+
+
+Margin columns are visible on mobile devices
+''''''''''''''''''''''''''''''''''''''''''''
 
 Backend layout: margin columns are displayed in small view too. CSS class "show-for-medium-up" is moved to "small-12".
 If you don't like it, please configure
@@ -43,6 +83,11 @@ If you don't like it, please configure
 
   page.63148.start__[layout].settings { ... }
 
+
+TypoScript
+''''''''''
+
+If you are using own fluid templates, please note #i0224 in the `ChangeLog <https://gitlab.die-netzmacher.de/typo3/start/blob/master/ChangeLog>`_
 
 Former Updates
 --------------

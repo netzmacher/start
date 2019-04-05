@@ -20,10 +20,11 @@ Best Practice
 
   CSS/Index
   Customer/Index
+  Frameworks/Index
   Modals/Index
   HTML/Index
   Newsletter/Index
   PageMedia/Index
   RSS/Index
-  Spellcheck/Index
+  RTE/Index
   Themes/Index

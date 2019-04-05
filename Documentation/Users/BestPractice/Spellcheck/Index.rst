@@ -23,4 +23,4 @@ Preconditions
 
 * Your browser supports spell checking.
 
-* There must included a page TypoScript. See: :ref:`Administrators > Best Practice > Spell Check <administrators_bestpractice_spellcheck>`.
+* There must included a page TypoScript. See: :ref:`Administrators > Best Practice > Spell Check <administrators_bestpractice_rte_spellcheck>`.

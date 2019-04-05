@@ -36,24 +36,34 @@ tt_content.gridelements_pi1 {
 				// data = file:current:publicUrl > background-image:url(###SRC###);
       renderObj = COA
       renderObj {
-        10 = IMAGE
+        10 = LOAD_REGISTER
         10 {
-          file {
-            import {
-              data = file:current:publicUrl
-            }
-            width	= {$start.gridelement.background.width}
-          }
-          begin = 0
-          maxItems = 1
-						//styles: element = background-image:url(###SRC###);
-          layoutKey = styles
-          layout {
-            styles {
-              element = background-image:url(###SRC###);
-            }
-          }
+					startGridelementsBackground =
+					startGridelementsBackground {
+						cObject = IMAGE
+						cObject {
+							file {
+								import {
+									data = file:current:publicUrl
+								}
+								width	= {$start.gridelement.background.width}
+							}
+							begin = 0
+							maxItems = 1
+								//styles: element = background-image:url(###SRC###);
+							layoutKey = styles
+							layout {
+								styles {
+									element = background-image:url(###SRC###);
+								}
+							}
+						}
+					}
         }
+				20 = TEXT
+				20 {
+					data = register:startGridelementsBackground
+				}
       }
     }
       // <style type="text/css">#cUid {|}</style>
@@ -65,6 +75,8 @@ tt_content.gridelements_pi1 {
           // <style type="text/css">#cUid {|}</style>
         cObject = COA
         cObject {
+					if =
+					if.isTrue.data = register:startGridelementsBackground
             // <style type="text/css">#cUid {
           10 = TEXT
           10 {

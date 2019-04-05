@@ -81,4 +81,6 @@ call_user_func( function ()
 	
 	// #i0220, 190320, dwildt, 1+
 	$GLOBALS['TYPO3_CONF_VARS']['RTE']['Presets']['start'] = 'EXT:start/Configuration/RTE/Start.yaml';
+	// #i0225, #i0224, 190405, dwildt, 1+
+	$GLOBALS['TYPO3_CONF_VARS']['RTE']['Presets']['startwiexternalplugin'] = 'EXT:start/Configuration/RTE/StartWiExternalPlugin.yaml';
 } );

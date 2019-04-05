@@ -23,6 +23,10 @@ B
 
 	* :ref:`Columns width <administrators_bestpractice_html_columnwidth>`
 
+* Background Image
+
+  * :ref:`Gridelements > Background Image <users_bestpractice_gridelements_backgroundimage>`
+
 * Bugfixes (see: :ref:`Workarounds <alphabetical-index_Workarounds>`)
 
 
@@ -54,6 +58,11 @@ G
 
 * :ref:`GIT <developers_git>`
 
+* Gridelements
+
+  * :ref:`Background Image <users_bestpractice_gridelements_backgroundimage>`
+
+
 * Grid Layouts see :ref: `Backend Layouts <alphabetical-index_backendlayouts>`
 
 
@@ -65,6 +74,20 @@ H
 	* :ref:`Columns width <administrators_bestpractice_html_columnwidth>`
 
 
+R
+-
+
+.. _alphabetical-index_rte_spellcheck:
+
+* RTE
+
+  * Spell Check
+
+    * :ref:`Administrators <administrators_bestpractice_rte_spellcheck>`
+
+    * :ref:`Users <users_bestpractice_spellcheck>`
+
+
 S
 -
 
@@ -72,9 +95,7 @@ S
 
 Spell Check
 
-* :ref:`Administrators <administrators_bestpractice_spellcheck>`
-
-* :ref:`Users <users_bestpractice_spellcheck>`
+* :ref:`RTE > Spell Check <alphabetical-index_rte_spellcheck>`
 
 
 W

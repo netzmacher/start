@@ -1,0 +1,73 @@
+# Load default processing options
+imports:
+    - { resource: "EXT:rte_ckeditor/Configuration/RTE/Processing.yaml" }
+    - { resource: "EXT:rte_ckeditor/Configuration/RTE/Editor/Base.yaml" }
+    - { resource: "EXT:rte_ckeditor/Configuration/RTE/Editor/Plugins.yaml" }
+
+# Add configuration for the editor
+# For complete documentation see http://docs.ckeditor.com/#!/api/CKEDITOR.config
+editor:
+
+  config:
+    
+    #contentsCss: "EXT:start/Resources/Public/Css/app.css"
+    
+    #colorButton_colors: "00923E,F8C100,28166F"
+    colorButton_enableMore: 1
+
+    # 190320, dwildt, 1+
+    disableNativeSpellChecker: false
+
+    format_tags: "p;h1;h2;h3;h4;h5;pre"
+
+      # #i0225, 190404, { name: colors }, experimental!
+    toolbarGroups:
+      - { name: styles, groups: [ styles, format ] }
+      - { name: basicstyles, groups: [ basicstyles ] }
+      - { name: colors }
+      - { name: paragraph, groups: [ list, indent, blocks, align ] }
+      - { name: links, groups: [ links ] }
+      - { name: clipboard, groups: [ clipboard, cleanup, undo ] }
+      - { name: editing, groups: [ spellchecker ] }
+      - { name: insert, groups: [ insert ] }
+      - { name: tools, groups: [ table, specialchar, insertcharacters ] }
+      - { name: document, groups: [ mode ] }
+    
+    justifyClasses:
+      - text-left
+      - text-center
+      - text-right
+      - text-justify
+
+    # #i0224, #i0225, 190404, experimental!
+    extraPlugins:
+      - button
+      - colorbutton
+      - colordialog
+      #- codesnippet
+      - floatpanel
+      - justify
+      - panel
+      - panelbutton
+
+    removePlugins:
+      - image
+
+    removeButtons:
+      - Anchor
+      - Underline
+      - Strike
+      - Styles
+
+  plugins:
+    addExternal:
+      - {name: button, path: "EXT:start/Resources/Public/CKeditor/4.11.3/Plugins/button/" }
+      - {name: colorbutton, path: "EXT:start/Resources/Public/CKeditor/4.11.3/Plugins/colorbutton/" }
+      - {name: colordialog, path: "EXT:start/Resources/Public/CKeditor/4.11.3/Plugins/colordialog/" }
+      #- {name: codesnippet, path: "EXT:start/Resources/Public/CKeditor/4.11.3/Plugins/codesnippet/" }  
+      - {name: floatpanel, path: "EXT:start/Resources/Public/CKeditor/4.11.3/Plugins/floatpanel/" }
+      - {name: panelbutton, path: "EXT:start/Resources/Public/CKeditor/4.11.3/Plugins/panelbutton/" }
+      - {name: panel, path: "EXT:start/Resources/Public/CKeditor/4.11.3/Plugins/panel/" }
+
+# #i0224, #i0225, 190404,   plugins: addExternal:, experimental!
+

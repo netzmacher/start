@@ -1,5 +1,36 @@
 Short link What's new: https://bit.ly/2TeRnRS
 
+5.0.0.
+	19-04-05
+  Improvement
+	* #i0226: Version increased from 4.7 to 5.0
+
+4.7.3
+	19-04-04
+  Features
+	* #i0225: ckeditor plugin colorbutton
+						New files:
+						* Configuration
+							* RTE/StartWiExternalPlugin.yaml
+							* TCA/Overrides/pages.php
+							* TSconfig/Page/RTE/StartWiExternalPlugin.ts
+						* Resources/Public/CKeditor/4.11.3/Plugins
+							* button/*
+							* colorbutton/*
+							* colordialog/*
+							* floatpanel/*
+							* panel/*
+						Affected file:
+						* ext_localconf.php
+						* Configuration/TCA/Overrides/pages.php
+	* #i0224: ckeditor plugin codesnippet (is disabled, because of missing js-plugin)
+						Affected files:
+						* Configuration/TypoScript/Foundation/Page/includeCSS.ts
+						* :ref: #i0225
+						New file:
+						* Resources/Public/CKeditor/4.11.3/Plugins/codesnippet/*
+						* :ref: #i0225
+
 4.7.2
 	19-03-20
   Feature

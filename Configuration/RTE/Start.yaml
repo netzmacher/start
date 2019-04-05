@@ -7,10 +7,9 @@ imports:
 # Add configuration for the editor
 # For complete documentation see http://docs.ckeditor.com/#!/api/CKEDITOR.config
 editor:
+
   config:
     
-    #contentsCss: "EXT:start/Resources/Public/Css/app.css"
-
     # 190320, dwildt, 1+
     disableNativeSpellChecker: false
 
@@ -26,7 +25,7 @@ editor:
       - { name: insert, groups: [ insert ] }
       - { name: tools, groups: [ table, specialchar, insertcharacters ] }
       - { name: document, groups: [ mode ] }
-
+    
     justifyClasses:
       - text-left
       - text-center

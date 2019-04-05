@@ -19,6 +19,7 @@ Best Practice
 
     Addressdata/Index
     FlexibleVideos/Index
+    Gridelements/Index
     Navigation/Index
     Layouts/Index
     PageMedia/Index

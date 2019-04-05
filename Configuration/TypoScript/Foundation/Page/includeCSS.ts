@@ -18,6 +18,8 @@ page {
 			}
 		}
     startDataCeColumns	= {$start.foundation.files.css.dataCeColumns}
+		// #i0224, 190404, dwildt
+		//startRteCodesnippet = EXT:start/Resources/Public/CKeditor/4.11.3/Plugins/codesnippet/lib/highlight/styles/default.css
   }
 }
 
