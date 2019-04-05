@@ -3,10 +3,10 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../../Includes.txt
+.. include:: ../../../Includes.txt
 
 
-.. _administrators_wahtsnew_4006000:
+.. _administrators_wahtsnew_4x_4006000:
 
 4.6
 ===

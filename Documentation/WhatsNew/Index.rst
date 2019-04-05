@@ -13,7 +13,7 @@ What's new
 ==========
 
 If you update from smaller than 4.6.5 please respect the both **You MUST / You SHOULD**
-at :ref:`4.6 <administrators_wahtsnew_4006000>`.
+at :ref:`4.6 <administrators_wahtsnew_4x_4006000>`.
 
 
 Features
@@ -58,8 +58,8 @@ Improvements
 ------------
 
 
-CSS
-'''
+CSS Grid Layout
+'''''''''''''''
 
 CSS is improved: 
 
@@ -71,6 +71,18 @@ To 4.6:
 
 * .maincontentleft, .maincontentmain, .maincontentright [DEPRECATED]
 
+
+HTML/CSS Grid Elements
+''''''''''''''''''''''
+
+If the CSS class property contains a value, the grid element gets a div wrap with 
+this value as the CSS class.
+
+Examples:
+
+* value is empty:				<div class="row">{gridelement}</div>
+
+* value is "container": <div class="container"><div class="row">{gridelement}</div></div>
 
 
 Margin columns are visible on mobile devices
@@ -96,7 +108,4 @@ Former Updates
 	:maxdepth: 2
 	:titlesonly:
 
-	4.6/Index
-	4.5/Index
-	4.4/Index
-	4.2/Index
+	4.x/Index
