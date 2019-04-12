@@ -35,13 +35,13 @@ C
 
 * ChangeLog
 
-  * :ref:`#i0214 <administrators_upgrades_workarounds_i0214>`
+  * :ref:`#i0214 <upgrades_workarounds_i0214>`
 
-  * :ref:`#i0215 <administrators_upgrades_workarounds_i0215_sql>`
+  * :ref:`#i0215 <upgrades_workarounds_i0215_sql>`
 
-    * :ref:`SQL statements <administrators_upgrades_workarounds_i0215_sql>`
+    * :ref:`SQL statements <upgrades_workarounds_i0215_sql>`
 
-    * :ref:`Template <administrators_upgrades_workarounds_i0215_template>`
+    * :ref:`Template <upgrades_workarounds_i0215_template>`
 
 .. _alphabetical-index_columns:
 
@@ -103,13 +103,13 @@ W
 
 .. _alphabetical-index_Workarounds:
 
-* :ref:`Workarounds <administrators_upgrades_workarounds>`
+* :ref:`Workarounds <upgrades_workarounds>`
 
-  * :ref:`#i0214 <administrators_upgrades_workarounds_i0214>`
+  * :ref:`#i0214 <upgrades_workarounds_i0214>`
 
-  * :ref:`#i0215 <administrators_upgrades_workarounds_i0215_sql>`
+  * :ref:`#i0215 <upgrades_workarounds_i0215_sql>`
 
-    * :ref:`SQL statements <administrators_upgrades_workarounds_i0215_sql>`
+    * :ref:`SQL statements <upgrades_workarounds_i0215_sql>`
 
-    * :ref:`Template <administrators_upgrades_workarounds_i0215_template>`
+    * :ref:`Template <upgrades_workarounds_i0215_template>`
 

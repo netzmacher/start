@@ -6,7 +6,7 @@
 .. include:: ../../Includes.txt
 
 
-.. _administrators_upgrades_workarounds:
+.. _upgrades_workarounds:
 
 
 Workarounds

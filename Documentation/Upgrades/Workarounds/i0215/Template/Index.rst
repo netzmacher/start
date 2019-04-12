@@ -6,13 +6,13 @@
 .. include:: ../../../../Includes.txt
 
 
-.. _administrators_upgrades_workarounds_i0215_template:
+.. _upgrades_workarounds_i0215_template:
 
 
 Template
 ========
 
-You can run Start **without executing the SQL statements** from :ref:`above <administrators_upgrades_workarounds_i0215_sql>`.
+You can run Start **without executing the SQL statements** from :ref:`above <upgrades_workarounds_i0215_sql>`.
 
 **But you have to include the static template from below**, to run a proper Start extension
 with the former behaviour:

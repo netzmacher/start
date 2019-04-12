@@ -6,7 +6,7 @@
 .. include:: ../../../Includes.txt
 
 
-.. _administrators_upgrades_typo3-76-87_indentationandframes:
+.. _upgrades_typo3-76-87_indentationandframes:
 
 
 Indentation and Frames

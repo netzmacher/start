@@ -6,7 +6,7 @@
 .. include:: ../../../../Includes.txt
 
 
-.. _administrators_upgrades_workarounds_i0215_sql:
+.. _upgrades_workarounds_i0215_sql:
 
 
 SQL Statements
@@ -17,7 +17,7 @@ Please fix the bug of columns confusion in grid elements with three columns.
 You can run Start **without executing the SQL statements** from below.
 
 **But then you MUST include a static template**, to run a proper Start extension
-with the former behaviour. See: :ref:`Include the static template <administrators_upgrades_workarounds_i0215_template>`
+with the former behaviour. See: :ref:`Include the static template <upgrades_workarounds_i0215_template>`
 
 Backup tables
 -------------

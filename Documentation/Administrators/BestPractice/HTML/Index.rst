@@ -25,6 +25,7 @@ You are welcome to mix Backend Layouts and Grid Layouts like you need it. Please
 
 .. _administrators_bestpractice_html_columnwidth:
 
+
 Columns width
 -------------
 
@@ -35,6 +36,7 @@ See categories:
 * [START - TEMPLATES - GRID - 2 COLUMNS]
 
 * [START - TEMPLATES - GRID - 3 COLUMNS]
+
 
 Fluid Templates
 ---------------

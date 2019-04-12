@@ -3,10 +3,10 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../../../Includes.txt
+.. include:: ../../../../Includes.txt
 
 
-.. _administrators_upgrades_typo3-76-87_cssstyledcontent:
+.. _upgrades_typo3-76-87_cssstyledcontent:
 
 
 CSS Styled Content

@@ -6,7 +6,7 @@
 .. include:: ../../../Includes.txt
 
 
-.. _administrators_upgrades_typo3-76-87_referenceindex:
+.. _upgrades_typo3-76-87_referenceindex:
 
 
 Reference Index

@@ -21,9 +21,9 @@ There was a columns confusion with the three columns gridelement. The bug is sol
 
 **You MUST**
 
-* update your database (see: :ref:`SQL statements <administrators_upgrades_workarounds_i0215_sql>`)
+* update your database (see: :ref:`SQL statements <upgrades_workarounds_i0215_sql>`)
 
-* or include a static template, to continue with non fixed gridelements (see: :ref:`Start [92.1.1] +Workaround ChangeLog #i0215 <administrators_upgrades_workarounds_i0215_template>`)
+* or include a static template, to continue with non fixed gridelements (see: :ref:`Start [92.1.1] +Workaround ChangeLog #i0215 <upgrades_workarounds_i0215_template>`)
 
 
 Feature: Gridelement will display header
@@ -31,7 +31,7 @@ Feature: Gridelement will display header
 
 **You SHOULD**
 
-* update your database (see: :ref:`SQL statements <administrators_upgrades_workarounds_i0214>`)
+* update your database (see: :ref:`SQL statements <upgrades_workarounds_i0214>`)
 
 
 Feature: New content element Page Media

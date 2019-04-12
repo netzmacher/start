@@ -6,7 +6,7 @@
 .. include:: Includes.txt
 
 
-.. _start:
+.. _extstart:
 
 	.. figure:: ext_icon_300x300.jpg
 		:width: 300px
@@ -69,4 +69,5 @@ Start TYPO3 Responsive!
 	WhatsNew/Index
 	Upgrades/Index
 	Help/Index
+	KnownBugs/Index
 	Index/Index

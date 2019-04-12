@@ -6,7 +6,7 @@
 .. include:: ../../../Includes.txt
 
 
-.. _administrators_upgrades_workarounds_i0215:
+.. _upgrades_workarounds_i0215:
 
 
 ChangeLog #i0215

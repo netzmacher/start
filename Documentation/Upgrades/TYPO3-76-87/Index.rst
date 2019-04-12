@@ -6,7 +6,7 @@
 .. include:: ../../Includes.txt
 
 
-.. _administrators_upgrades_typo3-76-87:
+.. _upgrades_typo3-76-87:
 
 TYPO3: 7.6 to 8.7
 =================

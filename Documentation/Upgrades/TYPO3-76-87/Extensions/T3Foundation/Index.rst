@@ -6,7 +6,7 @@
 .. include:: ../../../../Includes.txt
 
 
-.. _administrators_upgrades_typo3-76-87_extensions_t3foundation:
+.. _upgrades_typo3-76-87_extensions_t3foundation:
 
 
 Foundation Framework
