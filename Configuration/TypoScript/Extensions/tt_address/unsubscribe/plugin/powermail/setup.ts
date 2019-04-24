@@ -37,7 +37,7 @@ plugin.tx_powermail {
           _ifUnique.email = update
 					# optional: add additional where clause (only in mode "update") for search if a record still exists. 
 					# You could use a plain string (see example below) or a cObject if needed
-					_ifUniqueWhereClause = AND pid = {$plugin.org.extensions.tt_address.unsubscribe.pid}
+					_ifUniqueWhereClause = AND pid = {$start.extensions.tt_address.unsubscribe.pid}
 
           #deleted = TEXT
           #deleted.value = 1

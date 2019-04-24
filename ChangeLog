@@ -1,4 +1,11 @@
-Short link What's new: https://bit.ly/2TeRnRS
+What's new: https://bit.ly/2TeRnRS
+
+5.0.3
+	19-04-24
+  Bugfix
+	* #i0229: Newsletter subscription
+						* {$plugin.org.extensions.tt_address.subscribe.pid} -> {$start.extensions.tt_address.subscribe.pid}
+						* {$plugin.org.extensions.tt_address.unsubscribe.pid} -> {$start.extensions.tt_address.unsubscribe.pid}
 
 5.0.2
 	19-04-12
