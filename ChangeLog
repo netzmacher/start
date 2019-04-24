@@ -3,7 +3,7 @@ What's new: https://bit.ly/2TeRnRS
 5.0.3
 	19-04-24
   Bugfix
-	* #i0229: Newsletter subscription
+	* #i0229: Newsletter subscription and unsubscription: wrong constants
 						* {$plugin.org.extensions.tt_address.subscribe.pid} -> {$start.extensions.tt_address.subscribe.pid}
 						* {$plugin.org.extensions.tt_address.unsubscribe.pid} -> {$start.extensions.tt_address.unsubscribe.pid}
 
