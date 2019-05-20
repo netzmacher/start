@@ -39,7 +39,7 @@ editor:
       - text-right
       - text-justify
 
-    # #i0224, #i0225, 190404, experimental!
+    # #i0224, #i0225, #i0230, 190404, experimental!
     extraPlugins:
       - button
       - colorbutton
@@ -49,6 +49,7 @@ editor:
       - justify
       - panel
       - panelbutton
+      - youtube
 
     removePlugins:
       - image
@@ -58,6 +59,10 @@ editor:
       - Underline
       - Strike
       - Styles
+
+    # #i0230
+  externalPlugins:
+    youtube: { resource: "EXT:start/Resources/Public/CKeditor/4.11.3/Plugins/youtube/"}
 
   plugins:
     addExternal:
@@ -70,4 +75,10 @@ editor:
       - {name: panel, path: "EXT:start/Resources/Public/CKeditor/4.11.3/Plugins/panel/" }
 
 # #i0224, #i0225, 190404,   plugins: addExternal:, experimental!
+
+
+# #i0230: Allow iframe
+processing:
+  allowTags:
+    - iframe
 
