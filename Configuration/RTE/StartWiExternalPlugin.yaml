@@ -59,6 +59,11 @@ editor:
       - Underline
       - Strike
       - Styles
+      
+    youtube_privacy: true;
+    youtube_related: false;
+    youtube_responsive: true
+
 
     # #i0230
   externalPlugins:
