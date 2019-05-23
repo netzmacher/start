@@ -3,9 +3,14 @@ What's new: https://bit.ly/2TeRnRS
 5.0.5
 	19-05-23
   Bugfix
-	* #i0231: CSS right column: css class startWoMarginRight added
+	* #i0231: CSS: gap between main and margin columns.
+						CSS configuration for:
+						* #startBox01 .maincontentleft
+						* #startBox01 .maincontentright
 						Affected file:
-						* /opt/typo3/extensions/start/Configuration/TypoScript/Base/Page/Page/63148.ts
+						* Resources/Public/Css
+							* basic.css
+							* basic.min.css
 
 5.0.4
 	19-05-20
