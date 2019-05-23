@@ -1,9 +1,16 @@
 What's new: https://bit.ly/2TeRnRS
 
+5.0.6
+	19-05-23
+  Feature
+	* #i0236: CKEditor Start configuration with search and replace
+						Affected files:
+						* Configuration/RTE/Start.yaml
+
 5.0.5
 	19-05-23
   Bugfix
-	* #i0231: CSS: gap between main and margin columns.
+	* #i0235: CSS: gap between main and margin columns.
 						CSS configuration for:
 						* #startBox01 .maincontentleft
 						* #startBox01 .maincontentright
@@ -11,47 +18,47 @@ What's new: https://bit.ly/2TeRnRS
 						* Resources/Public/Css
 							* basic.css
 							* basic.min.css
+						:ref: #i0224
 
 5.0.4
 	19-05-20
   Feature
-	* #i0230: CKEditor 4: Youtube Plugin
+	* #i0234: CKEditor 4: Youtube Plugin
             https://ckeditor.com/cke4/addon/youtube
 						Affected files:
 						* Configuration/RTE/StartWiExternalPlugin.yaml
 						New files:
 						* Configuration/TypoScript/Base/styles/content.ts
 						* Resources/Public/CKeditor/4.11.3/Plugins/youtube/*
-	
 
 5.0.3
 	19-04-24
   Bugfix
-	* #i0229: Newsletter subscription and unsubscription: wrong constants
+	* #i0233: Newsletter subscription and unsubscription: wrong constants
 						* {$plugin.org.extensions.tt_address.subscribe.pid} -> {$start.extensions.tt_address.subscribe.pid}
 						* {$plugin.org.extensions.tt_address.unsubscribe.pid} -> {$start.extensions.tt_address.unsubscribe.pid}
 
 5.0.2
 	19-04-12
   Bugfix
-	* #i0228: TYPO3 6.2: TCA override pages
+	* #i0232: TYPO3 6.2: TCA override pages
 						Removed:
 						* ExtensionManagementUtility::registerPageTSConfigFile
 
 5.0.1
 	19-04-08
   Manual
-	* #i0227: New section: known bugs
+	* #i0231: New section: known bugs
 
 5.0.0
 	19-04-05
   Improvement
-	* #i0226: Version increased from 4.7 to 5.0
+	* #i0230: Version increased from 4.7 to 5.0
 
 4.7.3
 	19-04-04
   Features
-	* #i0225: ckeditor plugin colorbutton
+	* #i0229: ckeditor plugin colorbutton
 						New files:
 						* Configuration
 							* RTE/StartWiExternalPlugin.yaml
@@ -66,7 +73,7 @@ What's new: https://bit.ly/2TeRnRS
 						Affected file:
 						* ext_localconf.php
 						* Configuration/TCA/Overrides/pages.php
-	* #i0224: ckeditor plugin codesnippet (is disabled, because of missing js-plugin)
+	* #i0228: ckeditor plugin codesnippet (is disabled, because of missing js-plugin)
 						Affected files:
 						* Configuration/TypoScript/Foundation/Page/includeCSS.ts
 						* :ref: #i0225
@@ -77,14 +84,14 @@ What's new: https://bit.ly/2TeRnRS
 4.7.2
 	19-03-20
   Feature
-	* #i0246: Gridelements supported by Bootstrap. Please include the static template:
+	* #i0226: Gridelements supported by Bootstrap. Please include the static template:
 						* Start [20.4.1] Gridelements (Bootstrap)
 						New files:
 						* Configuration/TypoScript/Extensions/gridelements/bootstrap/*
-	* #i0245: Template is moved:
+	* #i0225: Template is moved:
 						* Start [02.1.2] +Gridelements > Start [20.4.1] Gridelements (Foundation)
   Imrovement
-	* #i0247: CSS for gridelements: If plugin / flexform property "CSS class" contains a value,
+	* #i0227: CSS for gridelements: If plugin / flexform property "CSS class" contains a value,
             the gridelement will get a div-wrap with this value as CSS class.
 						Examples:
 						* value is empty:				<div class="row">{gridelement}</div>
@@ -106,7 +113,8 @@ What's new: https://bit.ly/2TeRnRS
 						--------------------
 						TypoScript property is moved
 						* bottomCenter > bottomMain							
-						* topCenter > topMain							
+						* topCenter > topMain
+						:ref: #i0235
 
 4.7.1
 	19-03-20

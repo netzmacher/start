@@ -218,7 +218,7 @@ ExtensionManagementUtility::addToAllTCAtypes(
 ExtensionManagementUtility::registerPageTSConfigFile(
     'start',
     'Configuration/TSconfig/Page/RTE/Start.ts',
-    'Start [1.0.0] RTE with spellchecking by your Browser');
+    'Start [1.0.0] RTE with search and spellchecking');
 
 ExtensionManagementUtility::registerPageTSConfigFile(
     'start',

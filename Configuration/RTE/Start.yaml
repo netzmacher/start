@@ -21,7 +21,7 @@ editor:
       - { name: paragraph, groups: [ list, indent, blocks, align ] }
       - { name: links, groups: [ links ] }
       - { name: clipboard, groups: [ clipboard, cleanup, undo ] }
-      - { name: editing, groups: [ spellchecker ] }
+      - { name: editing, groups: [find, spellchecker] }
       - { name: insert, groups: [ insert ] }
       - { name: tools, groups: [ table, specialchar, insertcharacters ] }
       - { name: document, groups: [ mode ] }
@@ -33,6 +33,7 @@ editor:
       - text-justify
 
     extraPlugins:
+      - find
       - justify
 
     removePlugins:
