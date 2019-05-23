@@ -92,7 +92,7 @@ page {
       settings {
         classColMainContentMain   >
         classColMainContentMain   = small-12 medium-{$start.templates.grid.columns02.main}
-        classColMainContentRight  = small-12 medium-{$start.templates.grid.columns02.margin} startWoMarginRight
+        classColMainContentRight  = small-12 medium-{$start.templates.grid.columns02.margin}
       }
     }
       // Two columns: left | content
@@ -117,7 +117,7 @@ page {
         classColMainContentMain   >
         classColMainContentLeft   = small-12 medium-{$start.templates.grid.columns03.left}
         classColMainContentMain   = small-12 medium-{$start.templates.grid.columns03.main}
-        classColMainContentRight  = small-12 medium-{$start.templates.grid.columns03.right} startWoMarginRight
+        classColMainContentRight  = small-12 medium-{$start.templates.grid.columns03.right}
       }
     }
       // Four columns
@@ -243,7 +243,7 @@ page {
         classColMainContentMain   >
         classColMainContentLeft   = small-12 medium-{$start.templates.grid.columns03.left}
         classColMainContentMain   = small-12 medium-{$start.templates.grid.columns03.main}
-        classColMainContentRight  = small-12 medium-{$start.templates.grid.columns03.right} startWoMarginRight
+        classColMainContentRight  = small-12 medium-{$start.templates.grid.columns03.right}
       }
     }
       // Five rows: header || top || content | right || bottom || footer
@@ -252,7 +252,7 @@ page {
       file = {$start.fluid.path.templates}silver_08.html
       settings {
         classColMainContentLeft >
-        classColMainContentRight = small-12 medium-{$start.templates.grid.columns02.margin} startWoMarginRight
+        classColMainContentRight = small-12 medium-{$start.templates.grid.columns02.margin}
         classColMainContentMain = small-12 medium-{$start.templates.grid.columns02.main}
       }
     }

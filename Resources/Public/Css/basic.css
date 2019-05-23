@@ -148,6 +148,13 @@ body {
   margin-bottom: 1rem;	
 }
 
+#startBox01 .maincontentleft {
+	padding-right:0rem;
+}
+#startBox01 .maincontentright {
+	padding-right:0rem;
+}
+
 #startBox01 .startWoMarginLeft {
 	margin-left: -0.9375rem;
 }
