@@ -28,10 +28,11 @@ editor:
       - { name: paragraph, groups: [ list, indent, blocks, align ] }
       - { name: links, groups: [ links ] }
       - { name: clipboard, groups: [ clipboard, cleanup, undo ] }
-      - { name: editing, groups: [ spellchecker ] }
       - { name: insert, groups: [ insert ] }
       - { name: tools, groups: [ table, specialchar, insertcharacters ] }
+      - { name: editing, groups: [find, spellchecker] }
       - { name: document, groups: [ mode ] }
+      
     
     justifyClasses:
       - text-left
@@ -45,6 +46,7 @@ editor:
       - colorbutton
       - colordialog
       #- codesnippet
+      - find
       - floatpanel
       - justify
       - panel
@@ -60,10 +62,11 @@ editor:
       - Strike
       - Styles
       
-    youtube_privacy: true;
-    youtube_related: false;
+    youtube_privacy: false
+    youtube_related: false
     youtube_responsive: true
-
+#    youtube_disabled_fields:
+#      - chkPrivacy
 
     # #i0230
   externalPlugins:

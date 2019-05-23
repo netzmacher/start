@@ -92,7 +92,7 @@ page {
       settings {
         classColMainContentMain   >
         classColMainContentMain   = small-12 medium-{$start.templates.grid.columns02.main}
-        classColMainContentRight  = small-12 medium-{$start.templates.grid.columns02.margin}
+        classColMainContentRight  = small-12 medium-{$start.templates.grid.columns02.margin} startWoMarginRight
       }
     }
       // Two columns: left | content
@@ -117,7 +117,7 @@ page {
         classColMainContentMain   >
         classColMainContentLeft   = small-12 medium-{$start.templates.grid.columns03.left}
         classColMainContentMain   = small-12 medium-{$start.templates.grid.columns03.main}
-        classColMainContentRight  = small-12 medium-{$start.templates.grid.columns03.right}
+        classColMainContentRight  = small-12 medium-{$start.templates.grid.columns03.right} startWoMarginRight
       }
     }
       // Four columns
@@ -243,7 +243,7 @@ page {
         classColMainContentMain   >
         classColMainContentLeft   = small-12 medium-{$start.templates.grid.columns03.left}
         classColMainContentMain   = small-12 medium-{$start.templates.grid.columns03.main}
-        classColMainContentRight  = small-12 medium-{$start.templates.grid.columns03.right}
+        classColMainContentRight  = small-12 medium-{$start.templates.grid.columns03.right} startWoMarginRight
       }
     }
       // Five rows: header || top || content | right || bottom || footer
