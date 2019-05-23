@@ -252,7 +252,7 @@ page {
       file = {$start.fluid.path.templates}silver_08.html
       settings {
         classColMainContentLeft >
-        classColMainContentRight = small-12 medium-{$start.templates.grid.columns02.margin}
+        classColMainContentRight = small-12 medium-{$start.templates.grid.columns02.margin} startWoMarginRight
         classColMainContentMain = small-12 medium-{$start.templates.grid.columns02.main}
       }
     }
