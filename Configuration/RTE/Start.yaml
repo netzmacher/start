@@ -35,6 +35,7 @@ editor:
     extraPlugins:
       - find
       - justify
+      - youtube
 
     removePlugins:
       - image
@@ -44,3 +45,17 @@ editor:
       - Underline
       - Strike
       - Styles
+      
+    youtube_privacy: false
+    youtube_related: false
+    youtube_responsive: true
+#    youtube_disabled_fields:
+#      - chkPrivacy
+
+  externalPlugins:
+    youtube: { resource: "EXT:start/Resources/Public/CKeditor/4.11.3/Plugins/youtube/"}
+
+# #i0230: Allow iframe
+processing:
+  allowTags:
+    - iframe
