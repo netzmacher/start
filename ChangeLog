@@ -3,20 +3,20 @@ What's new: https://bit.ly/2TeRnRS
 5.0.8
 	19-06-10
   Feature
-	* #i0239: Additional properties for graphical menues in the Constant Editor. SEE
+	* #i0239: Additional properties for graphical menus in the Constant Editor. SEE
 						* START - FOUNDATION - GMENU
 						Affected files:
 						* Configuration/TypoScript
 							* Base/Start/Lib/gmenu.ts
 							* Foundation/Start/Constants/Foundation/gmenu.ts
   Improvement
-	* #i0238: graphical menues got an update for FAL
+	* #i0238: graphical menus got an update for FAL
 						Affected files:
 						* Configuration/TypoScript/Base/Start/Lib/gmenu.ts
 						=========
 						ATTENTION
 						=========
-						Graphical menues doesn't run without FAL any longer
+						Graphical menus doesn't run without FAL any longer
 
 5.0.7
 	19-05-24
@@ -820,7 +820,7 @@ What's new: https://bit.ly/2TeRnRS
 	* #i0122: Documentation Upgrade
 	* #t1580: cb_foundation > t3foundation
 						* Is removed: Initialisation/Extensions/cb_foundation
-	* #t1578: Rebuild of tt_content.menu (only for Start menues)
+	* #t1578: Rebuild of tt_content.menu (only for Start menus)
 	* #t1577: tt_content properties doesn't correspond with tt_content TypoScript of TYPO3 8.x. See
 						* TCEFORM.tt_content.menu_type among others
 							* @ Configuration/ExtLocalconf/addPageTSConfig/tt_content/menu_type.txt
