@@ -7,10 +7,14 @@ What's new: https://bit.ly/2TeRnRS
 						Constant Editor: new property
 						* [START - TEMPLATES - IMAGE - TXNEWS]
 						Affected files:
-						* Configuration/TypoScript/Base/lib/contentElement.ts
+						* Configuration/TypoScript
+							* Base/lib/contentElement.ts
+							* Foundation/Page/includeCSS.ts
+						* /opt/typo3/extensions/start/Configuration/ExtTables/Default.php
 						New files:
 						* Configuration/TypoScript/Base/Page/Page/constants/templatesImageTxnews.ts
 						* Resources/Private/Templates/FluidStyledContent/Txnews/Partials/*
+						* /opt/typo3/extensions/start/Configuration/TypoScript/Extensions/tx_news/ImageFoundation/constants.txt
 	* #i0240: Render tt_content images as clearing-thumbs (foundation)
 						Constant Editor: new property
 						* [START - TEMPLATES - IMAGE - FOUNDATION]
