@@ -1,5 +1,25 @@
 What's new: https://bit.ly/2TeRnRS
 
+5.0.9
+	19-06-10
+  Features
+	* #i0241: Render tx_news images as clearing-thumbs (foundation)
+						Constant Editor: new property
+						* [START - TEMPLATES - IMAGE - TXNEWS]
+						Affected files:
+						* Configuration/TypoScript/Base/lib/contentElement.ts
+						New files:
+						* Configuration/TypoScript/Base/Page/Page/constants/templatesImageTxnews.ts
+						* Resources/Private/Templates/FluidStyledContent/Txnews/Partials/*
+	* #i0240: Render tt_content images as clearing-thumbs (foundation)
+						Constant Editor: new property
+						* [START - TEMPLATES - IMAGE - FOUNDATION]
+						New files:
+						* Configuration/TypoScript/Base
+							* lib/contentElement.ts
+							* Page/Page/constants/templatesImageFoundation.ts
+						* Resources/Private/Templates/FluidStyledContent/Foundation/Partials/*
+
 5.0.8
 	19-06-10
   Feature

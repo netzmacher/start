@@ -1,0 +1,23 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+	<f:if condition="{media}">
+		<!-- media files -->
+		<ul class="clearing-thumbs small-block-grid-1" data-clearing>
+			<f:for each="{media}" as="mediaElement">
+				<li>
+				<f:if condition="{mediaElement.originalResource.type} == 2">
+					<f:render partial="Detail/MediaImageFoundation" arguments="{mediaElement: mediaElement, settings:settings}"/>
+				</f:if>
+				<f:if condition="{mediaElement.originalResource.type} == 3">
+					<f:render partial="Detail/MediaVideo" arguments="{mediaElement: mediaElement, settings:settings}"/>
+				</f:if>
+				<f:if condition="{mediaElement.originalResource.type} == 4">
+					<f:render partial="Detail/MediaVideo" arguments="{mediaElement: mediaElement, settings:settings}"/>
+				</f:if>
+				<f:if condition="{mediaElement.originalResource.type} == 5">
+					<f:render partial="Detail/MediaImageFoundation" arguments="{mediaElement: mediaElement, settings:settings}"/>
+				</f:if>
+				</li>
+			</f:for>
+		</ul>
+	</f:if>
+</html>
