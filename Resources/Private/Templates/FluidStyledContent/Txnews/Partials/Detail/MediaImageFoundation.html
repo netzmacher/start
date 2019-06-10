@@ -5,7 +5,7 @@
 	<figure class="image">
 		<f:if condition="{mediaElement.link}">
 			<f:then>
-				<f:link.typolink parameter="{mediaElement.link}" target="{n:targetLink(link:mediaElement.link)}">
+				<f:link.typolink class="th" parameter="{mediaElement.link}" target="{n:targetLink(link:mediaElement.link)}">
 					<f:image image="{mediaElement}" title="{mediaElement.title}" alt="{mediaElement.alternative}" maxWidth="{f:if(condition: settings.media.maxWidth, then: settings.media.maxWidth, else: settings.detail.media.image.maxWidth)}" maxHeight="{f:if(condition: settings.media.maxHeight, then: settings.media.maxHeight, else: settings.detail.media.image.maxHeight)}" />
 				</f:link.typolink>
 			</f:then>

@@ -1,0 +1,7 @@
+plugin.tx_news {
+	view.partialRootPath = EXT:start/Resources/Private/Templates/FluidStyledContent/Txnews/Partials/
+}
+
+start.templates {
+	image.txnews.clearingthumbs = 1
+}

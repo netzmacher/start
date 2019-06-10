@@ -20,67 +20,28 @@ if( !defined( 'TYPO3_MODE' ) )
 
 
 /* * ****************************************************************************
- * Configuration by the extension manager
- * **************************************************************************** */
-
-$confArr = unserialize( $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'start' ] );
-
-$beLanguage = $confArr[ 'beLanguage' ];
-switch( $beLanguage )
-{
-	case( 'German'):
-		$beLanguage = 'de';
-		break;
-	default:
-		$beLanguage = 'default';
-}
-
-/* * ****************************************************************************
  * Enables the Include Static Templates
  * **************************************************************************** */
 
-switch( true )
-{
-	case( $beLanguage == 'de' ):
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Base/', 'Start [1]' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Config/Language/De/', 'Start [1] +Sprache: Deutsch' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Base/Start/Gridelements/', 'Start [1] +Gridelements' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Foundation/', 'Start [2] Foundation' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/FoundationIcons/', 'Start [2] +Foundation Icons 3' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Piwik/', 'Start [7] Piwik' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/EMail/', 'Start [8] +E-Mail' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Labeling/De/', 'Start [9] +Bezeichnungen: deutsch' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Debug/', 'Start [99] Debug' );
-		break;
-	default:
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Base/', 'Start [1]' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Config/Language/De/', 'Start [1] +Language: German' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Base/Start/Gridelements/', 'Start [1] +Gridelements' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Foundation/', 'Start [2] Foundation' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/FoundationIcons/', 'Start [2] +Foundation Icons 3' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Piwik/', 'Start [7] Piwik' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/EMail/', 'Start [8] +e-mail' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Labeling/De/', 'Start [9] +Labeling: German' );
-		\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, 'Configuration/TypoScript/Debug/', 'Start [99] Debug' );
-		break;
-}
+$_path = 'Configuration/TypoScript/';
+
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $_path . 'Base/', 'Start [0.1.0]' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $_path . 'Config/Language/De/', 'Start [0.2.0] +Language: German' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $_path . 'Base/Start/Gridelements/', 'Start [0.3.0] +Gridelements' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $_path . 'Foundation/', 'Start [1.0.0] Foundation' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $_path . 'FoundationIcons/', 'Start [1.1.0] +Foundation Icons 3' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $_path . 'Piwik/', 'Start [7.0.0] Piwik' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $_path . 'EMail/', 'Start [8.0.0] +e-mail' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $_path . 'Labeling/De/', 'Start [9.0.0] +Labeling: German' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $_path . 'Extensions/tx_news/Imagefoundation/', 'Start [20.7.1] txnews images clearing-thumbs (foundation)' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $_path . 'Debug/', 'Start [99] Debug' );
 
 
 /* * ****************************************************************************
  * Add pagetree icons
  * **************************************************************************** */
 
-switch( true )
-{
-	case( $beLanguage == 'de' ):
-		// German
-		$TCA[ 'pages' ][ 'columns' ][ 'module' ][ 'config' ][ 'items' ][] = array( 'Start', 'start', \Netzmacher\Refresh\Compatibility\Core\Utility\ExtensionManagementUtility::extRelPath( $_EXTKEY ) . 'ext_icon.gif' );
-		break;
-	default:
-		// English
-		$TCA[ 'pages' ][ 'columns' ][ 'module' ][ 'config' ][ 'items' ][] = array( 'Start', 'start', \Netzmacher\Refresh\Compatibility\Core\Utility\ExtensionManagementUtility::extRelPath( $_EXTKEY ) . 'ext_icon.gif' );
-		break;
-}
+$TCA[ 'pages' ][ 'columns' ][ 'module' ][ 'config' ][ 'items' ][] = array( 'Start', 'start', \Netzmacher\Refresh\Compatibility\Core\Utility\ExtensionManagementUtility::extRelPath( $_EXTKEY ) . 'ext_icon.gif' );
 TYPO3\CMS\Backend\Sprite\SpriteManager::addTcaTypeIcon( 'pages', 'contains-start', '../typo3conf/ext/start/ext_icon.gif' );
 
 /* * ****************************************************************************

@@ -13,7 +13,7 @@ lib {
 			// empty statement for proper comment only
 		templateRootPaths {
 		}
-			// start: 177, 178
+			// start: 177
 		templateRootPaths =
 		templateRootPaths {
 				// if.isTrue = {$start.templates.image.foundation.clearingthumbs}: EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Templates/
@@ -30,25 +30,11 @@ lib {
 					value = EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Template/
 				}
 			}
-				// if.isTrue = {$start.templates.image.txnews.clearingthumbs}: EXT:start/Resources/Private/Templates/FluidStyledContent/Txnews/Templates/
-			178 = 
-			178 {
-					// if.isTrue = {$start.templates.image.txnews.clearingthumbs}
-				cObject = TEXT
-				cObject {
-						// isTrue = {$start.templates.image.txnews.clearingthumbs}
-					if =
-					if {
-						isTrue = {$start.templates.image.txnews.clearingthumbs}
-					}
-					value = EXT:start/Resources/Private/Templates/FluidStyledContent/Txnews/Template/
-				}
-			}
 		}
 			// empty statement for proper comment only
 		partialRootPaths {
 		}
-			// start: 177, 178
+			// start: 177
 		partialRootPaths =
 		partialRootPaths {
 				// if.isTrue = {$start.templates.image.foundation.clearingthumbs}: EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Partials/
@@ -65,25 +51,11 @@ lib {
 					value = EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Partials/
 				}
 			}
-				// if.isTrue = {$start.templates.image.txnews.clearingthumbs}: EXT:start/Resources/Private/Templates/FluidStyledContent/Txnews/Partials/
-			178 = 
-			178 {
-					// if.isTrue = {$start.templates.image.txnews.clearingthumbs}
-				cObject = TEXT
-				cObject {
-						// isTrue = {$start.templates.image.txnews.clearingthumbs}
-					if =
-					if {
-						isTrue = {$start.templates.image.txnews.clearingthumbs}
-					}
-					value = EXT:start/Resources/Private/Templates/FluidStyledContent/Txnews/Partials/
-				}
-			}
 		}
 			// empty statement for proper comment only
 		layoutRootPaths {
 		}
-			// start: 177, 178
+			// start: 177
 		layoutRootPaths =
 		layoutRootPaths {
 				// if.isTrue = {$start.templates.image.foundation.clearingthumbs}: EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Layout/
@@ -98,20 +70,6 @@ lib {
 						isTrue = {$start.templates.image.foundation.clearingthumbs}
 					}
 					value = EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Layouts/
-				}
-			}
-				// if.isTrue = {$start.templates.image.txnews.clearingthumbs}: EXT:start/Resources/Private/Templates/FluidStyledContent/Txnews/Layout/
-			178 = 
-			178 {
-					// if.isTrue = {$start.templates.image.txnews.clearingthumbs}
-				cObject = TEXT
-				cObject {
-						// isTrue = {$start.templates.image.txnews.clearingthumbs}
-					if =
-					if {
-						isTrue = {$start.templates.image.txnews.clearingthumbs}
-					}
-					value = EXT:start/Resources/Private/Templates/FluidStyledContent/Txnews/Layouts/
 				}
 			}
 		}
