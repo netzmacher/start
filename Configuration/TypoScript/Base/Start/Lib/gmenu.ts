@@ -22,25 +22,46 @@ start {
             field = description // abstract // subtitle // title
           }
           altImgResource {
-            import = uploads/media/
-            import {
-              field = media
-              listNum = {$start.foundation.gmenu.no.listNum}
-            }
+						import {
+							cObject = FILES 
+							cObject { 
+								references { 
+									table			= pages 
+									uid.field = tsfe:id 
+									fieldName = media 
+								} 
+								maxItems	= 1 
+								begin			= {$start.foundation.gmenu.no.listNum}
+								renderObj = IMG_RESOURCE 
+								renderObj { 
+									required = 1 
+									file {
+										import.data					= file:current:publicUrl 
+										treatIdAsReference	= 1 
+										width								= {$start.foundation.gmenu.image.width}
+										height							= {$start.foundation.gmenu.image.height}
+									} 
+								} 
+							} 
+						} 
           }
           stdWrap {
             htmlSpecialChars = 1
           }
           wrap = <li role="menuitem">|</li>
         }
-          // 150901, dwildt: RO wird ausgeführt, aber in mouseover wird image von NO geschrieben!
+        CUR < .NO
+        CUR = {$start.foundation.gmenu.cur.enabled}
+        CUR {
+          wrap = <li role="menuitem" class="active">|</li>
+		      altImgResource.import.cObject.begin	= {$start.foundation.gmenu.cur.listNum}
+        }
+        CURIFSUB < .CUR
         RO < .NO
+        RO = {$start.foundation.gmenu.ro.enabled}
         RO {
-          altImgResource {
-            import {
-              listNum = {$start.foundation.gmenu.ro.listNum}
-            }
-          }
+          wrap = <li role="menuitem" class="rollover">|</li>
+		      altImgResource.import.cObject.begin	= {$start.foundation.gmenu.ro.listNum}
         }
       }
     }
