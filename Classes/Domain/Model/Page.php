@@ -20,6 +20,13 @@ class Page extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
 {
 
 	/**
+	 * doktype
+	 * 
+	 * @var integer
+	 */
+	protected $doktype = '';
+
+	/**
 	 * image
 	 * 
 	 * @var \TYPO3\CMS\Extbase\Domain\Model\FileReference
@@ -161,12 +168,26 @@ class Page extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
 	 */
 	protected $txStartgreenCiDevisionShort = '';
 
-//	/**
-//	 * tx_startgreen_css_background_listnum
-//	 * 
-//	 * @var string
-//	 */
-//	protected $tx_startgreen_css_background_listnum = '';
+	/**
+	 * Returns the doktype
+	 * 
+	 * @return string $doktype
+	 */
+	public function getDoktype()
+	{
+		return $this->doktype;
+	}
+
+	/**
+	 * Sets the doktype
+	 * 
+	 * @param string $doktype
+	 * @return void
+	 */
+	public function setDoktype( $doktype )
+	{
+		$this->doktype = $doktype;
+	}
 
 	/**
 	 * Returns the image
@@ -234,45 +255,24 @@ class Page extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
 	}
 
 	/**
-	 * Returns the txStartgreenCiDevisionLabel
+	 * Returns the txStartEmail
 	 * 
-	 * @return string $txStartgreenCiDevisionLabel
+	 * @return string $txStartEmail
 	 */
-	public function getTxStartgreenCiDevisionLabel()
+	public function getTxStartEmail()
 	{
-		return $this->txStartgreenCiDevisionLabel;
+		return $this->txStartEmail;
 	}
 
 	/**
-	 * Sets the txStartgreenCiDevisionLabel
+	 * Sets the txStartEmail
 	 * 
-	 * @param string $txStartgreenCiDevisionLabel
+	 * @param string $txStartEmail
 	 * @return void
 	 */
-	public function setTxStartgreenCiDevisionLabel( $txStartgreenCiDevisionLabel )
+	public function setTxStartEmail( $txStartEmail )
 	{
-		$this->txStartgreenCiDevisionLabel = $txStartgreenCiDevisionLabel;
-	}
-
-	/**
-	 * Returns the txStartgreenCiDevisionShort
-	 * 
-	 * @return string $txStartgreenCiDevisionShort
-	 */
-	public function getTxStartgreenCiDevisionShort()
-	{
-		return $this->txStartgreenCiDevisionShort;
-	}
-
-	/**
-	 * Sets the txStartgreenCiDevisionShort
-	 * 
-	 * @param string $txStartgreenCiDevisionShort
-	 * @return void
-	 */
-	public function setTxStartgreenCiDevisionShort( $txStartgreenCiDevisionShort )
-	{
-		$this->txStartgreenCiDevisionShort = $txStartgreenCiDevisionShort;
+		$this->txStartEmail = $txStartEmail;
 	}
 
 	/**
@@ -570,44 +570,45 @@ class Page extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
 	}
 
 	/**
-	 * Returns the txStartEmail
+	 * Returns the txStartgreenCiDevisionLabel
 	 * 
-	 * @return string $txStartEmail
+	 * @return string $txStartgreenCiDevisionLabel
 	 */
-	public function getTxStartEmail()
+	public function getTxStartgreenCiDevisionLabel()
 	{
-		return $this->txStartEmail;
+		return $this->txStartgreenCiDevisionLabel;
 	}
 
 	/**
-	 * Sets the txStartEmail
+	 * Sets the txStartgreenCiDevisionLabel
 	 * 
-	 * @param string $txStartEmail
+	 * @param string $txStartgreenCiDevisionLabel
 	 * @return void
 	 */
-	public function setTxStartEmail( $txStartEmail )
+	public function setTxStartgreenCiDevisionLabel( $txStartgreenCiDevisionLabel )
 	{
-		$this->txStartEmail = $txStartEmail;
+		$this->txStartgreenCiDevisionLabel = $txStartgreenCiDevisionLabel;
 	}
 
-//	/**
-//	 * Returns the tx_startgreen_css_background_listnum
-//	 * 
-//	 * @return string $tx_startgreen_css_background_listnum
-//	 */
-//	public function getTxStartgreenCssBackgroundListNum()
-//	{
-//		return $this->tx_startgreen_css_background_listnum;
-//	}
-//
-//	/**
-//	 * Sets the tx_startgreen_css_background_listnum
-//	 * 
-//	 * @param string $tx_startgreen_css_background_listnum
-//	 * @return void
-//	 */
-//	public function setTxStartgreenCssBackgroundListNum( $tx_startgreen_css_background_listnum )
-//	{
-//		$this->tx_startgreen_css_background_listnum = $tx_startgreen_css_background_listnum;
-//	}
+	/**
+	 * Returns the txStartgreenCiDevisionShort
+	 * 
+	 * @return string $txStartgreenCiDevisionShort
+	 */
+	public function getTxStartgreenCiDevisionShort()
+	{
+		return $this->txStartgreenCiDevisionShort;
+	}
+
+	/**
+	 * Sets the txStartgreenCiDevisionShort
+	 * 
+	 * @param string $txStartgreenCiDevisionShort
+	 * @return void
+	 */
+	public function setTxStartgreenCiDevisionShort( $txStartgreenCiDevisionShort )
+	{
+		$this->txStartgreenCiDevisionShort = $txStartgreenCiDevisionShort;
+	}
+
 }

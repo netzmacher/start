@@ -134,7 +134,7 @@
 				<target>Social Media</target>
 			</trans-unit>
 			<trans-unit id="headerUnit">
-				<source>Staff / Unit</source>
+				<source>Staff / Company</source>
 				<target>Person / Firma</target>
 			</trans-unit>
 			<trans-unit id="listFooterPromptWiPage">
@@ -287,7 +287,7 @@
 				<target>Social Media</target>
 			</trans-unit>
 			<trans-unit id="listTableTdSubjectUnit">
-				<source>Staff / Unit</source>
+				<source>Staff / Company</source>
 				<target>Person / Firma</target>
 			</trans-unit>
 			<trans-unit id="listTableThDescription">

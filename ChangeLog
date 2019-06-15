@@ -35,13 +35,24 @@ What's new: https://bit.ly/2TeRnRS
 						* Configuration/TypoScript/Base/setup.txt
 						* ext_tables.php
 						:ref: ext:startgreen #i0390, #i0389
+	Improvement
+	* #i0244: Render tx_news images as clearing-thumbs (foundation)
+						* here: respect file.link
+						Affected file:
+						* Resources/Private/Templates/FluidStyledContent/Txnews/Partials/*
+						:ref: #i0241
+	* #i0243: Render tt_content images as clearing-thumbs (foundation)
+						* here: respect file.link
+						Affected file:
+						* Resources/Private/Templates/FluidStyledContent/Foundation/Partials/Media/Type/Image177.html
+						:ref: #i0240
 
 5.0.9
 	19-06-10
   Features
 	* #i0241: Render tx_news images as clearing-thumbs (foundation)
 						You have to include the static Template:
-						* []
+						* [Start [20.5.1] txnews images clearing-thumbs (Foundation)]
 						Affected files:
 						* Configuration
 							* ExtTables/Default.php
@@ -49,8 +60,9 @@ What's new: https://bit.ly/2TeRnRS
 								* Base/lib/contentElement.ts
 								* Foundation/Page/includeCSS.ts
 						New files:
-						* Configuration/TypoScript/Base/Page/Page/constants/templatesImageTxnews.ts
-						* Configuration/TypoScript/Extensions/tx_news/ImageFoundation/constants.txt
+						* Configuration/TypoScript
+							* Base/Page/Page/constants/templatesImageTxnews.ts
+							* Extensions/tx_news/ImageFoundation/constants.txt
 						* Resources/Private/Templates/FluidStyledContent/Txnews/Partials/*
 	* #i0240: Render tt_content images as clearing-thumbs (foundation)
 						Constant Editor: new property
@@ -60,6 +72,7 @@ What's new: https://bit.ly/2TeRnRS
 							* lib/contentElement.ts
 							* Page/Page/constants/templatesImageFoundation.ts
 						* Resources/Private/Templates/FluidStyledContent/Foundation/Partials/*
+						:ref: #i0243
 
 5.0.8
 	19-06-10
