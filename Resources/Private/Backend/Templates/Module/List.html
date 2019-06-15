@@ -1,0 +1,54 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+	<f:layout name="Default" />
+	<f:debug>{page}</f:debug>
+
+	<f:section name="content">
+		<h1>
+			{headerLabel}
+		</h1>
+		<f:format.raw>{headerPrompt}</f:format.raw>
+		<f:if condition="{page}">
+			<table class="tx_tile" >
+				<tr>
+					<th>{listTableThSubject}</th>
+					<th>&nbsp;</th>
+					<th>{listTableThPrecedence}</th>
+					<th>{listTableThPlace}</th>
+					<th>{listTableThDescription}</th>
+				</tr>
+				<tr>
+					<td>{listTableTdSubjectContact}</td>
+					<td><f:link.action action="contact" arguments="{page : page}" class="btn btn-block btn-xs btn-default">{btnEdit}</f:link.action></td>
+				<td>{listTableTdPrecedenceRecommended}</td>
+				<td>{listTableTdPlaceContact}</td>
+				<td>{listTableTdDescriptionContact}</td>
+				</tr>
+				<tr>
+					<td>{listTableTdSubjectLayout}</td>
+					<td><f:link.action action="layout" arguments="{page : page}" class="btn btn-block btn-xs btn-default">{btnEdit}</f:link.action></td>
+				<td>&nbsp;</td>
+					<td>{listTableTdPlaceLayout}</td>
+					<td>{listTableTdDescriptionLayout}</td>
+				</tr>
+				<tr>
+					<td>{listTableTdSubjectUnit}</td>
+					<td><f:link.action action="unit" arguments="{page : page}" class="btn btn-block btn-xs btn-info">{btnEdit}</f:link.action></td>
+				<td><strong>{listTableTdPrecedenceObligate}</strong></td>
+					<td>{listTableTdPlaceUnit}</td>
+					<td>{listTableTdDescriptionUnit}</td>
+				</tr>
+				<tr>
+					<td>{listTableTdSubjectSocialmedia}</td>
+					<td><f:link.action action="socialmedia" arguments="{page : page}" class="btn btn-block btn-xs btn-default">{btnEdit}</f:link.action></td>
+				<td>{listTableTdPrecedenceRecommended}</td>
+					<td>{listTableTdPlaceSocialmedia}</td>
+					<td>{listTableTdDescriptionSocialmedia}</td>
+				</tr>
+			</table>
+		</f:if>
+		<hr />
+		<f:format.raw>{footerPrompt}</f:format.raw>
+		<f:format.raw>{footerHelpSupport}</f:format.raw>
+	</f:section>
+
+</html>

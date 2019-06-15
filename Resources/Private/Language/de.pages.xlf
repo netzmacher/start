@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-05-13T21:10:20Z" product-name="tile">
+		<header/>
+		<body>
+			<trans-unit id="txStartAddressline">
+				<source>Addressline</source>
+				<target>Adresszeile</target>
+			</trans-unit>
+			<trans-unit id="txStartEmail">
+				<source>E-mail</source>
+				<target>E-Mail</target>
+			</trans-unit>
+			<trans-unit id="txStartgreenCiDevisionLabel">
+				<source>Header: Name of your party</source>
+				<target>Kopfbereich: Name Deiner Partei</target>
+			</trans-unit>
+			<trans-unit id="txStartgreenCiDevisionShort">
+				<source>Header: Your name or the name of your unit</source>
+				<target>Kopfbereich: Name Deiner Person oder Firma</target>
+			</trans-unit>
+			<trans-unit id="txStartFoundationTopbarName">
+				<source>Main menu: label on the top level</source>
+				<target>Hauptmenü: Bezeichnung auf oberster Ebene</target>
+			</trans-unit>
+			<trans-unit id="txStartFoundationTopbarTitle">
+				<source>Main menu: label in case of a mouse over</source>
+				<target>Hauptmenü: Bezeichnung bei Mouse-Over</target>
+			</trans-unit>
+			<trans-unit id="txStartSocialFacebook">
+				<source>Facebook</source>
+				<target>Facebook</target>
+			</trans-unit>
+			<trans-unit id="txStartSocialFlickr">
+				<source>Flickr</source>
+				<target>Flickr</target>
+			</trans-unit>
+			<trans-unit id="txStartSocialGithub">
+				<source>Github</source>
+				<target>Github</target>
+			</trans-unit>
+			<trans-unit id="txStartSocialGoogleplus">
+				<source>Google+</source>
+				<target>Google+</target>
+			</trans-unit>
+			<trans-unit id="txStartSocialInstagram">
+				<source>Instagram</source>
+				<target>Instagram</target>
+			</trans-unit>
+			<trans-unit id="txStartSocialLinkedin">
+				<source>LinkedIn</source>
+				<target>LinkedIn</target>
+			</trans-unit>
+			<trans-unit id="txStartSocialPicasa">
+				<source>Picasa</source>
+				<target>Picasa</target>
+			</trans-unit>
+			<trans-unit id="txStartSocialPinterest">
+				<source>Pinterest</source>
+				<target>Pinterest</target>
+			</trans-unit>
+			<trans-unit id="txStartSocialSpotify">
+				<source>Spotify</source>
+				<target>Spotify</target>
+			</trans-unit>
+			<trans-unit id="txStartSocialTwitter">
+				<source>Twitter</source>
+				<target>Twitter</target>
+			</trans-unit>
+			<trans-unit id="txStartSocialVimeo">
+				<source>Vimeo</source>
+				<target>Vimoe</target>
+			</trans-unit>
+			<trans-unit id="txStartSocialYoutube">
+				<source>Youtube</source>
+				<target>Youtube</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,11 +1,47 @@
 What's new: https://bit.ly/2TeRnRS
 
+5.1.0
+	19-06-15
+  Feature
+	* #i0242: Modul Web: Start
+						New files:
+						* Classes
+							* Controller
+								* AbstractController.php
+								* ModuleController.php
+							* Domain
+								* Model/Page.php
+								* Repository/PageRepository.php
+							* Utility/Localisation.php
+						* Resources
+							* Private
+								* Backend
+									* Layouts/*
+									* Partials/*
+									* Templates/*
+								* Language
+									* de.locallang_md1.xlf
+									* de.pages.xlf
+									* locallang_md1.xlf
+									* pages.xlf
+							* Public
+								* Css/Module
+									* Styles.css
+									* sonnenblume.svg
+								* Icons/user_mod_mod1.svg
+						* ext_typoscript_constants.typoscript
+						* ext_typoscript_setup.typoscript
+						Affected files:
+						* Configuration/TypoScript/Base/setup.txt
+						* ext_tables.php
+						:ref: ext:startgreen #i0390, #i0389
+
 5.0.9
 	19-06-10
   Features
 	* #i0241: Render tx_news images as clearing-thumbs (foundation)
-						Constant Editor: new property
-						* [START - TEMPLATES - IMAGE - TXNEWS]
+						You have to include the static Template:
+						* []
 						Affected files:
 						* Configuration
 							* ExtTables/Default.php

@@ -1,0 +1,57 @@
+config {
+		// empty statement for proper comments only
+	tx_extbase {
+	}
+		// start: persistance
+	tx_extbase =
+	tx_extbase {
+			// empty statement for proper comments only
+		persistence {
+		}
+			// classes.Netzmacher\Start\Domain\Model\Page.mapping.tableName = pages
+		persistence =
+		persistence {
+			classes {
+				Netzmacher\Start\Domain\Model\Page {
+					mapping {
+						tableName = pages
+					}
+				}
+			}
+		}
+	}
+}
+
+  // empty statement for proper comments only
+module {
+}
+	// tx_start_web_startmd1
+module =
+module {
+		// persistence, view
+	tx_start_web_startmd1 =
+	tx_start_web_startmd1 {
+			// recursive, storagePid
+		persistence =
+		persistence {
+			recursive		= {$module.tx_start_md1.persistence.recursive}
+			storagePid	= {$module.tx_start_md1.persistence.storagePid}
+		}
+			// templateRootPaths, partialRootPaths, layoutRootPaths
+		view =
+		view {
+			templateRootPaths {
+				0	= EXT:start/Resources/Private/Backend/Templates/
+				1 = {$module.tx_start_md1.view.templateRootPath}
+			}
+			partialRootPaths {
+				0	= EXT:start/Resources/Private/Backend/Partials/
+				1	= {$module.tx_start_md1.view.partialRootPath}
+			}
+			layoutRootPaths {
+				0	= EXT:start/Resources/Private/Backend/Layouts/
+				1	= {$module.tx_start_md1.view.layoutRootPath}
+			}
+		}
+	}
+}

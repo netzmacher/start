@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="de" datatype="plaintext" original="messages" date="2019-05-13T21:10:20Z" product-name="tile">
+		<header/>
+		<body>
+			<trans-unit id="btnCancel">
+				<source>Cancel</source>
+				<target>Abbrechen</target>
+			</trans-unit>
+			<trans-unit id="btnEdit">
+				<source>Edit</source>
+				<target>Bearbeiten</target>
+			</trans-unit>
+			<trans-unit id="btnSend">
+				<source>Send</source>
+				<target>Speichern</target>
+			</trans-unit>
+			<trans-unit id="contactFooterPrompt">
+				<source><![CDATA[
+					<h2>
+						Address line
+					</h2>
+					<ul>
+						<li>
+							<strong>Place:</strong> The address line will appear in the footer at the bottom of your website.
+						</li>
+						<li>
+							<strong>Recommended format:</strong>  <i>Name / Company</i> | <i>Street</i> | <i>Location</i> | <i>phone</i>
+						</li>
+						<li>
+							<strong>Example:</strong> Die Netzmacher | Rothof 6 | D-94152 Neuhaus am Inn | phone +49 8507 9237053
+						</li>
+					</ul>
+					<h2>
+						E-mail
+					</h2>
+					<ul>
+						<li>
+							<strong>Place:</strong> The e-mail will appear at the end of the address line. The e-mail is veiled for spam robots.
+						</li>
+						<li>
+							<strong>Recommended:</strong> Official green e-mail
+						</li>
+						<li>
+							<strong>Example:</strong> info@die-netzmacher.de
+						</li>
+					</ul>
+				]]></source>
+				<target><![CDATA[
+					<h2>
+						Adresszeile
+					</h2>
+					<ul>
+						<li>
+							<strong>Ort:</strong> Die Adresszeile erscheint in der Fußzeile unten auf Deiner Website.
+						</li>
+						<li>
+							<strong>Empfohlenes Format:</strong> <i>Name/Firma</i> | <i>Straße</i> | <i>Ort</i> | <i>Telefon</i>
+						</li>
+						<li>
+							<strong>Beispiel:</strong> Die Netzmacher | Rothof 6 | D-94152 Neuhaus am Inn | Tel +49 8507 9237053
+						</li>
+					</ul>
+					<h2>
+						E-Mail
+					</h2>
+					<ul>
+						<li>
+							<strong>Ort:</strong> Die E-Mail erscheint am Ende der Adresszeile. Die E-Mail wird für Spam-Roboter verschleiert.
+						</li>
+						<li>
+							<strong>Empfohlen:</strong> Offizielle Grüne E-Mail-Adresse
+						</li>
+						<li>
+							<strong>Beispiel:</strong> info@die-netzmacher.de
+						</li>
+					</ul>
+				]]></target>
+			</trans-unit>
+			<trans-unit id="defaultFooterHelpSupport">
+				<source><![CDATA[
+					<h2>
+						Help and Support
+					</h2>
+					<p>
+						<a class="btn btn-info" href="https://docs.typo3.org/typo3cms/extensions/start/" target="_blank" title="Online manual Start TYPO3 Responsive at typo3.org">Online manual Start TYPO3 Responsive</a>
+						<a class="btn btn-default" href="https://docs.typo3.org/typo3cms/GettingStartedTutorial/" target="_blank" title="TYPO3 Getting Started Tutorial">TYPO3 Getting Started</a>
+						<a class="btn btn-default" href="https://docs.typo3.org/typo3cms/EditorsTutorial/" target="_blank" title="TYPO3 Tutorial for Editors">TYPO3 For Editors</a>
+						<a class="btn btn-warning" href="https://typo3-gruene.de/support" target="_blank" title="Fee-based support of die Netzmacher, the developers of TYPO3 GRÜNE">Fee-based support</a>
+					</p>			
+				]]></source>
+				<target><![CDATA[
+					<h2>
+						Hilfe und Support
+					</h2>
+					<p>
+						<a class="btn btn-info" href="https://docs.typo3.org/typo3cms/extensions/start/" target="_blank" title="Online-Handbuch Start TYPO3 Responsiveauf typo3.org">Online-Handbuch Start TYPO3 Responsive</a>
+						<a class="btn btn-default" href="https://docs.typo3.org/typo3cms/GettingStartedTutorial/" target="_blank" title="TYPO3 Getting Started Tutorial">TYPO3 Getting Started</a>
+						<a class="btn btn-default" href="https://docs.typo3.org/typo3cms/EditorsTutorial/" target="_blank" title="TYPO3 Tutorial for Editors">TYPO3 For Editors</a>
+						<a class="btn btn-warning" href="https://typo3-gruene.de/support" target="_blank" title="Kostenpflichtiger Support der Netzmacher, den Entwicklern von TYPO3 GRÜNE">Kostenpflichtiger Support</a>
+					</p>			
+				]]></target>
+			</trans-unit>			
+			<trans-unit id="fmBanner">
+				<source>You manage the banners in the [TYPO3 GRÜNE!] tab in the properties of your page</source>
+				<target>Die Banner verwaltest Du im Reiter [TYPO3 GRÜNE!] bei den Eigenschaften Deiner Seite</target>
+			</trans-unit>
+			<trans-unit id="fmClearFeCache">
+				<source>Please empty the frontend cache. See the lightning icon in the top right corner of the bar.</source>
+				<target>Bitte leere den Frontend-Cache. Siehe Blitz-Icon oben rechts in der Leiste.</target>
+			</trans-unit>
+			<trans-unit id="fmLayout">
+				<source>You manage the layout of your page in the [appearance] tab in the properties of your page</source>
+				<target>Das Layout Deiner Seite verwaltest Du im Reiter [Erscheinungsbild] bei den Eigenschaften Deiner Seite</target>
+			</trans-unit>
+			<trans-unit id="fmUpdate">
+				<source>Your changes have been saved.</source>
+				<target>Deine Änderungen wurden gespeichert.</target>
+			</trans-unit>
+			<trans-unit id="headerBanner">
+				<source>Banner</source>
+				<target>Banner</target>
+			</trans-unit>
+			<trans-unit id="headerContact">
+				<source>Contact details</source>
+				<target>Kontaktdaten</target>
+			</trans-unit>
+			<trans-unit id="headerLayout">
+				<source>Layout</source>
+				<target>Layout</target>
+			</trans-unit>
+			<trans-unit id="headerSocialmedia">
+				<source>Social media</source>
+				<target>Social Media</target>
+			</trans-unit>
+			<trans-unit id="headerUnit">
+				<source>Staff / Unit</source>
+				<target>Person / Firma</target>
+			</trans-unit>
+			<trans-unit id="listFooterPromptWiPage">
+				<source><![CDATA[
+					<h2>
+						Explanations
+					</h2>
+					<ul>
+						<li>
+							All settings on this page are inherited on subpages until something else is set on the respective subpage.
+						</li>
+						<li>
+							Recommended: <strong>select the start page of your website</strong>.
+						</li>
+						<li>
+							This module enables central settings for your entire website.
+						</li>
+						<li>
+							You change the contents of your website directly on the respective page or in the corresponding folder – not with this module.
+						</li>
+					</ul>
+				]]></source>
+				<target><![CDATA[
+					<h2>
+						Erläuterungen
+					</h2>
+					<ul>
+						<li>
+							Alle Einstellungen auf dieser Seite werden solange auf Unterseiten vererbt, bis auf der jeweiligen Unterseite 
+							etwas anderes eingestellt wird.
+						</li>
+						<li>
+							Empfehlenswert: Wähle die <strong>Startseite Deiner Website</strong> aus.
+						</li>
+						<li>
+							Dieses Modul ermöglicht zentrale Einstellungen für Deine gesamte Website
+						</li>
+						<li>
+							Die Inhalte Deiner Website änderst Du direkt auf der jeweiligen Seite oder im entsprechenden Ordner – nicht mit diesem Modul
+						</li>
+					</ul>
+				]]></target>
+			</trans-unit>
+			<trans-unit id="listFooterPromptWoPage">
+				<source><![CDATA[
+					<h2>
+						Explanations
+					</h2>
+					<ul>
+						<li>
+							This module enables central settings for your entire website
+						</li>
+						<li>
+							You change the contents of your website directly on the respective page or in the corresponding folder – not with this module
+						</li>
+					</ul>
+				]]></source>
+				<target><![CDATA[
+					<h2>
+						Erläuterungen
+					</h2>
+					<ul>
+						<li>
+							Dieses Modul ermöglicht zentrale Einstellungen für Deine gesamte Website
+						</li>
+						<li>
+							Die Inhalte Deiner Website änderst Du direkt auf der jeweiligen Seite oder im entsprechenden Ordner – nicht mit diesem Modul
+						</li>
+					</ul>
+				]]></target>
+			</trans-unit>
+			<trans-unit id="listHeaderLabelWiPage">
+				<source>Page</source>
+				<target>Seite </target>
+			</trans-unit>
+			<trans-unit id="listHeaderLabelWoPage">
+				<source>No page selected</source>
+				<target>Keine Seite ausgewählt</target>
+			</trans-unit>
+			<trans-unit id="listHeaderPromptWiPage">
+				<source></source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="listHeaderPromptWoPage">
+				<source><![CDATA[<p>Please select a page in the page tree. Recommended: <strong>the homepage of your website</strong>.</p>]]></source>
+				<target><![CDATA[<p>Wähle im Seitenbaum bitte eine Seite aus. Empfehlenswert: die <strong>Startseite Deiner Website</strong>.</p>]]></target>
+			</trans-unit>
+			<trans-unit id="listTableTdDescriptionBanner">
+				<source>Tiles with your campaigns or the campaigns of your state or federal association</source>
+				<target>Kacheln mit Euren Kampagnen, des Landes- oder Bundesverbands</target>
+			</trans-unit>
+			<trans-unit id="listTableTdDescriptionContact">
+				<source>Address line and e-mail</source>
+				<target>Adresszeile und E-Mail-Adresse</target>
+			</trans-unit>
+			<trans-unit id="listTableTdDescriptionLayout">
+				<source>For example, a page with one, two, or three columns</source>
+				<target>Zum Beispiel eine Seite mit ein, zwei, oder drei Spalten</target>
+			</trans-unit>
+			<trans-unit id="listTableTdDescriptionSocialmedia">
+				<source>Links for a dozen social media channels. From Facebook to Instagram to Youtube</source>
+				<target>Links für ein Dutzend Social-Media-Kanäle. Von Facebook über Instagram bis Youtube</target>
+			</trans-unit>
+			<trans-unit id="listTableTdDescriptionUnit">
+				<source>Your name or your unit</source>
+				<target>Dein Name oder der Deiner Firma</target>
+			</trans-unit>
+			<trans-unit id="listTableTdPlaceBanner">
+				<source>In the left or right column on each page</source>
+				<target>In der linken oder rechten Spalte auf jeder Seite</target>
+			</trans-unit>
+			<trans-unit id="listTableTdPlaceContact">
+				<source>In the footer on each page</source>
+				<target>In der Fußzeile jeder Seite</target>
+			</trans-unit>
+			<trans-unit id="listTableTdPlaceLayout">
+				<source>On this page and optionally on each subpage</source>
+				<target>Auf dieser Seite und optional auf jeder Unterseite</target>
+			</trans-unit>
+			<trans-unit id="listTableTdPlaceSocialmedia">
+				<source>In the head in the upper right corner of each page</source>
+				<target>Im Kopfbereich oben rechts auf jeder Seite</target>
+			</trans-unit>
+			<trans-unit id="listTableTdPlaceUnit">
+				<source>In the header and in the menu on each page</source>
+				<target>Im Kopfbereich und im Menü auf jeder Seite</target>
+			</trans-unit>
+			<trans-unit id="listTableTdPrecedenceObligate">
+				<source>Obligate</source>
+				<target>Erforderlich</target>
+			</trans-unit>
+			<trans-unit id="listTableTdPrecedenceRecommended">
+				<source>Recommended</source>
+				<target>Empfohlen</target>
+			</trans-unit>
+			<trans-unit id="listTableTdSubjectBanner">
+				<source>Banner</source>
+				<target>Banner</target>
+			</trans-unit>
+			<trans-unit id="listTableTdSubjectContact">
+				<source>Contact details</source>
+				<target>Kontaktdaten</target>
+			</trans-unit>
+			<trans-unit id="listTableTdSubjectLayout">
+				<source>Layout</source>
+				<target>Layout</target>
+			</trans-unit>
+			<trans-unit id="listTableTdSubjectSocialmedia">
+				<source>Social Media</source>
+				<target>Social Media</target>
+			</trans-unit>
+			<trans-unit id="listTableTdSubjectUnit">
+				<source>Staff / Unit</source>
+				<target>Person / Firma</target>
+			</trans-unit>
+			<trans-unit id="listTableThDescription">
+				<source>Description</source>
+				<target>Beschreibung</target>
+			</trans-unit>
+			<trans-unit id="listTableThPlace">
+				<source>Place</source>
+				<target>Ort</target>
+			</trans-unit>
+			<trans-unit id="listTableThPrecedence">
+				<source>Precedence</source>
+				<target>Priorität</target>
+			</trans-unit>
+			<trans-unit id="listTableThSubject">
+				<source>Subject</source>
+				<target>Thema</target>
+			</trans-unit>
+			<trans-unit id="mlang_tabs_tab">
+				<source>Start TYPO3</source>
+				<target>Start TYPO3</target>
+			</trans-unit>
+			<trans-unit id="mlang_labels_tabdescr">
+				<source>mlang_labels_tabdescr</source>
+				<target>mlang_labels_tabdescr</target>
+			</trans-unit>
+			<trans-unit id="socialmediaFooterPrompt">
+				<source><![CDATA[
+					<h2>
+						Explanation
+					</h2>
+					<ul>
+						<li>
+							<strong>Icons:</strong> Specified links will replaced by icons.
+						</li>
+						<li>
+							<strong>Place:</strong> The icons appear at the top right of each page.
+						</li>
+						<li>
+							<strong>Recommende format:</strong> https
+						</li>
+						<li>
+							<strong>Example:</strong> https://www.facebook.com/netzmacher/ 
+						</li>
+					</ul>
+				]]></source>
+				<target><![CDATA[
+					<h2>
+						Erläuterung
+					</h2>
+					<ul>
+						<li>
+							<strong>Icons:</strong> Angegebene Links werden durch Icons ersetzt.
+						</li>
+						<li>
+							<strong>Ort:</strong> Die Icons erscheinen oben rechts auf jeder Seite.
+						</li>
+						<li>
+							<strong>Empfohlenes Format:</strong> https
+						</li>
+						<li>
+							<strong>Beispiel:</strong> https://www.facebook.com/netzmacher/ 
+						</li>
+					</ul>
+				]]></target>
+			</trans-unit>
+			<trans-unit id="unitFooterPrompt">
+				<source><![CDATA[
+					<h2>
+						Main menu
+					</h2>
+					<h3>
+						Label on the top level
+					</h3>
+					<ul>
+						<li>
+							<strong>Place:</strong> First entry (left) in the menu bar at the top of every page
+						</li>
+						<li>
+							<strong>Recommended format:</strong> <i>Short form of name / company</i>
+						</li>
+						<li>
+							<strong>Example:</strong> Netzmacher
+						</li>
+					</ul>
+					<h3>
+						Label with mouse-over
+					</h3>
+					<ul>
+						<li>
+							<strong>Place:</strong> First entry (left) in the menu bar during mouse over
+						</li>
+						<li>
+							<strong>Recommended format:</strong> <i>Full label for name / company</i>
+						</li>
+						<li>
+							<strong>Example:</strong> Die Netzmacher
+						</li>
+					</ul>
+				]]></source>
+				<target><![CDATA[
+					<h2>
+						Hauptmenü
+					</h2>
+					<h3>
+						Bezeichnung auf oberster Ebene
+					</h3>
+					<ul>
+						<li>
+							<strong>Ort:</strong> Erster Eintrag (links) in der Menüleiste oben auf jeder Seite
+						</li>
+						<li>
+							<strong>Empfohlenes Format:</strong> <i>Kurzform Name/Firma</i>
+						</li>
+						<li>
+							<strong>Beispiel:</strong> Netzmacher
+						</li>
+					</ul>
+					<h3>
+						Bezeichnung bei Mouse-Over
+					</h3>
+					<ul>
+						<li>
+							<strong>Ort:</strong> Erster Eintrag (links) in der Menüleiste bei Berührung mit der Maus
+						</li>
+						<li>
+							<strong>Empfohlenes Format:</strong> <i>Vollständige Bezeichnung Name / Firma</i>
+						</li>
+						<li>
+							<strong>Beispiel:</strong> Die Netzmacher
+						</li>
+					</ul>
+				]]></target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

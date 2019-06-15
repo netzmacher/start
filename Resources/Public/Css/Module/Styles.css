@@ -1,0 +1,77 @@
+/*.button,
+input[type=submit] {
+	background:#DBDBDB;
+	border:1px solid #DBDBDB;
+	border-radius:3px;
+	display:inline-table;
+	font-weight:bold;
+	margin:1em 0;
+	padding:1em;
+	text-align:center;
+}
+.button.delete {
+	color:#C83C3C;
+}*/
+
+#typo3-docbody {
+	background-image: url("icon_typo3_start.svg");
+	background-repeat: no-repeat;
+	background-position: 80rem 40rem;
+	background-size: 30rem;
+}
+div.buttons {
+	padding:1rem 0;
+}
+
+.colorRed {
+	color:#C83C3C;
+	font-weight: bold;
+}
+
+hr { 
+  display: block;
+  margin: 2rem auto; 
+  border: inherit;
+	height: 2px;
+	background-color: lightgrey;
+} 
+
+table td,
+table th {
+	padding:0 1em 0 1em;
+}
+
+table.woPaddingLeft td,
+table.woPaddingLeft th {
+	padding-left:0;
+}
+table.fullWidth {
+	width:100%;
+}
+
+/*table tr:nth-child(odd) {
+	background-color: #FFF
+}
+
+table tr:nth-child(even) {
+	background-color: #DFDFDF;
+}*/
+
+/*table tr.white {
+	background-color: white;
+}
+*/
+table td .btn {
+	margin:0.2rem 0;
+}
+
+/*table .button {
+	border:1px solid #FFF;
+	display:block;
+	margin:1em 0;
+	padding:0 0.5em;
+}
+table .button:hover {
+	background:#EEE;
+}*/
+
