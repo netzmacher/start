@@ -160,6 +160,10 @@ class ModuleController extends AbstractController
 				$page = $this->pageRepository->findByUid( $pageId );
 				switch( true )
 				{
+					case(!method_exists( $page, 'getDoktype' )):
+						// page is disabled
+						$this->_listActionWoPage( $page );
+						continue 2;
 					case( $page->getDoktype() == 1 ):
 					case( $page->getDoktype() == 3 ):
 					case( $page->getDoktype() == 4 ):
