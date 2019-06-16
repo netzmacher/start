@@ -11,14 +11,16 @@
 Backend
 =======
 
-.. figure:: 01_start_pageproperties.jpg
-	:width: 600px
-	:alt: Start page properties
+.. figure:: modul_typo3_start.jpg
+	:width: 800px
+	:alt: Modul Web: Start TYPO3
 
-	Start page properties
+	Modul Web: Start TYPO3
 
-Start extends the page with some properties.
-You can control important informations like the address data or hyperlinks to social networks on your root page for the whole website.
+Start extends the page record with some properties.
+The modul Start TYPO3 enables you to control important informations like 
+the address data or hyperlinks to social networks on your root page for the 
+entire website.
 You can overwrite this data on subpages - i.e. for a sub-division.
 
 .. figure:: 01_start_templates.jpg

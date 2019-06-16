@@ -1,7 +1,7 @@
 What's new: https://bit.ly/2TeRnRS
 
 5.1.0
-	19-06-15
+	19-06-16
   Feature
 	* #i0242: Modul Web: Start
 						New files:
@@ -35,6 +35,8 @@ What's new: https://bit.ly/2TeRnRS
 						* Configuration/TypoScript/Base/setup.txt
 						* ext_tables.php
 						:ref: ext:startgreen #i0390, #i0389
+	Manual
+	* #i0245: Update
 	Improvement
 	* #i0244: Render tx_news images as clearing-thumbs (foundation)
 						* here: respect file.link
@@ -52,7 +54,7 @@ What's new: https://bit.ly/2TeRnRS
   Features
 	* #i0241: Render tx_news images as clearing-thumbs (foundation)
 						You have to include the static Template:
-						* [Start [20.5.1] txnews images clearing-thumbs (Foundation)]
+						* [Start [20.5.1] txnews images +lightbox (Foundation)]
 						Affected files:
 						* Configuration
 							* ExtTables/Default.php

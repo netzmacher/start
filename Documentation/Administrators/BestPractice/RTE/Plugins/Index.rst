@@ -31,4 +31,4 @@ Current Features
 
 * Color Button: See illustration above
 
-* Spell checking while writing. See details @ :ref:`RTE > Spell check <administrators_bestpractice_rte_spellcheck>`
+* Spell checking while writing. See details @ :ref:`RTE > Spell check <administrators_bestpractice_rte_searchspellcheckyoutube>`

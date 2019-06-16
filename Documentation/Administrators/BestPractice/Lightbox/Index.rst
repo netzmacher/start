@@ -6,12 +6,19 @@
 .. include:: ../../../Includes.txt
 
 
-.. _users_bestpractice_socialmediaicons:
-
-Social media icons
-==================
-
-Please refer to :ref:`Users > Setup > Modul <users_setup_modul>`
+.. _administrators_bestpractice_lightbox:
 
 
+Lightbox
+==========
 
+**Table of Contents**
+
+.. toctree::
+  :maxdepth: 3
+  :titlesonly:
+
+  tt_content/Index
+  tx_org/Index
+  tx_news/Index
+  tx_quickshop/Index

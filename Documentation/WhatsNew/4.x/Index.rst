@@ -18,6 +18,7 @@
 	:maxdepth: 2
 	:titlesonly:
 
+	4.7/Index
 	4.6/Index
 	4.5/Index
 	4.4/Index

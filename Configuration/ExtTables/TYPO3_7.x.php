@@ -33,7 +33,7 @@ $_path = 'Configuration/TypoScript/';
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $_path . 'Piwik/', 'Start [7.0.0] Piwik' );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $_path . 'EMail/', 'Start [8.0.0] +e-mail' );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $_path . 'Labeling/De/', 'Start [9.0.0] +Labeling: German' );
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $_path . 'Extensions/tx_news/Imagefoundation/', 'Start [20.7.1] txnews images clearing-thumbs (foundation)' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $_path . 'Extensions/tx_news/Imagefoundation/', 'Start [20.7.1] txnews images +lightbox (foundation)' );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( $_EXTKEY, $_path . 'Debug/', 'Start [99] Debug' );
 
 

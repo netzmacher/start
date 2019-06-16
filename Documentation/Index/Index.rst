@@ -74,6 +74,20 @@ H
 	* :ref:`Columns width <administrators_bestpractice_html_columnwidth>`
 
 
+L
+-
+
+* Lightbox
+
+	* :ref:`API (tt_content) <administrators_bestpractice_lightbox_ttcontent>`
+
+	* :ref:`Calendar, Locations, News, Organisers (EXT:org) <administrators_bestpractice_lightbox_txorg>`
+
+	* :ref:`News (EXT:tx_news) <administrators_bestpractice_lightbox_txnews>`
+
+	* :ref:`Quick Shop (EXT:quick_shop) <administrators_bestpractice_lightbox_txquickshop>`
+
+
 R
 -
 
@@ -81,17 +95,29 @@ R
 
 * RTE
 
+  * Search and Replace
+
+    * :ref:`Administrators <administrators_bestpractice_rte_searchspellcheckyoutube>`
+
   * Spell Check
 
-    * :ref:`Administrators <administrators_bestpractice_rte_spellcheck>`
+    * :ref:`Administrators <administrators_bestpractice_rte_searchspellcheckyoutube>`
 
     * :ref:`Users <users_bestpractice_spellcheck>`
+
+  * Youtube
+
+    * :ref:`Administrators <administrators_bestpractice_rte_searchspellcheckyoutube>`
 
 
 S
 -
 
 * :ref:`Screenshots <introduction-screenshots>`
+
+Social Media
+
+* :ref: `Youtube <_alphabetical-index_youtube>`
 
 Spell Check
 
@@ -112,4 +138,15 @@ W
     * :ref:`SQL statements <upgrades_workarounds_i0215_sql>`
 
     * :ref:`Template <upgrades_workarounds_i0215_template>`
+
+
+Y
+-
+
+.. _alphabetical-index_youtube:
+
+Youtube
+
+  * :ref:`Rich Text Editor <administrators_bestpractice_rte_searchspellcheckyoutube>`
+
 

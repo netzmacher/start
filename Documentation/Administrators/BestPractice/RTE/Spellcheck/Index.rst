@@ -6,22 +6,41 @@
 .. include:: ../../../../Includes.txt
 
 
-.. _administrators_bestpractice_rte_spellcheck:
+.. _administrators_bestpractice_rte_searchspellcheckyoutube:
 
 
-Spell Check
-===========
+Search, spell check, youtube
+============================
 
-Start supports spell checking while writing. You have to include a page 
-TypoScript at the root page:
+You can extend the Rich Text Editor with the features:
 
-* Start [1.0.0] RTE with spellchecking by your Browser
+* Search and replace
+
+* Spell Checking
+
+* Youtube plugin
+
+
+Setup
+-----
+
+You have to include the page TypoScript at the root page:
+
+* Start [1.0.0] RTE with search, spellchecking and youtube
 
 There is another page TypoScript with more options. See @ :ref:`RTE > Plugins <administrators_bestpractice_rte_plugins>`
 
 
-Precondition
-------------
+Spell Checking
+--------------
 
-The Browser of the user supports spell checking
+Precondition: The Browser of the user supports spell checking
 
+
+Youtube plugin
+--------------
+
+You can place Youtube videos everywhere in the bodytext.
+
+BE AWARE: A direct use of youtube code causes your visitor's data to flow to youtube (google).
+Please check the GDPR (DSGVO) statement on your website, if it contains any reference.

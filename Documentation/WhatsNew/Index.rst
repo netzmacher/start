@@ -12,94 +12,61 @@
 What's new
 ==========
 
-If you update from smaller than 4.6.5 please respect the both **You MUST / You SHOULD**
-at :ref:`4.6 <administrators_wahtsnew_4x_4006000>`.
-
 
 Features
 --------
 
-Background Image for Grid Elements
-''''''''''''''''''''''''''''''''''
+Modul Web: Start TYPO3
+''''''''''''''''''''''
 
-* :ref:`Users > Best Practice > Gridelements > Background Image <users_bestpractice_gridelements_backgroundimage>`
+Interface for central settings.
 
-
-Bootstrap support for Grid Elements
-'''''''''''''''''''''''''''''''''''
-
-You have to include a the new static template only:
-
-* Start [20.4.1] Gridelements (Bootstrap)
+See: :ref:`Users > Setup > Modul <users_setup_modul>`
 
 
-RTE with additional Features
-''''''''''''''''''''''''''''
+Lightbox
+''''''''
 
-* Color Button. Details @ :ref:`Aministrators > Best Practice > RTE > Plugins <administrators_bestpractice_rte_plugins>`
+For
 
-* Spell checking. Details 
+* tt_content
 
-	* for :ref:`Aministrators <administrators_bestpractice_rte_spellcheck>`
+* tx_news
 
-	* for :ref:`Users <users_bestpractice_spellcheck>`
+See :ref:`Lightbox <administrators_bestpractice_lightbox>`
 
 
-Width of columns by Constant Editor
-'''''''''''''''''''''''''''''''''''
 
-Backend layout: width of columns can configured by the Constant Editor. See
+Rich Text Editor
+''''''''''''''''
 
-* :ref:`Administrators > Best Practice > Html > Column width <administrators_bestpractice_html_columnwidth>`
+New features
 
+* search and replace
+
+* Youtube plugin
+
+See :ref:`Rich Text Editor > Search, spell check, youtube <administrators_bestpractice_rte_searchspellcheckyoutube>`
 
 
 Improvements
 ------------
 
 
-CSS Grid Layout
-'''''''''''''''
+Manual
+------
 
-CSS is improved: 
-
-From 5.0
-
-* .main .left, .main .main or .main .right
-
-To 4.6:
-
-* .maincontentleft, .maincontentmain, .maincontentright [DEPRECATED]
+New section :ref:`Known Bugs <knownbugs>` 
 
 
-HTML/CSS Grid Elements
-''''''''''''''''''''''
+User Interface (TypoScript Constant Editor)
+-------------------------------------------
 
-If the CSS class property contains a value, the grid element gets a div wrap with 
-this value as the CSS class.
+Graphical menu
+''''''''''''''
 
-Examples:
+[START - FOUNDATION - GMENU]: additional properties
 
-* value is empty:				<div class="row">{gridelement}</div>
-
-* value is "container": <div class="container"><div class="row">{gridelement}</div></div>
-
-
-Margin columns are visible on mobile devices
-''''''''''''''''''''''''''''''''''''''''''''
-
-Backend layout: margin columns are displayed in small view too. CSS class "show-for-medium-up" is moved to "small-12".
-If you don't like it, please configure
-
-.. code:: php
-
-  page.63148.start__[layout].settings { ... }
-
-
-TypoScript
-''''''''''
-
-If you are using own fluid templates, please note #i0224 in the `ChangeLog <https://gitlab.die-netzmacher.de/typo3/start/blob/master/ChangeLog>`_
 
 Former Updates
 --------------
