@@ -49,10 +49,6 @@ New features
 See :ref:`Rich Text Editor > Search, spell check, youtube <administrators_bestpractice_rte_searchspellcheckyoutube>`
 
 
-Improvements
-------------
-
-
 Manual
 ------
 
@@ -61,6 +57,7 @@ New section :ref:`Known Bugs <knownbugs>`
 
 User Interface (TypoScript Constant Editor)
 -------------------------------------------
+
 
 Graphical menu
 ''''''''''''''

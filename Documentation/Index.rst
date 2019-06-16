@@ -35,7 +35,7 @@ Start TYPO3 Responsive!
 		Responsive!
 
 	:Keywords:
-		typo3, start, responsive, foundation, grid, layout
+		typo3, start, responsive, foundation, grid, layout, lightbox, tx_news
 
 	:Copyright:
 		2014-2019
