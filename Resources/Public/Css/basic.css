@@ -149,7 +149,8 @@ body {
 }
 
 #startBox01 .maincontentleft {
-	padding-left:0rem;
+	/* #i0026, 190618, dwildt, 1- */
+	/*padding-left:0rem;*/
 }
 #startBox01 .maincontentright {
 	padding-right:0rem;

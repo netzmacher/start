@@ -1,5 +1,12 @@
 What's new: https://bit.ly/2TeRnRS
 
+5.1.1
+	19-06-18
+  Improvement
+	* #i0026: Left column should have a left margin
+						Affected file:
+						* Resources/Public/Css/basic.css
+
 5.1.0
 	19-06-16
   Feature
