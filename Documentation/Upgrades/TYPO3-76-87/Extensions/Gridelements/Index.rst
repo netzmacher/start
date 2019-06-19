@@ -12,8 +12,8 @@
 Grid Elements
 =============
 
-In case of broken frontend layouts
-----------------------------------
+In case of broken frontend or backend layouts
+---------------------------------------------
 
 SELECT
 ^^^^^^
