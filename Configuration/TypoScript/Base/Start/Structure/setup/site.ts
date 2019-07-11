@@ -35,10 +35,10 @@ start {
 	        // (c) Start TYPO3 Responsive!
         30 = TEXT
         30 {
-					value = Dies ist eine Website mit <a href="http://start-typo3-responsive.de/" class="external-link-new-window" title="start-typo3-responsive.de" data-htmlarea-external="1">Start TYPO3 Responsive!</a>. Einem kostenlosen TYPO3-Template.
+					value = Dies ist eine Website mit <a href="http://start-typo3-responsive.de/" class="external-link-new-window" title="start-typo3-responsive.de" data-htmlarea-external="1">Start TYPO3 Responsive!</a>. Einem kostenlosen TYPO3-Template. TYPO3 und sein Logo sind Marken der TYPO3 Association.
 					lang {
-						de = Dies ist eine Website mit <a href="http://start-typo3-responsive.de/" class="external-link-new-window" title="start-typo3-responsive.de" data-htmlarea-external="1">Start TYPO3 Responsive!</a> Einem kostenlosen TYPO3-Template.
-						en = This is a Website based on <a href="http://start-typo3-responsive.de/" class="external-link-new-window" title="start-typo3-responsive.de" data-htmlarea-external="1">Start TYPO3 Responsive!</a> A TYPO3-Template without any fees.
+						de = Dies ist eine Website mit <a href="http://start-typo3-responsive.de/" class="external-link-new-window" title="start-typo3-responsive.de" data-htmlarea-external="1">Start TYPO3 Responsive!</a> Einem kostenlosen TYPO3-Template. TYPO3 und sein Logo sind Marken der TYPO3 Association.
+						en = This is a Website based on <a href="http://start-typo3-responsive.de/" class="external-link-new-window" title="start-typo3-responsive.de" data-htmlarea-external="1">Start TYPO3 Responsive!</a> A TYPO3-Template without any fees. TYPO3 and its logo are trademarks of the TYPO3 Association.
 					}
 					wrap = <p class="copyright text-center">|</p>
         }

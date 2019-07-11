@@ -1,5 +1,13 @@
 What's new: https://bit.ly/2TeRnRS
 
+5.1.3
+	19-07-11
+  Improvement
+	* #i0248: TYPO3 Trademark Usage Policy 
+						See: https://typo3.org/project/brand/trademarks/
+						Affected file:
+						* Configuration/TypoScript/Base/Start/Structure/setup/site.ts
+
 5.1.2
 	19-07-11
   Improvement
