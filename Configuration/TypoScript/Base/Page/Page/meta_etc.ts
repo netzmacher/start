@@ -6,7 +6,10 @@ page {
 		// start: author, description, keywords, viewport
   meta =
   meta {
-    author = {$start.page.meta.author}
+    author {
+      field = author
+      ifEmpty = {$start.page.meta.author}
+    }
     description {
       field = description
       ifEmpty = {$start.page.meta.description}

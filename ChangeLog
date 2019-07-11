@@ -1,9 +1,16 @@
 What's new: https://bit.ly/2TeRnRS
 
+5.1.2
+	19-07-11
+  Improvement
+	* #i0247: SEO. Here: page author
+						Affected file:
+						* Configuration/TypoScript/Base/Page/Page/meta_etc.ts
+
 5.1.1
 	19-06-18
   Improvement
-	* #i0026: Left column should have a left margin
+	* #i0246: Left column should have a left margin
 						Affected file:
 						* Resources/Public/Css/basic.css
 
