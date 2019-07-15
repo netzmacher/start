@@ -1,16 +1,16 @@
 module.tx_start_md1 {
 	view {
-		# cat=TILE – MODULE – VIEW/file; type=string; label=Path to template root (BE)
+		# cat=QUICK SHOP – MODULE – VIEW/file; type=string; label=Path to template root (BE)
 		templateRootPath	= EXT:start/Resources/Private/Backend/Templates/
-		# cat=TILE – MODULE – VIEW/file; type=string; label=Path to template partials (BE)
+		# cat=QUICK SHOP – MODULE – VIEW/file; type=string; label=Path to template partials (BE)
 		partialRootPath		= EXT:start/Resources/Private/Backend/Partials/
-		# cat=TILE – MODULE – VIEW/file; type=string; label=Path to template layouts (BE)
+		# cat=QUICK SHOP – MODULE – VIEW/file; type=string; label=Path to template layouts (BE)
 		layoutRootPath		= EXT:start/Resources/Private/Backend/Layouts/
 	}
 	persistence {
-		# cat=TILE – MODULE – PERSISTENCE//a; type=string; label=Default storage PID
+		# cat=QUICK SHOP – MODULE – PERSISTENCE*//a; type=string; label=Default storage PID
 		storagePid	=
-		# cat=TILE – MODULE – PERSISTENCE//a; type=string; label=Levels
+		# cat=QUICK SHOP – MODULE – PERSISTENCE*//a; type=string; label=Levels
 		recursive		= 999
 	}
 }
