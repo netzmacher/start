@@ -1,5 +1,12 @@
 What's new: https://bit.ly/2TeRnRS
 
+5.1.6
+	19-08-09
+  Improvement
+	* #i0251: CSS: figure got margin:0;
+						Affected file:
+						* Resources/Public/Css/basic.css
+
 5.1.5
 	19-07-16
   Improvement
