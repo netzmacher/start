@@ -10,7 +10,7 @@ start {
       # cat=start - foundation - thumbnails//201;      type=string;            label= width: width of the image in pixel. If an "c" is appended, cropping is enabled.
       width     = 100c
       # cat=start - foundation - thumbnails//301;      type=string;            label= wrap menu: wrap the menu
-      wraps.menu     = <ul class="inline-list">|</ul>
+      wraps.menu     = <ul class="inline-list" role="menu">|</ul>
       # cat=start - foundation - thumbnails//302;      type=string;            label= wrap menu item: wrap the menu item
       wraps.menu.item     = <li role="menuitem">|</li>
       # cat=start - foundation - thumbnails//303;      type=string;            label= wrap thumbnail: wrap the thumbnail of the menu item

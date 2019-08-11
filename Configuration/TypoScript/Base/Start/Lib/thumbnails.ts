@@ -5,51 +5,6 @@ start {
     // thumbnails, thumbnailsFromDirs
   lib =
   lib {
-    thumbnails < tt_content.menu.20.default
-    thumbnails {
-      stdWrap {
-        prepend >
-        outerWrap = <ul class="side-nav" role="navigation" title="Thumbnail Menu">|</ul>
-      }
-      1 >
-      1 = GMENU
-      1 {
-        noBlur = 1
-				// #i0252, 190811, ftrojahn, 1-/+
-        //wrap = <ul class="inline-list">|</ul>
-				stdWrap.outerWrap = <ul class="side-nav inline-list" role="menu" title="Link List">|</ul>
-        NO = 1
-        NO {
-          ATagTitle {
-            field = description // abstract // subtitle // title
-          }
-          XXXaltImgResource {
-          }
-          10 = IMAGE
-          10 {
-            import = uploads/media/
-            import {
-              field = media
-              listNum = {$start.foundation.thumbnails.no.listNum}
-            }
-          }
-          stdWrap {
-            htmlSpecialChars = 1
-          }
-          wrap = <li role="menuitem">|</li>
-        }
-          // 150901, dwildt: RO wird ausgeführt, aber in mouseover wird image von NO geschrieben!
-        RO < .NO
-        RO {
-          altImgResource {
-            import {
-              listNum = {$start.foundation.thumbnails.ro.listNum}
-            }
-          }
-        }
-      }
-    }
-    thumbnails >
     thumbnails = HMENU
     thumbnails {
       #special = directory

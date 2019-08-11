@@ -6,10 +6,12 @@ What's new: https://bit.ly/2TeRnRS
 	* #i0252: Valide code. Here: Element ul not allowed as child of element ul in this context.
 						Thanks to ftrojahn for the code snippet :)
 						Affected files:
-						* Configuration/TypoScript/Base/Start/Lib
-							* gmenu.ts
-							* sidenav.ts
-							* thumbnails.ts
+						* Configuration/TypoScript
+							* Base/Start/Lib
+								* gmenu.ts
+								* sidenav.ts
+								* thumbnails.ts
+							* Foundation/Start/Constants/Foundation/thumbnails.ts
 
 5.1.6
 	19-08-09
