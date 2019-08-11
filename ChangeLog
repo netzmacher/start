@@ -1,6 +1,20 @@
 What's new: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+5.1.8
+	19-08-11
+  Improvement
+	* #i0253: Valide code. Here: role="navigation" is replaced by role="menu"
+						Thanks to ftrojahn for the code snippet :)
+						Affected files:
+						* Configuration/TypoScript
+							* Base/Start/Lib
+								* gmenu.ts
+								* iconbar.ts
+								* iconbarStart.ts
+								* sidenav.ts
+							* Foundation/Start/Lib/6.4.3/breadcrumbs.ts
+
 5.1.7
 	19-08-11
   Improvement

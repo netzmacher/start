@@ -275,7 +275,9 @@ start {
 )
           }
         }
-        wrap = <div class="{$start.foundation.iconbarStart.class}" role="navigation">|</div>
+				// #i0253, 190811, ftrojahn, 1-/+
+        //wrap = <div class="{$start.foundation.iconbarStart.class}" role="navigation">|</div>
+        wrap = <div class="{$start.foundation.iconbarStart.class}" role="menu">|</div>
       }
         // modals: 10, 20, 30, 40, 50, 60, 70, 80
       20 = COA

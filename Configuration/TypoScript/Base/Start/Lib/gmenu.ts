@@ -9,7 +9,9 @@ start {
     gmenu {
       stdWrap {
         prepend >
-        outerWrap = <ul class="side-nav" role="navigation" title="Link List">|</ul>
+				// #i0253, 190811, ftrojahn, 1-/+
+        //outerWrap = <ul class="side-nav" role="navigation" title="Link List">|</ul>
+        outerWrap = <ul class="side-nav" role="menu" title="Link List">|</ul>
       }
       1 >
       1 = GMENU

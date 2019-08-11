@@ -32,7 +32,9 @@ start {
       special {
         range = {$start.foundation.breadcrumbs.special.range}
       }
-      wrap = <nav aria-label="You are here:" role="navigation"><ul class="breadcrumbs pad-left pad-right">|</ul></nav>
+			// #i0252, 190811, ftrojahn, 1-/+
+			//wrap = <nav aria-label="You are here:" role="navigation"><ul class="breadcrumbs pad-left pad-right">|</ul></nav>
+      wrap = <nav aria-label="You are here:" role="menu"><ul class="breadcrumbs pad-left pad-right">|</ul></nav>
       1 = TMENU
       1 {
         noBlur = 1

@@ -9,7 +9,9 @@ start {
     iconbar {
       stdWrap {
         prepend >
-        outerWrap = <div class="{$start.foundation.iconbar.class}" role="navigation">|</div>
+				// #i0253, 190811, ftrojahn, 1-/+
+        //outerWrap = <div class="{$start.foundation.iconbar.class}" role="navigation">|</div>
+        outerWrap = <div class="{$start.foundation.iconbar.class}" role="menu">|</div>
       }
       1 >
       1 = GMENU
