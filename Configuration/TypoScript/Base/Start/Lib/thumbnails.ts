@@ -15,7 +15,9 @@ start {
       1 = GMENU
       1 {
         noBlur = 1
-        wrap = <ul class="inline-list">|</ul>
+				// #i0252, 190811, ftrojahn, 1-/+
+        //wrap = <ul class="inline-list">|</ul>
+				stdWrap.outerWrap = <ul class="side-nav inline-list" role="menu" title="Link List">|</ul>
         NO = 1
         NO {
           ATagTitle {

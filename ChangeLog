@@ -1,5 +1,16 @@
 What's new: https://bit.ly/2TeRnRS
 
+5.1.7
+	19-08-11
+  Improvement
+	* #i0252: Valide code. Here: Element ul not allowed as child of element ul in this context.
+						Thanks to ftrojahn for the code snippet :)
+						Affected files:
+						* Configuration/TypoScript/Base/Start/Lib
+							* gmenu.ts
+							* sidenav.ts
+							* thumbnails.ts
+
 5.1.6
 	19-08-09
   Improvement
