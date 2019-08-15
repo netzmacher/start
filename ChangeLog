@@ -1,6 +1,13 @@
 What's new: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+5.1.10
+	19-08-15
+  Bugfix
+	* #i0254: double <ul> in sidenav-menu
+						Affected file:
+						* Configuration/TypoScript/Base/Start/Lib/gmenu.ts
+
 5.1.9
 	19-08-15
   Bugfix
