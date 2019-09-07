@@ -51,15 +51,19 @@ body {
 
 #startBox01 .startFormFieldsetWiBorderBottom fieldset {
 	border-bottom: 1px solid #ddd;
+	padding-bottom: 1em;
 }
 #startBox01 .startFormFieldsetWiBorderLeft fieldset {
 	border-left: 1px solid #ddd;
+	padding-left: 1em;
 }
 #startBox01 .startFormFieldsetWiBorderRight fieldset {
 	border-right: 1px solid #ddd;
+	padding-right: 1em;
 }
 #startBox01 .startFormFieldsetWiBorderTop fieldset {
 	border-top: 1px solid #ddd;
+	padding-top: 1em;
 }
 #startBox01 .startFormFieldsetWiPaddingBottom fieldset {
 	padding-bottom: 1em;
