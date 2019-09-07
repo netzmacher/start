@@ -141,12 +141,12 @@
         <target>Formular: Abstand oben (startFormFieldsetWiPaddingTop)</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startFormFieldsetWoAll">
-        <source>Form: hide legend (startFormFieldsetWoAll)</source>
-        <target>Formular: Legende ausblenden (startFormFieldsetWoAll)</target>
+        <source>Form: without border, margin, padding (startFormFieldsetWoAll)</source>
+        <target>Formular: ohne Randlinie, Außen- und Innenabstand (startFormFieldsetWoAll)</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startFormLegendWo">
-        <source>Form: without border, margin, padding (startFormLegendWo)</source>
-        <target>Formular: ohne border, margin, padding (startFormLegendWo)</target>
+        <source>Form: hide legend (startFormLegendWo)</source>
+        <target>Formular: Legende ausblenden (startFormLegendWo)</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startFontLightOnDark">
         <source>Font: light on dark (startFontLightOnDark)</source>
