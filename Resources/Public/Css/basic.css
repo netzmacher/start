@@ -46,6 +46,16 @@ body {
   background: #FFFFFF;
 }
 
+#startBox01 .startFormLegendWo legend {
+	display: none;
+}
+
+#startBox01 .startFormFieldsetWo fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
 #startBox01 .startFontLightOnDark {
 }
 
