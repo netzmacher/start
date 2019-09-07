@@ -81,8 +81,8 @@
         <target>--------------------------------------------------------</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startDivForm">
-        <source>--- Start: Forms ---------------------------------</source>
-        <target>--- Start: Formulare ------------------------------</target>
+        <source>--- Start: Forms ---------------------------------------</source>
+        <target>--- Start: Formulare -----------------------------------</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startDivHyphens">
         <source>--- Start: Hyphenation ---------------------------------</source>
