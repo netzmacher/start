@@ -154,6 +154,50 @@ $temporaryColumns = array(
 										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/7.6/tt_content.xlf:tx_start_additionalclassdefined.startTopMinus1Em',
 										'1' => 'startTopMinus1Em',
 								),
+								'startDivForm' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startDivForm',
+										'1' => '--div--',
+								),
+								'startFormLegendWo' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startFormLegendWo',
+										'1' => 'startFormLegendWo',
+								),
+								'startFormFieldsetWoAll' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startFormFieldsetWoAll',
+										'1' => 'startFormFieldsetWoAll',
+								),
+								'startFormFieldsetWiBorderTop' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startFormFieldsetWiBorderTop',
+										'1' => 'startFormFieldsetWiBorderTop',
+								),
+								'startFormFieldsetWiBorderRight' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startFormFieldsetWiBorderRight',
+										'1' => 'startFormFieldsetWiBorderRight',
+								),
+								'startFormFieldsetWiBorderBottom' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startFormFieldsetWiBorderBottom',
+										'1' => 'startFormFieldsetWiBorderBottom',
+								),
+								'startFormFieldsetWiBorderLeft' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startFormFieldsetWiBorderLeft',
+										'1' => 'startFormFieldsetWiBorderLeft',
+								),
+								'startFormFieldsetWiPaddingTop' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startFormFieldsetWiPaddingTop',
+										'1' => 'startFormFieldsetWiPaddingTop',
+								),
+								'startFormFieldsetWiPaddingRight' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startFormFieldsetWiPaddingRight',
+										'1' => 'startFormFieldsetWiPaddingRight',
+								),
+								'startFormFieldsetWiPaddingBottom' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startFormFieldsetWiPaddingBottom',
+										'1' => 'startFormFieldsetWiPaddingBottom',
+								),
+								'startFormFieldsetWiPaddingLeft' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startFormFieldsetWiPaddingLeft',
+										'1' => 'startFormFieldsetWiPaddingLeft',
+								),
 						),
 				),
 		),

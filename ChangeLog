@@ -5,9 +5,20 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 	19-09-07
   Feature
 	* #i0255: CSS: additional classes for forms
-						* 
+						* startFormFieldset*, startFormLegendWo
 						Afcted files:
-						* 
+						* Configuration/TCA/Overrides
+							* 7.6
+								* de.tt_content.xlf
+								* tt_content.php
+								* tt_content.xlf
+							* Default
+								* de.tt_content.xlf
+								* tt_content.php
+								* tt_content.xlf
+						* Resources/Public/Css
+							* basic.css
+							* basic.min.css
 
 5.1.10
 	19-08-15

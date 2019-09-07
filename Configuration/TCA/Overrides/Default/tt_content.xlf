@@ -80,6 +80,10 @@
         <source>--------------------------------------------------------</source>
         <target>--------------------------------------------------------</target>
       </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startDivForm">
+        <source>--- Start: Forms ---------------------------------</source>
+        <target>--- Start: Formulare ------------------------------</target>
+      </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startDivHyphens">
         <source>--- Start: Hyphenation ---------------------------------</source>
         <target>--- Start: Silbentrennung ------------------------------</target>
@@ -103,6 +107,46 @@
       <trans-unit id="tx_start_additionalclassdefined.startFigCaptionHideForSmallOnly">
         <source>Images: Caption hide for mobile (startFigCaptionHideForSmallOnly)</source>
         <target>Bilder: Unterschrift für Smartphone verstecken (startFigCaptionHideForSmallOnly)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startFormFieldsetWiBorderBottom">
+        <source>Form: border line below (startFormFieldsetWiBorderBottom)</source>
+        <target>Formular: Randlinie unten (startFormFieldsetWiBorderBottom)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startFormFieldsetWiBorderLeft">
+        <source>Form: border line left (startFormFieldsetWiBorderLeft)</source>
+        <target>Formular: Randlinie links (startFormFieldsetWiBorderLeft)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startFormFieldsetWiBorderRight">
+        <source>Form: border line right (startFormFieldsetWiBorderRight)</source>
+        <target>Formular: Randlinie rechts (startFormFieldsetWiBorderRight)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startFormFieldsetWiBorderTop">
+        <source>Form: border line top (startFormFieldsetWiBorderTop)</source>
+        <target>Formular: Randlinie oben (startFormFieldsetWiBorderTop)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startFormFieldsetWiPaddingBottom">
+        <source>Form: padding below (startFormFieldsetWiPaddingBottom)</source>
+        <target>Formular: Abstand unten (startFormFieldsetWiPaddingBottom)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startFormFieldsetWiPaddingLeft">
+        <source>Form: padding left (startFormFieldsetWiPaddingLeft)</source>
+        <target>Formular: Abstand links (startFormFieldsetWiPaddingLeft)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startFormFieldsetWiPaddingRight">
+        <source>Form: padding right (startFormFieldsetWiPaddingRight)</source>
+        <target>Formular: Abstand rechts (startFormFieldsetWiPaddingRight)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startFormFieldsetWiPaddingTop">
+        <source>Form: padding top (startFormFieldsetWiPaddingTop)</source>
+        <target>Formular: Abstand oben (startFormFieldsetWiPaddingTop)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startFormFieldsetWoAll">
+        <source>Form: hide legend (startFormFieldsetWoAll)</source>
+        <target>Formular: Legende ausblenden (startFormFieldsetWoAll)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startFormLegendWo">
+        <source>Form: without border, margin, padding (startFormLegendWo)</source>
+        <target>Formular: ohne border, margin, padding (startFormLegendWo)</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startFontLightOnDark">
         <source>Font: light on dark (startFontLightOnDark)</source>

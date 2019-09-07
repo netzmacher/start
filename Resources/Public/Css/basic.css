@@ -46,15 +46,9 @@ body {
   background: #FFFFFF;
 }
 
-#startBox01 .startFormLegendWo legend {
-	display: none;
+#startBox01 .startFontLightOnDark {
 }
 
-#startBox01 .startFormFieldsetWoAll fieldset {
-	border: 0;
-	margin: 0;
-	padding: 0;
-}
 #startBox01 .startFormFieldsetWiBorderBottom fieldset {
 	border-bottom: 1px solid #ddd;
 }
@@ -67,7 +61,6 @@ body {
 #startBox01 .startFormFieldsetWiBorderTop fieldset {
 	border-top: 1px solid #ddd;
 }
-
 #startBox01 .startFormFieldsetWiPaddingBottom fieldset {
 	padding-bottom: 1em;
 }
@@ -80,21 +73,13 @@ body {
 #startBox01 .startFormFieldsetWiPaddingTop fieldset {
 	padding-top: 1em;
 }
-
-#startBox01 .startFormFieldsetWo fieldset {
+#startBox01 .startFormFieldsetWoAll fieldset {
 	border: 0;
 	margin: 0;
 	padding: 0;
 }
-
-#startBox01 .startFontLightOnDark {
-}
-
-#startBox01 .startShadow {
-  -moz-box-box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-  -webkit-box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-  margin-bottom: 0.9375rem;
+#startBox01 .startFormLegendWo legend {
+	display: none;
 }
 
 
@@ -137,6 +122,13 @@ body {
   -moz-box-box-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none;
+}
+
+#startBox01 .startShadow {
+  -moz-box-box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  margin-bottom: 0.9375rem;
 }
 
 #startBox01 .startTextAlignCenter,
