@@ -50,6 +50,32 @@ body {
 	display: none;
 }
 
+#startBox01 .startFormLegendWiBorderBottom legend {
+	border-bottom: 1px solid #ddd;
+}
+#startBox01 .startFormLegendWiBorderLaft legend {
+	border-left: 1px solid #ddd;
+}
+#startBox01 .startFormLegendWiBorderRight legend {
+	border-right: 1px solid #ddd;
+}
+#startBox01 .startFormLegendWiBorderTop legend {
+	border-top: 1px solid #ddd;
+}
+
+#startBox01 .startFormLegendWiPaddingBottom legend {
+	padding-bottom: 1em;
+}
+#startBox01 .startFormLegendWiPaddingLeft legend {
+	padding-left: 1em;
+}
+#startBox01 .startFormLegendWiPaddingRight legend {
+	padding-right: 1em;
+}
+#startBox01 .startFormLegendWiPaddingTop legend {
+	padding-top: 1em;
+}
+
 #startBox01 .startFormFieldsetWo fieldset {
 	border: 0;
 	margin: 0;
