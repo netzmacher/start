@@ -50,29 +50,34 @@ body {
 	display: none;
 }
 
-#startBox01 .startFormLegendWiBorderBottom legend {
+#startBox01 .startFormFieldsetWoAll fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+#startBox01 .startFormFieldsetWiBorderBottom fieldset {
 	border-bottom: 1px solid #ddd;
 }
-#startBox01 .startFormLegendWiBorderLeft legend {
+#startBox01 .startFormFieldsetWiBorderLeft fieldset {
 	border-left: 1px solid #ddd;
 }
-#startBox01 .startFormLegendWiBorderRight legend {
+#startBox01 .startFormFieldsetWiBorderRight fieldset {
 	border-right: 1px solid #ddd;
 }
-#startBox01 .startFormLegendWiBorderTop legend {
+#startBox01 .startFormFieldsetWiBorderTop fieldset {
 	border-top: 1px solid #ddd;
 }
 
-#startBox01 .startFormLegendWiPaddingBottom legend {
+#startBox01 .startFormFieldsetWiPaddingBottom fieldset {
 	padding-bottom: 1em;
 }
-#startBox01 .startFormLegendWiPaddingLeft legend {
+#startBox01 .startFormFieldsetWiPaddingLeft fieldset {
 	padding-left: 1em;
 }
-#startBox01 .startFormLegendWiPaddingRight legend {
+#startBox01 .startFormFieldsetWiPaddingRight fieldset {
 	padding-right: 1em;
 }
-#startBox01 .startFormLegendWiPaddingTop legend {
+#startBox01 .startFormFieldsetWiPaddingTop fieldset {
 	padding-top: 1em;
 }
 
