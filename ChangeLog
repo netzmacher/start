@@ -1,6 +1,15 @@
 What's new: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+5.1.12
+	19-09-12
+  Feature
+	* #i0256: Update for ext:startgreen 2.16.5#i0396: Change green header on scrolling
+						* <div class="maincontent"> -> <div id="maincontent" class="maincontent">
+						Affected files:
+						* /opt/typo3/extensions/start/Resources/Private/Templates/foundation-5.5.3/Templates/*
+						* /opt/typo3/extensions/start/Resources/Private/Templates/foundation-6.4.3/Templates/*
+
 5.1.11
 	19-09-07
   Feature
