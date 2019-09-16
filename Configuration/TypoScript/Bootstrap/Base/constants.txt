@@ -1,0 +1,8 @@
+start {
+  bootstrap {
+    base {
+			# cat=start - bootstrap - base//100;  type=boolean; label= Default template: Include the default fluid_styled_content template, which respect tx_start_additionalclass and tx_start_additionalclassdefined
+			includeDefaultTemplate = 1
+    }
+  }
+}

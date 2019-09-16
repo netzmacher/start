@@ -57,8 +57,9 @@ tt_content {
 								// field = tx_start_additionalclassdefined
 							20 = TEXT
 							20 {
-								stdWrap.field = tx_start_additionalclassdefined
-								stdWrap.split {
+								field = tx_start_additionalclassdefined
+								required = 1
+								split {
 									token = ,
 									cObjNum = 1
 									1.current = 1

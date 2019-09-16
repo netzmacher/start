@@ -8,6 +8,6 @@
   // Then $styles.content.shortcut.tables returns tt_content
   <INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Base/tt_content/Fluid_Styled_Content/_setup.ts">
 [else]
-	// condition doesn't met, FluidStyledContent isn't included, CssStyledContent must be included. Intrnal #i0192
+	// condition doesn't met, FluidStyledContent isn't included, CssStyledContent must be included. Internal #i0192
   <INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Base/tt_content/CSS_Styled_Content/setup.ts">
 [global]
