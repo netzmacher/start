@@ -1,6 +1,14 @@
 What's new: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+5.1.14
+	19-10-01
+  Bugfix
+	* #i0258: 2 Columns failed in some strange case: Columns content won't displayed but <>
+						Bugfix: Don't include TypoScript for foundation_orbit and foundation_section.
+						Affected file:
+						* Configuration/TypoScript/Extensions/gridelements/foundation/setup/_setup.ts
+
 5.1.13
 	19-09-16
   Feature
