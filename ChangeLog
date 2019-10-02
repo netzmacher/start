@@ -3,6 +3,11 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 5.1.15
 	19-10-02
+  Improvement
+	* #i0260: Update EXT:slick: new feature sync
+						Here: CSS
+						Affected file:
+						* Resources/Public/Css/basic.css
   Manual
 	* #i0259: Update for Known Bugs
 

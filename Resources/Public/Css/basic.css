@@ -2,6 +2,10 @@ body {
 	/* #i0196, 190110, dwildt, 1+ */
 	overflow-x: hidden;
 }
+/* #i0260, #t4060, 1+ */
+#startBox01 .slick-sync figcaption {
+	display: none;
+}
 
 @media print {
   #startBox01 a,
