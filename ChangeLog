@@ -1,6 +1,13 @@
 What's new: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+5.1.15
+	19-10-02
+  Bugfix
+	* #i0259: tx_start_additionalclass, tx_start_additionalclassdefined
+						Affected file:
+						* Configuration/TypoScript/Base/tt_content/_setup.ts
+
 5.1.14
 	19-10-01
   Bugfix
