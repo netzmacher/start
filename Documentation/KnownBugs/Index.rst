@@ -31,3 +31,20 @@ Solution
 
 Probably the page resource media is linked with a file, which is deleted. Please
 delete the relation at page resource media.
+
+
+additional class isn't respected
+--------------------------------
+
+Values of fields aren't respected:
+
+* tx_start_additionalclass
+
+* tx_start_additionalclassdefined
+
+Solution
+''''''''
+
+Probably the order of TypoScript templates isn't proper.
+
+TypoScript template of the EXT:t3foundation must included before EXT:start.
