@@ -72,23 +72,23 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
 	{
 		$backendLayout = null;
 
-		if( Extensionmanager::getProperty( 'backendLayoutsEnableDefault' ) === false )
+		if( Extensionmanager::getProperty( 'backendLayoutsEnableDefault' ) !== true )
 		{
 			$backendLayout = ( array ) $backendLayout + $this->backendLayoutsDefault;
 		}
-		if( Extensionmanager::getProperty( 'backendLayoutsEnableStartBronze' ) === false )
+		if( Extensionmanager::getProperty( 'backendLayoutsEnableStartBronze' ) !== true )
 		{
 			$backendLayout = ( array ) $backendLayout + $this->backendLayoutsBronze;
 		}
-		if( Extensionmanager::getProperty( 'backendLayoutsEnableStartSilver' ) === false )
+		if( Extensionmanager::getProperty( 'backendLayoutsEnableStartSilver' ) !== true )
 		{
 			$backendLayout = ( array ) $backendLayout + $this->backendLayoutsSilver;
 		}
-		if( Extensionmanager::getProperty( 'backendLayoutsEnableStartNewsletter' ) === false )
+		if( Extensionmanager::getProperty( 'backendLayoutsEnableStartNewsletter' ) !== true )
 		{
 			$backendLayout = ( array ) $backendLayout + $this->backendLayoutsNewsletter;
 		}
-		if( Extensionmanager::getProperty( 'backendLayoutsEnableStartDeprecated' ) === false )
+		if( Extensionmanager::getProperty( 'backendLayoutsEnableStartDeprecated' ) !== true )
 		{
 			$backendLayout = ( array ) $backendLayout + $this->backendLayoutsDeprecated;
 		}
