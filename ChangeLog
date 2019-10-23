@@ -1,5 +1,14 @@
-What's new: https://bit.ly/2TeRnRS
+WHAT'S NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
+
+5.2.0
+	19-10-23
+  Feature
+	* #i0262: Module can disabled by the extension manager
+	* #i0261: Backend layouts can disabled by the extension manager
+						Affectd files:
+						* /opt/typo3/extensions/start/ext_conf_template.txt
+						* /opt/typo3/extensions/start/Classes/Provider/BackendLayoutDataProvider.php
 
 5.1.15
 	19-10-02
