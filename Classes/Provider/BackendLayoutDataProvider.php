@@ -93,7 +93,7 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
 			$backendLayout = ( array ) $backendLayout + $this->backendLayoutsDeprecated;
 		}
 
-		return $backendLayout;
+		return ( array ) $backendLayout;
 	}
 
 	/**
