@@ -47,20 +47,22 @@ switch( TRUE )
  * Register Modules
  * ************************************************************************************************ */
 
-	// #i0242, 190615, dwildt, +
+// #i0242, 190615, dwildt, +
 if( TYPO3_MODE === 'BE' )
 {
-
-	\TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerModule(
-					'Netzmacher.Start', 'web', // Make module a submodule of 'web'
-					'md1', // Submodule key
-					'', // Position
-					[
-			'Module' => 'list, banner, contact, layout, socialmedia, update, unit, wallpaper'
-					], [
-			'access' => 'user,group',
-			'icon' => 'EXT:start/Resources/Public/Icons/user_mod_md1.svg',
-			'labels' => 'LLL:EXT:start/Resources/Private/Language/locallang_md1.xlf',
-					]
-	);
+	if( !Netzmacher\Start\Backend\Extensions\Extensionmanager::getProperty( 'moduleDisabled' ) )
+	{
+		\TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerModule(
+						'Netzmacher.Start', 'web', // Make module a submodule of 'web'
+						'md1', // Submodule key
+						'', // Position
+						[
+				'Module' => 'list, banner, contact, layout, socialmedia, update, unit, wallpaper'
+						], [
+				'access' => 'user,group',
+				'icon' => 'EXT:start/Resources/Public/Icons/user_mod_md1.svg',
+				'labels' => 'LLL:EXT:start/Resources/Private/Language/locallang_md1.xlf',
+						]
+		);
+	}
 }

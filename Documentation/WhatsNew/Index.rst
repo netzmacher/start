@@ -16,12 +16,25 @@ What's new
 Features
 --------
 
+
+Backend Layouts
+'''''''''''''''
+
+Groups of backend layouts can disabled by the extension manager.
+
+See: 
+
+* :ref:`Users > Setup > Modul <users_setup_modul>`
+
+* :ref:`Administrators > Setup > Extensionmanager > Backend Layout <administrators_setup_extensionmanager_backendlayout>`
+
+
 Modul Web: Start TYPO3
 ''''''''''''''''''''''
 
-Interface for central settings.
+You can disable Start TYPO3 in Module > Web. See:
 
-See: :ref:`Users > Setup > Modul <users_setup_modul>`
+* :ref:`Administrators > Setup > Extensionmanager > Modul <administrators_setup_extensionmanager_modul>`
 
 
 Lightbox
@@ -34,7 +47,6 @@ For
 * tx_news
 
 See :ref:`Lightbox <administrators_bestpractice_lightbox>`
-
 
 
 Rich Text Editor

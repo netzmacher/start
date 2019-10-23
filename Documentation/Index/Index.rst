@@ -23,6 +23,10 @@ B
 
 	* :ref:`Columns width <administrators_bestpractice_html_columnwidth>`
 
+	* :ref:`Extensionmanager <administrators_setup_extensionmanager_backendlayout>`
+
+* :ref:`Backend Style <administrators_setup_extensionmanager_backendstyle>`
+
 * Background Image
 
   * :ref:`Gridelements > Background Image <users_bestpractice_gridelements_backgroundimage>`
@@ -53,6 +57,11 @@ C
 
   * See :ref:`Columns <alphabetical-index_columns>`
 
+E
+-
+
+* :ref:`Extension Manager <administrators_setup_extensionmanager>`
+
 G
 -
 
@@ -77,6 +86,8 @@ H
 L
 -
 
+* :ref:`Language <administrators_setup_extensionmanager_language>`
+
 * Lightbox
 
 	* :ref:`API (tt_content) <administrators_bestpractice_lightbox_ttcontent>`
@@ -86,6 +97,12 @@ L
 	* :ref:`News (EXT:tx_news) <administrators_bestpractice_lightbox_txnews>`
 
 	* :ref:`Quick Shop (EXT:quick_shop) <administrators_bestpractice_lightbox_txquickshop>`
+
+
+M
+-
+
+* :ref:`Modul <administrators_setup_extensionmanager_modul>`
 
 
 R
@@ -115,13 +132,21 @@ S
 
 * :ref:`Screenshots <introduction-screenshots>`
 
-Social Media
+* Social Media
 
-* :ref: `Youtube <_alphabetical-index_youtube>`
+  * :ref:`Youtube <alphabetical-index_youtube>`
 
-Spell Check
+* Spell Check
 
-* :ref:`RTE > Spell Check <alphabetical-index_rte_spellcheck>`
+  * :ref:`RTE > Spell Check <alphabetical-index_rte_spellcheck>`
+
+* Style: :ref:`Extension Manager <administrators_setup_extensionmanager_backendstyle>`
+
+
+T
+-
+
+* :ref:`TCA <administrators_setup_extensionmanager_tca>`
 
 
 W
