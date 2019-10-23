@@ -5,10 +5,13 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 	19-10-23
   Feature
 	* #i0262: Module can disabled by the extension manager
+						Affetced files:
+						* ext_conf_template.txt
+						* ext_tables.php
 	* #i0261: Backend layouts can disabled by the extension manager
 						Affectd files:
-						* /opt/typo3/extensions/start/ext_conf_template.txt
-						* /opt/typo3/extensions/start/Classes/Provider/BackendLayoutDataProvider.php
+						* ext_conf_template.txt
+						* Classes/Provider/BackendLayoutDataProvider.php
 
 5.1.15
 	19-10-02
