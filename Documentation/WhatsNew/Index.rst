@@ -29,10 +29,10 @@ See:
 * :ref:`Administrators > Setup > Extensionmanager > Backend Layout <administrators_setup_extensionmanager_backendlayout>`
 
 
-Modul Web: Start TYPO3
-''''''''''''''''''''''
+Modul > Web: Start TYPO3
+''''''''''''''''''''''''
 
-You can disable Start TYPO3 in Module > Web. See:
+You can disable Start TYPO3 in Modul > Web. See:
 
 * :ref:`Administrators > Setup > Extensionmanager > Modul <administrators_setup_extensionmanager_modul>`
 

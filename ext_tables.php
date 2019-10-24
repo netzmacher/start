@@ -50,7 +50,7 @@ switch( TRUE )
 // #i0242, 190615, dwildt, +
 if( TYPO3_MODE === 'BE' )
 {
-	if( !Netzmacher\Start\Backend\Extensions\Extensionmanager::getProperty( 'moduleDisabled' ) )
+	if( !Netzmacher\Start\Backend\Extensions\Extensionmanager::getProperty( 'modulDisabled' ) )
 	{
 		\TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerModule(
 						'Netzmacher.Start', 'web', // Make module a submodule of 'web'

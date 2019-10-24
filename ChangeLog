@@ -4,7 +4,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 5.2.0
 	19-10-23
   Feature
-	* #i0262: Module can disabled by the extension manager
+	* #i0262: Modul can disabled by the extension manager
 						Affetced files:
 						* ext_conf_template.txt
 						* ext_tables.php
