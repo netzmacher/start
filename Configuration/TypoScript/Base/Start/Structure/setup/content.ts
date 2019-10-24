@@ -10,7 +10,7 @@ start {
     // content
   structure =
   structure {
-      // bottomLeft (4), bottomMain (6), bottomRight (5), left (1), main (0), right (2), topLeft (1), topMain (3), topRight (2)
+      // bottom (3), bottomLeft (4), bottomMain (6), bottomRight (5), left (1), main (0), right (2), topLeft (1), topMain (3), topRight (2)
     content =
     content {
         // CONTENT, stdWrap

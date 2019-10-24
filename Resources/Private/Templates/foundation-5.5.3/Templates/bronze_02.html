@@ -1,15 +1,17 @@
 <f:layout name="bronze" />
 <f:section name="content">
   <div id="maincontent" class="maincontent">
-    <div class="{settings.classRow}">
-      <div class="{settings.classColMainContentMain} {settings.classCell} maincontentmain main">
-        <!--content-->
-        <f:cObject typoscriptObjectPath="start.structure.content.main" />
-        <!--/content-->
-      </div>
-      <div class="{settings.classColMainContentRight} {settings.classCell} maincontentright right">
-        <f:cObject typoscriptObjectPath="start.structure.content.right" />
-      </div>
+		<div class="outerRow main">
+			<div class="{settings.classRow}">
+				<div class="{settings.classColMainContentMain} {settings.classCell} maincontentmain main">
+					<!--content-->
+					<f:cObject typoscriptObjectPath="start.structure.content.main" />
+					<!--/content-->
+				</div>
+				<div class="{settings.classColMainContentRight} {settings.classCell} maincontentright right">
+					<f:cObject typoscriptObjectPath="start.structure.content.right" />
+				</div>
+			</div>
     </div>
   </div>
 </f:section>
