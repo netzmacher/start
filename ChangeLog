@@ -8,7 +8,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						Affetced files:
 						* ext_conf_template.txt
 						* ext_tables.php
-	* #i0261: Backend layouts can disabled by the extension manager
+	* #i0261: Group of backend layouts can disabled by the extension manager
 						Affectd files:
 						* ext_conf_template.txt
 						* Classes/Provider/BackendLayoutDataProvider.php
