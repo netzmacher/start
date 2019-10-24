@@ -8,6 +8,7 @@
 
 .. _users_bestpractice_layouts_basic:
 
+
 Basic Layouts
 =============
 
@@ -17,7 +18,10 @@ A basic layout is a grid layout, which configures the current page and all pages
 
 Content of each cell will handed down, if the correspondig cell of the page(s) below is empty.
 
-You can change the basic layout on each page.
+You can change the basic layout on each page. See 
 
-See a screenshot at :ref:`Users > Layout <users_setup_layouts>`
+* :ref:`Screenshot <users_setup_layouts>`
 
+The administrator controls with the Extension Manager, which layouts are available. See
+
+* :ref:`Extensionmanager <administrators_setup_extensionmanager_backendlayout>`

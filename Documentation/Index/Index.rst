@@ -31,6 +31,8 @@ B
 
   * :ref:`Gridelements > Background Image <users_bestpractice_gridelements_backgroundimage>`
 
+* Basic Layouts @ :ref:`Backend Layouts <alphabetical-index_backendlayouts>`
+
 * Bugfixes (see: :ref:`Workarounds <alphabetical-index_Workarounds>`)
 
 
