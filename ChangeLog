@@ -1,14 +1,8 @@
 WHAT'S NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
-5.2.1
-	19-10-25
-  Feature
-	* #i0263: HTML: new div tag with outerRow class
-						Affected files:
-						* Resources/Private/Templates/foundation-5.5.3/Templates
-							* bronze_[01..04].html
-							* silver_[04..09].html
+5.2.2
+	19-10-24
   Improvement
 	* #i0268: Workaround for TCA gridelements.
 						Affected file:
@@ -29,6 +23,15 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 	* #i0266: Gridelements: TYPO3 classes are missing in the div tag 
 						Affected file:
 						* Configuration/TypoScript/Base/tt_content/Fluid_Styled_Content/tt_content.gridelements_pi1.ts
+
+5.2.1
+	19-10-24
+  Feature
+	* #i0263: HTML: new div tag with outerRow class
+						Affected files:
+						* Resources/Private/Templates/foundation-5.5.3/Templates
+							* bronze_[01..04].html
+							* silver_[04..09].html
 
 5.2.0
 	19-10-23
