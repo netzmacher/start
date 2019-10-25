@@ -1,6 +1,36 @@
 WHAT'S NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+5.2.3
+	19-10-26
+  Feature
+	* #i0271: New CSS classes startContainer and startWidth[0250..1125]
+						Affected files:
+						* Configuration/TCA/Overrides
+							* 7.6
+								* tt_content.php
+								* de.tt_content.xlf
+								* tt_content.xlf
+						  * Default
+								* tt_content.php
+								* de.tt_content.xlf
+								* tt_content.xlf
+						* Resources
+							* Public/Css
+								* basic.css
+								* basic.min.css
+	* #i0270: Configurable classes for top level rows
+						Affected files:
+						* Configuration/TypoScript
+							* Base/Page/Page/63148.ts
+							* Foundation/Start/Constants/Foundation/grid.ts
+						* Resources
+							* Private/Templates/foundation-5.5.3/Templates/silver_[04..09].html
+							* Public/Css
+								* basic.css
+								* basic.min.css
+						:ref: EXT:startbelayouts #i0005
+
 5.2.2
 	19-10-24
   Improvement

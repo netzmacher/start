@@ -198,6 +198,46 @@ $temporaryColumns = array(
 										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startFormFieldsetWiPaddingLeft',
 										'1' => 'startFormFieldsetWiPaddingLeft',
 								),
+								'startDivLayout' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/7.6/tt_content.xlf:tx_start_additionalclassdefined.startDiv',
+										'1' => '--div--',
+								),
+								'startContainer' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/7.6/tt_content.xlf:tx_start_additionalclassdefined.startContainer',
+										'1' => 'startContainer',
+								),
+								'startWidth0250' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/7.6/tt_content.xlf:tx_start_additionalclassdefined.startWidth0250',
+										'1' => 'startWidth0250',
+								),
+								'startWidth0375' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/7.6/tt_content.xlf:tx_start_additionalclassdefined.startWidth0375',
+										'1' => 'startWidth0375',
+								),
+								'startWidth0500' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/7.6/tt_content.xlf:tx_start_additionalclassdefined.startWidth0500',
+										'1' => 'startWidth0500',
+								),
+								'startWidth0625' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/7.6/tt_content.xlf:tx_start_additionalclassdefined.startWidth0625',
+										'1' => 'startWidth0625',
+								),
+								'startWidth0750' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/7.6/tt_content.xlf:tx_start_additionalclassdefined.startWidth0750',
+										'1' => 'startWidth0750',
+								),
+								'startWidth0875' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/7.6/tt_content.xlf:tx_start_additionalclassdefined.startWidth0875',
+										'1' => 'startWidth0875',
+								),
+								'startWidth1000' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/7.6/tt_content.xlf:tx_start_additionalclassdefined.startWidth1000',
+										'1' => 'startWidth1000',
+								),
+								'startWidth1125' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/7.6/tt_content.xlf:tx_start_additionalclassdefined.startWidth1125',
+										'1' => 'startWidth1125',
+								),
 						),
 				),
 		),

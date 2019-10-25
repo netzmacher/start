@@ -7,6 +7,15 @@ body {
 	display: none;
 }
 
+#startBox01 .row.expanded {
+	max-width: inherit;
+	padding:0;
+	width: 100%;
+}
+#startBox01 .row.expanded > .columns {
+	padding:0;
+}
+
 @media print {
   #startBox01 a,
   #startBox01 a:visited {
@@ -48,6 +57,35 @@ body {
 #startBox01 .startBackgroundWhite {
 	color: #0A321E;
   background: #FFFFFF;
+}
+
+#startBox01 .startContainer {
+	margin: 0 auto;
+	padding: 0 .9375rem;
+}
+#startBox01 .startWidth0250 {
+	width:25.0rem;
+}
+#startBox01 .startWidth0375 {
+	width:37.5rem;
+}
+#startBox01 .startWidth0500 {
+	width:50.0rem;
+}
+#startBox01 .startWidth0625 {
+	width:62.5rem;
+}
+#startBox01 .startWidth0750 {
+	width:75.0rem;
+}
+#startBox01 .startWidth0875 {
+	width:87.5rem;
+}
+#startBox01 .startWidth1000 {
+	width:100.0rem;
+}
+#startBox01 .startWidth1125 {
+	width:112.5rem;
 }
 
 #startBox01 .startFontLightOnDark {

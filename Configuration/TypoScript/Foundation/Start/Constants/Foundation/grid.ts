@@ -7,6 +7,12 @@ start {
       class.row = row
       # cat=start - foundation - grid//102;    type=string;            label= Row without margin: CSS class for a row without margin
       class.rowWoMargin = row
+      # cat=start - foundation - grid//200;    type=string;            label= Row top: Additional CSS class for the top row
+      class.rowPlusTop = top
+      # cat=start - foundation - grid//210;    type=string;            label= Row main: Additional CSS class for the main row
+      class.rowPlusMain = main
+      # cat=start - foundation - grid//220;    type=string;            label= Row bottom: Additional CSS class for the bottom row
+      class.rowPlusBottom = bottom
     }
 	}
 }

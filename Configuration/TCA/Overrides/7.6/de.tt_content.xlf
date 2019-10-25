@@ -104,6 +104,10 @@
         <source>Background: white (startBackgroundWhite)</source>
         <target>Hintergrund: weiß (startBackgroundWhite)</target>
       </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startContainer">
+        <source>Container (startContainer)</source>
+        <target>Container (startContainer)</target>
+      </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startFigCaptionHideForSmallOnly">
         <source>Images: Caption hide for mobile (startFigCaptionHideForSmallOnly)</source>
         <target>Bilder: Unterschrift für Smartphone verstecken (startFigCaptionHideForSmallOnly)</target>
@@ -211,6 +215,38 @@
       <trans-unit id="tx_start_additionalclassdefined.startTextAlignRight">
         <source>Text-align: right (startTextAlignRight)</source>
         <target>Text-Ausrichtung: rechtsbündig (startTextAlignRight)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWidth0250">
+        <source>Width: 25.0rem (startWidth0250)</source>
+        <target>Breite: 25.0rem (startWidth0250)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWidth0375">
+        <source>Width: 37.5rem (startWidth0375)</source>
+        <target>Breite: 37.5rem (startWidth0375)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWidth0500">
+        <source>Width: 50.0rem (startWidth0500)</source>
+        <target>Breite: 50.0rem (startWidth0500)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWidth0625">
+        <source>Width: 62.5rem (startWidth0625)</source>
+        <target>Breite: 62.5rem (startWidth0625)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWidth0750">
+        <source>Width: 75.0rem (startWidth0750)</source>
+        <target>Breite: 75.0rem (startWidth0750)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWidth0875">
+        <source>Width: 87.5rem (startWidth0875)</source>
+        <target>Breite: 87.5rem (startWidth0875)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWidth1000">
+        <source>Width: 100.0rem (startWidth1000)</source>
+        <target>Breite: 100.0rem (startWidth1000)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWidth1125">
+        <source>Width: 112.5rem (startWidth1125)</source>
+        <target>Breite: 112.5rem (startWidth1125)</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startWiMarginDefault">
         <source>Margin: default (startWiMarginDefault)</source>

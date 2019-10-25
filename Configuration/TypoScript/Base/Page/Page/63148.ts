@@ -228,6 +228,9 @@ page {
         classColMainContentMain         = small-12
         classColMainContentBottomCenter = small-12
         classRow												= {$start.foundation.grid.class.row}
+        classRowPlusTop									= {$start.foundation.grid.class.rowPlusTop}
+        classRowPlusMain								= {$start.foundation.grid.class.rowPlusMain}
+        classRowPlusBottom							= {$start.foundation.grid.class.rowPlusBottom}
       }
     }
       // Four rows: header || top || content || footer
