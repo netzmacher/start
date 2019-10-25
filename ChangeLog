@@ -4,6 +4,9 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 5.2.2
 	19-10-24
   Improvement
+	* #i0269: Message in the frontend, if both extensions are enabled: css_styled_content and fluid_styled_content
+						New file:
+						* Configuration/TypoScript/Base/Page/Page/63147.ts
 	* #i0268: Workaround for TCA gridelements.
 						Affected file:
 						* Configuration/TCA/Overrides/Default/tt_content/_workaroundGridelements.php
