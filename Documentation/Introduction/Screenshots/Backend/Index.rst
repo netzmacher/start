@@ -13,9 +13,9 @@ Backend
 
 .. figure:: modul_typo3_start.jpg
 	:width: 800px
-	:alt: Modul Web: Start TYPO3
+	:alt: Module > Web: Start TYPO3
 
-	Modul Web: Start TYPO3
+	Module > Web: Start TYPO3
 
 Start extends the page record with some properties.
 The modul Start TYPO3 enables you to control important informations like 

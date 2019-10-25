@@ -2,13 +2,33 @@ WHAT'S NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 5.2.1
-	19-10-24
+	19-10-25
   Feature
 	* #i0263: HTML: new div tag with outerRow class
 						Affected files:
 						* Resources/Private/Templates/foundation-5.5.3/Templates
 							* bronze_[01..04].html
 							* silver_[04..09].html
+  Improvement
+	* #i0268: Workaround for TCA gridelements.
+						Affected file:
+						* Configuration/TCA/Overrides/Default/tt_content/_workaroundGridelements.php
+						:ref: EXT:t3foundation #i0030
+	* #i0267: TypoScript integration of tx_start_additionalclass // tx_start_additionalclassdefined
+						Affected file:
+						* Configuration/TypoScript/Base/tt_content/Fluid_Styled_Content/tt_content.stdWrap.innerWrap.cObject.ts
+	* #i0265: Condition is moved
+						* from: LIT:tt_content
+						* to	: TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded
+						Affected file:
+						* Configuration/TypoScript/Base/tt_content/_setup.ts
+	* #i0264: Optimised message for the frontend, if backend layout is failing 
+						Affected file:
+						* Configuration/TypoScript/Base/Page/Page/63148.ts
+  Bugfix
+	* #i0266: Gridelements: TYPO3 classes are missing in the div tag 
+						Affected file:
+						* Configuration/TypoScript/Base/tt_content/Fluid_Styled_Content/tt_content.gridelements_pi1.ts
 
 5.2.0
 	19-10-23
@@ -165,7 +185,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 5.1.0
 	19-06-16
   Feature
-	* #i0242: Modul Web: Start
+	* #i0242: Module > Web: Start
 						New files:
 						* Classes
 							* Controller

@@ -24,17 +24,17 @@ Groups of backend layouts can disabled by the extension manager.
 
 See: 
 
-* :ref:`Users > Setup > Modul <users_setup_modul>`
+* :ref:`Users > Setup > Module <users_setup_modul>`
 
 * :ref:`Administrators > Setup > Extensionmanager > Backend Layout <administrators_setup_extensionmanager_backendlayout>`
 
 
-Modul > Web: Start TYPO3
+Module > Web: Start TYPO3
 ''''''''''''''''''''''''
 
-You can disable Start TYPO3 in Modul > Web. See:
+You can disable Start TYPO3 in Module > Web. See:
 
-* :ref:`Administrators > Setup > Extensionmanager > Modul <administrators_setup_extensionmanager_modul>`
+* :ref:`Administrators > Setup > Extensionmanager > Module <administrators_setup_extensionmanager_modul>`
 
 
 Lightbox

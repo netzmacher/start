@@ -8,66 +8,11 @@ tt_content.gridelements_pi1 {
         // <div id="cUid">|</div>
       cObject = COA
       cObject {
-          // <div id="cUid" class="..."> internal: #i0265
-        10 = COA
+          // <div id="cUid">
+        10 = TEXT
         10 {
-						//  <div id="c|"
-					10 = TEXT
-					10 {
-						field = uid
-						noTrimWrap = |<div id="c|"|
-					}
-						// class="..."
-					20 = COA
-					20 {
-							// fields: layout, frame_class, space_before_class, space_after_class
-						20 = COA
-						20 {
-								// isTrue.field = frame_class // space_before_class // space_after_class // layout
-							if =
-							if {
-									// field = frame_class // space_before_class // space_after_class // layout
-								isTrue = 
-								isTrue {
-									field = frame_class // space_before_class // space_after_class // layout
-								}
-							}
-								// layout
-							10 = TEXT
-							10 {
-								field = layout
-								noTrimWrap = | frame-layout-||>
-								required = 1
-							}
-								// frame_class
-							20 = TEXT
-							20 {
-								field = frame_class
-								noTrimWrap = | frame-||>
-								required = 1
-							}
-								// space_before_class
-							30 = TEXT
-							30 {
-								field = space_before_class
-								noTrimWrap = | frame-space-before-||>
-								required = 1
-							}
-								// space_after_class
-							40 = TEXT
-							40 {
-								field = space_after_class
-								noTrimWrap = | frame-space-after-||>
-								required = 1
-							}
-							wrap = class="|"
-						}
-					}
-						// >
-					30 = TEXT
-					30 {
-						value = >
-					}
+          field = uid
+          wrap = <div id="c|">
         }
           // |</div>
         20 = TEXT

@@ -104,7 +104,7 @@ L
 M
 -
 
-* :ref:`Modul <administrators_setup_extensionmanager_modul>`
+* :ref:`Module <administrators_setup_extensionmanager_modul>`
 
 
 R

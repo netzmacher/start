@@ -19,7 +19,7 @@ backendstyleHosts			=
 	# cat=language;							type=options[English,German]; label= Backend Language: Language for special backend labels like TypoScript static templates. Property has an effect in the backend only.
 beLanguage = English
 
-  # cat=Modul//100;					type=boolean; label= Disable Module:Disable the Start Modul in the Modul > Web
+  # cat=Modul//100;					type=boolean; label= Disable Module:Disable the Start Module in the Module > Web
 modulDisabled  = 0
 
 	# cat=TCA//100;							type=boolean; label= Pages:Disable additional TCA properties for the table pages.

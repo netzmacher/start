@@ -21,5 +21,5 @@ Extension Manager
 		BackendLayout/Index
 		BackendStyle/Index
 		Language/Index
-		Modul/Index
+		Module/Index
 		TCA/Index

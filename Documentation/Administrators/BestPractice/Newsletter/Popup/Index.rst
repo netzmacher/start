@@ -38,7 +38,7 @@ Include Static Template
 Constant Editor
 ^^^^^^^^^^^^^^^
 
-* Modul > Web > Templates
+* Module > Web > Templates
 
 * Page tree: root page
 

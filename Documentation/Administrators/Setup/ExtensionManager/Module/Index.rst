@@ -9,7 +9,7 @@
 .. _administrators_setup_extensionmanager_modul:
 
 
-Modul
+Module
 =====
 
-You can disable the Start TYPO3 in the Modul > Web.
+You can disable the Start TYPO3 in the Module > Web.

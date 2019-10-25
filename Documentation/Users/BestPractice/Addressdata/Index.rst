@@ -11,4 +11,4 @@
 Address data
 ============
 
-Please refer to :ref:`Users > Setup > Modul <users_setup_modul>`
+Please refer to :ref:`Users > Setup > Module <users_setup_modul>`

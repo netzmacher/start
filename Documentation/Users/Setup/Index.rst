@@ -17,5 +17,5 @@ Setup
     :maxdepth: 2
     :titlesonly:
 
-    Modul/Index
+    Module/Index
     Layouts/Index

@@ -9,14 +9,14 @@
 .. _users_setup_modul:
 
 
-Modul
+Module
 =====
 
 .. figure:: modul_typo3_start_web.jpg
 	:width: 300px
-	:alt: Modul Web: Start TYPO3
+	:alt: Module > Web: Start TYPO3
 
-	Modul Web: Start TYPO3
+	Module > Web: Start TYPO3
 
 
 Interface
@@ -24,9 +24,9 @@ Interface
 
 .. figure:: modul_typo3_start.jpg
 	:width: 800px
-	:alt: Modul Start TYPO3 Interface
+	:alt: Module Start TYPO3 Interface
 
-	Modul Start TYPO3 Interface
+	Module Start TYPO3 Interface
 
 Overview with numerous options
 
@@ -36,9 +36,9 @@ Contact data
 
 .. figure:: modul_typo3_start_contact.jpg
 	:width: 800px
-	:alt: Modul Start TYPO3 Contact data
+	:alt: Module Start TYPO3 Contact data
 
-	Modul Start TYPO3 Contact data
+	Module Start TYPO3 Contact data
 
 
 Social Media
@@ -46,9 +46,9 @@ Social Media
 
 .. figure:: modul_typo3_start_socialmedia.jpg
 	:width: 800px
-	:alt: Modul Start TYPO3 Social Media
+	:alt: Module Start TYPO3 Social Media
 
-	Modul Start TYPO3 Social Media
+	Module Start TYPO3 Social Media
 
 
 Name / Company 
@@ -56,6 +56,6 @@ Name / Company
 
 .. figure:: modul_typo3_start_unit.jpg
 	:width: 800px
-	:alt: Modul Start TYPO3 Name / Company
+	:alt: Module Start TYPO3 Name / Company
 
-	Modul Start TYPO3 Name / Company
+	Module Start TYPO3 Name / Company

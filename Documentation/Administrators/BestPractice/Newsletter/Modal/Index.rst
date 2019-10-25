@@ -32,7 +32,7 @@ Setup
 Constant Editor
 ^^^^^^^^^^^^^^^
 
-* Modul > Web > Templates
+* Module > Web > Templates
 
 * Page tree: root page
 

@@ -25,8 +25,9 @@ page {
               |<div style="background:white;border:red solid 1em;color:red;font-weight:bold;margin:2em;padding:1em;text-align:center;">
                 The current backend layout "|" can't handled.<br />
                 Please empty the TYPO3-frontend-cache.<br />
-                If this hasn't any effect, please choose a proper backend layout. <br />
-                This is a prompt of the extension Start TYPO3 Responsive! (start). 
+								If the current backend layout is part of a different extension, may be a corresponding TypoScript template is missing.<br />
+                If you can't solve the bug, please choose a proper backend layout. <br />
+                This is a prompt of the extension Start TYPO3 Responsive! (EXT:start). 
               </div>|
 )
             lang {
@@ -34,8 +35,9 @@ page {
                 |<div style="background:white;border:red solid 1em;color:red;font-weight:bold;margin:2em;padding:1em;text-align:center;">
                   Das aktuelle Backend-Layout "|" kann nicht verarbeitet werden.<br />
                   Bitte leere den TYPO-Frontend-Cache.<br />
-                  Wenn das nicht hilft, w&auml;hle bitte ein g&uuml;ltiges Backend-Layout.<br />
-                  Das ist eine Meldung der Erweiterung Start TYPO3 Responsive! (start). 
+                  Ist das aktuelle Backend Layout eines einer anderen Erweiterung, fehlt eventuell ein entsprechendes TypoScript-Template.<br />
+                  Wenn Du das Problem nicht beheben kann, w&auml;hle bitte ein g&uuml;ltiges Backend-Layout.<br />
+                  Das ist eine Meldung der Erweiterung Start TYPO3 Responsive! (EXT:start). 
                 </div>|
 )
             }

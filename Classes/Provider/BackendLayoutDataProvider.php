@@ -76,11 +76,21 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
 		{
 			$backendLayout = ( array ) $backendLayout + $this->backendLayoutsDefault;
 		}
-		if( Extensionmanager::getProperty( 'backendLayoutsEnableStartBronze' ) )
+		$backendLayoutsEnableStartBronze = Extensionmanager::getProperty( 'backendLayoutsEnableStartBronze' );
+		if( $backendLayoutsEnableStartBronze === NULL )
+		{
+			$backendLayoutsEnableStartBronze = true;
+		}
+		if( $backendLayoutsEnableStartBronze )
 		{
 			$backendLayout = ( array ) $backendLayout + $this->backendLayoutsBronze;
 		}
-		if( Extensionmanager::getProperty( 'backendLayoutsEnableStartSilver' ) )
+		$backendLayoutsEnableStartSilver = Extensionmanager::getProperty( 'backendLayoutsEnableStartSilver' );
+		if( $backendLayoutsEnableStartSilver === NULL )
+		{
+			$backendLayoutsEnableStartSilver = true;
+		}
+		if( $backendLayoutsEnableStartSilver )
 		{
 			$backendLayout = ( array ) $backendLayout + $this->backendLayoutsSilver;
 		}
