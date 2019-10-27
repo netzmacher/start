@@ -1,11 +1,15 @@
 <f:layout name="silver" />
 <f:section name="content">
+	<f:variable name="startTop"><f:cObject typoscriptObjectPath="start.structure.content.topMain" /></f:variable>
+	<f:variable name="startBottom"><f:cObject typoscriptObjectPath="start.structure.content.bottomMain" /></f:variable>
   <div id="maincontent" class="maincontent">
-		<div class="{settings.classRow} {settings.classRowPlusTop}">
-			<div class="{settings.classColMainContentTopCenter} {settings.classCell} main">
-				<f:cObject typoscriptObjectPath="start.structure.content.topMain" />
+		<f:if condition="{startTop}">
+			<div class="{settings.classRow} {settings.classRowPlusTop}">
+				<div class="{settings.classColMainContentTopCenter} {settings.classCell} main">
+					{startTop}
+				</div>
 			</div>
-		</div>
+		</f:if>
 		<div class="{settings.classRow} {settings.classRowPlusMain}">
 			<div class="{settings.classColMainContentLeft} {settings.classCell} maincontentleft left">
 				<f:cObject typoscriptObjectPath="start.structure.content.left" />
@@ -16,10 +20,12 @@
 				<!--/content-->
 			</div>
 		</div>
-		<div class="{settings.classRow} {settings.classRowPlusBottom}">
-			<div class="{settings.classColMainContentBottomCenter} {settings.classCell} main">
-				<f:cObject typoscriptObjectPath="start.structure.content.bottomMain" />
+		<f:if condition="{startBottom}">
+			<div class="{settings.classRow} {settings.classRowPlusBottom}">
+				<div class="{settings.classColMainContentBottomCenter} {settings.classCell} main">
+					{startBottom}
+				</div>
 			</div>
-		</div>
+		</f:if>
   </div>
 </f:section>

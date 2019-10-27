@@ -4,6 +4,12 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 5.2.4
 	19-10-27
   Feature
+	* #i0274: Fluid templates blue and silver:
+						top and bottom rows are displayed only, if they have content.
+						Affected files:
+						* Resources/Private/Templates/foundation-5.5.3/Templates
+							* bronze_[01..04].html
+							* silver_[04..09].html
 	* #i0273: HTML: div tag with outerRow class is removed
 						Affected files:
 						* Resources/Private/Templates/foundation-5.5.3/Templates
