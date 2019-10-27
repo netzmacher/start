@@ -2,13 +2,15 @@
 backendLayoutsDisabled  = 0
   # cat=Backend layouts//200;	type=boolean; label= Enable Default:[not recommended] Enable the default templates of the TYPO3 API. 
 backendLayoutsEnableDefault = 0
-  # cat=Backend layouts//201;	type=boolean; label= Enable Start Bronze:[recommended] Enable the bronze templates of Start TYPO3 Responsive!
+  # cat=Backend layouts//201;	type=boolean; label= Enable Start Blue:[recommended] Enable the blue templates of Start TYPO3 Responsive!
+backendLayoutsEnableStartBlue = 1
+  # cat=Backend layouts//202;	type=boolean; label= Enable Start Bronze:[recommended] Enable the bronze templates of Start TYPO3 Responsive!
 backendLayoutsEnableStartBronze = 1
-  # cat=Backend layouts//202;	type=boolean; label= Enable Start Silver:[recommended] Enable the silver templates of Start TYPO3 Responsive!
+  # cat=Backend layouts//203;	type=boolean; label= Enable Start Silver:[recommended] Enable the silver templates of Start TYPO3 Responsive!
 backendLayoutsEnableStartSilver = 1
-  # cat=Backend layouts//203;	type=boolean; label= Enable Start Newsletter:[not recommended] Enable the newsletter templates of Start TYPO3 Responsive!
+  # cat=Backend layouts//204;	type=boolean; label= Enable Start Newsletter:[not recommended] Enable the newsletter templates of Start TYPO3 Responsive!
 backendLayoutsEnableStartNewsletter = 0
-  # cat=Backend layouts//204;	type=boolean; label= Enable Start Deprecated:[not recommended] Enable the deprecated templates of Start TYPO3 Responsive!
+  # cat=Backend layouts//205;	type=boolean; label= Enable Start Deprecated:[not recommended] Enable the deprecated templates of Start TYPO3 Responsive!
 backendLayoutsEnableStartDeprecated = 0
 
   # cat=Backend style//100;		type=boolean; label= Disable:Disable the Corporate Design of TYPO3 Start at backend login.

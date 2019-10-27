@@ -76,6 +76,15 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
 		{
 			$backendLayout = ( array ) $backendLayout + $this->backendLayoutsDefault;
 		}
+		$backendLayoutsEnableStartBlue = Extensionmanager::getProperty( 'backendLayoutsEnableStartBlue' );
+		if( $backendLayoutsEnableStartBlue === NULL )
+		{
+			$backendLayoutsEnableStartBlue = true;
+		}
+		if( $backendLayoutsEnableStartBlue )
+		{
+			$backendLayout = ( array ) $backendLayout + $this->backendLayoutsBlue;
+		}
 		$backendLayoutsEnableStartBronze = Extensionmanager::getProperty( 'backendLayoutsEnableStartBronze' );
 		if( $backendLayoutsEnableStartBronze === NULL )
 		{
@@ -194,6 +203,414 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
 	 * @since 5.2.0
 	 */
 	protected $backendLayouts = null;
+
+	/**
+	 * Default Backend Layouts Blue
+	 *
+	 * @var array
+	 * @version 5.2.4
+	 * @since 5.2.4
+	 */
+	protected $backendLayoutsBlue = array(
+			'blue_01' => array(
+					'title' => 'LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.blue_01',
+					'config' => '
+        backend_layout {
+          colCount = 12
+          rowCount = 6
+          rows {
+            1 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.header
+                  colPos  = 11
+                  colspan = 12
+                }
+              }
+            }
+            2 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.top
+                  colPos  = 3
+                  colspan = 12
+                }
+              }
+            }
+            3 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content
+                  colPos  = 0
+                  colspan = 12
+                }
+              }
+            }
+            4 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.bottom
+                  colPos  = 6
+                  colspan = 12
+                }
+              }
+            }
+            5 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.footer
+                  colPos  = 21
+                  colspan = 12
+                }
+              }
+            }
+            6 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.hidden
+                  colPos  = -2
+                  colspan = 12
+                }
+              }
+            }
+          }
+        }
+      ',
+					'icon' => 'EXT:start/Resources/Public/Images/BackendLayouts/start_blue_01.gif'
+			),
+			'blue_02' => array(
+					'title' => 'LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.blue_02',
+					'config' => '
+        backend_layout {
+          colCount = 12
+          rowCount = 6
+          rows {
+            1 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.header
+                  colPos  = 11
+                  colspan = 12
+                }
+              }
+            }
+            2 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.top
+                  colPos  = 3
+                  colspan = 12
+                }
+              }
+            }
+            3 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content
+                  colPos  = 0
+                  colspan = 12
+                }
+              }
+            }
+            4 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.bottom
+                  colPos  = 6
+                  colspan = 12
+                }
+              }
+            }
+            6 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.hidden
+                  colPos  = -2
+                  colspan = 12
+                }
+              }
+            }
+          }
+        }
+      ',
+					'icon' => 'EXT:start/Resources/Public/Images/BackendLayouts/start_blue_02.gif'
+			),
+			'blue_03' => array(
+					'title' => 'LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.blue_03',
+					'config' => '
+        backend_layout {
+          colCount = 12
+          rowCount = 6
+          rows {
+            1 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.header
+                  colPos  = 11
+                  colspan = 12
+                }
+              }
+            }
+            2 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content
+                  colPos  = 0
+                  colspan = 12
+                }
+              }
+            }
+            3 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.bottom
+                  colPos  = 6
+                  colspan = 12
+                }
+              }
+            }
+            4 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.footer
+                  colPos  = 21
+                  colspan = 12
+                }
+              }
+            }
+            5 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.hidden
+                  colPos  = -2
+                  colspan = 12
+                }
+              }
+            }
+          }
+        }
+      ',
+					'icon' => 'EXT:start/Resources/Public/Images/BackendLayouts/start_blue_03.gif'
+			),
+			'blue_01_01_lr' => array(
+					'title' => 'LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.blue_01_01_lr',
+					'config' => '
+        backend_layout {
+          colCount = 12
+          rowCount = 6
+          rows {
+            1 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.header
+                  colPos  = 11
+                  colspan = 12
+                }
+              }
+            }
+            2 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.top
+                  colPos  = 3
+                  colspan = 12
+                }
+              }
+            }
+            3 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.left
+                  colPos  = 1
+                  colspan = 3
+                }
+                2 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content
+                  colPos  = 0
+                  colspan = 6
+                }
+                3 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.right
+                  colPos  = 2
+                  colspan = 3
+                }
+              }
+            }
+            4 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.bottom
+                  colPos  = 6
+                  colspan = 12
+                }
+              }
+            }
+            5 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.footer
+                  colPos  = 21
+                  colspan = 12
+                }
+              }
+            }
+            6 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.hidden
+                  colPos  = -2
+                  colspan = 12
+                }
+              }
+            }
+          }
+        }
+      ',
+					'icon' => 'EXT:start/Resources/Public/Images/BackendLayouts/start_blue_01_01_lr.gif'
+			),
+			'blue_01_02_r' => array(
+					'title' => 'LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.blue_01_02_r',
+					'config' => '
+        backend_layout {
+          colCount = 12
+          rowCount = 6
+          rows {
+            1 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.header
+                  colPos  = 11
+                  colspan = 12
+                }
+              }
+            }
+            2 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.top
+                  colPos  = 3
+                  colspan = 12
+                }
+              }
+            }
+            3 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content
+                  colPos  = 0
+                  colspan = 9
+                }
+                2 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.right
+                  colPos  = 2
+                  colspan = 3
+                }
+              }
+            }
+            4 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.bottom
+                  colPos  = 6
+                  colspan = 12
+                }
+              }
+            }
+            5 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.footer
+                  colPos  = 21
+                  colspan = 12
+                }
+              }
+            }
+            6 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.hidden
+                  colPos  = -2
+                  colspan = 12
+                }
+              }
+            }
+          }
+        }
+      ',
+					'icon' => 'EXT:start/Resources/Public/Images/BackendLayouts/start_blue_01_02_r.gif'
+			),
+			'blue_01_03_l' => array(
+					'title' => 'LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.blue_01_03_l',
+					'config' => '
+        backend_layout {
+          colCount = 12
+          rowCount = 6
+          rows {
+            1 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.header
+                  colPos  = 11
+                  colspan = 12
+                }
+              }
+            }
+            2 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.top
+                  colPos  = 3
+                  colspan = 12
+                }
+              }
+            }
+            3 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.left
+                  colPos  = 1
+                  colspan = 3
+                }
+                2 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content
+                  colPos  = 0
+                  colspan = 9
+                }
+              }
+            }
+            4 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.bottom
+                  colPos  = 6
+                  colspan = 12
+                }
+              }
+            }
+            5 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.footer
+                  colPos  = 21
+                  colspan = 12
+                }
+              }
+            }
+            6 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.hidden
+                  colPos  = -2
+                  colspan = 12
+                }
+              }
+            }
+          }
+        }
+      ',
+					'icon' => 'EXT:start/Resources/Public/Images/BackendLayouts/start_blue_01_03_l.gif'
+			),
+	);
 
 	/**
 	 * Default Backend Layouts Bronze

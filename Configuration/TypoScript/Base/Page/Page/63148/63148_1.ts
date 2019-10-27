@@ -54,6 +54,70 @@ page {
         }
       }
     }
+      // Two rows: header (left | center | right) | content
+      // Five rows: header || top || content || bottom || footer
+    start__blue_01 < .start__bronze_02
+    start__blue_01 {
+      file = {$start.fluid.path.templates}blue_01.html
+      settings >
+      settings {
+        classCell												= {$start.foundation.grid.class.cell}
+        classColMainContentTopCenter    = small-12
+        classColMainContentMain         = small-12
+        classColMainContentBottomCenter = small-12
+        classRow												= {$start.foundation.grid.class.row}
+        classRowPlusTop									= {$start.foundation.grid.class.rowPlusTop}
+        classRowPlusMain								= {$start.foundation.grid.class.rowPlusMain}
+        classRowPlusBottom							= {$start.foundation.grid.class.rowPlusBottom}
+      }
+    }
+      // Four rows: header || top || content || footer
+    start__blue_02 < .start__blue_01
+    start__blue_02 {
+      file = {$start.fluid.path.templates}blue_02.html
+      settings {
+        classColMainContentBottomCenter >
+      }
+    }
+      // Four rows: header || content || right || footer
+    start__blue_03 < .start__blue_01
+    start__blue_03 {
+      file = {$start.fluid.path.templates}blue_03.html
+      settings {
+        classColMainContentTopCenter >
+      }
+    }
+      // Five rows: header || top || left | content | right || bottom || footer
+    start__blue_01_01_lr < .start__blue_01
+    start__blue_01_01_lr {
+      file = {$start.fluid.path.templates}blue_01_01_lr.html
+      settings {
+        classColMainContentMain   >
+        classColMainContentLeft   = small-12 medium-{$start.templates.grid.columns03.left}
+        classColMainContentMain   = small-12 medium-{$start.templates.grid.columns03.main}
+        classColMainContentRight  = small-12 medium-{$start.templates.grid.columns03.right}
+      }
+    }
+      // Five rows: header || top || content | right || bottom || footer
+    start__blue_01_02_r < .start__silver_07
+    start__blue_01_02_r {
+      file = {$start.fluid.path.templates}blue_01_02_r.html
+      settings {
+        classColMainContentLeft >
+        classColMainContentRight = small-12 medium-{$start.templates.grid.columns02.margin}
+        classColMainContentMain = small-12 medium-{$start.templates.grid.columns02.main}
+      }
+    }
+      // Five rows: header || top || left | content || bottom || footer
+    start__blue_01_03_l < .start__silver_07
+    start__blue_01_03_l {
+      file = {$start.fluid.path.templates}blue_01_03_l.html
+      settings {
+        classColMainContentRight >
+        classColMainContentLeft = small-12 medium-{$start.templates.grid.columns02.margin}
+        classColMainContentMain = small-12 medium-{$start.templates.grid.columns02.main}
+      }
+    }
       // One column: content
     start__bronze_01 = FLUIDTEMPLATE
     start__bronze_01 {

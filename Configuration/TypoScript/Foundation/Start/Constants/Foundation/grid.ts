@@ -13,6 +13,8 @@ start {
       class.rowPlusMain = main
       # cat=start - foundation - grid//220;    type=string;            label= Row bottom: Additional CSS class for the bottom row
       class.rowPlusBottom = bottom
+      # cat=start - foundation - grid//300;    type=string;            label= Row expanded: Additional CSS class for expanded rows (stage). Is used in templates Start blue.
+      class.rowPlusStage = expanded
     }
 	}
 }

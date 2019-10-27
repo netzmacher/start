@@ -9,6 +9,34 @@
         <target>Start TYPO3 Responsive</target>
       </trans-unit>
 
+      <trans-unit id="backend_layout.blue_01">
+        <source>Start Blue 1: | top | MAIN | bottom |</source>
+        <target>Start Blau 1: | oben | INHALT | unten |</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.blue_02">
+        <source>Start Blue 2: | top | MAIN |</source>
+        <target>Start Blau 2: | oben | INHALT</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.blue_03">
+        <source>Start Blue 3: | MAIN | bottom |</source>
+        <target>Start Blau 3: | INHALT | unten |</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.blue_04">
+        <source>Start Blue 4: | top || left | MAIN | right || bottom |</source>
+        <target>Start Blau 4: | oben || links | INHALT | rechts || unten |</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.blue_01_01_lr">
+        <source>Start Blue 1.1: | top || left | MAIN | right || bottom |</source>
+        <target>Start Blau 1.1: | oben || left | INHALT | rechts || unten |</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.blue_01_02_r">
+        <source>Start Blue 1.2: | top || MAIN | right || bottom |</source>
+        <target>Start Blau 1.2: | oben || INHALT | rechts || unten |</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.blue_01_03_l">
+        <source>Start Blue 1.3: | top || left | MAIN || bottom |</source>
+        <target>Start Blau 1.3: | oben || links | INHALT | unten |</target>
+      </trans-unit>
       <trans-unit id="backend_layout.bronze_01">
         <source>Start Bronze 1: | MAIN |</source>
         <target>Start Bronze 1: | INHALT |</target>
@@ -33,39 +61,39 @@
         <target>Start Newsletter Basic: | INHALT |</target>
       </trans-unit>
       <trans-unit id="backend_layout.silver_01">
-        <source>Start Silber 1: | top | MAIN |</source>
-        <target>Start Silber 1: | oben | INHALT |</target>
+        <source>[DEPRECATED] Start Silver 1: | top | MAIN |</source>
+        <target>[VERALTET] Start Silber 1: | oben | INHALT |</target>
       </trans-unit>
       <trans-unit id="backend_layout.silver_02">
-        <source>Start Silber 2: | top | MAIN | bottom |</source>
-        <target>Start Silber 2: | oben | INHALT | unten |</target>
+        <source>[DEPRECATED] Start Silver 2: | top | MAIN | bottom |</source>
+        <target>[VERALTET] Start Silber 2: | oben | INHALT | unten |</target>
       </trans-unit>
       <trans-unit id="backend_layout.silver_03">
-        <source>Start Silber 3: | MAIN | bottom |</source>
-        <target>Start Silber 3: | INHALT | unten |</target>
+        <source>[DEPRECATED] Start Silver 3: | MAIN | bottom |</source>
+        <target>[VERALTET] Start Silber 3: | INHALT | unten |</target>
       </trans-unit>
       <trans-unit id="backend_layout.silver_04">
-        <source>Start Silber 4: | top | MAIN | bottom |</source>
+        <source>Start Silver 4: | top | MAIN | bottom |</source>
         <target>Start Silber 4: | oben | INHALT | unten |</target>
       </trans-unit>
       <trans-unit id="backend_layout.silver_05">
-        <source>Start Silber 5: | top | MAIN |</source>
+        <source>Start Silver 5: | top | MAIN |</source>
         <target>Start Silber 5: | oben | INHALT</target>
       </trans-unit>
       <trans-unit id="backend_layout.silver_06">
-        <source>Start Silber 6: | MAIN | bottom |</source>
+        <source>Start Silver 6: | MAIN | bottom |</source>
         <target>Start Silber 6: | INHALT | unten |</target>
       </trans-unit>
       <trans-unit id="backend_layout.silver_07">
-        <source>Start Silber 7: | top || left | MAIN | right || bottom |</source>
+        <source>Start Silver 7: | top || left | MAIN | right || bottom |</source>
         <target>Start Silber 7: | oben || links | INHALT | rechts || unten |</target>
       </trans-unit>
       <trans-unit id="backend_layout.silver_08">
-        <source>Start Silber 8: | top || MAIN | right || bottom |</source>
+        <source>Start Silver 8: | top || MAIN | right || bottom |</source>
         <target>Start Silber 8: | oben || INHALT | rechts || unten |</target>
       </trans-unit>
       <trans-unit id="backend_layout.silver_09">
-        <source>Start Silber 9: | top || left | MAIN || bottom |</source>
+        <source>Start Silver 9: | top || left | MAIN || bottom |</source>
         <target>Start Silber 9: | oben || links | INHALT | unten |</target>
       </trans-unit>
       <trans-unit id="backend_layout.simple_01">
