@@ -10,10 +10,10 @@
 				<!--/content-->
 			</div>
 		</div>
-		<f:if condition="{startBottom}">
+		<f:if condition="<f:format.raw>{startBottom}</f:format.raw>">
 			<div class="{settings.classRow} {settings.classRowPlusBottom}">
 				<div class="{settings.classColMainContentBottomCenter} {settings.classCell} main">
-					{startBottom}
+					<f:format.raw>{startBottom}</f:format.raw>
 				</div>
 			</div>
 		</f:if>

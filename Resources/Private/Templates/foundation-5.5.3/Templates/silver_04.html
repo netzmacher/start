@@ -3,10 +3,10 @@
 	<f:variable name="startTop"><f:cObject typoscriptObjectPath="start.structure.content.topMain" /></f:variable>
 	<f:variable name="startBottom"><f:cObject typoscriptObjectPath="start.structure.content.bottomMain" /></f:variable>
   <div id="maincontent" class="maincontent">
-		<f:if condition="{startTop}">
+		<f:if condition="<f:format.raw>{startTop}</f:format.raw>">
 			<div class="{settings.classRow} {settings.classRowPlusTop}">
 				<div class="{settings.classColMainContentTopCenter} {settings.classCell} main">
-					{startTop}
+					<f:format.raw>{startTop}</f:format.raw>
 				</div>
 			</div>
 		</f:if>
@@ -17,10 +17,10 @@
 				<!--/content-->
 			</div>
 		</div>
-		<f:if condition="{startBottom}">
+		<f:if condition="<f:format.raw>{startBottom}</f:format.raw>">
 			<div class="{settings.classRow} {settings.classRowPlusBottom}">
 				<div class="{settings.classColMainContentBottomCenter} {settings.classCell} main">
-					{startBottom}
+					<f:format.raw>{startBottom}</f:format.raw>
 				</div>
 			</div>
 		</f:if>
