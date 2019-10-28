@@ -1,6 +1,15 @@
 WHAT'S NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+5.2.5
+	19-10-29
+  Manual
+	* #i0275: New section: Users > Best Practice > Layouts > Basic Layouts > [Blue..Silver]
+						Affected files:
+						* Documentation
+							* Users/BestPractice/Layouts/Basic/*
+							* Administrators/BestPractice/Layouts/Index.rst
+
 5.2.4
 	19-10-27
   Feature

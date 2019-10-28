@@ -11,13 +11,20 @@
 Layouts
 =======
 
+
 Page layouts
 ------------
 
-.. figure:: 01_page_properties_appearance.jpg
+.. figure:: typo3_start_backend-layouts.jpg
 	:width: 1000px
 	:alt: Page properties appearance
 
 	Page properties appearance
 
-You can control basic page layouts. See page properties [Appearance]
+You can control basic page layouts.
+
+
+Further Information
+-------------------
+
+* :ref:`Best practice > Layouts <users_bestpractice_layouts>`

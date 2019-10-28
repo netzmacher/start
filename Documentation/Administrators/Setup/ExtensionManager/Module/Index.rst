@@ -10,6 +10,6 @@
 
 
 Module
-=====
+======
 
 You can disable the Start TYPO3 in the Module > Web.

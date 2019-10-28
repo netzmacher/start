@@ -10,7 +10,7 @@
 
 
 Module
-=====
+======
 
 .. figure:: modul_typo3_start_web.jpg
 	:width: 300px

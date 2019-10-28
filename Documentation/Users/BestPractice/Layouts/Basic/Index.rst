@@ -18,10 +18,15 @@ A basic layout is a grid layout, which configures the current page and all pages
 
 Content of each cell will handed down, if the correspondig cell of the page(s) below is empty.
 
-You can change the basic layout on each page. See 
 
-* :ref:`Screenshot <users_setup_layouts>`
+**Table of Contents**
 
-The administrator controls with the Extension Manager, which layouts are available. See
+.. toctree::
+    :maxdepth: 2
+    :titlesonly:
 
-* :ref:`Extensionmanager <administrators_setup_extensionmanager_backendlayout>`
+    Blue/Index
+    Bronze/Index
+    Silver/Index
+    Newsletter/Index
+    Default/Index
