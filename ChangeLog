@@ -9,7 +9,9 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						Affected files:
 						* Configuration/TypoScript/Extensions/gridelements
 							* foundation/setup/columns_[02..05].ts
+						:ref: EXT:launchquickshop #i0064
 						:ref: EXT:launchstart #i0046
+						:ref: EXT:launchstartgreen #i0103
 	* #i0277: Individual CSS classes for gridelements columns
 						New fleform fields: classCol[00..05]
 						Affected files:
@@ -19,7 +21,9 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						* Resources/Private/Language
 							* de.Gridelements.xlf
 							* Gridelements.xlf
+						:ref: EXT:launchquickshop #i0063
 						:ref: EXT:launchstart #i0045
+						:ref: EXT:launchstartgreen #i0102
 	Improvement
 	* #i0276: Behaviour is chenged: individual CSS class for gridelement
 						From version 5.3.0:
