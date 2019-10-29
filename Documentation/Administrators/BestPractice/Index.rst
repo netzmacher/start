@@ -23,6 +23,7 @@ Best Practice
   Frameworks/Index
   Modals/Index
   HTML/Index
+  Layouts/Index
   Lightbox/Index
   Newsletter/Index
   PageMedia/Index

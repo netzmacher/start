@@ -6,7 +6,7 @@
 .. include:: ../../Includes.txt
 
 
-.. _administrators_wahtsnew_4x:
+.. _administrators_whatsnew_4x:
 
 
 4.x

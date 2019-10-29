@@ -1,6 +1,36 @@
 WHAT'S NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+5.3.0
+	19-10-29
+  Features
+	* #i0278: Gridelements: option for same height for all columns
+						New felxform field: samecolumnheight
+						Affected files:
+						* Configuration/TypoScript/Extensions/gridelements
+							* foundation/setup/columns_[02..05].ts
+						:ref: EXT:launchstart #i0046
+	* #i0277: Individual CSS classes for gridelements columns
+						New fleform fields: classCol[00..05]
+						Affected files:
+						* Configuration/TypoScript/Extensions/gridelements
+							* bootstrap/setup/columns_[02..05].ts
+							* foundation/setup/columns_[02..05].ts
+						* Resources/Private/Language
+							* de.Gridelements.xlf
+							* Gridelements.xlf
+						:ref: EXT:launchstart #i0045
+	Improvement
+	* #i0276: Behaviour is chenged: individual CSS class for gridelement
+						From version 5.3.0:
+						* <div class="row myClass">...</div>
+						Until version 5.2.5
+						* <div class="myClass"><div class="row">...</div></div>
+						Affected files:
+						* Configuration/TypoScript/Extensions/gridelements
+							* bootstrap/setup/columns_01.ts
+							* foundation/setup/columns_01.ts
+
 5.2.5
 	19-10-29
   Manual

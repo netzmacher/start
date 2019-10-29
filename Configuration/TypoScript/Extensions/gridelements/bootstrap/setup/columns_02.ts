@@ -23,7 +23,7 @@ start {
                 10 = TEXT
                 10 {
                   field       = flexform_class
-                  noTrimWrap  = ||-0 |
+                  noTrimWrap  = | |-0|
                   required    = 1
                 }
                   // small
@@ -34,7 +34,7 @@ start {
                   listNum {
                     splitChar = /
                   }
-                  noTrimWrap = |col-xs-| |
+                  noTrimWrap = | col-xs-||
                   required = 1
                 }
                   // medium
@@ -45,7 +45,7 @@ start {
                   listNum {
                     splitChar = /
                   }
-                  noTrimWrap = |col-sm-| |
+                  noTrimWrap = | col-sm-||
                   required = 1
                 }
                   // large
@@ -56,18 +56,25 @@ start {
                   listNum {
                     splitChar = /
                   }
-                  noTrimWrap = |col-md-| |
+                  noTrimWrap = | col-md-||
                   required = 1
                 }
+									// flexform_classCol00
+								80 = TEXT
+								80 {
+									field = flexform_classCol00
+									noTrimWrap = | ||
+									required = 1
+								}
                   // first
                 99 = TEXT
                 99 {
                   value       = first
-                  noTrimWrap  = || |
+                  noTrimWrap  = | ||
                 }
               }
             }
-            noTrimWrap = |<div class="columns |">|
+            noTrimWrap = |<div class="columns|">|
           }
           wrap2 = |</div>
         }
@@ -77,7 +84,7 @@ start {
             stdWrap {
               cObject {
                 10 {
-                  noTrimWrap  = ||-1 |
+                  noTrimWrap  = | |-1|
                 }
                 20 {
                   listNum = 1
@@ -92,7 +99,7 @@ start {
                 99 = TEXT
                 99 {
                   value       = last
-                  noTrimWrap  = || |
+                  noTrimWrap  = | ||
                 }
               }
             }

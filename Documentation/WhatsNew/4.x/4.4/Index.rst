@@ -6,7 +6,7 @@
 .. include:: ../../../Includes.txt
 
 
-.. _administrators_wahtsnew_4x_4004000:
+.. _administrators_whatsnew_4x_4004000:
 
 4.4
 ===

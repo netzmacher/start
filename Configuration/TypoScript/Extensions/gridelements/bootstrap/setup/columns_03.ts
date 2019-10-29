@@ -12,82 +12,14 @@ start {
       // 3 columns: wrap, columns
     {$start.gridelement.col3} =
     {$start.gridelement.col3} {
-			wrap < start.gridelements.{$start.gridelement.col1}.wrap
+			wrap < start.gridelements.{$start.gridelement.col2}.wrap
+			columns < start.gridelements.{$start.gridelement.col2}.columns
       columns {
-        default {
-          wrap {
-            stdWrap {
-              cObject = COA
-              cObject {
-                  // class
-                10 = TEXT
-                10 {
-                  field       = flexform_class
-                  noTrimWrap  = ||-0 |
-                  required    = 1
-                }
-                  // small
-                20 = TEXT
-                20 {
-                  field = flexform_columnssmall
-                  listNum = 0
-                  listNum {
-                    splitChar = /
-                  }
-                  noTrimWrap = |col-xs-| |
-                  required = 1
-                }
-                  // medium
-                30 = TEXT
-                30 {
-                  field = flexform_columnsmedium
-                  listNum = 0
-                  listNum {
-                    splitChar = /
-                  }
-                  noTrimWrap = |col-sm-| |
-                  required = 1
-                }
-                  // large
-                40 = TEXT
-                40 {
-                  field = flexform_columnslarge
-                  listNum = 0
-                  listNum {
-                    splitChar = /
-                  }
-                  noTrimWrap = |col-md-| |
-                  required = 1
-                }
-                  // first
-                99 = TEXT
-                99 {
-                  value       = first
-                  noTrimWrap  = || |
-                }
-              }
-            }
-            noTrimWrap = |<div class="columns |">|
-          }
-          wrap2 = |</div>
-        }
-        1 < .default
         1 {
           wrap {
             stdWrap {
               cObject {
-                10 {
-                  noTrimWrap  = ||-1 |
-                }
-                20 {
-                  listNum = 1
-                }
-                30 {
-                  listNum = 1
-                }
-                40 {
-                  listNum = 1
-                }
+									// last
                 99 >
               }
             }
@@ -99,7 +31,7 @@ start {
             stdWrap {
               cObject {
                 10 {
-                  noTrimWrap  = ||-2 |
+                  noTrimWrap  = | |-2|
                 }
                 20 {
                   listNum = 2
@@ -114,7 +46,7 @@ start {
                 99 = TEXT
                 99 {
                   value       = last
-                  noTrimWrap  = || |
+                  noTrimWrap  = | ||
                 }
               }
             }

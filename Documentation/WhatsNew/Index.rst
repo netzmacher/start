@@ -6,8 +6,10 @@
 .. include:: ../Includes.txt
 
 
-.. _administrators_wahtsnew:
+.. _administrators_whatsnew:
 
+
+You **MUST UPDATE** some XML-code. See :ref:`Gridelements <administrators_whatsnew-gridelements>` below.
 
 What's new
 ==========
@@ -31,8 +33,37 @@ See:
 * :ref:`Users > Best practice > Layouts > Basic <users_bestpractice_layouts_basic>`
 
 
+.. _administrators_whatsnew-gridelements:
+
+Gridelements
+''''''''''''
+
+Gridelements got the new properties:
+
+* CSS classes for columns
+
+* Same height for all columns
+
+If you like to use the new features, **you MUST UPDATE the XML-code** for the gridelements flexforms. See details at
+
+* :ref:`Upgrades > EXT:start > 5.3 > Gridelements <upgrades_start_5003000_gridelements>`
+
+Because of new features wrapping of HTML-code is changed:
+
+From version 5.3.0:
+
+* <div class="row myClass">...</div>
+
+Until version 5.2.5
+
+* <div class="myClass"><div class="row">...</div></div>
+
+Maybe **you MUST adapt your CSS** code.
+
+
+
 Module > Web: Start TYPO3
-''''''''''''''''''''''''
+'''''''''''''''''''''''''
 
 You can disable Start TYPO3 in Module > Web. See:
 

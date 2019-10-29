@@ -6,13 +6,13 @@
 .. include:: ../../../Includes.txt
 
 
-.. _administrators_wahtsnew_4x_4007000:
+.. _administrators_whatsnew_4x_4007000:
 
 4.7
 ===
 
 If you update from smaller than 4.6.5 please respect the both **You MUST / You SHOULD**
-at :ref:`4.6 <administrators_wahtsnew_4x_4006000>`.
+at :ref:`4.6 <administrators_whatsnew_4x_4006000>`.
 
 
 Features

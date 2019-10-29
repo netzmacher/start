@@ -3,14 +3,15 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../Includes.txt
+.. include:: ../../Includes.txt
 
 
-.. _upgrades:
+.. _upgrades_start:
 
 
-Upgrades and Workarounds
-========================
+EXT:start
+=========
+
 
 **Table of Contents**
 
@@ -18,6 +19,4 @@ Upgrades and Workarounds
     :maxdepth: 2
     :titlesonly:
 
-    Start/Index
-    Workarounds/Index
-    TYPO3-76-87/Index
+    5003000/Index

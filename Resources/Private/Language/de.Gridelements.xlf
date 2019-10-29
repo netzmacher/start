@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2014-11-22T15:11:39Z" product-name="start">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2019-10-29T15:11:39Z" product-name="start">
     <header/>
     <body>
 
@@ -10,10 +10,36 @@
       </trans-unit>
 
       <trans-unit id="gridelements.flexform.class">
-        <source>CSS class</source>
-        <target>CSS Klasse</target>
+        <source>Aditional CSS class for the container (row)</source>
+        <target>Zusätzliche CSS Klasse für den Container (row)</target>
       </trans-unit>
-      <trans-unit id="gridelements.flexform.columnslarge">
+
+			<trans-unit id="gridelements.flexform.classCol00">
+        <source>Aditional CSS class for column 1</source>
+        <target>Zusätzliche CSS Klasse für Spalte 1</target>
+      </trans-unit>
+      <trans-unit id="gridelements.flexform.classCol01">
+        <source>Aditional CSS class for the column 2</source>
+        <target>Zusätzliche CSS Klasse für Spalte 2</target>
+      </trans-unit>
+      <trans-unit id="gridelements.flexform.classCol02">
+        <source>Aditional CSS class for the column 3</source>
+        <target>Zusätzliche CSS Klasse für Spalte 3</target>
+      </trans-unit>
+      <trans-unit id="gridelements.flexform.classCol03">
+        <source>Aditional CSS class for the column 4</source>
+        <target>Zusätzliche CSS Klasse für Spalte 4</target>
+      </trans-unit>
+      <trans-unit id="gridelements.flexform.classCol04">
+        <source>Aditional CSS class for the column 5</source>
+        <target>Zusätzliche CSS Klasse für Spalte 5</target>
+      </trans-unit>
+      <trans-unit id="gridelements.flexform.classCol05">
+        <source>Aditional CSS class for the column 6</source>
+        <target>Zusätzliche CSS Klasse für Spalte 6</target>
+      </trans-unit>
+
+			<trans-unit id="gridelements.flexform.columnslarge">
         <source>Large columns arrangement</source>
         <target>Spaltenbreite: large columns</target>
       </trans-unit>
@@ -24,6 +50,11 @@
       <trans-unit id="gridelements.flexform.columnssmall">
         <source>Small columns arrangement</source>
         <target>Spaltenbreite: small columns</target>
+      </trans-unit>
+			
+      <trans-unit id="gridelements.flexform.samecolumnheight">
+        <source>Same height for all columns</source>
+        <target>Gleiche Höhe für alle Spalten</target>
       </trans-unit>
 
     </body>
