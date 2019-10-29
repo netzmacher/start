@@ -19,23 +19,23 @@
         <target>Zusätzliche CSS Klasse für Spalte 1</target>
       </trans-unit>
       <trans-unit id="gridelements.flexform.classCol01">
-        <source>Aditional CSS class for the column 2</source>
+        <source>Aditional CSS class for column 2</source>
         <target>Zusätzliche CSS Klasse für Spalte 2</target>
       </trans-unit>
       <trans-unit id="gridelements.flexform.classCol02">
-        <source>Aditional CSS class for the column 3</source>
+        <source>Aditional CSS class for column 3</source>
         <target>Zusätzliche CSS Klasse für Spalte 3</target>
       </trans-unit>
       <trans-unit id="gridelements.flexform.classCol03">
-        <source>Aditional CSS class for the column 4</source>
+        <source>Aditional CSS class for column 4</source>
         <target>Zusätzliche CSS Klasse für Spalte 4</target>
       </trans-unit>
       <trans-unit id="gridelements.flexform.classCol04">
-        <source>Aditional CSS class for the column 5</source>
+        <source>Aditional CSS class for column 5</source>
         <target>Zusätzliche CSS Klasse für Spalte 5</target>
       </trans-unit>
       <trans-unit id="gridelements.flexform.classCol05">
-        <source>Aditional CSS class for the column 6</source>
+        <source>Aditional CSS class for column 6</source>
         <target>Zusätzliche CSS Klasse für Spalte 6</target>
       </trans-unit>
 
