@@ -33,13 +33,6 @@ start {
 								required		= 1
 								noTrimWrap	= | ||
 							}
-								// flexform_classCol00
-							80 = TEXT
-							80 {
-								field = flexform_classCol00
-								noTrimWrap = | ||
-								required = 1
-							}
 							wrap = <div class="|"
 						}
 							// data-equalizer="c{field:uid}" if.isTrue.field = flexform_samecolumnheight
@@ -73,6 +66,13 @@ start {
                   noTrimWrap  = | ||
                   required    = 1
                 }
+									// flexform_classCol00
+								80 = TEXT
+								80 {
+									field = flexform_classCol00
+									noTrimWrap = | ||
+									required = 1
+								}
               }
             }
             noTrimWrap = |<div class="columns|">|
