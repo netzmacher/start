@@ -7,7 +7,9 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
   Improvement
 	* #i0281: Update manual
 						Affected files:
-						* Documentation/Upgrades/Start/5003000/Gridelements/Columns[01..05]/Index.rst
+						* Documentation
+							* Upgrades/Start/5003000/Gridelements/Columns[01..05]/Index.rst
+							* Users/BestPractice/Layouts/Nested/SameHeight/Index.rst
 	* #i0280: Removed: XXXext_tables_static+adt
 
 5.3.1
