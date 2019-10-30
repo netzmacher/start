@@ -61,55 +61,30 @@ start {
 										noTrimWrap = | large-||
 										required = 1
 									}
+										// flexform_classCol00
+									80 = TEXT
+									80 {
+										field = flexform_classCol00
+										noTrimWrap = | ||
+										required = 1
+									}
 										// first
 									99 = TEXT
 									99 {
 										value       = first
 										noTrimWrap  = | ||
 									}
-									wrap = <div class="columns|
+									wrap = <div class="columns|"
 								}
-								20 = COA
+									// data-equalizer-watch="c{field:uid}" if.isTrue.field = flexform_samecolumnheight
+								20 = TEXT
 								20 {
-									10 = COA
-									10 {
-											// isTrue.field = flexform_classCol00
-										if =
-										if.isTrue.field = flexform_classCol00
-											// flexform_classCol00
-										10 = TEXT
-										10 {
-											field = flexform_classCol00
-											noTrimWrap = |"><div class="|"|
-										}
-											// data-equalizer-watch="c{field:uid}" if.isTrue.field = flexform_samecolumnheight
-										20 = TEXT
-										20 {
-												// isTrue.field = flexform_samecolumnheight
-											if =
-											if.isTrue.field = flexform_samecolumnheight
-											value				= data-equalizer-watch="c{field:uid}"
-											insertData	= 1
-											noTrimWrap	= | ||
-										}
-									}
-									20 = COA
-									20 {
-											// isFalse.field = flexform_classCol00
-										if =
-										if.isFalse.field = flexform_classCol00
-											// data-equalizer-watch="c{field:uid}" if.isTrue.field = flexform_samecolumnheight
-										10 = TEXT
-										10 {
-												// isTrue.field = flexform_samecolumnheight
-											if =
-											if.isTrue.field = flexform_samecolumnheight
-											value				= data-equalizer-watch="c{field:uid}"
-											insertData	= 1
-											noTrimWrap	= | ||
-										}
-									}
-									wrap = "
+										// isTrue.field = flexform_samecolumnheight
+									if =
+									if.isTrue.field = flexform_samecolumnheight
+									value				= data-equalizer-watch="c{field:uid}"
+									insertData	= 1
+									noTrimWrap	= | ||
 								}
 									// value = >
 								30 = TEXT
@@ -119,27 +94,7 @@ start {
 							}
             }
           }
-					wrap2 {
-            stdWrap {
-              cObject = COA
-              cObject {
-								10 = TEXT
-								10 {
-										// isTrue.field = flexform_classCol00
-									if =
-									if.isTrue.field = flexform_classCol00
-				          value = |</div></div>
-								}
-								20 = TEXT
-								20 {
-										// isFalse.field = flexform_classCol00
-									if =
-									if.isFalse.field = flexform_classCol00
-				          value = |</div>
-								}
-							}
-						}
-					}
+          wrap2 = |</div>
         }
         1 < .default
         1 {
@@ -159,6 +114,14 @@ start {
 									40 {
 										listNum = 1
 									}
+									80 >
+										// flexform_classCol01
+									80 = TEXT
+									80 {
+										field = flexform_classCol01
+										noTrimWrap = | ||
+										required = 1
+									}
 										// last
 									99 = TEXT
 									99 {
@@ -166,34 +129,9 @@ start {
 										noTrimWrap  = | ||
 									}
 								}
-								20 {
-									10 {
-										if.isTrue.field = flexform_classCol01
-										10 {
-											field = flexform_classCol01
-										}
-									}
-									20 {
-											// isFalse.field = flexform_classCol01
-										if =
-										if.isFalse.field = flexform_classCol01
-									}
-								}
 							}
             }
           }
-					wrap2 {
-            stdWrap {
-              cObject {
-								10 {
-									if.isTrue.field = flexform_classCol01
-								}
-								20 {
-									if.isFalse.field = flexform_classCol01
-								}
-							}
-						}
-					}
         }
       }
     }

@@ -1,6 +1,76 @@
 WHAT'S NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+5.3.1
+	19-10-30
+  Improvement
+	* #i0279: Smart behaviour for gridelemnet with additional CSS class for a column:
+						Affected files:
+						* Configuration/TypoScript/Extensions/gridelements
+							* foundation/setup/columns_[02..05].ts
+						From version 5.3.1:
+						* Sample: without data-equalizer, without columns class
+							<div class="row">
+								<div class="columns">
+								</div>
+								<div class="columns">
+								</div>
+							</div>
+						* Sample: with data-equalizer, without columns class
+							<div class="row data-equalizer-123">
+								<div class="columns data-equalizer-watch-123">
+								</div>
+								<div class="columns data-equalizer-watch-123">
+								</div>
+							</div>
+						* Sample: with data-equalizer, with a class for the first column only
+							<div class="row data-equalizer-123">
+								<div class="columns">
+									<div class="classFor1stColumn data-equalizer-watch-123">
+									</div>
+								</div>
+								<div class="columns data-equalizer-watch-123">
+								</div>
+							</div>
+						* Sample: without data-equalizer, with a class for the first column only
+							<div class="row">
+								<div class="columns">
+									<div class="classFor1stColumn">
+									</div>
+								</div>
+								<div class="columns">
+								</div>
+							</div>
+						Until version 5.3.0:
+						* Sample: without data-equalizer, without columns class (same like 5.3.1)
+							<div class="row">
+								<div class="columns">
+								</div>
+								<div class="columns">
+								</div>
+							</div>
+						* Sample: with data-equalizer, without columns class (same like 5.3.1)
+							<div class="row data-equalizer-123">
+								<div class="columns data-equalizer-watch-123">
+								</div>
+								<div class="columns data-equalizer-watch-123">
+								</div>
+							</div>
+						* Sample: with data-equalizer, with a class for the first column only (changed in 5.3.1)
+							<div class="row data-equalizer-123">
+								<div class="columns classFor1stColumn data-equalizer-watch-123">
+								</div>
+								<div class="columns data-equalizer-watch-123">
+								</div>
+							</div>
+						* Sample: without data-equalizer, with a class for the first column only (changed in 5.3.1)
+							<div class="row">
+								<div class="columns classFor1stColumn">
+								</div>
+								<div class="columns">
+								</div>
+							</div>
+
 5.3.0
 	19-10-29
   Features

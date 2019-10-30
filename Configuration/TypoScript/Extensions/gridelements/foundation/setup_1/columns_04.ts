@@ -32,7 +32,7 @@ start {
           wrap {
             stdWrap {
               cObject {
-                10 {
+								10 {
 									10 {
 										noTrimWrap  = | |-3|
 									}
@@ -45,6 +45,14 @@ start {
 									40 {
 										listNum = 3
 									}
+									80 >
+										// flexform_classCol03
+									80 = TEXT
+									80 {
+										field = flexform_classCol03
+										noTrimWrap = | ||
+										required = 1
+									}
 										// last
 									99 = TEXT
 									99 {
@@ -52,32 +60,9 @@ start {
 										noTrimWrap  = | ||
 									}
 								}
-								20 {
-									10 {
-										if.isTrue.field = flexform_classCol03
-										10 {
-											field = flexform_classCol03
-										}
-									}
-									20 {
-										if.isFalse.field = flexform_classCol03
-									}
-								}
-							}
+              }
             }
           }
-					wrap2 {
-            stdWrap {
-              cObject {
-								10 {
-									if.isTrue.field = flexform_classCol03
-								}
-								20 {
-									if.isFalse.field = flexform_classCol03
-								}
-							}
-						}
-					}
         }
       }
     }

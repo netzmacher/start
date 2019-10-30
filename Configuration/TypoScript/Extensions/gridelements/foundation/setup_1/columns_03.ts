@@ -45,44 +45,28 @@ start {
 									40 {
 										listNum = 2
 									}
+									80 >
+										// flexform_classCol02
+									80 = TEXT
+									80 {
+										field = flexform_classCol02
+										noTrimWrap = | ||
+										required = 1
+									}
 										// last
 									99 = TEXT
 									99 {
 										value       = last
 										noTrimWrap  = | ||
 									}
-								}
-								20 {
-									10 {
-										if.isTrue.field = flexform_classCol02
-										10 {
-											field = flexform_classCol02
-										}
-									}
-									20 {
-										if.isFalse.field = flexform_classCol02
-									}
-								}
-							}
+	              }
+              }
             }
           }
-					wrap2 {
-            stdWrap {
-              cObject {
-								10 {
-									if.isTrue.field = flexform_classCol02
-								}
-								20 {
-									if.isFalse.field = flexform_classCol02
-								}
-							}
-						}
-					}
         }
       }
     }
   }
 }
-
 
 tt_content.gridelements_pi1.20.10.setup.{$start.gridelement.col3} < start.gridelements.{$start.gridelement.col3}

@@ -45,6 +45,14 @@ start {
 									40 {
 										listNum = 5
 									}
+									80 >
+										// flexform_classCol05
+									80 = TEXT
+									80 {
+										field = flexform_classCol05
+										noTrimWrap = | ||
+										required = 1
+									}
 										// last
 									99 = TEXT
 									99 {
@@ -52,32 +60,9 @@ start {
 										noTrimWrap  = | ||
 									}
 								}
-								20 {
-									10 {
-										if.isTrue.field = flexform_classCol05
-										10 {
-											field = flexform_classCol05
-										}
-									}
-									20 {
-										if.isFalse.field = flexform_classCol05
-									}
-								}
-							}
+              }
             }
           }
-					wrap2 {
-            stdWrap {
-              cObject {
-								10 {
-									if.isTrue.field = flexform_classCol05
-								}
-								20 {
-									if.isFalse.field = flexform_classCol05
-								}
-							}
-						}
-					}
         }
       }
     }
