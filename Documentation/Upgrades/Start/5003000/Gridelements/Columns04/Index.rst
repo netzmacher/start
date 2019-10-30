@@ -27,9 +27,9 @@ Start: Columns 5
 						<label>LLL:EXT:start/Resources/Private/Language/Gridelements.xlf:gridelements.flexform.class</label>
 						<config type="array">
 							<type>input</type>
-							<size>10</size>
+							<size>40</size>
 							<eval>trim</eval>
-							<max>40</max>
+							<max>100</max>
 						</config>
 					</TCEforms>
 				</class>
@@ -233,9 +233,9 @@ Start: Columns 5
 						<label>LLL:EXT:start/Resources/Private/Language/Gridelements.xlf:gridelements.flexform.classCol00</label>
 						<config type="array">
 							<type>input</type>
-							<size>10</size>
+							<size>40</size>
 							<eval>trim</eval>
-							<max>40</max>
+							<max>100</max>
 						</config>
 					</TCEforms>
 				</classCol00>
@@ -244,9 +244,9 @@ Start: Columns 5
 						<label>LLL:EXT:start/Resources/Private/Language/Gridelements.xlf:gridelements.flexform.classCol01</label>
 						<config type="array">
 							<type>input</type>
-							<size>10</size>
+							<size>40</size>
 							<eval>trim</eval>
-							<max>40</max>
+							<max>100</max>
 						</config>
 					</TCEforms>
 				</classCol01>
@@ -255,9 +255,9 @@ Start: Columns 5
 						<label>LLL:EXT:start/Resources/Private/Language/Gridelements.xlf:gridelements.flexform.classCol02</label>
 						<config type="array">
 							<type>input</type>
-							<size>10</size>
+							<size>40</size>
 							<eval>trim</eval>
-							<max>40</max>
+							<max>100</max>
 						</config>
 					</TCEforms>
 				</classCol02>
@@ -266,9 +266,9 @@ Start: Columns 5
 						<label>LLL:EXT:start/Resources/Private/Language/Gridelements.xlf:gridelements.flexform.classCol03</label>
 						<config type="array">
 							<type>input</type>
-							<size>10</size>
+							<size>40</size>
 							<eval>trim</eval>
-							<max>40</max>
+							<max>100</max>
 						</config>
 					</TCEforms>
 				</classCol03>
@@ -277,9 +277,9 @@ Start: Columns 5
 						<label>LLL:EXT:start/Resources/Private/Language/Gridelements.xlf:gridelements.flexform.classCol04</label>
 						<config type="array">
 							<type>input</type>
-							<size>10</size>
+							<size>40</size>
 							<eval>trim</eval>
-							<max>40</max>
+							<max>100</max>
 						</config>
 					</TCEforms>
 				</classCol04>

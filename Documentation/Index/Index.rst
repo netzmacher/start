@@ -53,6 +53,10 @@ C
 
 * Columns
 
+	* :ref:`Height <users_bestpractice_layouts_nested_sameheight>`
+
+	* :ref:`Same height <users_bestpractice_layouts_nested_sameheight>`
+
 	* :ref:`Width <administrators_bestpractice_html_columnwidth>`
 
 * CSS
@@ -71,10 +75,11 @@ G
 
 * Gridelements
 
-  * :ref:`Background Image <users_bestpractice_gridelements_backgroundimage>`
+	* :ref:`Background Image <users_bestpractice_gridelements_backgroundimage>`
 
+	* :ref:`Upgrade <upgrades_start_5003000_gridelements>`
 
-* Grid Layouts see :ref: `Backend Layouts <alphabetical-index_backendlayouts>`
+* Grid Layouts see :ref:`Nested Layouts <users_bestpractice_layouts_nested>`
 
 
 H
@@ -83,6 +88,14 @@ H
 * HTML
 
 	* :ref:`Columns width <administrators_bestpractice_html_columnwidth>`
+
+
+I
+-
+
+* Image
+
+  * :ref:`Gridelements > Background Image <users_bestpractice_gridelements_backgroundimage>`
 
 
 L
@@ -138,6 +151,10 @@ S
 
   * :ref:`Youtube <alphabetical-index_youtube>`
 
+* SQL
+
+	* :ref:`Upgrade <upgrades_workarounds_i0215_sql>`
+
 * Spell Check
 
   * :ref:`RTE > Spell Check <alphabetical-index_rte_spellcheck>`
@@ -148,7 +165,25 @@ S
 T
 -
 
+* Template
+
+	* :ref:`Upgrade <upgrades_workarounds_i0215_template>`
+
 * :ref:`TCA <administrators_setup_extensionmanager_tca>`
+
+
+U
+-
+
+* Upgrade
+
+	* :ref:`Gridelements <upgrades_start_5003000_gridelements>`
+
+	* :ref:`SQL <upgrades_workarounds_i0215_sql>`
+
+	* :ref:`Template <upgrades_workarounds_i0215_template>`
+
+	* :ref:`XML <upgrades_start_5003000_gridelements>`
 
 
 W

@@ -29,7 +29,7 @@ You are welcome to mix Backend Layouts and Grid Layouts like you need it. Please
 Columns width
 -------------
 
-You can setup the with of margin and main columns supported by the Constant Editor.
+You can setup the width of margin and main columns supported by the Constant Editor.
 
 See categories:
 
