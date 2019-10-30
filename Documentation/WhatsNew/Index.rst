@@ -35,14 +35,15 @@ See:
 
 .. _administrators_whatsnew-gridelements:
 
+
 Gridelements
 ''''''''''''
 
 Gridelements got the new properties:
 
-* CSS classes for columns
+* :ref:`CSS classes for columns <users_bestpractice_layouts_nested_sameheight>`
 
-* Same height for all columns
+* :ref:`Same height for all columns <users_bestpractice_layouts_nested_sameheight>`
 
 If you like to use the new features, **you MUST UPDATE the XML-code** for the gridelements flexforms. See details at
 

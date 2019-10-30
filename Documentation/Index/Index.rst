@@ -53,6 +53,8 @@ C
 
 * Columns
 
+	* :ref:`CSS class <users_bestpractice_layouts_nested_sameheight>`
+
 	* :ref:`Height <users_bestpractice_layouts_nested_sameheight>`
 
 	* :ref:`Same height <users_bestpractice_layouts_nested_sameheight>`
