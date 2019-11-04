@@ -64,28 +64,28 @@ body {
 	padding: 0 .9375rem;
 }
 #startBox01 .startWidth0250 {
-	width:25.0rem;
+	max-width:25.0rem;
 }
 #startBox01 .startWidth0375 {
-	width:37.5rem;
+	max-width:37.5rem;
 }
 #startBox01 .startWidth0500 {
-	width:50.0rem;
+	max-width:50.0rem;
 }
 #startBox01 .startWidth0625 {
-	width:62.5rem;
+	max-width:62.5rem;
 }
 #startBox01 .startWidth0750 {
-	width:75.0rem;
+	max-width:75.0rem;
 }
 #startBox01 .startWidth0875 {
-	width:87.5rem;
+	max-width:87.5rem;
 }
 #startBox01 .startWidth1000 {
-	width:100.0rem;
+	max-width:100.0rem;
 }
 #startBox01 .startWidth1125 {
-	width:112.5rem;
+	max-width:112.5rem;
 }
 
 #startBox01 .startFontLightOnDark,
