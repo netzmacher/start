@@ -15,7 +15,7 @@ tt_content.gridelements_pi1 {
 					10 = TEXT
 					10 {
 						field = uid
-						noTrimWrap = |<div id="c|"|
+						noTrimWrap = |<div id="c|" |
 					}
 						// class="..."
 					20 = COA

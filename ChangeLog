@@ -1,6 +1,14 @@
-WHAT'S NEW: https://bit.ly/2TeRnRS
+WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+
+5.3.4
+	19-11-09
+  Bugfix
+	* #i0283: space is missing between id and class. Snippet: 
+						* <div id="c101"class=" frame-layout-0 frame-default">
+						Affected file:
+						* Configuration/TypoScript/Base/tt_content/Fluid_Styled_Content/tt_content.gridelements_pi1.ts
 
 5.3.3
 	19-11-04
