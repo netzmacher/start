@@ -17,5 +17,6 @@ Developers
     :maxdepth: 2
     :titlesonly:
 
-    Customer/Index
+    Welcome/Index
+    KitchenSink/Index
     Git/Index

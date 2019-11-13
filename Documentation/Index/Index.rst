@@ -65,6 +65,14 @@ C
 
   * See :ref:`Columns <alphabetical-index_columns>`
 
+D
+-
+
+* Developers
+
+	* :ref:`Kitchen sink <developers_kitchensink>`
+
+	
 E
 -
 
@@ -87,6 +95,10 @@ G
 H
 -
 
+* Header
+
+	* :ref:`Replace header content <developers_kitchensink_pagemedia>`
+
 * HTML
 
 	* :ref:`Columns width <administrators_bestpractice_html_columnwidth>`
@@ -98,6 +110,12 @@ I
 * Image
 
   * :ref:`Gridelements > Background Image <users_bestpractice_gridelements_backgroundimage>`
+
+
+K
+-
+
+* :ref:`Kitchen sink <developers_kitchensink>`
 
 
 L
@@ -120,6 +138,18 @@ M
 -
 
 * :ref:`Module <administrators_setup_extensionmanager_modul>`
+
+
+P
+-
+
+* Page media
+
+	* :ref:`Replace header content <developers_kitchensink_pagemedia>`
+
+* Page resource
+
+	* :ref:`Replace header content <developers_kitchensink_pagemedia>`
 
 
 R

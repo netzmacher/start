@@ -6,12 +6,16 @@
 .. include:: ../../Includes.txt
 
 
-.. _developers_customer:
+.. _developers_kitchensink:
 
 
-Welcome
-=======
+Kitchen Sink
+============
 
-You are welcome to develop Start and Start +Customer!
+**Table of Contents**
 
-Please contact the developer.
+.. toctree::
+    :maxdepth: 2
+    :titlesonly:
+
+    PageMedia/Index

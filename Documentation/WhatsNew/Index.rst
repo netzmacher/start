@@ -100,7 +100,11 @@ See :ref:`Rich Text Editor > Search, spell check, youtube <administrators_bestpr
 Manual
 ------
 
-New section :ref:`Known Bugs <knownbugs>` 
+New sections
+
+* :ref:`Kitchen sink <developers_kitchensink>`
+
+* :ref:`Known Bugs <knownbugs>` 
 
 
 User Interface (TypoScript Constant Editor)
