@@ -7,6 +7,8 @@ start {
   lib {
 		pagemedia = FILES
 		pagemedia {
+			begin = 0
+			maxItems = 1
 			references {
 				data = levelmedia:-1, slide
 			}
@@ -23,8 +25,6 @@ start {
 						width = {$start.lib.pagemedia.width}
 					}
 					stdWrap.typolink.parameter.data = file:current:link
-					begin = 0
-					maxItems = 1
 				} 
 			}
 		} 
