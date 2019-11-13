@@ -1,6 +1,8 @@
 tt_content {
 	txStartPagemedia = FILES
 	txStartPagemedia {
+		begin = 0
+		maxItems = 1
 		references {
 			data = levelmedia:-1, slide
 		}
@@ -17,8 +19,6 @@ tt_content {
 					width = {$start.lib.pagemedia.width}
 				}
 				stdWrap.typolink.parameter.data = file:current:link
-				begin = 0
-				maxItems = 1
 			} 
 		}
 	} 

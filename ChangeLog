@@ -2,6 +2,15 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+5.3.5
+	19-11-13
+  Bugfix
+	* #i0284: FILES.renderObj.10.[begin|max] > FILES.[begin|max]
+						Affected files:
+						* Configuration/TypoScript/Base
+							* Start/Lib/pagemedia.ts
+							* tt_content/txStartPagemedia.ts
+
 5.3.4
 	19-11-09
   Bugfix
