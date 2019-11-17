@@ -2,6 +2,13 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+5.3.7
+	19-11-18
+  Bugfix
+	* #i0286: "target.override = {$PAGE_TARGET}" is deprected
+						Affected file:
+						* /Configuration/TypoScript/Base/tt_content/menu.ts
+
 5.3.6
 	19-11-13
   Manual

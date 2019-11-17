@@ -64,9 +64,6 @@ tt_content.menu {
 			}
 			1 = TMENU
 			1 {
-				target < lib.parseTarget
-				target =
-				target.override = {$PAGE_TARGET}
 				NO {
 					stdWrap.htmlSpecialChars = 1
 					wrapItemAndSub = <li>|</li>
