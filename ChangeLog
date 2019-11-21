@@ -2,6 +2,16 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+5.3.8
+	19-11-21
+  Improvement
+	* #i0287:	Downwards Compatibility
+						Disable Module for TYPO3 6.2
+						Affected file:
+						* ext_tables.php
+						New file:
+						* Classes/Utility/Typo3VersionUtility.php
+
 5.3.7
 	19-11-18
   Bugfix

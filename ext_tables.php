@@ -48,21 +48,30 @@ switch( TRUE )
  * ************************************************************************************************ */
 
 // #i0242, 190615, dwildt, +
+$typo3Version = Netzmacher\Start\Utility\Typo3VersionUtility::get();
 if( TYPO3_MODE === 'BE' )
 {
-	if( !Netzmacher\Start\Backend\Extensions\Extensionmanager::getProperty( 'modulDisabled' ) )
+	switch( TRUE )
 	{
-		\TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerModule(
-						'Netzmacher.Start', 'web', // Make module a submodule of 'web'
-						'md1', // Submodule key
-						'', // Position
-						[
-				'Module' => 'list, banner, contact, layout, socialmedia, update, unit, wallpaper'
-						], [
-				'access' => 'user,group',
-				'icon' => 'EXT:start/Resources/Public/Icons/user_mod_md1.svg',
-				'labels' => 'LLL:EXT:start/Resources/Private/Language/locallang_md1.xlf',
-						]
-		);
+		case($typo3Version < 7006000):
+			// do nothing
+			break;
+		case($typo3Version < 8007000):
+		case($typo3Version < 9000000):
+		case($typo3Version >= 9000000):
+		default:
+			\TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerModule(
+							'Netzmacher.Start', 'web', // Make module a submodule of 'web'
+							'md1', // Submodule key
+							'', // Position
+							[
+					'Module' => 'list, banner, contact, layout, socialmedia, update, unit, wallpaper'
+							], [
+					'access' => 'user,group',
+					'icon' => 'EXT:start/Resources/Public/Icons/user_mod_md1.svg',
+					'labels' => 'LLL:EXT:start/Resources/Private/Language/locallang_md1.xlf',
+							]
+			);
+			break;
 	}
 }
