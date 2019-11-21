@@ -12,7 +12,7 @@
 Gridelements
 ============
 
-See details at `Best Practice > Layouts <users_bestpractice_layouts>`
+See details at :ref:`Best Practice > Layouts <users_bestpractice_layouts>`
 
 **Table of Contents**
 

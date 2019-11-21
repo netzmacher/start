@@ -15,7 +15,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 5.3.7
 	19-11-18
   Bugfix
-	* #i0286: "target.override = {$PAGE_TARGET}" is deprected
+	* #i0286: "target.override = {$PAGE_TARGET}" is deprecated
 						Affected file:
 						* /Configuration/TypoScript/Base/tt_content/menu.ts
 
