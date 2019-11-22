@@ -60,18 +60,21 @@ if( TYPO3_MODE === 'BE' )
 		case($typo3Version < 9000000):
 		case($typo3Version >= 9000000):
 		default:
-			\TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerModule(
-							'Netzmacher.Start', 'web', // Make module a submodule of 'web'
-							'md1', // Submodule key
-							'', // Position
-							[
-					'Module' => 'list, banner, contact, layout, socialmedia, update, unit, wallpaper'
-							], [
-					'access' => 'user,group',
-					'icon' => 'EXT:start/Resources/Public/Icons/user_mod_md1.svg',
-					'labels' => 'LLL:EXT:start/Resources/Private/Language/locallang_md1.xlf',
-							]
-			);
+			if( !Netzmacher\Start\Backend\Extensions\Extensionmanager::getProperty( 'tcaPagesDisabled' ) )
+			{
+				\TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerModule(
+								'Netzmacher.Start', 'web', // Make module a submodule of 'web'
+								'md1', // Submodule key
+								'', // Position
+								[
+						'Module' => 'list, banner, contact, layout, socialmedia, update, unit, wallpaper'
+								], [
+						'access' => 'user,group',
+						'icon' => 'EXT:start/Resources/Public/Icons/user_mod_md1.svg',
+						'labels' => 'LLL:EXT:start/Resources/Private/Language/locallang_md1.xlf',
+								]
+				);
+			}
 			break;
 	}
 }
