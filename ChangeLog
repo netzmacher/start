@@ -2,6 +2,18 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+5.3.10
+	19-12-07
+  Feature
+	* #i0289: font Glyphicons Halflings
+						New files:
+						* Configuration/TypoScript/Bootstrap/Fonts/Page/includeCSS.ts
+						* Resources/Public/Css/Bootstrap
+							* fonts.css
+							* Fonts/glyphicons-halflings-regular.*
+						Affected files:
+						* Configuration/ExtTables/Default.php
+
 5.3.9
 	19-11-22
   Feature
