@@ -33,6 +33,12 @@ B
 
 * Basic Layouts @ :ref:`Backend Layouts <alphabetical-index_backendlayouts>`
 
+* Bootstrap
+
+  * :ref:`Fonts <administrators_bestpractice_frameworks_bootstrap>`
+
+  * :ref:`Setup <administrators_bestpractice_frameworks_bootstrap>`
+
 * Bugfixes (see: :ref:`Workarounds <alphabetical-index_Workarounds>`)
 
 
@@ -78,10 +84,31 @@ E
 
 * :ref:`Extension Manager <administrators_setup_extensionmanager>`
 
+F
+-
+
+* Frameworks
+
+  * :ref:`Bootstrap <administrators_bestpractice_frameworks_bootstrap>`
+
+  * :ref:`Foundation <administrators_bestpractice_frameworks_foundation>`
+
+* Fonts
+
+  * :ref:`Bootstrap Glyphicons <administrators_bestpractice_frameworks_bootstrap>`
+
+* Foundation
+
+  * :ref:`Setup <administrators_bestpractice_frameworks_foundation>`
+
+
+
 G
 -
 
 * :ref:`GIT <developers_git>`
+
+* :ref:`Glyphicons <administrators_bestpractice_frameworks_bootstrap>`
 
 * Gridelements
 

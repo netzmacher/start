@@ -36,6 +36,15 @@ See:
 .. _administrators_whatsnew-gridelements:
 
 
+Bootstrap
+'''''''''
+
+Glyphicons are suppoprted. See:
+
+  * :ref:`Bootstrap Glyphicons <administrators_bestpractice_frameworks_bootstrap>`
+
+
+
 Gridelements
 ''''''''''''
 

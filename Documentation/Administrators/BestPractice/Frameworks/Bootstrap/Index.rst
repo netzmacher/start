@@ -21,6 +21,15 @@ Please include the needed static templates
 * start bootstrap templates
 
 
+Glyphicons
+----------
+
+If the running bootstrap framework doesn't provide the glyphicons font,
+please include the static template:
+
+* Start [10.1.2] Bootstrap Fonts
+
+
 Further Informations
 --------------------
 

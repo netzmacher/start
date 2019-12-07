@@ -6,6 +6,8 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 	19-12-07
   Feature
 	* #i0289: font Glyphicons Halflings
+						New include static template
+						* Start [10.1.2] Bootstrap Fonts
 						New files:
 						* Configuration/TypoScript/Bootstrap/Fonts/Page/includeCSS.ts
 						* Resources/Public/Css/Bootstrap
@@ -13,6 +15,8 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 							* Fonts/glyphicons-halflings-regular.*
 						Affected files:
 						* Configuration/ExtTables/Default.php
+						========
+						https://getbootstrap.com/docs/3.3/components/
 
 5.3.9
 	19-11-22
