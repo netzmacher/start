@@ -227,7 +227,7 @@ ExtensionManagementUtility::registerPageTSConfigFile(
 
 $item = [
 		'LLL:EXT:start/Configuration/TCA/Overrides/Default/pages.xlf:layout.startPageRoot'
-		, 'startPageRoot'
+		, '11'
 		, ''
 ];
 
