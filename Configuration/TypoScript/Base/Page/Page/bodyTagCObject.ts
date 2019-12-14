@@ -28,9 +28,11 @@ page {
 				noTrimWrap = || |
 			}
 			wrap {
-				cObject = TEXT
-				cObject {
-					value = | class="|"|
+				stdWrap {
+					cObject = TEXT
+					cObject {
+						value = | class="|"|
+					}
 				}
 			}
 		}
