@@ -6,7 +6,10 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 	19-12-14
   Feature
 	* #i0290: CSS class by page field frontend-layout
-						Affected file:
+						New file:
+						* /opt/typo3/extensions/start/Configuration/TCA/Overrides/Default/pages.xlf
+						Affected files:
+						* /opt/typo3/extensions/start/Configuration/TCA/Overrides/Default/pages.php
 						* Configuration/TypoScript/Base/Page/Page/bodyTagCObject.ts
 
 5.3.10

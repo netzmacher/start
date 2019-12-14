@@ -224,3 +224,17 @@ ExtensionManagementUtility::registerPageTSConfigFile(
     'start',
     'Configuration/TSconfig/Page/RTE/StartWiExternalPlugin.ts',
     'Start [1.0.0] RTE with additional plugins');
+
+$item = [
+		'LLL:EXT:start/Configuration/TCA/Overrides/Default/pages.xlf:CType.startPageRoot'
+		, 'startPageRoot'
+		, ''
+];
+
+ExtensionManagementUtility::addTcaSelectItem(
+				'tt_content'
+				, 'CType'
+				, $item
+				, ''
+				, ''
+);
