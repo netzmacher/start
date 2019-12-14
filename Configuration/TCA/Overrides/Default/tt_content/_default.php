@@ -63,6 +63,14 @@ $temporaryColumns = [
 										, 'startGmenuFromDirs'
 								],
 								[
+										'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:menu_type.startLanguageWithIcons'
+										, 'startLanguageWithIcons'
+								],
+								[
+										'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:menu_type.startLanguageWithText'
+										, 'startLanguageWithText'
+								],
+								[
 										'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:menu_type.startThumbnails'
 										, 'startThumbnails'
 								],

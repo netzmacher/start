@@ -8,6 +8,8 @@ TCEFORM.tt_content.menu_type.addItems {
   startFoundationTopBar           = Start: Foundation Top Bar
   startGmenu                      = Start: Graphical Menu
   startGmenuFromDirs              = Start: Graphical Menu from directories
+  startLanguageWithIcons          = Start: Language Menu with icons
+  startLanguageWithText						= Start: Language Menu text only
   startThumbnails                 = Start: Thumbnails Menu
   startThumbnailsFromDirs         = Start: Thumbnails Menu from directories
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2017-03-19T10:03:57Z" product-name="start">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2019-12-15T10:03:57Z" product-name="start">
     <header/>
     <body>
 
@@ -52,6 +52,14 @@
       <trans-unit id="menu_type.startGmenuFromDirs">
         <source>Graphical Menu from directories (foundation)</source>
         <target>Graphisches Menü aus Verzeichnissen (foundation)</target>
+      </trans-unit>
+      <trans-unit id="menu_type.startLanguageWithIcons">
+        <source>Language with icons</source>
+        <target>Sprache mit Grafiken</target>
+      </trans-unit>
+      <trans-unit id="menu_type.startLanguageWithText">
+        <source>Language (text only)</source>
+        <target>Sprache (nur Text)</target>
       </trans-unit>
       <trans-unit id="menu_type.startThumbnails">
         <source>Thumbnails (foundation)</source>
