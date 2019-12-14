@@ -28,7 +28,10 @@ page {
 				noTrimWrap = || |
 			}
 			stdWrap {
-				value = | class="|"|
+				cObject = TEXT
+				cObject {
+					value = | class="|"|
+				}
 			}
 		}
 		wrap = <body|>
