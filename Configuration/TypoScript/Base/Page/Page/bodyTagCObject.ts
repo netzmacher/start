@@ -12,7 +12,7 @@ page {
 			// class="{backend_layout} {layout}"
 		20 = COA
 		20 {
-				// data = backend_layout_next_level || backend_layout
+				// data = backend_layout_next_level || backend_layout, slide
 			10 = TEXT
 			10 {
 				data = levelfield:-2,backend_layout_next_level,slide
@@ -21,10 +21,11 @@ page {
 				}
 				required = 1
 			}
-				// data = layout
+				// field = layout
 			20 = TEXT
 			20 {
-				data = levelfield:-2,layout,slide
+				//data = levelfield:-2,layout,slide
+				field = layout
 				required = 1
 				noTrimWrap = | layout-||
 			}
