@@ -19,7 +19,6 @@ page {
 				override {
 					field = backend_layout
 				}
-				noTrimWrap = || |
 				required = 1
 			}
 				// data = layout
@@ -27,7 +26,7 @@ page {
 			20 {
 				data = levelfield:-2,layout,slide
 				required = 1
-				wrap = layout-|
+				noTrimWrap = | layout-||
 			}
 			wrap {
 				stdWrap {
