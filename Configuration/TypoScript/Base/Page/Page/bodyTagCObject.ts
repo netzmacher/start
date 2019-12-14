@@ -27,7 +27,7 @@ page {
 				data = levelfield:-2,layout,slide
 				noTrimWrap = || |
 			}
-			stdWrap {
+			wrap {
 				cObject = TEXT
 				cObject {
 					value = | class="|"|
