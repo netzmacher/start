@@ -7,7 +7,7 @@ page {
 		10 = TEXT
 		10 {
 			data = page:uid
-			noTrimWrap = | id="bodyId-|"|
+			noTrimWrap = | id="bodyId-|" |
 		}
 			// class="{backend_layout} {layout}"
 		20 = COA
@@ -33,7 +33,7 @@ page {
 				stdWrap {
 					cObject = TEXT
 					cObject {
-						value = | class="|"|
+						value = class="|"
 					}
 				}
 			}
