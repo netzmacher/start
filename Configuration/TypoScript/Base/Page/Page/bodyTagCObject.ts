@@ -31,10 +31,10 @@ page {
 			}
 			wrap {
 				stdWrap {
-#					cObject = TEXT
-#					cObject {
+					cObject = TEXT
+					cObject {
 						value = class="|"
-#					}
+					}
 				}
 			}
 		}
