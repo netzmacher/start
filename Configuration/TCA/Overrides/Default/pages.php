@@ -226,14 +226,14 @@ ExtensionManagementUtility::registerPageTSConfigFile(
     'Start [1.0.0] RTE with additional plugins');
 
 $item = [
-		'LLL:EXT:start/Configuration/TCA/Overrides/Default/pages.xlf:CType.startPageRoot'
+		'LLL:EXT:start/Configuration/TCA/Overrides/Default/pages.xlf:layout.startPageRoot'
 		, 'startPageRoot'
 		, ''
 ];
 
 ExtensionManagementUtility::addTcaSelectItem(
-				'tt_content'
-				, 'CType'
+				'pages'
+				, 'layout'
 				, $item
 				, ''
 				, ''

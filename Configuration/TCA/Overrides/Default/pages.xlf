@@ -4,7 +4,7 @@
     <header/>
     <body>
 
-      <trans-unit id="CType.startPageRoot">
+      <trans-unit id="layout.startPageRoot">
         <source>Start: root page</source>
         <target>Start: Wurzelseite</target>
       </trans-unit>
