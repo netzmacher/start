@@ -9,11 +9,25 @@ imports:
 editor:
 
   config:
+
+#    191209, dwildt: test stylesSet    
+#    contentsCss: "/typo3conf/ext/startgwp/Resources/Public/Css/RTE/basic.css"
     
     # 190320, dwildt, 1+
     disableNativeSpellChecker: false
 
     format_tags: "p;h1;h2;h3;h4;h5;pre"
+
+#    191209, dwildt: test stylesSet    
+#    # can be "default", but a custom stylesSet can be defined here, which fits TYPO3 best
+#    stylesSet:
+#      # object styles
+#      # 191209: several classes MUST ordered alphabetically
+#      - { name: "Button", element: "a", attributes: { class: 'btn button' } }
+#      - { name: "Button small", element: "a", attributes: { class: 'btn btn-small button small' } }
+#      # block level styles
+#      - { name: "Label", element: "p", attributes: { class: "label" } }
+#      # Inline styles
 
     toolbarGroups:
       - { name: styles, groups: [ styles, format ] }
@@ -44,6 +58,7 @@ editor:
       - Anchor
       - Underline
       - Strike
+#    191209, dwildt: test stylesSet    
       - Styles
       
     youtube_privacy: false

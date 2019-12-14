@@ -16,7 +16,7 @@ start {
 				startFoundationInit = 1
 				# cat=start - foundation - javascript - includes//404;  type=boolean; label= Foundation What Input: Include the foundation what-input.js (from foundation 6.x)
 				startFoundationWhatInput = 0
-				# cat=start - foundation - javascript - includes//500;  type=boolean; label= Extend Bootstrap: Include the script for extending bootstrap. It extends bottstrap button classes for foundation.
+				# cat=start - foundation - javascript - includes//500;  type=boolean; label= Extend Bootstrap: Include the script for extending bootstrap. It extends bootstrap button classes for foundation.
 				startBootstrapForFoundation = 1
 			}
     }
