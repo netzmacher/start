@@ -20,12 +20,14 @@ page {
 					field = backend_layout
 				}
 				noTrimWrap = || |
+				required = 1
 			}
 				// data = layout
 			20 = TEXT
 			20 {
 				data = levelfield:-2,layout,slide
-				noTrimWrap = || |
+				required = 1
+				wrap = layout-|
 			}
 			wrap {
 				stdWrap {
