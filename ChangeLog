@@ -6,6 +6,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 	19-12-14
   Feature
 	* #i0290: CSS class by page field frontend-layout
+						* TYPO3 from 8.7 only
 						New file:
 						* Configuration/TCA/Overrides/Default
 							* de.pages.xlf
