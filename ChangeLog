@@ -7,6 +7,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
   Feature
 	* #i0291: Language menues
 						New files:
+						* /opt/typo3/extensions/start/Configuration/TypoScript/Base/Start/Lib/constants/language.ts
 						* /opt/typo3/extensions/start/Configuration/TypoScript/Base/Start/Lib/languageWithIcons.ts
 						* /opt/typo3/extensions/start/Configuration/TypoScript/Base/Start/Lib/languageWithText.ts
 						Affected files:
