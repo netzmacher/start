@@ -332,12 +332,12 @@ body {
 	padding: 0;
 }
 
-#startBox01 .language-menu ul li {
+#startBox01 ul.language-menu li {
 	border-left: 1px solid #000;
 	display: inline;
 	padding: 0 0.5rem;
 }
-#startBox01 .language-menu ul li:first-child {
+#startBox01 ul.language-menu li:first-child {
 	border: inherit;
 	padding-left: 0;
 }
