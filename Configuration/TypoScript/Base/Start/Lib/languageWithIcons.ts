@@ -58,6 +58,6 @@ start {
 // #t1577, 170930, dwildt, -
 tt_content.menu {
   20 {
-    startFoundationLanguageWithIcons < start.lib.languageWithIcons
+    startLanguageWithIcons < start.lib.languageWithIcons
   }
 }
