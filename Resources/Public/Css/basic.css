@@ -332,6 +332,16 @@ body {
 	padding: 0;
 }
 
+#startBox01 .language-menu ul li {
+	border-left: 1px solid #000;
+	display: inline;
+	padding: 0 0.5rem;
+}
+#startBox01 .language-menu ul li:first-child {
+	border: inherit;
+	padding-left: 0;
+}
+
 #startBox01 p.copyright {
 	font-size:.75rem;
 	margin:0;

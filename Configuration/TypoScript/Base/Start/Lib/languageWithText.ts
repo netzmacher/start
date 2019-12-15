@@ -48,7 +48,6 @@ start {
 					USERDEF1 < .NO
 					USERDEF1 {
 						linkWrap = <li class="text-muted">|</li>
-						//stdWrap.typolink >
 					}
 					USERDEF2 < .ACT
 					USERDEF2 {

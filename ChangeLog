@@ -15,6 +15,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						* /opt/typo3/extensions/start/Configuration/TCA/Overrides/Default/tt_content/_default.php
 						* /opt/typo3/extensions/start/Configuration/TCA/Overrides/Default/de.tt_content.xlf
 						* /opt/typo3/extensions/start/Configuration/TCA/Overrides/Default/tt_content.xlf
+						* /opt/typo3/extensions/start/Resources/Public/Css/basic.css
 	* #i0290: CSS class by page field frontend-layout
 						* TYPO3 from 8.7 only
 						New file:
