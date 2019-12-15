@@ -341,6 +341,10 @@ body {
 	border: inherit;
 	padding-left: 0;
 }
+#startBox01 ul.language-menu li:last-child {
+	border: inherit;
+	padding-right: 0;
+}
 
 #startBox01 p.copyright {
 	font-size:.75rem;
