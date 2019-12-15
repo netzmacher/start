@@ -27,8 +27,8 @@ start {
 					NO {
 						doNotLinkIt = 1
 						linkWrap = <li>|</li>
-						stdWrap.override = {$start.lib.language.items}
 						stdWrap {
+							override = {$start.lib.language.items}
 							typolink {
 								parameter.data = page:uid
 								additionalParams = {$start.lib.language.additionalParams}
@@ -41,7 +41,10 @@ start {
 						}
 					}
 					ACT < .NO
-					ACT.linkWrap = <li class="active">|</li>
+					ACT {
+						linkWrap = <li class="active">|</li>
+						stdWrap.typolink >
+					}
 					USERDEF1 < .NO
 					USERDEF1 {
 						linkWrap = <li class="text-muted">|</li>
