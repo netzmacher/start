@@ -2511,6 +2511,16 @@ button.info:hover, button.info:focus, .button.info:hover, .button.info:focus {
 button.info:hover, button.info:focus, .button.info:hover, .button.info:focus {
   color: #FFFFFF;
 }
+/* line 234, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
+button.expand, .button.expand {
+  padding: 1rem 2rem 1.0625rem 2rem;
+  font-size: 1rem;
+  padding-bottom: 1.0625rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+}
 /* line 231, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.large, .button.large {
   padding: 1.125rem 2.25rem 1.1875rem 2.25rem;
@@ -2525,16 +2535,6 @@ button.small, .button.small {
 button.tiny, .button.tiny {
   padding: 0.625rem 1.25rem 0.6875rem 1.25rem;
   font-size: 0.6875rem;
-}
-/* line 234, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
-button.expand, .button.expand {
-  padding: 1rem 2rem 1.0625rem 2rem;
-  font-size: 1rem;
-  padding-bottom: 1.0625rem;
-  padding-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  width: 100%;
 }
 /* line 236, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.left-align, .button.left-align {
