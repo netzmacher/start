@@ -17,7 +17,7 @@ start {
 			20 = HMENU
 			20 {
 				special = language
-				special.value = {$start.lib.language.items}
+				special.value = {$start.lib.language.uids}
 				special.normalWhenNoLanguage = 0
 				wrap =
 				1 = TMENU
