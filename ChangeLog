@@ -7,15 +7,18 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
   Feature
 	* #i0291: Language menues
 						New files:
-						* /opt/typo3/extensions/start/Configuration/TypoScript/Base/Start/Lib/constants/language.ts
-						* /opt/typo3/extensions/start/Configuration/TypoScript/Base/Start/Lib/languageWithIcons.ts
-						* /opt/typo3/extensions/start/Configuration/TypoScript/Base/Start/Lib/languageWithText.ts
+						* Configuration/TypoScript/Base/Start/Lib
+							* constants/language.ts
+							* languageWithIcons.ts
+							* languageWithText.ts
 						Affected files:
-						* /opt/typo3/extensions/start/Configuration/TSconfig/mod/wizards/newContentElement/wizardItems/menu/7.6/menu_type.ts
-						* /opt/typo3/extensions/start/Configuration/TCA/Overrides/Default/tt_content/_default.php
-						* /opt/typo3/extensions/start/Configuration/TCA/Overrides/Default/de.tt_content.xlf
-						* /opt/typo3/extensions/start/Configuration/TCA/Overrides/Default/tt_content.xlf
-						* /opt/typo3/extensions/start/Resources/Public/Css/basic.css
+						* Configuration
+							* TSconfig/mod/wizards/newContentElement/wizardItems/menu/7.6/menu_type.ts
+							* TCA/Overrides/Default
+								* tt_content/_default.php
+								* de.tt_content.xlf
+								* tt_content.xlf
+						* Resources/Public/Css/basic.css
 	* #i0290: CSS class by page field frontend-layout
 						* TYPO3 from 8.7 only
 						New file:
