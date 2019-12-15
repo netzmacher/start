@@ -52,7 +52,7 @@ start {
 					}
 					USERDEF2 < .ACT
 					USERDEF2 {
-						linkWrap = <li class="text-muted">|</li>
+						linkWrap = <li class="active text-muted">|</li>
 						stdWrap.typolink >
 					}
 				}
