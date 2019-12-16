@@ -8,7 +8,7 @@ page {
       // Four columns
     start__default < .start__bronze_01
     start__default {
-      file = {$start.fluid.path.templates}default.html
+      file = {$start.fluid.path.be_layout.templates}default.html
     }
   }
 }

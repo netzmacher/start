@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="283.465pt" version="1.1" xmlns="http://www.w3.org/2000/svg" height="283.465pt" viewBox="0 0 283.465 283.465" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="16pt" version="1.1" xmlns="http://www.w3.org/2000/svg" height="16pt" viewBox="0 0 16 16" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
-  <linearGradient id="Grad0" y1="0" x1="0" y2="283.465" gradientUnits="userSpaceOnUse" x2="283.465">
+  <clipPath id="Clip0">
+   <path d="M0 0 L16 0 L16 16 L0 16 L0 0 Z" transform="translate(0, 1.42109e-14)"/>
+  </clipPath>
+  <linearGradient id="Grad0" y1="0" x1="0" y2="16" gradientUnits="userSpaceOnUse" x2="16">
    <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
    <stop offset="50%" stop-color="#ff5e00" stop-opacity="1"/>
   </linearGradient>
  </defs>
  <g id="Hintergrund">
-  <g transform="translate(0, 0)">
-   <path style="fill:url(#Grad0); fill-rule:evenodd;" d="M0 0 L283.465 0 L283.465 283.465 L0 283.465 L0 0 Z"/>
-   <path style="fill:none; stroke:none;" d="M0 0 L283.465 0 L283.465 283.465 L0 283.465 L0 0 Z"/>
+  <g id="Gruppe3" clip-path="url(#Clip0)">
+   <g transform="translate(0, 1.42109e-14)">
+    <path style="fill:url(#Grad0); fill-rule:evenodd;" d="M0 0 L16 0 L16 16 L0 16 L0 0 Z"/>
+    <path style="fill:none; stroke:none;" d="M0 0 L16 0 L16 16 L0 16 L0 0 Z"/>
+   </g>
+   <path style="fill:#ffffff; fill-rule:evenodd;stroke:none;" d="M9.64207 0 C9.63507 0 9.62835 0.00180155 9.62129 0.00212911 L9.62129 0 L0.476265 0 L0.476265 0.00212911 C0.211601 0.013266 0 0.229617 0 0.497065 L0 13.4456 C0 13.7131 0.211601 13.9295 0.476265 13.9406 L0.476265 13.9427 L9.62129 13.9427 L9.62129 13.9406 C9.62835 13.9409 9.6349 13.9427 9.64207 13.9427 C9.91656 13.9427 10.1392 13.7203 10.1392 13.4456 L10.1392 0.497065 C10.1392 0.22241 9.91656 0 9.64207 0 Z M5.04877 13.5342 C4.82407 13.5342 4.64195 13.352 4.64195 13.1273 C4.64195 12.9026 4.82407 12.7204 5.04877 12.7204 C5.27347 12.7204 5.4556 12.9026 5.4556 13.1273 C5.4556 13.352 5.27347 13.5342 5.04877 13.5342 Z M8.50844 12.312 L1.63074 12.312 L1.63074 1.63074 L8.5086 1.63074 L8.5086 12.312 L8.50844 12.312 Z" transform="translate(2.93043, 1.02864)"/>
   </g>
-  <path style="fill:#ffffff; fill-rule:nonzero;stroke:none;" d="M170.824 0 C170.7 0 170.581 0.0319173 170.456 0.0377204 L170.456 0 L8.43777 0 L8.43777 0.0377204 C3.74883 0.235027 0 4.06801 0 8.80627 L0 238.21 C0 242.949 3.74883 246.782 8.43777 246.979 L8.43777 247.017 L170.456 247.017 L170.456 246.979 C170.581 246.985 170.697 247.017 170.824 247.017 C175.687 247.017 179.631 243.076 179.631 238.21 L179.631 8.80627 C179.631 3.94034 175.687 0 170.824 0 Z M89.4468 239.78 C85.4658 239.78 82.2393 236.551 82.2393 232.57 C82.2393 228.589 85.4658 225.362 89.4468 225.362 C93.4277 225.362 96.6543 228.589 96.6543 232.57 C96.6543 236.551 93.4277 239.78 89.4468 239.78 Z M150.74 218.126 L28.891 218.126 L28.891 28.891 L150.743 28.891 L150.743 218.126 L150.74 218.126 Z" transform="translate(51.917, 18.2239)"/>
  </g>
 </svg>

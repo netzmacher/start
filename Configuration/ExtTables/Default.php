@@ -90,6 +90,40 @@ $TCA[ 'pages' ][ 'columns' ][ 'module' ][ 'config' ][ 'items' ][] = array(
 $TCA[ 'pages' ][ 'ctrl' ][ 'typeicon_classes' ][ $extIcon[ 'identifier' ] ] = $extIcon[ 'identifier' ];
 
 $extIcon = array(
+		'identifier' => 'app-startmenues'
+		, 'key' => 'startmenues' // <- Key must be the part behind contain- of the identifier!
+		, 'label' => 'Start Menues'
+		, 'source' => 'EXT:start/Resources/Public/Images/Icons/txStartMenues.svg'
+);
+$iconRegistry->registerIcon(
+				$extIcon[ 'identifier' ]
+				, \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class
+				, [ 'source' => $extIcon[ 'source' ] ]
+);
+$extIcon = array(
+		'identifier' => 'app-startsubnav'
+		, 'key' => 'startsubnav' // <- Key must be the part behind contain- of the identifier!
+		, 'label' => 'Start top navigation'
+		, 'source' => 'EXT:start/Resources/Public/Images/Icons/txStartSubNav.svg'
+);
+$iconRegistry->registerIcon(
+				$extIcon[ 'identifier' ]
+				, \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class
+				, [ 'source' => $extIcon[ 'source' ] ]
+);
+$extIcon = array(
+		'identifier' => 'app-starttopnav'
+		, 'key' => 'starttopnav' // <- Key must be the part behind contain- of the identifier!
+		, 'label' => 'Start top navigation'
+		, 'source' => 'EXT:start/Resources/Public/Images/Icons/txStartTopNav.svg'
+);
+$iconRegistry->registerIcon(
+				$extIcon[ 'identifier' ]
+				, \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class
+				, [ 'source' => $extIcon[ 'source' ] ]
+);
+
+$extIcon = array(
 		'identifier' => 'app-txStartPagemedia'
 		, 'key' => 'txStartPagemedia' // <- Key must be the part behind contain- of the identifier!
 		, 'label' => 'Page Media'

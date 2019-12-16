@@ -34,17 +34,17 @@ page {
     start__newsletter_01 = FLUIDTEMPLATE
     start__newsletter_01 {
 				// TYPO3 6.2 compatibillity. Will be ignored from TYPO3 7.6 
-      file = {$start.fluid.path.templates}newsletter_62.html
+      file = {$start.fluid.path.be_layout.templates}newsletter_62.html
 				// Will be respected from TYPO3 7.6 and takes precedence over file
 			templateName = Newsletter
       templateRootPaths {
-        10 = {$start.fluid.path.templates}
+        10 = {$start.fluid.path.be_layout.templates}
       }
       layoutRootPaths {
-        10 = {$start.fluid.path.layouts}
+        10 = {$start.fluid.path.be_layout.layouts}
       }
       partialRootPaths {
-        10 = {$start.fluid.path.partials}
+        10 = {$start.fluid.path.be_layout.partials}
       }
     }
   }

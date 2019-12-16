@@ -3,9 +3,9 @@ plugin.tx_t3foundation.settings.js.foundation = 0
 plugin.tx_t3foundation.settings.js.modernizr = 0
 
 start {
-  fluid.path.layouts    = EXT:start/Resources/Private/Templates/foundation-6.4.3/Layouts/
-  fluid.path.partials   = EXT:start/Resources/Private/Templates/foundation-6.4.3/Partials/
-  fluid.path.templates  = EXT:start/Resources/Private/Templates/foundation-6.4.3/Templates/
+  fluid.path.be_layout.layouts    = EXT:start/Resources/Private/Templates/foundation-6.4.3/Layouts/Be_layout/
+  fluid.path.be_layout.partials   = EXT:start/Resources/Private/Templates/foundation-6.4.3/Partials/Be_layout/
+  fluid.path.be_layout.templates  = EXT:start/Resources/Private/Templates/foundation-6.4.3/Templates/Be_layout/
   foundation {
 		grid {
 			class {

@@ -8,21 +8,16 @@ page {
       // top | MAIN | bottom
     start__blue_01 = FLUIDTEMPLATE
     start__blue_01 {
-      file = {$start.fluid.path.templates}blue_01.html
-#			  // 10 = EXT:start/Resources/Private/Templates/foundation-5.5.3/
-#			templateRootPaths =
-#			templateRootPaths {
-#					10 = {$start.fluid.path.templates}
-#			}
-			  // 10 = {$start.fluid.path.layouts}
+      file = {$start.fluid.path.be_layout.templates}blue_01.html
+			  // 10 = {$start.fluid.path.be_layout.layouts}
       layoutRootPaths = 
 			layoutRootPaths {
-				10 = {$start.fluid.path.layouts}
+				10 = {$start.fluid.path.be_layout.layouts}
 			}
-				// 10 = {$start.fluid.path.partials}
+				// 10 = {$start.fluid.path.be_layout.partials}
       partialRootPaths =
       partialRootPaths {
-        10 = {$start.fluid.path.partials}
+        10 = {$start.fluid.path.be_layout.partials}
       }
       variables {
       }
@@ -52,7 +47,7 @@ page {
       // Four rows: header || top || content || footer
     start__blue_02 < .start__blue_01
     start__blue_02 {
-      file = {$start.fluid.path.templates}blue_02.html
+      file = {$start.fluid.path.be_layout.templates}blue_02.html
 #      settings {
 #        classColMainContentBottomCenter >
 #      }
@@ -60,7 +55,7 @@ page {
       // Four rows: header || content || right || footer
     start__blue_03 < .start__blue_01
     start__blue_03 {
-      file = {$start.fluid.path.templates}blue_03.html
+      file = {$start.fluid.path.be_layout.templates}blue_03.html
 #      settings {
 #        classColMainContentTopCenter >
 #      }
@@ -68,32 +63,32 @@ page {
       // Five rows: header || top || left | content | right || bottom || footer
     start__blue_01_01_lr < .start__blue_01
     start__blue_01_01_lr {
-      file = {$start.fluid.path.templates}blue_01_01_lr.html
+      file = {$start.fluid.path.be_layout.templates}blue_01_01_lr.html
       settings {
         classColMainContentMain   >
-        classColMainContentLeft   = small-12 medium-{$start.templates.grid.columns03.left}
-        classColMainContentMain   = small-12 medium-{$start.templates.grid.columns03.main}
-        classColMainContentRight  = small-12 medium-{$start.templates.grid.columns03.right}
+        classColMainContentLeft   = small-12 medium-{$start.fluid.path.be_layout.settings.grid.columns03.left}
+        classColMainContentMain   = small-12 medium-{$start.fluid.path.be_layout.settings.grid.columns03.main}
+        classColMainContentRight  = small-12 medium-{$start.fluid.path.be_layout.settings.grid.columns03.right}
       }
     }
       // Five rows: header || top || content | right || bottom || footer
     start__blue_01_02_r < .start__blue_01_01_lr
     start__blue_01_02_r {
-      file = {$start.fluid.path.templates}blue_01_02_r.html
+      file = {$start.fluid.path.be_layout.templates}blue_01_02_r.html
       settings {
         classColMainContentLeft >
-        classColMainContentRight = small-12 medium-{$start.templates.grid.columns02.margin}
-        classColMainContentMain = small-12 medium-{$start.templates.grid.columns02.main}
+        classColMainContentRight = small-12 medium-{$start.fluid.path.be_layout.settings.grid.columns02.margin}
+        classColMainContentMain = small-12 medium-{$start.fluid.path.be_layout.settings.grid.columns02.main}
       }
     }
       // Five rows: header || top || left | content || bottom || footer
     start__blue_01_03_l < .start__blue_01_01_lr
     start__blue_01_03_l {
-      file = {$start.fluid.path.templates}blue_01_03_l.html
+      file = {$start.fluid.path.be_layout.templates}blue_01_03_l.html
       settings {
         classColMainContentRight >
-        classColMainContentLeft = small-12 medium-{$start.templates.grid.columns02.margin}
-        classColMainContentMain = small-12 medium-{$start.templates.grid.columns02.main}
+        classColMainContentLeft = small-12 medium-{$start.fluid.path.be_layout.settings.grid.columns02.margin}
+        classColMainContentMain = small-12 medium-{$start.fluid.path.be_layout.settings.grid.columns02.main}
       }
     }
   }

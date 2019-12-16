@@ -8,7 +8,7 @@ page {
       // One column // #71476
     start__print_01 < .start__bronze_01
     start__print_01 {
-      file = {$start.fluid.path.templates}print_01.html
+      file = {$start.fluid.path.be_layout.templates}print_01.html
     }
   }
 }

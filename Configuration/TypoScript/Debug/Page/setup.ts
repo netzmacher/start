@@ -13,6 +13,6 @@ page {
         wrap = |
       }
     }
-    wrap = {$start.fluid.path.templates}|.html
+    wrap = {$start.fluid.path.be_layout.templates}|.html
   }
 }

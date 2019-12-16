@@ -2,6 +2,84 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+5.4.0
+	19-12-16
+  Feature
+	* #t4041:	Thanks to Thomas Kieslich for imnspiration and share :)
+						@ https://www.thomaskieslich.de/blog/132-typo3-8-menues-mit-fluid-und-menuprocessor-erstellen/
+						Thanks to TYPO3 core team for documentation "Create a menu" and "Add ‘MenuProcessor’"
+						@ https://docs.typo3.org/m/typo3/tutorial-typoscript-in-45-minutes/master/en-us/CreateAMenu/Index.html
+						@ https://docs.typo3.org/m/typo3/tutorial-sitepackage/master/en-us/MainMenuCreation/Index.html
+						@ https://docs.typo3.org/c/typo3/cms-core/master/en-us/Changelog/8.5/Feature-78672-IntroduceFluidDataProcessorForMenus.html
+	* #t4041.02:	2/3: Fluidtemplates for menues: Here: additional fluid templates for the foundation sub navigation
+								-------
+								TASK 01
+								-------
+								New files:
+								* Configuration/TypoScript/Base
+									* Page/Page/constants/view/navigation/view.ts
+									* tt_content/txStartSubNav.ts
+								* Resources
+									* Private/Templates
+										* foundation-5.5.3
+											* Layouts/Navigation/*
+											* Partials/Navigation/*
+											* Templates/Navigation/*
+									* Public/Icons/startSubNav.svg
+								Affected files:
+								* Configuration
+									* TCA/Overrides/Default
+										* de.tt_content.xlf
+										* tt_content.xlf
+										* tt_content/_default.php
+									* TSconfig/mod/wizards/newContentElement/wizardItems/menu/Default/menu.ts
+
+	* #t4041.01:	1/3: Fluidtemplates for menues. Here: clean up structure for additional fluid templates
+								-------
+								TASK 01
+								-------
+								* Constant Editor: [START - TEMPLATES] is moved to [START - VIEW - BE_LAYOUT]
+								Affected  files:
+								* Configuration/TypoScript/Base/Page/Page/constants
+									* templates.ts is moved to view/be_layout/view.ts
+									* templatesGrid2Columns.ts is moved to view/be_layout/settingsGrid2Columns.ts
+									* templatesGrid3Columns.ts is moved to view/be_layout/settingsGrid3Columns.ts
+									* templatesImageFoundation.ts is moved to viewImageFoundation.ts
+								-------
+								TASK 02
+								-------
+								Constant is moved from
+									* start.fluid.path.be_layout.layouts to start.fluid.path.be_layout.layouts
+								Affected  files:
+								* Configuration/TypoScript
+									* Base/Page/Page
+										* 63148
+											* blue.ts
+											* bronze.ts
+										* constants
+											* view/be_layout/view.ts
+									* Debug/Page/constants.ts
+									* Foundation6x/constants.txt
+									* EMail/Page/63148.ts
+								-------
+								TASK 03
+								-------
+								Templates are moved from
+								* Resources/Private/Templates
+									* foundation-5.5.3
+										* Layouts/* to Layouts/Be_layout/*
+										* Partials/* to Partials/Be_layout/*
+										* Templates/* to Templates/Be_layout/*
+									* foundation-6.4.3
+										* Layouts/* to Layouts/Be_layout/*
+										* Partials/* to Partials/Be_layout/*
+										* Templates/* to Templates/Be_layout/*
+								Affected  files:
+								* Configuration/TypoScript
+									* Base/Page/Page/constants/view/be_layout/view.ts
+									* Debug/Page/constants.ts
+									* Foundation6x/constants.txt
+
 5.3.11
 	19-12-14
   Feature
