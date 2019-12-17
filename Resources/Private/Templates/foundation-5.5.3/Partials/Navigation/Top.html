@@ -1,0 +1,56 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"	data-namespace-typo3-fluid="true">
+
+	<f:if condition="{menu}">
+		<f:for each="{menu}" as="mainItem" iteration="mainIterator">
+			<f:if condition="{mainItem.data.uid}==588">
+				<f:then>
+					<f:if condition="{mainItem.children}">
+						<f:then>
+							<f:render partial="Elements/LIItemWiSub" arguments="{item: mainItem, mainIterator: mainIterator}"/>
+							<f:render section="submenu" arguments="{submenu: mainItem.children}"/>
+							</li>
+        <li class="show-for-large-up has-dropdown megaMenu">
+          <a href="#" data-dropdown="mega-menu-1">Main Item 1</a>
+        </li>
+						</f:then>
+						<f:else>
+							<f:render partial="Elements/LIItem" arguments="{item: mainItem, mainIterator: mainIterator}"/>
+							</li>
+						</f:else>
+					</f:if>
+				</f:then>
+				<f:else>
+					<f:if condition="{mainItem.children}">
+						<f:then>
+							<f:render partial="Elements/LIItemWiSub" arguments="{item: mainItem, mainIterator: mainIterator}"/>
+							<f:render section="submenu" arguments="{submenu: mainItem.children}"/>
+							</li>
+						</f:then>
+						<f:else>
+							<f:render partial="Elements/LIItem" arguments="{item: mainItem, mainIterator: mainIterator}"/>
+							</li>
+						</f:else>
+					</f:if>
+				</f:else>
+			</f:if>
+		</f:for>
+	</f:if>
+
+	<f:section name="submenu">
+		<ul class="dropdown">
+			<f:for each="{submenu}" as="subItem" iteration="subIterator">
+				<f:render partial="Elements/LIItem" arguments="{item: subItem, mainIterator: mainIterator, subIterator: subIterator}"/>
+				</li>
+				<f:if condition="{subItem.children}">
+					<f:render section="submenu" arguments="{submenu: subItem.children, mainIterator: mainIterator, subIterator: subIterator}"/>
+				</f:if>
+			</f:for>
+		</ul>
+	</f:section>
+
+<f:section name="debug">
+<f:render section="debug" arguments="{item: item}"/>	
+	<f:debug>{mainItem.data.uid}</f:debug>
+	<f:debug>{item}</f:debug>
+</f:section>
+</html>

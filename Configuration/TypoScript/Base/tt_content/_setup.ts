@@ -2,6 +2,7 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Base/tt_content/image.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Base/tt_content/menu.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Base/tt_content/txStartSubNav.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Base/tt_content/txStartTopNav.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Base/tt_content/txStartPagemedia.ts">
 
 [userFunc = TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('fluid_styled_content')]

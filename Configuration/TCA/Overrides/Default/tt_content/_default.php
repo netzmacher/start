@@ -388,6 +388,23 @@ ExtensionManagementUtility::addTcaSelectItem(
 );
 
 /* * ****************************************************************************
+ * CType txStartTopNav
+ * **************************************************************************** */
+
+$item = [
+		'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:CType.txStartTopNav'
+		, 'txStartTopNav'
+		, 'EXT:start/Resources/Public/Images/Icons/txStartTopNav.svg'
+];
+ExtensionManagementUtility::addTcaSelectItem(
+				'tt_content'
+				, 'CType'
+				, $item
+				, 'menu_sitemap_pages'
+				, 'after'
+);
+
+/* * ****************************************************************************
  * TCA types
  * **************************************************************************** */
 
@@ -415,5 +432,7 @@ ExtensionManagementUtility::addToAllTCAtypes(
 
 $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'ctrl' ][ 'typeicon_classes' ][ 'menu' ] = 'app-start';
 $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'ctrl' ][ 'typeicon_classes' ][ 'txStartSubNav' ] = 'app-startsubnav';
+$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'ctrl' ][ 'typeicon_classes' ][ 'txStartTopNav' ] = 'app-starttopnav';
 $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'menu' ] = $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'menu_pages' ];
 $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'txStartSubNav' ] = $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'menu_subpages' ];
+$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'txStartTopNav' ] = $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'menu_subpages' ];

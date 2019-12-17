@@ -1,0 +1,35 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+
+<f:layout name="Default"/>
+<f:section name="Main">
+	<f:if condition="{settings.topNavPosition}">
+		<div class="{settings.topNavPosition}">
+	</f:if>
+	<nav class="top-bar" data-topbar data-options="custom_back_text:false;is_hover:{settings.topNavIsHover};mobile_show_parent_link:{settings.topNavMobileShowParentLink};">
+		<ul id="dropdown-{data.uid}" class="title-area">
+			<li class="name">
+				<f:format.raw>{topNavLabel}</f:format.raw>
+			</li>
+			<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+			<li class="toggle-topbar menu-icon">
+				<f:format.raw>{topNavMenuIcon}</f:format.raw>
+			</li>		
+		</ul>
+		<section class="top-bar-section">
+			<ul class="{settings.topNavSectionPosition}">
+				<f:render partial="Top" arguments="{_all}"/>
+			</ul>
+		</section>
+	</nav>
+	<f:if condition="{settings.topNavPosition}">
+		</div>
+	</f:if>
+
+	<f:render partial="Test/Megamenu" arguments="{item: mainItem, mainIterator: mainIterator}"/>
+
+</f:section>
+
+<f:debug>{data.pid}</f:debug>
+<f:debug>{_all}</f:debug>
+
+</html>

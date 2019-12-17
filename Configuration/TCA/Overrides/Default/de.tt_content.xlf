@@ -20,6 +20,14 @@
         <source>Row with sub pages of the selected page (optimised for the framework Start TYPO3 Responsive!)</source>
         <target>Zeile mit Unterseiten der gewählten Seite (optimiert für das Framework Start TYPO3 Responsive!)</target>
       </trans-unit>
+      <trans-unit id="CType.txStartTopNav">
+        <source>Start: main navigation</source>
+        <target>Start: Haupt-Menü</target>
+      </trans-unit>
+      <trans-unit id="CType.txStartTopNav.description">
+        <source>Top navigation (optimised for the framework Start TYPO3 Responsive!)</source>
+        <target>Haupt-Menü (optimiert für das Framework Start TYPO3 Responsive!)</target>
+      </trans-unit>
 
       <trans-unit id="menu_type">
         <source>Menu</source>

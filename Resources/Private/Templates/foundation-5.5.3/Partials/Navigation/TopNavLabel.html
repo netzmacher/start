@@ -1,0 +1,15 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+	data-namespace-typo3-fluid="true">
+
+<f:if condition="{menu}">
+	<ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown">
+		<f:for each="{menu}" as="mainItem">
+			<f:render partial="Elements/LIItem" arguments="{item: mainItem}"/>
+			<f:if condition="{mainItem.children}">
+				<f:render section="submenu" arguments="{submenu: mainItem.children}"/>
+			</f:if>
+		</f:for>
+	</ul>
+</f:if>
+
+</html>
