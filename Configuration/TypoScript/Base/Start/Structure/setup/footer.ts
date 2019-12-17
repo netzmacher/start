@@ -196,7 +196,12 @@ start {
 								// ifEmpty.data = levelfield:-1, tx_start_addressline, slide OR levelfield:-1, tx_start_email, slide
 							ifEmpty =
 							ifEmpty {
-								data = levelfield:-1, tx_start_email, slide
+								data = levelfield:-1, tx_start_phonelabel, slide
+									// ifEmpty.data = levelfield:-1, tx_start_addressline, slide OR levelfield:-1, tx_start_email, slide
+								ifEmpty =
+								ifEmpty {
+									data = levelfield:-1, tx_start_email, slide
+								}
 							}
 						}
 					}
@@ -206,7 +211,7 @@ start {
 					10 {
 						data = levelfield:-1, tx_start_addressline, slide
 					}
-						// Devider
+						// tx_start_addressline
 					20 = TEXT
 					20 {
 							// if is true: levelfield:-1, tx_start_addressline, slide AND levelfield:-1, tx_start_email, slide
@@ -234,6 +239,102 @@ start {
 											if {
 												isTrue =
 												isTrue {
+													data = levelfield:-1, tx_start_phonelabel, slide
+												}
+											}
+											value = 1
+										}
+									}
+								}
+							}
+						}
+						value = |
+						noTrimWrap = | | |
+					}
+						// <a href="tel:{field:tx_start_phone}">{field:tx_start_phonelabel}</a>
+					30 = COA
+					30 {
+						if =
+						if {
+							isTrue =
+							isTrue {
+								data = levelfield:-1, tx_start_phonelabel, slide
+							}
+						}
+							// p:
+						10 = TEXT
+						10 {
+							value = phone
+							lang {
+								de = Tel.
+								en = phone
+							}
+							noTrimWrap = ||: |
+						}
+							// <a href="tel:{field:tx_start_phone}">
+						20 = TEXT
+						20 {
+							if =
+							if {
+								isTrue =
+								isTrue {
+									data = levelfield:-1, tx_start_phone, slide
+								}
+							}
+							data = levelfield:-1, tx_start_phone, slide
+							wrap = <a href="tel:|">
+						}
+							// field: tx_start_phonelabel
+						40 = TEXT
+						40 {
+							data = levelfield:-1, tx_start_phonelabel, slide
+						}
+							// </a>
+						50 = TEXT
+						50 {
+							if =
+							if {
+								isTrue =
+								isTrue {
+									data = levelfield:-1, tx_start_phone, slide
+								}
+							}
+							value = </a>
+						}
+						
+					}
+						// tx_start_addressline
+					40 = TEXT
+					40 {
+							// if is true: levelfield:-1, tx_start_addressline, slide AND levelfield:-1, tx_start_email, slide
+						if =
+						if {
+							value = 11
+							equals {
+								stdWrap {
+									cObject = COA
+									cObject {
+										10 = TEXT
+										10 {
+											if =
+											if {
+												isTrue =
+												isTrue {
+													data = levelfield:-1, tx_start_addressline, slide
+													ifEmpty =
+													ifEmpty {
+														data = levelfield:-1, tx_start_phone, slide
+													}
+												}
+											}
+											value = 1
+										}
+										20 = TEXT
+										20 {
+											if =
+											if {
+												isTrue =
+												isTrue {
 													data = levelfield:-1, tx_start_email, slide
 												}
 											}
@@ -247,8 +348,8 @@ start {
 						noTrimWrap = | | |
 					}
 						// tx_start_email
-					30 = TEXT
-					30 {
+					50 = TEXT
+					50 {
 						data = levelfield:-1, tx_start_email, slide
 						typolink {
 							parameter {

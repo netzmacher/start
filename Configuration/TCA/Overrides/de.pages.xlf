@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2016-05-10T10:03:57Z" product-name="start">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2019-12-18T10:03:57Z" product-name="start">
     <header/>
     <body>
 
@@ -23,6 +23,18 @@
       <trans-unit id="tx_start_foundation_topbar_title">
         <source>Top bar: Pop up for the label</source>
         <target>Hauptmenü: Pop up für die Bezeichnung</target>
+      </trans-unit>
+      <trans-unit id="tx_start_megamenu">
+        <source>Megamenu (runs only on top-level pages)</source>
+        <target>Mega-Menü (für Seiten oberster Ebene)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_phone">
+        <source>International phone number for devices (like +493012345678)</source>
+        <target>Internationale Telefonnummer für Geräte (Beispiel: +493012345678)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_phonelabel">
+        <source>Visible phone number</source>
+        <target>Sichtbare Telefonnummer</target>
       </trans-unit>
       <trans-unit id="tx_start_social_facebook">
         <source>facebook</source>

@@ -3,14 +3,33 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
 5.4.0
-	19-12-16
-  Feature
+	19-12-17
+  Features
+	* #i0291: pages with extended field: tx_start_phone, tx_start_phonelabel
+						Affected files:
+						* Configuration
+							* TCA/Overrides
+								* 7.6/pages.php
+								* Default/pages.php
+								* de.pages.xlf
+								* pages.xlf
+							* TypoScript/Base/Start/Structure/setup/footer.ts
+						* ext_localconf.php
+						* ext_tables.sql
 	* #t4041:	Thanks to Thomas Kieslich for imnspiration and share :)
 						@ https://www.thomaskieslich.de/blog/132-typo3-8-menues-mit-fluid-und-menuprocessor-erstellen/
 						Thanks to TYPO3 core team for documentation "Create a menu" and "Add ‘MenuProcessor’"
 						@ https://docs.typo3.org/m/typo3/tutorial-typoscript-in-45-minutes/master/en-us/CreateAMenu/Index.html
 						@ https://docs.typo3.org/m/typo3/tutorial-sitepackage/master/en-us/MainMenuCreation/Index.html
 						@ https://docs.typo3.org/c/typo3/cms-core/master/en-us/Changelog/8.5/Feature-78672-IntroduceFluidDataProcessorForMenus.html
+	* #t4041.04:	4/4: pages with extended field: tx_start_megamenu
+								Affected files:
+								* /opt/typo3/extensions/start/Configuration/TCA/Overrides/de.pages.xlf
+								* /opt/typo3/extensions/start/Configuration/TCA/Overrides/pages.xlf
+								* /opt/typo3/extensions/start/Configuration/TCA/Overrides/7.6/pages.php
+								* /opt/typo3/extensions/start/Configuration/TCA/Overrides/Default/pages.php
+								* /opt/typo3/extensions/start/ext_localconf.php
+								* /opt/typo3/extensions/start/ext_tables.sql
 	* #t4041.03:	3/4: Fluidtemplates for menues: Here: additional fluid templates for the foundation top navigation
 								New files:
 								* Configuration/TypoScript/Base

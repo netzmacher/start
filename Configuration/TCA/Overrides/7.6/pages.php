@@ -4,7 +4,8 @@ use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 use Netzmacher\Start\Backend\Extensions\Extensionmanager;
 
 // #i0180, 180622, dwildt, 3+
-if( Extensionmanager::getProperty( 'tcaPagesDisabled' )){
+if( Extensionmanager::getProperty( 'tcaPagesDisabled' ) )
+{
 	return;
 }
 
@@ -42,6 +43,35 @@ $temporaryColumns = array(
 		'tx_start_foundation_topbar_title' => array(
 				'exclude' => 0,
 				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_foundation_topbar_title',
+				'config' => array(
+						'type' => 'input',
+						'size' => '30',
+						'max' => '128',
+						'eval' => 'trim',
+				)
+		),
+		'tx_start_megamenu' => array(
+				'exclude' => 0,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_megamenu',
+				'config' => array(
+						'type' => 'group',
+						'internal_type' => 'db',
+						'allowed' => 'pages',
+				)
+		),
+		'tx_start_phone' => array(
+				'exclude' => 0,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_phone',
+				'config' => array(
+						'type' => 'input',
+						'size' => '30',
+						'max' => '128',
+						'eval' => 'trim',
+				)
+		),
+		'tx_start_phonelabel' => array(
+				'exclude' => 0,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_phonelabel',
 				'config' => array(
 						'type' => 'input',
 						'size' => '30',
@@ -180,6 +210,8 @@ ExtensionManagementUtility::addFieldsToPalette(
 				'pages'
 				, 'tx_start_palettecontactdata'
 				, 'tx_start_addressline,tx_start_email'
+				. ',--linebreak--,'
+				. ',tx_start_phone,tx_start_phonelabel'
 				, ''
 );
 
@@ -187,6 +219,13 @@ ExtensionManagementUtility::addFieldsToPalette(
 				'pages'
 				, 'tx_start_palettefoundation'
 				, 'tx_start_foundation_topbar_name,tx_start_foundation_topbar_title'
+				, ''
+);
+
+ExtensionManagementUtility::addFieldsToPalette(
+				'pages'
+				, 'tx_start_palettenavigation'
+				, 'tx_start_megamenu'
 				, ''
 );
 
@@ -210,6 +249,7 @@ ExtensionManagementUtility::addToAllTCAtypes(
 				. '	 --palette--;LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_palettecontactdata;tx_start_palettecontactdata,'
 				. '	 --palette--;LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_palettesocialmedia;tx_start_palettesocialmedia,'
 				. '  --palette--;LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_palettefoundation;tx_start_palettefoundation,'
+				. '  --palette--;LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_palettenavigation;tx_start_palettenavigation,'
 				, ''
 				, 'after:categories'
 );
