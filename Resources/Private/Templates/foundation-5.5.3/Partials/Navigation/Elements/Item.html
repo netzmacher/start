@@ -1,0 +1,21 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"	data-namespace-typo3-fluid="true">
+
+<f:if condition="{item.spacer}">
+	<f:then>
+		<li class="page-{item.data.uid}{f:if(condition:mainIterator.isFirst, then:' first')}{f:if(condition:mainIterator.isLast, then:' last')}{f:if(condition:item.spacer, then:' spacer')}">
+			<span>{item.title}</span>
+	</f:then>
+	<f:else>
+		<li class="page-{item.data.uid}{f:if(condition:mainIterator.isFirst, then:' first')}{f:if(condition:mainIterator.isLast, then:' last')}{f:if(condition:item.active, then:' active')}{f:if(condition:item.current, then:' current')}">
+		<f:render partial="Elements/Link" arguments="{item: item}"/>
+	</f:else>
+</f:if>
+
+<f:section name="debug">
+<f:render section="debug" arguments="{item: item}"/>	
+	<f:debug>{item}</f:debug>
+</f:section>
+
+
+
+</html>

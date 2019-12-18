@@ -10,6 +10,16 @@ mod.wizards.newContentElement.wizardItems.menu {
 				 header_layout = 100
 			}
 		}
+		txStartBreadcrumbs {
+			iconIdentifier = app-startbreadcrumbs
+			title = LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:CType.txStartBreadcrumbs
+			description = LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:CType.txStartBreadcrumbs.description
+			tt_content_defValues {
+				 CType = txStartBreadcrumbs
+				 header = Breadcrumbs
+				 header_layout = 100
+			}
+		}
 		txStartSubNav {
 			iconIdentifier = app-startsubnav
 			title = LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:CType.txStartSubNav

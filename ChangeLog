@@ -5,6 +5,20 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 5.4.0
 	19-12-17
   Features
+	* #i0292: Breadcrumbs: moved from TypoScript to FLUIDTEMPLATE
+						New files:
+						* Configuration/TypoScript/Base/tt_content/txStartBreadcrumbs.ts
+						* Resources/Private/Templates/foundation-5.5.3
+							* Partials/Navigation/Breadcrumbs.html
+							* Templates/Navigation/Breadcrumbs.html
+						Affected files
+						* Configuration
+							* ExtTables/Default.php
+							* TCA/Overrides/Default
+								* de.tt_content.xlf
+								* tt_content.xlf
+								* tt_content/_default.php
+							* TSconfig/mod/wizards/newContentElement/wizardItems/menu/Default/menu.ts
 	* #i0291: pages with extended field: tx_start_phone, tx_start_phonelabel
 						Affected files:
 						* Configuration
@@ -33,8 +47,9 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 										* Elements/LIItemWiMegamenu.html
 										* Megamenu/Menues.html
 								Affected files:
-								* /opt/typo3/extensions/start/Configuration/TypoScript/Foundation/Start/Constants/Foundation/filescss.ts
-								* /opt/typo3/extensions/start/Configuration/TypoScript/Development/cssNotMinified/constants/start/foundation/filescss.ts
+								* Configuration/TypoScript
+									* Development/cssNotMinified/constants/start/foundation/filescss.ts
+									* Foundation/Start/Constants/Foundation/filescss.ts
 								* Resources/Private/Templates/foundation-5.5.3
 									* Partials/Navigation/Top.html
 									* Templates/Navigation/Top.html

@@ -101,6 +101,17 @@ $iconRegistry->registerIcon(
 				, [ 'source' => $extIcon[ 'source' ] ]
 );
 $extIcon = array(
+		'identifier' => 'app-startbreadcrumbs'
+		, 'key' => 'startbreadcrumbs' // <- Key must be the part behind contain- of the identifier!
+		, 'label' => 'Start breadcrumbs navigation'
+		, 'source' => 'EXT:start/Resources/Public/Images/Icons/txStartBreadcrumbs.svg'
+);
+$iconRegistry->registerIcon(
+				$extIcon[ 'identifier' ]
+				, \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class
+				, [ 'source' => $extIcon[ 'source' ] ]
+);
+$extIcon = array(
 		'identifier' => 'app-startsubnav'
 		, 'key' => 'startsubnav' // <- Key must be the part behind contain- of the identifier!
 		, 'label' => 'Start top navigation'
