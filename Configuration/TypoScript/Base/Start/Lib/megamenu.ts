@@ -13,7 +13,6 @@ start {
 						cObject = TEXT
 						cObject {
 							field = tx_start_megamenu
-							//value = 580
 						}
 					}
 				}

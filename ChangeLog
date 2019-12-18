@@ -24,20 +24,26 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						@ https://docs.typo3.org/c/typo3/cms-core/master/en-us/Changelog/8.5/Feature-78672-IntroduceFluidDataProcessorForMenus.html
 	* #t4041.05:	5/5: integration of the megamenu into foundation top navigation
 								New files:
-								* /opt/typo3/extensions/start/Resources/Public/JavaScript/Libs/start/megamenu.js
-								* /opt/typo3/extensions/start/Resources/Private/Templates/foundation-5.5.3/Partials/Navigation/Elements/LIItemWiMegamenu.html
-								* /opt/typo3/extensions/start/Configuration/TypoScript/Base/Start/Lib/megamenu.ts
+								* Configuration/TypoScript/Base/Start/Lib/megamenu.ts
+								* Resources
+									* Public/JavaScript/Libs/start/megamenu.js
+									* Private/Templates/foundation-5.5.3/Partials/Navigation
+										* Elements/LIItemWiMegamenu.html
+										* Megamenu/Menues.html
 								Affected files:
+								* Resources/Private/Templates/foundation-5.5.3
+									* Partials/Navigation/Top.html
+									* Templates/Navigation/Top.html
 	* #t4041.04:	4/5: pages with extended field: tx_start_megamenu
 								Affected files:
-								* /opt/typo3/extensions/start/Configuration/TCA/Overrides/de.pages.xlf
-								* /opt/typo3/extensions/start/Configuration/TCA/Overrides/pages.xlf
-								* /opt/typo3/extensions/start/Configuration/TCA/Overrides/7.6/pages.php
-								* /opt/typo3/extensions/start/Configuration/TCA/Overrides/Default/pages.php
-								* /opt/typo3/extensions/start/Configuration/TypoScript/Development/jsNotMinified/constants/start/foundation/files/javascript.ts
-								* /opt/typo3/extensions/start/Configuration/TypoScript/Foundation/Page/includeJSFooter.ts
-								* /opt/typo3/extensions/start/ext_localconf.php
-								* /opt/typo3/extensions/start/ext_tables.sql
+								* Configuration/TCA/Overrides/de.pages.xlf
+								* Configuration/TCA/Overrides/pages.xlf
+								* Configuration/TCA/Overrides/7.6/pages.php
+								* Configuration/TCA/Overrides/Default/pages.php
+								* Configuration/TypoScript/Development/jsNotMinified/constants/start/foundation/files/javascript.ts
+								* Configuration/TypoScript/Foundation/Page/includeJSFooter.ts
+								* ext_localconf.php
+								* ext_tables.sql
 	* #t4041.03:	3/5: Fluidtemplates for menues: Here: additional fluid templates for the foundation top navigation
 								New files:
 								* Configuration/TypoScript/Base
