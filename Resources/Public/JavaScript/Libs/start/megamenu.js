@@ -25,6 +25,7 @@ $(window).on("load resize scroll", function (e) {
 	var topBarHeight = $('nav.top-bar').height();
 	var topBarMarginLeft = parseInt($('nav.top-bar').css('margin-left'));
 	$('.mega-menu-content').css('top', topBarPosition.top + topBarHeight);
+	//$('.mega-menu-content').css('top', topBarHeight);
 	$('.mega-menu-content').css('left', topBarPosition.left + topBarMarginLeft);
 	// 191217, dwildt, 2+
 	var topBarWidth = $('nav.top-bar').width();

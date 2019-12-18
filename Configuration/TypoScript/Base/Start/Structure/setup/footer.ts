@@ -261,16 +261,16 @@ start {
 								data = levelfield:-1, tx_start_phonelabel, slide
 							}
 						}
-							// p:
-						10 = TEXT
-						10 {
-							value = phone
-							lang {
-								de = Tel.
-								en = phone
-							}
-							noTrimWrap = ||: |
-						}
+#							// p:
+#						10 = TEXT
+#						10 {
+#							value = phone
+#							lang {
+#								de = Tel.
+#								en = phone
+#							}
+#							noTrimWrap = ||: |
+#						}
 							// <a href="tel:{field:tx_start_phone}">
 						20 = TEXT
 						20 {
