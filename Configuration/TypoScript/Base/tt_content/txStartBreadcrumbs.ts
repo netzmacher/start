@@ -30,10 +30,11 @@ tt_content.txStartBreadcrumbs {
 				}
 				negate = 1
 			}
+			entryLevel = {$start.navigation.entryLevel}
       special = rootline
       special {
         range = {$start.foundation.breadcrumbs.special.range}
-				range = 0|-1
+				//range = 0|-1
       }
       includeNotInMenu = {$start.foundation.breadcrumbs.includeNotInMenu}
 		}
