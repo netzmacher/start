@@ -27,6 +27,7 @@ tt_content.txStartTopNav {
 				}
 			}
 			levels = 6
+			expandAll = 1
 			includeSpacer = 1
 			dataProcessing {
 				10 = TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
