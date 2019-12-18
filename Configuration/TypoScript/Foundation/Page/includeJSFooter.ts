@@ -54,6 +54,7 @@ page {
     startJQueryCookie {
 			if < start.rules.newsletterModal 
     }
+    startMegamenu = {$start.foundation.files.javascript.megamenu}
 			// true, if page newslettersubscription is set (here: {$start.pages.newslettersubscription}) AND if newsletter popup (modal) is enabled (here: {$start.foundation.newsletter.modalEnabled})
     startNewsletterModal = {$start.foundation.files.javascript.newsletterModal}
     startNewsletterModal {

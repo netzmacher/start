@@ -57,6 +57,8 @@ $temporaryColumns = array(
 						'type' => 'group',
 						'internal_type' => 'db',
 						'allowed' => 'pages',
+						'maxitems' => '1',
+						'size' => '1',
 				)
 		),
 		'tx_start_phone' => array(

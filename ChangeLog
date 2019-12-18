@@ -22,15 +22,23 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						@ https://docs.typo3.org/m/typo3/tutorial-typoscript-in-45-minutes/master/en-us/CreateAMenu/Index.html
 						@ https://docs.typo3.org/m/typo3/tutorial-sitepackage/master/en-us/MainMenuCreation/Index.html
 						@ https://docs.typo3.org/c/typo3/cms-core/master/en-us/Changelog/8.5/Feature-78672-IntroduceFluidDataProcessorForMenus.html
-	* #t4041.04:	4/4: pages with extended field: tx_start_megamenu
+	* #t4041.05:	5/5: integration of the megamenu into foundation top navigation
+								New files:
+								* /opt/typo3/extensions/start/Resources/Public/JavaScript/Libs/start/megamenu.js
+								* /opt/typo3/extensions/start/Resources/Private/Templates/foundation-5.5.3/Partials/Navigation/Elements/LIItemWiMegamenu.html
+								* /opt/typo3/extensions/start/Configuration/TypoScript/Base/Start/Lib/megamenu.ts
+								Affected files:
+	* #t4041.04:	4/5: pages with extended field: tx_start_megamenu
 								Affected files:
 								* /opt/typo3/extensions/start/Configuration/TCA/Overrides/de.pages.xlf
 								* /opt/typo3/extensions/start/Configuration/TCA/Overrides/pages.xlf
 								* /opt/typo3/extensions/start/Configuration/TCA/Overrides/7.6/pages.php
 								* /opt/typo3/extensions/start/Configuration/TCA/Overrides/Default/pages.php
+								* /opt/typo3/extensions/start/Configuration/TypoScript/Development/jsNotMinified/constants/start/foundation/files/javascript.ts
+								* /opt/typo3/extensions/start/Configuration/TypoScript/Foundation/Page/includeJSFooter.ts
 								* /opt/typo3/extensions/start/ext_localconf.php
 								* /opt/typo3/extensions/start/ext_tables.sql
-	* #t4041.03:	3/4: Fluidtemplates for menues: Here: additional fluid templates for the foundation top navigation
+	* #t4041.03:	3/5: Fluidtemplates for menues: Here: additional fluid templates for the foundation top navigation
 								New files:
 								* Configuration/TypoScript/Base
 									* tt_content/txStartTopNav.ts
@@ -45,7 +53,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 										* tt_content/_default.php
 									* TSconfig/mod/wizards/newContentElement/wizardItems/menu/Default/menu.ts
 									* TypoScript/Base/tt_content/_setup.ts
-	* #t4041.02:	2/4: Fluidtemplates for menues: Here: additional fluid templates for the foundation sub navigation
+	* #t4041.02:	2/5: Fluidtemplates for menues: Here: additional fluid templates for the foundation sub navigation
 								New files:
 								* Configuration/TypoScript/Base
 									* Page/Page/constants/view/navigation/view.ts
@@ -65,7 +73,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 										* tt_content/_default.php
 									* TSconfig/mod/wizards/newContentElement/wizardItems/menu/Default/menu.ts
 
-	* #t4041.01:	1/4: Fluidtemplates for menues. Here: clean up structure for additional fluid templates
+	* #t4041.01:	1/5: Fluidtemplates for menues. Here: clean up structure for additional fluid templates
 								-------
 								TASK 01
 								-------

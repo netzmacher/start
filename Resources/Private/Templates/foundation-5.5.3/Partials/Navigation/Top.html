@@ -2,16 +2,14 @@
 
 	<f:if condition="{menu}">
 		<f:for each="{menu}" as="mainItem" iteration="mainIterator">
-			<f:if condition="{mainItem.data.uid}==588">
+			<f:if condition="{mainItem.data.tx_start_megamenu}">
 				<f:then>
 					<f:if condition="{mainItem.children}">
 						<f:then>
 							<f:render partial="Elements/LIItemWiSub" arguments="{item: mainItem, mainIterator: mainIterator}"/>
 							<f:render section="submenu" arguments="{submenu: mainItem.children}"/>
 							</li>
-        <li class="show-for-large-up has-dropdown megaMenu">
-          <a href="#" data-dropdown="mega-menu-1">Main Item 1</a>
-        </li>
+							<f:render partial="Elements/LIItemWiMegamenu" arguments="{item: mainItem, mainIterator: mainIterator}"/>
 						</f:then>
 						<f:else>
 							<f:render partial="Elements/LIItem" arguments="{item: mainItem, mainIterator: mainIterator}"/>
@@ -50,6 +48,7 @@
 
 <f:section name="debug">
 <f:render section="debug" arguments="{item: item}"/>	
+	<f:debug>{mainItem.data.tx_start_megamenu}</f:debug>
 	<f:debug>{mainItem.data.uid}</f:debug>
 	<f:debug>{item}</f:debug>
 </f:section>

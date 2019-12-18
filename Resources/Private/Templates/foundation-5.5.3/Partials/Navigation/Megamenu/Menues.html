@@ -1,0 +1,22 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+			data-namespace-typo3-fluid="true">
+
+	<f:if condition="{menu}">
+		<div class="show-for-large-up">
+			<f:for each="{menu}" as="mainItem" iteration="mainIterator">
+				<f:if condition="{mainItem.data.tx_start_megamenu}">
+					<div id="mega-menu-{mainItem.data.uid}" class="mega-menu-content hide">
+						<div class="row">
+							<div class="columns">
+								<f:cObject typoscriptObjectPath="start.lib.megamenu" data="{mainItem.data}" />
+							</div>
+						</div>
+					</div>
+				</f:if>
+			</f:for>
+		</div>
+	</f:if>
+
+	<!-- Mega Menu Content Blocks -->
+
+</html>
