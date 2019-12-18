@@ -1,5 +1,18 @@
 tt_content.txStartBreadcrumbs = FLUIDTEMPLATE
 tt_content.txStartBreadcrumbs {
+		// if rootpage uid isn't current page uid
+	if =
+	if {
+		value {
+				// rootpage uid
+			data = leveluid:{$start.navigation.entryLevel}
+		}
+		equals {
+				// current page uid
+			data = page:uid
+		}
+		negate = 1
+	}
 	templateName = Breadcrumbs
 	templateRootPaths {
 		10 = EXT:fluid_styled_content/Resources/Private/Templates/
