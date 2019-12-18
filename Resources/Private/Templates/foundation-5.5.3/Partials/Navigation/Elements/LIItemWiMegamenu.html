@@ -1,7 +1,7 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"	data-namespace-typo3-fluid="true">
 
-<li class="show-for-large-up has-dropdown megaMenu">
-	<a href="#" data-dropdown="mega-menu-{item.data.uid}">{item.title}</a>
-</li>
+	<li class="show-for-large-up has-dropdown megaMenu">
+		<f:render partial="Elements/LinkMegamenu" arguments="{item: item}"/>
+	</li>
 
 </html>

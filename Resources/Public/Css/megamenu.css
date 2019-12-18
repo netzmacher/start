@@ -1,7 +1,9 @@
 #startBox01 div.mega-menu-content {
 	background: #FFF;
-	display:none;
 	z-index: 999;
+  -webkit-box-shadow: 0 10px 20px -20px black;
+  -moz-box-shadow: 0 10px 20px -20px black;
+  box-shadow: 0 10px 20px -20px black;
 }
 #startBox01 div.mega-menu-content > .row {
 	margin:0;
