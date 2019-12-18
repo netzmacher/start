@@ -2,6 +2,7 @@
 			data-namespace-typo3-fluid="true">
 
 	<f:if condition="{menu}">
+		<!-- Mega Menu Content Blocks -->
 		<div class="show-for-large-up">
 			<f:for each="{menu}" as="mainItem" iteration="mainIterator">
 				<f:if condition="{mainItem.data.tx_start_megamenu}">
@@ -15,8 +16,7 @@
 				</f:if>
 			</f:for>
 		</div>
+		<!-- Mega Menu Content Blocks -->
 	</f:if>
-
-	<!-- Mega Menu Content Blocks -->
 
 </html>

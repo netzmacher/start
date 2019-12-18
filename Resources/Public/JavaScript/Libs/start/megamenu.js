@@ -1,19 +1,23 @@
 $('li.has-dropdown.megaMenu a').mouseover(function () {
 	var selectedMegaMenuElement = $(this).attr('data-dropdown');
-	$('#' + selectedMegaMenuElement).removeClass('hide').addClass('show');
+	//$('#' + selectedMegaMenuElement).removeClass('hide').addClass('show');
+	$('#' + selectedMegaMenuElement).show(0);
 	//var topBarPosition = $('nav.top-bar').position();
 	//var topBarWidth = $('nav.top-bar').width();
 	//alert("TOP: " + topBarPosition.top + "   Left: " + topBarPosition.left + "   Width: " + topBarWidth);
 	return;
 });
 $('li.has-dropdown.megaMenu a').mouseleave(function () {
-	$('.mega-menu-content').removeClass('show').addClass('hide');
+	//$('.mega-menu-content').removeClass('show').addClass('hide');
+	$('.mega-menu-content').hide(0);
 });
 $('.mega-menu-content').mouseenter(function () {
-	$(this).removeClass('hide').addClass('show');
+	//$(this).removeClass('hide').addClass('show');
+	$(this).show(0);
 });
 $('.mega-menu-content').mouseleave(function () {
-	$('.mega-menu-content').removeClass('show').addClass('hide');
+	//$('.mega-menu-content').removeClass('show').addClass('hide');
+	$('.mega-menu-content').hide(0);
 });
 // Position the Mega dropdowns
 $(window).on("load resize scroll", function (e) {

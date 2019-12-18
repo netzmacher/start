@@ -18,8 +18,10 @@ page {
 			}
 		}
     startDataCeColumns	= {$start.foundation.files.css.dataCeColumns}
+    startMegamenu				= {$start.foundation.files.css.megamenu}
 		// #i0224, 190404, dwildt
 		//startRteCodesnippet = EXT:start/Resources/Public/CKeditor/4.11.3/Plugins/codesnippet/lib/highlight/styles/default.css
+    startPowermail			= {$start.foundation.files.css.powermail}
     startTxnews					= EXT:start/Resources/Public/Css/Extensions/tx_news.css
   }
 }
@@ -43,6 +45,7 @@ startPrint {
 				isTrue = {$start.css.a.wiIcon}
 			}
 		}
+    startMegamenu		= {$start.foundation.files.css.megamenu}
     startPowermail	= {$start.foundation.files.css.powermail}
     startTxnews			= EXT:start/Resources/Public/Css/Extensions/tx_news.css
   }

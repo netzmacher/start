@@ -26,22 +26,29 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 								New files:
 								* Configuration/TypoScript/Base/Start/Lib/megamenu.ts
 								* Resources
-									* Public/JavaScript/Libs/start/megamenu.js
+									* Public
+										* Css/megamenu.css
+										* JavaScript/Libs/start/megamenu.js
 									* Private/Templates/foundation-5.5.3/Partials/Navigation
 										* Elements/LIItemWiMegamenu.html
 										* Megamenu/Menues.html
 								Affected files:
+								* /opt/typo3/extensions/start/Configuration/TypoScript/Foundation/Start/Constants/Foundation/filescss.ts
+								* /opt/typo3/extensions/start/Configuration/TypoScript/Development/cssNotMinified/constants/start/foundation/filescss.ts
 								* Resources/Private/Templates/foundation-5.5.3
 									* Partials/Navigation/Top.html
 									* Templates/Navigation/Top.html
 	* #t4041.04:	4/5: pages with extended field: tx_start_megamenu
 								Affected files:
-								* Configuration/TCA/Overrides/de.pages.xlf
-								* Configuration/TCA/Overrides/pages.xlf
-								* Configuration/TCA/Overrides/7.6/pages.php
-								* Configuration/TCA/Overrides/Default/pages.php
-								* Configuration/TypoScript/Development/jsNotMinified/constants/start/foundation/files/javascript.ts
-								* Configuration/TypoScript/Foundation/Page/includeJSFooter.ts
+								* Configuration
+									* TCA/Overrides
+										* de.pages.xlf
+										* pages.xlf
+										* 7.6/pages.php
+										* Default/pages.php
+									* TypoScript
+										* Development/jsNotMinified/constants/start/foundation/files/javascript.ts
+										* Foundation/Page/includeJSFooter.ts
 								* ext_localconf.php
 								* ext_tables.sql
 	* #t4041.03:	3/5: Fluidtemplates for menues: Here: additional fluid templates for the foundation top navigation
