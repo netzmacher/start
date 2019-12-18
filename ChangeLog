@@ -19,6 +19,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 								* tt_content.xlf
 								* tt_content/_default.php
 							* TSconfig/mod/wizards/newContentElement/wizardItems/menu/Default/menu.ts
+						* Resources/Public/Css/basic.css
 	* #i0291: pages with extended field: tx_start_phone, tx_start_phonelabel
 						Affected files:
 						* Configuration
