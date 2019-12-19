@@ -4,10 +4,18 @@
 		<f:for each="{menu}" as="mainItem">
 			<f:if condition="{mainItem.data.tx_start_megamenu}">
 				<f:then>
-					<f:render partial="Elements/LIItemWiSub" arguments="{item: mainItem}"/>
-					<f:render section="submenu" arguments="{submenu: mainItem.children}"/>
-					</li>
-					<f:render partial="Elements/LIItemWiMegamenu" arguments="{item: mainItem}"/>
+					<f:if condition="{mainItem.children}">
+						<f:then>
+							<f:render partial="Elements/LIItemWiSub" arguments="{item: mainItem}"/>
+							<f:render section="submenu" arguments="{submenu: mainItem.children}"/>
+							</li>
+							<f:render partial="Elements/LIItemWiMegamenu" arguments="{item: mainItem}"/>
+						</f:then>
+						<f:else>
+							<f:render partial="Elements/LIItem" arguments="{item: mainItem}"/>
+							</li>
+						</f:else>
+					</f:if>
 				</f:then>
 				<f:else>
 					<f:if condition="{mainItem.children}">
@@ -45,10 +53,10 @@
 		</ul>
 	</f:section>
 
-	<f:section name="debug">
-		<f:render section="debug" arguments="{item: item}"/>	
-		<f:debug>{mainItem.data.tx_start_megamenu}</f:debug>
-		<f:debug>{mainItem.data.uid}</f:debug>
-		<f:debug>{item}</f:debug>
-	</f:section>
+<f:section name="debug">
+<f:render section="debug" arguments="{item: item}"/>	
+	<f:debug>{mainItem.data.tx_start_megamenu}</f:debug>
+	<f:debug>{mainItem.data.uid}</f:debug>
+	<f:debug>{item}</f:debug>
+</f:section>
 </html>

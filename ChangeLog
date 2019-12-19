@@ -2,6 +2,13 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+5.4.1
+	19-12-19
+  Improvement
+	* #i0293: Don't limit megamenu for menues with sub menues
+						Affected file:
+						* Resources/Private/Templates/foundation-5.5.3/Partials/Navigation/Top.html
+
 5.4.0
 	19-12-17
   Features
