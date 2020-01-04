@@ -4,9 +4,14 @@
     <header/>
     <body>
 
-      <trans-unit id="layout.startPageRoot">
+      <trans-unit id="layout.start.11">
         <source>Start: home</source>
         <target>Start: Home</target>
+      </trans-unit>
+
+      <trans-unit id="layout.start.21">
+        <source>Start: transparent content area</source>
+        <target>Start: transparenter Inhaltsbereich</target>
       </trans-unit>
 
     </body>

@@ -2,6 +2,23 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+5.4.2
+	20-01-04
+  Feature
+	* #i0294: Additional page layout: transparent area (21)
+						Affected files:
+						* Configuration/TCA/Overrides/Default
+							* de.pages.xlf
+							* pages.php
+							* pages.xlf
+						* Resources/Public/Css/basic.css
+  Improvement
+	* #i0295: Social media icons becomes a start.lib
+						New file:
+						* Configuration/TypoScript/Base/Start/Lib/socialmedia.ts
+						Affected file:
+						* Configuration/TypoScript/Foundation/Start/Structure/site.ts
+
 5.4.1
 	19-12-19
   Improvement

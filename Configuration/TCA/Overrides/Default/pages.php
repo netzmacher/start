@@ -264,8 +264,22 @@ ExtensionManagementUtility::registerPageTSConfigFile(
 				'start', 'Configuration/TSconfig/Page/RTE/StartWiExternalPlugin.ts', 'Start [1.0.0] RTE with additional plugins' );
 
 $item = [
-		'LLL:EXT:start/Configuration/TCA/Overrides/Default/pages.xlf:layout.startPageRoot'
+		'LLL:EXT:start/Configuration/TCA/Overrides/Default/pages.xlf:layout.start.11'
 		, '11'
+		, ''
+];
+
+ExtensionManagementUtility::addTcaSelectItem(
+				'pages'
+				, 'layout'
+				, $item
+				, ''
+				, ''
+);
+
+$item = [
+		'LLL:EXT:start/Configuration/TCA/Overrides/Default/pages.xlf:layout.start.21'
+		, '21'
 		, ''
 ];
 

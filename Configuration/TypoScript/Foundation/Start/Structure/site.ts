@@ -134,8 +134,9 @@ start {
 						}
 					}
 						// social media links
-					20 = COA
-					20 {
+					20 < start.lib.socialmedia
+					x20 = COA
+					x20 {
 							// facebook
 						10 = TEXT
 						10 {
