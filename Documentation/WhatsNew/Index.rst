@@ -72,6 +72,12 @@ Maybe **you MUST adapt your CSS** code.
 
 
 
+Mega-Menü
+'''''''''
+
+* :ref:`Mega-Menu <users_bestpractice_navigation_megamenu>`
+
+
 Module > Web: Start TYPO3
 '''''''''''''''''''''''''
 

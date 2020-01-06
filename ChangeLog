@@ -18,6 +18,10 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						* Configuration/TypoScript/Base/Start/Lib/socialmedia.ts
 						Affected file:
 						* Configuration/TypoScript/Foundation/Start/Structure/site.ts
+  Manual
+	* #i0296: Documentation of the new feature mega-menu.
+						New file:
+						* /opt/typo3/extensions/start/Documentation/Users/BestPractice/Navigation/Megamenu/Index.rst
 
 5.4.1
 	19-12-19

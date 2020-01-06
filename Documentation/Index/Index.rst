@@ -164,7 +164,17 @@ L
 M
 -
 
+* :ref:`Mega-Menu <users_bestpractice_navigation_megamenu>`
+
 * :ref:`Module <administrators_setup_extensionmanager_modul>`
+
+
+N
+-
+
+* Navigation
+  
+	* :ref:`Mega-Menu <users_bestpractice_navigation_megamenu>`
 
 
 P

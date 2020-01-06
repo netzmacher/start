@@ -63,3 +63,12 @@ Some properties are controlled by the Constant Editor. See categories:
 - START - FOUNDATION - ...
 
 You need administrator access.
+
+
+**Table of Contents**
+
+.. toctree::
+    :maxdepth: 2
+    :titlesonly:
+
+    Megamenu/Index
