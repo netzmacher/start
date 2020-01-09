@@ -52,7 +52,6 @@ $temporaryColumns = array(
 		),
 		'tx_start_megamenu' => array(
 				'exclude' => 0,
-				'l10n_mode' => 'exclude',
 				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_megamenu',
 				'config' => array(
 						'type' => 'group',
