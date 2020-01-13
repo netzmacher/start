@@ -17,6 +17,9 @@ page {
         classColMainContentTopRight     = small-12 medium-4 large-4
         classColMainContentMain         = small-12
         classRow												= {$start.foundation.grid.class.row}
+        classRowPlusTop									= {$start.foundation.grid.class.rowPlusTop}
+        classRowPlusMain								= {$start.foundation.grid.class.rowPlusMain}
+        classRowPlusBottom							= {$start.foundation.grid.class.rowPlusBottom}
       }
     }
       // Three rows: header (left | center | right) | content | bottom (left | center | right)
@@ -34,6 +37,9 @@ page {
         classColMainContentBottomCenter = small-12 medium-4 large-4
         classColMainContentBottomRight  = small-12 medium-4 large-4
         classRow												= {$start.foundation.grid.class.row}
+        classRowPlusTop									= {$start.foundation.grid.class.rowPlusTop}
+        classRowPlusMain								= {$start.foundation.grid.class.rowPlusMain}
+        classRowPlusBottom							= {$start.foundation.grid.class.rowPlusBottom}
       }
     }
       // Two rows: content | bottom (left | center | right)
@@ -48,6 +54,9 @@ page {
         classColMainContentBottomCenter = small-12 medium-4 large-4
         classColMainContentBottomRight  = small-12 medium-4 large-4
         classRow												= {$start.foundation.grid.class.row}
+        classRowPlusTop									= {$start.foundation.grid.class.rowPlusTop}
+        classRowPlusMain								= {$start.foundation.grid.class.rowPlusMain}
+        classRowPlusBottom							= {$start.foundation.grid.class.rowPlusBottom}
       }
     }
       // Five rows: header || top || content || bottom || footer

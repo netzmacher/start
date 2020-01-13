@@ -2,6 +2,27 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+5.4.3
+	20-01-13
+  Improvement
+	* #i0298: Some templates didn't have the settings.classRowPlus*
+						Affected files:
+						* Configuration/TypoScript/Base/Page/Page/63148
+							* bronze.ts
+							* silver.ts
+						* Resources/Private/Templates/foundation-5.5.3/Templates/Be_layout
+							* bronze_01.html                                                                                                                                       
+							* bronze_02.html                                                                                                                                       
+							* bronze_03.html                                                                                                                                       
+							* bronze_04.html
+							* silver_01.html
+							* silver_02.html
+							* silver_03.html
+	* #i0297: Top-bar / main menu items without title property
+						Affected files:
+						* Configuration/TypoScript/Base/Start/Lib/topbar.ts
+						* Resources/Private/Templates/foundation-5.5.3/Partials/Navigation/Elements/Link.html
+
 5.4.2
 	20-01-04
   Feature
@@ -21,7 +42,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
   Manual
 	* #i0296: Documentation of the new feature mega-menu.
 						New file:
-						* /opt/typo3/extensions/start/Documentation/Users/BestPractice/Navigation/Megamenu/Index.rst
+						* Documentation/Users/BestPractice/Navigation/Megamenu/Index.rst
 
 5.4.1
 	19-12-19

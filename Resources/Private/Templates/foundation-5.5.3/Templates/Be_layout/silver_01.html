@@ -1,7 +1,7 @@
 <f:layout name="silver" />
 <f:section name="content">
   <div id="maincontent" class="maincontent">
-    <div class="{settings.classRow} top">
+    <div class="{settings.classRow} {settings.classRowPlusTop}">
       <div class="{settings.classColMainContentTopLeft} {settings.classCell} left">
         <f:cObject typoscriptObjectPath="start.structure.content.topLeft" />
       </div>
@@ -12,7 +12,7 @@
         <f:cObject typoscriptObjectPath="start.structure.content.topRight" />
       </div>
     </div>
-    <div class="{settings.classRow} main">
+    <div class="{settings.classRow} {settings.classRowPlusMain}">
       <div class="{settings.classColMainContentMain} {settings.classCell} maincontentmain main">
         <!--content-->
         <f:cObject typoscriptObjectPath="start.structure.content.main" />

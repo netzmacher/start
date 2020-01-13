@@ -141,9 +141,10 @@ start {
 						}
 						NO = 1
 						NO {
-							ATagTitle {
-								field = abstract // description // subtitle // keywords // title
-							}
+							// #i0297, 201013, dwildt, 3-
+#							ATagTitle {
+#								field = abstract // description // subtitle // keywords // title
+#							}
 							allWrap = <li class="divider divider-first"></li><li class="page-{elementUid} first">|</li><li class="divider"></li> |*| <li class="page-{elementUid}">|</li><li class="divider"></li> |*| <li class="page-{elementUid} last">|</li><li class="divider divider-last"></li>
 							subst_elementUid = 1
 							ATagParams {

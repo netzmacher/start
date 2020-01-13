@@ -27,6 +27,9 @@ page {
         classCell								= {$start.foundation.grid.class.cell}
         classColMainContentMain =
         classRow								= {$start.foundation.grid.class.row}
+        classRowPlusTop					= {$start.foundation.grid.class.rowPlusTop}
+        classRowPlusMain				= {$start.foundation.grid.class.rowPlusMain}
+        classRowPlusBottom			= {$start.foundation.grid.class.rowPlusBottom}
       }
 				// wrap = <!--[if lt IE 9]> ...
       stdWrap =
