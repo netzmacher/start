@@ -2,26 +2,23 @@ plugin.tx_powermail {
     // empty statement for proper comments only
   settings {      
   }
-    // setup.dbEntry.10._table = tt_address
+    // setup.dbEntry.20._table = tt_address
   settings =
   settings {
       // empty statement for proper comments only
     setup {      
     }
-      // dbEntry.10._table = tt_address
+      // dbEntry.20._table = tt_address
     setup =
     setup {
+      dbEntry >
         // empty statement for proper comments only
       dbEntry {      
       }
-        // 10._table = tt_address
+        // 20._table = tt_address
       dbEntry =
       dbEntry {
-        1 >
-        2 >
-        3 >
-        4 >
-        10 {
+        20 {
 						// Enable db entry for table tt_address, if tx_powermail_pi1[action] is optinConfirm
           _enable = TEXT
           _enable {
@@ -43,6 +40,9 @@ plugin.tx_powermail {
                   # none: no entry if field is filled (do nothing if record already exists)
           _ifUnique =
           _ifUnique.email = update
+					# optional: add additional where clause (only in mode "update") for search if a record still exists. 
+					# You could use a plain string (see example below) or a cObject if needed
+					_ifUniqueWhereClause = AND pid = {$plugin.org.extensions.tt_address.subscribe.pid}
 
 	          // value = 1
           deleted = TEXT
