@@ -2,6 +2,13 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+5.4.4
+	20-01-28
+  Bugfix
+	* #i0299: Unsubscription doesn't work
+						Affected files:
+						* /opt/typo3/extensions/start/Configuration/ExtTables/Default.php
+
 5.4.3
 	20-01-13
   Improvement
