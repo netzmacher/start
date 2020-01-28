@@ -7,7 +7,11 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
   Bugfix
 	* #i0299: Unsubscription doesn't work
 						Affected files:
-						* /opt/typo3/extensions/start/Configuration/ExtTables/Default.php
+						* Configuration
+							* ExtTables/Default.php
+							* TypoScript/Extensions/direct_mail
+								* subscribe/plugin/powermail/setup.ts
+								* unsubscribe/plugin/powermail/setup.ts
 
 5.4.3
 	20-01-13
