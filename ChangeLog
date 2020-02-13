@@ -2,6 +2,13 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+5.4.5
+	20-02-13
+  Bugfix
+	* #i0300: Isn't needed any longer: start.lib.bootstrap.divAdditionalClass 
+						Affected file:
+						* 
+
 5.4.4
 	20-01-28
   Bugfix

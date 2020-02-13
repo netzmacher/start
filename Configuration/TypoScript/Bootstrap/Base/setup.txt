@@ -1,2 +1,3 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Bootstrap/Base/lib/_setup.ts">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Bootstrap/Base/start/_setup.ts">
+	// #i0300, 200213, dwildt, -
+//<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TypoScript/Bootstrap/Base/start/_setup.ts">

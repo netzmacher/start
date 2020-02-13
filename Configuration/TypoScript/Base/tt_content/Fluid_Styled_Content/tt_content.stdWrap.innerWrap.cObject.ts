@@ -118,7 +118,7 @@ tt_content {
 							// >|</div>
 						30 = TEXT
 						30 {
-							value = ><!-- div-wrap by start - begin -->|<!-- div-wrap by start - end --></div>
+							value = ><!-- div-wrap by start - begin //-->|<!-- div-wrap by start - end //--></div>
 						}
 					}
 						// negate if.isTrue.data = register:class: |
