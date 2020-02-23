@@ -60,7 +60,7 @@ if( TYPO3_MODE === 'BE' )
 		case($typo3Version < 9000000):
 		case($typo3Version >= 9000000):
 		default:
-			if( !Netzmacher\Start\Backend\Extensions\Extensionmanager::getProperty( 'tcaPagesDisabled' ) )
+			if( !Netzmacher\Start\Backend\Extensions\Extensionmanager::getProperty( 'modulDisabled' ) )
 			{
 				\TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerModule(
 								'Netzmacher.Start', 'web', // Make module a submodule of 'web'

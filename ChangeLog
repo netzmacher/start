@@ -3,11 +3,18 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
 5.4.5
-	20-02-13
+	20-02-15
+  Improvement
+	* #i0302: CSS clearing thumbs
+						Affected file:
+						* Resources/Public/Css/app.css
   Bugfix
+	* #i0301: Extension manager: modul.modulDisabled hasn't any effect
+						Affected files:
+						* ext_tables.php
 	* #i0300: Isn't needed any longer: start.lib.bootstrap.divAdditionalClass 
 						Affected file:
-						* 
+						* Configuration/TypoScript/Bootstrap/Base/start/lib/bootstrap.ts
 
 5.4.4
 	20-01-28

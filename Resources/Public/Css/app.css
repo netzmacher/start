@@ -1821,7 +1821,9 @@ select {
   display: block;
   float: left;
   height: auto;
-  padding: 0 0.625rem 1.25rem;
+	/* #i0302, 200223, dwildt, 1- + */
+  /*padding: 0 0.625rem 1.25rem;*/
+	padding: 0 0.25rem 1.25rem 0;
 }
 
 @media only screen {
