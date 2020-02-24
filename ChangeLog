@@ -5,6 +5,9 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 5.4.5
 	20-02-23
 	Feature
+	* #i0305: New CSS classes: startBackgroundFixed, startBackgroundScroll.
+						Affected files:
+						* Same as :ref: #i0304
 	* #i0304: New CSS class: startWiMarginAuto. For centering a box
 						Affected files:
 						* Configuration
