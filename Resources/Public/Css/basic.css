@@ -54,6 +54,14 @@ body {
 	clear: both;
 }
 
+#startBox01 .startBackgroundFixed,
+#startBox01 .startBackgroundFixed > div {
+	background-attachment: fixed;
+}
+#startBox01 .startBackgroundScroll,
+#startBox01 .startBackgroundScroll > div {
+	background-attachment: scroll;
+}
 #startBox01 .startBackgroundWhite {
 	color: #0A321E;
   background: #FFFFFF;

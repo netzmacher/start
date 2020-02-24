@@ -100,6 +100,14 @@
         <source>--- Start: Margins -------------------------------------</source>
         <target>--- Start: Ränder --------------------------------------</target>
       </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startBackgroundFixed">
+        <source>Background: fixed (startBackgroundFixed)</source>
+        <target>Hintergrund: fixiert (startBackgroundFixed)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startBackgroundScroll">
+        <source>Background: scroll (startBackgroundScroll)</source>
+        <target>Hintergrund: mitrollend (startBackgroundScroll)</target>
+      </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startBackgroundWhite">
         <source>Background: white (startBackgroundWhite)</source>
         <target>Hintergrund: weiß (startBackgroundWhite)</target>

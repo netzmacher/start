@@ -117,6 +117,14 @@ $temporaryColumns = [
 										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startBackgroundWhite',
 										'1' => 'startBackgroundWhite',
 								],
+								'startBackgroundFixed' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/7.6/tt_content.xlf:tx_start_additionalclassdefined.startBackgroundFixed',
+										'1' => 'startBackgroundFixed',
+								),
+								'startBackgroundScroll' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/7.6/tt_content.xlf:tx_start_additionalclassdefined.startBackgroundScroll',
+										'1' => 'startBackgroundScroll',
+								),
 								'startDivFonts' => [
 										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startDiv',
 										'1' => '--div--',
