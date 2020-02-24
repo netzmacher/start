@@ -43,8 +43,14 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
   Improvement
 	* #i0306: Simplify EXT:start for using individual fluid templates
 						Affected files:
-						* Configuration/TypoScript/Base/Page/Page/63148/*.ts
+						* Configuration/TypoScript/Base
+							* Page/Page/63148/*.ts
+							* tt_content
+								* txStartBreadcrumbs.ts
+								* txStartSubNav.ts
+								* txStartTopNav.ts
 						* Resources/Private/Templates/foundation-5.5.3/Templates/Be_layout/*.html
+
 	* #t4505: Single view: Grid layouts depending on the image position
 						* figcaption got witdh from the image
 						Affected file:
