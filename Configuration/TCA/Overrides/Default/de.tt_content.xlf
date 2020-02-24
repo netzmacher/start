@@ -280,6 +280,10 @@
         <source>Width: 112.5rem (startWidth1125)</source>
         <target>Breite: 112.5rem (startWidth1125)</target>
       </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWiMarginAuto">
+        <source>Margin: auto/centered (startWiMarginAuto)</source>
+        <target>Ränder: automatisch/zentriert (startWiMarginAuto)</target>
+      </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startWiMarginDefault">
         <source>Margin: default (startWiMarginDefault)</source>
         <target>Ränder: Standard (startWiMarginDefault)</target>

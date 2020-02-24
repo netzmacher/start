@@ -221,6 +221,10 @@ body {
 	text-align: right;
 }
 
+#startBox01 .startWiMarginAuto {
+  margin-left: auto;
+  margin-right: auto;
+}
 #startBox01 .startWiMarginDefault {
   /*padding: 0.9375rem 0.9375rem 0.2rem 0.9375rem;*/
   padding: 0.9375rem 0.9375rem 0.2rem 0.9375rem;

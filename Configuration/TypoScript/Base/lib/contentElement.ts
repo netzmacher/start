@@ -16,13 +16,13 @@ lib {
 			// start: 177 (clearingthumbs)
 		templateRootPaths =
 		templateRootPaths {
-				// if.isTrue = {$start.templates.image.foundation.clearingthumbs}: EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Templates/
+				// if.isTrue = {start.templates.image.foundation.clearingthumbs} (here: {$start.templates.image.foundation.clearingthumbs}): EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Templates/
 			177 = 
 			177 {
-					// if.isTrue = {$start.templates.image.foundation.clearingthumbs}
+					// if.isTrue = {start.templates.image.foundation.clearingthumbs} (here: {$start.templates.image.foundation.clearingthumbs})
 				cObject = TEXT
 				cObject {
-						// isTrue = {$start.templates.image.foundation.clearingthumbs}
+						// isTrue = {start.templates.image.foundation.clearingthumbs} (here: {$start.templates.image.foundation.clearingthumbs})
 					if =
 					if {
 						isTrue = {$start.templates.image.foundation.clearingthumbs}
@@ -37,13 +37,13 @@ lib {
 			// start: 177 (clearingthumbs)
 		partialRootPaths =
 		partialRootPaths {
-				// if.isTrue = {$start.templates.image.foundation.clearingthumbs}: EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Partials/
+				// if.isTrue = {start.templates.image.foundation.clearingthumbs} (here: {$start.templates.image.foundation.clearingthumbs}): EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Partials/
 			177 = 
 			177 {
-					// if.isTrue = {$start.templates.image.foundation.clearingthumbs}
+					// if.isTrue = {start.templates.image.foundation.clearingthumbs} (here: {$start.templates.image.foundation.clearingthumbs})
 				cObject = TEXT
 				cObject {
-						// isTrue = {$start.templates.image.foundation.clearingthumbs}
+						// isTrue = {start.templates.image.foundation.clearingthumbs} (here: {$start.templates.image.foundation.clearingthumbs})
 					if =
 					if {
 						isTrue = {$start.templates.image.foundation.clearingthumbs}
@@ -58,13 +58,13 @@ lib {
 			// start: 177 (clearingthumbs)
 		layoutRootPaths =
 		layoutRootPaths {
-				// if.isTrue = {$start.templates.image.foundation.clearingthumbs}: EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Layout/
+				// if.isTrue = {start.templates.image.foundation.clearingthumbs} (here: {$start.templates.image.foundation.clearingthumbs}): EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Layout/
 			177 = 
 			177 {
-					// if.isTrue = {$start.templates.image.foundation.clearingthumbs}
+					// if.isTrue = {start.templates.image.foundation.clearingthumbs} (here: {$start.templates.image.foundation.clearingthumbs})
 				cObject = TEXT
 				cObject {
-						// isTrue = {$start.templates.image.foundation.clearingthumbs}
+						// isTrue = {start.templates.image.foundation.clearingthumbs} (here: {$start.templates.image.foundation.clearingthumbs})
 					if =
 					if {
 						isTrue = {$start.templates.image.foundation.clearingthumbs}

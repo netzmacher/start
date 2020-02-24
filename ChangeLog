@@ -3,8 +3,30 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
 5.4.5
-	20-02-15
+	20-02-23
+	Feature
+	* #i0303: New CSS class: startWiMarginAuto. For centering a box
+						Affected files:
+						* Configuration
+							* TCA/Overrides
+								* 7.6
+									* de.tt_content.xlf
+									* tt_content.php
+									* tt_content.xlf
+								* Default
+									* de.tt_content.xlf
+									* tt_content.php
+									* tt_content.xlf
+							* TypoScript/Base/lib/contentElement.ts
+						* Resources/Public/Css
+							* basic.css
+							* basic.min.css
+
   Improvement
+	* #t4505: Single view: Grid layouts depending on the image position
+						* figcaption got witdh from the image
+						Affected file:
+						* Resources/Private/Templates/FluidStyledContent/Foundation/Partials/Media/Type/Image177.html
 	* #i0302: CSS clearing thumbs
 						Affected file:
 						* Resources/Public/Css/app.css

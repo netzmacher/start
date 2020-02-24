@@ -217,6 +217,10 @@ $temporaryColumns = [
 //						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startWoMarginBottom',
 //								'1' => 'startWoMarginBottom',
 //						],
+								'startWiMarginAuto' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startWiMarginAuto',
+										'1' => 'startWiMarginAuto',
+								),
 								'startWiMarginDefault' => [
 										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startWiMarginDefault',
 										'1' => 'startWiMarginDefault',
