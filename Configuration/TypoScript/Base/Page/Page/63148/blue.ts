@@ -8,17 +8,25 @@ page {
       // top | MAIN | bottom
     start__blue_01 = FLUIDTEMPLATE
     start__blue_01 {
-      file = {$start.fluid.path.be_layout.templates}blue_01.html
-			  // 10 = {$start.fluid.path.be_layout.layouts}
+			templateName = Blue_01
+				// 10 = EXT:start/Resources/Private/Templates/foundation-5.5.3/Layouts/Be_layout/, 20 = {$start.fluid.path.be_layout.layouts}
       layoutRootPaths = 
 			layoutRootPaths {
-				10 = {$start.fluid.path.be_layout.layouts}
+				10 = EXT:start/Resources/Private/Templates/foundation-5.5.3/Layouts/Be_layout/
+				20 = {$start.fluid.path.be_layout.layouts}
 			}
-				// 10 = {$start.fluid.path.be_layout.partials}
+        // 10 = EXT:start/Resources/Private/Templates/foundation-5.5.3/Partials/Be_layout/, 20 = {$start.fluid.path.be_layout.partials}
       partialRootPaths =
       partialRootPaths {
-        10 = {$start.fluid.path.be_layout.partials}
+        10 = EXT:start/Resources/Private/Templates/foundation-5.5.3/Partials/Be_layout/
+        20 = {$start.fluid.path.be_layout.partials}
       }
+				// 10 = EXT:start/Resources/Private/Templates/foundation-5.5.3/Templates/Be_layout/, 20 = {$start.fluid.path.be_layout.templates}
+			templateRootPaths =
+			templateRootPaths {
+				10 = EXT:start/Resources/Private/Templates/foundation-5.5.3/Templates/Be_layout/
+				20 = {$start.fluid.path.be_layout.templates}
+			}
       variables {
       }
 				// classCell = {$start.foundation.grid.class.cell}, classColMainContentMain, classRow	= {$start.foundation.grid.class.row}
@@ -47,7 +55,7 @@ page {
       // Four rows: header || top || content || footer
     start__blue_02 < .start__blue_01
     start__blue_02 {
-      file = {$start.fluid.path.be_layout.templates}blue_02.html
+      templateName = Blue_02.html
 #      settings {
 #        classColMainContentBottomCenter >
 #      }
@@ -55,7 +63,7 @@ page {
       // Four rows: header || content || right || footer
     start__blue_03 < .start__blue_01
     start__blue_03 {
-      file = {$start.fluid.path.be_layout.templates}blue_03.html
+      templateName = Blue_03.html
 #      settings {
 #        classColMainContentTopCenter >
 #      }
@@ -63,7 +71,7 @@ page {
       // Five rows: header || top || left | content | right || bottom || footer
     start__blue_01_01_lr < .start__blue_01
     start__blue_01_01_lr {
-      file = {$start.fluid.path.be_layout.templates}blue_01_01_lr.html
+      templateName = Blue_01_01_lr.html
       settings {
         classColMainContentMain   >
         classColMainContentLeft   = small-12 medium-{$start.fluid.path.be_layout.settings.grid.columns03.left}
@@ -74,7 +82,7 @@ page {
       // Five rows: header || top || content | right || bottom || footer
     start__blue_01_02_r < .start__blue_01_01_lr
     start__blue_01_02_r {
-      file = {$start.fluid.path.be_layout.templates}blue_01_02_r.html
+      templateName = Blue_01_02_r.html
       settings {
         classColMainContentLeft >
         classColMainContentRight = small-12 medium-{$start.fluid.path.be_layout.settings.grid.columns02.margin}
@@ -84,7 +92,7 @@ page {
       // Five rows: header || top || left | content || bottom || footer
     start__blue_01_03_l < .start__blue_01_01_lr
     start__blue_01_03_l {
-      file = {$start.fluid.path.be_layout.templates}blue_01_03_l.html
+      templateName = Blue_01_03_l.html
       settings {
         classColMainContentRight >
         classColMainContentLeft = small-12 medium-{$start.fluid.path.be_layout.settings.grid.columns02.margin}

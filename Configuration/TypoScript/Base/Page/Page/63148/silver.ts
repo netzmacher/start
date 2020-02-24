@@ -8,7 +8,7 @@ page {
       // Two rows: header (left | center | right) | content
     start__silver_01 < .start__bronze_01
     start__silver_01 {
-      file = {$start.fluid.path.be_layout.templates}silver_01.html
+			templateName = Silver_01.html
       settings >
       settings {
         classCell												= {$start.foundation.grid.class.cell}
@@ -25,7 +25,7 @@ page {
       // Three rows: header (left | center | right) | content | bottom (left | center | right)
     start__silver_02 < .start__bronze_02
     start__silver_02 {
-      file = {$start.fluid.path.be_layout.templates}silver_02.html
+      templateName = Silver_02.html
       settings >
       settings {
         classCell												= {$start.foundation.grid.class.cell}
@@ -45,7 +45,7 @@ page {
       // Two rows: content | bottom (left | center | right)
     start__silver_03 < .start__bronze_03
     start__silver_03 {
-      file = {$start.fluid.path.be_layout.templates}silver_03.html
+      templateName = Silver_03.html
       settings >
       settings {
         classCell												= {$start.foundation.grid.class.cell}
@@ -62,7 +62,7 @@ page {
       // Five rows: header || top || content || bottom || footer
     start__silver_04 < .start__bronze_02
     start__silver_04 {
-      file = {$start.fluid.path.be_layout.templates}silver_04.html
+      templateName = Silver_04.html
       settings >
       settings {
         classCell												= {$start.foundation.grid.class.cell}
@@ -78,7 +78,7 @@ page {
       // Four rows: header || top || content || footer
     start__silver_05 < .start__silver_04
     start__silver_05 {
-      file = {$start.fluid.path.be_layout.templates}silver_05.html
+      templateName = Silver_05.html
       settings {
         classColMainContentBottomCenter >
       }
@@ -86,7 +86,7 @@ page {
       // Four rows: header || content || right || footer
     start__silver_06 < .start__silver_04
     start__silver_06 {
-      file = {$start.fluid.path.be_layout.templates}silver_06.html
+      templateName = Silver_06.html
       settings {
         classColMainContentTopCenter >
       }
@@ -94,7 +94,7 @@ page {
       // Five rows: header || top || left | content | right || bottom || footer
     start__silver_07 < .start__silver_04
     start__silver_07 {
-      file = {$start.fluid.path.be_layout.templates}silver_07.html
+      templateName = Silver_07.html
       settings {
         classColMainContentMain   >
         classColMainContentLeft   = small-12 medium-{$start.fluid.path.be_layout.settings.grid.columns03.left}
@@ -105,7 +105,7 @@ page {
       // Five rows: header || top || content | right || bottom || footer
     start__silver_08 < .start__silver_07
     start__silver_08 {
-      file = {$start.fluid.path.be_layout.templates}silver_08.html
+      templateName = Silver_08.html
       settings {
         classColMainContentLeft >
         classColMainContentRight = small-12 medium-{$start.fluid.path.be_layout.settings.grid.columns02.margin}
@@ -115,7 +115,7 @@ page {
       // Five rows: header || top || left | content || bottom || footer
     start__silver_09 < .start__silver_07
     start__silver_09 {
-      file = {$start.fluid.path.be_layout.templates}silver_09.html
+      templateName = Silver_09.html
       settings {
         classColMainContentRight >
         classColMainContentLeft = small-12 medium-{$start.fluid.path.be_layout.settings.grid.columns02.margin}

@@ -8,17 +8,25 @@ page {
       // One column: content
     start__bronze_01 = FLUIDTEMPLATE
     start__bronze_01 {
-      file = {$start.fluid.path.be_layout.templates}bronze_01.html
-			  // 10 = {$start.fluid.path.be_layout.layouts}
+			templateName = Bronze_01.html
+				// 10 = EXT:start/Resources/Private/Templates/foundation-5.5.3/Layouts/Be_layout/, 20 = {$start.fluid.path.be_layout.layouts}
       layoutRootPaths = 
 			layoutRootPaths {
-				10 = {$start.fluid.path.be_layout.layouts}
+				10 = EXT:start/Resources/Private/Templates/foundation-5.5.3/Layouts/Be_layout/
+				20 = {$start.fluid.path.be_layout.layouts}
 			}
-				// 10 = {$start.fluid.path.be_layout.partials}
+        // 10 = EXT:start/Resources/Private/Templates/foundation-5.5.3/Partials/Be_layout/, 20 = {$start.fluid.path.be_layout.partials}
       partialRootPaths =
       partialRootPaths {
-        10 = {$start.fluid.path.be_layout.partials}
+        10 = EXT:start/Resources/Private/Templates/foundation-5.5.3/Partials/Be_layout/
+        20 = {$start.fluid.path.be_layout.partials}
       }
+				// 10 = EXT:start/Resources/Private/Templates/foundation-5.5.3/Templates/Be_layout/, 20 = {$start.fluid.path.be_layout.templates}
+			templateRootPaths =
+			templateRootPaths {
+				10 = EXT:start/Resources/Private/Templates/foundation-5.5.3/Templates/Be_layout/
+				20 = {$start.fluid.path.be_layout.templates}
+			}
       variables {
       }
 				// classCell = {$start.foundation.grid.class.cell}, classColMainContentMain, classRow	= {$start.foundation.grid.class.row}
@@ -45,8 +53,7 @@ page {
       // Two columns: content | right
     start__bronze_02 < .start__bronze_01
     start__bronze_02 {
-      file = {$start.fluid.path.be_layout.templates}bronze_02.html
-			templateName >
+      templateName = Bronze_02.html
 				// classColMainContentRight
       settings =
       settings {
@@ -58,7 +65,7 @@ page {
       // Two columns: left | content
     start__bronze_03 < .start__bronze_01
     start__bronze_03 {
-      file = {$start.fluid.path.be_layout.templates}bronze_03.html
+      templateName = Bronze_03.html
 				// classColMainContentLeft
       settings =
       settings {
@@ -70,7 +77,7 @@ page {
       // Three columns: left | content | right
     start__bronze_04 < .start__bronze_01
     start__bronze_04 {
-      file = {$start.fluid.path.be_layout.templates}bronze_04.html
+      templateName = Bronze_04.html
 				// classColMainContentLeft, classColMainContentRight
       settings =
       settings {
