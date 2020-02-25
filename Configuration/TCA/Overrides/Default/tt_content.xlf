@@ -148,6 +148,10 @@
         <source>Container (startContainer)</source>
         <target>Container (startContainer)</target>
       </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startEffectShake01">
+        <source>Effects: shake (startEffectShake01)</source>
+        <target>Effekte: Schütteln (startEffectShake01)</target>
+      </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startFigCaptionHideForSmallOnly">
         <source>Images: Caption hide for mobile (startFigCaptionHideForSmallOnly)</source>
         <target>Bilder: Unterschrift für Smartphone verstecken (startFigCaptionHideForSmallOnly)</target>
