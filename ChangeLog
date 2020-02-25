@@ -28,6 +28,9 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 							* basic.css
 							* basic.min.css
   Improvement
+	* #i0307: CSS shadow for image. Here: for image only.
+						Affected file:
+						* Resources/Public/Css/basic.css
 	* #i0305: Simplify EXT:start for using individual fluid templates
 						New TypoScript-property:
 						* tt_content.txStartTopNav.settings.topNavRootPid
