@@ -2,6 +2,13 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+5.4.6
+	20-03-05
+	Improvement
+	* #i0307: Default header type is set from 2 to 1
+						Affected file:
+						* Configuration/TypoScript/Base/styles/content.ts
+
 5.4.5
 	20-02-23
 	Feature
