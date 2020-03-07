@@ -72,6 +72,14 @@ Maybe **you MUST adapt your CSS** code.
 
 
 
+Footer mode
+'''''''''''
+
+Footer got the modes content and subpages
+
+* :ref:`Administrators > Best practice > Footer <administrators_bestpractice_footer>`
+
+
 Mega-Menü
 '''''''''
 

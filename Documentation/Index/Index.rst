@@ -84,8 +84,11 @@ E
 
 * :ref:`Extension Manager <administrators_setup_extensionmanager>`
 
+
 F
 -
+
+* :ref:`Footer <administrators_bestpractice_footer>`
 
 * Frameworks
 

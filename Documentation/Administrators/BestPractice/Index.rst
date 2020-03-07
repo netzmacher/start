@@ -20,6 +20,7 @@ Best Practice
 
   CSS/Index
   Customer/Index
+  Footer/Index
   Frameworks/Index
   Modals/Index
   HTML/Index

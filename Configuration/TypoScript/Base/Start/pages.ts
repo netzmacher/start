@@ -8,7 +8,7 @@ start {
   pages.siteLineBottom					= 
   # cat=start - pages*//301; type=int+; label=Contact data*:*Obligate:Uid of page which contains any contact data.
   pages.contact									=
-  # cat=start - pages*//302; type=int+; label=Footer:Uid of page which contains the folder with the footer pages.
+  # cat=start - pages*//302; type=int+; label=Footer:Uid of page which contains the folder with content or footer pages. PLEASE RESPECT [START - STRUCTURE - FOOTER].
   pages.footer									= 9999999
   # cat=start - pages*//303; type=int+; label=GDPR/DSGVO:Uid of page which contains the General Data Protection Regulation - GDPR (German: Datenschutz-Grundverordnung - DSGVO).
   pages.gdpr										=
