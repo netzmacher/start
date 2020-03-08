@@ -2,10 +2,23 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+5.5.1
+	20-03-08
+	Feature
+	* #t4668: Manual documentation of effects
+	* #t4666: Revert #t4662
+						Doesn't make nay sense. Footer can designed individual without footer subpages
+						Affected files:
+						* Configuration/TypoScript/Base/Start
+							* Structure
+								* constants/structure
+									* footer.ts > XXXfooter.ts
+								* setup/footer.ts
+
 5.5.0
 	20-03-07
 	Feature
-	* #t4634: Footer mode: subpages or content. New property constant editor [START - STRUCTURE - FOOTER] > mode
+	* #t4662: Footer mode: subpages or content. New property constant editor [START - STRUCTURE - FOOTER] > mode
 						New files:
 						* Configuration/TypoScript/Base/Start/Structure/constants/structure/footer.ts
 						* Documentation/Administrators/BestPractice/Footer/Index.rst
@@ -13,6 +26,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						* Configuration/TypoScript/Base/Start
 							* Structure/setup/footer.ts
 							* pages.ts
+						:ref: #t4666
 
 5.4.6
 	20-03-05

@@ -45,6 +45,14 @@ Glyphicons are suppoprted. See:
 
 
 
+Effects
+'''''''
+
+Elements shake by a mouse over. See:
+
+* :ref:`Effects <users_bestpractice_effects>`
+
+
 Gridelements
 ''''''''''''
 
@@ -70,14 +78,6 @@ Until version 5.2.5
 
 Maybe **you MUST adapt your CSS** code.
 
-
-
-Footer mode
-'''''''''''
-
-Footer got the modes content and subpages
-
-* :ref:`Administrators > Best practice > Footer <administrators_bestpractice_footer>`
 
 
 Mega-Menü

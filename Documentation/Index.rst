@@ -8,9 +8,9 @@
 
 .. _extstart:
 
-	.. figure:: ext_icon_300x300.jpg
-		:width: 300px
-		:alt: Start Icon
+.. figure:: ext_icon_300x300.jpg
+	:width: 300px
+	:alt: Start Icon
 
 =============================================================
 Start TYPO3 Responsive!

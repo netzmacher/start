@@ -17,23 +17,27 @@ You enable  these defined classes in the user interface of a content element. Se
 
 You can controll design properties like:
 
-- Background color
+* Background color
 
-- Font color
+* Effects
 
-- Hyphenation
+* Forms
 
-- Images
+* Font color
 
-  - as circles
+* Hyphenation
 
-  - with shadow
+* Images
 
-- Margins
+  * as circles
 
-- Shadow of content elements
+  * with shadow
 
-- Text alignment
+* Margins
+
+* Shadow of content elements
+
+* Text alignment
 
 If you are using an extension of the start family like startgreen, you will get further classes.
 

@@ -18,6 +18,7 @@ Best Practice
     :titlesonly:
 
     Addressdata/Index
+    Effects/Index
     FlexibleVideos/Index
     Gridelements/Index
     Navigation/Index

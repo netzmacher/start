@@ -82,13 +82,15 @@ D
 E
 -
 
+* :ref:`Effects <users_bestpractice_effects>`
+
+	* :ref:`Shaking <users_bestpractice_effects>`
+
 * :ref:`Extension Manager <administrators_setup_extensionmanager>`
 
 
 F
 -
-
-* :ref:`Footer <administrators_bestpractice_footer>`
 
 * Frameworks
 
@@ -140,6 +142,9 @@ I
 * Image
 
   * :ref:`Gridelements > Background Image <users_bestpractice_gridelements_backgroundimage>`
+
+	* :ref:`Shaking <users_bestpractice_effects>`
+
 
 
 K
