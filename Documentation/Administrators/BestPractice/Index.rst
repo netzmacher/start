@@ -23,6 +23,7 @@ Best Practice
   Frameworks/Index
   Indexedsearch/Index
   Modals/Index
+  Language/Index
   HTML/Index
   Layouts/Index
   Lightbox/Index

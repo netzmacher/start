@@ -161,7 +161,13 @@ K
 L
 -
 
-* :ref:`Language <administrators_setup_extensionmanager_language>`
+* Language
+
+  * :ref:`Extension Manager <administrators_setup_extensionmanager_language>`
+
+  * :ref:`Language Menu <administrators_bestpractice_language_menu>`
+
+  * :ref:`Localisation <administrators_bestpractice_language>`
 
 * Lightbox
 
@@ -172,6 +178,8 @@ L
 	* :ref:`News (EXT:tx_news) <administrators_bestpractice_lightbox_txnews>`
 
 	* :ref:`Quick Shop (EXT:quick_shop) <administrators_bestpractice_lightbox_txquickshop>`
+
+* :ref:`Localisation <administrators_bestpractice_language>`
 
 
 M
