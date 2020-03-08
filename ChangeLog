@@ -5,7 +5,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 5.5.1
 	20-03-08
 	Features
-	* #t4676: Localisation Support
+	* #t4676: Localisation Support (TYPO3 8.7 only)
 						Manual: See What's new
 						New files:
 						* Configuration/TypoScript/Base
@@ -16,6 +16,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 							* global/language.ts
 						Affected files:
 						* Configuration/TypoScript/Base/Config/constants/config/language.ts
+						* Resources/Public/Css/basic.css
 	* #t4674: Indexed search: configuration template for a simplified form
 						Manual documentation of this feature. See: What's new
 						New files:
