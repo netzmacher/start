@@ -38,7 +38,7 @@ Start TYPO3 Responsive!
 		typo3, start, responsive, foundation, grid, layout, lightbox, tx_news
 
 	:Copyright:
-		2014-2019
+		2014--2020
 
 	:Author:
 		Dirk Wildt (Die Netzmacher)
@@ -66,8 +66,8 @@ Start TYPO3 Responsive!
 	Users/Index
 	Administrators/Index
 	Developers/Index
-	WhatsNew/Index
-	Upgrades/Index
 	Help/Index
 	KnownBugs/Index
+	Upgrades/Index
+	WhatsNew/Index
 	Index/Index

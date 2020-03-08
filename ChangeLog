@@ -6,13 +6,15 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 	20-03-08
 	Features
 	* #t4674: Indexed search: configuration template for a simplified form
+						Manual documentation of this feature. See: What*s new
 						New files:
 						* Configuration/TypoScript/Extensions/indexed_search/*
-						* Resources/Private/Extensions/indexed_search/Partials/Form.html
-						* Resources/Public/Css/Ext/indexed_search.css
+						* Resources
+							* Private/Extensions/indexed_search/Partials/Form.html
+							* Public/Css/Ext/indexed_search.css
 						Affected files:
 						* Configuration/ExtTables/Default.php
-	* #t4668: Manual documentation of effects
+	* #t4668: Manual documentation of effects. See: What*s new
 	* #t4666: Revert #t4662
 						Doesn't make nay sense. Footer can designed individual without footer subpages
 						Affected files:
@@ -21,6 +23,8 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 								* constants/structure
 									* footer.ts > XXXfooter.ts
 								* setup/footer.ts
+  Improvement
+	* #i0308: (c) 2020
 
 5.5.0
 	20-03-07

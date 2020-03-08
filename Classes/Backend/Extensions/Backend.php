@@ -7,7 +7,7 @@ use TYPO3\CMS\Core\Utility\VersionNumberUtility;
 /* * *************************************************************
  *  Copyright notice
  *
- *  (c) 2018-2019 - Dirk Wildt <http://wildt.at.die-netzmacher.de/>
+ *  (c) 2018-2020 - Dirk Wildt <http://wildt.at.die-netzmacher.de/>
  *
  *  All rights reserved
  *

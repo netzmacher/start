@@ -88,6 +88,10 @@ E
 
 * :ref:`Extension Manager <administrators_setup_extensionmanager>`
 
+* Extensions
+
+	* :ref:`Indexed Search <administrators_bestpractice_indexedsearch>`
+
 
 F
 -
@@ -145,6 +149,7 @@ I
 
 	* :ref:`Shaking <users_bestpractice_effects>`
 
+* :ref:`Indexed Search <administrators_bestpractice_indexedsearch>`
 
 
 K
@@ -224,6 +229,10 @@ S
 
 * :ref:`Screenshots <introduction-screenshots>`
 
+* Search
+
+	* :ref:`Indexed Search <administrators_bestpractice_indexedsearch>`
+
 * Social Media
 
   * :ref:`Youtube <alphabetical-index_youtube>`
@@ -287,5 +296,3 @@ Y
 Youtube
 
   * :ref:`Rich Text Editor <administrators_bestpractice_rte_searchspellcheckyoutube>`
-
-

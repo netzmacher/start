@@ -10,7 +10,7 @@ if( !defined( 'TYPO3_MODE' ) )
 /* * *************************************************************
  *  Copyright notice
  *
- *  (c) 2019 -  Dirk Wildt <http://wildt.at.die-netzmacher.de>
+ *  (c) 2019-2020 -  Dirk Wildt <http://wildt.at.die-netzmacher.de>
  *  All rights reserved
  *
  *  This script is part of the TYPO3 project. The TYPO3 project is

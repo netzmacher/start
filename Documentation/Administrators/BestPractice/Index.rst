@@ -21,6 +21,7 @@ Best Practice
   CSS/Index
   Customer/Index
   Frameworks/Index
+  Indexedsearch/Index
   Modals/Index
   HTML/Index
   Layouts/Index

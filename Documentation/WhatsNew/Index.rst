@@ -79,6 +79,13 @@ Until version 5.2.5
 Maybe **you MUST adapt your CSS** code.
 
 
+Indexed Search
+''''''''''''''
+
+Simplified form for Indexed Search. See
+
+* :ref:`Administrators > Best Practise > Indexed Search <administrators_bestpractice_indexedsearch>`
+
 
 Mega-Menü
 '''''''''
