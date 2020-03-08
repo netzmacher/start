@@ -1,0 +1,118 @@
+/* *************************
+** SEARCH-FORM
+************************** */
+
+.tx-indexedsearch-searchbox button,
+.tx-indexedsearch-searchbox .button {
+	background-color: inherit;
+	color: #D20072;
+  font-size:1.4rem;
+	line-height:inherit;
+	margin:0;
+	padding:0;
+	transition: color 300ms ease-out;
+}
+.tx-indexedsearch-searchbox button:focus,
+.tx-indexedsearch-searchbox button:hover,
+.tx-indexedsearch-searchbox .button:focus,
+.tx-indexedsearch-searchbox .button:hover {
+	background-color: inherit;
+	color: #850048;
+}
+
+.tx-indexedsearch-searchbox button i,
+.tx-indexedsearch-searchbox .button i {
+	margin-right: 0.5rem;
+	position: relative;
+	top: 3px;
+}
+
+section.header .tx-indexedsearch-searchbox {
+	float:right;
+}
+
+.tx-indexedsearch-searchbox fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+.tx-indexedsearch-searchbox form {
+	width: max-content;
+}
+
+.tx-indexedsearch-searchbox label,
+.tx-indexedsearch-searchbox legend {
+	display: none;
+}
+.tx-indexedsearch-searchbox .tx-indexedsearch-form,
+.tx-indexedsearch-searchbox .tx-indexedsearch-submit,
+.tx-indexedsearch-searchbox .tx-indexedsearch-search-submit {
+	display: inline;
+}
+.tx-indexedsearch-searchbox .tx-indexedsearch-form input {
+	border:0;
+	box-shadow: inherit;
+	margin:0;
+}
+.tx-indexedsearch-searchbox .tx-indexedsearch-form input {
+	display: inline;
+	width: 30rem;
+}
+section.header .tx-indexedsearch-searchbox .tx-indexedsearch-form input {
+	width: 15rem;
+}
+
+/* *************************
+** RESULTS
+************************** */
+
+.tx-indexedsearch-info-noresult,
+.tx-indexedsearch-info-sword {
+	padding:1rem 0;
+}
+
+.tx-indexedsearch-icon img {
+	max-width: none;
+}
+
+.tx-indexedsearch-info {
+	font-size: 80%;
+	color: #aaa;
+}
+
+ul.tx-indexedsearch-browsebox {
+	list-style: none;
+	margin: 0 0 1em 0;
+	overflow: hidden;
+}
+
+.tx-indexedsearch-browsebox li { float: left;}
+
+.tx-indexedsearch-browsebox li a {
+	display: block;
+	padding: 2px 5px;
+	border: 1px solid #ccc;
+	margin: 0 1em 0 0;
+	text-decoration: none;
+}
+
+.tx-indexedsearch-browsebox li a:focus,
+.tx-indexedsearch-browsebox li a:hover,
+.tx-indexedsearch-browsebox li a:active {
+	background:#f8f8f8;
+}
+
+.tx-indexedsearch-info dd,
+.tx-indexedsearch-info dt {
+	display: inline;
+}
+
+.tx-indexedsearch-info dd.tx-indexedsearch-text-item-path,
+.tx-indexedsearch-info dt.tx-indexedsearch-text-item-path {
+	display: none;
+}
+
+.tx-indexedsearch-search-table { width:auto;}
+.tx-indexedsearch-search-table td {padding:.5em 1em .5em 0;}
+
+.tx-indexedsearch-redMarkup { color: #f00; }

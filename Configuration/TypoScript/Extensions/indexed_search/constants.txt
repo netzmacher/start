@@ -1,0 +1,20 @@
+plugin.tx_indexedsearch {
+	view {
+		partialRootPath = EXT:start/Resources/Private/Extensions/indexed_search/Partials/
+	}
+}
+
+start {
+  extensions {
+    indexed_search {
+
+      # cat=start - extensions - indexed_search//100; type=boolean;      label=Display rules:
+      displayRules							= 0
+      # cat=start - extensions - indexed_search//101; type=boolean;      label=Display advanced search link:
+      displayAdvancedSearchLink	= 0
+			# cat=start - extensions - indexed_search//200; type=string;				label=Placeholder:
+			placeholder = Suchen
+
+    }
+  }
+}
