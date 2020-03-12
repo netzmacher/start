@@ -46,7 +46,7 @@ You must download it from the Git-repository at
 
 - https://github.com/TYPO3-extensions/gridelements
 
-Downlaod Zip-File
+Download Zip-File
 ^^^^^^^^^^^^^^^^^
 
 - https://github.com/TYPO3-extensions/gridelements/archive/master.zip

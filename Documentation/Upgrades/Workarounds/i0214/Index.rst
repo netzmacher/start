@@ -14,7 +14,7 @@ ChangeLog #i0214
 
 Grid Elements will display the header.
 
-If you like to set all headers to hiden, please use the SQL statements from below.
+If you like to set all headers to hidden, please use the SQL statements from below.
 
 
 SQL Statements

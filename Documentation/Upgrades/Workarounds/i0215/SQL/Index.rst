@@ -36,7 +36,7 @@ Statements
 SELECT
 ''''''
 
-Data won't changed. Statements serves only information.
+Data won't be changed. Statements serves only information.
 
 .. code:: php
 
