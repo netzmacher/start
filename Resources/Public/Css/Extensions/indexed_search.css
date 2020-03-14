@@ -28,16 +28,20 @@
 }
 
 section.header .tx-indexedsearch-searchbox {
-	float:right;
+	/* #i0311, 200314, dwildt, 1- */	
+	/*float:right;*/
 }
 
 .tx-indexedsearch-searchbox fieldset {
+	/* #i0311, 200314, dwildt, 1+ */	
+	height: 39px;
 	margin: 0;
 	padding: 0;
 }
 
 .tx-indexedsearch-searchbox form {
-	width: max-content;
+	/* #i0311, 200314, dwildt, 1- */	
+	/*width: max-content;*/
 }
 
 .tx-indexedsearch-searchbox label,
@@ -47,8 +51,16 @@ section.header .tx-indexedsearch-searchbox {
 .tx-indexedsearch-searchbox .tx-indexedsearch-form,
 .tx-indexedsearch-searchbox .tx-indexedsearch-submit,
 .tx-indexedsearch-searchbox .tx-indexedsearch-search-submit {
-	display: inline;
+	/* #i0311, 200314, dwildt, 1- */	
+	/*display: inline;*/
 }
+.tx-indexedsearch-searchbox .tx-indexedsearch-search-submit {
+	/* #i0311, 200314, dwildt, 3+ */	
+	float: right;
+	position: relative;
+	top: -40px;
+}
+
 .tx-indexedsearch-searchbox .tx-indexedsearch-form input {
 	border:0;
 	box-shadow: inherit;
@@ -59,7 +71,14 @@ section.header .tx-indexedsearch-searchbox {
 	width: 30rem;
 }
 section.header .tx-indexedsearch-searchbox .tx-indexedsearch-form input {
-	width: 15rem;
+	/* #i0311, 200314, dwildt, 1-/+ */	
+	/*width: 15rem;*/
+	width: 100%;
+}
+.tx-indexedsearch-searchbox .tx-indexedsearch-search-submit button {
+	/* #i0311, 200314, dwildt, 2+ */	
+	position: relative;
+	top: 3px;
 }
 
 /* *************************

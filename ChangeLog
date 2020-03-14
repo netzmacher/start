@@ -3,8 +3,13 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
 5.5.2
-	20-03-12
+	20-03-14
 	Improvement
+	* #i0311: Indexed Search: Customisation form for mobile
+						Affected file:
+						* Resources/Public/Css/Extensions/indexed_search.css
+	* #i0310: Constant Editor: some description
+						* Configuration/TypoScript/Foundation/Start/Constants/Foundation/Topbar/constants.ts
 	* #i0309: Manual: some syntax errors 
 
 5.5.1
@@ -33,7 +38,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						* Configuration/ExtTables/Default.php
 	* #t4668: Manual documentation of effects. See: What's new
 	* #t4666: Revert #t4662
-						Doesn't make nay sense. Footer can designed individual without footer subpages
+						Doesn't make any sense. Footer can designed individual without footer subpages
 						Affected files:
 						* Configuration/TypoScript/Base/Start
 							* Structure
