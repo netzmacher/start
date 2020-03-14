@@ -6,11 +6,10 @@
 .. include:: ../../Includes.txt
 
 
-.. _upgrades_start:
+.. _upgrades_typo3-87-89:
 
-
-EXT:start
-=========
+TYPO3: 8.7 to 9.5
+=================
 
 
 **Table of Contents**
@@ -19,4 +18,4 @@ EXT:start
     :maxdepth: 2
     :titlesonly:
 
-    5003000/Index
+    Extensions/Index

@@ -283,7 +283,7 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
 					'config' => '
         backend_layout {
           colCount = 12
-          rowCount = 6
+          rowCount = 5
           rows {
             1 {
               columns {
@@ -312,11 +312,11 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
                 }
               }
             }
-            4 {
+            5 {
               columns {
                 1 {
-                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.bottom
-                  colPos  = 6
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.footer
+                  colPos  = 21
                   colspan = 12
                 }
               }
@@ -340,7 +340,7 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
 					'config' => '
         backend_layout {
           colCount = 12
-          rowCount = 6
+          rowCount = 5
           rows {
             1 {
               columns {

@@ -19,5 +19,6 @@ Upgrades and Workarounds
     :titlesonly:
 
     Start/Index
-    Workarounds/Index
+    TYPO3-87-95/Index
     TYPO3-76-87/Index
+    Workarounds/Index

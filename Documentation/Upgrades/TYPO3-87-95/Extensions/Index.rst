@@ -3,15 +3,14 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../../Includes.txt
+.. include:: ../../../Includes.txt
 
 
-.. _upgrades_start:
+.. _upgrades_typo3-87-95_extensions:
 
 
-EXT:start
-=========
-
+Extensions
+==========
 
 **Table of Contents**
 
@@ -19,4 +18,4 @@ EXT:start
     :maxdepth: 2
     :titlesonly:
 
-    5003000/Index
+    Gridelements/Index
