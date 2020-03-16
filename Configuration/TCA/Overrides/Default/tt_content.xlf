@@ -260,6 +260,10 @@
         <source>Text-align: right (startTextAlignRight)</source>
         <target>Text-Ausrichtung: rechtsbündig (startTextAlignRight)</target>
       </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWidth0125">
+        <source>Width: 12.5rem (startWidth0125)</source>
+        <target>Breite: 12.5rem (startWidth0125)</target>
+      </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startWidth0250">
         <source>Width: 25.0rem (startWidth0250)</source>
         <target>Breite: 25.0rem (startWidth0250)</target>

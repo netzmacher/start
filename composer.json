@@ -4,11 +4,20 @@
     "description": "Start TYPO3 Responsive!",
     "license": "GPL-2.0-or-later",
     "require": {
-        "typo3/cms-core": ">=6.2.0 <10.0.0"
+        "typo3/cms-core": ">=8.7.0 <10.0.0"
+    },
+    "replace": {
+        "netzmacher/start": "self.version",
+        "typo3-ter/start": "self.version"
     },
     "extra": {
         "typo3/cms": {
             "extension-key": "start"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Netzmacher\\Start\\": "Classes/"
         }
     }
 }

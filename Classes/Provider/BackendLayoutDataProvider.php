@@ -312,7 +312,7 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
                 }
               }
             }
-            5 {
+            4 {
               columns {
                 1 {
                   name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.footer
@@ -321,7 +321,7 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
                 }
               }
             }
-            6 {
+            5 {
               columns {
                 1 {
                   name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.hidden

@@ -71,6 +71,9 @@ body {
 	margin: 0 auto;
 	padding: 0 .9375rem;
 }
+#startBox01 .startWidth0125 {
+	max-width:12.5rem;
+}
 #startBox01 .startWidth0250 {
 	max-width:25.0rem;
 }
@@ -299,6 +302,12 @@ body {
 }
 #startBox01 .no-pad-right {
   padding-right: 0;
+}
+
+#startBox01 .text-overflow-ellipsis {
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
 }
 
 #startBox01 .vertical nav li.separator {

@@ -4,13 +4,27 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 5.5.2
 	20-03-14
+	Feature
+	* #i0315: New CSS class .text-overflow-ellipsis
+						Affected file:
+						* Resources/Public/Css/basic.css
+	* #i0314: New CSS class .startWidth0125
+						Affected file:
+						* Resources/Public/Css/basic.css
 	Improvement
+	* #i0313: Update manual. New section: Update TYPO3 8.7 to 9.5
+						New file:
+						* Documentation/Upgrades/TYPO3-87-95/Extensions/Gridelements/Index.rst
 	* #i0311: Indexed Search: Customisation form for mobile
 						Affected file:
 						* Resources/Public/Css/Extensions/indexed_search.css
 	* #i0310: Constant Editor: some description
 						* Configuration/TypoScript/Foundation/Start/Constants/Foundation/Topbar/constants.ts
-	* #i0309: Manual: some syntax errors 
+	* #i0309: Manual: some syntax errors
+  Bugfix
+	* #i0312: Layout blue 02: footer was missing
+						Affected file:
+						* Classes/Provider/BackendLayoutDataProvider.php
 
 5.5.1
 	20-03-08

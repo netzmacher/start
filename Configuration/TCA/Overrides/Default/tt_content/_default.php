@@ -309,6 +309,10 @@ $temporaryColumns = [
 										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startContainer',
 										'1' => 'startContainer',
 								],
+								'startWidth0125' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startWidth0125',
+										'1' => 'startWidth0125',
+								],
 								'startWidth0250' => [
 										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startWidth0250',
 										'1' => 'startWidth0250',
