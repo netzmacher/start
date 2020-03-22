@@ -6,7 +6,7 @@
 .. include:: ../../Includes.txt
 
 
-.. _introduction-what-do-you-need:
+.. _introduction-whatdoyouneed:
 
 What do you need?
 =================
@@ -16,13 +16,15 @@ What do you need?
 TYPO3 Versions
 --------------
 
-- TYPO3 6.2
-
-- TYPO3 7.6
-
 - TYPO3 8.7
 
 - TYPO3 9.5
+
+
+TYPO3 6.2
+---------
+
+* Take for TYPO3 6.2 version EXT:start 2.7.5
 
 
 Themes

@@ -259,11 +259,17 @@ S
 T
 -
 
+* :ref:`TCA <administrators_setup_extensionmanager_tca>`
+
 * Template
 
 	* :ref:`Upgrade <upgrades_workarounds_i0215_template>`
 
-* :ref:`TCA <administrators_setup_extensionmanager_tca>`
+* TYPO3
+
+  * :ref:`6.2 <introduction-whatdoyouneed>`
+
+  * :ref:`8.7 <introduction-whatdoyouneed>`
 
 
 U

@@ -2,6 +2,13 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+5.6.0
+	Improvement
+	* #i0316: Support for TYPO3 6.2 and 8.7 is ending
+						Take for TYPO3 6.2 version EXT:start 2.7.5
+						Effected file:
+						* ext_emconf.php
+
 5.5.2
 	20-03-14
 	Feature

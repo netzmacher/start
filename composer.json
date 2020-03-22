@@ -6,14 +6,14 @@
     "require": {
         "typo3/cms-core": ">=8.7.0 <10.0.0"
     },
-    "replace": {
-        "netzmacher/start": "self.version",
-        "typo3-ter/start": "self.version"
-    },
     "extra": {
         "typo3/cms": {
             "extension-key": "start"
         }
+    },
+    "replace": {
+        "netzmacher/start": "self.version",
+        "typo3-ter/start": "self.version"
     },
     "autoload": {
         "psr-4": {
