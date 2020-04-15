@@ -6,7 +6,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 	20-04-14
 	Feature
 	* #t4909: Optimisation of Grid Elements (only: foundation)
-						* Acciordion and tab can represent every content element
+						* Accordion and tab can represent every content element
 						* Configuration by TSconf, no configuration records in database needed any longer
 						New files:
 						* Configuration
