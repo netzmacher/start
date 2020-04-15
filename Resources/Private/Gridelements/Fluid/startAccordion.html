@@ -1,0 +1,10 @@
+<dl class="accordion" data-accordion>
+	<f:for each="{data.tx_gridelements_view_children}" as="element">
+		<dd class="accordion-navigation">
+			<a href="#c{element.uid}-accordion-{element.uid}">{element.header}</a>
+			<div id="c{element.uid}-accordion-{element.uid}" class="content">
+				<f:cObject typoscriptObjectPath="tt_content" data="{element}" />
+			</div>
+		</dd>
+	</f:for>
+</dl>

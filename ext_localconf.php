@@ -7,17 +7,6 @@ if( !defined( 'TYPO3_MODE' ) )
 
 call_user_func( function ()
 {
-	// #t1578, 171001, dwildt, ~
-
-	/*	 * ****************************************************************************
-	 * TYPO3 Version
-	 * **************************************************************************** */
-	list( $main, $sub, $bugfix ) = explode( '.', TYPO3_version );
-	$version = ( ( int ) $main ) * 1000000;
-	$version = $version + ( ( int ) $sub ) * 1000;
-	$version = $version + ( ( int ) $bugfix ) * 1;
-	$typo3Version = $version;
-
 	if( TYPO3_MODE == 'BE' )
 	{
 
@@ -60,19 +49,10 @@ call_user_func( function ()
 
 	// #i0204, 190301, dwildt, 1+, 12-
 	require( PATH_typo3conf . 'ext/start/Configuration/TSconfig/mod.php' );
-//	// #t1578, 171001, dwildt, ~
-//	switch( TRUE )
-//	{
-//		case($typo3Version < 8000000):
-//			$addPageTsConfig = '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/ExtLocalconf/PageTSConfig/7.6/tt_content/menu_type.ts">';
-//			break;
-//		case($typo3Version >= 8000000):
-//		default:
-//			$addPageTsConfig = '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/ExtLocalconf/PageTSConfig/Default/tt_content/menu.ts">';
-//			break;
-//	}
-//	\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig( $addPageTsConfig );
 
+	// #t4909, 200414, dwildt, 1+
+	\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TSconfig/Page/tx_gridelements.ts">');
+	
 	/*	 * ****************************************************************************
 	 * Direct Mail Hooks
 	 * **************************************************************************** */

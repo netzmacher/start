@@ -258,10 +258,16 @@ ExtensionManagementUtility::addToAllTCAtypes(
 
 // #i0220, 190320, dwildt, 4+
 ExtensionManagementUtility::registerPageTSConfigFile(
-				'start', 'Configuration/TSconfig/Page/RTE/Start.ts', 'Start [1.0.0] RTE with search, spellchecking and youtube' );
+				'start'
+				, 'Configuration/TSconfig/Page/RTE/Start.ts'
+				, 'Start [1.0.0] RTE with search, spellchecking and youtube'
+);
 
 ExtensionManagementUtility::registerPageTSConfigFile(
-				'start', 'Configuration/TSconfig/Page/RTE/StartWiExternalPlugin.ts', 'Start [1.0.0] RTE with additional plugins' );
+				'start'
+				, 'Configuration/TSconfig/Page/RTE/StartWiExternalPlugin.ts'
+				, 'Start [1.0.0] RTE with additional plugins'
+);
 
 $item = [
 		'LLL:EXT:start/Configuration/TCA/Overrides/Default/pages.xlf:layout.start.11'

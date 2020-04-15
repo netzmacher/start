@@ -9,8 +9,8 @@
 .. _upgrades_start_5003000_gridelements:
 
 
-Gridelements
-============
+Grid Elements
+=============
 
 Gridelements got the new properties in EXT:start version 5.3.0:
 

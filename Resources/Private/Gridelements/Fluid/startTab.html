@@ -1,0 +1,12 @@
+<ul class="tabs" data-tab>
+	<f:for each="{data.tx_gridelements_view_children}" as="element">
+		<li class='tab-title'><a href="#tabs-{element.uid}">{element.header}</a></li>
+	</f:for>
+</ul>
+<div class="tabs-content">
+	<f:for each="{data.tx_gridelements_view_children}" as="element">
+		<div class="content" id="tabs-{element.uid}">
+			<f:cObject typoscriptObjectPath="tt_content" data="{element}" />
+		</div>
+	</f:for>
+</div>

@@ -3,14 +3,14 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../../Includes.txt
+.. include:: ../../../Includes.txt
 
 
-.. _upgrades_start:
+.. _upgrades_start_6000000:
 
 
-EXT:start
-=========
+6.0
+===
 
 
 **Table of Contents**
@@ -19,5 +19,4 @@ EXT:start
     :maxdepth: 2
     :titlesonly:
 
-    6000000/Index
-    5003000/Index
+    Gridelements/Index

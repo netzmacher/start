@@ -57,6 +57,163 @@
         <target>Gleiche Höhe für alle Spalten</target>
       </trans-unit>
 
+      <trans-unit id="gridelements.tsconf.startAccordion.description">
+        <source>Accordion: Each content element represents an accordion item. The title fields are used as accordion titles. If title should not dispklay twice, title must be hidden.</source>
+        <target>Akkordeon: Jedes Inhaltselement entspricht einem Eintrag im Akkordeon. Die Überschrift bezeichnet den Eintrag. Wenn die Überschrift kein zweites Mal anegezeigt werden soll, muss diese ausgeblendet werden.</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startAccordion.rows.1.columns.1.name">
+        <source>Content</source>
+        <target>Inhalt</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startAccordion.title">
+        <source>Accordion</source>
+        <target>Akkordeon</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol01.description">
+        <source>One-column-layout: extends the design possibilities for the contained elements.</source>
+        <target>Einspaltiges Layout: erweitert die Möglichkeiten für die beinhaltenden Elemente.</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol01.rows.1.columns.1.name">
+        <source>Content</source>
+        <target>Inhalt</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol01.title">
+        <source>One Column</source>
+        <target>Eine Spalte</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol02.description">
+        <source>Two columns layout</source>
+        <target>Zweispaltiges Layout</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol02.rows.1.columns.1.name">
+        <source>Left Column</source>
+        <target>Linke Spalte</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol02.rows.1.columns.2.name">
+        <source>Right Column</source>
+        <target>Rechte Spalte</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol02.title">
+        <source>Two Columns</source>
+        <target>Zwei Spalten</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol03.description">
+        <source>Three columns layout</source>
+        <target>Dreispaltiges Layout</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol03.rows.1.columns.1.name">
+        <source>First Column</source>
+        <target>Erste Spalte</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol03.rows.1.columns.2.name">
+        <source>Second Column</source>
+        <target>Zweite Spalte</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol03.rows.1.columns.3.name">
+        <source>Third Column</source>
+        <target>Dritte Spalte</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol03.title">
+        <source>Three Columns</source>
+        <target>Drei Spalten</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol04.description">
+        <source>Four columns layout</source>
+        <target>Vierspaltiges Layout</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol04.rows.1.columns.1.name">
+        <source>First Column</source>
+        <target>Erste Spalte</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol04.rows.1.columns.2.name">
+        <source>Second Column</source>
+        <target>Zweite Spalte</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol04.rows.1.columns.3.name">
+        <source>Third Column</source>
+        <target>Dritte Spalte</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol04.rows.1.columns.4.name">
+        <source>Forth Column</source>
+        <target>Vierte Spalte</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol04.title">
+        <source>Four Columns</source>
+        <target>Vier Spalten</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol05.description">
+        <source>Five columns layout</source>
+        <target>Fünfspaltiges Layout</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol05.rows.1.columns.1.name">
+        <source>First Column</source>
+        <target>Erste Spalte</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol05.rows.1.columns.2.name">
+        <source>Second Column</source>
+        <target>Zweite Spalte</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol05.rows.1.columns.3.name">
+        <source>Third Column</source>
+        <target>Dritte Spalte</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol05.rows.1.columns.4.name">
+        <source>Forth Column</source>
+        <target>Vierte Spalte</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol05.rows.1.columns.5.name">
+        <source>Fivth Column</source>
+        <target>Fünfte Spalte</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol05.title">
+        <source>Five Columns</source>
+        <target>Fünf Spalten</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol06.description">
+        <source>Six columns layout</source>
+        <target>Sechsspaltiges Layout</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol06.rows.1.columns.1.name">
+        <source>First Column</source>
+        <target>Erste Spalte</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol06.rows.1.columns.2.name">
+        <source>Second Column</source>
+        <target>Zweite Spalte</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol06.rows.1.columns.3.name">
+        <source>Third Column</source>
+        <target>Dritte Spalte</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol06.rows.1.columns.4.name">
+        <source>Forth Column</source>
+        <target>Vierte Spalte</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol06.rows.1.columns.5.name">
+        <source>Fivth Column</source>
+        <target>Fünfte Spalte</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol06.rows.1.columns.6.name">
+        <source>Sixth Column</source>
+        <target>Sechste Spalte</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startCol06.title">
+        <source>Six Columns</source>
+        <target>Sechs Spalten</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startTab.description">
+        <source>Horizontal Tabs: Each content element represents a tab. The title fields are used as tab titles.  If title should not dispklay twice, title must be hidden.</source>
+        <target>Horizontale Reiter: Jedes Inhaltselement entspricht einem Reiter. Die Überschrift bezeichnet den Reiter. Wenn die Überschrift kein zweites Mal anegezeigt werden soll, muss diese ausgeblendet werden.</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startTab.rows.1.columns.1.name">
+        <source>Content</source>
+        <target>Inhalt</target>
+      </trans-unit>
+      <trans-unit id="gridelements.tsconf.startTab.title">
+        <source>Tabs</source>
+        <target>Reiter</target>
+      </trans-unit>
+
     </body>
   </file>
 

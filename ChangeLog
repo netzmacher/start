@@ -2,11 +2,36 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+6.0.0
+	Improvement
+	* #t4909: Optimisation of Grid Elements (only: foundation)
+						New files:
+						* Configuration
+							* FlexForm
+								* startAccordion.xml
+								* startCol[01..06].xml
+								* startTab.xml
+							* TSconfig/Page/tx_gridelements.ts
+							* TypoScript/Extensions/gridelements/foundation/setup
+								* startAccordion.ts
+								* startCol[01..06].ts
+								* startTab.ts
+						* Resources
+							* Private/Gridelements/Fluid
+								* startAccordion.html
+								* startTab.html
+							* Public/Icons/tx_gridelements/start*.gif
+						Affected files:
+						* Resources/Private/Language
+							* de.Gridelements.xlf
+							* Gridelements.xlf
+						* ext_localconf.php
+
 5.6.0
 	Improvement
 	* #i0316: Support for TYPO3 6.2 and 8.7 is ending
 						Take for TYPO3 6.2 version EXT:start 2.7.5
-						Effected file:
+						Affected file:
 						* ext_emconf.php
 
 5.5.2
@@ -2193,7 +2218,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
   2014-04-08
   Development
   * #i0005: Powermail section: tab -> auto
-            Effected file:
+            Affected file:
             * Resources/Public/JavaScript/Libs/Powermail_2.0.10/Templates/Forms/Form.html: 18
 
 0.0.4
@@ -2205,7 +2230,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
   2014-01-09
   Feature
   * #54859. Powermail for Foundation
-            Effected files:
+            Affected files:
             * Resources/Public/JavaScript/Libs/Powermail_2.0.10/*
             * static/4x/powermail/*
 
