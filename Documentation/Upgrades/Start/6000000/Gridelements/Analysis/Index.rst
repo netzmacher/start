@@ -12,6 +12,9 @@
 Analysis
 ========
 
+Queries below are for information only. You can skip this paragraph 
+and go to the next one: :ref:`Upgrade <upgrades_start_6000000_gridelements_upgrade>`
+
 
 Count all used grid elements
 ----------------------------

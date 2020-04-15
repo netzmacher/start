@@ -82,3 +82,11 @@ executing the UPDATE-query from below.
 	AND (t2.tx_gridelements_backend_layout = 'startTab' OR t2.tx_gridelements_backend_layout = 'startAccordion')
 	-- AND t1.pid = 11710
 	SET t1.header_layout = 100
+
+
+Clean Up
+--------
+
+Don't forget to clean up the Grid Elements. See next section
+
+* :ref:`Clean up <upgrades_start_6000000_gridelements_cleanup>`
