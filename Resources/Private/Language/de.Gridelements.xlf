@@ -58,8 +58,6 @@
       </trans-unit>
 
       <trans-unit id="gridelements.tsconf.startAccordion.description">
-        <source>Accordion</source>
-        <target>Akkordeon</target>
         <source>Accordion: Each content element represents an accordion item. The title fields are used as accordion titles. If title should not dispklay twice, title must be hidden.</source>
         <target>Akkordeon: Jedes Inhaltselement entspricht einem Eintrag im Akkordeon. Die Überschrift bezeichnet den Eintrag. Wenn die Überschrift kein zweites Mal anegezeigt werden soll, muss diese ausgeblendet werden.</target>
       </trans-unit>

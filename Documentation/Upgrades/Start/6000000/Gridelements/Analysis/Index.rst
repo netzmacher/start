@@ -13,8 +13,8 @@ Analysis
 ========
 
 
-Counting
---------
+Count all used grid elements
+----------------------------
 
 .. code:: php
 
@@ -46,8 +46,8 @@ Counting
 	ORDER BY `tx_gridelements_backend_layout`
 
 
-Listing
--------
+List all used grid elements
+---------------------------
 
 .. code:: php
 

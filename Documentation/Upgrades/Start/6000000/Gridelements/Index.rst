@@ -48,3 +48,4 @@ Setup
 
     Analysis/Index
     Upgrade/Index
+    Cleanup/Index
