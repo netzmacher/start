@@ -69,8 +69,6 @@ class Extensionmanager
 	}
 
 	/**
-	 * Return backendLayoutsDisabled
-	 *
 	 * @access private
 	 * @param string		$key: Key of the extension manager
 	 * @return string		$value: corresponding value

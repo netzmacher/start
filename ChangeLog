@@ -2,6 +2,27 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+6.0.1
+	20-04-16
+	Feature
+	* #t4920: Disable Grid Elements by Extension Manager
+						New files:	
+						* Configuration/TSconfig/Page/tx_gridelements
+							* accordion.ts
+							* tx_gridelements/col.ts
+							* tx_gridelements/tab.ts
+						Affected files:
+						* Classes/Backend/Extensions/Extensionmanager.php
+						* Resources/Private/Templates/foundation-5.5.3/Layouts/Navigation/Default.html
+						* ext_conf_template.txt
+						* ext_localconf.php						
+
+	Bugfixing
+	* #i0317: TYPO3 Exception: The Fluid template files ".../Resources/Private/Templates/foundation-5.5.3/Layouts/Navigation/Default.html", ..., "Default" could not be loaded.
+						Context: TYPO3 8.7, EXT:css_styled_content
+						New file:
+						* Resources/Private/Templates/foundation-5.5.3/Layouts/Navigation/Default.html
+
 6.0.0
 	20-04-14
 	Feature
@@ -21,9 +42,11 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 								* startTab.ts
 						* Documentation/Upgrades/Start/6000000/Gridelements/Index.rst
 						* Resources
-							* Private/Gridelements/Fluid
-								* startAccordion.html
-								* startTab.html
+							* Private
+								* Gridelements/Fluid
+									* startAccordion.html
+									* startTab.html
+								* Scripts/gridelements-bridge.ods
 							* Public/Icons/tx_gridelements/start*.gif
 						Affected files:
 						* Documentation/WhatsNew/Index.rst

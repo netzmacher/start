@@ -51,7 +51,8 @@ call_user_func( function ()
 	require( PATH_typo3conf . 'ext/start/Configuration/TSconfig/mod.php' );
 
 	// #t4909, 200414, dwildt, 1+
-	\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TSconfig/Page/tx_gridelements.ts">');
+	//\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TSconfig/Page/tx_gridelements.ts">');
+	require( PATH_typo3conf . 'ext/start/Configuration/TSconfig/Page/tx_gridelements.php' );
 	
 	/*	 * ****************************************************************************
 	 * Direct Mail Hooks

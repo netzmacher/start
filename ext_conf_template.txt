@@ -18,6 +18,13 @@ backendstyleDisabled  = 0
   # cat=Backend style//101;		type=string; label= Hosts:Limited for hosts (csv-list). If empty: backend style is enabled on all hosts. Example for limiting: myhost.de, myotherhost.com
 backendstyleHosts			= 
 
+  # cat=Grid Elements//100;	type=boolean; label= Disable Accordion:Disable the accordion grid element
+gridelementsDisableAccordion = 0
+  # cat=Grid Elements//101;	type=boolean; label= Disable Column:Disable the column grid elements
+gridelementsDisableCol = 0
+  # cat=Grid Elements//102;	type=boolean; label= Disable Tab:Disable the tab grid element
+gridelementsDisableTab = 0
+
 	# cat=language;							type=options[English,German]; label= Backend Language: Language for special backend labels like TypoScript static templates. Property has an effect in the backend only.
 beLanguage = English
 
