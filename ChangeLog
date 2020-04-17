@@ -6,6 +6,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 	20-04-17
 	Feature
 	* #t4931: Optmised title-tag
+						See manual: What's new
 						Affected file:
 						* Configuration/TypoScript
 							* Base/Config
