@@ -6,7 +6,7 @@
 .. include:: ../../../../../Includes.txt
 
 
-.. _users_bestpractice_layouts_nested_sameheight:
+.. _users_bestpractice_layouts_element_sameheight:
 
 
 Same Height for all columns

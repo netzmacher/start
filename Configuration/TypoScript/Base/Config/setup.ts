@@ -19,6 +19,7 @@ config {
   inlineStyle2TempFile              = {$start.config.inlineStyle2TempFile}
   language                          = {$start.config.language.language}
   locale_all                        = {$start.config.language.locale_all}
+  noPageTitle												= {$start.config.noPageTitle}
   pageTitleFirst                    = {$start.config.pageTitleFirst}
   prefixLocalAnchors                = {$start.config.prefixLocalAnchors}
   removeDefaultJS                   = {$start.config.removeDefaultJS}

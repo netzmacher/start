@@ -23,11 +23,11 @@ Groups of backend layouts can disabled by the extension manager.
 
 See: 
 
-* :ref:`Administrators > Best practice > Layouts <administrators_bestpractice_layouts>`
+* :ref:`Administrators > Best practice > Layouts <administrators_bestpractice_layouts_page>`
 
 * :ref:`Administrators > Setup > Extensionmanager > Backend Layout <administrators_setup_extensionmanager_backendlayout>`
 
-* :ref:`Users > Best practice > Layouts > Basic <users_bestpractice_layouts_basic>`
+* :ref:`Users > Best practice > Layouts > Basic <users_bestpractice_layouts_page>`
 
 
 .. _administrators_whatsnew-gridelements:
@@ -55,9 +55,9 @@ Gridelements
 
 Gridelements got the new properties:
 
-* :ref:`CSS classes for columns <users_bestpractice_layouts_nested_sameheight>`
+* :ref:`CSS classes for columns <users_bestpractice_layouts_element_sameheight>`
 
-* :ref:`Same height for all columns <users_bestpractice_layouts_nested_sameheight>`
+* :ref:`Same height for all columns <users_bestpractice_layouts_element_sameheight>`
 
 If you like to use the new features, **you MUST UPDATE the XML-code** for the gridelements flexforms. See details at
 

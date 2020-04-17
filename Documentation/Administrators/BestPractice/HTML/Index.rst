@@ -20,7 +20,7 @@ You are welcome to mix Backend Layouts and Grid Layouts like you need it. Please
 
 * :ref:`Backend Layouts <users_setup_layouts>`
 
-* :ref:`Gridelements <users_bestpractice_layouts_nested>`
+* :ref:`Gridelements <users_bestpractice_layouts_element>`
 
 
 .. _administrators_bestpractice_html_columnwidth:

@@ -6,11 +6,11 @@
 .. include:: ../../../../Includes.txt
 
 
-.. _users_bestpractice_layouts_nested:
+.. _users_bestpractice_layouts_element:
 
 
-Nested
-======
+Elements
+========
 
 **Table of Contents**
 

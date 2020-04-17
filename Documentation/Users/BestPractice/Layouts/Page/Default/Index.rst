@@ -6,40 +6,40 @@
 .. include:: ../../../../../Includes.txt
 
 
-.. _users_bestpractice_layouts_basic_newsletter:
+.. _users_bestpractice_layouts_page_default:
 
 
-Newsletter
-==========
+Default
+=======
 
-.. figure:: typo3_start_backend-layouts_newsletter.jpg
-	:width: 400px
-	:alt: The Start Newsletter backend-layouts
+.. figure:: typo3_start_backend-layouts_default.jpg
+	:width: 600px
+	:alt: The Start Default backend-layouts
 
-	The Start Newsletter backend-layouts
+	The Start Default backend-layouts
 
 
 Profile
 -------
 
-The newsletter template is optimised for a simple newsletter.
+Standard templates are near by the original TYPO3 templates from earlier TYPO3 versions.
+They are for backward compatibility only.
 
 
 Areas
 -----
 
 
-Pink
+Grey
 ''''
 
-Header and footer. Fixed width.
+Content area. No inheritance on subpages.
 
 
-Purple
-''''''
+Light grey
+''''''''''
 
-Content. Fixed width.
-
+Margin areas. Inheritance on subpages when the same area on subpages is empty.
 
 
 Setup

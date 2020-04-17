@@ -2,6 +2,17 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+6.0.2
+	20-04-17
+	Feature
+	* #t4931: Optmised title-tag
+						Affected file:
+						* Configuration/TypoScript
+							* Base/Config
+								* constants/config/config.ts
+								* setup.ts
+							* Page/Page/headerData.ts
+
 6.0.1
 	20-04-16
 	Feature
@@ -16,7 +27,8 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						* Resources/Private/Templates/foundation-5.5.3/Layouts/Navigation/Default.html
 						* ext_conf_template.txt
 						* ext_localconf.php						
-
+	Improvement
+	* #i0318: LICENSE.txt
 	Bugfixing
 	* #i0317: TYPO3 Exception: The Fluid template files ".../Resources/Private/Templates/foundation-5.5.3/Layouts/Navigation/Default.html", ..., "Default" could not be loaded.
 						Context: TYPO3 8.7, EXT:css_styled_content

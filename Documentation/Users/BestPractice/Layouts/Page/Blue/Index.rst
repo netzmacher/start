@@ -6,7 +6,7 @@
 .. include:: ../../../../../Includes.txt
 
 
-.. _users_bestpractice_layouts_basic_blue:
+.. _users_bestpractice_layouts_page_blue:
 
 
 Blue
@@ -88,4 +88,4 @@ Constant Editor
 
 The administrator can add and change CSS classes of rows by the Constant Editor. See
 
-* :ref:`Administrators > Best practice > Layouts <administrators_bestpractice_layouts>`
+* :ref:`Administrators > Best practice > Layouts <administrators_bestpractice_layouts_page>`

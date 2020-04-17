@@ -6,30 +6,24 @@
 .. include:: ../../../../../Includes.txt
 
 
-.. _users_bestpractice_layouts_basic_bronze:
+.. _users_bestpractice_layouts_page_silver:
 
 
-Bronze
+Silver
 ======
 
-.. figure:: typo3_start_backend-layouts_bronze.jpg
-	:width: 400px
-	:alt: The Start Bronze backend-layouts
-
-	The Start Bronze backend-layouts
-
-
-.. figure:: typo3_start_backend-layouts_bronze_frontend.jpg
+.. figure:: typo3_start_backend-layouts_silver.jpg
 	:width: 600px
-	:alt: Example with a Start Bronze backend-layout
+	:alt: The Start Silver backend-layouts
 
-	Example with a Start Bronze backend-layout
+	The Start Silver backend-layouts
 
 
 Profile
 -------
 
-Bronze templates are simple templates with a fixed width.
+Silver templates are identical to bronze templates but with a additional top 
+and bottom row.
 
 
 Areas
@@ -83,4 +77,4 @@ Constant Editor
 
 The administrator can add and change CSS classes of rows by the Constant Editor. See
 
-* :ref:`Administrators > Best practice > Layouts <administrators_bestpractice_layouts>`
+* :ref:`Administrators > Best practice > Layouts <administrators_bestpractice_layouts_page>`

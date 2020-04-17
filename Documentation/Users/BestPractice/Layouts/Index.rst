@@ -17,5 +17,6 @@ Layouts
     :maxdepth: 2
     :titlesonly:
 
-    Basic/Index
-    Nested/Index
+    Website/Index
+    Page/Index
+    Element/Index

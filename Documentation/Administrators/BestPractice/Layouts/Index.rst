@@ -12,35 +12,11 @@
 Layouts
 =======
 
+**Table of Contents**
 
-Backend layouts have rows for
+.. toctree::
+  :maxdepth: 3
+  :titlesonly:
 
-* header
-
-* top
-
-* content
-
-* bottom 
-
-* footer
-
-You can add CSS classes to these rows by the Constant Editor. See below.
-
-
-Setup
------
-
-* Constant Editor > [START - FOUNDATION - GRID]
-
-
-Example
--------
-
-Add the class "expanded": a row will get full width (100 per cent)
-
-
-Further Information
--------------------
-
-* :ref:`Users > Best practice > Layouts > Basic <users_bestpractice_layouts_basic>`
+  Website/Index
+  Page/Index

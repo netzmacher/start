@@ -6,13 +6,22 @@
 .. include:: ../../../../../Includes.txt
 
 
-.. _users_bestpractice_layouts_nested_general:
+.. _users_bestpractice_layouts_element_general:
 
 
 General
 =======
 
-You can nest layouts. This is a powerful tool for individual designs.
+You can assign content elements to grids. This is a powerful tool for individual designs.
+
+Available grids are
+
+* columns (1 to 6)
+
+* accordion
+
+* tab
+
 
 Workflow
 --------
@@ -22,8 +31,6 @@ Workflow
 	:alt: Gridelements in the content wizard
 
 	Gridelements in the content wizard
-
-There are six gridelements: from one to six columns.
 
 You can nest gridelements.
 
