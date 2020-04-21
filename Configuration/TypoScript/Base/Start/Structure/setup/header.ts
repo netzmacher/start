@@ -28,35 +28,36 @@ start {
           }
         }
       }
-      main < start.structure.header.bottom
+      //main < start.structure.header.bottom
       // CONTENT, stdWrap
       main = COA
       main {
+        // table, select, stdWrap
+        30 < styles.content.get
         30 {
           select {
             where = colPos=11
           }
+          slide = -1
           stdWrap {
+            required  = 1
             wrap      = <!--headermain--><section class="header headermain"><div class="row"><div class="small-12 columns"> |</div></div></section><!--/headermain-->
           }
         }
       }
-      top < start.structure.header.bottom
+      //top < start.structure.header.bottom
 			// CONTENT, stdWrap
       top = COA
       top {
+        // table, select, stdWrap
+        30 < styles.content.get
         30 {
           select {
             where = colPos=10
           }
+          slide = -1
           stdWrap {
-            ifEmpty {
-              cObject {
-                select {
-                  where = colPos=10
-                }
-              }
-            }
+            required  = 1
             wrap      = <!--headertop--><section class="header headertop"><div class="row"><div class="small-12 columns"> |</div></div></section><!--/headertop-->
           }
         }
