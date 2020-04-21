@@ -369,6 +369,10 @@ body {
 #startBox01 footer .side-nav li a:not(.button) {
 	padding: 0;
 }
+/* #i0320, 200421, dwildt, +*/
+#startBox01 footer.expanded {
+	max-width: 100%;
+}
 
 #startBox01 ul.language-menu li {
 	border-left: 1px solid #000;
