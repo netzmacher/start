@@ -2,6 +2,33 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+6.0.3
+	20-04-21
+	Improvement
+	* #i0320: Fluidtemplate blue: header and footer
+						New files:
+						* Resources/Private/Templates/foundation-5.5.3/Partials/Be_layout
+							* Footer/main/blue.html                                                                                                                                 
+							* Header/main/blue.html 
+						Affected files:
+						* Resources/Private/Templates/foundation-5.5.3
+							* Layouts/Be_layout/Blue.html                                                                                                                                              
+							* Partials/Be_layout
+								* Footer/main/blue.html                                                                                                                                 
+								* Header/main/blue.html 
+							* Templates/Be_layout
+								* Blue_01.html                                                                                                                                         
+								* Blue_01_01_lr.html                                                                                                                                   
+								* Blue_01_02_r.html                                                                                                                                    
+								* Blue_01_03_l.html                                                                                                                                    
+								* Blue_02.html                                                                                                                                         
+								* Blue_03.html  
+	* #i0319: CSS +auto @ #startBox01 ul.breadcrumbs {margin: 0 auto;}
+						Affected files:
+						* Resources/Public/Css
+							* basic.css
+							* basic.min.css
+
 6.0.2
 	20-04-17
 	Feature

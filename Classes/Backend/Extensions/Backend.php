@@ -31,7 +31,7 @@ use TYPO3\CMS\Core\Utility\VersionNumberUtility;
 /**
  * @author      Dirk Wildt <http://wildt.at.die-netzmacher.de>
  * @package     TYPO3
- * @subpackage  org
+ * @subpackage  start
  * @version 8.10.0
  * @since 8.10.0
  */

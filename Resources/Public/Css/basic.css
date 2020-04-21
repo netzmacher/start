@@ -353,7 +353,7 @@ body {
 
 /* #i0292, 191218, dwildt, +*/
 #startBox01 ul.breadcrumbs {
-	margin: 0;
+	margin: 0 auto;
 }
 /* #i0193, 181028, dwildt, +*/
 #startBox01 footer ul.side-nav {
