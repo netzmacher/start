@@ -2,6 +2,20 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+6.0.4
+	20-04-22
+	Improvement
+	* #t4958: Simplify integration of additional templates. Here: lib.site.footer.main
+						New file:
+						* Configuration/TypoScript/Base/Start/Lib/footer/main.ts
+						Affetced file:
+						* Configuration/TypoScript/Base/Start/Structure/setup/footer.ts
+	* #t4955: Simplify integration of additional templates. Here: lib.site.linetop
+						New file:
+						* Configuration/TypoScript/Base/Start/Lib/sitelineTop.ts
+						Affetced file:
+						* Configuration/TypoScript/Foundation/Start/Structure/site.ts
+
 6.0.3
 	20-04-21
 	Improvement
