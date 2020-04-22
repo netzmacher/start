@@ -2,6 +2,15 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+6.0.5
+	20-04-22
+	Improvement
+	* #t4959: Simplify integration of additional templates. Here: CSS. 
+						Affected files:
+						* Resources
+							* Private/Templates/foundation-5.5.3/Partials/Be_layout/Footer/main/blue.html
+							* Public/Css/basic.css
+
 6.0.4
 	20-04-22
 	Improvement

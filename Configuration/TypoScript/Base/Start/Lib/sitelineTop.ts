@@ -162,6 +162,9 @@ start {
 						special >
 						special = directory
 						special.value = {$start.pages.siteLineTop}
+						stdWrap {
+							outerWrap = <ul class="side-nav vertical right" role="menu">|</ul>
+						}
 					}
 				}
 			}
