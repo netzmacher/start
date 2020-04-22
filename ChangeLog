@@ -8,7 +8,6 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 	* #t4959: Simplify integration of additional templates. Here: CSS. 
 						Affected files:
 						* Resources
-							* Private/Templates/foundation-5.5.3/Partials/Be_layout/Footer/main/blue.html
 							* Public/Css/basic.css
 
 6.0.4
