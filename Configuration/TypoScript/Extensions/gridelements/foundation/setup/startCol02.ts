@@ -80,7 +80,7 @@ start {
 										10 = TEXT
 										10 {
 											field = flexform_classCol00
-											noTrimWrap = |"><div class="|"|
+											noTrimWrap = |"><div class="||
 										}
 											// data-equalizer-watch="c{field:uid}" if.isTrue.field = flexform_samecolumnheight
 										20 = TEXT
@@ -106,14 +106,15 @@ start {
 											if.isTrue.field = flexform_samecolumnheight
 											value				= data-equalizer-watch="c{field:uid}"
 											insertData	= 1
-											// #i0322, dwildt, 200423, 1-/+ 
-											//noTrimWrap	= | ||
-											noTrimWrap	= |" ||
+//											// #i0322, dwildt, 200423, 1-/+ 
+											noTrimWrap	= | ||
+											//noTrimWrap	= |" ||
 										}
 									}
-										// #i0322, dwildt, 200423, 1-/+ 
+										// #i0322, dwildt, 200423, 1-/
 									//wrap = "
-									wrap = |
+										// #i0322, dwildt, 200423, 1+ 
+										wrap = |"
 								}
 									// value = >
 								30 = TEXT

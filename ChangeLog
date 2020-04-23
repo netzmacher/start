@@ -12,7 +12,6 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						Affected file:
 						* Resources/Private/Templates/foundation-5.5.3/Templates/Navigation/Top.html
 						:ref: EXT:startgreen #t4965
-
 	* #i0321: TypoScript structure
 						Is moved
 						* from: start.structure.footer.main.20.31
