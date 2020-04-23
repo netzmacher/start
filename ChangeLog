@@ -2,6 +2,26 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+6.0.6
+	20-04-22
+	Improvement
+	* #i0323: Simplify integration of additional templates
+						Moved TypoScript property
+						* from: tt_content.txStartTopNav.settings.topNavSectionPosition
+						* to:		tt_content.txStartTopNav.variables.topNavSectionPosition
+						Affected file:
+						* Resources/Private/Templates/foundation-5.5.3/Templates/Navigation/Top.html
+						:ref: EXT:startgreen #t4953
+
+	* #i0321: TypoScript structure
+						Is moved
+						* from: start.structure.footer.main.20.31
+						* to:		start.structure.footer.main.20.40
+	Bugfixes
+	* #i0322: HTML grid elements missing quote and double quote
+						Affected file:
+						* Configuration/TypoScript/Extensions/gridelements/foundation/setup/startCol02.ts
+
 6.0.5
 	20-04-22
 	Improvement

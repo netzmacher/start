@@ -14,7 +14,7 @@ start {
 				// for proper comments only
 			main {
 			}
-				// 10: register. 20: 3x2 columns. 30: CONTENT where = colPos=21. 31: tx_start_addressline, tx_start_email
+				// 10: register. 20: 3x2 columns. 30: CONTENT where = colPos=21. 40: tx_start_addressline, tx_start_email
       main = COA
       main {
 					// register: footeruids, footertitles
@@ -155,8 +155,8 @@ start {
 					slide = -1
 				}
 					// tx_start_addressline, tx_start_email
-				31 = COA
-				31 {
+				40 = COA
+				40 {
 						// if.isTrue.data = levelfield:-1, tx_start_addressline, slide OR levelfield:-1, tx_start_email, slide
 					if =
 					if {

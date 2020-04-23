@@ -52,7 +52,6 @@ tt_content.txStartTopNav {
 		topNavPosition							= {$start.foundation.topbar.position}
 		topNavRootPid								= {$start.pages.root}
 		topNavSearchformButton			= {$start.foundation.topbar.searchform.button}
-		topNavSectionPosition				= {$start.foundation.topbar.section.position}
 	}
 	variables {
 			// li.menu-icon
@@ -109,6 +108,11 @@ tt_content.txStartTopNav {
 				}
 			}
 			wrap = <h1>|</h1>
+		}
+			// #i0323, 200423, dwildt, 1+
+		topNavSectionPosition	= TEXT
+		topNavSectionPosition {
+			value = {$start.foundation.topbar.section.position}
 		}
 	}
 }

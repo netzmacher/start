@@ -106,10 +106,14 @@ start {
 											if.isTrue.field = flexform_samecolumnheight
 											value				= data-equalizer-watch="c{field:uid}"
 											insertData	= 1
-											noTrimWrap	= | ||
+											// #i0322, dwildt, 200423, 1-/+ 
+											//noTrimWrap	= | ||
+											noTrimWrap	= |" ||
 										}
 									}
-									wrap = "
+										// #i0322, dwildt, 200423, 1-/+ 
+									//wrap = "
+									wrap = |
 								}
 									// value = >
 								30 = TEXT
