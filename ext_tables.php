@@ -21,12 +21,9 @@ $typo3Version = $version;
 
 switch( TRUE )
 {
-	case($typo3Version < 6000000):
-		require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/ExtTables/TYPO3_4.x.php' );
-		break;
 	case($typo3Version < 8000000):
 		// #t1571, 170929, dwildt, ~
-		require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/ExtTables/TYPO3_7.x.php' );
+		require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/ExtTables/TYPO3_6.2.php' );
 		break;
 	case($typo3Version >= 8000000):
 	default:
@@ -60,7 +57,7 @@ if( TYPO3_MODE === 'BE' )
 		case($typo3Version < 9000000):
 		case($typo3Version >= 9000000):
 		default:
-			if( !Netzmacher\Start\Backend\Extensions\Extensionmanager::getProperty( 'modulDisabled' ) )
+			if( !Netzmacher\Start\Backend\Extensionmanager::getProperty( 'modulDisabled' ) )
 			{
 				\TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerModule(
 								'Netzmacher.Start'

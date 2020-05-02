@@ -1,7 +1,7 @@
 <?php
 
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
-use Netzmacher\Start\Backend\Extensions\Extensionmanager;
+use Netzmacher\Start\Backend\Extensionmanager;
 
 // #i0180, 180622, dwildt, 3+
 if( Extensionmanager::getProperty( 'tcaPagesDisabled' ) )

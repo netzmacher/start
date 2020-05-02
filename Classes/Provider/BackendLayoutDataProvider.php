@@ -5,7 +5,7 @@ namespace Netzmacher\Start\Provider;
 use TYPO3\CMS\Backend\View\BackendLayout\BackendLayout;
 use TYPO3\CMS\Backend\View\BackendLayout\BackendLayoutCollection;
 use TYPO3\CMS\Backend\View\BackendLayout\DataProviderContext;
-use Netzmacher\Start\Backend\Extensions\Extensionmanager;
+use Netzmacher\Start\Backend\Extensionmanager;
 
 /* * *************************************************************
  *

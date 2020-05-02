@@ -7,8 +7,18 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
 	* #t5072: Clean up code
 						Removed files:
-						* Configuration/TypoScript/Foundation/Start/Lib/6.4.3/
+						* Configuration
+							* ExtTables/TYPO3_4.x.php
+							* TypoScript/Foundation/Start/Lib/6.4.3/
 	Compatibility
+	* #t5074: TYPO3 10.4. Here: $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ]
+						Affected files:
+						* Classes
+							* Backend/Extensions/Backend.php
+							* Provider/BackendLayoutDataProvider.php
+						* ext_tables.php
+						Removed files:
+						* Classes/Backend/Extensions/Extensionmanager.php
 	* #t5072: TYPO3 10.4. Here: globalVar must replaced by request
 						New file:
 						* Configuration/TypoScript/Base/global/10.4/language.ts

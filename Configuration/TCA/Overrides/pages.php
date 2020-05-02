@@ -1,6 +1,6 @@
 <?php
 
-use Netzmacher\Start\Backend\Extensions\Extensionmanager;
+use Netzmacher\Start\Backend\Extensionmanager;
 
 if( !defined( 'TYPO3_MODE' ) )
 {
@@ -33,7 +33,7 @@ $typo3Version = $version;
 switch( TRUE )
 {
 	case($typo3Version < 8000000):
-		require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TCA/Overrides/7.6/pages.php' );
+		require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TCA/Overrides/6.2/pages.php' );
 		break;
 	case($typo3Version >= 8000000):
 	default:

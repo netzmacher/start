@@ -2,12 +2,13 @@
 
 namespace Netzmacher\Start\Backend\Extensions;
 
+use Netzmacher\Start\Backend\Extensionmanager;
 use TYPO3\CMS\Core\Utility\VersionNumberUtility;
 
 /* * *************************************************************
  *  Copyright notice
  *
- *  (c) 2018-2020 - Dirk Wildt <http://wildt.at.die-netzmacher.de/>
+ *  (c) 2020 - Dirk Wildt <http://wildt.at.die-netzmacher.de/>
  *
  *  All rights reserved
  *
@@ -32,8 +33,8 @@ use TYPO3\CMS\Core\Utility\VersionNumberUtility;
  * @author      Dirk Wildt <http://wildt.at.die-netzmacher.de>
  * @package     TYPO3
  * @subpackage  start
- * @version 8.10.0
- * @since 8.10.0
+ * @version 7.0.0
+ * @since 7.0.0
  */
 class Backend
 {
@@ -41,8 +42,8 @@ class Backend
 	/**
 	 * @access public
 	 * @return      void
-	 * @version     8.10.0
-	 * @since       8.10.0
+	 * @version     7.0.0
+	 * @since       7.0.0
 	 */
 	static public function Style()
 	{
@@ -51,26 +52,23 @@ class Backend
 			return;
 		}
 
-		SELF::_ExtConfUnserialize();
 		if( SELF::_HostDisallowed() )
 		{
-			SELF::_ExtConfSerialize();
 			return;
 		}
 		SELF::_BackendStyle();
 		SELF::_BackendLogo();
-		SELF::_ExtConfSerialize();
 	}
 
 	/**
 	 * @access private
 	 * @return      void
-	 * @version     8.10.0
-	 * @since       8.10.0
+	 * @version     7.0.0
+	 * @since       7.0.0
 	 */
 	static private function _BackendLogo()
 	{
-		$backendstyleDisabled = $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'start' ][ 'backendstyleDisabled' ];
+		$backendstyleDisabled = Extensionmanager::getProperty( 'backendstyleDisabled' );
 		if( $backendstyleDisabled )
 		{
 			return;
@@ -96,103 +94,60 @@ class Backend
 	/**
 	 * @access private
 	 * @return      void
-	 * @version     8.10.0
-	 * @since       8.10.0
+	 * @version     7.0.0
+	 * @since       7.0.0
 	 */
 	static private function _BackendStyle()
 	{
-		$backendstyleDisabled = $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'start' ][ 'backendstyleDisabled' ];
+		$backendstyleDisabled = Extensionmanager::getProperty( 'backendstyleDisabled' );
 
 		if( $backendstyleDisabled )
 		{
 			return;
 		}
 
-		if( !is_array( $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'backend' ] ) )
-		{
-			$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'backend' ] = unserialize( $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'backend' ] );
-		}
-
 		// Login Logo
-		if( !isset( $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'backend' ][ 'loginLogo' ] ) || empty( trim( $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'backend' ][ 'loginLogo' ] ) )
-		)
+		if( empty( trim( Extensionmanager::getProperty( 'loginLogo', 'backend' ) ) ) )
 		{
 			$loginLogo = 'EXT:start/Resources/Public/Images/Backend/typo3-start_loginLogo.jpg';
-			$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'backend' ][ 'loginLogo' ] = $loginLogo;
+			Extensionmanager::setProperty( 'loginLogo', $loginLogo, 'backend' );
 		}
 
 		// Login Background
-		if( !isset( $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'backend' ][ 'loginBackgroundImage' ] ) || empty( trim( $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'backend' ][ 'loginBackgroundImage' ] ) )
-		)
+		if( empty( trim( Extensionmanager::getProperty( 'loginBackgroundImage', 'backend' ) ) ) )
 		{
-			$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'backend' ][ 'loginBackgroundImage' ] = 'EXT:start/Resources/Public/Images/Backend/typo3-start_loginBackgroundImage.jpg';
+			Extensionmanager::setProperty( 'loginBackgroundImage', 'EXT:start/Resources/Public/Images/Backend/typo3-start_loginBackgroundImage.jpg', 'backend' );
 		}
 
 		// Backend Logo
-		if( !isset( $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'backend' ][ 'backendLogo' ] ) || empty( trim( $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'backend' ][ 'backendLogo' ] ) )
-		)
+		if( empty( trim( Extensionmanager::getProperty( 'backendLogo', 'backend' ) ) ) )
 		{
 			$backendLogo = 'EXT:start/Resources/Public/Images/Backend/typo3-start_backendLogo@2x.png';
-			$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'backend' ][ 'backendLogo' ] = $backendLogo;
+			Extensionmanager::setProperty( 'backendLogo', $backendLogo, 'backend' );
 		}
 
 		// Favicon
-		if( !isset( $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'backend' ][ 'backendFavicon' ] ) || empty( trim( $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'backend' ][ 'backendFavicon' ] ) )
-		)
+		if( empty( trim( Extensionmanager::getProperty( 'backendFavicon', 'backend' ) ) ) )
 		{
-			$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'backend' ][ 'backendFavicon' ] = 'EXT:start/Resources/Public/Images/Backend/typo3-start.ico';
+			Extensionmanager::setProperty( 'backendFavicon', 'EXT:start/Resources/Public/Images/Backend/typo3-start.ico', 'backend' );
 		}
 
 		// loginHighlightColor
-		if( !isset( $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'backend' ][ 'loginHighlightColor' ] ) || empty( trim( $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'backend' ][ 'loginHighlightColor' ] ) )
-		)
+		if( empty( trim( Extensionmanager::getProperty( 'loginHighlightColor', 'backend' ) ) ) )
 		{
-			$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'backend' ][ 'loginHighlightColor' ] = '#FE5E00';
-		}
-
-		if( is_array( $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'backend' ] ) )
-		{
-			$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'backend' ] = serialize( $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'backend' ] );
-		}
-	}
-
-	/**
-	 * @access private
-	 * @return      void
-	 * @version     8.10.0
-	 * @since       8.10.0
-	 */
-	static private function _ExtConfSerialize()
-	{
-		if( is_array( $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'start' ] ) )
-		{
-			$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'start' ] = serialize( $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'start' ] );
-		}
-	}
-
-	/**
-	 * @access private
-	 * @return      void
-	 * @version     8.10.0
-	 * @since       8.10.0
-	 */
-	static private function _ExtConfUnserialize()
-	{
-		if( !is_array( $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'start' ] ) )
-		{
-			$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'start' ] = unserialize( $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'start' ] );
+			Extensionmanager::setProperty( 'loginHighlightColor', '#FE5E00', 'backend' );
 		}
 	}
 
 	/**
 	 * @access private
 	 * @return      boolean
-	 * @version     8.10.0
-	 * @since       8.10.0
+	 * @version     7.0.0
+	 * @since       7.0.0
 	 */
 	static private function _HostDisallowed()
 	{
-		$backendstyleHosts = $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ 'start' ][ 'backendstyleHosts' ];
+		$backendstyleHosts = Extensionmanager::getProperty( 'backendstyleHosts' );
 
 		// Any host isn't set, all hosts are allowed
 		if( empty( $backendstyleHosts ) )
@@ -203,7 +158,7 @@ class Backend
 		$backendstyleHosts = str_replace( ' ', NULL, $backendstyleHosts );
 		$arrBackendstyleHosts = explode( ',', $backendstyleHosts );
 		// Current host is in the list of allowed hosts
-		if( in_array( $_SERVER[ 'SERVER_NAME' ], $arrBackendstyleHosts ) )
+		if( in_array( filter_input( INPUT_SERVER, 'SERVER_NAME' ), $arrBackendstyleHosts ) )
 		{
 			return FALSE;
 		}

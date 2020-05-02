@@ -1,6 +1,6 @@
 <?php
 
-use Netzmacher\Start\Backend\Extensions\Extensionmanager;
+use Netzmacher\Start\Backend\Extensionmanager;
 
 if( !defined( 'TYPO3_MODE' ) )
 {
@@ -37,7 +37,7 @@ $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'txStartPagemedia' ] = $GLOBALS[ '
 switch( TRUE )
 {
 	case($typo3Version < 8000000):
-		require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TCA/Overrides/7.6/tt_content.php' );
+		require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TCA/Overrides/6.2/tt_content.php' );
 		break;
 	case($typo3Version >= 8000000):
 	default:
