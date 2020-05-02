@@ -12,6 +12,35 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 	* #t5063: TYPO3 10.4
 						*	PATH_typo3conf . 'ext/start/ > \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . '
 						* $_EXTKEY > 'start'
+						Affected files:
+						* Configuration
+							* ExtTables
+								* Default.php
+								* TYPO3_4.x.php
+								* TYPO3_7.x.php
+							* TCA/Overrides
+								* Default
+									* tt_content.php
+									*	tt_content/tt_content.php
+								* pages.php
+								* tt_content.php
+							* TSconfig
+								* mod.php
+								* mod
+									* index.php
+									* wizards
+										* index.php
+										* newContentElement
+											* index.php
+											* wizardItems/index.php
+							* TypoScript
+								* Base/Start/Lib
+									* breadcrumbs.ts
+									* topbar.ts
+								* Foundation/Start/_setup.ts
+						* ext_localconf.php
+						* ext_tables.php
+						* ext_typoscript_setup.typoscript
 
 6.0.6
 	20-04-22
