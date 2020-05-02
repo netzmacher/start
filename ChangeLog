@@ -9,6 +9,9 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						Removed files:
 						* Configuration/TypoScript/Foundation/Start/Lib/6.4.3/
 	Compatibility
+	* #t5072: TYPO3 10.4. Here: globalVar must replaced by request
+						New file:
+						* Configuration/TypoScript/Base/global/10.4/language.ts
 	* #t5063: TYPO3 10.4
 						*	PATH_typo3conf . 'ext/start/ > \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . '
 						* $_EXTKEY > 'start'
