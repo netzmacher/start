@@ -61,18 +61,3 @@ tt_content.menu {
     startFoundationBreadcrumbs < start.lib.breadcrumbs
   }
 }
-
-// #t1577, 170930, dwildt, +
-#tt_content.startFoundationBreadcrumbs = COA
-#tt_content.startFoundationBreadcrumbs {
-#	10 = < lib.stdheader
-#	20 < start.lib.breadcrumbs
-#}
-#[compatVersion = 7.6]
-#	tt_content.menu {
-#		20 {
-#			startFoundationBreadcrumbs < start.lib.breadcrumbs
-#		}
-#	}
-#	tt_content.startFoundationBreadcrumbs >
-#[global]

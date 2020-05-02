@@ -1,3 +1,3 @@
 <?php
 
-require( PATH_typo3conf . 'ext/start/Configuration/TCA/Overrides/Default/tt_content/tt_content.php' );
+require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TCA/Overrides/Default/tt_content/tt_content.php' );

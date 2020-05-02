@@ -37,11 +37,11 @@ $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'txStartPagemedia' ] = $GLOBALS[ '
 switch( TRUE )
 {
 	case($typo3Version < 8000000):
-		require( PATH_typo3conf . 'ext/start/Configuration/TCA/Overrides/7.6/tt_content.php' );
+		require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TCA/Overrides/7.6/tt_content.php' );
 		break;
 	case($typo3Version >= 8000000):
 	default:
-		require( PATH_typo3conf . 'ext/start/Configuration/TCA/Overrides/Default/tt_content.php' );
+		require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TCA/Overrides/Default/tt_content.php' );
 		break;
 }
 

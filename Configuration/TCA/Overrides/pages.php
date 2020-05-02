@@ -33,10 +33,10 @@ $typo3Version = $version;
 switch( TRUE )
 {
 	case($typo3Version < 8000000):
-		require( PATH_typo3conf . 'ext/start/Configuration/TCA/Overrides/7.6/pages.php' );
+		require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TCA/Overrides/7.6/pages.php' );
 		break;
 	case($typo3Version >= 8000000):
 	default:
-		require( PATH_typo3conf . 'ext/start/Configuration/TCA/Overrides/Default/pages.php' );
+		require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TCA/Overrides/Default/pages.php' );
 		break;
 }
