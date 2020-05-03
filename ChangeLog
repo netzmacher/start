@@ -5,12 +5,29 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 7.0.0
   20-04-30
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	Features
+	* #t5080: Backend ico: lock and unlock
+						New files:
+						* Resources/Public/Images/Backend
+							* typo3_start_lock.ico
+							* typo3_start_unlock.ico
+						Affected files:
+						* Classes/Backend/Extensions/Backend.php
+	Improvements
 	* #t5072: Clean up code
 						Removed files:
 						* Configuration
 							* ExtTables/TYPO3_4.x.php
 							* TypoScript/Foundation/Start/Lib/6.4.3/
 	Compatibility
+	* #t5079: TYPO3 10.4. Here: gridelements: missing rendertype
+						Affected files:
+						* Configuration/FlexForm
+							* startCol02.xml
+							* startCol03.xml
+							* startCol04.xml
+							* startCol05.xml
+							* startCol06.xml
 	* #t5074: TYPO3 10.4. Here: $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ]
 						Affected files:
 						* Classes

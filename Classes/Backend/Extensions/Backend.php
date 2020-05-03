@@ -125,17 +125,29 @@ class Backend
 			$backendLogo = 'EXT:start/Resources/Public/Images/Backend/typo3-start_backendLogo@2x.png';
 			Extensionmanager::setProperty( 'backendLogo', $backendLogo, 'backend' );
 		}
-
 		// Favicon
 		if( empty( trim( Extensionmanager::getProperty( 'backendFavicon', 'backend' ) ) ) )
 		{
-			Extensionmanager::setProperty( 'backendFavicon', 'EXT:start/Resources/Public/Images/Backend/typo3-start.ico', 'backend' );
+			if( filter_input( INPUT_GET, 'token' ) )
+			{
+				Extensionmanager::setProperty( 'backendFavicon', 'EXT:start/Resources/Public/Images/Backend/typo3_start_unlock.ico', 'backend' );
+			}
+			else
+			{
+				Extensionmanager::setProperty( 'backendFavicon', 'EXT:start/Resources/Public/Images/Backend/typo3_start_lock.ico', 'backend' );
+			}
 		}
 
 		// loginHighlightColor
 		if( empty( trim( Extensionmanager::getProperty( 'loginHighlightColor', 'backend' ) ) ) )
 		{
 			Extensionmanager::setProperty( 'loginHighlightColor', '#FE5E00', 'backend' );
+		}
+
+		// loginFootnote
+		if( empty( trim( Extensionmanager::getProperty( 'loginFootnote', 'backend' ) ) ) )
+		{
+			Extensionmanager::setProperty( 'loginFootnote', '(c) 2014-2020 – die-netzmacher.de', 'backend' );
 		}
 	}
 

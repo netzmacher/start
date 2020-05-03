@@ -31,6 +31,7 @@
           <label>LLL:EXT:start/Resources/Private/Language/Gridelements.xlf:gridelements.flexform.columnslarge</label>
           <config type="array">
             <type>select</type>
+            <renderType>selectSingle</renderType>
             <items type="array">
               <numIndex index="0" type="array">
                 <numIndex index="0">2|10</numIndex>
@@ -81,6 +82,7 @@
           <label>Medium columns arrangement</label>
           <config type="array">
             <type>select</type>
+            <renderType>selectSingle</renderType>
             <items type="array">
               <numIndex index="0" type="array">
                 <numIndex index="0">2|10</numIndex>
@@ -131,6 +133,7 @@
           <label>LLL:EXT:start/Resources/Private/Language/Gridelements.xlf:gridelements.flexform.columnssmall</label>
           <config type="array">
             <type>select</type>
+            <renderType>selectSingle</renderType>
             <items type="array">
               <numIndex index="0" type="array">
                 <numIndex index="0">2|10</numIndex>
