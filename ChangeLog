@@ -20,6 +20,13 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 							* ExtTables/TYPO3_4.x.php
 							* TypoScript/Foundation/Start/Lib/6.4.3/
 	Compatibility
+	* #t5081: TYPO3 10.4. Here: TypoScript condition [userFunc ...] must replaced by condition provider
+						New files:
+						* /opt/typo3/extensions/start/Classes/ExpressionLanguage/ExtensionWrapper.php
+						* /opt/typo3/extensions/start/Classes/ExpressionLanguage/ConditionProvider.php
+						* /opt/typo3/extensions/start/Configuration/ExpressionLanguage.php
+						Affected file:
+						* /opt/typo3/extensions/start/Configuration/TypoScript/Base/tt_content/_setup.ts
 	* #t5079: TYPO3 10.4. Here: gridelements: missing rendertype
 						Affected files:
 						* Configuration/FlexForm
