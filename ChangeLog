@@ -14,12 +14,14 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						Affected files:
 						* Classes/Backend/Extensions/Backend.php
 	Improvements
+	* #i0324: (c) 2020
 	* #t5072: Clean up code
 						Removed files:
 						* Configuration
 							* ExtTables/TYPO3_4.x.php
 							* TypoScript/Foundation/Start/Lib/6.4.3/
 	Compatibility
+	* #i0323: TYPO3 10.4. Here: dependency on EXT:refresh is removed
 	* #t5081: TYPO3 10.4. Here: TypoScript condition [userFunc ...] must replaced by condition provider
 						New files:
 						* /opt/typo3/extensions/start/Classes/ExpressionLanguage/ExtensionWrapper.php

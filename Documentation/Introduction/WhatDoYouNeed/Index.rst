@@ -13,12 +13,15 @@ What do you need?
 
 - A TYPO3 installation only. The installation can be empty.
 
+
 TYPO3 Versions
 --------------
 
-- TYPO3 8.7
+- TYPO3 10.4
 
 - TYPO3 9.5
+
+- TYPO3 8.7
 
 
 TYPO3 6.2

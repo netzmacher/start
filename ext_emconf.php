@@ -14,7 +14,6 @@ $EM_CONF[ 'start' ] = array(
 		'version' => '7.0.0',
 		'constraints' => array(
 				'depends' => array(
-						'refresh' => '',
 						'typo3' => '8.7.0-10.4.99',
 				),
 				'conflicts' => array(
