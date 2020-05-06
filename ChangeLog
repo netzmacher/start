@@ -7,11 +7,12 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 	Feature:
 	* #t5089: Dashboard. Here: RSS-Feed Netzmacher
 						New files:
-						* 
+						* Configuration/Services.yaml
+						Internal
+						* https://docs.typo3.org/c/typo3/cms-dashboard/master/en-us/Index.html
+
   Improvements:
 	* #i0325: Use Typo3VersionUtility::get()
-						Affected files:
-						* 
 
 7.0.0
   20-04-30
@@ -35,11 +36,11 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 	* #i0323: TYPO3 10.4. Here: dependency on EXT:refresh is removed
 	* #t5081: TYPO3 10.4. Here: TypoScript condition [userFunc ...] must replaced by condition provider
 						New files:
-						* /opt/typo3/extensions/start/Classes/ExpressionLanguage/ExtensionWrapper.php
-						* /opt/typo3/extensions/start/Classes/ExpressionLanguage/ConditionProvider.php
-						* /opt/typo3/extensions/start/Configuration/ExpressionLanguage.php
+						* Classes/ExpressionLanguage/ExtensionWrapper.php
+						* Classes/ExpressionLanguage/ConditionProvider.php
+						* Configuration/ExpressionLanguage.php
 						Affected file:
-						* /opt/typo3/extensions/start/Configuration/TypoScript/Base/tt_content/_setup.ts
+						* Configuration/TypoScript/Base/tt_content/_setup.ts
 	* #t5079: TYPO3 10.4. Here: gridelements: missing rendertype
 						Affected files:
 						* Configuration/FlexForm

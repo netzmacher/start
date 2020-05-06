@@ -1,0 +1,34 @@
+services:
+
+  cache.dashboard.rss:
+    class: 'TYPO3\CMS\Core\Cache\Frontend\FrontendInterface'
+    factory: ['@TYPO3\CMS\Core\Cache\CacheManager', 'getCache']
+    arguments:
+      $identifier: 'dashboard_rss'
+
+  dashboard.buttons.netzmacherRss:
+    class: 'TYPO3\CMS\Dashboard\Widgets\Provider\ButtonProvider'
+    arguments:
+      $title: 'die-netzmacher.de'
+      $link: 'https://die-netzmacher.de/'
+      $target: '_blank'
+
+  dashboard.widget.netzmacherRss:
+    class: 'TYPO3\CMS\Dashboard\Widgets\RssWidget'
+    arguments:
+      $view: '@dashboard.views.widget'
+      $cache: '@cache.dashboard.rss'
+      $buttonProvider: '@dashboard.buttons.netzmacherRss'
+      $options:
+        feedUrl: 'https://die-netzmacher.de/newsfeeds/'
+        # 12 hours cache
+        lifeTime: 43200
+    tags:
+      - name: dashboard.widget
+        identifier: 'netzmacherRss'
+        groupNames: 'news'
+        title: 'die-netzmacher.de: News'
+        description: 'Nachrichten der Netzmacher TYPO3 Open Source'
+        iconIdentifier: 'content-widget-rss'
+        height: 'large'
+        width: 'medium'
