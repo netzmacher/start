@@ -3,14 +3,14 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../Includes.txt
+.. include:: ../../../../Includes.txt
 
 
-.. _upgrades:
+.. __upgrades_TYPO3_87_extensions:
 
 
-Upgrades
-========
+Extensions
+==========
 
 **Table of Contents**
 
@@ -18,6 +18,8 @@ Upgrades
     :maxdepth: 2
     :titlesonly:
 
-    Start/Index
-    TYPO3/Index
-    Workarounds/Index
+    CssStyledContent/Index
+    FluidStyledContent/Index
+    T3Foundation/Index
+    Gridelements/Index
+    Slick/Index

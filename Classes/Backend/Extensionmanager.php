@@ -2,7 +2,7 @@
 
 namespace Netzmacher\Start\Backend;
 
-use Netzmacher\Start\Misc\TYPO3versionMisc;
+use Netzmacher\Start\Utility\Typo3VersionUtility;
 
 /* * *************************************************************
  *
@@ -64,10 +64,10 @@ class Extensionmanager
 	{
 		switch( TRUE )
 		{
-			case(TYPO3versionMisc::Get() < 10000000):
+			case(Typo3VersionUtility::Get() < 10000000):
 				self::$_extConf = $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ $extKey ];
 				break;
-			case(TYPO3versionMisc::Get() >= 10000000):
+			case(Typo3VersionUtility::Get() >= 10000000):
 			default:
 				self::$_extConf = $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXTENSIONS' ][ $extKey ];
 				break;
@@ -96,10 +96,10 @@ class Extensionmanager
 		}
 		switch( TRUE )
 		{
-			case(TYPO3versionMisc::Get() < 10000000):
+			case(Typo3VersionUtility::Get() < 10000000):
 				$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ $extKey ] = self::$_extConf;
 				break;
-			case(TYPO3versionMisc::Get() >= 10000000):
+			case(Typo3VersionUtility::Get() >= 10000000):
 			default:
 				$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXTENSIONS' ][ $extKey ] = self::$_extConf;
 				break;

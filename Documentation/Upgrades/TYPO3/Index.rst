@@ -3,14 +3,14 @@
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. include:: ../Includes.txt
+.. include:: ../../Includes.txt
 
 
-.. _upgrades:
+.. _upgrades_TYPO3:
 
 
-Upgrades
-========
+TYPO3
+=====
 
 **Table of Contents**
 
@@ -18,6 +18,6 @@ Upgrades
     :maxdepth: 2
     :titlesonly:
 
-    Start/Index
-    TYPO3/Index
-    Workarounds/Index
+    104/Index
+    95/Index
+    87/Index

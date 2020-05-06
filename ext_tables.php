@@ -9,11 +9,8 @@ if( !defined( 'TYPO3_MODE' ) )
  * TYPO3 Version
  * **************************************************************************** */
 
-list( $main, $sub, $bugfix ) = explode( '.', TYPO3_version );
-$version = ( ( int ) $main ) * 1000000;
-$version = $version + ( ( int ) $sub ) * 1000;
-$version = $version + ( ( int ) $bugfix ) * 1;
-$typo3Version = $version;
+// ##i0325, 200506, dwildt, +
+$typo3Version = Netzmacher\Start\Utility\Typo3VersionUtility::get();
 
 /* * ****************************************************************************
  * Page TSConfig
@@ -44,8 +41,6 @@ switch( TRUE )
  * Register Modules
  * ************************************************************************************************ */
 
-// #i0242, 190615, dwildt, +
-$typo3Version = Netzmacher\Start\Utility\Typo3VersionUtility::get();
 if( TYPO3_MODE === 'BE' )
 {
 	switch( TRUE )

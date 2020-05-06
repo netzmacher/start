@@ -9,8 +9,8 @@
 .. _upgrades_workarounds_i0214:
 
 
-ChangeLog #i0214
-================
+ChangeLog #i0214 (EXT:gridelements)
+===================================
 
 Grid Elements will display the header.
 

@@ -13,22 +13,12 @@ if( Extensionmanager::getProperty( 'tcaTtcontentDisabled' ) )
 	return;
 }
 
-// #t1578, 171001, dwildt, ~
-
-/* * ****************************************************************************
- * TYPO3 Version
- * **************************************************************************** */
-list( $main, $sub, $bugfix ) = explode( '.', TYPO3_version );
-$version = ( ( int ) $main ) * 1000000;
-$version = $version + ( ( int ) $sub ) * 1000;
-$version = $version + ( ( int ) $bugfix ) * 1;
-$typo3Version = $version;
-
-
 /* * ****************************************************************************
  * TCA Override pages
  * **************************************************************************** */
 
+// ##i0325, 200506, dwildt, +
+$typo3Version = Netzmacher\Start\Utility\Typo3VersionUtility::get();
 
 switch( TRUE )
 {
