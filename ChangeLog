@@ -7,8 +7,11 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 	Improvement:
 	* #i0328: Compatibility TYPO3 10.4. Here: PHP annotation @inject
 						New files:
+						* Classes/Controller
+							* AbstractController_104.php
+							* AbstractController_95.php
 						Affected files:
-						* Classes/Controller/ModuleController.php
+						* Classes/Controller/AbstractController.php
 
 7.0.2
   20-05-10
