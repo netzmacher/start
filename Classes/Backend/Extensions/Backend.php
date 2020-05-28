@@ -42,7 +42,7 @@ class Backend
 	/**
 	 * @access public
 	 * @return      void
-	 * @version     7.0.0
+	 * @version     7.0.2
 	 * @since       7.0.0
 	 */
 	static public function Style()

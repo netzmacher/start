@@ -3,9 +3,12 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 7.0.2
   20-05-10
-        Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
-        Improvement:
-        * #i0326: Classes/Backend/Extensions/Backend.php
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	Improvement:
+	* #i0327: continue > return
+						Affected files:
+						* Classes/Controller/ModuleController.php
+	* #i0326: Classes/Backend/Extensions/Backend.php
 
 7.0.1
   20-05-06

@@ -19,7 +19,7 @@ use Netzmacher\Start\Utility\Localisation;
 /**
  * ModuleController
  * 
- * @version 5.1.0
+ * @version 7.0.2
  * @since 5.1.0
  */
 class ModuleController extends AbstractController
@@ -148,7 +148,7 @@ class ModuleController extends AbstractController
 	 * action list
 	 * 
 	 * @return void
-	 * @version 5.1.0
+	 * @version 7.0.2
 	 * @since 5.1.0
 	 */
 	public function listAction()
@@ -163,21 +163,21 @@ class ModuleController extends AbstractController
 					case(!method_exists( $page, 'getDoktype' )):
 						// page is disabled
 						$this->_listActionWoPage( $page );
-						continue 2;
+						return;
 					case( $page->getDoktype() == 1 ):
 					case( $page->getDoktype() == 3 ):
 					case( $page->getDoktype() == 4 ):
 					case( $page->getDoktype() == 7 ):
 						$this->_listActionWiPage( $page );
-						continue 2;
+						return;
 					default:
 						$this->_listActionWoPage( $page );
-						continue 2;
+						return;
 				}
 			case($pageId == 0):
 			default:
 				$this->_listActionWoPage( $page );
-				break;
+				return;
 		}
 	}
 
