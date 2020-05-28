@@ -3,7 +3,7 @@
 namespace Netzmacher\Start\Backend\Extensions;
 
 use Netzmacher\Start\Backend\Extensionmanager;
-use TYPO3\CMS\Core\Utility\VersionNumberUtility;
+use Netzmacher\Start\Utility\Typo3VersionUtility;
 
 /* * *************************************************************
  *  Copyright notice
@@ -33,7 +33,7 @@ use TYPO3\CMS\Core\Utility\VersionNumberUtility;
  * @author      Dirk Wildt <http://wildt.at.die-netzmacher.de>
  * @package     TYPO3
  * @subpackage  start
- * @version 7.0.0
+ * @version 7.0.1
  * @since 7.0.0
  */
 class Backend
@@ -74,15 +74,13 @@ class Backend
 			return;
 		}
 
-		$TYPO3_version = VersionNumberUtility::convertVersionNumberToInteger( TYPO3_version );
-
 		switch( TRUE )
 		{
-			case ( $TYPO3_version < 7006000 ):
+			case ( Typo3VersionUtility::Get() < 7006000 ):
 				$GLOBALS[ 'TBE_STYLES' ][ 'logo' ] = '../typo3conf/ext/start/Resources/Public/Images/Backend/typo3-start_backendLogo@2x.png';
 				$GLOBALS[ 'TBE_STYLES' ][ 'logo_login' ] = '../typo3conf/ext/start/Resources/Public/Images/Backend/typo3-start_loginLogo-v6.2.jpg';
 				break;
-			case ( $TYPO3_version < 8007000 ):
+			case ( Typo3VersionUtility::Get() < 8007000 ):
 				$GLOBALS[ 'TBE_STYLES' ][ 'logo' ] = '../typo3conf/ext/start/Resources/Public/Images/Backend/typo3-start_backendLogo@2x.png';
 				break;
 			default:
@@ -94,7 +92,7 @@ class Backend
 	/**
 	 * @access private
 	 * @return      void
-	 * @version     7.0.0
+	 * @version     7.0.1
 	 * @since       7.0.0
 	 */
 	static private function _BackendStyle()
@@ -116,7 +114,8 @@ class Backend
 		// Login Background
 		if( empty( trim( Extensionmanager::getProperty( 'loginBackgroundImage', 'backend' ) ) ) )
 		{
-			Extensionmanager::setProperty( 'loginBackgroundImage', 'EXT:start/Resources/Public/Images/Backend/typo3-start_loginBackgroundImage.jpg', 'backend' );
+			$loginBackgroundImage = 'EXT:start/Resources/Public/Images/Backend/typo3-start_loginBackgroundImage.jpg';
+			Extensionmanager::setProperty( 'loginBackgroundImage', $loginBackgroundImage, 'backend' );
 		}
 
 		// Backend Logo
@@ -130,24 +129,33 @@ class Backend
 		{
 			if( filter_input( INPUT_GET, 'token' ) )
 			{
-				Extensionmanager::setProperty( 'backendFavicon', 'EXT:start/Resources/Public/Images/Backend/typo3_start_unlock.ico', 'backend' );
+				$backendFavicon = 'EXT:start/Resources/Public/Images/Backend/typo3_start_unlock.ico';
 			}
 			else
 			{
-				Extensionmanager::setProperty( 'backendFavicon', 'EXT:start/Resources/Public/Images/Backend/typo3_start_lock.ico', 'backend' );
+				$backendFavicon = 'EXT:start/Resources/Public/Images/Backend/typo3_start_lock.ico';
 			}
+			Extensionmanager::setProperty( 'backendFavicon', $backendFavicon, 'backend' );
 		}
 
 		// loginHighlightColor
 		if( empty( trim( Extensionmanager::getProperty( 'loginHighlightColor', 'backend' ) ) ) )
 		{
-			Extensionmanager::setProperty( 'loginHighlightColor', '#FE5E00', 'backend' );
+			$loginHighlightColor = 'FE5E00';
+			Extensionmanager::setProperty( 'loginHighlightColor', $loginHighlightColor, 'backend' );
 		}
 
 		// loginFootnote
 		if( empty( trim( Extensionmanager::getProperty( 'loginFootnote', 'backend' ) ) ) )
 		{
-			Extensionmanager::setProperty( 'loginFootnote', '(c) 2014-2020 – die-netzmacher.de', 'backend' );
+			$copyYear = 2014;
+			$curYear = date( 'Y' );
+			if( ($copyYear != $curYear ) )
+			{
+				$copyYear = $copyYear . '-' . $curYear;
+			}
+			$loginFootnote = '(c) ' . $copyYear . ' – die-netzmacher.de';
+			Extensionmanager::setProperty( 'loginFootnote', $loginFootnote, 'backend' );
 		}
 	}
 
