@@ -6,6 +6,12 @@ use \Netzmacher\Start\Domain\Repository\PageRepository;
 
 /* * *
  *
+ * Use this class for TYPO3 <= 9.5 as AbstractController
+ *
+ * * */
+
+/* * *
+ *
  * For the full copyright and license information, please read the
  * LICENSE.txt file that was distributed with this source code.
  *
@@ -16,12 +22,13 @@ use \Netzmacher\Start\Domain\Repository\PageRepository;
 /**
  * Class AbstractController
  */
-abstract class AbstractController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
+abstract class AbstractController_95 extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
 {
 	/**
 	 * pageRepository
 	 * 
 	 * @var \Netzmacher\Start\Domain\Repository\PageRepository
+	 * @inject
 	 */
 	protected $pageRepository = null;
 

@@ -14,7 +14,7 @@ $EM_CONF[ 'start' ] = array(
 		'version' => '7.0.2',
 		'constraints' => array(
 				'depends' => array(
-						'typo3' => '8.7.0-10.4.99',
+						'typo3' => '10.4.0-10.4.99',
 				),
 				'conflicts' => array(
 						'templavoila' => '',

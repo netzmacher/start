@@ -1,6 +1,15 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.0
+  20-05-28
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	Improvement:
+	* #i0328: Compatibility TYPO3 10.4. Here: PHP annotation @inject
+						New files:
+						Affected files:
+						* Classes/Controller/ModuleController.php
+
 7.0.2
   20-05-10
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
