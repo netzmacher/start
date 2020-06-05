@@ -22,7 +22,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 	* #i0330:	Removed: * @ignorevalidation $page
 						Affected files:
 						* Classes/Controller/ModuleController.php
-	* #i0329:	Upgrade for SEO Dynamic Tag
+	* #i0329:	Upgrade for SEO Dynamic Tag 5
 						Moved property / constant
 						* noPageTitle is moved from 1 to 2
 						New file:
