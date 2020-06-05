@@ -19,7 +19,7 @@ use Netzmacher\Start\Utility\Localisation;
 /**
  * ModuleController
  * 
- * @version 7.0.2
+ * @version 8.0.1
  * @since 5.1.0
  */
 class ModuleController extends AbstractController
@@ -107,9 +107,8 @@ class ModuleController extends AbstractController
 	 * action contact
 	 * 
 	 * @param \Netzmacher\Start\Domain\Model\Page $page
-	 * @ignorevalidation $page
 	 * @return void
-	 * @version 5.1.0
+	 * @version 8.0.1
 	 * @since 5.1.0
 	 */
 	public function contactAction( \Netzmacher\Start\Domain\Model\Page $page )

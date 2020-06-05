@@ -12,6 +12,7 @@ config {
 		persistence =
 		persistence {
 			classes {
+					// TYPO3 10.4: see Configuration/Extbase/Persistence/Classes.php
 				Netzmacher\Start\Domain\Model\Page {
 					mapping {
 						tableName = pages

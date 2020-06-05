@@ -2,7 +2,7 @@
 
 namespace Netzmacher\Start\Controller;
 
-use \Netzmacher\Start\Domain\Repository\PageRepository;
+use \TYPO3\CMS\Core\Utility\GeneralUtility;
 
 /* * *
  *
@@ -15,9 +15,13 @@ use \Netzmacher\Start\Domain\Repository\PageRepository;
 
 /**
  * Class AbstractController
+ * 
+ * @version 8.0.1
+ * @since 5.1.0
  */
 abstract class AbstractController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
 {
+
 	/**
 	 * pageRepository
 	 * 
@@ -26,12 +30,15 @@ abstract class AbstractController extends \TYPO3\CMS\Extbase\Mvc\Controller\Acti
 	protected $pageRepository = null;
 
 	/**
-	 * @param PageRepository $pageRepository
-	 * @return void
+	 * __construct(): Init the repositories
+	 * 
+	 * @version 8.0.1
+	 * @since 8.0.1
 	 */
-	public function injectPageRepository( PageRepository $pageRepository )
+	public function __construct()
 	{
-		$this->pageRepository = $pageRepository;
+		$objectManager = GeneralUtility::makeInstance( 'TYPO3\\CMS\\Extbase\\Object\\ObjectManager' );
+		$this->pageRepository = $objectManager->get( 'Netzmacher\\Start\\Domain\\Repository\\PageRepository' );
 	}
 
 }
