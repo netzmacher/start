@@ -26,6 +26,8 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 							* start.min.css                                                                                                                                                                              
 							* typo3.css                                                                                                                                                                                  
 							* typo3.min.css 
+						:ref:
+						* EXT:startgreen #t5435
 
 8.0.1
   20-06-05
