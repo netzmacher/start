@@ -5,6 +5,9 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
   20-06-17
 	Author: Dirk Wildt (Die Netzmacher / verdigado eG), http://wildt.at.die-netzmacher.de
 	Compatibility:
+	* #t5437: Bugfix: Content Header und Footer fehlen
+						Affected files:
+						* 
 	* #t5433: Deprecation: #85970 - FILE content object
 						New files:
 						* Configuration/TypoScript/EMail/Page/cssInline
