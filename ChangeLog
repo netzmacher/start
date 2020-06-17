@@ -1,6 +1,32 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.2
+  20-06-17
+	Author: Dirk Wildt (Die Netzmacher / verdigado eG), http://wildt.at.die-netzmacher.de
+	Compatibility:
+	* #t5433: Deprecation: #85970 - FILE content object
+						New files:
+						* Configuration/TypoScript/EMail/Page/cssInline
+							* 10.10_typo3.ts
+							* 10.20_foundation_wo-a.ts
+							* 10.30_foundation_a-only.ts
+							* 10.40_start.ts
+						Affected file:
+						* Configuration/TypoScript/EMail/Page/cssInline.ts
+						Removed files:
+						* Resources/Public/Css/EMail
+							* foundation-emails.css                                                                                                                                                                      
+							* foundation-emails.min.css                                                                                                                                                                  
+							* foundation-emails_a-only.css                                                                                                                                                               
+							* foundation-emails_a-only.min.css                                                                                                                                                           
+							* foundation-emails_wo-a.css                                                                                                                                                                 
+							* foundation-emails_wo-a.min.css                                                                                                                                                             
+							* start.css                                                                                                                                                                                  
+							* start.min.css                                                                                                                                                                              
+							* typo3.css                                                                                                                                                                                  
+							* typo3.min.css 
+
 8.0.1
   20-06-05
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de

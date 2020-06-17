@@ -53,7 +53,7 @@ call_user_func( function ()
 	// #t4909, 200414, dwildt, 1+
 	//\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TSconfig/Page/tx_gridelements.ts">');
 	require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TSconfig/Page/tx_gridelements.php' );
-	
+
 	/*	 * ****************************************************************************
 	 * Direct Mail Hooks
 	 * **************************************************************************** */
@@ -62,13 +62,15 @@ call_user_func( function ()
 	$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXTCONF' ][ 'direct_mail' ][ 'mod2' ][ 'cmd_compileMailGroup' ][] = 'Netzmacher\Start\Backend\Extensions\DirectMail\RecipientList';
 	// #i0185, 180719, dwildt, +
 	$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXTCONF' ][ 'direct_mail' ][ 'mod3' ][ 'cmd_compileMailGroup' ][] = 'Netzmacher\Start\Backend\Extensions\DirectMail\RecipientList';
-	
+
 	/*	 * ****************************************************************************
 	 * RTE
 	 * **************************************************************************** */
 
 	// #i0220, 190320, dwildt, 1+
-	$GLOBALS['TYPO3_CONF_VARS']['RTE']['Presets']['start'] = 'EXT:start/Configuration/RTE/Start.yaml';
+	$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'RTE' ][ 'Presets' ][ 'start' ] = 'EXT:start/Configuration/RTE/Start.yaml';
 	// #i0225, #i0224, 190405, dwildt, 1+
-	$GLOBALS['TYPO3_CONF_VARS']['RTE']['Presets']['startwiexternalplugin'] = 'EXT:start/Configuration/RTE/StartWiExternalPlugin.yaml';
-} );
+	$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'RTE' ][ 'Presets' ][ 'startwiexternalplugin' ] = 'EXT:start/Configuration/RTE/StartWiExternalPlugin.yaml';
+
+}
+);
