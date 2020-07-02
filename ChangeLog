@@ -1,6 +1,14 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.3
+  20-07-02
+	Author: Dirk Wildt (Die Netzmacher / verdigado eG), http://wildt.at.die-netzmacher.de
+	Compatibility:
+	* #t5509: TypoScript condition [globalString = ENV:...]. Here: https
+						Affected file:
+						* Configuration/TypoScript/Base/Config/setup.ts
+
 8.0.2
   20-06-17
 	Author: Dirk Wildt (Die Netzmacher / verdigado eG), http://wildt.at.die-netzmacher.de

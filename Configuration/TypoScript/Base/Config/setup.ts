@@ -32,6 +32,14 @@ config {
   typolinkEnableLinksAcrossDomains  = {$start.config.typolinkEnableLinksAcrossDomains}
 }
 
+// Proper from TYPO3 10.4 (internal: #t5509)
+[request.getNormalizedParams().isHttps()]
+  config {
+    baseURL = {$start.config.baseURLhttps}
+  }
+[global]
+
+// Proper upto TYPO3 9.5 (internal: #t5509)
 [globalString = ENV:HTTPS=on]
   config {
     baseURL = {$start.config.baseURLhttps}
