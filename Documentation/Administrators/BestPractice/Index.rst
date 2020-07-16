@@ -18,6 +18,7 @@ Best Practice
   :maxdepth: 3
   :titlesonly:
 
+  BackendLayouts/Index
   CSS/Index
   Customer/Index
   Frameworks/Index
