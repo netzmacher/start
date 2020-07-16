@@ -6,7 +6,7 @@
 .. include:: ../../../Includes.txt
 
 
-.. _administrators_backendlayouts_css:
+.. _administrators_bestpractice_backendlayouts:
 
 
 Backend Layouts
@@ -56,3 +56,11 @@ Update
 	SET backend_layout = 'start__folder' 
 	WHERE doktype = 254
 	AND module != 'dmail';
+
+
+Further Information
+-------------------
+
+* :ref:`Extensionmanager <administrators_setup_extensionmanager_backendlayout>`
+
+* :ref:`HTML > Columns width <administrators_bestpractice_html_columnwidth>`

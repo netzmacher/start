@@ -25,6 +25,8 @@ Backend Layouts
 
 * :ref:`Extensionmanager <administrators_setup_extensionmanager_backendlayout>`
 
+* :ref:`Folder <administrators_bestpractice_backendlayouts>`
+
 :ref:`Backend Style <administrators_setup_extensionmanager_backendstyle>`
 
 Background Image
