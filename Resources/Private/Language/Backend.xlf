@@ -55,6 +55,11 @@
       </trans-unit>
       <trans-unit id="backend_layout.default">
         <source>Start: TYPO3 Standard</source>
+        <target>Start Newsletter Basic: | INHALT |</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.folder">
+        <source>Folder</source>
+        <target>Ordner</target>
       </trans-unit>
       <trans-unit id="backend_layout.newsletter_01">
         <source>Start Newsletter Basic: | MAIN |</source>

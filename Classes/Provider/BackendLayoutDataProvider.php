@@ -41,7 +41,7 @@ use Netzmacher\Start\Backend\Extensionmanager;
  * @package    TYPO3
  * @subpackage  start
  *
- * @version 4.1.7
+ * @version 8.0.4
  * @since 0.0.1
  */
 class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout\DataProviderInterface
@@ -102,6 +102,10 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
 		if( $backendLayoutsEnableStartSilver )
 		{
 			$backendLayout = ( array ) $backendLayout + $this->backendLayoutsSilver;
+		}
+		if( Extensionmanager::getProperty( 'backendLayoutsEnableStartFolder' ) )
+		{
+			$backendLayout = ( array ) $backendLayout + $this->backendLayoutsFolder;
 		}
 		if( Extensionmanager::getProperty( 'backendLayoutsEnableStartNewsletter' ) )
 		{
@@ -1247,6 +1251,46 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
         }
       ',
 					'icon' => 'EXT:start/Resources/Public/Images/BackendLayouts/start_silver_03.gif'
+			),
+	);
+
+	/**
+	 * Folder Backend Layout
+	 *
+	 * @var array
+	 * @version 8.0.4
+	 * @since 8.0.4
+	 */
+	protected $backendLayoutsFolder = array(
+			'folder' => array(
+					'title' => 'LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.folder',
+					'config' => '
+        backend_layout {
+          colCount = 12
+          rowCount = 2
+          rows {
+            1 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content
+                  colPos  = 0
+                  colspan = 12
+                }
+              }
+            }
+            2 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.hidden
+                  colPos  = -2
+                  colspan = 12
+                }
+              }
+            }
+          }
+        }
+      ',
+					'icon' => 'EXT:start/Resources/Public/Images/BackendLayouts/folder.gif'
 			),
 	);
 

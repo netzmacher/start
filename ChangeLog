@@ -1,6 +1,19 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.4
+	20-07-16
+	Author: Dirk Wildt (Die Netzmacher / verdigado eG), http://wildt.at.die-netzmacher.de
+	Feature:
+	* #t5576: Backend-Layout folder
+						Affected files:
+						* Classes/Provider/BackendLayoutDataProvider.php
+						* Resources/Private/Language
+							* de.Backend.xlf
+						* ext_conf_template.txt
+						New file:
+						* Resources/Public/Images/BackendLayouts/folder.gif
+
 8.0.3
   20-07-02
 	Author: Dirk Wildt (Die Netzmacher / verdigado eG), http://wildt.at.die-netzmacher.de
