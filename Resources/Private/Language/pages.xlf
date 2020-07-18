@@ -61,7 +61,7 @@
 			</trans-unit>
 			<trans-unit id="txStartSocialVimeo">
 				<source>Vimeo</source>
-				<target>Vimoe</target>
+				<target>Vimeo</target>
 			</trans-unit>
 			<trans-unit id="txStartSocialYoutube">
 				<source>Youtube</source>
