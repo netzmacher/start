@@ -1,6 +1,15 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.5
+	20-07-18
+	Author: Dirk Wildt (Die Netzmacher / verdigado eG), http://wildt.at.die-netzmacher.de
+	Improvement:
+	* #i0333: Improve foundation megamenu. Here: class active
+						Thanks to Falko Trojahn for code snippet
+						Affected file:
+						* Resources/Private/Templates/foundation-5.5.3/Partials/Navigation/Elements/LIItemWiMegamenu.html
+
 8.0.4
 	20-07-16
 	Author: Dirk Wildt (Die Netzmacher / verdigado eG), http://wildt.at.die-netzmacher.de
