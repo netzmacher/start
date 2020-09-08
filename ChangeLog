@@ -1,6 +1,14 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.6
+  20-09-08
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	Docs
+	* #i0334: Update documentation
+						Affected file:
+						* Documentation/Administrators/Installation/01_LaunchIt/Index.rst
+
 8.0.5
 	20-07-18
 	Author: Dirk Wildt (Die Netzmacher / verdigado eG), http://wildt.at.die-netzmacher.de

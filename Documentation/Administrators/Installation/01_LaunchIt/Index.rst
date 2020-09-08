@@ -17,14 +17,14 @@ You will get a ready-to-use website with sample pages, data and themes.
 You can install it in an empty TYPO3 installation and you can install it in 
 TYPO3 installations, which contains websites.
 
-This launch runs with TYPO3 6.x, 7.x and 8.x.
+This launch runs with TYPO3 8.x, 9.x and 10.x.
 
 See the workflow at :ref:`Screenshots > Launch it! <introduction-screenshots-launchit>`
 
 Live
 ----
 
-You can test the launch at http://start-typo3-responsive.de?18991
+You can test the launch at https://start-typo3-responsive.de/launch-it/launch-start-typo3-responsive/
 
 Alternatives
 ------------
@@ -36,9 +36,7 @@ TYPO3 Gruene can manage events, locations and news among others. To get rid of t
 of the German party Bündnis 90/Die Grünen you have only to replace TYPO3 GRÜNE (startgreen) with 
 Start TYPO3 Responsive +Customer (startcustomer) after the installation.
 
-Because this website is a teamplay with a lot of extensions, it runs with TYPO3 7.x only.
-
-See details about TYPO3 Gruene at http://typo3-gruene.de
+See details about TYPO3 Gruene at https://typo3-gruene.de
 
 Workflow
 ^^^^^^^^
@@ -50,4 +48,4 @@ Workflow
 Live
 ^^^^
 
-You can test the launch at http://start-typo3-responsive.de?19052
+You can test the launch at https://start-typo3-responsive.de/launch-it/launch-typo3-gruene/
