@@ -14,11 +14,11 @@
       </trans-unit>
       <trans-unit id="CType.txStartBreadcrumbs">
         <source>Start: breacrumbs navigation</source>
-        <target>Start: Brotkrummen-Navigation</target>
+        <target>Start: Brotkrumen-Navigation</target>
       </trans-unit>
       <trans-unit id="CType.txStartBreadcrumbs.description">
         <source>Row with breadcrumbs navigation (optimised for the framework Start TYPO3 Responsive!)</source>
-        <target>Zeile mit Brotkrummen-Navigation (optimiert für das Framework Start TYPO3 Responsive!)</target>
+        <target>Zeile mit Brotkrumen-Navigation (optimiert für das Framework Start TYPO3 Responsive!)</target>
       </trans-unit>
       <trans-unit id="CType.txStartSubNav">
         <source>Start: sub navigation</source>

@@ -1,11 +1,21 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.7
+  20-09-09
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	Docs
+	* #i0339: Misspelling in backend-form germand language only
+						Affected files:
+						* Configuration/TCA/Overrides/Default
+							* de.tt_content.xlf
+							* tt_content.xlf
+
 8.0.6
   20-09-08
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
 	Docs
-	* #i0334: Update documentation
+	* #i0334: Update documentation. Here: TYPO3 versions, external links
 						Affected file:
 						* Documentation/Administrators/Installation/01_LaunchIt/Index.rst
 
