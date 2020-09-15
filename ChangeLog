@@ -1,6 +1,17 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+
+8.0.8
+  20-09-15
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #t5780: [BUGFIX] TypoScript object path "start.lib.bootstrap.divAdditionalClass.begin" does not exist
+						Affected file:
+						* Configuration/TypoScript/Bootstrap/Base/start/lib/bootstrap.ts
+						Solution:
+						* Revert #i0300
+						:ref: #i0300
+
 8.0.7
   20-09-09
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
@@ -502,6 +513,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 	* #i0300: Isn't needed any longer: start.lib.bootstrap.divAdditionalClass 
 						Affected file:
 						* Configuration/TypoScript/Bootstrap/Base/start/lib/bootstrap.ts
+						:ref: #t5780
 
 5.4.4
 	20-01-28

@@ -7,8 +7,8 @@ start {
 	lib {
 			// divAdditionalClassBegin
 		bootstrap {
-				// #i0300, 200213, dwildt, -
-			XXXdivAdditionalClass {
+				// #i0300, 200213, dwildt, -. Reverted by #t5780
+			divAdditionalClass {
 				begin = COA								
 				begin {
 					if {
