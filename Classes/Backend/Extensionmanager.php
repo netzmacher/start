@@ -87,7 +87,7 @@ class Extensionmanager
 	{
 		switch( self::$_wasSerialised )
 		{
-			case(true):
+			case(Typo3VersionUtility::Get() < 10000000): // do not serialize in TYPO3 10.x
 				self::$_extConf = serialize( self::$_extConf );
 				break;
 			case(false):
