@@ -42,7 +42,7 @@ class Extensionmanager
 {
 
 	/**
-	 * @var array
+	 * @var mixed
 	 */
 	static private $_extConf = '';
 
@@ -85,9 +85,10 @@ class Extensionmanager
 	 */
 	static private function _ExtConfSerialize( $extKey )
 	{
-		switch( self::$_wasSerialised )
+		// do not serialize in TYPO2 10.x
+		switch( self::$_wasSerialised && Typo3VersionUtility::Get() < 10000000 )
 		{
-			case(Typo3VersionUtility::Get() < 10000000): // do not serialize in TYPO3 10.x
+			case(true):
 				self::$_extConf = serialize( self::$_extConf );
 				break;
 			case(false):
