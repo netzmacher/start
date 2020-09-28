@@ -46,8 +46,15 @@ class Extensionmanager
 	 */
 	static private $_extConf = '';
 
+	// #t5946, 200928, ftrojahn, -
+//	/**
+//	 * @var array
+//	 */
+//	static private $_wasSerialised = false;
+
+	// #t5946, 200928, ftrojahn, +
 	/**
-	 * @var array
+	 * @var mixed
 	 */
 	static private $_wasSerialised = false;
 
@@ -85,7 +92,9 @@ class Extensionmanager
 	 */
 	static private function _ExtConfSerialize( $extKey )
 	{
-		switch( self::$_wasSerialised )
+		// #t5946, 200928, ftrojahn, 1-/+
+		//switch( self::$_wasSerialised )
+		switch( self::$_wasSerialised && Typo3VersionUtility::Get() < 10000000 )
 		{
 			case(true):
 				self::$_extConf = serialize( self::$_extConf );
