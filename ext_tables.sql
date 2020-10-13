@@ -29,5 +29,7 @@ CREATE TABLE tt_content (
 
 -- #i0185, 180719, dwildt
 CREATE TABLE sys_dmail_group (
+	uid int(11) NOT NULL auto_increment,
   sys_dmail_category tinyblob NULL,
+	PRIMARY KEY (uid)
 );

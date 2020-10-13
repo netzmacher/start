@@ -11,10 +11,10 @@ $EM_CONF[ 'start' ] = array(
 		'uploadfolder' => '0',
 		'createDirs' => '',
 		'clearCacheOnLoad' => 1,
-		'version' => '8.0.10',
+		'version' => '8.0.11',
 		'constraints' => array(
 				'depends' => array(
-						'typo3' => '8.7.0-10.4.99',
+						'typo3' => '8.7.0-10.9.99',
 				),
 				'conflicts' => array(
 						'templavoila' => '',
