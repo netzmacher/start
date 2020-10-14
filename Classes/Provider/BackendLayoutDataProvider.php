@@ -216,6 +216,72 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
 	 * @since 5.2.4
 	 */
 	protected $backendLayoutsBlue = array(
+			'blue_04' => array(
+					'title' => 'LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.blue_04',
+					'config' => '
+				backend_layout {
+					colCount = 12
+					rowCount = 6
+					rows {
+						1 {
+							columns {
+								1 {
+									name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.header
+									colPos  = 11
+									colspan = 12
+								}
+							}
+						}
+						2 {
+							columns {
+								1 {
+									name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.top
+									colPos  = 3
+									colspan = 12
+								}
+							}
+						}
+						3 {
+							columns {
+								1 {
+									name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content
+									colPos  = 0
+									colspan = 12
+								}
+							}
+						}
+						4 {
+							columns {
+								1 {
+									name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.bottom
+									colPos  = 6
+									colspan = 12
+								}
+							}
+						}
+						5 {
+							columns {
+								1 {
+									name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.footer
+									colPos  = 21
+									colspan = 12
+								}
+							}
+						}
+						6 {
+							columns {
+								1 {
+									name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.hidden
+									colPos  = -2
+									colspan = 12
+								}
+							}
+						}
+					}
+				}
+			',
+					'icon' => 'EXT:start/Resources/Public/Images/BackendLayouts/start_blue_04.gif'
+			),
 			'blue_01' => array(
 					'title' => 'LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.blue_01',
 					'config' => '

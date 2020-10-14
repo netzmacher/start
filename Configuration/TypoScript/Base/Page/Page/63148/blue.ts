@@ -99,5 +99,13 @@ page {
         classColMainContentMain = small-12 medium-{$start.fluid.path.be_layout.settings.grid.columns02.main}
       }
     }
+      // top | MAIN | bottom
+    start__blue_04 < .start__blue_01
+    start__blue_04 {
+      templateName = Blue_04.html
+      settings {
+        classRowPlusMain	= {$start.foundation.grid.class.rowPlusMainFullWidth}
+      }
+    }
   }
 }
