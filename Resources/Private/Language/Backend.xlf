@@ -13,18 +13,6 @@
         <source>Start Blue 1: | top | MAIN | bottom |</source>
         <target>Start Blau 1: | oben | INHALT | unten |</target>
       </trans-unit>
-      <trans-unit id="backend_layout.blue_02">
-        <source>Start Blue 2: | top | MAIN |</source>
-        <target>Start Blau 2: | oben | INHALT</target>
-      </trans-unit>
-      <trans-unit id="backend_layout.blue_03">
-        <source>Start Blue 3: | MAIN | bottom |</source>
-        <target>Start Blau 3: | INHALT | unten |</target>
-      </trans-unit>
-      <trans-unit id="backend_layout.blue_04">
-        <source>Start Blue 4: | top || left | MAIN | right || bottom |</source>
-        <target>Start Blau 4: | oben || links | INHALT | rechts || unten |</target>
-      </trans-unit>
       <trans-unit id="backend_layout.blue_01_01_lr">
         <source>Start Blue 1.1: | top || left | MAIN | right || bottom |</source>
         <target>Start Blau 1.1: | oben || left | INHALT | rechts || unten |</target>
@@ -36,6 +24,18 @@
       <trans-unit id="backend_layout.blue_01_03_l">
         <source>Start Blue 1.3: | top || left | MAIN || bottom |</source>
         <target>Start Blau 1.3: | oben || links | INHALT | unten |</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.blue_02">
+        <source>Start Blue 2: | top | MAIN |</source>
+        <target>Start Blau 2: | oben | INHALT</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.blue_03">
+        <source>Start Blue 3: | MAIN | bottom |</source>
+        <target>Start Blau 3: | INHALT | unten |</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.blue_04">
+        <source>Start Blue 4: | top | MAIN | bottom |</source>
+        <target>Start Blau 4: | oben | INHALT | unten |</target>
       </trans-unit>
       <trans-unit id="backend_layout.bronze_01">
         <source>Start Bronze 1: | MAIN |</source>

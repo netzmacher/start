@@ -1,6 +1,24 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.12
+  20-10-14
+	Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com
+	* #v0144: [Feature] Extending template blue: content area with full with
+						New file:
+						* Resources
+							* Private/Templates/foundation-5.5.3/Templates/Be_layout/Blue_04.html
+							* Public/Images/BackendLayouts/start_blue_04.gif
+						Affected files:
+						* Classes/Provider/BackendLayoutDataProvider.php
+						* Configuration/TypoScript
+							* Base/Page/Page/63148/blue.ts
+							* Foundation/Start/Constants/Foundation/grid.ts
+						* Resources
+							* Private/Language/Backend.xlf
+							* Public/Css
+								* basic.css
+								* basic.min.css
 
 8.0.11
   20-10-14
