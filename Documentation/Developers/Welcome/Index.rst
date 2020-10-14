@@ -14,4 +14,6 @@ Welcome
 
 You are welcome to develop Start and Start +Customer!
 
+See Git repository at :ref:`Developers > Git <developers_git>`
+
 Please contact the developer.

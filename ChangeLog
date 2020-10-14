@@ -3,12 +3,13 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
 8.0.11
-  20-10-13
+  20-10-14
 	Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com
 	* #v0140: [BUGFIX]  Incorrect table definition, there can be only ...
 						Here: SQL-definition for sys_dmail_group got definition for uid and a key
 						Affected file:
 						* ext_tables.sql
+  * #i0041: Improvement manual
 
 8.0.10
   20-09-28
