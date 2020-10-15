@@ -1,6 +1,14 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.13
+  20-10-15
+	Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com
+	* #v0140: [BUGFIX] Incorrect table definition, there can be only ...
+						Here: +unsigend in sys_dmail_group.uid
+						Affected file:
+						* ext_tables.sql
+
 8.0.12
   20-10-14
 	Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com
