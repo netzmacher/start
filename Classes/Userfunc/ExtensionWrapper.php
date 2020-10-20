@@ -14,9 +14,9 @@ declare(strict_types = 1);
  * 
  * @author    Dirk Wildt <http://wildt.at.die-netzmacher.de>
  * @package    TYPO3
- * @subpackage    xblog
- * @version  0.10.9
- * @since    0.10.9
+ * @subpackage    start
+ * @version  8.0.1
+ * @since    8.0.1
  */
 
 namespace Netzmacher\Start\Userfunc;
@@ -35,7 +35,8 @@ class ExtensionWrapper
 	 */
 	public static function isLoaded( $extensionKey ): bool
 	{
-		return ExtensionManagementUtility::isLoaded( $extensionKey );
+		$isLoaded = ExtensionManagementUtility::isLoaded( $extensionKey );
+		return $isLoaded;
 	}
 
 	/**
@@ -44,7 +45,8 @@ class ExtensionWrapper
 	 */
 	public static function isNotLoaded( $extensionKey ): bool
 	{
-		return !ExtensionManagementUtility::isLoaded( $extensionKey );
+		$isLoaded = !ExtensionManagementUtility::isLoaded( $extensionKey );
+		return $isLoaded;
 	}
 
 }

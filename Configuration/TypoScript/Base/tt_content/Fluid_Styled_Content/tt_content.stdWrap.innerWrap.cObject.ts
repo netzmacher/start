@@ -33,6 +33,7 @@ tt_content {
 					class {
 						cObject = COA
 						cObject {
+							20 >
 								// Array for other extensions
 							20 = COA
 							20 {

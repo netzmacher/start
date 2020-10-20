@@ -1,6 +1,15 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.14
+  20-10-20
+	Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com
+	* #i0042: [BUGFIX] CSS. Here: .startWoMarginLeftRight chaged margin top and bottom
+						Affected file:
+						* Resources/Public/Css
+							* basic.css
+							* basic.min.css
+
 8.0.13
   20-10-15
 	Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com

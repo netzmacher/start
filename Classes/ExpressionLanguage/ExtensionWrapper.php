@@ -36,7 +36,15 @@ class ExtensionWrapper
 	 */
 	public function isLoaded( $extensionKey ): bool
 	{
-		return ExtensionManagementUtility::isLoaded( $extensionKey );
+		$isLoaded = ExtensionManagementUtility::isLoaded( $extensionKey );
+
+//		if( $extensionKey == 'slick' )
+//		{
+//			var_dump( __METHOD__, __LINE__, $extensionKey, $isLoaded );
+//			die();
+//		}
+
+		return $isLoaded;
 	}
 
 }

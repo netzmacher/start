@@ -275,7 +275,9 @@ body {
 	margin-left: -0.9375rem;
 }
 #startBox01 .startWoMarginLeftRight {
-	margin: 0 -0.9375rem;
+	/*margin: 0 -0.9375rem;*/
+	margin-left: -0.9375rem;
+	margin-right: -0.9375rem;
 }
 #startBox01 .startWoMarginRight {
 	margin-right: -0.9375rem;
