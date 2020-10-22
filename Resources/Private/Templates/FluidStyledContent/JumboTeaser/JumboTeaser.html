@@ -1,8 +1,8 @@
 <div class="jumbocontainer">
 	<div class="jumbotextoverlay">
-		<h1><a href="https://{data.header_link}">{data.header}</a></h1>
+		<h1><f:link.typolink parameter="{data.header_link}">{data.header}</f:link.typolink></h1>
 		<p>{data.subheader -> f:format.html()}</p>
-		<p><a href="https://{data.header_link}">Mehr Dazu</a></p>
+		<p><f:link.typolink parameter="{data.header_link}">Mehr Dazu</f:link.typolink></p>
 	</div>
 	<f:for each="{images}" as="image">
         <div class="slide">
