@@ -5,6 +5,27 @@ if( !defined( 'TYPO3_MODE' ) )
 	die( 'Access denied.' );
 }
 
+/* #84 Jumboteaser, 201016, fbostroem, +18 */
+/* * ****************************************************************************
+ * PageTSConfig
+ * **************************************************************************** */
+
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig( '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TSconfig/Page/Mod/Wizards/NewContentElement.tsconfig">' );
+
+
+/********************************************************************************
+ * Icons for Plugins
+ ********************************************************************************/
+
+$iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Core\Imaging\IconRegistry::class);
+
+$iconRegistry->registerIcon(
+	'ext-start-jumboteaser',
+	\TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider::class,
+	['source' => 'EXT:start/Resources/Public/Icons/start_jumboteaser.png']
+);
+
+
 call_user_func( function ()
 {
 	if( TYPO3_MODE == 'BE' )

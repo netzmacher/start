@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+  <meta type="array">
+    <type>database</type>
+    <description>Language labels for Jumbo Teaser</description>
+  </meta>
+  <data type="array">
+    <languageKey index="default" type="array">
+      <label index="jumbo.title">Jumbo Teaser</label>
+      <label index="jumbo.description">Large headline-style block with background image.</label>
+    </languageKey>
+    <languageKey index="de" type="array">
+      <label index="jumbo.title">Jumbo Teaser</label>
+      <label index="jumbo.description">Große Schlagzeilen-Block mit Hintergrundbild</label>
+    </languageKey>
+  </data>
+</T3locallang>

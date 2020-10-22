@@ -1,0 +1,50 @@
+.jumbocontainer{
+	overflow:hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.jumbocontainer .slide{
+	min-width:800px;
+}
+.jumbotextoverlay{
+	position:absolute;
+	top:20%;
+	text-align: center;
+	max-width: 700px;
+	margin:auto;
+	padding:20px;
+}
+@media only screen and (min-width: 40.0625em) {
+	.jumbotextoverlay{
+		top:30%;
+	}
+	#startBox01 .jumbocontainer .jumbotextoverlay h1,
+	.jumbocontainer .jumbotextoverlay h1{
+		font-size:6em;
+	}
+}
+#startBox01 .jumbotextoverlay h1,
+.jumbotextoverlay h1{
+	font-size:4em;
+	line-height:1;
+	color:white;
+	font-family:sans-serif;
+}
+#startBox01 .jumbotextoverlay h1 a{
+	color:white;
+}
+#startBox01 .jumbotextoverlay p,
+.jumbotextoverlay p{
+	font-size:1.6em;
+	line-height:1;
+	color:white;
+	font-family:sans-serif;
+}
+#startBox01 .jumbotextoverlay p a{
+	color:#000;
+	background: #D1D1D1;
+	padding: 8px 15px;
+	border-radius: 20px;
+}
+

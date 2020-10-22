@@ -1,0 +1,13 @@
+<div class="jumbocontainer">
+	<div class="jumbotextoverlay">
+		<h1><a href="https://{data.header_link}">{data.header}</a></h1>
+		<p>{data.subheader -> f:format.html()}</p>
+		<p><a href="https://{data.header_link}">Mehr Dazu</a></p>
+	</div>
+	<f:for each="{images}" as="image">
+        <div class="slide">
+                <f:image image="{image.originalFile}" />
+        </div>
+	</f:for>
+</div>
+</div>

@@ -24,6 +24,7 @@ $tempPath = 'Configuration/TypoScript/';
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( 'start', $tempPath . 'Development/jsNotMinified/', 'Start [90.2.1] +JS not minified' );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( 'start', $tempPath . 'Debug/', 'Start [91.1.1] Debug' );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( 'start', $tempPath . 'Workaround/', 'Start [92.1.1] +Workaround ChangeLog #i0215' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( 'start', $tempPath . 'Base/tt_content/JumboTeaser/', 'JumboTeaser' );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( 'start', $tempPath . 'Test/', 'Start [99.1.1] Test' );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( 'start', $tempPath . 'Base/Start/Gridelements/', 'Start [DEPRECATED!] +Gridelements [USE 20.4.1!]' );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( 'start', $tempPath . 'Extensions/tt_address/subscribe/', 'Start [XX.X.X] [DEPRECATED!] Use [20.3.1] Subscribe (tt_address) ' );

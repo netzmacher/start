@@ -1,14 +1,31 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.15
+  20-10-22
+	Author: Fredrik Boström (verdigado eG), fredrik.bostroem@verdigado.com
+	* #84: [Feature] Jumboteaser
+						Affected files:
+						* Configuration/TCA/Overrides/tt_content.php
+						* ext_localconf.php
+						* Configuration/TCA/Overrides/Default/sys_template.php
+
+						New files:
+						* Configuration/TCA/Overrides/tt_content/jumboteaser.php
+						* Configuration/TSconfig/Page/Mod/Wizards/NewContentElement.tsconfig
+						* Resources/Private/Language/ContentElements/JumboTeaser/locallang_db.xml
+						* Configuration/TypoScript/Base/tt_content/JumboTeaser/setup.ts
+						* Resources/Private/Templates/FluidStyledContent/JumboTeaser/JumboTeaser.html
+						* Resources/Public/Css/JumboTeaser.css
+						* Resources/Public/Icons/start_jumboteaser.png
 8.0.14
   20-10-20
-	Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com
-	* #i0042: [BUGFIX] CSS. Here: .startWoMarginLeftRight chaged margin top and bottom
-						Affected file:
-						* Resources/Public/Css
-							* basic.css
-							* basic.min.css
+        Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com
+        * #i0042: [BUGFIX] CSS. Here: .startWoMarginLeftRight chaged margin top and bottom
+                                                Affected file:
+                                                * Resources/Public/Css
+                                                        * basic.css
+                                                        * basic.min.css
 
 8.0.13
   20-10-15
