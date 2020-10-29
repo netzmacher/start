@@ -1,6 +1,14 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.16
+  20-10-29
+	Author: Fredrik Boström (verdigado eG), fredrik.bostroem@verdigado.com
+	* #84: [Feature] Jumboteaser settings
+						Affected files:
+						* Resources/Private/Templates/FluidStyledContent/JumboTeaser/JumboTeaser.html
+						* Resources/Public/Css/JumboTeaser.css
+
 8.0.15
   20-10-22
 	Author: Fredrik Boström (verdigado eG), fredrik.bostroem@verdigado.com
