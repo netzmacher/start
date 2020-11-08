@@ -7,22 +7,20 @@ if( !defined( 'TYPO3_MODE' ) )
 
 /* #84 Jumboteaser, 201016, fbostroem, +18 */
 /* * ****************************************************************************
- * PageTSConfig
+ * Page- and User-TSConfig
  * **************************************************************************** */
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig( '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TSconfig/Page/Mod/Wizards/NewContentElement.tsconfig">' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addUserTSConfig( '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TSconfig/User/user.ts">' );
 
-
-/********************************************************************************
+/* * ******************************************************************************
  * Icons for Plugins
- ********************************************************************************/
+ * ****************************************************************************** */
 
-$iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Core\Imaging\IconRegistry::class);
+$iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance( \TYPO3\CMS\Core\Imaging\IconRegistry::class );
 
 $iconRegistry->registerIcon(
-	'ext-start-jumboteaser',
-	\TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider::class,
-	['source' => 'EXT:start/Resources/Public/Icons/start_jumboteaser.png']
+				'ext-start-jumboteaser', \TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider::class, [ 'source' => 'EXT:start/Resources/Public/Icons/start_jumboteaser.png' ]
 );
 
 
@@ -92,6 +90,5 @@ call_user_func( function ()
 	$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'RTE' ][ 'Presets' ][ 'start' ] = 'EXT:start/Configuration/RTE/Start.yaml';
 	// #i0225, #i0224, 190405, dwildt, 1+
 	$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'RTE' ][ 'Presets' ][ 'startwiexternalplugin' ] = 'EXT:start/Configuration/RTE/StartWiExternalPlugin.yaml';
-
 }
 );
