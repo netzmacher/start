@@ -19,7 +19,7 @@ if( Extensionmanager::getProperty( 'tcaTtcontentDisabled' ) )
 
 
 // #i0206, 190301, dwildt, 1+
-$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'ctrl' ][ 'typeicon_classes' ][ 'txStartPagemedia' ] = 'app-txStartPagemedia';
+$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'ctrl' ][ 'typeicon_classes' ][ 'txStartPagemedia' ] = 'ext-start-pagemedia';
 $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'txStartPagemedia' ] = $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'header' ];
 
 // ##i0325, 200506, dwildt, +
@@ -45,7 +45,7 @@ switch( TRUE )
 				, [
 		'Page Media'
 		, 'txStartPagemedia'
-		, 'app-txStartPagemedia'
+		, 'ext-start-pagemedia'
 				]
 				, 'image'
 				, 'after'

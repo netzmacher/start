@@ -10,19 +10,8 @@ if( !defined( 'TYPO3_MODE' ) )
  * Page- and User-TSConfig
  * **************************************************************************** */
 
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig( '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TSconfig/Page/Mod/Wizards/NewContentElement.tsconfig">' );
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig( '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TSconfig/Page/Mod/Wizards/NewContentElement.ts">' );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addUserTSConfig( '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TSconfig/User/user.ts">' );
-
-/* * ******************************************************************************
- * Icons for Plugins
- * ****************************************************************************** */
-
-$iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance( \TYPO3\CMS\Core\Imaging\IconRegistry::class );
-
-$iconRegistry->registerIcon(
-				'ext-start-jumboteaser', \TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider::class, [ 'source' => 'EXT:start/Resources/Public/Icons/start_jumboteaser.png' ]
-);
-
 
 call_user_func( function ()
 {

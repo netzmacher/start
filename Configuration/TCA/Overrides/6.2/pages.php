@@ -3,6 +3,33 @@
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 use Netzmacher\Start\Backend\Extensionmanager;
 
+// Should correpond with Configuration/ExtTables/Default.php
+$extIcons = [
+		'ext-start' => [
+				'identifier' => 'ext-start'
+				, 'key' => 'start' // <- Key must be the part behind contain- of the identifier!
+				, 'label' => 'Start'
+				, 'source' => 'EXT:start/ext_icon.svg'
+		],
+		'ext-start-pagemedia' => [
+				'identifier' => 'ext-start-pagemedia'
+				, 'key' => 'txStartPagemedia' // <- Key must be the part behind contain- of the identifier!
+				, 'label' => 'Page Media'
+				, 'source' => 'EXT:start/ext_icon.svg'
+				, 'source' => 'EXT:start/Resources/Public/Images/Icons/txStartPagemedia.svg'
+		],
+];
+
+foreach( $extIcons as $extIcon )
+{
+	$TCA[ 'pages' ][ 'columns' ][ 'module' ][ 'config' ][ 'items' ][] = [
+			$extIcon[ 'label' ]
+			, $extIcon[ 'key' ]
+			, $extIcon[ 'identifier' ]
+	];
+	$TCA[ 'pages' ][ 'ctrl' ][ 'typeicon_classes' ][ $extIcon[ 'identifier' ] ] = $extIcon[ 'identifier' ];
+}
+
 // #i0180, 180622, dwildt, 3+
 if( Extensionmanager::getProperty( 'tcaPagesDisabled' ) )
 {

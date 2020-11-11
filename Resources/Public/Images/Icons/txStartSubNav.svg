@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="283.465pt" version="1.1" xmlns="http://www.w3.org/2000/svg" height="283.465pt" viewBox="0 0 283.465 283.465" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="16pt" version="1.1" xmlns="http://www.w3.org/2000/svg" height="16pt" viewBox="0 0 16 16" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
-  <linearGradient id="Grad0" y1="0" x1="0" y2="283.465" gradientUnits="userSpaceOnUse" x2="283.465">
+  <linearGradient id="Grad0" y1="0" x1="0" y2="16" gradientUnits="userSpaceOnUse" x2="16">
    <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
-   <stop offset="50%" stop-color="#ff5e00" stop-opacity="1"/>
+   <stop offset="50%" stop-color="#ff5b09" stop-opacity="1"/>
   </linearGradient>
  </defs>
  <g id="Hintergrund">
-  <g transform="translate(0, 0)">
-   <path style="fill:url(#Grad0); fill-rule:evenodd;" d="M0 0 L283.465 0 L283.465 283.465 L0 283.465 L0 0 Z"/>
-   <path style="fill:none; stroke:none;" d="M0 0 L283.465 0 L283.465 283.465 L0 283.465 L0 0 Z"/>
-  </g>
-  <path style="fill:#ffffff; fill-rule:evenodd;stroke:none;" d="M0 0 L70.8661 0 L70.8661 28.3465 L0 28.3465 L0 0 Z" transform="translate(28.3465, 35.4331)"/>
-  <path style="fill:#ffffff; fill-rule:evenodd; fill-opacity:0.5;stroke:none;" d="M0 0 L70.8661 0 L70.8661 28.3465 L0 28.3465 L0 0 Z" transform="translate(106.299, 35.4331)"/>
-  <path style="fill:#ffffff; fill-rule:evenodd; fill-opacity:0.5;stroke:none;" d="M0 0 L70.8661 0 L70.8661 28.3465 L0 28.3465 L0 0 Z" transform="translate(184.252, 35.4331)"/>
+  <path style="fill:url(#Grad0); fill-rule:evenodd;stroke:none;" d="M0 0 L16 0 L16 16 L0 16 L0 0 Z" transform="translate(0, -3.97904e-13)"/>
+  <path style="fill:none;stroke:none;" d="M0 0 L16 0 L16 16 L0 16 L0 0 Z" transform="translate(0, -3.97904e-13)"/>
+  <path style="fill:#ffffff; fill-rule:evenodd;stroke:none;" d="M0 0 L11 0 L11 2 L0 2 L0 0 Z" transform="translate(4, 1)"/>
+  <path style="fill:#ffffff; fill-rule:evenodd;stroke:none;" d="M0 0 L2 0 L2 2 L0 2 L0 0 Z" transform="translate(1, 1)"/>
+  <path style="fill:#ffffff; fill-rule:evenodd;stroke:none;" d="M0 0 L11 0 L11 2 L0 2 L0 0 Z" transform="translate(4, 4)"/>
+  <path style="fill:#ffffff; fill-rule:evenodd;stroke:none;" d="M0 0 L11 0 L11 2 L0 2 L0 0 Z" transform="translate(4, 7)"/>
+  <path style="fill:#ffffff; fill-rule:evenodd;stroke:none;" d="M0 0 L11 0 L11 2 L0 2 L0 0 Z" transform="translate(4, 10)"/>
+  <path style="fill:#ffffff; fill-rule:evenodd;stroke:none;" d="M0 0 L11 0 L11 2 L0 2 L0 0 Z" transform="translate(4, 13)"/>
  </g>
 </svg>

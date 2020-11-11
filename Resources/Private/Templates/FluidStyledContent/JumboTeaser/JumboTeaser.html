@@ -1,15 +1,20 @@
 <div class="jumbocontainer">
 	<div class="jumbotextoverlay" style="top:{content.distanceFromTop}%;">
-		<h1><f:link.typolink parameter="{data.header_link}">{data.header}</f:link.typolink></h1>
-		<p>{data.subheader -> f:format.html()}</p>
+		<h1>
+			<f:link.typolink parameter="{data.header_link}">{data.header}</f:link.typolink>
+		</h1>
+		<p>
+			<f:link.typolink parameter="{data.header_link}">{data.subheader}</f:link.typolink> {content.distanceFromTop} {content.topbarheight} xxx
+		</p>
 		<f:if condition="{data.header_link}">
-			<p><f:link.typolink parameter="{data.header_link}"
-				>Mehr Dazu</f:link.typolink></p>
+			<p>
+			<f:link.typolink class="button" parameter="{data.header_link}">Mehr dazu</f:link.typolink>
+			</p>
 		</f:if>
 	</div>
 	<f:for each="{images}" as="image">
-        <div class="slide">
-                <f:image image="{image.originalFile}" />
-        </div>
+		<div class="slide">
+			<f:image image="{image.originalFile}" />
+		</div>
 	</f:for>
 </div>

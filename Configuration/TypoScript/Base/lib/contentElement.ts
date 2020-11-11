@@ -13,7 +13,7 @@ lib {
 			// empty statement for proper comment only
 		templateRootPaths {
 		}
-			// start: 177 (clearingthumbs)
+			// start: 177 (clearingthumbs), 207 (JumboTeaser)
 		templateRootPaths =
 		templateRootPaths {
 				// if.isTrue = {start.templates.image.foundation.clearingthumbs} (here: {$start.templates.image.foundation.clearingthumbs}): EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Templates/
@@ -30,11 +30,12 @@ lib {
 					value = EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Template/
 				}
 			}
+			207 = EXT:start/Resources/Private/Templates/FluidStyledContent/JumboTeaser/
 		}
 			// empty statement for proper comment only
 		partialRootPaths {
 		}
-			// start: 177 (clearingthumbs)
+			// start: 177 (clearingthumbs), 207 (JumboTeaser)
 		partialRootPaths =
 		partialRootPaths {
 				// if.isTrue = {start.templates.image.foundation.clearingthumbs} (here: {$start.templates.image.foundation.clearingthumbs}): EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Partials/
@@ -51,11 +52,12 @@ lib {
 					value = EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Partials/
 				}
 			}
+			207 = EXT:start/Resources/Private/Partials/FluidStyledContent/JumboTeaser/
 		}
 			// empty statement for proper comment only
 		layoutRootPaths {
 		}
-			// start: 177 (clearingthumbs)
+			// start: 177 (clearingthumbs), 207 (JumboTeaser)
 		layoutRootPaths =
 		layoutRootPaths {
 				// if.isTrue = {start.templates.image.foundation.clearingthumbs} (here: {$start.templates.image.foundation.clearingthumbs}): EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Layout/
@@ -72,6 +74,7 @@ lib {
 					value = EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Layouts/
 				}
 			}
+			207 = EXT:start/Resources/Private/Layout/FluidStyledContent/JumboTeaser/
 		}
 	}
 }

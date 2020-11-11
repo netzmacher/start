@@ -3,7 +3,7 @@ mod.wizards.newContentElement.wizardItems.common {
 	//header = Rotate
 	elements {
 		txStartPagemedia {
-			iconIdentifier = app-txStartPagemedia
+			iconIdentifier = ext-start-pagemedia
 			title = Page Media
 			description = LLL:EXT:start/Resources/Private/Language/mod/wizards.xlf:txStartPagemedia.description
 			tt_content_defValues {

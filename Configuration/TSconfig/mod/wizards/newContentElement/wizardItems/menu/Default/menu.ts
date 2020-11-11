@@ -1,7 +1,7 @@
 mod.wizards.newContentElement.wizardItems.menu {
 	elements {
 		txStartTopNav {
-			iconIdentifier = app-starttopnav
+			iconIdentifier = ext-start-topnav
 			title = LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:CType.txStartTopNav
 			description = LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:CType.txStartTopNav.description
 			tt_content_defValues {
@@ -11,7 +11,7 @@ mod.wizards.newContentElement.wizardItems.menu {
 			}
 		}
 		txStartBreadcrumbs {
-			iconIdentifier = app-startbreadcrumbs
+			iconIdentifier = ext-start-breadcrumbs
 			title = LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:CType.txStartBreadcrumbs
 			description = LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:CType.txStartBreadcrumbs.description
 			tt_content_defValues {
@@ -21,7 +21,7 @@ mod.wizards.newContentElement.wizardItems.menu {
 			}
 		}
 		txStartSubNav {
-			iconIdentifier = app-startsubnav
+			iconIdentifier = ext-start-subnav
 			title = LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:CType.txStartSubNav
 			description = LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:CType.txStartSubNav.description
 			tt_content_defValues {
@@ -31,7 +31,7 @@ mod.wizards.newContentElement.wizardItems.menu {
 			}
 		}
 		txStartMenues {
-			iconIdentifier = app-startmenues
+			iconIdentifier = ext-start-menues
 			title = LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:CType.menu
 			description = LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:CType.menu.description
 			tt_content_defValues {

@@ -3,9 +3,19 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 [FEATURE] Remove Button [select & upload files]
 
+8.0.18
+  20-11-11
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0084: [TASK] Improve Jumboteaser
+						Removed files:
+						* Resources/Public/Css
+							* JumboTeaser.css > jumboteaser.css
+						Affected files:
+						* Resources/Public/Css/JumboTeaser.css
+
 8.0.17
   20-11-08
-	Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
 	* #v0291: [FEATURE] Remove Button [select & upload files]
 						New file:
 						* Configuration/TSconfig/User/user.ts
@@ -30,12 +40,12 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 					* Configuration/TCA/Overrides/Default/sys_template.php
 					New files:
 					* Configuration/TCA/Overrides/tt_content/jumboteaser.php
-					* Configuration/TSconfig/Page/Mod/Wizards/NewContentElement.tsconfig
+					* Configuration/TSconfig/Page/Mod/Wizards/NewContentElement.ts
 					* Resources/Private/Language/ContentElements/JumboTeaser/locallang_db.xml
 					* Configuration/TypoScript/Base/tt_content/JumboTeaser/setup.ts
 					* Resources/Private/Templates/FluidStyledContent/JumboTeaser/JumboTeaser.html
 					* Resources/Public/Css/JumboTeaser.css
-					* Resources/Public/Icons/start_jumboteaser.png
+					* Resources/Public/Icons/txStartJumboteaser.png
 
 8.0.14
   20-10-20
@@ -47,7 +57,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
                                                         * basic.css
                                                         * basic.min.css
 =======
-	Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
 	* #i0042: [BUGFIX] CSS. Here: .startWoMarginLeftRight chaged margin top and bottom
 						Affected file:
 						* Resources/Public/Css
