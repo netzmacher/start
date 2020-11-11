@@ -3,7 +3,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 8.0.16
   20-10-29
-	Author: Fredrik Boström (verdigado eG), fredrik.bostroem@verdigado.com
+	Author: Fredrik Boström (verdigado eG), support@verdigado.com
 	* #84: [Feature] Jumboteaser settings
 						Affected files:
 						* Resources/Private/Templates/FluidStyledContent/JumboTeaser/JumboTeaser.html
@@ -11,7 +11,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 8.0.15
   20-10-22
-	Author: Fredrik Boström (verdigado eG), fredrik.bostroem@verdigado.com
+	Author: Fredrik Boström (verdigado eG), support@verdigado.com
 	* #84: [Feature] Jumboteaser
 						Affected files:
 						* Configuration/TCA/Overrides/tt_content.php
@@ -28,7 +28,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						* Resources/Public/Icons/start_jumboteaser.png
 8.0.14
   20-10-20
-        Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com
+        Author: Dirk Wildt (verdigado eG), support@verdigado.com
         * #i0042: [BUGFIX] CSS. Here: .startWoMarginLeftRight chaged margin top and bottom
                                                 Affected file:
                                                 * Resources/Public/Css
@@ -37,7 +37,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 8.0.13
   20-10-15
-	Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
 	* #v0140: [BUGFIX] Incorrect table definition, there can be only ...
 						Here: +unsigend in sys_dmail_group.uid
 						Affected file:
@@ -45,7 +45,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 8.0.12
   20-10-14
-	Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
 	* #v0144: [Feature] Extending template blue: content area with full with
 						New file:
 						* Resources
@@ -64,7 +64,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 8.0.11
   20-10-14
-	Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
 	* #v0140: [BUGFIX]  Incorrect table definition, there can be only ...
 						Here: SQL-definition for sys_dmail_group got definition for uid and a key
 						Affected file:
