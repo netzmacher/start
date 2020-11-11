@@ -462,6 +462,54 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
       ',
 					'icon' => 'EXT:start/Resources/Public/Images/BackendLayouts/start_blue_03.gif'
 			),
+			'blue_05' => array(
+					'title' => 'LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.blue_05',
+					'config' => '
+        backend_layout {
+          colCount = 12
+          rowCount = 4
+          rows {
+            1 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.header
+                  colPos  = 11
+                  colspan = 12
+                }
+              }
+            }
+            2 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content
+                  colPos  = 0
+                  colspan = 12
+                }
+              }
+            }
+            3 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.footer
+                  colPos  = 21
+                  colspan = 12
+                }
+              }
+            }
+            4 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.hidden
+                  colPos  = -2
+                  colspan = 12
+                }
+              }
+            }
+          }
+        }
+      ',
+					'icon' => 'EXT:start/Resources/Public/Images/BackendLayouts/start_blue_05.gif'
+			),
 			'blue_01_01_lr' => array(
 					'title' => 'LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.blue_01_01_lr',
 					'config' => '

@@ -25,6 +25,10 @@
         <source>Start Blue 4: | top || left | MAIN | right || bottom |</source>
         <target>Start Blau 4: | oben || links | INHALT | rechts || unten |</target>
       </trans-unit>
+      <trans-unit id="backend_layout.blue_05">
+        <source>Start Blue 5: | MAIN |</source>
+        <target>Start Blau 5: | INHALT |</target>
+      </trans-unit>
       <trans-unit id="backend_layout.blue_01_01_lr">
         <source>Start Blue 1.1: | top || left | MAIN | right || bottom |</source>
         <target>Start Blau 1.1: | oben || left | INHALT | rechts || unten |</target>

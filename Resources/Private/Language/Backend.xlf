@@ -37,6 +37,10 @@
         <source>Start Blue 4: | top | MAIN | bottom |</source>
         <target>Start Blau 4: | oben | INHALT | unten |</target>
       </trans-unit>
+      <trans-unit id="backend_layout.blue_05">
+        <source>Start Blue 5: | MAIN |</source>
+        <target>Start Blau 5: | INHALT |</target>
+      </trans-unit>
       <trans-unit id="backend_layout.bronze_01">
         <source>Start Bronze 1: | MAIN |</source>
         <target>Start Bronze 1: | INHALT |</target>

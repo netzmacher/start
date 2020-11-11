@@ -60,10 +60,18 @@ page {
 #        classColMainContentBottomCenter >
 #      }
     }
-      // Four rows: header || content || right || footer
+      // Four rows: header || content || bottom || footer
     start__blue_03 < .start__blue_01
     start__blue_03 {
       templateName = Blue_03.html
+#      settings {
+#        classColMainContentTopCenter >
+#      }
+    }
+      // Four rows: header || content || footer
+    start__blue_05 < .start__blue_01
+    start__blue_05 {
+      templateName = Blue_05.html
 #      settings {
 #        classColMainContentTopCenter >
 #      }

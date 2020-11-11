@@ -3,6 +3,22 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 [FEATURE] Remove Button [select & upload files]
 
+8.0.19
+  20-11-11
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0306: [FEATURE] Additional backend layout Start Blue 5
+						New files:
+						* Resources
+							* Private/Templates/foundation-5.5.3/Templates/Be_layout/Blue_05.html
+							* Public/Images/BackendLayouts/start_blue_05.gif
+						Affected files:
+					* Classes/Provider/BackendLayoutDataProvider.php
+					* Configuration/TypoScript/Base/Page/Page/63148/blue.ts
+					* Resources/Private
+						* Language/Backend.xlf
+						* Private/Language/de.Backend.xlf
+						* Private/Templates/foundation-5.5.3/Templates/Be_layout/Blue_03.html 
+
 8.0.18
   20-11-11
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
