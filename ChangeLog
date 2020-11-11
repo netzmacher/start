@@ -8,48 +8,56 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
 	* #v0084: [TASK] Improve Jumboteaser
 						New files:
-* Configuration/TSconfig/Page/Mod/Wizards/NewContentElement.ts
-* Configuration/TypoScript/Base/Page/Page/includeCSS.ts
-* Configuration/TypoScript/Base/tt_content/txStartJumboteaser.ts
-* Resources/Public/Css/jumboteaser.css
-* Resources/Public/Images/Icons/txStartJumboteaser.svg
-						* Configuration/TCA/Overrides/tt_content/de.jumboteaser.xlf
-						* Configuration/TCA/Overrides/tt_content/jumboteaser.xlf
+						* Configuration
+							* TCA/Overrides/tt_content
+								* de.jumboteaser.xlf
+								* jumboteaser.xlf
+							* TSconfig/Page/Mod/Wizards/NewContentElement.ts
+							* TypoScript/Base
+								* Page/Page/includeCSS.ts
+								* tt_content/txStartJumboteaser.ts
+						* Resources/Public
+							* Css/jumboteaser.css
+							* Images/Icons/txStartJumboteaser.svg
 						Affected files:
-						* Configuration/FlexForm/startJumbo.xml
-						* Configuration/TCA/Overrides/tt_content/de.jumboteaser.xlf
-						* Configuration/TCA/Overrides/tt_content/jumboteaser.php
-						* Configuration/TCA/Overrides/tt_content/jumboteaser.xlf
-						* Resources/Private/Language/Backend.xlf
-						* Resources/Private/Language/de.Backend.xlf
-						* Resources/Private/Templates/FluidStyledContent/JumboTeaser/JumboTeaser.html
-						* Resources/Public/Css/jumboteaser.css
-						* Configuration/ExtTables/Default.php
-						* Configuration/FlexForm/startJumbo.xml
-						* Configuration/TCA/Overrides/6.2/pages.php
-						* Configuration/TCA/Overrides/Default/pages.php
-						* Configuration/TCA/Overrides/Default/sys_template.php
-						* Configuration/TCA/Overrides/Default/tt_content/_default.php
-						* Configuration/TCA/Overrides/tt_content.php
-						* Configuration/TCA/Overrides/tt_content/jumboteaser.php
-						* Configuration/TSconfig/mod/wizards/newContentElement/wizardItems/common/txStartPagemedia.ts
-						* Configuration/TSconfig/mod/wizards/newContentElement/wizardItems/menu/Default/menu.ts
-						* Configuration/TypoScript/Base/Page/Page/_setup.ts
-						* Configuration/TypoScript/Base/lib/contentElement.ts
-						* Configuration/TypoScript/Base/tt_content/_setup.ts
-						* Resources/Private/Language/Backend.xlf
-						* Resources/Private/Language/de.Backend.xlf
-						* Resources/Private/Language/mod/de.wizards.xlf
-						* Resources/Private/Language/mod/wizards.xlf
-						* Resources/Private/Templates/FluidStyledContent/JumboTeaser/JumboTeaser.html
-						* Resources/Public/Images/Icons/txStartBreadcrumbs.svg
-						* Resources/Public/Images/Icons/txStartMenues.svg
-						* Resources/Public/Images/Icons/txStartSubNav.svg
-						* Resources/Public/Images/Icons/txStartTopNav.svg
+						* Configuration
+							* FlexForm/startJumbo.xml
+							* TCA/Overrides/tt_content/jumboteaser.php
+							* ExtTables/Default.php
+							* FlexForm/startJumbo.xml
+							* TCA/Overrides
+								* 6.2/pages.php
+								* Default
+									* pages.php
+									* sys_template.php
+									* tt_content/_default.php
+								* tt_content.php
+								* tt_content/jumboteaser.php
+							* TSconfig/mod/wizards/newContentElement/wizardItems
+								* common/txStartPagemedia.ts
+								* menu/Default/menu.ts
+							* TypoScript/Base/lib/contentElement.ts
+						* Resources
+							* Private
+								* Language
+									* Backend.xlf
+									* de.Backend.xlf
+									* mod
+										* de.wizards.xlf
+										* wizards.xlf
+								* Templates/FluidStyledContent/JumboTeaser/JumboTeaser.html
+							* Public
+								* Css/jumboteaser.css
+								* Images/Icons
+									* txStartBreadcrumbs.svg
+									* txStartMenues.svg
+									* txStartSubNav.svg
+									* txStartTopNav.svg
 						* ext_localconf.php
 						Removed files
-						* Configuration/TSconfig/Page/Mod/Wizards/NewContentElement.tsconfig
-						* Configuration/TypoScript/Base/tt_content/JumboTeaser/setup.ts
+						* Configuration
+							* TSconfig/Page/Mod/Wizards/NewContentElement.tsconfig
+							* TypoScript/Base/tt_content/JumboTeaser/setup.ts
 						* Resources/Private/Language/ContentElements/JumboTeaser/locallang_db.xml
 						* Resources/Public/Css/JumboTeaser.css
 
