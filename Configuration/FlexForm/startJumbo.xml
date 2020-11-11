@@ -30,25 +30,45 @@
 				</el>
 			</ROOT>
 		</sDEF>
-		<topbar>
+		<responsive>
 			<ROOT>
 				<TCEforms>
-					<sheetTitle>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.sheet.topbar</sheetTitle>
+					<sheetTitle>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.sheet.responsive</sheetTitle>
 				</TCEforms>
 				<type>array</type>
 				<el>
-					<topbarheight>
+					<responsiveheightsmall>
 						<TCEforms>
-							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.topbarheight</label>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.responsiveheightsmall</label>
 							<config>
 								<type>input</type>
 								<default>0</default>
 								<eval>int</eval>
 							</config>
 						</TCEforms>
-					</topbarheight>
+					</responsiveheightsmall>
+					<responsiveheightmedium>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.responsiveheightmedium</label>
+							<config>
+								<type>input</type>
+								<default>0</default>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</responsiveheightmedium>
+					<breakpoint>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.breakpoint</label>
+							<config>
+								<type>input</type>
+								<default>0</default>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</breakpoint>
 				</el>
 			</ROOT>
-		</topbar>
+		</responsive>
 	</sheets>
 </T3DataStructure>

@@ -1,5 +1,10 @@
+/*
+ * Keep in mind: dynamic css is placed in:
+ * Resources/Private/Templates/FluidStyledContent/JumboTeaser/JumboTeaser.html
+ *
+ */
+
 .jumbocontainer {
-	height: calc(100vh - 122px);
 	overflow:hidden;
 	display: flex;
 	align-items: center;
@@ -73,13 +78,8 @@
 }
 
 
-@media only screen and (min-width: 40.0625em) {
-	.jumbocontainer {
-		height: calc(100vh - 227px);
-	}
-	.jumbotextoverlay {
-	}
+/*@media only screen and (min-width: 40.0625em) {
 	.jumbocontainer .jumbotextoverlay h1 {
 		font-size:6em;
 	}
-}
+}*/

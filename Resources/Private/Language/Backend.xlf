@@ -214,6 +214,10 @@
         <target>Versteckt</target>
       </trans-unit>
 			
+      <trans-unit id="jumboteaser.el.breakpoint">
+        <source>Breakpoint for the big view (in pixel). 0 if there isn't any top bar.</source>
+        <target>Breakpoint für großen Bildschirm (in Pixel). 0, wenn kein Menü bzw. Kopfzeile vorhanden ist.</target>
+      </trans-unit>
       <trans-unit id="jumboteaser.el.buttonlabel">
         <source>Label of the button</source>
         <target>Beschriftung des Buttons</target>
@@ -222,17 +226,21 @@
         <source>Move text down (in percent)</source>
         <target>Text nach unten schieben (in Prozent)</target>
       </trans-unit>
-      <trans-unit id="jumboteaser.el.topbarheight">
-        <source>Height of the top bar (in pixel). 0 if there isn't any top bar.</source>
-        <target>Höhe des Menüs oder der Kopfzeile (in Pixel). 0, wenn keins vorhanden ist.</target>
+      <trans-unit id="jumboteaser.el.responsiveheightsmall">
+        <source>Height of the top bar in small views (in pixel). 0 if there isn't any top bar.</source>
+        <target>Höhe des Menüs oder der Kopfzeile auf kleinen Bildschirmen (in Pixel). 0, wenn keins vorhanden ist.</target>
+      </trans-unit>
+      <trans-unit id="jumboteaser.el.responsiveheightmedium">
+        <source>Height of the top bar in big views (in pixel). 0 if there isn't any top bar.</source>
+        <target>Höhe des Menüs oder der Kopfzeile auf großen Bildschirmen (in Pixel). 0, wenn keins vorhanden ist.</target>
       </trans-unit>
       <trans-unit id="jumboteaser.sheet.sDEF">
         <source>Text</source>
         <target>Text</target>
       </trans-unit>
-      <trans-unit id="jumboteaser.sheet.topbar">
-        <source>Top bar?</source>
-        <target>Kopfleiste?</target>
+      <trans-unit id="jumboteaser.sheet.responsive">
+        <source>Responsive Design</source>
+        <target>Responsive Design</target>
       </trans-unit>
 
 		</body>

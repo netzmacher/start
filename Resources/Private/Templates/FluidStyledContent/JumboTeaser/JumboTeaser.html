@@ -1,14 +1,32 @@
+<style>
+	.jumbocontainer {
+		height: calc(100vh - {content.responsiveheightsmall}px);
+	}
+</style>
+
+<f:if condition="{content.breakpoint}">
+	<f:then>
+		<style>
+			@media only screen and (min-width: {content.breakpoint}px) {
+				.jumbocontainer {
+					height: calc(100vh - {content.responsiveheightmedium}px);
+				}
+			}
+		</style>
+	</f:then>
+</f:if>
+
 <div class="jumbocontainer">
 	<div class="jumbotextoverlay" style="top:{content.distanceFromTop}%;">
 		<h1>
 			<f:link.typolink parameter="{data.header_link}">{data.header}</f:link.typolink>
 		</h1>
 		<p>
-			<f:link.typolink parameter="{data.header_link}">{data.subheader}</f:link.typolink> {content.distanceFromTop} {content.topbarheight} xxx
+		<f:link.typolink parameter="{data.header_link}">{data.subheader}</f:link.typolink>
 		</p>
 		<f:if condition="{data.header_link}">
 			<p>
-			<f:link.typolink class="button" parameter="{data.header_link}">Mehr dazu</f:link.typolink>
+			<f:link.typolink class="button" parameter="{data.header_link}">{content.buttonlabel}</f:link.typolink>
 			</p>
 		</f:if>
 	</div>

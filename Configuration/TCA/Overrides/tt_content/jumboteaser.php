@@ -4,7 +4,7 @@
 	'tt_content',
 	'CType',
 	[
-		'LLL:EXT:start/Resources/Private/Language/ContentElements/JumboTeaser/locallang_db.xml:jumbo.title',
+		'LLL:EXT:start/Configuration/TCA/Overrides/tt_content/jumboteaser.xlf:jumboteaser.title',
 		'txStartJumboteaser',
 		'ext-start-jumboteaser',
 	],
