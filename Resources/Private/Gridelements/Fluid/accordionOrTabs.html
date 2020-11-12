@@ -14,7 +14,7 @@
   <f:else>
     <ul class="tabs {data.pi_flexform.data.sDEF.lDEF.tabstype.vDEF}" data-tab>
       <f:for each="{data.tx_gridelements_view_children}" as="el" iteration="i">
-        <li class='tab-title'><a href="#tabs-{i.index}">{el.header}</a></li>
+        <li class='tab-title'><a id="tab-{i.index}" href="#tabs-{i.index}">{el.header}</a></li>
       </f:for>
     </ul>
     <div class="tabs-content">

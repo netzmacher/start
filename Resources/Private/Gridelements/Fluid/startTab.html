@@ -1,6 +1,6 @@
 <ul class="tabs" data-tab>
 	<f:for each="{data.tx_gridelements_view_children}" as="element">
-		<li class='tab-title'><a href="#tabs-{element.uid}">{element.header}</a></li>
+		<li class='tab-title'><a id="tab-{element.uid}" href="#tabs-{element.uid}">{element.header}</a></li>
 	</f:for>
 </ul>
 <div class="tabs-content">
