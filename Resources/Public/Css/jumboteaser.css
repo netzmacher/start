@@ -53,8 +53,8 @@
 	font-size:1.1em;
 }
 
-/* 501px x 701px */
-@media only screen and (min-width: 43.8125em) and (min-height: 31.3125em) {
+/* 500px x 700px */
+@media only screen and (min-width: 43.75em) and (min-height: 31.25em) {
 	#startBox01 .jumbotextoverlay a.button {
 		font-size:0.75em;
 	}
@@ -65,8 +65,8 @@
 		font-size:1.6em;
 	}
 }
-/* 401px x 701px */
-@media only screen and (min-width: 25.0625em) and (min-height: 43.8125em) {
+/* 360px x 650px */
+@media only screen and (min-width: 22.5em) and (min-height: 40.625em) {
 	#startBox01 .jumbotextoverlay a.button {
 		font-size:0.75em;
 	}
@@ -78,8 +78,8 @@
 	}
 }
 
-/* 701px x 701px */
-@media only screen and (min-height: 43.8125em) and (min-width: 43.8125em) {
+/* 700px x 700px */
+@media only screen and (min-height: 43.75em) and (min-width: 43.75em) {
 	#startBox01 .jumbotextoverlay a.button {
 		font-size:0.75em;
 	}
