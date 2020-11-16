@@ -1,7 +1,12 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
-[FEATURE] Remove Button [select & upload files]
+8.0.21
+  20-11-16
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0328: [TASK] Improve Jumboteaser. Here: Font size should depend on screen width
+						Affected file:
+						* Resources/Public/Css/jumboteaser.css
 
 8.0.20
   20-11-11

@@ -1,7 +1,9 @@
 /*
- * Keep in mind: dynamic css is placed in:
- * Resources/Private/Templates/FluidStyledContent/JumboTeaser/JumboTeaser.html
- *
+ * Keep in mind: 
+ *		* dynamic css is placed @
+ *			Resources/Private/Templates/FluidStyledContent/JumboTeaser/JumboTeaser.html
+ *		* startgreen has a css @
+ *			Resources/Public/Css/style/2010141/jumboteaser.css
  */
 
 .jumbocontainer {
@@ -51,8 +53,20 @@
 	font-size:1.1em;
 }
 
-/* 251px = 15.6875em */
-@media only screen and (min-height: 15.6875em) {
+/* 501px x 701px */
+@media only screen and (min-width: 43.8125em) and (min-height: 31.3125em) {
+	#startBox01 .jumbotextoverlay a.button {
+		font-size:0.75em;
+	}
+	#startBox01 .jumbotextoverlay h1 {
+		font-size:4em;
+	}
+	#startBox01 .jumbotextoverlay p {
+		font-size:1.6em;
+	}
+}
+/* 401px x 701px */
+@media only screen and (min-width: 25.0625em) and (min-height: 43.8125em) {
 	#startBox01 .jumbotextoverlay a.button {
 		font-size:0.75em;
 	}
@@ -64,8 +78,8 @@
 	}
 }
 
-/* 501px = 31.3125em */
-@media only screen and (min-height: 31.3125em) {
+/* 701px x 701px */
+@media only screen and (min-height: 43.8125em) and (min-width: 43.8125em) {
 	#startBox01 .jumbotextoverlay a.button {
 		font-size:0.75em;
 	}
@@ -76,10 +90,3 @@
 		font-size:2em;
 	}
 }
-
-
-/*@media only screen and (min-width: 40.0625em) {
-	.jumbocontainer .jumbotextoverlay h1 {
-		font-size:6em;
-	}
-}*/
