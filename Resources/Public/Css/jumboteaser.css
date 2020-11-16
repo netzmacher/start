@@ -60,7 +60,7 @@
 	font-size:1.1em;
 }
 
-/* 500px x 700px */
+/* 700px x 500px*/
 @media only screen and (min-width: 43.75em) and (min-height: 31.25em) {
 	#startBox01 .jumbotextoverlay a.button {
 		font-size:0.75em;
@@ -82,6 +82,13 @@
 	}
 	#startBox01 .jumbotextoverlay p {
 		font-size:1.2em;
+	}
+}
+
+/* 1.000px x 500px */
+@media only screen and (min-width: 62.5em) and (min-height: 31.25em) {
+	.jumbotextoverlay {
+		max-width: 50%;
 	}
 }
 
