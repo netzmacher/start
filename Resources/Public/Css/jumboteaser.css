@@ -29,9 +29,16 @@
 	line-height:1;
 	text-shadow: 0 0 6px black; 
 }
+#startBox01 .jumbotextoverlay h1 {
+	text-transform: uppercase;
+}
 #startBox01 .jumbotextoverlay h1 a,
 #startBox01 .jumbotextoverlay p a {
 	color:white;
+}
+
+#startBox01 .jumbotextoverlay p a {
+	font-weight:normal;
 }
 
 #startBox01 .jumbotextoverlay a.button {
@@ -59,10 +66,10 @@
 		font-size:0.75em;
 	}
 	#startBox01 .jumbotextoverlay h1 {
-		font-size:4em;
+		font-size:3em;
 	}
 	#startBox01 .jumbotextoverlay p {
-		font-size:1.6em;
+		font-size:1.2em;
 	}
 }
 /* 360px x 650px */
@@ -71,10 +78,10 @@
 		font-size:0.75em;
 	}
 	#startBox01 .jumbotextoverlay h1 {
-		font-size:4em;
+		font-size:3em;
 	}
 	#startBox01 .jumbotextoverlay p {
-		font-size:1.6em;
+		font-size:1.2em;
 	}
 }
 
@@ -84,9 +91,9 @@
 		font-size:0.75em;
 	}
 	#startBox01 .jumbotextoverlay h1 {
-		font-size:6em;
+		font-size:5em;
 	}
 	#startBox01 .jumbotextoverlay p {
-		font-size:2em;
+		font-size:1.8em;
 	}
 }
