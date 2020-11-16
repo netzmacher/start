@@ -20,6 +20,12 @@ start {
 			cObject = FLUIDTEMPLATE
 			cObject {
 				file = EXT:start/Resources/Private/Gridelements/Fluid/startTab.html
+				variables {
+					startTabIsLoaded = LOAD_REGISTER
+					startTabIsLoaded {
+						startTabIsLoaded = true
+					}
+				}
 			}
     }
   }
