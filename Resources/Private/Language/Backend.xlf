@@ -246,7 +246,27 @@
         <source>Responsive Design</source>
         <target>Responsive Design</target>
       </trans-unit>
+      <trans-unit id="teasercard.sheet.sDEF">
+        <source>Text</source>
+        <target>Text</target>
+      </trans-unit>
+      <trans-unit id="teasercard.el.title1">
+        <source>Header 1</source>
+        <target>Titel 1</target>
+      </trans-unit>
+      <trans-unit id="teasercard.el.subtitle1">
+        <source>Subheader 1</source>
+        <target>Untertitel 1</target>
+      </trans-unit>
+      <trans-unit id="teasercard.el.cta1">
+        <source>Call To Action link 1</source>
+        <target>Call To Action link 1</target>
+      </trans-unit>
+      <trans-unit id="teasercard.el.buttonlabel1">
+        <source>Call To Action text 1</source>
+        <target>Call To Action text 1</target>
+      </trans-unit>
 
-		</body>
+    </body>
   </file>
 </xliff>

@@ -28,6 +28,9 @@ $typo3Version = Netzmacher\Start\Utility\Typo3VersionUtility::get();
 /* #84 Jumboteaser, 201016, fbostroem, +1 */
 require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TCA/Overrides/tt_content/jumboteaser.php' );
 
+/* #90 Support Teaser Card Container, 201118, fbostroem +1 */
+require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TCA/Overrides/tt_content/teasercard.php' );
+
 switch( TRUE )
 {
 	case($typo3Version < 8000000):
