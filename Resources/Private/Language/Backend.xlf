@@ -247,8 +247,12 @@
         <target>Responsive Design</target>
       </trans-unit>
       <trans-unit id="teasercard.sheet.sDEF">
-        <source>Text</source>
-        <target>Text</target>
+        <source>General</source>
+        <target>Allgemin</target>
+      </trans-unit>
+      <trans-unit id="teasercard.sheet.card1">
+        <source>Card 1</source>
+        <target>Card 1</target>
       </trans-unit>
       <trans-unit id="teasercard.el.title1">
         <source>Header 1</source>

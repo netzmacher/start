@@ -8,6 +8,31 @@
 				</TCEforms>
 				<type>array</type>
 				<el>
+					<cardtype>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.title1</label>
+						<config>
+							<type>select</type>
+							<renderType>selectSingle</renderType>
+							<items>
+								<numIndex index="0">
+									<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.title1</numIndex>
+									<numIndex index="1">1</numIndex>
+								</numIndex>
+							</items>
+						</config>
+						</TCEforms>
+					</cardtype>
+				</el>
+			</ROOT>
+		</sDEF>
+		<card1>
+			<ROOT>
+				<TCEforms>
+                                        <sheetTitle>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.sheet.card1</sheetTitle>
+                                </TCEforms>
+				<type>array</type>
+				<el>
 					<title1>
 						<TCEforms>
 							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.title1</label>
@@ -43,7 +68,7 @@
 					</buttonlabel1>
 				</el>
 			</ROOT>
-		</sDEF>
+		</card1>
 		<responsive>
 			<ROOT>
 				<TCEforms>
