@@ -1,0 +1,93 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true"> 
+<f:layout name="Default" />
+<f:section name="Main">
+
+<style>
+	.jumbocontainer {
+		height: calc(100vh - {content.responsiveheightsmall}px);
+	}
+</style>
+
+<f:if condition="{content.breakpoint}">
+	<f:then>
+		<style>
+			@media only screen and (min-width: {content.breakpoint}px) {
+				.jumbocontainer {
+					height: calc(100vh - {content.responsiveheightmedium}px);
+				}
+			}
+		</style>
+	</f:then>
+</f:if>
+<div class="cardcontainer type{content.cardtype}">
+	<f:if condition="{content.cardtype} =5">
+	<script>
+		await new Promise(r => setTimeout(r, 2000));
+		var flipdown = new FlipDown(1612224000, "flipdown", {theme: 'light'});
+		var wahltermin = new Date('1612224000');
+		var jetzt = new Date();
+		var diff = Math.round((wahltermin.getTime() - jetzt.getTime())/1000);
+		var clock = $(\'.wahlcounter\').FlipClock(diff, {
+			clockFace: \'DailyCounter\',
+			countdown: true,
+			showSeconds: true,
+			language: \'de\',
+		});
+	</script>
+	<div class="innerwrap">
+		<div class="bigbox">
+			<div class="text0">
+				<h1 class="countdown">
+					<div class="wahlcounter"></div>
+				</h1>
+				<h2>
+					{content.subtitle0}
+				</h2>
+			</div>
+		</div>
+		<div class="smallerboxes">
+		        <div class="cardtextoverlay text1">
+		                <h2>
+		                        {content.title1}
+		                </h2>
+		                <h3>
+		                {content.subtitle1}
+		                </h3>
+		        </div>
+
+		        <div class="cardtextoverlay text2">
+        		        <h2>
+                		        {content.title2}
+				</h2>
+				<h3>
+					{content.subtitle2}
+				</h3>
+			</div>
+			<div class="cardtextoverlay text3">
+				<h2>
+					{content.title3}
+				</h2>
+				<h3>
+					{content.subtitle3}
+				</h3>
+			</div>
+			<div class="cardtextoverlay text4">
+				<h2>
+					{content.title4}
+				</h2>
+				<h3>
+					{content.subtitle4}
+				</h3>
+			</div>
+		</div>
+	</div>
+</f:if>
+<f:for each="{images}" as="image">
+		<div class="beimage">
+			<f:image image="{image.originalFile}" />
+		</div>
+</f:for>
+</div>
+</f:section>
+</html>
+

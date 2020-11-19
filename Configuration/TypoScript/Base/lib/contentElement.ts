@@ -13,7 +13,7 @@ lib {
 			// empty statement for proper comment only
 		templateRootPaths {
 		}
-			// start: 177 (clearingthumbs), 207 (JumboTeaser)
+			// start: 177 (clearingthumbs), 207 (JumboTeaser), 227 (TeaserCard)
 		templateRootPaths =
 		templateRootPaths {
 				// if.isTrue = {start.templates.image.foundation.clearingthumbs} (here: {$start.templates.image.foundation.clearingthumbs}): EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Templates/
@@ -30,6 +30,8 @@ lib {
 					value = EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Template/
 				}
 			}
+			// #342 Container, 201119, fbostroem
+			227 = EXT:start/Resources/Private/Templates/FluidStyledContent/TeaserCard/ 
 			207 = EXT:start/Resources/Private/Templates/FluidStyledContent/JumboTeaser/
 		}
 			// empty statement for proper comment only

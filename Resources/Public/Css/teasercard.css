@@ -1,0 +1,93 @@
+.cardcontainer {
+	position:relative;
+        overflow:hidden;
+	color:white;
+	width: 100%;
+}
+.cardcontainer:before {
+	content: "";
+	float: left;
+	/* essentially the aspect ratio. 100% means the
+	div will remain 100% as tall as it is wide, or
+	square in other words.  */
+	padding-bottom: 50%;
+}
+.cardcontainer:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.innerwrap{
+	z-index: 5;
+	position: absolute;
+	width: 100%;
+	transform: translateY(-50%);
+	top: 50%;
+	height: 70%;
+}	
+.beimage{
+	position:absolute;
+}
+.bigbox{
+	width:50%;
+	height:100%;
+	z-index: 10;
+	position:absolute;
+	left:0;
+}
+.text0{
+	width:60%;
+	margin:auto;
+
+}
+.smallerboxes{
+	width:50%;
+	z-index: 10;
+	position:absolute;
+	right:0;
+	height:100%	
+}
+.cardtextoverlay{
+	background:#27ae60;
+	padding:2em;
+	float:left;
+	overflow:hidden;
+
+}
+
+.cardtextoverlay{
+	width:45%;
+	height:45%;
+}
+.text1{
+	margin:0 2% 2% 0;
+}
+.text2{
+	margin:0 0 2% 2%;
+}
+.text3{
+	margin:2% 2% 0 0;
+}
+.text4{
+	margin:2% 0 0 2%;
+}
+.type2 .cardtextoverlay.text1{
+	width:60%;
+	margin:auto;
+}
+#startBox01 .cardcontainer h1,
+#startBox01 .cardcontainer h2,
+#startBox01 .cardcontainer h3{
+	color:white;
+}
+#startBox01 .cardcontainer h1{
+	font-size:2em;
+}
+#startBox01 .cardcontainer h2{
+	font-size:1.5em;
+}
+#startBox01 .cardcontainer h3{
+	font-size:1.1em;
+}
+
+
