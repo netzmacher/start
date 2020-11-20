@@ -5,8 +5,8 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
   20-11-20
 	Author: Falko Trojahn (verdigado eG), support@verdigado.com
 	* #v0453: [FEATURE] Frontend debug snippet
-						Affected files:
-						* 
+						New file:
+						* Configuration/TypoScript/Base/Debug/setup.ts
 
 8.0.22
   20-11-16
