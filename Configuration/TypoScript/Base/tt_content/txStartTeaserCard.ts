@@ -20,7 +20,7 @@ tt_content {
 		}
 	}
 }
-/*
-page.includeJS.flipTimer = EXT:start/Resources/Public/JavaScript/Libs/start/flipclock.js
+
+page.includeJS.flipTimer = EXT:start/Resources/Public/JavaScript/Libs/start/flip.min.js
 page.includeCSS.flipTimer = EXT:start/Resources/Public/Css/flipclock.css
-*/
+

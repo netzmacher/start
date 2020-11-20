@@ -21,30 +21,76 @@
 </f:if>
 <div class="cardcontainer type{content.cardtype}">
 	<f:if condition="{content.cardtype} =5">
-	<script>
-		await new Promise(r => setTimeout(r, 2000));
-		var flipdown = new FlipDown(1612224000, "flipdown", {theme: 'light'});
-		var wahltermin = new Date('1612224000');
-		var jetzt = new Date();
-		var diff = Math.round((wahltermin.getTime() - jetzt.getTime())/1000);
-		var clock = $(\'.wahlcounter\').FlipClock(diff, {
-			clockFace: \'DailyCounter\',
-			countdown: true,
-			showSeconds: true,
-			language: \'de\',
-		});
-	</script>
 	<div class="innerwrap">
 		<div class="bigbox">
 			<div class="text0">
 				<h1 class="countdown">
-					<div class="wahlcounter"></div>
+					Noch
+<div class="tick"
+
+     data-did-init="handleTickInit">
+
+
+
+    <div data-repeat="true"
+
+         data-layout="horizontal center fit"
+
+         data-transform="preset(d, h, m, s) -> delay">
+
+
+
+        <div class="tick-group">
+
+
+
+            <div data-key="value"
+
+                 data-repeat="true"
+
+                 data-transform="pad(00) -> split -> delay">
+
+
+
+                <span data-view="flip"></span>
+
+
+
+            </div>
+
+
+
+            <span data-key="label"
+
+                  data-view="text"
+
+                  class="tick-label"></span>
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+</div>
+					Tage bis zur Wahl - Das kannst du jetzt tun
 				</h1>
-				<h2>
-					{content.subtitle0}
-				</h2>
 			</div>
 		</div>
+        <script type="text/javascript">
+        <![CDATA[
+	function handleTickInit(tick) {
+		var nextYear = (new Date()).getFullYear() + 1;
+		Tick.count.down(nextYear + '-01-01').onupdate = function(value) {
+			tick.value = value;
+		};
+        ]]>
+        </script>
+
 		<div class="smallerboxes">
 		        <div class="cardtextoverlay text1">
 		                <h2>
