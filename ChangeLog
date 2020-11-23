@@ -4,8 +4,9 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 8.0.25
   20-11-23
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
-	* #v0381, #v0386, #v0389: [TASK] Clean up CSS. Here: removed *.min.css. xBlog-CSS cleaned up.
+	* #i0043: [TASK] Debug mode improved
 						Commit
+						* cc4d52313fbe9d0b4fe3949b206eca5f8d60b717
 
 8.0.24
   20-11-20
