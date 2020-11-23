@@ -1,6 +1,26 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.24
+  20-11-20
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0044: [FEATURE] Crop for items in the top bar
+						Controlling by new TypoScript Constant: START - FOUNDATION - TOPBAR > crop
+						New files:
+						* Resources/Private/Templates/foundation-5.5.3/Partials/Navigation/Elements/Item/Crop.html
+						Affected files:
+						* Configuration/TypoScript
+							* Base/tt_content/txStartTopNav.ts
+							* Foundation/Start/Constants/Foundation/Topbar/constants.ts
+						* Resources/Private/Templates/foundation-5.5.3/Partials/Navigation/Elements/
+							* DDItem.html
+							* Item.html
+							* LIItem.html
+							* LIItemWiSub.html
+							* Link.html
+							* LinkMegamenu.html
+							* LinkWiTitle.bak.html
+
 8.0.23
   20-11-20
 	Author: Falko Trojahn (verdigado eG), support@verdigado.com

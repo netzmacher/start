@@ -46,6 +46,7 @@ tt_content.txStartTopNav {
 		}
 	}
 	settings {
+		topNavCrop									= {$start.foundation.topbar.crop}
 		topNavIsHover								= {$start.foundation.topbar.is_hover}
 		topNavHasSearchform					= {$start.foundation.topbar.searchform}
 		topNavMobileShowParentLink	= {$start.foundation.topbar.mobile_show_parent_link}
