@@ -3,7 +3,7 @@
 <f:if condition="{item.spacer}">
 	<f:then>
 		<li class="page-{item.data.uid}{f:if(condition:mainIterator.isFirst, then:' first')}{f:if(condition:mainIterator.isLast, then:' last')}{f:if(condition:item.spacer, then:' spacer')}{f:if(condition:item.data.tx_start_megamenu, then:' hide-for-large-up')} has-dropdown">
-			<span>{item.title}</span>
+			<span><f:render partial="Elements/Item/Crop" arguments="{value: item.title, crop: settings.topNavCrop}" /></span>
 	</f:then>
 	<f:else>
 		<li class="page-{item.data.uid}{f:if(condition:mainIterator.isFirst, then:' first')}{f:if(condition:mainIterator.isLast, then:' last')}{f:if(condition:item.active, then:' active')}{f:if(condition:item.current, then:' current')}{f:if(condition:item.data.tx_start_megamenu, then:' hide-for-large-up')} has-dropdown">

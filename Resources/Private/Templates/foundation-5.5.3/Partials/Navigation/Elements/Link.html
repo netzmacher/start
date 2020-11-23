@@ -12,7 +12,7 @@
 		<a href="{item.link}">
 	</f:else>
 </f:if>
-<span>{item.title}</span>
+<span><f:render partial="Elements/Item/Crop" arguments="{value: item.title, crop: settings.topNavCrop}" /></span>
 </a>
 
 </html>

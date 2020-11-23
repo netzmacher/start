@@ -4,7 +4,7 @@
 <f:if condition="{item.spacer}">
 	<f:then>
 		<dd class="{f:if(condition:item.spacer, then:' spacer')}">
-			<span>{item.title}</span>
+			<span><f:render partial="Elements/Item/Crop" arguments="{value: item.title, crop: settings.topNavCrop}" /></span>
 		</dd>
 	</f:then>
 	<f:else>
