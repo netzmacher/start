@@ -1,3 +1,14 @@
-<f:format.crop maxCharacters="{crop}">
+<f:comment>201123, dwildt: next lines are for breadcrumbs and subnav</f:comment>
+<f:if condition="{crop}">
+	<f:then>
+		<f:variable name="maxCharacters">{crop}</f:variable> 
+	</f:then>
+	<f:else>
+		<f:variable name="maxCharacters">40</f:variable> 
+	</f:else>
+</f:if>
+
+
+<f:format.crop maxCharacters="{maxCharacters}">
 	<f:format.raw>{value}</f:format.raw>
 </f:format.crop>
