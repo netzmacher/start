@@ -8,6 +8,7 @@
 		concatenateCss = 0
 		compressJs = 0
 		concatenateJs = 0
+		contentObjectExceptionHandler = 0
 	}
 [global]
 
@@ -21,5 +22,6 @@
 		concatenateCss = 0
 		compressJs = 0
 		concatenateJs = 0
+		contentObjectExceptionHandler = 0
 	}
 [global]
