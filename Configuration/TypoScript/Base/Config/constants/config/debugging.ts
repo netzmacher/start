@@ -5,7 +5,7 @@ start {
     contentObjectExceptionHandler     = 1
 		contentObjectExceptionHandler {
 	    # cat=start - config - debugging//106; type=string;  label= contentObjectExceptionHandler prompt:Error message in case of exception handling
-			errorMessage = Oops an error occurred. Code: %s. If you like to know more, please disable the ContentObjectExceptionHandler @ Constant Editor > category [START - CONFIG - DEBUGGING]
+			errorMessage = Oops an error occurred. Code: %s. If you like to know more, please disable the ContentObjectExceptionHandler @ Constant Editor > category [START - CONFIG - DEBUGGING]. If your are logged in as admin, please use ?&debug=1
 		}
   }
 
