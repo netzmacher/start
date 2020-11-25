@@ -3,7 +3,9 @@
         overflow:hidden;
 	color:white;
 	width: 100%;
+	min-height:600px;
 }
+@media only screen and (min-width: 800px){
 .cardcontainer:before {
 	content: "";
 	float: left;
@@ -17,6 +19,7 @@
 	display: table;
 	clear: both;
 }
+}
 .innerwrap{
 	z-index: 5;
 	position: absolute;
@@ -24,9 +27,15 @@
 	transform: translateY(-50%);
 	top: 50%;
 	height: 70%;
-}	
+}
+.type4 .innerwrap{
+	height:50%
+}
 .beimage{
 	position:absolute;
+}
+.beimage img{
+	min-width: 1200px;
 }
 .bigbox{
 	width:50%;
@@ -35,18 +44,22 @@
 	position:absolute;
 	left:0;
 }
-.text0{
-	width:60%;
-	margin:auto;
-
-}
 .smallerboxes{
 	width:50%;
 	z-index: 10;
 	position:absolute;
 	right:0;
-	height:100%	
+	height:100%;
+	padding:0 10%;
 }
+.type5 .smallerboxes{
+	padding:0 5% 0 0;
+}
+.text0{
+        width:60%;
+        margin:auto;
+}
+
 .cardtextoverlay{
 	background:#27ae60;
 	padding:2em;
@@ -56,8 +69,26 @@
 }
 
 .cardtextoverlay{
-	width:45%;
+	width:48%;
 	height:45%;
+	position: relative;
+	min-width:4em;
+}
+.type4 .cardtextoverlay{
+	height:30%;
+	padding:0;
+	text-align: center;
+	max-width:200px;
+}
+.type4 .cardtextoverlay *{
+	position:absolute;
+	transform: translateY(-50%);
+	top:50%;
+	width:100%;
+	text-align: center;
+}
+.type4 .smallerboxes{
+	padding:0 10em;
 }
 .text1{
 	margin:0 2% 2% 0;
@@ -72,13 +103,33 @@
 	margin:2% 0 0 2%;
 }
 .type2 .cardtextoverlay.text1{
-	width:60%;
+	width:80%;
 	margin:auto;
+	height:80%;
+}
+#startBox01 #startBox02 .cardcontainer .button{
+	border-radius: 30px;
+	background: transparent;
+	border: 2px solid white;
+	font-weight:bold;
+	position:absolute;
+	bottom:0;
+	padding:0.5rem 1rem 0.5rem 1rem;
+}
+#startBox01 #startBox02 .cardcontainer.type4 .button{
+	transform: translateX(-50%);
+	left: 50%;
 }
 #startBox01 .cardcontainer h1,
 #startBox01 .cardcontainer h2,
 #startBox01 .cardcontainer h3{
 	color:white;
+}
+#startBox01 .cardcontainer .smallerboxes h1,
+#startBox01 .cardcontainer .smallerboxes h2,
+#startBox01 .cardcontainer .smallerboxes h3{
+	font-family: serif;
+	font-weight: 999;
 }
 #startBox01 .cardcontainer h1{
 	font-size:2em;
@@ -89,5 +140,41 @@
 #startBox01 .cardcontainer h3{
 	font-size:1.1em;
 }
+@media only screen and (max-width: 1000px){
+	.cardcontainer .smallerboxes{
+        	padding:0 10%;
+	}
+	.type5.cardcontainer .smallerboxes{
+		padding:0 5%;
+	}
+	.type2 .cardtextoverlay.text1 {
+		width:100%;
+	}
+}
+@media only screen and (max-width: 800px){
+	.bigbox{
+		text-align: center;
+	}
+	.smallerboxes,
+	.bigbox{
+		position:relative;
+		width:100%;
+		height:50%;
+	}
+	.type2 .smallerboxes,
+	.type4 .smallerboxes{
+		padding:0 30%;
+	}
+	.cardcontainer .innerwrap {
+		height:80%;
+	}
+}
+@media only screen and (max-width: 550px){
+	.cardcontainer .smallerboxes{
+                padding:0 10%;
+        }
+}
+
+
 
 

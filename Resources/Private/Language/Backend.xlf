@@ -266,6 +266,11 @@
         <source>Commitment</source>
         <target>Commitment</target>
       </trans-unit>
+      <trans-unit id="teasercard.el.eventdate">
+        <source>Date</source>
+        <target>Datum</target>
+      </trans-unit>
+
       <trans-unit id="teasercard.el.title">
         <source>Header</source>
         <target>Titel</target>
