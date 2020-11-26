@@ -120,6 +120,7 @@
 	transform: translateX(-50%);
 	left: 50%;
 }
+#startBox01 .cardcontainer p,
 #startBox01 .cardcontainer h1,
 #startBox01 .cardcontainer h2,
 #startBox01 .cardcontainer h3{
@@ -139,6 +140,12 @@
 }
 #startBox01 .cardcontainer h3{
 	font-size:1.1em;
+}
+.type5 .tens,
+.type5 .ones{
+	background:#F0F0F0;
+	color:#00A358;
+	padding:2px 4px;
 }
 @media only screen and (max-width: 1000px){
 	.cardcontainer .smallerboxes{

@@ -22,11 +22,20 @@
 <div class="cardcontainer type{content.cardtype}">
 	<f:if condition="{content.cardtype} == 5">
 	<f:then>
+	<f:variable name="then" value="{content.eventdate}" />
+	<f:variable name="now" value="{f:format.date(date: '', format: 'U')}" />
+	<f:variable name="diff" value="{then - now}" />
+	<f:variable name="days" value="{diff/86400}" />	
+	<f:variable name="daysO" value="{days % 10}" />
+	<f:variable name="dayst" value="{days - daysO}" />
+	<f:variable name="daysT" value="{dayst/10}" />
 	<div class="innerwrap">
 		<div class="bigbox">
 			<div class="text0">
 				<h1 class="countdown">
-					Noch<f:format.date format="%d">{content.date}</f:format.date>
+					Noch 
+					<span class="tens"><f:format.number decimals="0">{daysT}</f:format.number></span>
+					<span class="ones">{daysO}</span>
 					Tage bis zur Wahl - Das kannst du jetzt tun
 				</h1>
 			</div>

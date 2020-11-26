@@ -11,31 +11,31 @@
 					<cardtype>
 						<TCEforms>
 							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.cardtype</label>
-						<config>
-							<type>select</type>
-							<renderType>selectSingle</renderType>
-							<items>
-								<numIndex index="0">
-									<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.cardtype.2</numIndex>
-									<numIndex index="1">2</numIndex>
-								</numIndex>
-                                                                <numIndex index="1">
-                                                                        <numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.cardtype.4</numIndex>
-                                                                        <numIndex index="1">4</numIndex>
-                                                                </numIndex>
-                                                                <numIndex index="2">
-                                                                        <numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.cardtype.5</numIndex>
-                                                                        <numIndex index="1">5</numIndex>
-                                                                </numIndex>
+							<config>
+								<type>select</type>
+								<renderType>selectSingle</renderType>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.cardtype.2</numIndex>
+										<numIndex index="1">2</numIndex>
+									</numIndex>
+                                        	                        <numIndex index="1">
+                                                	                        <numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.cardtype.4</numIndex>
+                                                        	                <numIndex index="1">4</numIndex>
+                                                                	</numIndex>
+                                                                	<numIndex index="2">
+                                                                	        <numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.cardtype.5</numIndex>
+                                                                	        <numIndex index="1">5</numIndex>
+                                                                	</numIndex>
 
-							</items>
-						</config>
+								</items>
+							</config>
 						</TCEforms>
 					</cardtype>
-/*
+
 					<eventdate>
 						<TCEforms>
-							<label><LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.eventdate</label>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.eventdate</label>
 							<config>
   								<type>input</type>
   								<size>8</size>
@@ -45,7 +45,7 @@
 							</config>
 						</TCEforms>
 					</eventdate>
-*/
+
 				</el>
 			</ROOT>
 		</sDEF>
