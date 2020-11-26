@@ -108,7 +108,9 @@
                                 <p>
                                 	{content.subtitle1}
                                 </p>
-				<a href="{content.cta0}" class="button">Mehr</a>
+				<f:if condition="{content.cta0}">
+				<f:link.typolink parameter="{content.cta0}" class="button">Mehr</f:link.typolink>
+				</f:if>
                         </div>
 		</div>
 	</div>
@@ -130,12 +132,12 @@
                         <div class="cardtextoverlay text1">
 				<f:if condition="{content.title1}">
 				<h2>
-					{content.title1}
+					<f:link.typolink parameter="{content.cta1}">{content.title1}</f:link.typolink>
 				</h2>
 				</f:if>
 				<f:if condition="{content.subtitle1}">
                                 <h3>
-                                        {content.subtitle1}
+                                        <f:link.typolink parameter="{content.cta1}">{content.subtitle1}</f:link.typolink>
                                 </h3>
 				</f:if>
                         </div>
@@ -143,40 +145,40 @@
                         <div class="cardtextoverlay text2">
 				<f:if condition="{content.title2}">
                                 <h2>
-                                        {content.title2}
+                                        <f:link.typolink parameter="{content.cta2}">{content.title2}</f:link.typolink>
                                 </h2>
 				</f:if>
 				<f:if condition="{content.subtitle2}">
                                 <p>
-                                        {content.subtitle2}
+                                        <f:link.typolink parameter="{content.cta2}">{content.subtitle2}</f:link.typolink>
                                 </p>
 				</f:if>
                         </div>
                         <div class="cardtextoverlay text3">
 				<f:if condition="{content.title3}">
                                 <h2>
-                                        {content.title3}
+                                        <f:link.typolink parameter="{content.cta3}">{content.title3}</f:link.typolink>
                                 </h2>
 				</f:if>
 				<f:if condition="{content.subtitle3}">
                                 <p>
-                                        {content.subtitle3}
+                                        <f:link.typolink parameter="{content.cta3}">{content.subtitle3}</f:link.typolink>
                                 </p>
 				</f:if>
                         </div>
                         <div class="cardtextoverlay text4">
 				<f:if condition="{content.title4}">
                                 <h2>
-                                        {content.title4}
+                                        <f:link.typolink parameter="{content.cta4}">{content.title4}</f:link.typolink>
                                 </h2>
 				</f:if>
 				<f:if condition="{content.subtitle4}">
-                                <p>
-                                        {content.subtitle4}
-                                </p>
+                                <h3>
+                                        <f:link.typolink parameter="{content.cta4}">{content.subtitle4}</f:link.typolink>
+                                </h3>
 				</f:if>
                         </div>
-			<a href="{content.cta0}" class="button">Jetzt spenden</a>
+			<f:link.typolink parameter="{content.cta0}" class="button">Jetzt spenden</f:link.typolink>
                 </div>
 
 	</div>

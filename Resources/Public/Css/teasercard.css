@@ -87,6 +87,10 @@
 	width:100%;
 	text-align: center;
 }
+#startBox01 .type4 .cardtextoverlay a{
+	display:block;
+	color:white;
+}
 .type4 .smallerboxes{
 	padding:0 10em;
 }
@@ -131,6 +135,9 @@
 #startBox01 .cardcontainer .smallerboxes h3{
 	font-family: serif;
 	font-weight: 999;
+}
+#startBox01 .cardcontainer.type4 .smallerboxes h2{
+	font-size:3em;
 }
 #startBox01 .cardcontainer h1{
 	font-size:2em;
