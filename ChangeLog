@@ -1,6 +1,30 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.26
+  20-11-26
+        Author: Fredrik Boström (verdigado eG), support@verdigado.com
+        * #342: [Feature] TeaserCards
+                                                New files:
+                                                * Configuration/FlexForm/startTeaserCard.xml
+                                                * Configuration/TCA/Overrides/tt_content/de.teasercard.xlf
+                                                * Configuration/TCA/Overrides/tt_content/teasercard.php
+                                                * Configuration/TCA/Overrides/tt_content/teasercard.xlf
+                                                * Configuration/TypoScript/Base/tt_content/txStartTeaserCard.ts
+                                                * Resources/Private/Templates/FluidStyledContent/TeaserCard/TeaserCard.html
+                                                * Resources/Public/Css/teasercard.css
+                                                * Resources/Public/Images/Icons/txStartTeaserCard.svg
+
+                                                Affected files:
+                                                * Configuration/ExtTables/Default.php
+                                                * Configuration/TCA/Overrides/tt_content.php
+                                                * Configuration/TSconfig/Page/Mod/Wizards/NewContentElement.ts
+                                                * Configuration/TypoScript/Base/Page/Page/includeCSS.ts
+                                                * Configuration/TypoScript/Base/lib/contentElement.ts
+                                                * Configuration/TypoScript/Base/tt_content/_setup.ts
+                                                * Resources/Private/Language/Backend.xlf
+                                                * Resources/Private/Language/mod/wizards.xlf
+
 8.0.25
   20-11-23
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
