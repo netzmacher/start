@@ -1,11 +1,41 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
-8.0.26
+8.0.27
   20-11-27
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
 	* #i0044: [TASK] Template Debug is removed
 						Commit: 0327f1561d045589417a93bd352e22e7e66a27b2
+
+8.0.26
+  20-11-26
+	Author: Fredrik Boström (verdigado eG), support@verdigado.com
+	* #v0342: [Feature] TeaserCards
+						New files:
+						* Configuration
+							* FlexForm/startTeaserCard.xml
+							* TCA/Overrides/tt_content
+								* de.teasercard.xlf
+								* teasercard.php
+								* teasercard.xlf
+							* TypoScript/Base/tt_content/txStartTeaserCard.ts
+						* Resources
+							* Private/Templates/FluidStyledContent/TeaserCard/TeaserCard.html
+							* Public/Css/teasercard.css
+							* Public/Images/Icons/txStartTeaserCard.svg
+						Affected files:
+						* Configuration
+							* ExtTables/Default.php
+							* TCA/Overrides/tt_content.php
+							* TSconfig/Page/Mod/Wizards/NewContentElement.ts
+							* TypoScript/Base
+								* Page/Page/includeCSS.ts
+								* lib/contentElement.ts
+								* tt_content/_setup.ts
+						* Resources/Private/Language
+							* Backend.xlf
+							* mod/wizards.xlf
+						Commit: 34254641a7d938bb39e22397a1740b9618ceb508
 
 8.0.25
   20-11-23

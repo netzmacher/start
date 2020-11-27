@@ -246,7 +246,72 @@
         <source>Responsive Design</source>
         <target>Responsive Design</target>
       </trans-unit>
+      <trans-unit id="teasercard.sheet.sDEF">
+        <source>General</source>
+        <target>Allgemin</target>
+      </trans-unit>
+      <trans-unit id="teasercard.el.cardtype">
+        <source>Card Type</source>
+        <target>Kartentyp</target>
+      </trans-unit>
+      <trans-unit id="teasercard.el.cardtype.2">
+        <source>Support</source>
+        <target>Support</target>
+      </trans-unit>
+      <trans-unit id="teasercard.el.cardtype.4">
+        <source>Fundraising</source>
+        <target>Fundraising</target>
+      </trans-unit>
+      <trans-unit id="teasercard.el.cardtype.5">
+        <source>Commitment</source>
+        <target>Commitment</target>
+      </trans-unit>
+      <trans-unit id="teasercard.el.eventdate">
+        <source>Date</source>
+        <target>Datum</target>
+      </trans-unit>
 
-		</body>
+      <trans-unit id="teasercard.el.title">
+        <source>Header</source>
+        <target>Titel</target>
+      </trans-unit>
+      <trans-unit id="teasercard.el.subtitle">
+        <source>Subheader</source>
+        <target>Untertitel</target>
+      </trans-unit>
+      <trans-unit id="teasercard.el.cta">
+        <source>Call To Action link</source>
+        <target>Call To Action link</target>
+      </trans-unit>
+      <trans-unit id="teasercard.el.buttonlabel">
+        <source>Call To Action text</source>
+        <target>Call To Action text</target>
+      </trans-unit>
+      <trans-unit id="teasercard.sheet.box0">
+        <source>Text</source>
+        <target>Text</target>
+      </trans-unit>
+      <trans-unit id="teasercard.sheet.box1">
+        <source>Textblock 1</source>
+        <target>Textblock 1</target>
+      </trans-unit>
+      <trans-unit id="teasercard.sheet.box2">
+        <source>Textblock 2</source>
+        <target>Textblock 2</target>
+      </trans-unit>
+      <trans-unit id="teasercard.sheet.box3">
+        <source>Textblock 3</source>
+        <target>Textblock 3</target>
+      </trans-unit>
+      <trans-unit id="teasercard.sheet.box4">
+        <source>Textblock 4</source>
+        <target>Textblock 4</target>
+      </trans-unit>
+      <trans-unit id="teasercard.sheet.box5">
+        <source>Textblock 5</source>
+        <target>Textblock 5</target>
+      </trans-unit>
+
+    </body>
   </file>
 </xliff>

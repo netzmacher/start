@@ -15,6 +15,15 @@
         <source>Jumbo Teaser</source>
         <target>Jumbo Teaser</target>
       </trans-unit>
+      <trans-unit id="txStartTeaserCard.description">
+        <source>Various Cards with optional Call to Action</source>
+        <target>Karten optionelle mit Call To Action</target>
+      </trans-unit>
+      <trans-unit id="txStartTeaserCard.title">
+        <source>TeaserCard</source>
+        <target>TeaserCard</target>
+      </trans-unit>
+
     </body>
   </file>
 

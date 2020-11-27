@@ -6,5 +6,6 @@ page {
 	includeCSS =
 	includeCSS {
 		jumboteaser = EXT:start/Resources/Public/Css/jumboteaser.css
+		teasercard = EXT:start/Resources/Public/Css/teasercard.css
 	}
 }
