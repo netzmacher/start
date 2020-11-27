@@ -35,7 +35,9 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						* Resources/Private/Language
 							* Backend.xlf
 							* mod/wizards.xlf
-						Commit: 34254641a7d938bb39e22397a1740b9618ceb508
+						Commits:
+						* fa77e01163f78fec6cee7acb65175c9d11045b88
+						* 34254641a7d938bb39e22397a1740b9618ceb508
 
 8.0.25
   20-11-23
