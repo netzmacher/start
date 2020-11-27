@@ -22,7 +22,6 @@ $tempPath = 'Configuration/TypoScript/';
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( 'start', $tempPath . 'Base/Demo/', 'Start [80.1.1] Demo' );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( 'start', $tempPath . 'Development/cssNotMinified/', 'Start [90.1.1] +CSS not minified' );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( 'start', $tempPath . 'Development/jsNotMinified/', 'Start [90.2.1] +JS not minified' );
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( 'start', $tempPath . 'Debug/', 'Start [91.1.1] Debug' );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( 'start', $tempPath . 'Workaround/', 'Start [92.1.1] +Workaround ChangeLog #i0215' );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( 'start', $tempPath . 'Test/', 'Start [99.1.1] Test' );
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile( 'start', $tempPath . 'Base/Start/Gridelements/', 'Start [DEPRECATED!] +Gridelements [USE 20.4.1!]' );
