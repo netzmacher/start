@@ -20,7 +20,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						* start.structure.content.right.20 is moved from CONTENT to COA
 	* #i0046: Constants Foundation 6.x are removed
 	* #i0045: *.min.css are removed
-						Commit: 
+						Commit: 8e041bf8469f6d317c866803b8a6e332f4195fa9
 
 8.0.27
   20-11-27
