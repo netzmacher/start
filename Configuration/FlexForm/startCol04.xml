@@ -176,7 +176,7 @@
 								<numIndex index='1'>2/6/2/2</numIndex>
 							</numIndex>
 							<numIndex index='6' type='array'>
-								<numIndex index='0'>3|3|3|3 (recommended)</numIndex>
+								<numIndex index='0'>3|3|3|3</numIndex>
 								<numIndex index='1'>3/3/3/3</numIndex>
 							</numIndex>
 							<numIndex index='7' type='array'>
@@ -196,7 +196,7 @@
 								<numIndex index='1'>6/2/2/2</numIndex>
 							</numIndex>
 							<numIndex index='11' type='array'>
-								<numIndex index='0'>12|12|12|12</numIndex>
+								<numIndex index='0'>12|12|12|12 (recommended)</numIndex>
 								<numIndex index='1'>12/12/12/12</numIndex>
 							</numIndex>
 						</items>

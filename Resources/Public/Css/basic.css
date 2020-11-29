@@ -4,9 +4,16 @@ body {
 }
 
 /* Class is required for left and right columns: if columns are empty, they will still be displayed. */
-.startVisHiddenHeight1 {
+/*.startVisHiddenHeight1 {
 	visibility: hidden;
 	height:1px;
+}*/
+
+/* 1025px */
+@media only screen and (min-width: 64.0625em) {
+	.columns:empty:before {
+		content: '\00a0\00a0';
+	}
 }
 /* #i0260, #t4060, 1+ */
 #startBox01 .slick-sync figcaption {

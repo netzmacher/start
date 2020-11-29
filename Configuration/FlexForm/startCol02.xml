@@ -101,7 +101,7 @@
                 <numIndex index="1">5/7</numIndex>
               </numIndex>
               <numIndex index="4" type="array">
-                <numIndex index="0">6|6 (recommended)</numIndex>
+                <numIndex index="0">6|6</numIndex>
                 <numIndex index="1">6/6</numIndex>
               </numIndex>
               <numIndex index="5" type="array">
@@ -121,7 +121,7 @@
                 <numIndex index="1">10/2</numIndex>
               </numIndex>
               <numIndex index="9" type="array">
-                <numIndex index="0">12|12</numIndex>
+                <numIndex index="0">12|12 (recommended)</numIndex>
                 <numIndex index="1">12/12</numIndex>
               </numIndex>
             </items>

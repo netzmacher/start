@@ -1,6 +1,28 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.29
+  20-11-29
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0423: [FEATURE] Grid-layout: empty div.columns will displayed from width 64.0625em
+						See CSS-hack @ 
+						* start/Resources/Public/Css/basic.css
+						* .columns:empty:before { content: '\00a0\00a0'; }
+						-------------
+						NEW BEHAVIOUR
+						-------------
+						If columns are empty, content will allocated by css content.
+						That affects, that empty columns will displayed in full width.
+						If you don't like this effect, please change the CSS properties like in the line below:
+						.columns:empty:before { content: none; }
+						--------
+						REVERTED
+						--------
+						Property empty placeholder from below is reverted, 
+						but start.structure.content.[left||right].20 is moved from CONTENT to COA
+						:ref: 8-0.28 #v0423
+						Commit: 8e041bf8469f6d317c866803b8a6e332f4195fa9
+
 8.0.28
   20-11-29
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
@@ -15,9 +37,10 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						----------
 						TypoScript
 						----------
-						If you have configured the TypoScript propertoes from below, YOU MUST update your configuration!
+						If you have configured the TypoScript properties from below, YOU MUST update your configuration!
 						* start.structure.content.left.20 is moved from CONTENT to COA
 						* start.structure.content.right.20 is moved from CONTENT to COA
+						:ref: 8-0.29 #v0423
 	* #i0046: Constants Foundation 6.x are removed
 	* #i0045: *.min.css are removed
 						Commit: 8e041bf8469f6d317c866803b8a6e332f4195fa9

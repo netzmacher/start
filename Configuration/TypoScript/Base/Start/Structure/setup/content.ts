@@ -114,8 +114,8 @@ start {
 					}
 				}
 					// if.isFalse.data = register:startContentLeft div
-				110 = TEXT
-				110 {
+				xx110 = TEXT
+				xx110 {
 					if.isFalse.data = register:startContentLeft
 					//data = register:startContentLeft
 					value = <div class="startVisHiddenHeight1"></div>
@@ -284,8 +284,8 @@ start {
 					}
 				}
 					// if.isFalse.data = register:startContentRight div
-				110 = TEXT
-				110 {
+				xx110 = TEXT
+				xx110 {
 					if.isFalse.data = register:startContentRight
 					//data = register:startContentLeft
 					value = <div class="startVisHiddenHeight1"></div>

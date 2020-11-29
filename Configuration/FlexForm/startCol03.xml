@@ -33,6 +33,10 @@
             <type>select</type>
             <renderType>selectSingle</renderType>
             <items type="array">
+              <numIndex index="11" type="array">
+                <numIndex index="0">2|8|2</numIndex>
+                <numIndex index="1">2/8/2</numIndex>
+              </numIndex>
               <numIndex index="0" type="array">
                 <numIndex index="0">3|3|6</numIndex>
                 <numIndex index="1">3/3/6</numIndex>
@@ -88,6 +92,10 @@
             <type>select</type>
             <renderType>selectSingle</renderType>
             <items type="array">
+              <numIndex index="11" type="array">
+                <numIndex index="0">2|8|2</numIndex>
+                <numIndex index="1">2/8/2</numIndex>
+              </numIndex>
               <numIndex index="0" type="array">
                 <numIndex index="0">3|3|6</numIndex>
                 <numIndex index="1">3/3/6</numIndex>
@@ -143,6 +151,10 @@
             <type>select</type>
             <renderType>selectSingle</renderType>
             <items type="array">
+              <numIndex index="11" type="array">
+                <numIndex index="0">2|8|2</numIndex>
+                <numIndex index="1">2/8/2</numIndex>
+              </numIndex>
               <numIndex index="0" type="array">
                 <numIndex index="0">3|3|6</numIndex>
                 <numIndex index="1">3/3/6</numIndex>
@@ -164,7 +176,7 @@
                 <numIndex index="1">4/3/5</numIndex>
               </numIndex>
               <numIndex index="5" type="array">
-                <numIndex index="0">4|4|4 (recommended)</numIndex>
+                <numIndex index="0">4|4|4</numIndex>
                 <numIndex index="1">4/4/4</numIndex>
               </numIndex>
               <numIndex index="6" type="array">
@@ -184,7 +196,7 @@
                 <numIndex index="1">6/3/3</numIndex>
               </numIndex>
               <numIndex index="10" type="array">
-                <numIndex index="0">12|12|12</numIndex>
+                <numIndex index="0">12|12|12 (recommended)</numIndex>
                 <numIndex index="1">12/12/12</numIndex>
               </numIndex>
             </items>
