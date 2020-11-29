@@ -2,6 +2,12 @@ body {
 	/* #i0196, 190110, dwildt, 1+ */
 	overflow-x: hidden;
 }
+
+/* Class is required for left and right columns: if columns are empty, they will still be displayed. */
+.startVisHiddenHeight1 {
+	visibility: hidden;
+	height:1px;
+}
 /* #i0260, #t4060, 1+ */
 #startBox01 .slick-sync figcaption {
 	display: none;

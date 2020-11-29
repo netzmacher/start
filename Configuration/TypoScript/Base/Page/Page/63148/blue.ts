@@ -52,30 +52,6 @@ page {
 )
       }
     }
-      // Four rows: header || top || content || footer
-    start__blue_02 < .start__blue_01
-    start__blue_02 {
-      templateName = Blue_02.html
-#      settings {
-#        classColMainContentBottomCenter >
-#      }
-    }
-      // Four rows: header || content || bottom || footer
-    start__blue_03 < .start__blue_01
-    start__blue_03 {
-      templateName = Blue_03.html
-#      settings {
-#        classColMainContentTopCenter >
-#      }
-    }
-      // Four rows: header || content || footer
-    start__blue_05 < .start__blue_01
-    start__blue_05 {
-      templateName = Blue_05.html
-#      settings {
-#        classColMainContentTopCenter >
-#      }
-    }
       // Five rows: header || top || left | content | right || bottom || footer
     start__blue_01_01_lr < .start__blue_01
     start__blue_01_01_lr {
@@ -107,12 +83,67 @@ page {
         classColMainContentMain = small-12 medium-{$start.fluid.path.be_layout.settings.grid.columns02.main}
       }
     }
+      // Four rows: header || top || content || footer
+    start__blue_02 < .start__blue_01
+    start__blue_02 {
+      templateName = Blue_02.html
+#      settings {
+#        classColMainContentBottomCenter >
+#      }
+    }
+      // Four rows: header || content || bottom || footer
+    start__blue_03 < .start__blue_01
+    start__blue_03 {
+      templateName = Blue_03.html
+#      settings {
+#        classColMainContentTopCenter >
+#      }
+    }
       // top | MAIN | bottom
     start__blue_04 < .start__blue_01
     start__blue_04 {
       templateName = Blue_04.html
       settings {
         classRowPlusMain	= {$start.foundation.grid.class.rowPlusMainFullWidth}
+      }
+    }
+      // Three rows: header || content || footer
+    start__blue_05 < .start__blue_01
+    start__blue_05 {
+      templateName = Blue_05.html
+#      settings {
+#        classColMainContentTopCenter >
+#      }
+    }
+      // Three rows: header || content || footer
+    start__blue_05_01_lr < .start__blue_05
+    start__blue_05_01_lr {
+      templateName = Blue_05_01_lr.html
+      settings {
+        classColMainContentMain   >
+        classColMainContentLeft   = small-12 medium-{$start.fluid.path.be_layout.settings.grid.columns03.left}
+        classColMainContentMain   = small-12 medium-{$start.fluid.path.be_layout.settings.grid.columns03.main}
+        classColMainContentRight  = small-12 medium-{$start.fluid.path.be_layout.settings.grid.columns03.right}
+      }
+    }
+      // Three rows: header || content || footer
+    start__blue_05_02_r < .start__blue_05_01_lr
+    start__blue_05_02_r {
+      templateName = Blue_05_02_r.html
+      settings {
+        classColMainContentLeft >
+        classColMainContentRight = small-12 medium-{$start.fluid.path.be_layout.settings.grid.columns02.margin}
+        classColMainContentMain = small-12 medium-{$start.fluid.path.be_layout.settings.grid.columns02.main}
+      }
+    }
+      // Three rows: header || content || footer
+    start__blue_05_03_l < .start__blue_05_01_lr
+    start__blue_05_03_l {
+      templateName = Blue_05_03_l.html
+      settings {
+        classColMainContentRight >
+        classColMainContentLeft = small-12 medium-{$start.fluid.path.be_layout.settings.grid.columns02.margin}
+        classColMainContentMain = small-12 medium-{$start.fluid.path.be_layout.settings.grid.columns02.main}
       }
     }
   }

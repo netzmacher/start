@@ -1,6 +1,27 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.28
+  20-11-29
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0423: [FEATURE] Additional backend-layouts: 5-lr, 5_r and 5_l 
+						-------------
+						NEW BEHAVIOUR
+						-------------
+						If left oder right columns are empty, an empty placeholder will set with 1px height.
+						That <div> affects, that the empty column will displayed in full width.
+						If you don't like this effect, please change the CSS properties like in the line below:
+						.startVisHiddenHeight1 { display: none; }
+						----------
+						TypoScript
+						----------
+						If you have configured the TypoScript propertoes from below, YOU MUST update your configuration!
+						* start.structure.content.left.20 is moved from CONTENT to COA
+						* start.structure.content.right.20 is moved from CONTENT to COA
+	* #i0046: Constants Foundation 6.x are removed
+	* #i0045: *.min.css are removed
+						Commit: 
+
 8.0.27
   20-11-27
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com

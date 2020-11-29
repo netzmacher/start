@@ -69,33 +69,57 @@ start {
           }
         }
       }
-        // CONTENT, stdWrap
+        // 20 = COA, 110 = TEXT
       left = COA
       left {
-        20 < styles.content.get
-        20 {
-          select {
-            where = colPos=1
-          }
-          slide = -1
-					wrap {
-						stdWrap {
-							cObject = COA
+					// 10 = LOAD_REGISTER, 20 = TEXT
+				20 = COA
+				20 {
+						// startContentLeft = CONTENT
+					10 = LOAD_REGISTER
+					10 {
+						startContentLeft =
+						startContentLeft {
+							cObject < styles.content.get
 							cObject {
-								10 = TEXT
-								10 {
-									if.isTrue = {$start.structure.content.left.class}
-									value = <div class="{$start.structure.content.left.class}"><!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end--></div>
+								select {
+									where = colPos=1
 								}
-								20 = TEXT
-								20 {
-									if.isFalse = {$start.structure.content.left.class}
-									value = <!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end-->
+								slide = -1
+							}	
+						}
+					}
+						// if.isTrue.data = register:startContentLeft wrap
+					20 = TEXT
+					20 {
+						if.isTrue.data = register:startContentLeft
+						data = register:startContentLeft
+						wrap {
+							stdWrap {
+								cObject = COA
+								cObject {
+									10 = TEXT
+									10 {
+										if.isTrue = {$start.structure.content.left.class}
+										value = <div class="{$start.structure.content.left.class}"><!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end--></div>
+									}
+									20 = TEXT
+									20 {
+										if.isFalse = {$start.structure.content.left.class}
+										value = <!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end-->
+									}
 								}
 							}
-						}
-					}	
-        }
+						}	
+					}
+				}
+					// if.isFalse.data = register:startContentLeft div
+				110 = TEXT
+				110 {
+					if.isFalse.data = register:startContentLeft
+					//data = register:startContentLeft
+					value = <div class="startVisHiddenHeight1"></div>
+				}
       }
         // CONTENT, stdWrap
       main = COA
@@ -218,30 +242,54 @@ start {
         // CONTENT, stdWrap
       right = COA
       right {
-        20 < styles.content.get
-        20 {
-          select {
-            where = colPos=2
-          }
-          slide = -1
-					wrap {
-						stdWrap {
-							cObject = COA
+					// 10 = LOAD_REGISTER, 20 = TEXT
+				20 = COA
+				20 {
+						// startContentRight = CONTENT
+					10 = LOAD_REGISTER
+					10 {
+						startContentRight =
+						startContentRight {
+							cObject < styles.content.get
 							cObject {
-								10 = TEXT
-								10 {
-									if.isTrue = {$start.structure.content.right.class}
-									value = <div class="{$start.structure.content.right.class}"><!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end--></div>
+								select {
+									where = colPos=2
 								}
-								20 = TEXT
-								20 {
-									if.isFalse = {$start.structure.content.right.class}
-									value = <!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end-->
+								slide = -1
+							}	
+						}
+					}
+						// if.isTrue.data = register:startContentRight wrap
+					20 = TEXT
+					20 {
+						if.isTrue.data = register:startContentRight
+						data = register:startContentRight
+						wrap {
+							stdWrap {
+								cObject = COA
+								cObject {
+									10 = TEXT
+									10 {
+										if.isTrue = {$start.structure.content.right.class}
+										value = <div class="{$start.structure.content.right.class}"><!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end--></div>
+									}
+									20 = TEXT
+									20 {
+										if.isFalse = {$start.structure.content.right.class}
+										value = <!--TYPO3SEARCH_begin-->|<!--TYPO3SEARCH_end-->
+									}
 								}
 							}
-						}
-					}	
-        }
+						}	
+					}
+				}
+					// if.isFalse.data = register:startContentRight div
+				110 = TEXT
+				110 {
+					if.isFalse.data = register:startContentRight
+					//data = register:startContentLeft
+					value = <div class="startVisHiddenHeight1"></div>
+				}
       }
         // CONTENT, stdWrap
       topLeft = COA
