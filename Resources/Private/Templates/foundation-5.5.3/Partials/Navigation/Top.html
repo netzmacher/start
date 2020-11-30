@@ -1,54 +1,62 @@
-<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"	data-namespace-typo3-fluid="true">
+<f:variable name="level">0</f:variable>
+<f:variable name="stoplevel">{settings.topNavStoplevel}</f:variable>
 
-	<f:if condition="{menu}">
-		<f:for each="{menu}" as="mainItem">
-			<f:if condition="{mainItem.data.tx_start_megamenu}">
-				<f:then>
-					<f:render partial="Elements/LIItemWiSub" arguments="{item: mainItem}"/>
-					<f:render section="submenu" arguments="{submenu: mainItem.children}"/>
-					</li>
-					<f:render partial="Elements/LIItemWiMegamenu" arguments="{item: mainItem}"/>
-				</f:then>
-				<f:else>
-					<f:if condition="{mainItem.children}">
-						<f:then>
-							<f:render partial="Elements/LIItemWiSub" arguments="{item: mainItem}"/>
-							<f:render section="submenu" arguments="{submenu: mainItem.children}"/>
-							</li>
-						</f:then>
-						<f:else>
-							<f:render partial="Elements/LIItem" arguments="{item: mainItem}"/>
-							</li>
-						</f:else>
-					</f:if>
-				</f:else>
-			</f:if>
-		</f:for>
-	</f:if>
-
-	<f:section name="submenu">
-		<ul class="dropdown">
-			<f:for each="{submenu}" as="subItem">
-				<f:if condition="{subItem.children}">
+<f:if condition="{menu}">
+	<f:for each="{menu}" as="mainItem">
+		<f:if condition="{mainItem.data.tx_start_megamenu}">
+			<f:then>
+				<f:render partial="Elements/LIItemWiSub" arguments="{item: mainItem}"/>
+				<f:render section="submenu" arguments="{submenu: mainItem.children}"/>
+				</li>
+				<f:render partial="Elements/LIItemWiMegamenu" arguments="{item: mainItem}"/>
+			</f:then>
+			<f:else>
+				<f:if condition="{mainItem.children} && {level}<{stoplevel}">
 					<f:then>
-						<f:render partial="Elements/LIItemWiSub" arguments="{item: subItem}"/>
+						<f:render partial="Elements/LIItemWiSub" arguments="{item: mainItem}"/>
+						<f:variable name="level"><f:cObject typoscriptObjectPath="lib.start.calc" data="{level}+1"/></f:variable>
+						<f:render section="submenu" arguments="{submenu: mainItem.children, level: level, stoplevel: stoplevel}"/>
+						<f:variable name="level"><f:cObject typoscriptObjectPath="lib.start.calc" data="{level}-1"/></f:variable>
+						</li>
 					</f:then>
 					<f:else>
-						<f:render partial="Elements/LIItem" arguments="{item: subItem}"/>
+						<f:render partial="Elements/LIItem" arguments="{item: mainItem}"/>
 						</li>
 					</f:else>
 				</f:if>
-				<f:if condition="{subItem.children}">
-					<f:render section="submenu" arguments="{submenu: subItem.children}"/>
-				</f:if>
-			</f:for>
-		</ul>
-	</f:section>
+			</f:else>
+		</f:if>
+	</f:for>
+</f:if>
 
-	<f:section name="debug">
-		<f:render section="debug" arguments="{item: item}"/>	
-		<f:debug>{mainItem.data.tx_start_megamenu}</f:debug>
-		<f:debug>{mainItem.data.uid}</f:debug>
-		<f:debug>{item}</f:debug>
-	</f:section>
-</html>
+<f:section name="submenu">
+	<ul class="dropdown">
+		<f:for each="{submenu}" as="subItem">
+			<f:if condition="{subItem.children} && {level}<{stoplevel}">
+				<f:then>
+					<f:render partial="Elements/LIItemWiSub" arguments="{item: subItem}"/>
+				</f:then>
+				<f:else>
+					<f:render partial="Elements/LIItem" arguments="{item: subItem}"/>
+					</li>
+				</f:else>
+			</f:if>
+			<f:if condition="{subItem.children}">
+				<f:if condition="{level}<={stoplevel}">
+					<f:variable name="level"><f:cObject typoscriptObjectPath="lib.start.calc" data="{level}+1"/></f:variable>
+					<f:render section="submenu" arguments="{submenu: subItem.children, level: level, stoplevel: stoplevel}"/>
+					<f:variable name="level"><f:cObject typoscriptObjectPath="lib.start.calc" data="{level}-1"/></f:variable>
+				</f:if>
+			</f:if>
+		</f:for>
+	</ul>
+</f:section>
+
+<f:section name="debug">
+	<f:render section="debug" arguments="{item: item}"/>	
+	<f:debug>{mainItem.data.tx_start_megamenu}</f:debug>
+	<f:debug>{mainItem.data.uid}</f:debug>
+	<f:debug>{item}</f:debug>
+	<f:debug title="all @43985u4ghj">{_all}</f:debug>
+</f:section>
+

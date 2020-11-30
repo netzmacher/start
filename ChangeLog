@@ -1,6 +1,13 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.30
+  20-11-30
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0487: [FEATURE] Top bar: stop level configurable by Constant Editor
+						* START - FOUNDATION - TOP BAR > Stop level
+						Commit: 
+
 8.0.29
   20-11-29
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com

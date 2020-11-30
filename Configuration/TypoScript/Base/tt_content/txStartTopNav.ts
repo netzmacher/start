@@ -53,6 +53,7 @@ tt_content.txStartTopNav {
 		topNavPosition							= {$start.foundation.topbar.position}
 		topNavRootPid								= {$start.pages.root}
 		topNavSearchformButton			= {$start.foundation.topbar.searchform.button}
+		topNavStoplevel							= {$start.foundation.topbar.stoplevel}
 	}
 	variables {
 			// li.menu-icon
