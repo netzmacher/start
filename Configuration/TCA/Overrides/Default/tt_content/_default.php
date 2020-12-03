@@ -229,10 +229,6 @@ $temporaryColumns = [
 										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startDiv',
 										'1' => '--div--',
 								],
-//						'startWoMarginBottom' => [
-//						    '0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startWoMarginBottom',
-//								'1' => 'startWoMarginBottom',
-//						],
 								'startWiMarginAuto' => array(
 										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startWiMarginAuto',
 										'1' => 'startWiMarginAuto',
@@ -257,6 +253,10 @@ $temporaryColumns = [
 										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startTopMinus1Em',
 										'1' => 'startTopMinus1Em',
 								],
+								'startWiMarginLeftRight17percent' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startWiMarginLeftRight17percent',
+										'1' => 'startWiMarginLeftRight17percent',
+								),
 								'startDivForm' => [
 										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startDivForm',
 										'1' => '--div--',
