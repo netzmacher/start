@@ -137,16 +137,16 @@
 #startBox01 .cardcontainer p,
 #startBox01 .cardcontainer h1,
 #startBox01 .cardcontainer h2,
-#startBox01 .cardcontainer h3{
+#startBox01 .cardcontainer h3 {
 	color:white;
 }
 #startBox01 .cardcontainer .smallerboxes h1,
 #startBox01 .cardcontainer .smallerboxes h2,
-#startBox01 .cardcontainer .smallerboxes h3{
+#startBox01 .cardcontainer .smallerboxes h3 {
 	font-family: serif;
 	font-weight: 999;
 }
-#startBox01 .cardcontainer.type4 .smallerboxes h2{
+#startBox01 .cardcontainer.type4 .smallerboxes h2 {
 	font-size:3em;
 }
 #startBox01 .cardcontainer h1 {
@@ -173,6 +173,9 @@
 #startBox01 .cardcontainer h1,
 #startBox01 .cardcontainer h2 {
 	font-weight: bold;
+}
+#startBox01 .cardcontainer .boxright h2 {
+	text-transform: uppercase;
 }
 #startBox01 .cardcontainer .startgreenGreen a {
 	color: #FFFFFF;
