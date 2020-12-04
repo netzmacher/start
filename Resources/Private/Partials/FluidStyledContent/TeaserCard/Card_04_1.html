@@ -1,0 +1,66 @@
+<div class="innerwrap">
+	<div class="bigbox">
+		<div class="text0">
+			<h3>
+				{content.subtitle0}
+			</h3>
+			<h1>
+				{content.title0}
+			</h1>
+
+		</div>
+	</div>
+	<div class="smallerboxes">
+		<div class="cardtextoverlay text1">
+			<f:if condition="{content.title1}">
+				<h2>
+					<f:link.typolink parameter="{content.cta1}">{content.title1}</f:link.typolink>
+				</h2>
+			</f:if>
+			<f:if condition="{content.subtitle1}">
+				<h3>
+					<f:link.typolink parameter="{content.cta1}">{content.subtitle1}</f:link.typolink>
+				</h3>
+			</f:if>
+		</div>
+
+		<div class="cardtextoverlay text2">
+			<f:if condition="{content.title2}">
+				<h2>
+					<f:link.typolink parameter="{content.cta2}">{content.title2}</f:link.typolink>
+				</h2>
+			</f:if>
+			<f:if condition="{content.subtitle2}">
+				<p>
+				<f:link.typolink parameter="{content.cta2}">{content.subtitle2}</f:link.typolink>
+				</p>
+			</f:if>
+		</div>
+		<div class="cardtextoverlay text3">
+			<f:if condition="{content.title3}">
+				<h2>
+					<f:link.typolink parameter="{content.cta3}">{content.title3}</f:link.typolink>
+				</h2>
+			</f:if>
+			<f:if condition="{content.subtitle3}">
+				<p>
+				<f:link.typolink parameter="{content.cta3}">{content.subtitle3}</f:link.typolink>
+				</p>
+			</f:if>
+		</div>
+		<div class="cardtextoverlay text4">
+			<f:if condition="{content.title4}">
+				<h2>
+					<f:link.typolink parameter="{content.cta4}">{content.title4}</f:link.typolink>
+				</h2>
+			</f:if>
+			<f:if condition="{content.subtitle4}">
+				<h3>
+					<f:link.typolink parameter="{content.cta4}">{content.subtitle4}</f:link.typolink>
+				</h3>
+			</f:if>
+		</div>
+		<f:link.typolink parameter="{content.cta0}" class="button">Jetzt spenden</f:link.typolink>
+	</div>
+</div>
+

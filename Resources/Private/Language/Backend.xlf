@@ -234,6 +234,11 @@
         <source>Breakpoint for the big view (in pixel). 0 if there isn't any top bar.</source>
         <target>Breakpoint für großen Bildschirm (in Pixel). 0, wenn kein Menü bzw. Kopfzeile vorhanden ist.</target>
       </trans-unit>
+      <trans-unit id="teasercard.el.brightness">
+        <source>Darken the image</source>
+        <target>Bild abdunkeln</target>
+      </trans-unit>
+			
       <trans-unit id="jumboteaser.el.buttonlabel">
         <source>Label of the button</source>
         <target>Beschriftung des Buttons</target>
@@ -258,45 +263,57 @@
         <source>Responsive Design</source>
         <target>Responsive Design</target>
       </trans-unit>
-      <trans-unit id="teasercard.sheet.sDEF">
-        <source>General</source>
-        <target>Allgemin</target>
+      <trans-unit id="teasercard.el.buttonlabel">
+        <source>Call To Action text</source>
+        <target>Call To Action text</target>
       </trans-unit>
       <trans-unit id="teasercard.el.cardtype">
         <source>Card Type</source>
         <target>Kartentyp</target>
       </trans-unit>
-      <trans-unit id="teasercard.el.cardtype.2">
-        <source>Support</source>
-        <target>Support</target>
+      <trans-unit id="teasercard.el.cardtype.1">
+        <source>With one box</source>
+        <target>Mit einem Kasten</target>
       </trans-unit>
       <trans-unit id="teasercard.el.cardtype.4">
-        <source>Fundraising</source>
-        <target>Fundraising</target>
+        <source>With four boxes</source>
+        <target>Mit vier Kästen</target>
       </trans-unit>
       <trans-unit id="teasercard.el.cardtype.5">
-        <source>Commitment</source>
-        <target>Commitment</target>
-      </trans-unit>
-      <trans-unit id="teasercard.el.eventdate">
-        <source>Date</source>
-        <target>Datum</target>
-      </trans-unit>
-      <trans-unit id="teasercard.el.title">
-        <source>Header</source>
-        <target>Titel</target>
-      </trans-unit>
-      <trans-unit id="teasercard.el.subtitle">
-        <source>Subheader</source>
-        <target>Untertitel</target>
+        <source>With four boxes and a counter</source>
+        <target>Mit vier Kästen und einem Zähler</target>
       </trans-unit>
       <trans-unit id="teasercard.el.cta">
         <source>Call To Action link</source>
         <target>Call To Action link</target>
       </trans-unit>
-      <trans-unit id="teasercard.el.buttonlabel">
-        <source>Call To Action text</source>
-        <target>Call To Action text</target>
+      <trans-unit id="teasercard.el.eventdate">
+        <source>Date</source>
+        <target>Datum</target>
+      </trans-unit>
+      <trans-unit id="teasercard.el.eventdate">
+        <source>Date</source>
+        <target>Datum</target>
+      </trans-unit>
+      <trans-unit id="teasercard.el.minheightbox">
+        <source>Height of the box</source>
+        <target>Höhe des Kastens</target>
+      </trans-unit>
+      <trans-unit id="teasercard.el.minheightboxes">
+        <source>Height of the boxes</source>
+        <target>Höhe der Kästen</target>
+      </trans-unit>
+      <trans-unit id="teasercard.el.subtitle">
+        <source>Subheader</source>
+        <target>Untertitel</target>
+      </trans-unit>
+      <trans-unit id="teasercard.el.title">
+        <source>Header</source>
+        <target>Titel</target>
+      </trans-unit>
+      <trans-unit id="teasercard.sheet.sDEF">
+        <source>General</source>
+        <target>Allgemein</target>
       </trans-unit>
       <trans-unit id="teasercard.sheet.box0">
         <source>Text</source>

@@ -72,8 +72,9 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 							* TypoScript/Base/tt_content/txStartTeaserCard.ts
 						* Resources
 							* Private/Templates/FluidStyledContent/TeaserCard/TeaserCard.html
-							* Public/Css/teasercard.css
-							* Public/Images/Icons/txStartTeaserCard.svg
+							* Public
+								* Css/teasercard.css
+								* Images/Icons/txStartTeaserCard.svg
 						Affected files:
 						* Configuration
 							* ExtTables/Default.php

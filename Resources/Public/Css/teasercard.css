@@ -1,24 +1,24 @@
 .cardcontainer {
 	position:relative;
-        overflow:hidden;
+	overflow:hidden;
 	color:white;
 	width: 100%;
 	min-height:600px;
 }
 @media only screen and (min-width: 800px){
-.cardcontainer:before {
-	content: "";
-	float: left;
-	/* essentially the aspect ratio. 100% means the
-	div will remain 100% as tall as it is wide, or
-	square in other words.  */
-	padding-bottom: 50%;
-}
-.cardcontainer:after {
-	content: "";
-	display: table;
-	clear: both;
-}
+	.cardcontainer:before {
+		content: "";
+		float: left;
+		/* essentially the aspect ratio. 100% means the
+		div will remain 100% as tall as it is wide, or
+		square in other words.  */
+		padding-bottom: 50%;
+	}
+	.cardcontainer:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
 }
 .innerwrap{
 	z-index: 5;
@@ -56,8 +56,8 @@
 	padding:0 5% 0 0;
 }
 .text0{
-        width:60%;
-        margin:auto;
+	width:60%;
+	margin:auto;
 }
 
 .cardtextoverlay{
@@ -116,13 +116,23 @@
 	background: transparent;
 	border: 2px solid white;
 	font-weight:bold;
-	position:absolute;
-	bottom:0;
+	margin-top:0.9735rem;
+	/*	position:absolute;
+		bottom:0;*/
 	padding:0.5rem 1rem 0.5rem 1rem;
 }
-#startBox01 #startBox02 .cardcontainer.type4 .button{
+.cardcontainer .button {
 	transform: translateX(-50%);
 	left: 50%;
+}
+.cardcontainer .panel {
+	position: relative;
+}
+.cardcontainer .panel .button {
+	position: absolute;
+	bottom:1.4rem;
+	transform:none;
+	left:inherit;
 }
 #startBox01 .cardcontainer p,
 #startBox01 .cardcontainer h1,
@@ -139,15 +149,41 @@
 #startBox01 .cardcontainer.type4 .smallerboxes h2{
 	font-size:3em;
 }
-#startBox01 .cardcontainer h1{
+#startBox01 .cardcontainer h1 {
 	font-size:2em;
 }
-#startBox01 .cardcontainer h2{
+#startBox01 .cardcontainer h2 {
 	font-size:1.5em;
 }
-#startBox01 .cardcontainer h3{
+#startBox01 .cardcontainer h3 {
 	font-size:1.1em;
 }
+#startBox01 .cardcontainer p {
+	font-size:1.1em;
+}
+#startBox01 .cardcontainer h1,
+#startBox01 .cardcontainer h2,
+#startBox01 .cardcontainer h3,
+#startBox01 .cardcontainer p {
+	font-family: Poppins, 'PT Sans', PTSansWeb, 'DejaVu Sans Condensed', Trebuchet MS, Geneva, Arial, Helvetica, Verdana, sans-serif;
+}
+#startBox01 .cardcontainer .boxright h2 {
+	font-family: ArvoWeb, Arvo, Poppins, 'PT Sans', PTSansWeb, 'DejaVu Sans Condensed', Trebuchet MS, Geneva, Arial, Helvetica, Verdana, sans-serif;
+}
+#startBox01 .cardcontainer h1,
+#startBox01 .cardcontainer h2 {
+	font-weight: bold;
+}
+#startBox01 .cardcontainer .startgreenGreen a {
+	color: #FFFFFF;
+}
+#startBox01 .cardcontainer .startgreenGreen a:hover {
+	color: #FFEE00;
+}
+#startBox01 .cardcontainer .boxright p a {
+	font-weight: normal;
+}
+
 .type5 .tens,
 .type5 .ones{
 	background:#F0F0F0;
@@ -156,7 +192,7 @@
 }
 @media only screen and (max-width: 1000px){
 	.cardcontainer .smallerboxes{
-        	padding:0 10%;
+		padding:0 10%;
 	}
 	.type5.cardcontainer .smallerboxes{
 		padding:0 5%;
@@ -185,8 +221,8 @@
 }
 @media only screen and (max-width: 550px){
 	.cardcontainer .smallerboxes{
-                padding:0 10%;
-        }
+		padding:0 10%;
+	}
 }
 
 

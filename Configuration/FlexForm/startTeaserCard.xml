@@ -11,95 +11,144 @@
 					<cardtype>
 						<TCEforms>
 							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.cardtype</label>
+							<onChange>reload</onChange>
 							<config>
 								<type>select</type>
 								<renderType>selectSingle</renderType>
-								<onChange>reload</onChange>
+								<default>1</default>
 								<items>
 									<numIndex index="0">
-										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.cardtype.2</numIndex>
-										<numIndex index="1">2</numIndex>
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.cardtype.1</numIndex>
+										<numIndex index="1">1</numIndex>
 									</numIndex>
-                                        	                        <numIndex index="1">
-                                                	                        <numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.cardtype.4</numIndex>
-                                                        	                <numIndex index="1">4</numIndex>
-                                                                	</numIndex>
-                                                                	<numIndex index="2">
-                                                                	        <numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.cardtype.5</numIndex>
-                                                                	        <numIndex index="1">5</numIndex>
-                                                                	</numIndex>
-
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.cardtype.4</numIndex>
+										<numIndex index="1">4</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.cardtype.5</numIndex>
+										<numIndex index="1">5</numIndex>
+									</numIndex>
 								</items>
 							</config>
 						</TCEforms>
 					</cardtype>
-
 					<eventdate>
 						<TCEforms>
 							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.eventdate</label>
-							<displayCond>FIELD:cardtype:=:5</displayCond>
+							<displayCond>FIELD:sDEF.cardtype:=:5</displayCond>
 							<config>
-  								<type>input</type>
-  								<size>8</size>
-  								<max>10</max>
-  								<eval>date</eval>
-  								<checkbox>1</checkbox>
+								<type>input</type>
+								<renderType>inputDateTime</renderType>
+								<size>8</size>
+								<max>10</max>
+								<eval>date</eval>
+								<checkbox>1</checkbox>
 							</config>
 						</TCEforms>
 					</eventdate>
-
+					<brightness>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.brightness</label>
+							<config>
+								<type>input</type>
+								<size>3</size>
+								<max>3</max>
+								<eval>int,trim</eval>
+								<default>50</default>
+								<range>
+									<lower>0</lower>
+									<upper>100</upper>
+								</range>
+							</config>
+						</TCEforms>
+					</brightness>
+					<minheightbox>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.minheightbox</label>
+							<displayCond>FIELD:sDEF.cardtype:=:1</displayCond>
+							<config>
+								<type>input</type>
+								<size>3</size>
+								<max>3</max>
+								<eval>int,trim</eval>
+								<default>330</default>
+								<range>
+									<lower>50</lower>
+									<upper>500</upper>
+								</range>
+							</config>
+						</TCEforms>
+					</minheightbox>
+					<minheightboxes>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.minheightboxes</label>
+							<displayCond>FIELD:sDEF.cardtype:IN:4,5</displayCond>
+							<config>
+								<type>input</type>
+								<size>3</size>
+								<max>3</max>
+								<eval>int,trim</eval>
+								<default>150</default>
+								<range>
+									<lower>50</lower>
+									<upper>500</upper>
+								</range>
+							</config>
+						</TCEforms>
+					</minheightboxes>
 				</el>
 			</ROOT>
 		</sDEF>
-                <box0>
-                        <ROOT>
-                                <TCEforms>
-                                        <sheetTitle>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.sheet.box0</sheetTitle>
-                                </TCEforms>
-                                <type>array</type>
-                                <el>
-                                        <title0>
-                                                <TCEforms>
-                                                        <label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.title</label>
-                                                        <config>
-                                                                <type>input</type>
-                                                        </config>
-                                                </TCEforms>
-                                        </title0>
-                                        <subtitle0>
-                                                <TCEforms>
-                                                        <label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.subtitle</label>
-                                                        <config>
-                                                                <type>input</type>
-                                                        </config>
-                                                </TCEforms>
-                                        </subtitle0>
-                                        <cta0>
-                                                <TCEforms>
-                                                        <label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.cta</label>
-                                                        <config>
-                                                                <type>input</type>
-                                                                <renderType>inputLink</renderType>
-                                                        </config>
-                                                </TCEforms>
-                                        </cta0>
-                                        <buttonlabel0>
-                                                <TCEforms>
-                                                        <label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.buttonlabel</label>
-                                                        <config>
-                                                                <type>input</type>
-                                                                <default>Details</default>
-                                                        </config>
-                                                </TCEforms>
-                                        </buttonlabel0>
-                                </el>
-                        </ROOT>
-                </box0>
+		<box0>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.sheet.box0</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<title0>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.title</label>
+							<config>
+								<type>input</type>
+							</config>
+						</TCEforms>
+					</title0>
+					<subtitle0>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.subtitle</label>
+							<config>
+								<type>input</type>
+							</config>
+						</TCEforms>
+					</subtitle0>
+					<cta0>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.cta</label>
+							<config>
+								<type>input</type>
+								<renderType>inputLink</renderType>
+							</config>
+						</TCEforms>
+					</cta0>
+					<buttonlabel0>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.buttonlabel</label>
+							<config>
+								<type>input</type>
+								<default>Details</default>
+							</config>
+						</TCEforms>
+					</buttonlabel0>
+				</el>
+			</ROOT>
+		</box0>
 		<box1>
 			<ROOT>
 				<TCEforms>
-                                        <sheetTitle>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.sheet.box1</sheetTitle>
-                                </TCEforms>
+					<sheetTitle>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.sheet.box1</sheetTitle>
+				</TCEforms>
 				<type>array</type>
 				<el>
 					<title1>
@@ -118,15 +167,15 @@
 							</config>
 						</TCEforms>
 					</subtitle1>
-                                        <cta1>
-                                                <TCEforms>
-                                                        <label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.cta</label>
-                                                        <config>
-                                                                <type>input</type>
+					<cta1>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.cta</label>
+							<config>
+								<type>input</type>
 								<renderType>inputLink</renderType>
-                                                        </config>
-                                                </TCEforms>
-                                        </cta1>
+							</config>
+						</TCEforms>
+					</cta1>
 					<buttonlabel1>
 						<TCEforms>
 							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.buttonlabel</label>
@@ -139,141 +188,141 @@
 				</el>
 			</ROOT>
 		</box1>
-                <box2>
-                        <ROOT>
-                                <TCEforms>
-                                        <sheetTitle>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.sheet.box2</sheetTitle>
+		<box2>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.sheet.box2</sheetTitle>
 					<displayCond>FIELD:sDEF.cardtype:>:3</displayCond>
-                                </TCEforms>
-                                <type>array</type>
-                                <el>
-                                        <title2>
-                                                <TCEforms>
-                                                        <label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.title</label>
-                                                        <config>
-                                                                <type>input</type>
-                                                        </config>
-                                                </TCEforms>
-                                        </title2>
-                                        <subtitle2>
-                                                <TCEforms>
-                                                        <label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.subtitle</label>
-                                                        <config>
-                                                                <type>input</type>
-                                                        </config>
-                                                </TCEforms>
-                                        </subtitle2>
-                                        <cta2>
-                                                <TCEforms>
-                                                        <label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.cta</label>
-                                                        <config>
-                                                                <type>input</type>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<title2>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.title</label>
+							<config>
+								<type>input</type>
+							</config>
+						</TCEforms>
+					</title2>
+					<subtitle2>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.subtitle</label>
+							<config>
+								<type>input</type>
+							</config>
+						</TCEforms>
+					</subtitle2>
+					<cta2>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.cta</label>
+							<config>
+								<type>input</type>
 								<renderType>inputLink</renderType>
-                                                        </config>
-                                                </TCEforms>
-                                        </cta2>
-                                        <buttonlabel2>
-                                                <TCEforms>
-                                                        <label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.buttonlabel</label>
-                                                        <config>
-                                                                <type>input</type>
-                                                                <default>Details</default>
-                                                        </config>
-                                                </TCEforms>
-                                        </buttonlabel2>
-                                </el>
-                        </ROOT>
-                </box2>
-                <box3>
-                        <ROOT>
-                                <TCEforms>
-                                        <sheetTitle>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.sheet.box3</sheetTitle>
+							</config>
+						</TCEforms>
+					</cta2>
+					<buttonlabel2>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.buttonlabel</label>
+							<config>
+								<type>input</type>
+								<default>Details</default>
+							</config>
+						</TCEforms>
+					</buttonlabel2>
+				</el>
+			</ROOT>
+		</box2>
+		<box3>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.sheet.box3</sheetTitle>
 					<displayCond>FIELD:sDEF.cardtype:>:3</displayCond>
-                                </TCEforms>
-                                <type>array</type>
-                                <el>
-                                        <title3>
-                                                <TCEforms>
-                                                        <label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.title</label>
-                                                        <config>
-                                                                <type>input</type>
-                                                        </config>
-                                                </TCEforms>
-                                        </title3>
-                                        <subtitle3>
-                                                <TCEforms>
-                                                        <label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.subtitle</label>
-                                                        <config>
-                                                                <type>input</type>
-                                                        </config>
-                                                </TCEforms>
-                                        </subtitle3>
-                                        <cta3>
-                                                <TCEforms>
-                                                        <label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.cta</label>
-                                                        <config>
-                                                                <type>input</type>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<title3>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.title</label>
+							<config>
+								<type>input</type>
+							</config>
+						</TCEforms>
+					</title3>
+					<subtitle3>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.subtitle</label>
+							<config>
+								<type>input</type>
+							</config>
+						</TCEforms>
+					</subtitle3>
+					<cta3>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.cta</label>
+							<config>
+								<type>input</type>
 								<renderType>inputLink</renderType>
-                                                        </config>
-                                                </TCEforms>
-                                        </cta3>
-                                        <buttonlabel3>
-                                                <TCEforms>
-                                                        <label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.buttonlabel</label>
-                                                        <config>
-                                                                <type>input</type>
-                                                                <default>Details</default>
-                                                        </config>
-                                                </TCEforms>
-                                        </buttonlabel3>
-                                </el>
-                        </ROOT>
-                </box3>
-                <box4>
-                        <ROOT>
-                                <TCEforms>
-                                        <sheetTitle>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.sheet.box4</sheetTitle>
+							</config>
+						</TCEforms>
+					</cta3>
+					<buttonlabel3>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.buttonlabel</label>
+							<config>
+								<type>input</type>
+								<default>Details</default>
+							</config>
+						</TCEforms>
+					</buttonlabel3>
+				</el>
+			</ROOT>
+		</box3>
+		<box4>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.sheet.box4</sheetTitle>
 					<displayCond>FIELD:sDEF.cardtype:>:3</displayCond>
-                                </TCEforms>
-                                <type>array</type>
-                                <el>
-                                        <title4>
-                                                <TCEforms>
-                                                        <label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.title</label>
-                                                        <config>
-                                                                <type>input</type>
-                                                        </config>
-                                                </TCEforms>
-                                        </title4>
-                                        <subtitle4>
-                                                <TCEforms>
-                                                        <label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.subtitle</label>
-                                                        <config>
-                                                                <type>input</type>
-                                                        </config>
-                                                </TCEforms>
-                                        </subtitle4>
-                                        <cta4>
-                                                <TCEforms>
-                                                        <label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.cta</label>
-                                                        <config>
-                                                                <type>input</type>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<title4>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.title</label>
+							<config>
+								<type>input</type>
+							</config>
+						</TCEforms>
+					</title4>
+					<subtitle4>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.subtitle</label>
+							<config>
+								<type>input</type>
+							</config>
+						</TCEforms>
+					</subtitle4>
+					<cta4>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.cta</label>
+							<config>
+								<type>input</type>
 								<renderType>inputLink</renderType>
-                                                        </config>
-                                                </TCEforms>
-                                        </cta4>
-                                        <buttonlabel4>
-                                                <TCEforms>
-                                                        <label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.buttonlabel</label>
-                                                        <config>
-                                                                <type>input</type>
-                                                                <default>Details</default>
-                                                        </config>
-                                                </TCEforms>
-                                        </buttonlabel4>
-                                </el>
-                        </ROOT>
-                </box4>
+							</config>
+						</TCEforms>
+					</cta4>
+					<buttonlabel4>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.buttonlabel</label>
+							<config>
+								<type>input</type>
+								<default>Details</default>
+							</config>
+						</TCEforms>
+					</buttonlabel4>
+				</el>
+			</ROOT>
+		</box4>
 		<responsive>
 			<ROOT>
 				<TCEforms>

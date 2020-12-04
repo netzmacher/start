@@ -1,0 +1,65 @@
+<f:variable name="then" value="{content.eventdate}" />
+<f:variable name="now" value="{f:format.date(date: '', format: 'U')}" />
+<f:variable name="diff" value="{then - now}" />
+<f:variable name="days" value="{diff/86400}" />	
+<f:variable name="daysO" value="{days % 10}" />
+<f:variable name="dayst" value="{days - daysO}" />
+<f:variable name="daysT" value="{dayst/10}" />
+<div class="innerwrap">
+	<div class="bigbox">
+		<div class="text0">
+			<h1 class="countdown">
+				Noch 
+				<span class="tens"><f:format.number decimals="0" thousandsSeparator=".">{daysT}</f:format.number></span>
+				<span class="ones">{daysO}</span>
+				<span class="tens"><f:format.number decimals="0" thousandsSeparator=".">{days}</f:format.number></span>
+				Tage bis zur Wahl - Das kannst du jetzt tun
+			</h1>
+		</div>
+	</div>
+	<script type="text/javascript">
+<![CDATA[
+function handleTickInit(tick) {
+						var nextYear = (new Date()).getFullYear() + 1;
+						Tick.count.down(nextYear + '-01-01').onupdate = function(value) {
+		tick.value = value;
+};
+]]>
+	</script>
+
+	<div class="smallerboxes">
+		<div class="cardtextoverlay text1">
+			<h2>
+				{content.title1}
+			</h2>
+			<p>
+				{content.subtitle1}
+			</p>
+		</div>
+
+		<div class="cardtextoverlay text2">
+			<h2>
+				{content.title2}
+			</h2>
+			<p>
+				{content.subtitle2}
+			</p>
+		</div>
+		<div class="cardtextoverlay text3">
+			<h2>
+				{content.title3}
+			</h2>
+			<p>
+				{content.subtitle3}
+			</p>
+		</div>
+		<div class="cardtextoverlay text4">
+			<h2>
+				{content.title4}
+			</h2>
+			<p>
+				{content.subtitle4}
+			</p>
+		</div>
+	</div>
+</div>

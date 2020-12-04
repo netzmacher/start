@@ -1,195 +1,59 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true"> 
-<f:layout name="Default" />
-<f:section name="Main">
+	<f:layout name="Default" />
+	<f:section name="Main">
 
-<style>
-	.jumbocontainer {
-		height: calc(100vh - {content.responsiveheightsmall}px);
-	}
-</style>
-
-<f:if condition="{content.breakpoint}">
-	<f:then>
 		<style>
-			@media only screen and (min-width: {content.breakpoint}px) {
-				.jumbocontainer {
-					height: calc(100vh - {content.responsiveheightmedium}px);
-				}
+			.jumbocontainer {
+				height: calc(100vh - {content.responsiveheightsmall}px);
+			}
+			.teasercard {
+				filter: brightness({content.brightness}%);
+			}
+			.cardcontainer .row.outer {
+				padding: 0 5rem;
+			}
+			.cardcontainer .box .panel {
+				min-height: {content.minheightbox}px;
+			}
+			.cardcontainer .boxes .panel {
+				min-height: {content.minheightboxes}px;
 			}
 		</style>
-	</f:then>
-</f:if>
-<div class="cardcontainer type{content.cardtype}">
-	<f:if condition="{content.cardtype} == 5">
-	<f:then>
-	<f:variable name="then" value="{content.eventdate}" />
-	<f:variable name="now" value="{f:format.date(date: '', format: 'U')}" />
-	<f:variable name="diff" value="{then - now}" />
-	<f:variable name="days" value="{diff/86400}" />	
-	<f:variable name="daysO" value="{days % 10}" />
-	<f:variable name="dayst" value="{days - daysO}" />
-	<f:variable name="daysT" value="{dayst/10}" />
-	<div class="innerwrap">
-		<div class="bigbox">
-			<div class="text0">
-				<h1 class="countdown">
-					Noch 
-					<span class="tens"><f:format.number decimals="0">{daysT}</f:format.number></span>
-					<span class="ones">{daysO}</span>
-					Tage bis zur Wahl - Das kannst du jetzt tun
-				</h1>
-			</div>
+
+		<f:if condition="{content.breakpoint}">
+			<f:then>
+				<style>
+					@media only screen and (min-width: {content.breakpoint}px) {
+						.jumbocontainer {
+							height: calc(100vh - {content.responsiveheightmedium}px);
+						}
+					}
+				</style>
+			</f:then>
+		</f:if>
+
+		<div class="cardcontainer type{content.cardtype}">
+			<f:if condition="{content.cardtype} == 5">
+				<f:then>
+					<f:render partial="Card_05" arguments="{_all}"/>
+				</f:then>
+				<f:else if="{content.cardtype} == 4">
+					<f:render partial="Card_04" arguments="{_all}"/>
+				</f:else>
+				<f:else>
+					<f:render partial="Card_01" arguments="{_all}"/>
+				</f:else>
+			</f:if>
+			<f:if condition="{images.0}">
+				<div class="beimage">
+					<f:image image="{images.0.originalFile}" class="teasercard"/>
+				</div>
+			</f:if>
 		</div>
-        <script type="text/javascript">
-        <![CDATA[
-	function handleTickInit(tick) {
-		var nextYear = (new Date()).getFullYear() + 1;
-		Tick.count.down(nextYear + '-01-01').onupdate = function(value) {
-			tick.value = value;
-		};
-        ]]>
-        </script>
+	</f:section>
 
-		<div class="smallerboxes">
-		        <div class="cardtextoverlay text1">
-		                <h2>
-		                        {content.title1}
-		                </h2>
-		                <p>
-		                	{content.subtitle1}
-		                </p>
-		        </div>
-
-		        <div class="cardtextoverlay text2">
-        		        <h2>
-                		        {content.title2}
-				</h2>
-				<p>
-					{content.subtitle2}
-				</p>
-			</div>
-			<div class="cardtextoverlay text3">
-				<h2>
-					{content.title3}
-				</h2>
-				<p>
-					{content.subtitle3}
-				</p>
-			</div>
-			<div class="cardtextoverlay text4">
-				<h2>
-					{content.title4}
-				</h2>
-				<p>
-					{content.subtitle4}
-				</p>
-			</div>
-		</div>
-	</div>
-	</f:then>
-	<f:else if="{content.cardtype} == 2">
-        <div class="innerwrap">
-                <div class="bigbox">
-                        <div class="text0">
-                                <h1>
-					{content.title0}
-                                </h1>
-				<h3>
-                                	{content.subtitle0}
-                                </h3>
-  
-                        </div>
-                </div>
-                <div class="smallerboxes">
-                        <div class="cardtextoverlay text1">
-                                <h2>
-                                        {content.title1}
-                                </h2>
-                                <p>
-                                	{content.subtitle1}
-                                </p>
-				<f:if condition="{content.cta0}">
-				<f:link.typolink parameter="{content.cta0}" class="button">Mehr</f:link.typolink>
-				</f:if>
-                        </div>
-		</div>
-	</div>
-	</f:else>
-	<f:else if="{content.cardtype} == 4">
-	<div class="innerwrap">
-                <div class="bigbox">
-                        <div class="text0">
-                                <h3>
-                                        {content.subtitle0}
-                                </h3>
-                                <h1>
-                                        {content.title0}
-                                </h1>
-
-                        </div>
-                </div>
-                <div class="smallerboxes">
-                        <div class="cardtextoverlay text1">
-				<f:if condition="{content.title1}">
-				<h2>
-					<f:link.typolink parameter="{content.cta1}">{content.title1}</f:link.typolink>
-				</h2>
-				</f:if>
-				<f:if condition="{content.subtitle1}">
-                                <h3>
-                                        <f:link.typolink parameter="{content.cta1}">{content.subtitle1}</f:link.typolink>
-                                </h3>
-				</f:if>
-                        </div>
-
-                        <div class="cardtextoverlay text2">
-				<f:if condition="{content.title2}">
-                                <h2>
-                                        <f:link.typolink parameter="{content.cta2}">{content.title2}</f:link.typolink>
-                                </h2>
-				</f:if>
-				<f:if condition="{content.subtitle2}">
-                                <p>
-                                        <f:link.typolink parameter="{content.cta2}">{content.subtitle2}</f:link.typolink>
-                                </p>
-				</f:if>
-                        </div>
-                        <div class="cardtextoverlay text3">
-				<f:if condition="{content.title3}">
-                                <h2>
-                                        <f:link.typolink parameter="{content.cta3}">{content.title3}</f:link.typolink>
-                                </h2>
-				</f:if>
-				<f:if condition="{content.subtitle3}">
-                                <p>
-                                        <f:link.typolink parameter="{content.cta3}">{content.subtitle3}</f:link.typolink>
-                                </p>
-				</f:if>
-                        </div>
-                        <div class="cardtextoverlay text4">
-				<f:if condition="{content.title4}">
-                                <h2>
-                                        <f:link.typolink parameter="{content.cta4}">{content.title4}</f:link.typolink>
-                                </h2>
-				</f:if>
-				<f:if condition="{content.subtitle4}">
-                                <h3>
-                                        <f:link.typolink parameter="{content.cta4}">{content.subtitle4}</f:link.typolink>
-                                </h3>
-				</f:if>
-                        </div>
-			<f:link.typolink parameter="{content.cta0}" class="button">Jetzt spenden</f:link.typolink>
-                </div>
-
-	</div>
-	</f:else>
-	</f:if>
-	<f:for each="{images}" as="image">
-		<div class="beimage">
-			<f:image image="{image.originalFile}" />
-		</div>
-	</f:for>
-</div>
-</f:section>
+	<f:section name="debug">
+		<f:debug title="@ksdbfwäe">{images.0.originalFile}</f:debug>
+	</f:section>
 </html>
 

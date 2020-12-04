@@ -30,9 +30,9 @@ lib {
 					value = EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Template/
 				}
 			}
+			207 = EXT:start/Resources/Private/Templates/FluidStyledContent/JumboTeaser/
 			// #342 Container, 201119, fbostroem
 			227 = EXT:start/Resources/Private/Templates/FluidStyledContent/TeaserCard/ 
-			207 = EXT:start/Resources/Private/Templates/FluidStyledContent/JumboTeaser/
 		}
 			// empty statement for proper comment only
 		partialRootPaths {
@@ -55,6 +55,7 @@ lib {
 				}
 			}
 			207 = EXT:start/Resources/Private/Partials/FluidStyledContent/JumboTeaser/
+			227 = EXT:start/Resources/Private/Partials/FluidStyledContent/TeaserCard/ 
 		}
 			// empty statement for proper comment only
 		layoutRootPaths {
