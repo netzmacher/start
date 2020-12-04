@@ -18,6 +18,14 @@ mod.wizards {
 						CType = txStartTeaserCard
 					}
 				}
+				txStartHeadlineimage{
+					iconIdentifier = ext-start-headlineimage
+					title = LLL:EXT:start/Resources/Private/Language/mod/wizards.xlf:txStartHeadlineimage.title
+					description = LLL:EXT:start/Resources/Private/Language/mod/wizards.xlf:txStartHeadlineimage.description
+					tt_content_defValues {
+						CType = txStartHeadlineimage
+					}
+				}
 			}
 			show := addToList('txStartJumboteaser')
 			show := addToList('txStartTeaserCard')

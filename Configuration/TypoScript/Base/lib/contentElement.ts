@@ -13,7 +13,7 @@ lib {
 			// empty statement for proper comment only
 		templateRootPaths {
 		}
-			// start: 177 (clearingthumbs), 207 (JumboTeaser), 227 (TeaserCard)
+			// start: 177 (clearingthumbs), 207 (JumboTeaser), 227 (TeaserCard), 237 (Headlineimage)
 		templateRootPaths =
 		templateRootPaths {
 				// if.isTrue = {start.templates.image.foundation.clearingthumbs} (here: {$start.templates.image.foundation.clearingthumbs}): EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Templates/
@@ -32,7 +32,8 @@ lib {
 			}
 			207 = EXT:start/Resources/Private/Templates/FluidStyledContent/JumboTeaser/
 			// #342 Container, 201119, fbostroem
-			227 = EXT:start/Resources/Private/Templates/FluidStyledContent/TeaserCard/ 
+			227 = EXT:start/Resources/Private/Templates/FluidStyledContent/TeaserCard/
+			237 = EXT:start/Resources/Private/Templates/FluidStyledContent/Headlineimage/
 		}
 			// empty statement for proper comment only
 		partialRootPaths {
@@ -55,7 +56,8 @@ lib {
 				}
 			}
 			207 = EXT:start/Resources/Private/Partials/FluidStyledContent/JumboTeaser/
-			227 = EXT:start/Resources/Private/Partials/FluidStyledContent/TeaserCard/ 
+			227 = EXT:start/Resources/Private/Partials/FluidStyledContent/TeaserCard/
+			237 = EXT:start/Resources/Private/Partials/FluidStyledContent/Headlineimage
 		}
 			// empty statement for proper comment only
 		layoutRootPaths {
@@ -78,6 +80,7 @@ lib {
 				}
 			}
 			207 = EXT:start/Resources/Private/Layout/FluidStyledContent/JumboTeaser/
+			237 = EXT:start/Resources/Private/Layout/FluidStyledContent/Headlineteaser
 		}
 	}
 }

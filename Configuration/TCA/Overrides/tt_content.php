@@ -31,6 +31,8 @@ require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) 
 /* #90 Support Teaser Card Container, 201118, fbostroem +1 */
 require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TCA/Overrides/tt_content/teasercard.php' );
 
+/* Headlineimage, 201204, fbostroem +1 */
+require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TCA/Overrides/tt_content/headlineimage.php' );
 switch( TRUE )
 {
 	case($typo3Version < 8000000):

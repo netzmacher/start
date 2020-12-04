@@ -23,6 +23,14 @@
         <source>TeaserCard</source>
         <target>TeaserCard</target>
       </trans-unit>
+      <trans-unit id="txStartHeadlineimage.description">
+        <source>Headline with background-image</source>
+        <target>Überschrift mit Hintergrundbild</target>
+      </trans-unit>
+      <trans-unit id="txStartHeadline.title">
+        <source>Headline image</source>
+        <target>Überschiftsbild</target>
+      </trans-unit>
 
     </body>
   </file>
