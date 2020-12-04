@@ -187,8 +187,7 @@
 	font-weight: normal;
 }
 
-.type5 .tens,
-.type5 .ones{
+.type5 .number{
 	background:#F0F0F0;
 	color:#00A358;
 	padding:2px 4px;

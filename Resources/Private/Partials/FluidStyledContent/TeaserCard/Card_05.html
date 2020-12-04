@@ -1,32 +1,37 @@
 <f:variable name="then" value="{content.eventdate}" />
 <f:variable name="now" value="{f:format.date(date: '', format: 'U')}" />
 <f:variable name="diff" value="{then - now}" />
-<f:variable name="days" value="{diff/86400}" />	
-<f:variable name="daysO" value="{days % 10}" />
-<f:variable name="dayst" value="{days - daysO}" />
-<f:variable name="daysT" value="{dayst/10}" />
+<f:if condition="{diff} > 0">
+	<f:variable name="days" value="{diff/86400}" />
+	<f:variable name="daysO" value="{days % 10}" />
+	<f:variable name="dayst" value="{days % 100}" />
+	<f:variable name="daysT" value="{dayst -daysO}" />
+	<f:variable name="daysT" value="{daysT/10}" />
+	<f:variable name="daysh" value="{days % 1000}" />
+	<f:variable name="daysH" value="{daysh - dayst}" />
+	<f:variable name="daysH" value="{daysH/100}" />
+	<f:variable name="daysm" value="{days % 10000}" />
+	<f:variable name="daysM" value="{daysm - daysh}" />
+	<f:variable name="daysM" value="{daysM/1000}" />
+</f:if>
+
 <div class="innerwrap">
 	<div class="bigbox">
 		<div class="text0">
 			<h1 class="countdown">
-				Noch 
-				<span class="tens"><f:format.number decimals="0" thousandsSeparator=".">{daysT}</f:format.number></span>
-				<span class="ones">{daysO}</span>
-				<span class="tens"><f:format.number decimals="0" thousandsSeparator=".">{days}</f:format.number></span>
+				Noch
+				<f:if condition="{daysM} >= 1">
+					<span class="number"><f:format.number decimals="0">{daysM}</f:format.number></span>
+				</f:if>
+				<f:if condition="{daysH} >= 1">
+					<span class="number"><f:format.number decimals="0">{daysH}</f:format.number></span>
+				</f:if>
+				<span class="number"><f:format.number decimals="0">{daysT}</f:format.number></span>
+				<span class="number"><f:format.number decimals="0">{daysO}</f:format.number></span>
 				Tage bis zur Wahl - Das kannst du jetzt tun
 			</h1>
 		</div>
 	</div>
-	<script type="text/javascript">
-<![CDATA[
-function handleTickInit(tick) {
-						var nextYear = (new Date()).getFullYear() + 1;
-						Tick.count.down(nextYear + '-01-01').onupdate = function(value) {
-		tick.value = value;
-};
-]]>
-	</script>
-
 	<div class="smallerboxes">
 		<div class="cardtextoverlay text1">
 			<h2>
