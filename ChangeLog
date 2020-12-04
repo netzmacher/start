@@ -16,7 +16,19 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 							* Resources/Private/Language/mod
 								* de.wizards.xlf
 								* wizards.xlf
-								
+						New files:
+						* Configuration
+							* FlexForm/startHeadlineimage.xml
+							* TCA/Overrides/tt_content/
+								* de.headlineimage.xlf
+								* headlineimage.php
+								* headlineimage.xlf
+							* TypoScript/Base/tt_content/txStartHeadlineimage.ts
+						* Resources
+							* Private/Templates/FluidStyledContent/Headlineimage/Headlineimage.html
+							* Public/Css/headlineimage.css
+
+													
 
 8.0.31
   20-12-04
