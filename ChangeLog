@@ -1,6 +1,34 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.31
+  20-12-04
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0342: [FEATURE] Teaser Card Container
+						New files: 
+						* Resources/Private
+							* Partials/FluidStyledContent/TeaserCard
+								* Card_01.html
+								* Card_01_1.html
+								* Card_04.html
+								* Card_04_1.html
+								* Card_05.html
+								* Wrap.html
+							* Templates/FluidStyledContent/TeaserCard/newCascadeStyleSheet.css
+						Affected file:
+						* Configuration
+							* FlexForm/startTeaserCard.xml
+							* TypoScript/Base/lib/contentElement.ts
+						* Resources
+							* Private
+								* Language
+									* Backend.xlf
+									* de.Backend.xlf
+								* Templates/FluidStyledContent/TeaserCard/TeaserCard.html
+							* Public/Css/teasercard.css
+						Commit:
+						* d8020f2d4c3c49cf2cb9379f05ff972c7ca4473a
+
 8.0.30
   20-11-30
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com

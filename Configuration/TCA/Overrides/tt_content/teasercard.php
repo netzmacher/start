@@ -25,6 +25,7 @@ $GLOBALS['TCA']['tt_content']['types']['txStartTeaserCard'] = [
 	'showitem' => '
 	--div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
 		--palette--;;general,
+		--palette--;;headers,
 		pi_flexform,
 	--div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.images,
 		image,
