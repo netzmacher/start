@@ -1,0 +1,77 @@
+/*
+ * Keep in mind: 
+ *		* dynamic css is placed @
+ *			Resources/Private/Templates/FluidStyledContent/JumboTeaser/Headlineimage.html
+ *		* startgreen might have a css @
+ *			Resources/Public/Css/style/2010141/
+ */
+
+.headlinecontainer {
+	align-items: center;
+	justify-content: center;
+}
+.headlinetextoverlay {
+	text-align: center;
+	max-width: 80%;
+	margin:auto;
+	padding:100px 0;
+}
+
+#startBox01 .headlinetextoverlay h1,
+#startBox01 .headlinetextoverlay p {
+	color:white;
+	line-height:1.3;
+	text-shadow: 0 0 6px black; 
+}
+#startBox01 .headlinetextoverlay h1 {
+	text-transform: uppercase;
+}
+#startBox01 .headlinetextoverlay h1 a,
+#startBox01 .headlinetextoverlay p a {
+	color:white;
+}
+
+#startBox01 .headlinetextoverlay p a {
+	font-weight:normal;
+}
+#startBox01 .headlinetextoverlay h1 {
+	font-size:1.4em;
+}
+#startBox01 .headlinetextoverlay p {
+	font-size:1em;
+}
+
+/* 700px x 500px*/
+@media only screen and (min-width: 43.75em) and (min-height: 31.25em) {
+	#startBox01 .headlinetextoverlay h1 {
+		font-size:2em;
+	}
+	#startBox01 .headlinetextoverlay p {
+		font-size:1.2em;
+	}
+}
+/* 360px x 650px */
+@media only screen and (min-width: 22.5em) and (min-height: 40.625em) {
+	#startBox01 .headlinetextoverlay h1 {
+		font-size:3em;
+	}
+	#startBox01 .headlinetextoverlay p {
+		font-size:1.2em;
+	}
+}
+
+/* 1.000px x 500px */
+@media only screen and (min-width: 62.5em) and (min-height: 31.25em) {
+	.headlinetextoverlay {
+	}
+}
+
+/* 700px x 700px */
+@media only screen and (min-height: 43.75em) and (min-width: 43.75em) {
+	#startBox01 .headlinetextoverlay h1 {
+		font-size:4em;
+	}
+	#startBox01 .headlinetextoverlay p {
+		font-size:1.8em;
+	}
+}

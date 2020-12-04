@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+	<sheets>
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.sheet.sDEF</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+                                        <brightness>
+                                                <TCEforms>
+                                                        <label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.brightness</label>
+                                                        <config>
+                                                                <type>input</type>
+                                                                <size>3</size>
+                                                                <max>3</max>
+                                                                <eval>int,trim</eval>
+                                                                <default>50</default>
+                                                                <range>
+                                                                        <lower>0</lower>
+                                                                        <upper>100</upper>
+                                                                </range>
+                                                        </config>
+                                                </TCEforms>
+                                        </brightness>
+
+				</el>
+			</ROOT>
+		</sDEF>
+	</sheets>
+</T3DataStructure>

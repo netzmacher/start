@@ -1,0 +1,20 @@
+<f:for each="{images}" as="image">
+<style>
+	.headlinecontainer {
+		background:
+			linear-gradient(rgba(0,0,0,{content.brightness/100}), rgba(0,0,0,{content.brightness/100})),
+			url(<f:uri.image image="{image}" />) 
+			center;
+	}
+</style>
+</f:for>
+<div class="headlinecontainer">
+	<div class="headlinetextoverlay">
+		<h1>
+			<f:link.typolink parameter="{data.header_link}">{data.header}</f:link.typolink>
+		</h1>
+		<p>
+		<f:link.typolink parameter="{data.header_link}">{data.subheader}</f:link.typolink>
+		</p>
+	</div>
+</div>
