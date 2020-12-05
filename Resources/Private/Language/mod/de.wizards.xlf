@@ -9,12 +9,12 @@
         <target>Bilder des Felds Media aus den Seiteneigenschaften (Ressourcen) anzeigen. Sinnvoll für Header-Bilder.</target>
       </trans-unit>
       <trans-unit id="txStartJumboteaser.description">
-        <source>Headline with background image filling format</source>
-        <target>Überschrift mit Hintergrundbild formatfüllend</target>
+        <source>Headline with wallpaper fills the screen</source>
+        <target>Überschrift mit Hintergrundbild Bildschirm füllend</target>
       </trans-unit>
       <trans-unit id="txStartJumboteaser.title">
-        <source>Headline with background image filling format</source>
-        <target>Überschrift mit Hintergrundbild formatfüllend</target>
+        <source>Headline with wallpaper fills the screen</source>
+        <target>Überschrift mit Hintergrundbild Bildschirm füllend</target>
       </trans-unit>
       <trans-unit id="txStartTeasercard.description">
         <source>Headline on the left with one or four boxes on the right with background image</source>
@@ -29,8 +29,8 @@
         <target>Überschrift mit Hintergrundbild als Inhaltselement</target>
       </trans-unit>
       <trans-unit id="txStartHeadlineimage.title">
-        <source>Headline with background-image</source>
-        <target>Überschrift mit Hintergrundbild</target>
+        <source>Headline with background image as content element</source>
+        <target>Überschrift mit Hintergrundbild als Inhaltselement</target>
       </trans-unit>
 
     </body>

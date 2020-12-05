@@ -70,7 +70,7 @@
 							<config>
 								<type>select</type>
 								<renderType>selectSingle</renderType>
-								<default>startWiMarginLeftRight00percent</default>
+								<default>startWiPaddingLeftRightDefault</default>
 								<items>
 									<numIndex index="0">
 										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.paddingleftright.default</numIndex>

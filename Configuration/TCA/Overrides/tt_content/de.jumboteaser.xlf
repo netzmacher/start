@@ -5,8 +5,8 @@
     <body>
 
       <trans-unit id="jumboteaser.title">
-        <source>Jumboteaser</source>
-        <target>Jumboteaser</target>
+        <source>Headline with wallpaper fills the screen</source>
+        <target>Überschrift mit Hintergrundbild Bildschirm füllend</target>
       </trans-unit>
 
     </body>
