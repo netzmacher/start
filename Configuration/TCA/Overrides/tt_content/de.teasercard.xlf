@@ -5,8 +5,8 @@
     <body>
 
       <trans-unit id="teasercard.title">
-        <source>TeaserCard</source>
-        <target>TeaserCard</target>
+        <source>Teasercard</source>
+        <target>Teasercard</target>
       </trans-unit>
 
     </body>

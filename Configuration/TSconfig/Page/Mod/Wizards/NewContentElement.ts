@@ -10,14 +10,6 @@ mod.wizards {
 						CType = txStartJumboteaser
 					}
 				}
-				txStartTeaserCard{
-					iconIdentifier = ext-start-teasercard
-					title = LLL:EXT:start/Resources/Private/Language/mod/wizards.xlf:txStartTeaserCard.title
-					description = LLL:EXT:start/Resources/Private/Language/mod/wizards.xlf:txStartTeaserCard.description
-					tt_content_defValues {
-						CType = txStartTeaserCard
-					}
-				}
 				txStartHeadlineimage{
 					iconIdentifier = ext-start-headlineimage
 					title = LLL:EXT:start/Resources/Private/Language/mod/wizards.xlf:txStartHeadlineimage.title
@@ -26,9 +18,17 @@ mod.wizards {
 						CType = txStartHeadlineimage
 					}
 				}
+				txStartTeasercard{
+					iconIdentifier = ext-start-teasercard
+					title = LLL:EXT:start/Resources/Private/Language/mod/wizards.xlf:txStartTeasercard.title
+					description = LLL:EXT:start/Resources/Private/Language/mod/wizards.xlf:txStartTeasercard.description
+					tt_content_defValues {
+						CType = txStartTeasercard
+					}
+				}
 			}
 			show := addToList('txStartJumboteaser')
-			show := addToList('txStartTeaserCard')
+			show := addToList('txStartTeasercard')
 		}
 	}
 }

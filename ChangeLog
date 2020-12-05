@@ -1,6 +1,12 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.35
+  20-12-05
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0423: [TASK] Headlineimage. Here: improve flexform palette header. Icons updated. Improved names (camel case).
+						commit: 
+
 8.0.34
   20-12-05
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
@@ -23,6 +29,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						:ref:
 						* 8.0.32, #v0423
 						commit:
+						* 0aed2ad411a937734e453ca8cab9b55d62f088a6
 						* 9792b87de06b565c7cbf610d1ac09fa9a0926c3f
 
 8.0.33

@@ -11,19 +11,26 @@
   <clipPath id="Clip1">
    <path d="M0 0 L13.9427 0 L13.9427 11.76 L0 11.76 L0 0 Z" transform="translate(1.02863, 2.12001)"/>
   </clipPath>
+  <clipPath id="Clip2">
+   <path d="M0 0 L7 0 L7 9 L0 9 L0 0 Z" transform="translate(7.1, 3.5)"/>
+  </clipPath>
  </defs>
  <g id="Hintergrund">
-  <g transform="translate(0, -2.445e-05)">
+  <g transform="translate(0, -8.52651e-14)">
    <path style="fill:url(#Grad0); fill-rule:evenodd;" d="M0 0 L16 0 L16 16 L0 16 L0 0 Z"/>
    <path style="fill:none; stroke:none;" d="M0 0 L16 0 L16 16 L0 16 L0 0 Z"/>
   </g>
-  <g id="Kopie von Layer_1 (2)" clip-path="url(#Clip0)">
-   <g id="Kopie von Gruppe1 (2)" clip-path="url(#Clip1)">
+  <g id="Kopie von Layer_1 (3)" clip-path="url(#Clip0)">
+   <g id="Kopie von Gruppe1 (3)" clip-path="url(#Clip1)">
     <path style="fill:#ffffff; fill-rule:evenodd; fill-opacity:0.4;stroke:none;" d="M13.9384 0.724933 C13.9384 0.327024 13.6155 0.00451068 13.217 0.00451068 C13.1803 0.00451068 13.145 0.00998796 13.1095 0.0153041 L13.1095 0 L0.721304 0 L0.721304 0.00451068 C0.32291 0.00451068 0 0.327024 0 0.724933 L0 0.725091 L0 11.0349 L0 11.0351 L0 11.0352 L0 11.1156 L0.00806467 11.1156 C0.0487107 11.475 0.350491 11.7555 0.721146 11.7555 L0.721146 11.76 L13.1093 11.76 L13.1093 11.7447 C13.1446 11.75 13.1799 11.7555 13.2169 11.7555 C13.5877 11.7555 13.8895 11.4752 13.9302 11.1156 L13.9427 11.1156 L13.9427 0.724933 L13.9384 0.724933 Z M12.3369 10.1559 L10.5851 10.1559 C10.5789 10.131 10.5702 10.107 10.5583 10.0848 L10.5612 10.0831 L6.89678 3.74403 L6.89531 3.74483 C6.81465 3.57938 6.64628 3.46453 6.44951 3.46453 C6.24772 3.46453 6.07466 3.58519 5.99671 3.75788 L3.55814 7.97633 L2.96103 6.94357 L2.96022 6.94402 C2.91764 6.8567 2.82893 6.79614 2.72522 6.79614 C2.61893 6.79614 2.5278 6.85981 2.48667 6.95046 L1.606 8.47395 L1.606 1.60854 L12.3369 1.60854 L12.3369 10.1559 Z" transform="translate(1.02863, 2.12001)"/>
     <path style="fill:#ffffff; fill-rule:evenodd; fill-opacity:0.4;stroke:none;" d="M3.25814 1.62707 C3.25814 2.5257 2.52881 3.25414 1.62907 3.25414 C0.729358 3.25414 0 2.5257 0 1.62707 C0 0.728461 0.729358 0 1.62907 0 C2.52881 0 3.25814 0.728461 3.25814 1.62707 Z" transform="translate(9.29397, 4.53387)"/>
    </g>
   </g>
-  <path style="fill:#ffffff; fill-rule:evenodd;stroke:none;" d="M0 0 L12 0 L12 2 L0 2 L0 0 Z" transform="translate(2, 5)"/>
-  <path style="fill:#ffffff; fill-rule:evenodd;stroke:none;" d="M0 0 L12 0 L12 1 L0 1 L0 0 Z" transform="translate(2, 8)"/>
+  <g id="Gruppe27" clip-path="url(#Clip2)">
+   <path style="fill:#ffffff; fill-rule:evenodd;stroke:none;" d="M0 0 L3 0 L3 4 L0 4 L0 0 Z" transform="translate(7.1, 3.5)"/>
+   <path style="fill:#ffffff; fill-rule:evenodd;stroke:none;" d="M0 0 L3 0 L3 4 L0 4 L0 0 Z" transform="translate(11.1, 3.5)"/>
+   <path style="fill:#ffffff; fill-rule:evenodd;stroke:none;" d="M0 0 L3 0 L3 4 L0 4 L0 0 Z" transform="translate(7.1, 8.5)"/>
+   <path style="fill:#ffffff; fill-rule:evenodd;stroke:none;" d="M0 0 L3 0 L3 4 L0 4 L0 0 Z" transform="translate(11, 8.5)"/>
+  </g>
  </g>
 </svg>

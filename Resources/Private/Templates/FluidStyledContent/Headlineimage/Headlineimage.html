@@ -1,30 +1,39 @@
+<style>
+	.headlinetextoverlay {
+		padding-top:{content.paddingtopbottom}px;
+		padding-bottom:{content.paddingtopbottom}px;
+		text-align: {data.header_position};
+	}
+</style>
+
+<f:variable name="imageClass"> woImage</f:variable>
 <f:if condition="{images.0}">
+	<f:variable name="brightness"><f:cObject typoscriptObjectPath="lib.start.calc" data="(100-{content.brightness})/100"/></f:variable>
+	<f:variable name="imageClass"></f:variable>
 	<style>
 		.headlinecontainer {
-			background:
-				linear-gradient(rgba(0,0,0,{content.brightness/100}), rgba(0,0,0,{content.brightness/100})),
-			url(<f:uri.image image="{images.0}" />) 
-				center;
-		}
-		.headlinetextoverlay {
-			padding-top:{content.paddingtopbottom}px;
-			padding-bottom:{content.paddingtopbottom}px;
-			text-align: {data.header_position};
+			background-image:
+				linear-gradient(rgba(0,0,0,{brightness}), rgba(0,0,0,{brightness})),
+			  url(<f:uri.image image="{images.0}" />);
+			background-position: center {content.croptopbottom};
 		}
 	</style>
 </f:if>
 
 <f:variable name="headerTag">{data.header_layout}</f:variable>
-<f:if condition="{headerTag}==''">
+<f:if condition="{headerTag}=='0'">
 	<f:then>
 		<f:variable name="headerTag">h1</f:variable>	
 	</f:then>
+	<f:else if="{headerTag}=='100'">
+		<f:variable name="headerTag"></f:variable>	
+	</f:else>
 	<f:else>
 		<f:variable name="headerTag">h{data.header_layout}</f:variable>	
 	</f:else>
 </f:if>
 
-<div class="headlinecontainer">
+<div class="headlinecontainer{imageClass}" >
 	<div class="headlinetextoverlay {content.paddingleftright}">
 		<f:render partial="Wrap" arguments="{tag: headerTag, link: data.header_link, text: data.header}"/>
 		<f:render partial="Wrap" arguments="{tag: 'p', link: data.header_link, text: data.subheader}"/>

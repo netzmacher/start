@@ -5,7 +5,7 @@
 	'CType',
 	[
 		'LLL:EXT:start/Configuration/TCA/Overrides/tt_content/teasercard.xlf:teasercard.title',
-		'txStartTeaserCard',
+		'txStartTeasercard',
 		'ext-start-teasercard',
 	],
 	'textmedia',
@@ -16,12 +16,12 @@
     // 'list_type' does not apply here
     '*',
     // Flexform configuration schema file
-    'FILE:EXT:start/Configuration/FlexForm/startTeaserCard.xml',
+    'FILE:EXT:start/Configuration/FlexForm/startTeasercard.xml',
     // ctype
-    'txStartTeaserCard'
+    'txStartTeasercard'
 );
 
-$GLOBALS['TCA']['tt_content']['types']['txStartTeaserCard'] = [
+$GLOBALS['TCA']['tt_content']['types']['txStartTeasercard'] = [
 	'showitem' => '
 	--div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
 		--palette--;;general,

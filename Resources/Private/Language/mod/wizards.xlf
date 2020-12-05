@@ -3,33 +3,34 @@
   <file source-language="en" datatype="plaintext" original="messages" date="2019-03-01T15:11:39Z" product-name="start">
     <header/>
     <body>
-      <trans-unit id="txStartPagemedia.description">
+
+			<trans-unit id="txStartPagemedia.description">
         <source>Display images of page resources media field. Usefull for header images.</source>
         <target>Bilder des Felds Media aus den Seiteneigenschaften (Ressourcen) anzeigen. Sinnvoll für Header-Bilder.</target>
       </trans-unit>
       <trans-unit id="txStartJumboteaser.description">
-        <source>Full screen image with heading</source>
-        <target>Bildschirm füllendes Bild mit Schlagzeile</target>
+        <source>Headline with background image filling format</source>
+        <target>Überschrift mit Hintergrundbild formatfüllend</target>
       </trans-unit>
       <trans-unit id="txStartJumboteaser.title">
-        <source>Jumbo Teaser</source>
-        <target>Jumbo Teaser</target>
+        <source>Headline with background image filling format</source>
+        <target>Überschrift mit Hintergrundbild formatfüllend</target>
       </trans-unit>
-      <trans-unit id="txStartTeaserCard.description">
-        <source>Various Cards with optional Call to Action</source>
-        <target>Karten optionelle mit Call To Action</target>
+      <trans-unit id="txStartTeasercard.description">
+        <source>Headline on the left with one or four boxes on the right with background image</source>
+        <target>Überschrift links mit 1 oder 4 Boxen rechts mit Hintergrundbild</target>
       </trans-unit>
-      <trans-unit id="txStartTeaserCard.title">
-        <source>TeaserCard</source>
-        <target>TeaserCard</target>
+      <trans-unit id="txStartTeasercard.title">
+        <source>Headline with boxes</source>
+        <target>Überschrift mit Boxen</target>
       </trans-unit>
       <trans-unit id="txStartHeadlineimage.description">
+        <source>Headline with background image as content element</source>
+        <target>Überschrift mit Hintergrundbild als Inhaltselement</target>
+      </trans-unit>
+      <trans-unit id="txStartHeadlineimage.title">
         <source>Headline with background-image</source>
         <target>Überschrift mit Hintergrundbild</target>
-      </trans-unit>
-      <trans-unit id="txStartHeadline.title">
-        <source>Headline image</source>
-        <target>Überschiftsbild</target>
       </trans-unit>
 
     </body>

@@ -234,6 +234,22 @@
         <source>Brightness</source>
         <target>Helligkeit</target>
       </trans-unit>
+			<trans-unit id="headlineimage.el.croptopbottom">
+        <source>Crop the picture from ...</source>
+        <target>Bild abschneiden von ...</target>
+      </trans-unit>
+			<trans-unit id="headlineimage.el.croptopbottom.bottom">
+        <source>below</source>
+        <target>unten</target>
+      </trans-unit>
+			<trans-unit id="headlineimage.el.croptopbottom.center">
+        <source>above and below</source>
+        <target>oben und unten</target>
+      </trans-unit>
+			<trans-unit id="headlineimage.el.croptopbottom.top">
+        <source>above</source>
+        <target>oben</target>
+      </trans-unit>
 			<trans-unit id="headlineimage.el.paddingleftright">
         <source>Margin left and right</source>
         <target>Rand links und rechts</target>

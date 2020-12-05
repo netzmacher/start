@@ -4,9 +4,9 @@
     <header/>
     <body>
 
-      <trans-unit id="TeaserCard.title">
-        <source>TeaserCard</source>
-        <target>TeaserCard</target>
+      <trans-unit id="Teasercard.title">
+        <source>Teasercard</source>
+        <target>Teasercard</target>
       </trans-unit>
 
     </body>

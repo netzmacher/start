@@ -1,31 +1,38 @@
 <?php
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTcaSelectItem(
-	'tt_content',
-	'CType',
-	[
+				'tt_content', 'CType', [
 		'LLL:EXT:start/Configuration/TCA/Overrides/tt_content/headlineimage.xlf:headlineimage.title',
 		'txStartHeadlineimage',
 		'ext-start-headlineimage',
-	],
-	'textmedia',
-	'after'
+				], 'textmedia', 'after'
 );
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue(
-    // 'list_type' does not apply here
-    '*',
-    // Flexform configuration schema file
-    'FILE:EXT:start/Configuration/FlexForm/startHeadlineimage.xml',
-    // ctype
-    'txStartHeadlineimage'
+				// 'list_type' does not apply here
+				'*',
+				// Flexform configuration schema file
+				'FILE:EXT:start/Configuration/FlexForm/startHeadlineimage.xml',
+				// ctype
+				'txStartHeadlineimage'
 );
 
-$GLOBALS['TCA']['tt_content']['types']['txStartHeadlineimage'] = [
-	'showitem' => '
+$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'palettes' ][ 'tx_start_headlineimage_header' ] = [
+		'label' => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.headers',
+		'showitem' => '
+header;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header_formlabel, --linebreak--,
+header_layout;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header_layout_formlabel,
+header_position;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header_position_formlabel, --linebreak--,
+subheader;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:subheader_formlabel, --linebreak--,
+header_link;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header_link_formlabel,
+',
+];
+
+$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'txStartHeadlineimage' ] = [
+		'showitem' => '
 	--div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
 		--palette--;;general,
-		--palette--;;headers,
+		--palette--;;tx_start_headlineimage_header,
 		pi_flexform,
 	--div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.images,
 		image,

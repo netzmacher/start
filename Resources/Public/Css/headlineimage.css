@@ -8,6 +8,7 @@
 
 .headlinecontainer {
 	align-items: center;
+	background-size:100%;
 	justify-content: center;
 }
 
@@ -17,12 +18,21 @@
 	line-height:1.3;
 	text-shadow: 0 0 6px black; 
 }
+#startBox01 .woImage .headlinetextoverlay h1,
+#startBox01 .woImage .headlinetextoverlay p {
+	color:black;
+	text-shadow: none;
+}
 #startBox01 .headlinetextoverlay h1 {
 	text-transform: uppercase;
 }
 #startBox01 .headlinetextoverlay h1 a,
 #startBox01 .headlinetextoverlay p a {
 	color:white;
+}
+#startBox01 .woImage .headlinetextoverlay h1 a,
+#startBox01 .woImage .headlinetextoverlay p a {
+	color:black;
 }
 
 #startBox01 .headlinetextoverlay p a {

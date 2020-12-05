@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="283.465pt" version="1.1" xmlns="http://www.w3.org/2000/svg" height="283.465pt" viewBox="0 0 283.465 283.465" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="16pt" version="1.1" xmlns="http://www.w3.org/2000/svg" height="16pt" viewBox="0 0 16 16" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
-  <linearGradient id="Grad0" y1="0" x1="0" y2="283.465" gradientUnits="userSpaceOnUse" x2="283.465">
-   <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
-   <stop offset="50%" stop-color="#ff5e00" stop-opacity="1"/>
-  </linearGradient>
   <clipPath id="Clip0">
-   <path d="M0 0 L247.017 0 L247.017 208.346 L0 208.346 L0 0 Z" transform="translate(18.2239, 37.5591)"/>
+   <path d="M0 0 L16 0 L16 16 L0 16 L0 0 Z" transform="translate(0, 1.98952e-13)"/>
   </clipPath>
+  <linearGradient id="Grad0" y1="0" x1="0" y2="16" gradientUnits="userSpaceOnUse" x2="16">
+   <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+   <stop offset="50%" stop-color="#ff5b09" stop-opacity="1"/>
+  </linearGradient>
   <clipPath id="Clip1">
-   <path d="M0 0 L247.017 0 L247.017 208.346 L0 208.346 L0 0 Z" transform="translate(18.2239, 37.5591)"/>
+   <path d="M0 0 L13.9427 0 L13.9427 11.76 L0 11.76 L0 0 Z" transform="translate(1.02864, 2.12)"/>
+  </clipPath>
+  <clipPath id="Clip2">
+   <path d="M0 0 L13.9427 0 L13.9427 11.76 L0 11.76 L0 0 Z" transform="translate(1.02864, 2.12)"/>
   </clipPath>
  </defs>
  <g id="Hintergrund">
-  <g transform="translate(0, 2.27374e-13)">
-   <path style="fill:url(#Grad0); fill-rule:evenodd;" d="M0 0 L283.465 0 L283.465 283.465 L0 283.465 L0 0 Z"/>
-   <path style="fill:none; stroke:none;" d="M0 0 L283.465 0 L283.465 283.465 L0 283.465 L0 0 Z"/>
-  </g>
-  <g id="Layer_1" clip-path="url(#Clip0)">
-   <g id="Gruppe1" clip-path="url(#Clip1)">
-    <path style="fill:#ffffff; fill-rule:nonzero;stroke:none;" d="M246.94 12.8433 C246.94 5.79374 241.219 0.0799137 234.16 0.0799137 C233.509 0.0799137 232.883 0.176952 232.255 0.271136 L232.255 0 L12.779 0 L12.779 0.0799137 C5.72085 0.0799137 0 5.79374 0 12.8433 L0 12.8461 L0 195.5 L0 195.503 L0 195.506 L0 196.93 L0.142878 196.93 C0.862985 203.298 6.20949 208.266 12.7762 208.266 L12.7762 208.346 L232.252 208.346 L232.252 208.075 C232.877 208.169 233.503 208.266 234.158 208.266 C240.727 208.266 246.074 203.3 246.794 196.93 L247.017 196.93 L247.017 12.8433 L246.94 12.8433 Z M218.567 179.928 L187.531 179.928 C187.422 179.486 187.268 179.061 187.056 178.667 L187.108 178.638 L122.187 66.3312 L122.161 66.3455 C120.732 63.4143 117.749 61.3794 114.263 61.3794 C110.688 61.3794 107.622 63.5171 106.241 66.5766 L63.0379 141.313 L52.4592 123.016 L52.4449 123.024 C51.6905 121.477 50.1189 120.404 48.2815 120.404 C46.3983 120.404 44.7838 121.532 44.0551 123.138 L28.4528 150.129 L28.4528 28.4978 L218.567 28.4978 L218.567 179.928 Z" transform="translate(18.2239, 37.5591)"/>
-    <path style="fill:#ffffff; fill-rule:evenodd;stroke:none;" d="M57.7229 28.826 C57.7229 44.7467 44.8017 57.652 28.8614 57.652 C12.9217 57.652 0 44.7467 0 28.826 C0 12.9058 12.9217 0 28.8614 0 C44.8017 0 57.7229 12.9058 57.7229 28.826 Z" transform="translate(164.657, 80.3243)"/>
+  <g id="Gruppe4" clip-path="url(#Clip0)">
+   <g transform="translate(0, 1.98952e-13)">
+    <path style="fill:url(#Grad0); fill-rule:evenodd;" d="M0 0 L16 0 L16 16 L0 16 L0 0 Z"/>
+    <path style="fill:none; stroke:none;" d="M0 0 L16 0 L16 16 L0 16 L0 0 Z"/>
+   </g>
+   <g id="Layer_1" clip-path="url(#Clip1)">
+    <g id="Gruppe1" clip-path="url(#Clip2)">
+     <path style="fill:#ffffff; fill-rule:nonzero;stroke:none;" d="M13.9384 0.724933 C13.9384 0.327024 13.6155 0.00451068 13.217 0.00451068 C13.1803 0.00451068 13.145 0.00998796 13.1095 0.0153041 L13.1095 0 L0.721304 0 L0.721304 0.00451068 C0.32291 0.00451068 0 0.327024 0 0.724933 L0 0.725091 L0 11.0349 L0 11.0351 L0 11.0352 L0 11.1156 L0.00806467 11.1156 C0.0487107 11.475 0.350491 11.7555 0.721146 11.7555 L0.721146 11.76 L13.1093 11.76 L13.1093 11.7447 C13.1446 11.75 13.1799 11.7555 13.2169 11.7555 C13.5877 11.7555 13.8895 11.4752 13.9302 11.1156 L13.9427 11.1156 L13.9427 0.724933 L13.9384 0.724933 Z M12.3369 10.1559 L10.5851 10.1559 C10.5789 10.131 10.5702 10.107 10.5583 10.0848 L10.5612 10.0831 L6.89678 3.74403 L6.89531 3.74483 C6.81465 3.57938 6.64628 3.46453 6.44951 3.46453 C6.24772 3.46453 6.07466 3.58519 5.99671 3.75788 L3.55814 7.97633 L2.96103 6.94357 L2.96022 6.94402 C2.91764 6.8567 2.82893 6.79614 2.72522 6.79614 C2.61893 6.79614 2.5278 6.85981 2.48667 6.95046 L1.606 8.47395 L1.606 1.60854 L12.3369 1.60854 L12.3369 10.1559 Z" transform="translate(1.02864, 2.12)"/>
+     <path style="fill:#ffffff; fill-rule:evenodd;stroke:none;" d="M3.25814 1.62707 C3.25814 2.5257 2.52881 3.25414 1.62907 3.25414 C0.729358 3.25414 0 2.5257 0 1.62707 C0 0.728461 0.729358 0 1.62907 0 C2.52881 0 3.25814 0.728461 3.25814 1.62707 Z" transform="translate(9.29398, 4.53386)"/>
+    </g>
    </g>
   </g>
  </g>

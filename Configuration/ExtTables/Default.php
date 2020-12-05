@@ -87,10 +87,10 @@ $extIcons = [
 		],
 		'ext-start-teasercard' => [
 				'identifier' => 'ext-start-teasercard'
-				, 'key' => 'txStartTeaserCard' // <- Key must be the part behind contain- of the identifier!
+				, 'key' => 'txStartTeasercard' // <- Key must be the part behind contain- of the identifier!
 				, 'label' => 'Page Media'
 				, 'source' => 'EXT:start/ext_icon.svg'
-				, 'source' => 'EXT:start/Resources/Public/Images/Icons/txStartTeaserCard.svg'
+				, 'source' => 'EXT:start/Resources/Public/Images/Icons/txStartTeasercard.svg'
 		],
 		'ext-start-pagemedia' => [
 				'identifier' => 'ext-start-pagemedia'

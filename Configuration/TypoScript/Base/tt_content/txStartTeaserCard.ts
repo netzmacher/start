@@ -1,7 +1,7 @@
 tt_content {
-	txStartTeaserCard =< lib.contentElement
-	txStartTeaserCard {
-		templateName = TeaserCard
+	txStartTeasercard =< lib.contentElement
+	txStartTeasercard {
+		templateName = Teasercard
 		dataProcessing.1 = Netzmacher\Start\DataProcessing\FlexFormProcessor
 		dataProcessing.1 {
 			options {
