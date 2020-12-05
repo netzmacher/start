@@ -13,9 +13,20 @@
 		}
 	</style>
 </f:if>
+
+<f:variable name="headerTag">{data.header_layout}</f:variable>
+<f:if condition="{headerTag}==''">
+	<f:then>
+		<f:variable name="headerTag">h1</f:variable>	
+	</f:then>
+	<f:else>
+		<f:variable name="headerTag">h{data.header_layout}</f:variable>	
+	</f:else>
+</f:if>
+
 <div class="headlinecontainer">
 	<div class="headlinetextoverlay {content.paddingleftright}">
-		<f:render partial="Wrap" arguments="{tag: 'h1', link: data.header_link, text: data.header}"/>
+		<f:render partial="Wrap" arguments="{tag: headerTag, link: data.header_link, text: data.header}"/>
 		<f:render partial="Wrap" arguments="{tag: 'p', link: data.header_link, text: data.subheader}"/>
 	</div>
 </div>

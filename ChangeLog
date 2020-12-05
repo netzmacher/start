@@ -22,6 +22,8 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 								* headlineimage.css
 						:ref:
 						* 8.0.32, #v0423
+						commit:
+						* 9792b87de06b565c7cbf610d1ac09fa9a0926c3f
 
 8.0.33
   20-12-05
