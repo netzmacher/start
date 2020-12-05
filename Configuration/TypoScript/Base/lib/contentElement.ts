@@ -55,9 +55,7 @@ lib {
 					value = EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Partials/
 				}
 			}
-			207 = EXT:start/Resources/Private/Partials/FluidStyledContent/JumboTeaser/
-			227 = EXT:start/Resources/Private/Partials/FluidStyledContent/TeaserCard/
-			237 = EXT:start/Resources/Private/Partials/FluidStyledContent/Headlineimage
+			207 = EXT:start/Resources/Private/Partials/FluidStyledContent/
 		}
 			// empty statement for proper comment only
 		layoutRootPaths {

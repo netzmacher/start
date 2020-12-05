@@ -1,20 +1,21 @@
-<f:for each="{images}" as="image">
-<style>
-	.headlinecontainer {
-		background:
-			linear-gradient(rgba(0,0,0,{content.brightness/100}), rgba(0,0,0,{content.brightness/100})),
-			url(<f:uri.image image="{image}" />) 
-			center;
-	}
-</style>
-</f:for>
+<f:if condition="{images.0}">
+	<style>
+		.headlinecontainer {
+			background:
+				linear-gradient(rgba(0,0,0,{content.brightness/100}), rgba(0,0,0,{content.brightness/100})),
+			url(<f:uri.image image="{images.0}" />) 
+				center;
+		}
+		.headlinetextoverlay {
+			padding-top:{content.paddingtopbottom}px;
+			padding-bottom:{content.paddingtopbottom}px;
+			text-align: {data.header_position};
+		}
+	</style>
+</f:if>
 <div class="headlinecontainer">
-	<div class="headlinetextoverlay">
-		<h1>
-			<f:link.typolink parameter="{data.header_link}">{data.header}</f:link.typolink>
-		</h1>
-		<p>
-		<f:link.typolink parameter="{data.header_link}">{data.subheader}</f:link.typolink>
-		</p>
+	<div class="headlinetextoverlay {content.paddingleftright}">
+		<f:render partial="Wrap" arguments="{tag: 'h1', link: data.header_link, text: data.header}"/>
+		<f:render partial="Wrap" arguments="{tag: 'p', link: data.header_link, text: data.subheader}"/>
 	</div>
 </div>

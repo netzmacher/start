@@ -1,7 +1,7 @@
 /*
  * Keep in mind: 
  *		* dynamic css is placed @
- *			Resources/Private/Templates/FluidStyledContent/JumboTeaser/Headlineimage.html
+ *			Resources/Private/Templates/FluidStyledContent/Headlineimage/Headlineimage.html
  *		* startgreen might have a css @
  *			Resources/Public/Css/style/2010141/
  */
@@ -9,12 +9,6 @@
 .headlinecontainer {
 	align-items: center;
 	justify-content: center;
-}
-.headlinetextoverlay {
-	text-align: center;
-	max-width: 80%;
-	margin:auto;
-	padding:100px 0;
 }
 
 #startBox01 .headlinetextoverlay h1,
@@ -35,10 +29,12 @@
 	font-weight:normal;
 }
 #startBox01 .headlinetextoverlay h1 {
-	font-size:1.4em;
+	/*font-size:1.4em;*/
+	font-size:2em;
 }
 #startBox01 .headlinetextoverlay p {
-	font-size:1em;
+	/*font-size:1em;*/
+	font-size:1.2em;
 }
 
 /* 700px x 500px*/

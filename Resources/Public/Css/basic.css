@@ -267,7 +267,6 @@ body {
   margin-right: auto;
 }
 #startBox01 .startWiMarginDefault {
-  /*padding: 0.9375rem 0.9375rem 0.2rem 0.9375rem;*/
   padding: 0.9375rem 0.9375rem 0.2rem 0.9375rem;
 }
 
@@ -320,6 +319,10 @@ body {
 	#startBox01 .startWiMarginLeftRight33percent {
 		margin-right: calc(33.33333% + 0.625rem);
 	}
+}
+.startWiPaddingLeftRightDefault {
+	padding-left:0.9375rem;
+	padding-right:0.9375rem;
 }
 
 #startBox01 .startWoMarginBottom {

@@ -8,23 +8,66 @@
 				</TCEforms>
 				<type>array</type>
 				<el>
-                                        <brightness>
-                                                <TCEforms>
-                                                        <label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.brightness</label>
-                                                        <config>
-                                                                <type>input</type>
-                                                                <size>3</size>
-                                                                <max>3</max>
-                                                                <eval>int,trim</eval>
-                                                                <default>50</default>
-                                                                <range>
-                                                                        <lower>0</lower>
-                                                                        <upper>100</upper>
-                                                                </range>
-                                                        </config>
-                                                </TCEforms>
-                                        </brightness>
-
+					<brightness>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.brightness</label>
+							<config>
+								<type>input</type>
+								<size>3</size>
+								<max>3</max>
+								<eval>int,trim</eval>
+								<default>50</default>
+								<range>
+									<lower>0</lower>
+									<upper>100</upper>
+								</range>
+							</config>
+						</TCEforms>
+					</brightness>
+					<paddingtopbottom>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.paddingtopbottom</label>
+							<config>
+								<type>input</type>
+								<size>3</size>
+								<max>3</max>
+								<eval>int,trim</eval>
+								<default>100</default>
+								<range>
+									<lower>0</lower>
+									<upper>999</upper>
+								</range>
+							</config>
+						</TCEforms>
+					</paddingtopbottom>
+					<paddingleftright>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.paddingleftright</label>
+							<config>
+								<type>select</type>
+								<renderType>selectSingle</renderType>
+								<default>startWiMarginLeftRight00percent</default>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.paddingleftright.default</numIndex>
+										<numIndex index="1">startWiPaddingLeftRightDefault</numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.paddingleftright.17percent</numIndex>
+										<numIndex index="1">startWiMarginLeftRight17percent</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.paddingleftright.25percent</numIndex>
+										<numIndex index="1">startWiMarginLeftRight25percent</numIndex>
+									</numIndex>
+									<numIndex index="3">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.paddingleftright.33percent</numIndex>
+										<numIndex index="1">startWiMarginLeftRight33percent</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</paddingleftright>
 				</el>
 			</ROOT>
 		</sDEF>

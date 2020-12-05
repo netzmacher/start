@@ -1,8 +1,30 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.34
+  20-12-05
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0423: [TASK] Headlineimage. Here: improve css and flexform
+						Affected files:
+						* Configuration
+							* FlexForm/startHeadlineimage.xml
+							* TypoScript/Base/lib/contentElement.ts
+						* Resources
+							* Private
+								* Language
+									* Backend.xlf
+									* de.Backend.xlf
+								* Templates/FluidStyledContent
+									* Headlineimage/Headlineimage.html
+									* FluidStyledContent/TeaserCard/TeaserCard.html
+							* Public/Css
+								* basic.css
+								* headlineimage.css
+						:ref:
+						* 8.0.32, #v0423
+
 8.0.33
-  20-12-04
+  20-12-05
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
 	* #v0389: [FEATURE] CSS. Here: new "grid"-classes:
 						* .startWiMarginLeft17percent
@@ -27,7 +49,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 8.0.32
   20-12-04
 	Author: Fredrik Boström (verdigado eG), support@verdigado.com
-	* [FEATURE] Headlineimage
+	* #v0423: [FEATURE] Headlineimage
 						Affected files:
 						* Configuration
 							* ExtTables/Default.php
@@ -51,8 +73,10 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						* Resources
 							* Private/Templates/FluidStyledContent/Headlineimage/Headlineimage.html
 							* Public/Css/headlineimage.css
-
-													
+						:ref:
+						* 8.0.34, #v0423
+						commit:
+						* c5f09444e91b36568e5ca99e48b5fd9407670824
 
 8.0.31
   20-12-04

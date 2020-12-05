@@ -230,13 +230,38 @@
         <target>Versteckt</target>
       </trans-unit>
 
-      <trans-unit id="jumboteaser.el.breakpoint">
+			<trans-unit id="headlineimage.el.brightness">
+        <source>Brightness</source>
+        <target>Helligkeit</target>
+      </trans-unit>
+			<trans-unit id="headlineimage.el.paddingleftright">
+        <source>Margin left and right</source>
+        <target>Rand links und rechts</target>
+      </trans-unit>
+			<trans-unit id="headlineimage.el.paddingleftright.default">
+        <source>Default</source>
+        <target>Standard</target>
+      </trans-unit>
+			<trans-unit id="headlineimage.el.paddingleftright.17percent">
+        <source>2 | 8 | 2</source>
+        <target>2 | 8 | 2</target>
+      </trans-unit>
+			<trans-unit id="headlineimage.el.paddingleftright.25percent">
+        <source>3 | 6 | 3</source>
+        <target>3 | 6 | 3</target>
+      </trans-unit>
+			<trans-unit id="headlineimage.el.paddingleftright.33percent">
+        <source>4 | 4 | 4</source>
+        <target>4 | 4 | 4</target>
+      </trans-unit>
+			<trans-unit id="headlineimage.el.paddingtopbottom">
+        <source>Margin above and below</source>
+        <target>Rand oben und unten</target>
+      </trans-unit>
+
+			<trans-unit id="jumboteaser.el.breakpoint">
         <source>Breakpoint for the big view (in pixel). 0 if there isn't any top bar.</source>
         <target>Breakpoint für großen Bildschirm (in Pixel). 0, wenn kein Menü bzw. Kopfzeile vorhanden ist.</target>
-      </trans-unit>
-      <trans-unit id="teasercard.el.brightness">
-        <source>Darken the image</source>
-        <target>Bild abdunkeln</target>
       </trans-unit>
 			
       <trans-unit id="jumboteaser.el.buttonlabel">
@@ -262,6 +287,11 @@
       <trans-unit id="jumboteaser.sheet.responsive">
         <source>Responsive Design</source>
         <target>Responsive Design</target>
+      </trans-unit>
+
+			<trans-unit id="teasercard.el.brightness">
+        <source>Brightness</source>
+        <target>Helligkeit</target>
       </trans-unit>
       <trans-unit id="teasercard.el.buttonlabel">
         <source>Call To Action text</source>
