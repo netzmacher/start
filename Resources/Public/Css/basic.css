@@ -271,9 +271,55 @@ body {
   padding: 0.9375rem 0.9375rem 0.2rem 0.9375rem;
 }
 
-#startBox01 .startWiMarginLeftRight17percent {
-	margin-left: calc(16.66667% + .4987rem);
-	margin-right: calc(16.66667% + .4987rem);
+#startBox01 .startWiMarginLeft17percent,
+#startBox01 .startWiMarginLeft25percent,
+#startBox01 .startWiMarginLeft33percent {
+	margin-left:0;
+}
+#startBox01 .startWiMarginLeftRight17percent,
+#startBox01 .startWiMarginLeftRight25percent,
+#startBox01 .startWiMarginLeftRight33percent {
+	margin-left:0;
+	margin-right:0;
+}
+#startBox01 .startWiMarginRight17percent,
+#startBox01 .startWiMarginRight25percent,
+#startBox01 .startWiMarginRight33percent {
+	margin-right:0;
+}
+@media only screen and (min-width: 40.0625em) {
+	#startBox01 .startWiMarginLeft17percent {
+		margin-left: calc(16.66667% + 0.3125rem);
+	}
+	#startBox01 .startWiMarginLeftRight17percent {
+		margin-left: calc(16.66667% + 0.3125rem);
+		margin-right: calc(16.66667% + 0.3125rem);
+	}
+	#startBox01 .startWiMarginLeft25percent {
+		margin-left: calc(25% + 0.4687rem);
+	}
+	#startBox01 .startWiMarginLeftRight25percent {
+		margin-left: calc(25% + 0.4687rem);
+		margin-right: calc(25% + 0.4687rem);
+	}
+	#startBox01 .startWiMarginRight17percent {
+		margin-right: calc(16.66667% + 0.3125rem);
+	}
+	#startBox01 .startWiMarginRight25percent {
+		margin-right: calc(25% + 0.4687rem);
+	}
+}
+@media only screen and (min-width: 64.0625em) {
+	#startBox01 .startWiMarginLeft33percent {
+		margin-left: calc(33.33333% + 0.625rem);
+	}
+	#startBox01 .startWiMarginLeftRight33percent {
+		margin-left: calc(33.33333% + 0.625rem);
+		margin-right: calc(33.33333% + 0.625rem);
+	}
+	#startBox01 .startWiMarginLeftRight33percent {
+		margin-right: calc(33.33333% + 0.625rem);
+	}
 }
 
 #startBox01 .startWoMarginBottom {

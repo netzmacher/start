@@ -304,9 +304,33 @@
         <source>Margin: default (startWiMarginDefault)</source>
         <target>Ränder: Standard (startWiMarginDefault)</target>
       </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWiMarginLeft17percent">
+        <source>Margin: 2 | 10 – left | content (startWiMarginLeft17percent)</source>
+        <target>Ränder: 2 | 10 – links | Inhalt (startWiMarginLeft17percent)</target>
+      </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startWiMarginLeftRight17percent">
-        <source>Margin: left and right 17% (startWiMarginLeftRight17percent)</source>
-        <target>Ränder: links und rechts 17% (startWiMarginLeftRight17percent)</target>
+        <source>Margin: 2 | 8 | 2 – left | content | right (startWiMarginLeftRight17percent)</source>
+        <target>Ränder: 2 | 8 | 2 – links | Inhalt | rechts (startWiMarginLeftRight17percent)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWiMarginLeftRight25percent">
+        <source>Margin: 3 | 6 | 3 – left | content | right (startWiMarginLeftRight25percent)</source>
+        <target>Ränder: 3 | 6 | 3 – links | Inhalt | rechts (startWiMarginLeftRight25percent)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWiMarginLeft25percent">
+        <source>Margin: 3 | 9 – left | content (startWiMarginLeft25percent)</source>
+        <target>Ränder: 3 | 9 – links | Inhalt (startWiMarginLeft25percent)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWiMarginLeftRight33percent">
+        <source>Margin: 4 | 4 | 4 – left | content | right (startWiMarginLeftRight33percent)</source>
+        <target>Ränder: 4 | 4 | 4 – links | Inhalt | rechts (startWiMarginLeftRight33percent)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWiMarginRight25percent">
+        <source>Margin: 9 | 3 – content | right (startWiMarginRight25percent)</source>
+        <target>Ränder: 9 | 3 – Inhalt | rechts (startWiMarginRight25percent)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWiMarginRight17percent">
+        <source>Margin: 10 | 2 – content | right (startWiMarginRight17percent)</source>
+        <target>Ränder: 10 | 2 – Inhalt | rechts (startWiMarginRight17percent)</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startWoMarginBottom">
         <source>Margin: without bottom (startWoMarginBottom)</source>

@@ -253,9 +253,37 @@ $temporaryColumns = [
 										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startTopMinus1Em',
 										'1' => 'startTopMinus1Em',
 								],
+								'startDivMarginGrid' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startDiv',
+										'1' => '--div--',
+								],
+								'startWiMarginLeft17percent' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startWiMarginLeft17percent',
+										'1' => 'startWiMarginLeft17percent',
+								),
 								'startWiMarginLeftRight17percent' => array(
 										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startWiMarginLeftRight17percent',
 										'1' => 'startWiMarginLeftRight17percent',
+								),
+								'startWiMarginLeftRight25percent' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startWiMarginLeftRight25percent',
+										'1' => 'startWiMarginLeftRight25percent',
+								),
+								'startWiMarginLeft25percent' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startWiMarginLeft25percent',
+										'1' => 'startWiMarginLeft25percent',
+								),
+								'startWiMarginLeftRight33percent' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startWiMarginLeftRight33percent',
+										'1' => 'startWiMarginLeftRight33percent',
+								),
+								'startWiMarginRight25percent' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startWiMarginRight25percent',
+										'1' => 'startWiMarginRight25percent',
+								),
+								'startWiMarginRight17percent' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startWiMarginRight17percent',
+										'1' => 'startWiMarginRight17percent',
 								),
 								'startDivForm' => [
 										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startDivForm',
