@@ -275,6 +275,7 @@ body {
 #startBox01 .startWiMarginLeft33percent {
 	margin-left:0;
 }
+#startBox01 .startWiMarginLeftRight08percent,
 #startBox01 .startWiMarginLeftRight17percent,
 #startBox01 .startWiMarginLeftRight25percent,
 #startBox01 .startWiMarginLeftRight33percent {
@@ -289,6 +290,10 @@ body {
 @media only screen and (min-width: 40.0625em) {
 	#startBox01 .startWiMarginLeft17percent {
 		margin-left: calc(16.66667% + 0.3125rem);
+	}
+	#startBox01 .startWiMarginLeftRight08percent {
+		margin-left: 8%;
+		margin-right: 8%;
 	}
 	#startBox01 .startWiMarginLeftRight17percent {
 		margin-left: calc(16.66667% + 0.3125rem);

@@ -29,6 +29,13 @@ page {
 				required = 1
 				noTrimWrap = | layout-||
 			}
+				// data = tx_startgreen_ci_style
+			30 = TEXT
+			30 {
+				data = levelfield:-1,tx_startgreen_ci_style,slide
+				required = 1
+				noTrimWrap = | ||
+			}
 			wrap {
 				stdWrap {
 					cObject = TEXT

@@ -77,14 +77,18 @@
 										<numIndex index="1">startWiPaddingLeftRightDefault</numIndex>
 									</numIndex>
 									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.paddingleftright.08percent</numIndex>
+										<numIndex index="1">startWiMarginLeftRight08percent</numIndex>
+									</numIndex>
+									<numIndex index="2">
 										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.paddingleftright.17percent</numIndex>
 										<numIndex index="1">startWiMarginLeftRight17percent</numIndex>
 									</numIndex>
-									<numIndex index="2">
+									<numIndex index="3">
 										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.paddingleftright.25percent</numIndex>
 										<numIndex index="1">startWiMarginLeftRight25percent</numIndex>
 									</numIndex>
-									<numIndex index="3">
+									<numIndex index="4">
 										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.paddingleftright.33percent</numIndex>
 										<numIndex index="1">startWiMarginLeftRight33percent</numIndex>
 									</numIndex>

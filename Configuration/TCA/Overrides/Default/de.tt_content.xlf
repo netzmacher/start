@@ -308,6 +308,10 @@
         <source>Margin: 2 | 10 – left | content (startWiMarginLeft17percent)</source>
         <target>Ränder: 2 | 10 – links | Inhalt (startWiMarginLeft17percent)</target>
       </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWiMarginLeftRight08percent">
+        <source>Margin: 1 | 10 | 1 – left | content | right (startWiMarginLeftRight08percent)</source>
+        <target>Ränder: 1 | 10 | 1 – links | Inhalt | rechts (startWiMarginLeftRight08percent)</target>
+      </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startWiMarginLeftRight17percent">
         <source>Margin: 2 | 8 | 2 – left | content | right (startWiMarginLeftRight17percent)</source>
         <target>Ränder: 2 | 8 | 2 – links | Inhalt | rechts (startWiMarginLeftRight17percent)</target>

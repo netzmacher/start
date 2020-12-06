@@ -1,6 +1,18 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+startWiMarginLeftRight8percent
+
+8.0.36
+  20-12-06
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0389: [TASK] CSS. Here:
+						* Body tag contains the theme now
+						* Additional class: startWiMarginLeftRight8percent
+						Affected files:
+						* 
+						commit: 
+
 8.0.35
   20-12-05
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
