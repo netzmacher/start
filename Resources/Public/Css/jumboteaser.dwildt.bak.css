@@ -23,25 +23,25 @@
 	padding:20px;
 }
 
-.jumbotextoverlay h1,
-.jumbotextoverlay p {
+#startBox01 .jumbotextoverlay h1,
+#startBox01 .jumbotextoverlay p {
 	color:white;
 	line-height:1;
 	text-shadow: 0 0 6px black; 
 }
-.jumbotextoverlay h1 {
+#startBox01 .jumbotextoverlay h1 {
 	text-transform: uppercase;
 }
-.jumbotextoverlay h1 a,
-.jumbotextoverlay p a {
+#startBox01 .jumbotextoverlay h1 a,
+#startBox01 .jumbotextoverlay p a {
 	color:white;
 }
 
-.jumbotextoverlay p a {
+#startBox01 .jumbotextoverlay p a {
 	font-weight:normal;
 }
 
-.jumbotextoverlay a.button {
+#startBox01 .jumbotextoverlay a.button {
 	background: inherit;
 	border: 2px solid white;
 	border-radius: 99px;
@@ -50,37 +50,37 @@
 	text-shadow: 0 0 4px black; 
 }
 
-.jumbotextoverlay a.button {
+#startBox01 .jumbotextoverlay a.button {
 	font-size:0.75em;
 }
-.jumbotextoverlay h1 {
+#startBox01 .jumbotextoverlay h1 {
 	font-size:2em;
 }
-.jumbotextoverlay p {
+#startBox01 .jumbotextoverlay p {
 	font-size:1.1em;
 }
 
 /* 700px x 500px*/
 @media only screen and (min-width: 43.75em) and (min-height: 31.25em) {
-	.jumbotextoverlay a.button {
+	#startBox01 .jumbotextoverlay a.button {
 		font-size:0.75em;
 	}
-	.jumbotextoverlay h1 {
+	#startBox01 .jumbotextoverlay h1 {
 		font-size:3em;
 	}
-	.jumbotextoverlay p {
+	#startBox01 .jumbotextoverlay p {
 		font-size:1.2em;
 	}
 }
 /* 360px x 650px */
 @media only screen and (min-width: 22.5em) and (min-height: 40.625em) {
-	.jumbotextoverlay a.button {
+	#startBox01 .jumbotextoverlay a.button {
 		font-size:0.75em;
 	}
-	.jumbotextoverlay h1 {
+	#startBox01 .jumbotextoverlay h1 {
 		font-size:3em;
 	}
-	.jumbotextoverlay p {
+	#startBox01 .jumbotextoverlay p {
 		font-size:1.2em;
 	}
 }
@@ -94,13 +94,13 @@
 
 /* 700px x 700px */
 @media only screen and (min-height: 43.75em) and (min-width: 43.75em) {
-	.jumbotextoverlay a.button {
+	#startBox01 .jumbotextoverlay a.button {
 		font-size:0.75em;
 	}
-	.jumbotextoverlay h1 {
+	#startBox01 .jumbotextoverlay h1 {
 		font-size:5em;
 	}
-	.jumbotextoverlay p {
+	#startBox01 .jumbotextoverlay p {
 		font-size:1.8em;
 	}
 }

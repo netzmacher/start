@@ -9,9 +9,7 @@ startWiMarginLeftRight8percent
 	* #v0389: [TASK] CSS. Here:
 						* Body tag contains the theme now
 						* Additional class: startWiMarginLeftRight8percent
-						Affected files:
-						* 
-						commit: 
+						commit: 0b6f3ec51c879012255298c991adb151c7190120
 
 8.0.35
   20-12-05
