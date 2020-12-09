@@ -70,14 +70,13 @@ $extIcons = [
 				, 'label' => 'Start top navigation'
 				, 'source' => 'EXT:start/Resources/Public/Images/Icons/txStartTopNav.svg'
 		],
-                'ext-start-jumboteaser' => [
-                                'identifier' => 'ext-start-jumboteaser'
-                                , 'key' => 'txStartJumboteaser' // <- Key must be the part behind contain- of the identifier!
-                                , 'label' => 'Jumboteaser'
-                                , 'source' => 'EXT:start/ext_icon.svg'
-                                , 'source' => 'EXT:start/Resources/Public/Images/Icons/txStartJumboteaser.svg'
-                ],
-
+		'ext-start-jumboteaser' => [
+										'identifier' => 'ext-start-jumboteaser'
+										, 'key' => 'txStartJumboteaser' // <- Key must be the part behind contain- of the identifier!
+										, 'label' => 'Jumboteaser'
+										, 'source' => 'EXT:start/ext_icon.svg'
+										, 'source' => 'EXT:start/Resources/Public/Images/Icons/txStartJumboteaser.svg'
+		],
 		'ext-start-headlineimage' => [
 				'identifier' => 'ext-start-headlineimage'
 				, 'key' => 'txStartHeadlineimage' // <- Key must be the part behind contain- of the identifier!

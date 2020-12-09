@@ -3,6 +3,17 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 startWiMarginLeftRight8percent
 
+8.0.37
+  20-12-08
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0389: [TASK] CSS. Here: new classes for theme white
+						* .header-left ... .header-justify
+						Affected files:
+						* Configuration/ExtTables/Default.php
+						* Resources/Public/Css/basic.css
+						Commit
+						* 
+
 8.0.36
   20-12-06
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com

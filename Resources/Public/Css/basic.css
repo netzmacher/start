@@ -3,12 +3,8 @@ body {
 	overflow-x: hidden;
 }
 
-/* Class is required for left and right columns: if columns are empty, they will still be displayed. */
-/*.startVisHiddenHeight1 {
-	visibility: hidden;
-	height:1px;
-}*/
 
+/* Class is required for left and right columns: if columns are empty, they will still be displayed. */
 /* 1025px */
 @media only screen and (min-width: 64.0625em) {
 	.columns:empty:before {
