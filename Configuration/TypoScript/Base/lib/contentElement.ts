@@ -13,7 +13,7 @@ lib {
 			// empty statement for proper comment only
 		templateRootPaths {
 		}
-			// start: 177 (clearingthumbs), 207 (JumboTeaser), 227 (Teasercard), 237 (Headlineimage)
+			// start: 177 (clearingthumbs), 207 (JumboTeaser), 227 (Teasercard), 237 (Headlineimage), 247 (Jumpbox)
 		templateRootPaths =
 		templateRootPaths {
 				// if.isTrue = {start.templates.image.foundation.clearingthumbs} (here: {$start.templates.image.foundation.clearingthumbs}): EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Templates/
@@ -34,6 +34,7 @@ lib {
 			// #342 Container, 201119, fbostroem
 			227 = EXT:start/Resources/Private/Templates/FluidStyledContent/Teasercard/
 			237 = EXT:start/Resources/Private/Templates/FluidStyledContent/Headlineimage/
+			247 = EXT:start/Resources/Private/Templates/FluidStyledContent/Jumpbox/
 		}
 			// empty statement for proper comment only
 		partialRootPaths {

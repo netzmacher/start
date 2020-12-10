@@ -32,7 +32,14 @@
         <source>Headline with background image as content element</source>
         <target>Überschrift mit Hintergrundbild als Inhaltselement</target>
       </trans-unit>
-
+      <trans-unit id="txStartJumpbox.description">
+        <source>Small box with link and background colour</source>
+        <target>Kleine Kiste mit Link und Hintergrundfarbe</target>
+      </trans-unit>
+      <trans-unit id="txStartJumpbox.title">
+        <source>Jumpbox</source>
+        <target>Jumpbox</target>
+      </trans-unit>
     </body>
   </file>
 

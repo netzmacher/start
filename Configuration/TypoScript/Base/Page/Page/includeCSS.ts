@@ -8,5 +8,6 @@ page {
 		jumboteaser = EXT:start/Resources/Public/Css/jumboteaser.css
 		teasercard = EXT:start/Resources/Public/Css/teasercard.css
 		headlineimage = EXT:start/Resources/Public/Css/headlineimage.css
+		jumpbox = EXT:start/Resources/Public/Css/jumpbox.css
 	}
 }

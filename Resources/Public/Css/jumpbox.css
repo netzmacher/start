@@ -1,0 +1,56 @@
+/*
+ * Keep in mind: 
+ *		* startgreen might have a css @
+ *			Resources/Public/Css/style/2010141/
+ */
+
+.jumpbox{
+	width:100%;
+	float:left;
+}
+.jumpbox.MagicMagenta{
+	background-color:#E6007E;
+}
+.jumpbox.BlazingBlue{
+	background-color:#4CB4E7;
+}
+.jumpbox.GorgeousGreen{
+	background-color:#00A358:
+}
+.jumptext,
+.jumplink{
+	width:50%;
+	text-align: center;
+	min-width:20em;
+}
+.jumptext p,
+.jumplink p{
+	padding:2em;
+	margin:0;
+	display:block;
+}
+.jumptext a{
+	color:#fff;
+}
+.jumptext a:focus,
+.jumptext a:hover{
+	color:#D1D1D1;
+}
+.jumplink a{
+	border-radius:1em;
+	margin:0;
+}
+.jumptext{
+	float:left;
+}
+.jumplink{
+	float:left;
+}
+@media only screen and (max-width: 64em) {
+	.jumptext,
+	.jumplink{
+		width:100%;
+		float:none;
+	}
+}
+

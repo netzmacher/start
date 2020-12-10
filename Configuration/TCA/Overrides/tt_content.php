@@ -33,6 +33,11 @@ require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) 
 
 /* Headlineimage, 201204, fbostroem +1 */
 require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TCA/Overrides/tt_content/headlineimage.php' );
+
+/* Jumpbox, 201209, fbostroem +1 */
+require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TCA/Overrides/tt_content/jumpbox.php' );
+
+
 switch( TRUE )
 {
 	case($typo3Version < 8000000):

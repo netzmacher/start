@@ -1,6 +1,34 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.39
+  20-12-10
+	Author: Fredrik Boström (verdigado eG), support@verdigado.com
+	* #v0405 [FEATURE] Jumpbox
+						New files:
+						* Resources
+							* Public/Css/jumpbox.css
+							* Private/Templates/FluidStyledContent/Jumpbox/Jumpbox.html
+						* Configuration
+							* TypoScript/Base/tt_content/txStartJumpbox.ts
+							* TCA/Overrides/tt_content/jumpbox.xlf
+							* TCA/Overrides/tt_content/jumpbox.php
+							* TCA/Overrides/tt_content/de.jumpbox.xlf
+							* FlexForm/startJumpbox.xml
+						Affected files:
+						* Resources
+							* Private/Language/mod/wizards.xlf
+							* Private/Language/mod/de.wizards.xlf
+							* Private/Language/de.Backend.xlf
+							* Private/Language/Backend.xlf
+						* Configuration
+							* TypoScript/Base/tt_content/_setup.ts
+							* TypoScript/Base/lib/contentElement.ts
+							* TypoScript/Base/Page/Page/includeCSS.ts
+							* TSconfig/Page/Mod/Wizards/NewContentElement.ts
+							* TCA/Overrides/tt_content.php
+							* ExtTables/Default.php
+
 8.0.38
   20-12-10
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com

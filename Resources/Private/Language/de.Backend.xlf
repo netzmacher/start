@@ -397,6 +397,10 @@
         <source>Textblock 5</source>
         <target>Textblock 5</target>
       </trans-unit>
+      <trans-unit id="jumpbox.el.color">
+        <source>Colour</source>
+        <target>Farbe</target>
+      </trans-unit>
 			
     </body>
   </file>
