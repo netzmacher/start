@@ -192,6 +192,40 @@
 	color:#00A358;
 	padding:2px 4px;
 }
+.cardcontainer.type3{
+	background-color: paleturquoise;
+	min-height: unset;
+}
+.cardcontainer.type3:after,
+.cardcontainer.type3:before{
+	content: none;
+}
+.cardcontainer.type3 .innerwrap {
+	height:100%;
+	position:relative;
+	transform:none;
+}
+.cardcontainer.type3 .row.outer{
+	padding:2rem 4rem;
+}
+#startBox01 .cardcontainer.type3 a,
+#startBox01 .cardcontainer.type3 p,
+#startBox01 .cardcontainer.type3 h1{
+	line-height:1.5em;
+	color:#000;
+	text-transform:none;
+}
+.cardcontainer.type3 .thin{
+	font-weight:normal;
+	margin-right:3em;
+}
+#startBox01 #startBox02 .cardcontainer.type3 a.button{
+	transform: none;
+	font-size:1.1em;
+	left: unset;
+	border:2px solid black;
+}
+
 @media only screen and (max-width: 1000px){
 	.cardcontainer .smallerboxes{
 		padding:0 10%;

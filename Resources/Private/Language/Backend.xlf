@@ -333,6 +333,10 @@
         <source>With one box</source>
         <target>Mit einem Kasten</target>
       </trans-unit>
+      <trans-unit id="teasercard.el.cardtype.3">
+        <source>Magazine</source>
+        <target>Magazin</target>
+      </trans-unit>	
       <trans-unit id="teasercard.el.cardtype.4">
         <source>With four boxes</source>
         <target>Mit vier Kästen</target>

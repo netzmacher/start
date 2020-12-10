@@ -37,6 +37,7 @@ mod.wizards {
 			}
 			show := addToList('txStartJumboteaser')
 			show := addToList('txStartTeasercard')
+			show := addToList('txStartJumpbox')
 		}
 	}
 }

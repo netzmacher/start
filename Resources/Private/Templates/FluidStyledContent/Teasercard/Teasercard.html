@@ -40,11 +40,14 @@
 				<f:else if="{content.cardtype} == 4">
 					<f:render partial="Teasercard/Card_04" arguments="{_all}"/>
 				</f:else>
+				<f:else if="{content.cardtype} == 3">
+					<f:render partial="Teasercard/Card_03" arguments="{_all}"/>
+				</f:else>
 				<f:else>
 					<f:render partial="Teasercard/Card_01" arguments="{_all}"/>
 				</f:else>
 			</f:if>
-			<f:if condition="{images.0}">
+			<f:if condition="{images.0} && {content.cardtype} != 3">
 				<div class="beimage">
 					<f:image image="{images.0.originalFile}" class="teasercard"/>
 				</div>

@@ -1,0 +1,28 @@
+<div class="innerwrap">
+	<div class="row outer box">
+		<div class="large-4 columns boxleft">
+			<f:image image="{images.0.originalFile}" class="cover"/>
+		</div>
+		<div class="large-7 columns boxright">
+			<div class="row">
+				<div class="large-12 columns">
+					<f:render partial="Wrap" arguments="{tag: 'h1', text: content.title0}"/>
+					<f:render partial="Wrap" arguments="{tag: 'p', text: content.subtitle0}"/>
+				</div>
+				<div class="large-12 columns">
+					<f:if condition='{content.cta0}'>
+						<f:link.typolink parameter="{content.cta0}" class="button">{content.buttonlabel0}</f:link.typolink>
+					</f:if>
+				</div>
+				<div class="large-12 columns">
+					<f:if condition='{content.cta1}'>
+						<f:link.typolink parameter="{content.cta1}" class="thin">{content.buttonlabel1}</f:link.typolink>
+					</f:if>
+					<f:if condition='{content.cta2}'>
+						<f:link.typolink parameter="{content.cta2}" class="thin">{content.buttonlabel2}</f:link.typolink>
+					</f:if>
+				</div>
+			</div>
+		</div>	
+	</div>
+</div>

@@ -341,6 +341,10 @@
         <source>With four boxes and a counter</source>
         <target>Mit vier Kästen und einem Zähler</target>
       </trans-unit>
+      <trans-unit id="teasercard.el.cardtype.3">
+        <source>Magazine</source>
+        <target>Magazin</target>
+      </trans-unit>
       <trans-unit id="teasercard.el.cta">
         <source>Call To Action link</source>
         <target>Call To Action link</target>
