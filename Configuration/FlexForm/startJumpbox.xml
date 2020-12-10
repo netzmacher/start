@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+	<sheets>
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumpbox.sheet.sDEF</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<color>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumpbox.el.color</label>
+							<config>
+								<type>select</type>
+								<renderType>selectSingle</renderType>
+								<default>MagicMagenta</default>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">Magic Magenta</numIndex>
+										<numIndex index="1">MagicMagenta</numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">Blazing Blue</numIndex>
+										<numIndex index="1">BlazingBlue</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">Gorgeous Green</numIndex>
+										<numIndex index="1">GorgeousGreen</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</color>
+				</el>
+			</ROOT>
+		</sDEF>
+	</sheets>
+</T3DataStructure>

@@ -84,6 +84,13 @@ $extIcons = [
 				, 'source' => 'EXT:start/ext_icon.svg'
 				, 'source' => 'EXT:start/Resources/Public/Images/Icons/txStartJumboteaser.svg'
 		],
+		'ext-start-jumpbox' => [
+			'identifier' => 'ext-start-jumpbox'
+			, 'key' => 'txStartJumpbox' // <- Key must be the part behind contain- of the identifier!
+			, 'label' => 'Jumpbox'
+			, 'source' => 'EXT:start/ext_icon.svg'
+			, 'source' => 'EXT:start/Resources/Public/Images/Icons/txStartJumboteaser.svg'
+		],
 		'ext-start-teasercard' => [
 				'identifier' => 'ext-start-teasercard'
 				, 'key' => 'txStartTeasercard' // <- Key must be the part behind contain- of the identifier!
