@@ -1,7 +1,31 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
-startWiMarginLeftRight8percent
+8.0.38
+  20-12-10
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0389: [TASK] CSS. Here: additional backend-layouts
+						* start_blue_04_bottom
+						* start_blue_04_top
+						* start_blue_04_wo
+						New files:
+						* Resources
+							* Private/Templates/foundation-5.5.3/Templates/Be_layout
+								* Blue_04_bottom.html
+								* Blue_04_top.html
+								* Blue_04_wo.html
+						* Public/Images/BackendLayouts
+							* start_blue_04_bottom.gif
+							* start_blue_04_top.gif
+							* start_blue_04_wo.gif
+						Affected files:
+						* Classes/Provider/BackendLayoutDataProvider.php
+						* Configuration/TypoScript/Base/Page/Page/63148/blue.ts
+						* Resources/Private/Language
+							* Backend.xlf
+							* de.Backend.xlf
+						Commit:
+						* 
 
 8.0.37
   20-12-08
@@ -11,7 +35,7 @@ startWiMarginLeftRight8percent
 						Affected files:
 						* Configuration/ExtTables/Default.php
 						* Resources/Public/Css/basic.css
-						Commit
+						Commit:
 						* 8edd306259179f76d0fec7933253194a913c827d
 
 8.0.36

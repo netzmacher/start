@@ -107,6 +107,21 @@ page {
         classRowPlusMain	= {$start.foundation.grid.class.rowPlusMainFullWidth}
       }
     }
+      // Four rows: header || top || content || footer
+    start__blue_04_top < .start__blue_04
+    start__blue_04_top {
+      templateName = Blue_04_top.html
+    }
+      // Four rows: header || content || bottom || footer
+    start__blue_04_bottom < .start__blue_04
+    start__blue_04_bottom {
+      templateName = Blue_04_bottom.html
+    }
+      // Three rows: header || content || footer
+    start__blue_04_wo < .start__blue_04
+    start__blue_04_wo {
+      templateName = Blue_04_wo.html
+    }
       // Three rows: header || content || footer
     start__blue_05 < .start__blue_01
     start__blue_05 {

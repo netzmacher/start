@@ -1,0 +1,21 @@
+<f:layout name="blue" />
+<f:section name="content">
+	<f:variable name="startTop"><f:cObject typoscriptObjectPath="start.structure.content.topMain" /></f:variable>
+	<f:variable name="startBottom"><f:cObject typoscriptObjectPath="start.structure.content.bottomMain" /></f:variable>
+  <div id="maincontent" class="maincontent">
+		<div class="{settings.classRow} {settings.classRowPlusMain}">
+			<div class="{settings.classColMainContentMain} {settings.classCell} maincontentmain main">
+				<!--content-->
+				<f:cObject typoscriptObjectPath="start.structure.content.main" />
+				<!--/content-->
+			</div>
+		</div>
+		<f:if condition="<f:format.raw>{startBottom}</f:format.raw>">
+			<div class="{settings.classRow} {settings.classRowPlusBottom}">
+				<div class="{settings.classColMainContentBottomCenter} {settings.classCell} main">
+					<f:format.raw>{startBottom}</f:format.raw>
+				</div>
+			</div>
+		</f:if>
+	</div>
+</f:section>

@@ -37,6 +37,18 @@
         <source>Start Blue 4: | top || left | MAIN | right || bottom |</source>
         <target>Start Blau 4: | oben || links | INHALT | rechts || unten |</target>
       </trans-unit>
+      <trans-unit id="backend_layout.blue_04_bottom">
+        <source>Start Blue 4.1: | MAIN | bottom |</source>
+        <target>Start Blau 4.1: | INHALT | unten |</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.blue_04_top">
+        <source>Start Blue 4.2: | top | MAIN |</source>
+        <target>Start Blau 4.2: | oben | INHALT |</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.blue_04_wo">
+        <source>Start Blue 4.3: | MAIN |</source>
+        <target>Start Blau 4.3: | INHALT |</target>
+      </trans-unit>
       <trans-unit id="backend_layout.blue_05">
         <source>Start Blue 5: | MAIN |</source>
         <target>Start Blau 5: | INHALT |</target>
