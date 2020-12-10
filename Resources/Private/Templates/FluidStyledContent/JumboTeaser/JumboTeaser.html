@@ -19,10 +19,10 @@
 <div class="jumbocontainer">
 	<div class="jumbotextoverlay" style="top:{content.distanceFromTop}%;">
 		<h1>
-			<f:link.typolink parameter="{data.header_link}">{data.header}</f:link.typolink>
+			<f:link.typolink parameter="{data.header_link}"><f:format.raw>{data.header}</f:format.raw></f:link.typolink>
 		</h1>
 		<p>
-		<f:link.typolink parameter="{data.header_link}">{data.subheader}</f:link.typolink>
+		<f:link.typolink parameter="{data.header_link}"><f:format.raw>{data.subheader}</f:format.raw></f:link.typolink>
 		</p>
 		<f:if condition="{data.header_link}">
 			<p>
