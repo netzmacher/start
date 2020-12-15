@@ -1,0 +1,35 @@
+<f:variable name="then" value="{content.countdowndate}" />
+<f:variable name="now" value="{f:format.date(date: '', format: 'U')}" />
+<f:variable name="diff" value="{then - now}" />
+<f:if condition="{diff} > 0">
+	<f:variable name="days" value="{diff/86400}" />
+	<f:variable name="days" value="{days + 1}" />
+	<f:variable name="daysO" value="{days % 10}" />
+	<f:variable name="dayst" value="{days % 100}" />
+	<f:variable name="daysT" value="{dayst -daysO}" />
+	<f:variable name="daysT" value="{daysT/10}" />
+	<f:variable name="daysh" value="{days % 1000}" />
+	<f:variable name="daysH" value="{daysh - dayst}" />
+	<f:variable name="daysH" value="{daysH/100}" />
+	<f:variable name="daysm" value="{days % 10000}" />
+	<f:variable name="daysM" value="{daysm - daysh}" />
+	<f:variable name="daysM" value="{daysM/1000}" />
+</f:if>
+
+<f:section name="calendar">
+	<f:if condition="{daysM} >= 1">
+		<span class="number"><f:format.number decimals="0">{daysM}</f:format.number></span>
+	</f:if>
+	<f:if condition="{daysH} >= 1">
+		<span class="number"><f:format.number decimals="0">{daysH}</f:format.number></span>
+	</f:if>
+	<span class="number"><f:format.number decimals="0">{daysT}</f:format.number></span>
+	<span class="number"><f:format.number decimals="0">{daysO}</f:format.number></span>
+</f:section>
+<f:variable name="calendar"><f:render section="calendar" arguments="{_all}" /></f:variable>
+
+<f:variable name="titleWiBr">
+	<f:format.nl2br>{title}</f:format.nl2br>
+</f:variable>
+
+<f:format.raw><f:format.printf arguments="{1: calendar}">{titleWiBr}</f:format.printf></f:format.raw>

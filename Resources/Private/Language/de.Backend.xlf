@@ -291,14 +291,21 @@
         <source>Breakpoint for the big view (in pixel). 0 if there isn't any top bar.</source>
         <target>Breakpoint für großen Bildschirm (in Pixel). 0, wenn kein Menü bzw. Kopfzeile vorhanden ist.</target>
       </trans-unit>
-			
+			<trans-unit id="jumboteaser.el.brightness">
+        <source>Brightness</source>
+        <target>Helligkeit</target>
+      </trans-unit>
       <trans-unit id="jumboteaser.el.buttonlabel">
         <source>Label of the button</source>
         <target>Beschriftung des Buttons</target>
       </trans-unit>
+      <trans-unit id="jumboteaser.el.cta">
+        <source>Call-to-cction-Link</source>
+        <target>Call-to-Action-Link</target>
+      </trans-unit>
       <trans-unit id="jumboteaser.el.distanceFromTop">
-        <source>Move text down (in percent)</source>
-        <target>Text nach unten schieben (in Prozent)</target>
+        <source>Space between text and top margin (in percent)</source>
+        <target>Abstand zwischen Text und oberen Rand (in Prozent)</target>
       </trans-unit>
       <trans-unit id="jumboteaser.el.responsiveheightsmall">
         <source>Height of the top bar in small views (in pixel). 0 if there isn't any top bar.</source>
@@ -308,13 +315,25 @@
         <source>Height of the top bar in big views (in pixel). 0 if there isn't any top bar.</source>
         <target>Höhe des Menüs oder der Kopfzeile auf großen Bildschirmen (in Pixel). 0, wenn keins vorhanden ist.</target>
       </trans-unit>
+      <trans-unit id="jumboteaser.el.subtitle">
+        <source>Subheader</source>
+        <target>Untertitel</target>
+      </trans-unit>
+      <trans-unit id="jumboteaser.el.title">
+        <source>Header</source>
+        <target>Titel</target>
+      </trans-unit>
       <trans-unit id="jumboteaser.sheet.sDEF">
-        <source>Text</source>
-        <target>Text</target>
+        <source>Adjustments</source>
+        <target>Einstellungen</target>
       </trans-unit>
       <trans-unit id="jumboteaser.sheet.responsive">
         <source>Responsive Design</source>
         <target>Responsive Design</target>
+      </trans-unit>
+      <trans-unit id="jumboteaser.sheet.text">
+        <source>Text</source>
+        <target>Text</target>
       </trans-unit>
 
 			<trans-unit id="teasercard.el.breakpoint">
@@ -349,6 +368,10 @@
         <source>Left column with a countdown and four boxes</source>
         <target>Linke Spalte mit Countdown und vier Kästen</target>
       </trans-unit>
+      <trans-unit id="teasercard.el.countdowndate">
+        <source>Countdown to the date</source>
+        <target>Countdown bis zum Datum</target>
+      </trans-unit>
       <trans-unit id="teasercard.el.countdowninfo.label">
 				<source>Note</source>
 				<target>Hinweise</target>
@@ -357,6 +380,22 @@
 				<source><![CDATA[The countdown value replaces the expression "%s" in the heading in the left column.]]></source>
 				<target><![CDATA[Der Countdown-Wert ersetzt den Ausdruck "%s" in der Überschrift in der linken Spalte.]]></target>
 			</trans-unit>
+			<trans-unit id="teasercard.el.croptopbottom">
+        <source>Crop the picture from ...</source>
+        <target>Bild abschneiden von ...</target>
+      </trans-unit>
+			<trans-unit id="teasercard.el.croptopbottom.bottom">
+        <source>below</source>
+        <target>unten</target>
+      </trans-unit>
+			<trans-unit id="teasercard.el.croptopbottom.center">
+        <source>above and below</source>
+        <target>oben und unten</target>
+      </trans-unit>
+			<trans-unit id="teasercard.el.croptopbottom.top">
+        <source>above</source>
+        <target>oben</target>
+      </trans-unit>
       <trans-unit id="teasercard.el.cta">
         <source>Call-to-cction-Link</source>
         <target>Call-to-Action-Link</target>
@@ -368,6 +407,10 @@
       <trans-unit id="teasercard.el.minheightboxes">
         <source>Height of the boxes</source>
         <target>Höhe der Kästen</target>
+      </trans-unit>
+			<trans-unit id="teasercard.el.padding">
+        <source>Margin</source>
+        <target>Rand</target>
       </trans-unit>
       <trans-unit id="teasercard.el.responsiveheightsmall">
         <source>Height of the container in small views (in pixel). 0: no changing</source>

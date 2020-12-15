@@ -1,5 +1,5 @@
 <style>
-	.jumbocontainer {
+	.jumboteaserContainer {
 		height: calc(100vh - {content.responsiveheightsmall}px);
 	}
 </style>
@@ -8,7 +8,7 @@
 	<f:then>
 		<style>
 			@media only screen and (min-width: {content.breakpoint}px) {
-				.jumbocontainer {
+				.jumboteaserContainer {
 					height: calc(100vh - {content.responsiveheightmedium}px);
 				}
 			}
@@ -16,8 +16,10 @@
 	</f:then>
 </f:if>
 
-<div class="jumbocontainer">
-	<div class="jumbotextoverlay" style="top:{content.distanceFromTop}%;">
+<div class="jumboteaserContainer">
+	<div class="jumboteaserTextoverlay" style="top:{content.distanceFromTop}%;">
+		<f:render partial="Wrap" arguments="{tag: 'h1', link: content.cta, text: content.title}"/>
+		<f:render partial="Wrap" arguments="{tag: 'p', link: content.cta, text: content.subtitle}"/>
 		<h1>
 			<f:link.typolink parameter="{data.header_link}"><f:format.raw>{data.header}</f:format.raw></f:link.typolink>
 		</h1>

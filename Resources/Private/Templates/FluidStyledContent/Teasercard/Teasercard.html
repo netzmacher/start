@@ -3,64 +3,68 @@
 	<f:section name="Main">
 
 		<style>
-			.teasercardcontainer {
-				height: calc(100vh - {content.responsiveheightsmall}px);
+			.teasercardcontainer.type-1 .panel {
+				min-height:{content.minheightbox}px;
 			}
-			.teasercard {
-				filter: brightness({content.brightness}%);
+			.teasercardcontainer.type-4 .panel,
+			.teasercardcontainer.type-5 .panel {
+				min-height:{content.minheightboxes}px;
 			}
-			.teasercardcontainer .row.outer {
-				padding: 0 5rem;
-			}
-			.teasercardcontainer .box .panel {
-				min-height: {content.minheightbox}px;
-			}
-			.teasercardcontainer .boxes .panel {
-				min-height: {content.minheightboxes}px;
+			.teasercardtextoverlay {
+				padding: {content.padding}px {content.padding}px calc({content.padding}px - 1.25rem) {content.padding}px;
 			}
 		</style>
 
-		<f:if condition="{content.breakpoint}">
+		<f:variable name="imageClass"></f:variable>
+		<f:if condition="{images.0} && {content.cardtype} != 3">
+			<f:variable name="imageClass"> wiImage</f:variable>
+			<f:variable name="brightness"><f:cObject typoscriptObjectPath="lib.start.calc" data="(100-{content.brightness})/100"/></f:variable>
+			<style>
+				.teasercardcontainer {
+					background-image: linear-gradient(rgba(0,0,0,<f:format.raw>{brightness}</f:format.raw>), rgba(0,0,0,<f:format.raw>{brightness}</f:format.raw>)),
+					url(<f:uri.image image="{images.0}" />);
+					background-position: center {content.croptopbottom};
+				}
+			</style>
+		</f:if>
+
+		<f:variable name="headerTag">{data.header_layout}</f:variable>
+		<f:if condition="{headerTag}=='0'">
 			<f:then>
-				<style>
-					@media only screen and (min-width: {content.breakpoint}px) {
-						.teasercardcontainer {
-							height: calc(100vh - {content.responsiveheightmedium}px);
-						}
-					}
-				</style>
+				<f:variable name="headerTag">h1</f:variable>	
 			</f:then>
+			<f:else if="{headerTag}=='100'">
+				<f:variable name="headerTag"></f:variable>	
+			</f:else>
+			<f:else>
+				<f:variable name="headerTag">h{data.header_layout}</f:variable>	
+			</f:else>
 		</f:if>
 
-		<f:if condition="{images.0}">
-			<f:variable name="classWiImage">wiImage</f:variable>
-		</f:if>
-
-		<div class="teasercardcontainer type{content.cardtype} {classWiImage}">
-			<f:if condition="{content.cardtype} == 5">
-				<f:then>
-					<f:render partial="Teasercard/Card_05" arguments="{_all}"/>
-				</f:then>
-				<f:else if="{content.cardtype} == 4">
-					<f:render partial="Teasercard/Card_04" arguments="{_all}"/>
-				</f:else>
-				<f:else if="{content.cardtype} == 3">
-					<f:render partial="Teasercard/Card_03" arguments="{_all}"/>
-				</f:else>
-				<f:else>
-					<f:render partial="Teasercard/Card_01" arguments="{_all}"/>
-				</f:else>
-			</f:if>
-			<f:if condition="{images.0} && {content.cardtype} != 3">
-				<div class="beimage">
-					<f:image image="{images.0.originalFile}" class="teasercard"/>
+		<div class="teasercardcontainer type-{content.cardtype}{imageClass}" >
+			<div class="teasercardtextoverlay {content.paddingleftright}">
+				<div class="row">
+					<f:if condition="{content.cardtype} == 5">
+						<f:then>
+							<f:render partial="Teasercard/Card_05" arguments="{_all}"/>
+						</f:then>
+						<f:else if="{content.cardtype} == 4">
+							<f:render partial="Teasercard/Card_04" arguments="{_all}"/>
+						</f:else>
+						<f:else if="{content.cardtype} == 3">
+							<f:render partial="Teasercard/Card_03" arguments="{_all}"/>
+						</f:else>
+						<f:else>
+							<f:render partial="Teasercard/Card_01" arguments="{_all}"/>
+						</f:else>
+					</f:if>
 				</div>
-			</f:if>
+			</div>
 		</div>
+
 	</f:section>
 
 	<f:section name="debug">
-		<f:debug title="@ksdbfwäe">{images.0.originalFile}</f:debug>
+		<f:debug title="@kdhfläkNks">{images.0.originalFile}</f:debug>
 	</f:section>
 </html>
-

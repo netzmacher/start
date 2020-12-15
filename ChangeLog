@@ -4,7 +4,38 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 8.0.40
   20-12-15
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
-	* #v0342: [TASK] Teaser Container. Here: Improvement HTML, CSS, localisation 1/2
+	* #v0342: [TASK] Teaser Container. Here: Improvement flexform, HTML, CSS, localisation 2/3
+	* #v0327: [TASK] Jumboteaser. Here: flexform extra field for title and subtitle 1/2
+						New files:
+						* Resources/Private
+							* Partials/FluidStyledContent/Teasercard/Countdown.html
+							* Templates/FluidStyledContent/Jumboteaser/Jumboteaser.html
+						Affected files:
+						* Configuration
+							* FlexForm/startTeasercard.xml
+							* TCA/Overrides/tt_content/jumboteaser.php
+							* TypoScript/Base
+								* lib/contentElement.ts
+								* tt_content/txStartJumboteaser.ts
+						* Resources
+							* Private
+								* Language
+									* Backend.xlf
+									* de.Backend.xlf
+								* Partials/FluidStyledContent/Teasercard
+									* Card_01.html
+									* Card_03.html
+									* Card_04.html
+									* Card_05.html
+								* Templates/FluidStyledContent/Teasercard/Teasercard.html
+							* Public/Css
+								* jumboteaser.css
+								* teasercard.css
+						Removed files:
+						* Resources/Public/JavaScript/Libs/Foundation-5.5.1
+						Commit:
+						* 
+	* #v0342: [TASK] Teaser Container. Here: Improvement flexform, HTML, CSS, localisation 1/3
 						New file:
 						* Classes/Flexform/Teasercard/Countdownhelp.php
 						Affected files:

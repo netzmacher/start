@@ -1,266 +1,31 @@
+/*
+ * Keep in mind: 
+ *		* dynamic css is placed @
+ *			Resources/Private/Templates/FluidStyledContent/Headlineimage/Headlineimage.html
+ *		* startgreen might have a css @
+ *			Resources/Public/Css/style/2010141/
+ */
+
 .teasercardcontainer {
-	position:relative;
-	overflow:hidden;
-	color:white;
-	width: 100%;
-	min-height:600px;
-}
-@media only screen and (min-width: 800px) {
-	.teasercardcontainer:before {
-		content: "";
-		float: left;
-		/* essentially the aspect ratio. 100% means the
-		div will remain 100% as tall as it is wide, or
-		square in other words.  */
-		padding-bottom: 50%;
-	}
-	.teasercardcontainer:after {
-		content: "";
-		display: table;
-		clear: both;
-	}
-}
-.innerwrap {
-	z-index: 5;
-	position: absolute;
-	width: 100%;
-	transform: translateY(-50%);
-	top: 50%;
-	height: 70%;
-}
-.type4 .innerwrap {
-	height:50%
-}
-.beimage {
-	position:absolute;
-}
-.beimage img {
-	min-width: 1200px;
-}
-.bigbox {
-	width:50%;
-	height:100%;
-	z-index: 10;
-	position:absolute;
-	left:0;
-}
-.smallerboxes {
-	width:50%;
-	z-index: 10;
-	position:absolute;
-	right:0;
-	height:100%;
-	padding:0 10%;
-}
-.type5 .smallerboxes {
-	padding:0 5% 0 0;
-}
-.text0 {
-	width:60%;
-	margin:auto;
+	align-items: center;
+	background-size:cover;
+	justify-content: center;
 }
 
-.cardtextoverlay {
-	background:#27ae60;
-	padding:2em;
-	float:left;
-	overflow:hidden;
-
-}
-
-.cardtextoverlay {
-	width:48%;
-	height:45%;
-	position: relative;
-	min-width:4em;
-}
-.type4 .cardtextoverlay {
-	height:30%;
-	padding:0;
-	text-align: center;
-	max-width:200px;
-}
-.type4 .cardtextoverlay * {
-	position:absolute;
-	transform: translateY(-50%);
-	top:50%;
-	width:100%;
-	text-align: center;
-}
-.type4 .cardtextoverlay a {
-	display:block;
+.wiImage .teasercardtextoverlay .boxleft h2,
+.wiImage .teasercardtextoverlay .boxleft h3 {
 	color:white;
 }
-.type4 .smallerboxes {
-	padding:0 10em;
-}
-.text1 {
-	margin:0 2% 2% 0;
-}
-.text2 {
-	margin:0 0 2% 2%;
-}
-.text3 {
-	margin:2% 2% 0 0;
-}
-.text4 {
-	margin:2% 0 0 2%;
-}
-.type2 .cardtextoverlay.text1 {
-	width:80%;
-	margin:auto;
-	height:80%;
-}
-.teasercardcontainer .button {
-	border-radius: 30px;
-	background: transparent;
-	border: 2px solid white;
-	font-weight:bold;
-	margin-top:0.9735rem;
-	/*	position:absolute;
-		bottom:0;*/
-	padding:0.5rem 1rem 0.5rem 1rem;
-}
-.teasercardcontainer .button {
-	transform: translateX(-50%);
-	left: 50%;
-}
-.teasercardcontainer .panel {
-	position: relative;
-}
-.teasercardcontainer .panel .button {
-	position: absolute;
-	bottom:1.4rem;
-	transform:none;
-	left:inherit;
-}
-.teasercardcontainer.wiImage .boxleft p,
-.teasercardcontainer.wiImage .boxleft h1,
-.teasercardcontainer.wiImage .boxleft h2,
-.teasercardcontainer.wiImage .boxleft h3 {
+.wiImage .teasercardtextoverlay .boxleft h2 a,
+.wiImage .teasercardtextoverlay .boxleft h3 a {
 	color:white;
 }
-/*.teasercardcontainer .smallerboxes h1,
-.teasercardcontainer .smallerboxes h2,
-.teasercardcontainer .smallerboxes h3 {
-	font-family: serif;
-	font-weight: 999;
-}*/
-/*.teasercardcontainer.type4 .smallerboxes h2 {
-	font-size:3em;
-}*/
-/*.teasercardcontainer h1 {
-	font-size:2em;
-}
-.teasercardcontainer h2 {
-	font-size:1.5em;
-}
-.teasercardcontainer h3 {
-	font-size:1.1em;
-}
-.teasercardcontainer p {
-	font-size:1.1em;
-}
-.teasercardcontainer h1,
-.teasercardcontainer h2,
-.teasercardcontainer h3,
-.teasercardcontainer p {
-	font-family: Poppins, 'PT Sans', PTSansWeb, 'DejaVu Sans Condensed', Trebuchet MS, Geneva, Arial, Helvetica, Verdana, sans-serif;
-}
-.teasercardcontainer .boxright h2 {
-	font-family: ArvoWeb, Arvo, Poppins, 'PT Sans', PTSansWeb, 'DejaVu Sans Condensed', Trebuchet MS, Geneva, Arial, Helvetica, Verdana, sans-serif;
-}
-.teasercardcontainer h1,
-.teasercardcontainer h2 {
-	font-weight: bold;
-}
-.teasercardcontainer .boxright h2 {
-	text-transform: uppercase;
-}*/
-.teasercardcontainer .startgreenGreen a {
-	color: #FFFFFF;
-}
-.teasercardcontainer .startgreenGreen a:hover {
-	color: #FFEE00;
-}
-.teasercardcontainer .boxright p a {
-	font-weight: normal;
-}
 
-.type5 .number {
+.teasercardtextoverlay .number {
 	background:#F0F0F0;
-	color:#00A358;
 	padding:2px 4px;
 }
-.teasercardcontainer.type3 {
-	background-color: paleturquoise;
-	min-height: unset;
-}
-.teasercardcontainer.type3:after,
-.teasercardcontainer.type3:before {
-	content: none;
-}
-.teasercardcontainer.type3 .innerwrap {
-	height:100%;
-	position:relative;
-	transform:none;
-}
-.teasercardcontainer.type3 .row.outer {
-	padding:2rem 4rem;
-}
-.teasercardcontainer.type3 a,
-.teasercardcontainer.type3 p,
-.teasercardcontainer.type3 h1 {
-	line-height:1.5em;
+.wiImage .teasercardtextoverlay .number {
+	background:#F0F0F0;
 	color:#000;
-	text-transform:none;
 }
-.teasercardcontainer.type3 .thin {
-	font-weight:normal;
-	margin-right:3em;
-}
-.teasercardcontainer.type3 a.button {
-	transform: none;
-	font-size:1.1em;
-	left: unset;
-	border:2px solid black;
-}
-
-@media only screen and (max-width: 1000px) {
-	.teasercardcontainer .smallerboxes {
-		padding:0 10%;
-	}
-	.type5.teasercardcontainer .smallerboxes {
-		padding:0 5%;
-	}
-	.type2 .cardtextoverlay.text1 {
-		width:100%;
-	}
-}
-@media only screen and (max-width: 800px) {
-	.bigbox {
-		text-align: center;
-	}
-	.smallerboxes,
-	.bigbox {
-		position:relative;
-		width:100%;
-		height:50%;
-	}
-	.type2 .smallerboxes,
-	.type4 .smallerboxes {
-		padding:0 30%;
-	}
-	.teasercardcontainer .innerwrap {
-		height:80%;
-	}
-}
-@media only screen and (max-width: 550px) {
-	.teasercardcontainer .smallerboxes {
-		padding:0 10%;
-	}
-}
-
-
-
-

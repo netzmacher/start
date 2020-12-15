@@ -16,7 +16,7 @@
     // 'list_type' does not apply here
     '*',
     // Flexform configuration schema file
-    'FILE:EXT:start/Configuration/FlexForm/startJumbo.xml',
+    'FILE:EXT:start/Configuration/FlexForm/startJumboteaser.xml',
     // ctype
     'txStartJumboteaser'
 );

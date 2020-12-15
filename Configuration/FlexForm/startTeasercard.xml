@@ -54,6 +54,46 @@
 							</config>
 						</TCEforms>
 					</brightness>
+					<croptopbottom>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.croptopbottom</label>
+							<config>
+								<type>select</type>
+								<renderType>selectSingle</renderType>
+								<default>center</default>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.croptopbottom.center</numIndex>
+										<numIndex index="1">center</numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.croptopbottom.top</numIndex>
+										<numIndex index="1">top</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.croptopbottom.bottom</numIndex>
+										<numIndex index="1">bottom</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</croptopbottom>
+					<padding>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.padding</label>
+							<config>
+								<type>input</type>
+								<size>3</size>
+								<max>3</max>
+								<eval>int,trim</eval>
+								<default>50</default>
+								<range>
+									<lower>0</lower>
+									<upper>999</upper>
+								</range>
+							</config>
+						</TCEforms>
+					</padding>
 					<minheightbox>
 						<TCEforms>
 							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.minheightbox</label>
@@ -144,14 +184,12 @@
 			<ROOT>
 				<TCEforms>
 					<sheetTitle>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.sheet.countdown</sheetTitle>
-					<displayCond>FIELD:sDEF.cardtype:IN:5</displayCond>
 				</TCEforms>
 				<type>array</type>
 				<el>
 					<countdowndate>
 						<TCEforms>
 							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.countdowndate</label>
-							<displayCond>FIELD:sDEF.cardtype:=:5</displayCond>
 							<config>
 								<type>input</type>
 								<renderType>inputDateTime</renderType>
@@ -165,7 +203,6 @@
 					<countdowninfo>
 						<TCEforms>
 							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.countdowninfo.label</label>
-							<displayCond>FIELD:sDEF.cardtype:=:5</displayCond>
 							<config>
 								<type>user</type>
 								<renderType>StartTeasercardCountdowninfo</renderType>

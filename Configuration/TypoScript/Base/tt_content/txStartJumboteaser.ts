@@ -1,7 +1,7 @@
 tt_content {
 	txStartJumboteaser =< lib.contentElement
 	txStartJumboteaser {
-		templateName = JumboTeaser
+		templateName = Jumboteaser
 		dataProcessing.1 = Netzmacher\Start\DataProcessing\FlexFormProcessor
 		dataProcessing.1 {
 			options {

@@ -13,7 +13,7 @@ lib {
 			// empty statement for proper comment only
 		templateRootPaths {
 		}
-			// start: 177 (clearingthumbs), 207 (JumboTeaser), 227 (Teasercard), 237 (Headlineimage), 247 (Jumpbox)
+			// start: 177 (clearingthumbs), 207 (Jumboteaser), 227 (Teasercard), 237 (Headlineimage), 247 (Jumpbox)
 		templateRootPaths =
 		templateRootPaths {
 				// if.isTrue = {start.templates.image.foundation.clearingthumbs} (here: {$start.templates.image.foundation.clearingthumbs}): EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Templates/
@@ -30,7 +30,7 @@ lib {
 					value = EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Template/
 				}
 			}
-			207 = EXT:start/Resources/Private/Templates/FluidStyledContent/JumboTeaser/
+			207 = EXT:start/Resources/Private/Templates/FluidStyledContent/Jumboteaser/
 			// #342 Container, 201119, fbostroem
 			227 = EXT:start/Resources/Private/Templates/FluidStyledContent/Teasercard/
 			237 = EXT:start/Resources/Private/Templates/FluidStyledContent/Headlineimage/
@@ -39,7 +39,7 @@ lib {
 			// empty statement for proper comment only
 		partialRootPaths {
 		}
-			// start: 177 (clearingthumbs), 207 (JumboTeaser)
+			// start: 177 (clearingthumbs), 207 (Jumboteaser)
 		partialRootPaths =
 		partialRootPaths {
 				// if.isTrue = {start.templates.image.foundation.clearingthumbs} (here: {$start.templates.image.foundation.clearingthumbs}): EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Partials/
@@ -61,7 +61,7 @@ lib {
 			// empty statement for proper comment only
 		layoutRootPaths {
 		}
-			// start: 177 (clearingthumbs), 207 (JumboTeaser)
+			// start: 177 (clearingthumbs), 207 (Jumboteaser)
 		layoutRootPaths =
 		layoutRootPaths {
 				// if.isTrue = {start.templates.image.foundation.clearingthumbs} (here: {$start.templates.image.foundation.clearingthumbs}): EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Layout/
@@ -78,7 +78,7 @@ lib {
 					value = EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Layouts/
 				}
 			}
-			207 = EXT:start/Resources/Private/Layout/FluidStyledContent/JumboTeaser/
+			207 = EXT:start/Resources/Private/Layout/FluidStyledContent/Jumboteaser/
 			237 = EXT:start/Resources/Private/Layout/FluidStyledContent/Headlineteaser
 		}
 	}
