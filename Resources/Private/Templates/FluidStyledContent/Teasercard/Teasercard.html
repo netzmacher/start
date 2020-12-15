@@ -3,19 +3,19 @@
 	<f:section name="Main">
 
 		<style>
-			.jumbocontainer {
+			.teasercardcontainer {
 				height: calc(100vh - {content.responsiveheightsmall}px);
 			}
 			.teasercard {
 				filter: brightness({content.brightness}%);
 			}
-			.cardcontainer .row.outer {
+			.teasercardcontainer .row.outer {
 				padding: 0 5rem;
 			}
-			.cardcontainer .box .panel {
+			.teasercardcontainer .box .panel {
 				min-height: {content.minheightbox}px;
 			}
-			.cardcontainer .boxes .panel {
+			.teasercardcontainer .boxes .panel {
 				min-height: {content.minheightboxes}px;
 			}
 		</style>
@@ -24,7 +24,7 @@
 			<f:then>
 				<style>
 					@media only screen and (min-width: {content.breakpoint}px) {
-						.jumbocontainer {
+						.teasercardcontainer {
 							height: calc(100vh - {content.responsiveheightmedium}px);
 						}
 					}
@@ -32,7 +32,11 @@
 			</f:then>
 		</f:if>
 
-		<div class="cardcontainer type{content.cardtype}">
+		<f:if condition="{images.0}">
+			<f:variable name="classWiImage">wiImage</f:variable>
+		</f:if>
+
+		<div class="teasercardcontainer type{content.cardtype} {classWiImage}">
 			<f:if condition="{content.cardtype} == 5">
 				<f:then>
 					<f:render partial="Teasercard/Card_05" arguments="{_all}"/>

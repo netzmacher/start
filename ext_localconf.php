@@ -79,5 +79,15 @@ call_user_func( function ()
 	$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'RTE' ][ 'Presets' ][ 'start' ] = 'EXT:start/Configuration/RTE/Start.yaml';
 	// #i0225, #i0224, 190405, dwildt, 1+
 	$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'RTE' ][ 'Presets' ][ 'startwiexternalplugin' ] = 'EXT:start/Configuration/RTE/StartWiExternalPlugin.yaml';
+
+	/*	 * ****************************************************************************
+	 * Register Nodes
+	 * **************************************************************************** */
+
+	$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'SYS' ][ 'formEngine' ][ 'nodeRegistry' ][ 1607954683 ] = [
+			'nodeName' => 'StartTeasercardCountdowninfo',
+			'priority' => 40,
+			'class' => \Netzmacher\Start\Flexform\Teasercard\Countdownhelp::class,
+	];
 }
 );

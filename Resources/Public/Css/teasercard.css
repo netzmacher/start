@@ -1,12 +1,12 @@
-.cardcontainer {
+.teasercardcontainer {
 	position:relative;
 	overflow:hidden;
 	color:white;
 	width: 100%;
 	min-height:600px;
 }
-@media only screen and (min-width: 800px){
-	.cardcontainer:before {
+@media only screen and (min-width: 800px) {
+	.teasercardcontainer:before {
 		content: "";
 		float: left;
 		/* essentially the aspect ratio. 100% means the
@@ -14,13 +14,13 @@
 		square in other words.  */
 		padding-bottom: 50%;
 	}
-	.cardcontainer:after {
+	.teasercardcontainer:after {
 		content: "";
 		display: table;
 		clear: both;
 	}
 }
-.innerwrap{
+.innerwrap {
 	z-index: 5;
 	position: absolute;
 	width: 100%;
@@ -28,23 +28,23 @@
 	top: 50%;
 	height: 70%;
 }
-.type4 .innerwrap{
+.type4 .innerwrap {
 	height:50%
 }
-.beimage{
+.beimage {
 	position:absolute;
 }
-.beimage img{
+.beimage img {
 	min-width: 1200px;
 }
-.bigbox{
+.bigbox {
 	width:50%;
 	height:100%;
 	z-index: 10;
 	position:absolute;
 	left:0;
 }
-.smallerboxes{
+.smallerboxes {
 	width:50%;
 	z-index: 10;
 	position:absolute;
@@ -52,15 +52,15 @@
 	height:100%;
 	padding:0 10%;
 }
-.type5 .smallerboxes{
+.type5 .smallerboxes {
 	padding:0 5% 0 0;
 }
-.text0{
+.text0 {
 	width:60%;
 	margin:auto;
 }
 
-.cardtextoverlay{
+.cardtextoverlay {
 	background:#27ae60;
 	padding:2em;
 	float:left;
@@ -68,50 +68,50 @@
 
 }
 
-.cardtextoverlay{
+.cardtextoverlay {
 	width:48%;
 	height:45%;
 	position: relative;
 	min-width:4em;
 }
-.type4 .cardtextoverlay{
+.type4 .cardtextoverlay {
 	height:30%;
 	padding:0;
 	text-align: center;
 	max-width:200px;
 }
-.type4 .cardtextoverlay *{
+.type4 .cardtextoverlay * {
 	position:absolute;
 	transform: translateY(-50%);
 	top:50%;
 	width:100%;
 	text-align: center;
 }
-#startBox01 .type4 .cardtextoverlay a{
+.type4 .cardtextoverlay a {
 	display:block;
 	color:white;
 }
-.type4 .smallerboxes{
+.type4 .smallerboxes {
 	padding:0 10em;
 }
-.text1{
+.text1 {
 	margin:0 2% 2% 0;
 }
-.text2{
+.text2 {
 	margin:0 0 2% 2%;
 }
-.text3{
+.text3 {
 	margin:2% 2% 0 0;
 }
-.text4{
+.text4 {
 	margin:2% 0 0 2%;
 }
-.type2 .cardtextoverlay.text1{
+.type2 .cardtextoverlay.text1 {
 	width:80%;
 	margin:auto;
 	height:80%;
 }
-#startBox01 #startBox02 .cardcontainer .button{
+.teasercardcontainer .button {
 	border-radius: 30px;
 	background: transparent;
 	border: 2px solid white;
@@ -121,142 +121,142 @@
 		bottom:0;*/
 	padding:0.5rem 1rem 0.5rem 1rem;
 }
-.cardcontainer .button {
+.teasercardcontainer .button {
 	transform: translateX(-50%);
 	left: 50%;
 }
-.cardcontainer .panel {
+.teasercardcontainer .panel {
 	position: relative;
 }
-.cardcontainer .panel .button {
+.teasercardcontainer .panel .button {
 	position: absolute;
 	bottom:1.4rem;
 	transform:none;
 	left:inherit;
 }
-#startBox01 .cardcontainer p,
-#startBox01 .cardcontainer h1,
-#startBox01 .cardcontainer h2,
-#startBox01 .cardcontainer h3 {
+.teasercardcontainer.wiImage .boxleft p,
+.teasercardcontainer.wiImage .boxleft h1,
+.teasercardcontainer.wiImage .boxleft h2,
+.teasercardcontainer.wiImage .boxleft h3 {
 	color:white;
 }
-#startBox01 .cardcontainer .smallerboxes h1,
-#startBox01 .cardcontainer .smallerboxes h2,
-#startBox01 .cardcontainer .smallerboxes h3 {
+/*.teasercardcontainer .smallerboxes h1,
+.teasercardcontainer .smallerboxes h2,
+.teasercardcontainer .smallerboxes h3 {
 	font-family: serif;
 	font-weight: 999;
-}
-#startBox01 .cardcontainer.type4 .smallerboxes h2 {
+}*/
+/*.teasercardcontainer.type4 .smallerboxes h2 {
 	font-size:3em;
-}
-#startBox01 .cardcontainer h1 {
+}*/
+/*.teasercardcontainer h1 {
 	font-size:2em;
 }
-#startBox01 .cardcontainer h2 {
+.teasercardcontainer h2 {
 	font-size:1.5em;
 }
-#startBox01 .cardcontainer h3 {
+.teasercardcontainer h3 {
 	font-size:1.1em;
 }
-#startBox01 .cardcontainer p {
+.teasercardcontainer p {
 	font-size:1.1em;
 }
-#startBox01 .cardcontainer h1,
-#startBox01 .cardcontainer h2,
-#startBox01 .cardcontainer h3,
-#startBox01 .cardcontainer p {
+.teasercardcontainer h1,
+.teasercardcontainer h2,
+.teasercardcontainer h3,
+.teasercardcontainer p {
 	font-family: Poppins, 'PT Sans', PTSansWeb, 'DejaVu Sans Condensed', Trebuchet MS, Geneva, Arial, Helvetica, Verdana, sans-serif;
 }
-#startBox01 .cardcontainer .boxright h2 {
+.teasercardcontainer .boxright h2 {
 	font-family: ArvoWeb, Arvo, Poppins, 'PT Sans', PTSansWeb, 'DejaVu Sans Condensed', Trebuchet MS, Geneva, Arial, Helvetica, Verdana, sans-serif;
 }
-#startBox01 .cardcontainer h1,
-#startBox01 .cardcontainer h2 {
+.teasercardcontainer h1,
+.teasercardcontainer h2 {
 	font-weight: bold;
 }
-#startBox01 .cardcontainer .boxright h2 {
+.teasercardcontainer .boxright h2 {
 	text-transform: uppercase;
-}
-#startBox01 .cardcontainer .startgreenGreen a {
+}*/
+.teasercardcontainer .startgreenGreen a {
 	color: #FFFFFF;
 }
-#startBox01 .cardcontainer .startgreenGreen a:hover {
+.teasercardcontainer .startgreenGreen a:hover {
 	color: #FFEE00;
 }
-#startBox01 .cardcontainer .boxright p a {
+.teasercardcontainer .boxright p a {
 	font-weight: normal;
 }
 
-.type5 .number{
+.type5 .number {
 	background:#F0F0F0;
 	color:#00A358;
 	padding:2px 4px;
 }
-.cardcontainer.type3{
+.teasercardcontainer.type3 {
 	background-color: paleturquoise;
 	min-height: unset;
 }
-.cardcontainer.type3:after,
-.cardcontainer.type3:before{
+.teasercardcontainer.type3:after,
+.teasercardcontainer.type3:before {
 	content: none;
 }
-.cardcontainer.type3 .innerwrap {
+.teasercardcontainer.type3 .innerwrap {
 	height:100%;
 	position:relative;
 	transform:none;
 }
-.cardcontainer.type3 .row.outer{
+.teasercardcontainer.type3 .row.outer {
 	padding:2rem 4rem;
 }
-#startBox01 .cardcontainer.type3 a,
-#startBox01 .cardcontainer.type3 p,
-#startBox01 .cardcontainer.type3 h1{
+.teasercardcontainer.type3 a,
+.teasercardcontainer.type3 p,
+.teasercardcontainer.type3 h1 {
 	line-height:1.5em;
 	color:#000;
 	text-transform:none;
 }
-.cardcontainer.type3 .thin{
+.teasercardcontainer.type3 .thin {
 	font-weight:normal;
 	margin-right:3em;
 }
-#startBox01 #startBox02 .cardcontainer.type3 a.button{
+.teasercardcontainer.type3 a.button {
 	transform: none;
 	font-size:1.1em;
 	left: unset;
 	border:2px solid black;
 }
 
-@media only screen and (max-width: 1000px){
-	.cardcontainer .smallerboxes{
+@media only screen and (max-width: 1000px) {
+	.teasercardcontainer .smallerboxes {
 		padding:0 10%;
 	}
-	.type5.cardcontainer .smallerboxes{
+	.type5.teasercardcontainer .smallerboxes {
 		padding:0 5%;
 	}
 	.type2 .cardtextoverlay.text1 {
 		width:100%;
 	}
 }
-@media only screen and (max-width: 800px){
-	.bigbox{
+@media only screen and (max-width: 800px) {
+	.bigbox {
 		text-align: center;
 	}
 	.smallerboxes,
-	.bigbox{
+	.bigbox {
 		position:relative;
 		width:100%;
 		height:50%;
 	}
 	.type2 .smallerboxes,
-	.type4 .smallerboxes{
+	.type4 .smallerboxes {
 		padding:0 30%;
 	}
-	.cardcontainer .innerwrap {
+	.teasercardcontainer .innerwrap {
 		height:80%;
 	}
 }
-@media only screen and (max-width: 550px){
-	.cardcontainer .smallerboxes{
+@media only screen and (max-width: 550px) {
+	.teasercardcontainer .smallerboxes {
 		padding:0 10%;
 	}
 }

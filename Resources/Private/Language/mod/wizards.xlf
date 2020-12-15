@@ -17,12 +17,12 @@
         <target>Überschrift mit Hintergrundbild Bildschirm füllend</target>
       </trans-unit>
       <trans-unit id="txStartTeasercard.description">
-        <source>Headline on the left with one or four boxes on the right with background image</source>
-        <target>Überschrift links mit 1 oder 4 Boxen rechts mit Hintergrundbild</target>
+        <source>Left column with headline and optional a countdown. Right column with one or four boxes.</source>
+        <target>Linke Spalte mit Überschrift und wahlweise einem Countdown. Rechte Spalte mit 1 oder 4 Kästen.</target>
       </trans-unit>
       <trans-unit id="txStartTeasercard.title">
-        <source>Headline with boxes</source>
-        <target>Überschrift mit Boxen</target>
+        <source>Headline with wallpaper and boxes</source>
+        <target>Container mit Hintergrundbild und Kästen</target>
       </trans-unit>
       <trans-unit id="txStartHeadlineimage.description">
         <source>Headline with background image as content element</source>
@@ -32,7 +32,7 @@
         <source>Headline with background image as content element</source>
         <target>Überschrift mit Hintergrundbild als Inhaltselement</target>
       </trans-unit>
-      <trans-unit id="txStartJumpbox.description">
+      <trans-unit id="txStartJompbox.description">
         <source>Small box with link and background colour</source>
         <target>Kleine Kiste mit Link und Hintergrundfarbe</target>
       </trans-unit>
@@ -40,7 +40,8 @@
         <source>Jumpbox</source>
         <target>Jumpbox</target>
       </trans-unit>
-    </body>
+
+		</body>
   </file>
 
 </xliff>

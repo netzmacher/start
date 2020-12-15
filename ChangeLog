@@ -1,6 +1,41 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.40
+  20-12-15
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0342: [TASK] Teaser Container. Here: Improvement HTML, CSS, localisation 1/2
+						New file:
+						* Classes/Flexform/Teasercard/Countdownhelp.php
+						Affected files:
+						* Configuration
+							* FlexForm/startTeasercard.xml
+							* TCA/Overrides/tt_content
+								* de.teasercard.xlf
+								* teasercard.xlf
+							* TypoScript/Base/lib/start/calc.ts
+						* Resources
+							* Private
+								* Language
+									* Backend.xlf
+									* de.Backend.xlf
+									* mod
+										* de.wizards.xlf
+										* wizards.xlf
+								* Partials
+									* FluidStyledContent
+										* Teasercard
+											* Card_01.html
+											* Card_03.html
+											* Card_04.html
+											* Card_05.html
+										* Wrap.html
+								* Templates/FluidStyledContent/Teasercard/Teasercard.html
+							* Public/Css/teasercard.css
+						* ext_localconf.php
+						Commit:
+						* 
+
 8.0.39
   20-12-10
 	Author: Fredrik Boström (verdigado eG), support@verdigado.com

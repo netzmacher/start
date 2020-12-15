@@ -317,6 +317,10 @@
         <target>Responsive Design</target>
       </trans-unit>
 
+			<trans-unit id="teasercard.el.breakpoint">
+        <source>Big view from pixel:</source>
+        <target>Großer Bildschirm ab Pixel:</target>
+      </trans-unit>
 			<trans-unit id="teasercard.el.brightness">
         <source>Brightness</source>
         <target>Helligkeit</target>
@@ -330,32 +334,36 @@
         <target>Kartentyp</target>
       </trans-unit>
       <trans-unit id="teasercard.el.cardtype.1">
-        <source>With one box</source>
-        <target>Mit einem Kasten</target>
+        <source>Left column and one box</source>
+        <target>Linke Spalte und ein Kasten</target>
       </trans-unit>
       <trans-unit id="teasercard.el.cardtype.3">
-        <source>Magazine</source>
-        <target>Magazin</target>
+        <source>Image left and one box</source>
+        <target>Bild links und ein Kasten</target>
       </trans-unit>	
       <trans-unit id="teasercard.el.cardtype.4">
-        <source>With four boxes</source>
-        <target>Mit vier Kästen</target>
+        <source>Left column and four boxes</source>
+        <target>Linke Spalte und vier Kästen</target>
       </trans-unit>
       <trans-unit id="teasercard.el.cardtype.5">
-        <source>With four boxes and a counter</source>
-        <target>Mit vier Kästen und einem Zähler</target>
+        <source>Left column with a countdown and four boxes</source>
+        <target>Linke Spalte mit Countdown und vier Kästen</target>
       </trans-unit>
+      <trans-unit id="teasercard.el.countdowndate">
+        <source>Countdown to the date</source>
+        <target>Countdown bis zum Datum</target>
+      </trans-unit>
+      <trans-unit id="teasercard.el.countdowninfo.label">
+				<source>Note</source>
+				<target>Hinweise</target>
+			</trans-unit>
+      <trans-unit id="teasercard.el.countdowninfo.prompt">
+				<source><![CDATA[The countdown value replaces the expression "%s" in the heading in the left column.]]></source>
+				<target><![CDATA[Der Countdown-Wert ersetzt den Ausdruck "%s" in der Überschrift in der linken Spalte.]]></target>
+			</trans-unit>
       <trans-unit id="teasercard.el.cta">
-        <source>Call To Action link</source>
-        <target>Call To Action link</target>
-      </trans-unit>
-      <trans-unit id="teasercard.el.eventdate">
-        <source>Date</source>
-        <target>Datum</target>
-      </trans-unit>
-      <trans-unit id="teasercard.el.eventdate">
-        <source>Date</source>
-        <target>Datum</target>
+        <source>Call-to-cction-Link</source>
+        <target>Call-to-Action-Link</target>
       </trans-unit>
       <trans-unit id="teasercard.el.minheightbox">
         <source>Height of the box</source>
@@ -365,6 +373,14 @@
         <source>Height of the boxes</source>
         <target>Höhe der Kästen</target>
       </trans-unit>
+      <trans-unit id="teasercard.el.responsiveheightsmall">
+        <source>Height of the container in small views (in pixel). 0: no changing</source>
+        <target>Höhe des Containers bei kleinen Bildschirmen (in Pixel). 0: keine Änderung</target>
+      </trans-unit>
+      <trans-unit id="teasercard.el.responsiveheightmedium">
+        <source>Height of the container in big views (in pixel). 0: depends on content</source>
+        <target>Höhe des Containers bei großen Bildschirmen (in Pixel). 0: abhängig vom Inhalt</target>
+      </trans-unit>
       <trans-unit id="teasercard.el.subtitle">
         <source>Subheader</source>
         <target>Untertitel</target>
@@ -373,33 +389,33 @@
         <source>Header</source>
         <target>Titel</target>
       </trans-unit>
-      <trans-unit id="teasercard.sheet.sDEF">
-        <source>General</source>
-        <target>Allgemein</target>
-      </trans-unit>
       <trans-unit id="teasercard.sheet.box0">
-        <source>Text</source>
-        <target>Text</target>
+        <source>Left column</source>
+        <target>Linke Spalte</target>
       </trans-unit>
       <trans-unit id="teasercard.sheet.box1">
-        <source>Textblock 1</source>
-        <target>Textblock 1</target>
+        <source>Box 1</source>
+        <target>Kasten 1</target>
       </trans-unit>
       <trans-unit id="teasercard.sheet.box2">
-        <source>Textblock 2</source>
-        <target>Textblock 2</target>
+        <source>Box 2</source>
+        <target>Kasten 2</target>
       </trans-unit>
       <trans-unit id="teasercard.sheet.box3">
-        <source>Textblock 3</source>
-        <target>Textblock 3</target>
+        <source>Box 3</source>
+        <target>Kasten 3</target>
       </trans-unit>
       <trans-unit id="teasercard.sheet.box4">
-        <source>Textblock 4</source>
-        <target>Textblock 4</target>
+        <source>Box 4</source>
+        <target>Kasten 4</target>
       </trans-unit>
-      <trans-unit id="teasercard.sheet.box5">
-        <source>Textblock 5</source>
-        <target>Textblock 5</target>
+      <trans-unit id="teasercard.sheet.countdown">
+        <source>Countdown</source>
+        <target>Countdown</target>
+      </trans-unit>
+      <trans-unit id="teasercard.sheet.sDEF">
+        <source>Configuration</source>
+        <target>Einstellungen</target>
       </trans-unit>
       <trans-unit id="jumpbox.el.color">
         <source>Colour</source>

@@ -1,4 +1,4 @@
-<f:variable name="then" value="{content.eventdate}" />
+<f:variable name="then" value="{content.countdowndate}" />
 <f:variable name="now" value="{f:format.date(date: '', format: 'U')}" />
 <f:variable name="diff" value="{then - now}" />
 <f:if condition="{diff} > 0">
@@ -15,56 +15,68 @@
 	<f:variable name="daysM" value="{daysM/1000}" />
 </f:if>
 
-<div class="innerwrap">
-	<div class="bigbox">
-		<div class="text0">
-			<h1 class="countdown">
-				Noch
-				<f:if condition="{daysM} >= 1">
-					<span class="number"><f:format.number decimals="0">{daysM}</f:format.number></span>
-				</f:if>
-				<f:if condition="{daysH} >= 1">
-					<span class="number"><f:format.number decimals="0">{daysH}</f:format.number></span>
-				</f:if>
-				<span class="number"><f:format.number decimals="0">{daysT}</f:format.number></span>
-				<span class="number"><f:format.number decimals="0">{daysO}</f:format.number></span>
-				Tage bis zur Wahl - Das kannst du jetzt tun
-			</h1>
-		</div>
-	</div>
-	<div class="smallerboxes">
-		<div class="cardtextoverlay text1">
-			<h2>
-				{content.title1}
-			</h2>
-			<p>
-				{content.subtitle1}
-			</p>
-		</div>
+<f:section name="calendar">
+		<f:if condition="{daysM} >= 1">
+			<span class="number"><f:format.number decimals="0">{daysM}</f:format.number></span>
+		</f:if>
+		<f:if condition="{daysH} >= 1">
+			<span class="number"><f:format.number decimals="0">{daysH}</f:format.number></span>
+		</f:if>
+		<span class="number"><f:format.number decimals="0">{daysT}</f:format.number></span>
+		<span class="number"><f:format.number decimals="0">{daysO}</f:format.number></span>
+</f:section>
+<f:variable name="calendar"><f:render section="calendar" arguments="{_all}" /></f:variable>
 
-		<div class="cardtextoverlay text2">
-			<h2>
-				{content.title2}
-			</h2>
-			<p>
-				{content.subtitle2}
-			</p>
+<f:variable name="titleWiBr">
+	<f:format.nl2br>{content.title0}</f:format.nl2br>
+</f:variable>
+
+<f:variable name="headline">
+	<f:format.printf arguments="{1: calendar}">{titleWiBr}</f:format.printf>
+</f:variable>
+
+<div class="innerwrap">
+	<div class="row outer boxes">
+		<div class="large-6 columns boxleft">
+			<f:render partial="Wrap" arguments="{tag: 'h2', class: 'countdown', text: headline, noNl2br: 1}"/>
+			<f:render partial="Wrap" arguments="{tag: 'h3', text: content.subtitle0}"/>
 		</div>
-		<div class="cardtextoverlay text3">
-			<h2>
-				{content.title3}
-			</h2>
-			<p>
-				{content.subtitle3}
-			</p>
-		</div>
-		<div class="cardtextoverlay text4">
-			<h2>
-				{content.title4}
-			</h2>
-			<p>
-				{content.subtitle4}
-			</p>
-		</div>
+		<div class="large-6 columns boxright">
+			<div class="row">
+				<div class="medium-6 columns">
+					<div class="panel startgreenGreen">
+						<f:render partial="Wrap" arguments="{tag: 'h3', link: content.cta1, text: content.title1}"/>
+						<f:render partial="Wrap" arguments="{tag: 'p', link: content.cta1, text: content.subtitle1}"/>
+					</div>
+				</div>
+				<div class="medium-6 columns">
+					<div class="panel startgreenGreen">
+						<f:render partial="Wrap" arguments="{tag: 'h3', link: content.cta2, text: content.title2}"/>
+						<f:render partial="Wrap" arguments="{tag: 'p', link: content.cta2, text: content.subtitle2}"/>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="medium-6 columns">
+					<div class="panel startgreenGreen">
+						<f:render partial="Wrap" arguments="{tag: 'h3', link: content.cta3, text: content.title3}"/>
+						<f:render partial="Wrap" arguments="{tag: 'p', link: content.cta3, text: content.subtitle3}"/>
+					</div>
+				</div>
+				<div class="medium-6 columns">
+					<div class="panel startgreenGreen">
+						<f:render partial="Wrap" arguments="{tag: 'h3', link: content.cta4, text: content.title4}"/>
+						<f:render partial="Wrap" arguments="{tag: 'p', link: content.cta4, text: content.subtitle4}"/>
+					</div>
+				</div>
+			</div>
+			<f:if condition='{content.cta0}'>
+				<div class="row">
+					<div class="columns">
+						<f:link.typolink parameter="{content.cta0}" class="button">{content.buttonlabel0}</f:link.typolink>
+					</div>
+				</div>
+			</f:if>
+		</div>	
 	</div>
 </div>

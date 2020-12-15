@@ -12,5 +12,12 @@ lib {
 			current = 1
 			prioriCalc = 1
 		}
+		replace = TEXT
+		replace {
+			search = %s
+			replace {
+				current = 1
+			}
+		}
 	}
 }

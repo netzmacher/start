@@ -1,5 +1,20 @@
 <f:if condition="{text}">
 	<f:if condition="{tag}">
-		<{tag}><f:link.typolink parameter="{link}">{text}</f:link.typolink></{tag}>
+		<f:if condition="{noNl2br} != 1">
+			<f:then>
+				<f:variable name="content"><f:link.typolink parameter="{link}"><f:format.nl2br>{text}</f:format.nl2br></f:link.typolink></f:variable>
+			</f:then>
+			<f:else>
+				<f:variable name="content"><f:link.typolink parameter="{link}">{text}</f:link.typolink></f:variable>
+			</f:else>
+		</f:if>
+		<f:if condition="{class}">
+			<f:then>
+				<{tag} class="{class}"><f:format.raw>{content}</f:format.raw></{tag}>				
+			</f:then>
+			<f:else>
+				<{tag}><f:format.raw>{content}</f:format.raw></{tag}>				
+			</f:else>
+		</f:if>
 	</f:if>
 </f:if>
