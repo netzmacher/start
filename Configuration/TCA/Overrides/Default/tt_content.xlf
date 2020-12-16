@@ -152,6 +152,10 @@
         <source>Effects: shake (startEffectShake01)</source>
         <target>Effekte: Schütteln (startEffectShake01)</target>
       </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startEffectZoom01">
+        <source>Effects: zoom (startEffectZoom01)</source>
+        <target>Effekte: Vergrößern (startEffectZoom01)</target>
+      </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startFigCaptionHideForSmallOnly">
         <source>Images: Caption hide for mobile (startFigCaptionHideForSmallOnly)</source>
         <target>Bilder: Unterschrift für Smartphone verstecken (startFigCaptionHideForSmallOnly)</target>

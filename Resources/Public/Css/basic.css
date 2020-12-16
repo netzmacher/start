@@ -50,7 +50,7 @@ body {
 	display: block;
 	margin: 0;
 }
-#startBox01 .startFigCaptionHideForSmallOnly figcaption {
+.startFigCaptionHideForSmallOnly figcaption {
 	display: none;
 }
 
@@ -67,53 +67,63 @@ body {
 	clear: both;
 }
 
-#startBox01 .startBackgroundFixed,
-#startBox01 .startBackgroundFixed > div {
+.startBackgroundFixed,
+.startBackgroundFixed > div {
 	background-attachment: fixed;
 }
-#startBox01 .startBackgroundScroll,
-#startBox01 .startBackgroundScroll > div {
+.startBackgroundScroll,
+.startBackgroundScroll > div {
 	background-attachment: scroll;
 }
-#startBox01 .startBackgroundWhite {
+.startBackgroundWhite {
 	color: #0A321E;
   background: #FFFFFF;
 }
 
-#startBox01 .startContainer {
+.startContainer {
 	margin: 0 auto;
 	padding: 0 .9375rem;
 }
-#startBox01 .startWidth0125 {
+.startWidth0125 {
 	max-width:12.5rem;
 }
-#startBox01 .startWidth0250 {
+.startWidth0250 {
 	max-width:25.0rem;
 }
-#startBox01 .startWidth0375 {
+.startWidth0375 {
 	max-width:37.5rem;
 }
-#startBox01 .startWidth0500 {
+.startWidth0500 {
 	max-width:50.0rem;
 }
-#startBox01 .startWidth0625 {
+.startWidth0625 {
 	max-width:62.5rem;
 }
-#startBox01 .startWidth0750 {
+.startWidth0750 {
 	max-width:75.0rem;
 }
-#startBox01 .startWidth0875 {
+.startWidth0875 {
 	max-width:87.5rem;
 }
-#startBox01 .startWidth1000 {
+.startWidth1000 {
 	max-width:100.0rem;
 }
-#startBox01 .startWidth1125 {
+.startWidth1125 {
 	max-width:112.5rem;
 }
 
-#startBox01 .startEffectShake01 {
+.startEffectShake01 {
   animation: 2s startEffectShake01 infinite alternate;
+}
+.startEffectZoom01 {
+  transition: transform .2s;
+}
+
+.startEffectZoom01:hover {
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05); 
+	z-index:10;
 }
 
 @keyframes startEffectShake01 {
@@ -125,199 +135,199 @@ body {
   100% { transform: skewX(0deg); }  
 }
 
-#startBox01 .startFontLightOnDark,
-#startBox01 .startFontLightOnDark * {
+.startFontLightOnDark,
+.startFontLightOnDark * {
 	color:white;
 }
 
 /* Respect the order: startFormFieldsetWoAll must be on top all other startFormFieldset* */
-#startBox01 .startFormFieldsetWoAll fieldset {
+.startFormFieldsetWoAll fieldset {
 	border: 0;
 	margin: 0;
 	padding: 0;
 }
-#startBox01 .startFormFieldsetWiBorderBottom fieldset {
+.startFormFieldsetWiBorderBottom fieldset {
 	border-bottom: 1px solid #ddd;
 	padding-bottom: 2em;
 }
-#startBox01 .startFormFieldsetWiBorderLeft fieldset {
+.startFormFieldsetWiBorderLeft fieldset {
 	border-left: 1px solid #ddd;
 	padding-left: 2em;
 }
-#startBox01 .startFormFieldsetWiBorderRight fieldset {
+.startFormFieldsetWiBorderRight fieldset {
 	border-right: 1px solid #ddd;
 	padding-right: 2em;
 }
-#startBox01 .startFormFieldsetWiBorderTop fieldset {
+.startFormFieldsetWiBorderTop fieldset {
 	border-top: 1px solid #ddd;
 	padding-top: 2em;
 }
-#startBox01 .startFormFieldsetWiPaddingBottom fieldset {
+.startFormFieldsetWiPaddingBottom fieldset {
 	padding-bottom: 1em;
 }
-#startBox01 .startFormFieldsetWiPaddingLeft fieldset {
+.startFormFieldsetWiPaddingLeft fieldset {
 	padding-left: 1em;
 }
-#startBox01 .startFormFieldsetWiPaddingRight fieldset {
+.startFormFieldsetWiPaddingRight fieldset {
 	padding-right: 1em;
 }
-#startBox01 .startFormFieldsetWiPaddingTop fieldset {
+.startFormFieldsetWiPaddingTop fieldset {
 	padding-top: 1em;
 }
-#startBox01 .startFormLegendWo legend {
+.startFormLegendWo legend {
 	display: none;
 }
 
 
-#startBox01 .startHyphensAuto,
-#startBox01 .startHyphensAuto p {
+.startHyphensAuto,
+.startHyphensAuto p {
 	hyphens:auto;
 }
-#startBox01 .startHyphensNone,
-#startBox01 .startHyphensNone p {
+.startHyphensNone,
+.startHyphensNone p {
 	hyphens:none;
 }
 
-#startBox01 .startImgCircle img {
+.startImgCircle img {
 	border-radius: 20em;
 }
-#startBox01 .startImgCircleReset img {
+.startImgCircleReset img {
 	border-radius: inherit;
 }
-#startBox01 .startImgWiShadow,
-#startBox01 .startImgWiShadow div.csc-textpic, 
-#startBox01 .startImgWiShadow div.csc-textpic div.csc-textpic-imagerow, 
-#startBox01 .startImgWiShadow div.csc-textpic div.csc-textpic-imagewrap, 
-#startBox01 .startImgWiShadow ul.csc-uploads li {
+.startImgWiShadow,
+.startImgWiShadow div.csc-textpic, 
+.startImgWiShadow div.csc-textpic div.csc-textpic-imagerow, 
+.startImgWiShadow div.csc-textpic div.csc-textpic-imagewrap, 
+.startImgWiShadow ul.csc-uploads li {
 	overflow: visible;
 }
-#startBox01 .startImgWiShadow img,
-#startBox01 .startImgWiShadow .frame-type-image {
+.startImgWiShadow img,
+.startImgWiShadow .frame-type-image {
   -moz-box-box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
   -webkit-box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
   box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
-#startBox01 .startImgWiShadowReset,
-#startBox01 .startImgWiShadowReset div.csc-textpic, 
-#startBox01 .startImgWiShadowReset div.csc-textpic div.csc-textpic-imagerow, 
-#startBox01 .startImgWiShadowReset div.csc-textpic div.csc-textpic-imagewrap, 
-#startBox01 .startImgWiShadowReset ul.csc-uploads li {
+.startImgWiShadowReset,
+.startImgWiShadowReset div.csc-textpic, 
+.startImgWiShadowReset div.csc-textpic div.csc-textpic-imagerow, 
+.startImgWiShadowReset div.csc-textpic div.csc-textpic-imagewrap, 
+.startImgWiShadowReset ul.csc-uploads li {
 	overflow: hidden;
 }
-#startBox01 .startImgWiShadowReset img {
+.startImgWiShadowReset img {
   -moz-box-box-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-#startBox01 .startShadow {
+.startShadow {
   -moz-box-box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
   -webkit-box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
   box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
   margin-bottom: 0.9375rem;
 }
 
-#startBox01 .startTextAlignCenter,
-#startBox01 .startTextAlignCenter h1,
-#startBox01 .startTextAlignCenter h2,
-#startBox01 .startTextAlignCenter h3,
-#startBox01 .startTextAlignCenter h4,
-#startBox01 .startTextAlignCenter h5,
-#startBox01 .startTextAlignCenter h6,
-#startBox01 .startTextAlignCenter p {
+.startTextAlignCenter,
+.startTextAlignCenter h1,
+.startTextAlignCenter h2,
+.startTextAlignCenter h3,
+.startTextAlignCenter h4,
+.startTextAlignCenter h5,
+.startTextAlignCenter h6,
+.startTextAlignCenter p {
 	text-align: center;
 }
-#startBox01 .startTextAlignJustify,
-#startBox01 .startTextAlignJustify h1,
-#startBox01 .startTextAlignJustify h2,
-#startBox01 .startTextAlignJustify h3,
-#startBox01 .startTextAlignJustify h4,
-#startBox01 .startTextAlignJustify h5,
-#startBox01 .startTextAlignJustify h6,
-#startBox01 .startTextAlignJustify p {
+.startTextAlignJustify,
+.startTextAlignJustify h1,
+.startTextAlignJustify h2,
+.startTextAlignJustify h3,
+.startTextAlignJustify h4,
+.startTextAlignJustify h5,
+.startTextAlignJustify h6,
+.startTextAlignJustify p {
 	text-align: justify;
 }
-#startBox01 .startTextAlignLeft,
-#startBox01 .startTextAlignLeft h1,
-#startBox01 .startTextAlignLeft h2,
-#startBox01 .startTextAlignLeft h3,
-#startBox01 .startTextAlignLeft h4,
-#startBox01 .startTextAlignLeft h5,
-#startBox01 .startTextAlignLeft h6,
-#startBox01 .startTextAlignLeft p {
+.startTextAlignLeft,
+.startTextAlignLeft h1,
+.startTextAlignLeft h2,
+.startTextAlignLeft h3,
+.startTextAlignLeft h4,
+.startTextAlignLeft h5,
+.startTextAlignLeft h6,
+.startTextAlignLeft p {
 	text-align: left;
 }
-#startBox01 .startTextAlignRight,
-#startBox01 .startTextAlignRight h1,
-#startBox01 .startTextAlignRight h2,
-#startBox01 .startTextAlignRight h3,
-#startBox01 .startTextAlignRight h4,
-#startBox01 .startTextAlignRight h5,
-#startBox01 .startTextAlignRight h6,
-#startBox01 .startTextAlignRight p {
+.startTextAlignRight,
+.startTextAlignRight h1,
+.startTextAlignRight h2,
+.startTextAlignRight h3,
+.startTextAlignRight h4,
+.startTextAlignRight h5,
+.startTextAlignRight h6,
+.startTextAlignRight p {
 	text-align: right;
 }
 
-#startBox01 .startWiMarginAuto {
+.startWiMarginAuto {
   margin-left: auto;
   margin-right: auto;
 }
-#startBox01 .startWiMarginDefault {
+.startWiMarginDefault {
   padding: 0.9375rem 0.9375rem 0.2rem 0.9375rem;
 }
 
-#startBox01 .startWiMarginLeft17percent,
-#startBox01 .startWiMarginLeft25percent,
-#startBox01 .startWiMarginLeft33percent {
+.startWiMarginLeft17percent,
+.startWiMarginLeft25percent,
+.startWiMarginLeft33percent {
 	margin-left:0;
 }
-#startBox01 .startWiMarginLeftRight08percent,
-#startBox01 .startWiMarginLeftRight17percent,
-#startBox01 .startWiMarginLeftRight25percent,
-#startBox01 .startWiMarginLeftRight33percent {
+.startWiMarginLeftRight08percent,
+.startWiMarginLeftRight17percent,
+.startWiMarginLeftRight25percent,
+.startWiMarginLeftRight33percent {
 	margin-left:0;
 	margin-right:0;
 }
-#startBox01 .startWiMarginRight17percent,
-#startBox01 .startWiMarginRight25percent,
-#startBox01 .startWiMarginRight33percent {
+.startWiMarginRight17percent,
+.startWiMarginRight25percent,
+.startWiMarginRight33percent {
 	margin-right:0;
 }
 @media only screen and (min-width: 40.0625em) {
-	#startBox01 .startWiMarginLeft17percent {
+	.startWiMarginLeft17percent {
 		margin-left: calc(16.66667% + 0.3125rem);
 	}
-	#startBox01 .startWiMarginLeftRight08percent {
+	.startWiMarginLeftRight08percent {
 		margin-left: 67px;
 		margin-right: 67px;
 	}
-	#startBox01 .startWiMarginLeftRight17percent {
+	.startWiMarginLeftRight17percent {
 		margin-left: calc(16.66667% + 0.3125rem);
 		margin-right: calc(16.66667% + 0.3125rem);
 	}
-	#startBox01 .startWiMarginLeft25percent {
+	.startWiMarginLeft25percent {
 		margin-left: calc(25% + 0.4687rem);
 	}
-	#startBox01 .startWiMarginLeftRight25percent {
+	.startWiMarginLeftRight25percent {
 		margin-left: calc(25% + 0.4687rem);
 		margin-right: calc(25% + 0.4687rem);
 	}
-	#startBox01 .startWiMarginRight17percent {
+	.startWiMarginRight17percent {
 		margin-right: calc(16.66667% + 0.3125rem);
 	}
-	#startBox01 .startWiMarginRight25percent {
+	.startWiMarginRight25percent {
 		margin-right: calc(25% + 0.4687rem);
 	}
 }
 @media only screen and (min-width: 64.0625em) {
-	#startBox01 .startWiMarginLeft33percent {
+	.startWiMarginLeft33percent {
 		margin-left: calc(33.33333% + 0.625rem);
 	}
-	#startBox01 .startWiMarginLeftRight33percent {
+	.startWiMarginLeftRight33percent {
 		margin-left: calc(33.33333% + 0.625rem);
 		margin-right: calc(33.33333% + 0.625rem);
 	}
-	#startBox01 .startWiMarginLeftRight33percent {
+	.startWiMarginLeftRight33percent {
 		margin-right: calc(33.33333% + 0.625rem);
 	}
 }
@@ -326,7 +336,7 @@ body {
 	padding-right:0.9375rem;
 }
 
-#startBox01 .startWoMarginBottom {
+.startWoMarginBottom {
   padding-bottom: 0;
   margin-bottom: 1rem;	
 }
@@ -339,25 +349,25 @@ body {
 	padding-right:0rem;
 }
 
-#startBox01 .startWiMarginTopBottom {
+.startWiMarginTopBottom {
 	margin-top: 0.9375rem;
 	margin-bottom: 0.9375rem;
 }
-#startBox01 .startWiPaddingLeftDouble {
+.startWiPaddingLeftDouble {
 	padding-left: 1.875rem;
 }
-#startBox01 .startWoMarginLeft {
+.startWoMarginLeft {
 	margin-left: -0.9375rem;
 }
-#startBox01 .startWoMarginLeftRight {
+.startWoMarginLeftRight {
 	/*margin: 0 -0.9375rem;*/
 	margin-left: -0.9375rem;
 	margin-right: -0.9375rem;
 }
-#startBox01 .startWoMarginRight {
+.startWoMarginRight {
 	margin-right: -0.9375rem;
 }
-#startBox01 .startTopMinus1Em {
+.startTopMinus1Em {
 	margin-top: -0.9375rem;
 }
 
@@ -509,7 +519,7 @@ body {
 }*/
 
 @media only screen and (min-width: 40.063em) {
-	#startBox01 .startFigCaptionHideForSmallOnly figcaption {
+	.startFigCaptionHideForSmallOnly figcaption {
 		display: block;
 	}
 	#startBox01 .vertical nav {

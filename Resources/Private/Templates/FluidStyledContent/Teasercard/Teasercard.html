@@ -22,10 +22,15 @@
 			<style>
 				.teasercardcontainer {
 					background-image: linear-gradient(rgba(0,0,0,<f:format.raw>{brightness}</f:format.raw>), rgba(0,0,0,<f:format.raw>{brightness}</f:format.raw>)),
-					url(<f:uri.image image="{images.0}" />);
+						url(<f:uri.image image="{images.0}" />);
 					background-position: center {content.croptopbottom};
 				}
 			</style>
+		</f:if>
+
+		<f:variable name="plusouterwrapClass"></f:variable>
+		<f:if condition="{settings.start.ce.teasercard.css.plusouterwrap}">
+			<f:variable name="plusouterwrapClass"> {settings.start.ce.teasercard.css.plusouterwrap}</f:variable>
 		</f:if>
 
 		<f:variable name="headerTag">{data.header_layout}</f:variable>
@@ -41,7 +46,7 @@
 			</f:else>
 		</f:if>
 
-		<div class="teasercardcontainer type-{content.cardtype}{imageClass}" >
+		<div class="teasercardcontainer type-{content.cardtype}{plusouterwrapClass}{imageClass}" >
 			<div class="teasercardtextoverlay {content.paddingleftright}">
 				<div class="row">
 					<f:if condition="{content.cardtype} == 5">

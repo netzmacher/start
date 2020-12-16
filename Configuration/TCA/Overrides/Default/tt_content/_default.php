@@ -133,6 +133,10 @@ $temporaryColumns = [
 										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startEffectShake01',
 										'1' => 'startEffectShake01',
 								),
+								'startEffectZoom01' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/6.2/tt_content.xlf:tx_start_additionalclassdefined.startEffectZoom01',
+										'1' => 'startEffectZoom01',
+								),
 								'startDivFonts' => [
 										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startDiv',
 										'1' => '--div--',

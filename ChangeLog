@@ -4,7 +4,35 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 8.0.41
   20-12-16
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
-	* #v0327: [TASK] Jumboteaser. Here: integration of the image as background image 2/2
+	* #v0342: [TASK] Teaser Container. Here: Classes by constant editor
+	* #v0327: [TASK] Jumboteaser. Here: Classes by constant editor
+						New files:
+						* Configuration/TypoScript/Base
+							* Config/constants/ce
+								* jumboteaser.ts
+								* teasercard.ts
+							* lib/contentElement/settings/start/ce.ts
+						Affected files:
+						* Configuration/TCA/Overrides
+							* 6.2
+								* de.tt_content.xlf
+								* tt_content.php
+								* tt_content.xlf
+							* Default
+								* de.tt_content.xlf
+								* tt_content.php
+								* tt_content.xlf
+						* Resources/Private
+							* Partials/FluidStyledContent/Teasercard
+								* Card_01.html
+								* Card_03.html
+								* Card_04.html
+								* Card_05.html
+							* Templates/FluidStyledContent
+								* Jumboteaser.html
+								* Teasercard/Teasercard.html
+							* Resources/Public/Css/basic.css
+	* #v0327: [TASK] Jumboteaser. Here: integration of the image as background image
 						Affected files:
 						* Configuration/FlexForm/startJumboteaser.xml
 						* Resources
@@ -22,8 +50,8 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 8.0.40
   20-12-15
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
-	* #v0342: [TASK] Teaser Container. Here: Improvement flexform, HTML, CSS, localisation 2/3
-	* #v0327: [TASK] Jumboteaser. Here: flexform extra field for title and subtitle 1/2
+	* #v0342: [TASK] Teaser Container. Here: Improvement flexform, HTML, CSS, localisation
+	* #v0327: [TASK] Jumboteaser. Here: flexform extra field for title and subtitle
 						New files:
 						* Resources/Private
 							* Partials/FluidStyledContent/Teasercard/Countdown.html
@@ -53,7 +81,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						* Resources/Public/JavaScript/Libs/Foundation-5.5.1
 						Commit:
 						* 
-	* #v0342: [TASK] Teaser Container. Here: Improvement flexform, HTML, CSS, localisation 1/3
+	* #v0342: [TASK] Teaser Container. Here: Improvement flexform, HTML, CSS, localisation
 						New file:
 						* Classes/Flexform/Teasercard/Countdownhelp.php
 						Affected files:

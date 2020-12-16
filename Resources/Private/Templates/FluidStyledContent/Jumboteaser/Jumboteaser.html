@@ -20,6 +20,11 @@
 	</style>
 </f:if>
 
+<f:variable name="plusouterwrapClass"></f:variable>
+<f:if condition="{settings.start.ce.jumboteaser.css.plusouterwrap}">
+	<f:variable name="plusouterwrapClass"> {settings.start.ce.jumboteaser.css.plusouterwrap}</f:variable>
+</f:if>
+
 <f:variable name="imageClass"></f:variable>
 <f:if condition="{images.0}">
 	<f:variable name="brightness"><f:cObject typoscriptObjectPath="lib.start.calc" data="(100-{content.brightness})/100"/></f:variable>
@@ -35,13 +40,13 @@
 </f:if>
 
 
-<div class="jumboteaserContainer{imageClass}">
+<div class="jumboteaserContainer{plusouterwrapClass}{imageClass}">
 	<div class="jumboteaserTextoverlay">
 		<f:render partial="Wrap" arguments="{tag: 'h1', link: content.cta, text: content.title}"/>
 		<f:render partial="Wrap" arguments="{tag: 'p', link: content.cta, text: content.subtitle}"/>
 		<f:if condition="{content.cta}">
 			<p>
-			<f:link.typolink class="button" parameter="{content.cta}">{content.buttonlabel}</f:link.typolink>
+			<f:link.typolink class="{settings.start.ce.jumboteaser.css.button}" parameter="{content.cta}">{content.buttonlabel}</f:link.typolink>
 			</p>
 		</f:if>
 	</div>
