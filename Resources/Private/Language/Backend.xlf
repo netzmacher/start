@@ -270,6 +270,10 @@
         <source>Default</source>
         <target>Standard</target>
       </trans-unit>
+			<trans-unit id="headlineimage.el.paddingleftright.08percent">
+        <source>1 | 10 | 1</source>
+        <target>1 | 10 | 1</target>
+      </trans-unit>
 			<trans-unit id="headlineimage.el.paddingleftright.17percent">
         <source>2 | 8 | 2</source>
         <target>2 | 8 | 2</target>
@@ -285,6 +289,22 @@
 			<trans-unit id="headlineimage.el.paddingtopbottom">
         <source>Margin above and below</source>
         <target>Rand oben und unten</target>
+      </trans-unit>
+      <trans-unit id="headlineimage.el.subtitle">
+        <source>Subheader</source>
+        <target>Untertitel</target>
+      </trans-unit>
+      <trans-unit id="headlineimage.el.title">
+        <source>Header</source>
+        <target>Titel</target>
+      </trans-unit>
+      <trans-unit id="headlineimage.sheet.sDEF">
+        <source>Adjustments</source>
+        <target>Einstellungen</target>
+      </trans-unit>
+      <trans-unit id="headlineimage.sheet.text">
+        <source>Text</source>
+        <target>Text</target>
       </trans-unit>
 
 			<trans-unit id="jumboteaser.el.breakpoint">
@@ -377,12 +397,12 @@
         <target>Bild links und ein Kasten</target>
       </trans-unit>	
       <trans-unit id="teasercard.el.cardtype.4">
-        <source>Left column and four boxes</source>
-        <target>Linke Spalte und vier Kästen</target>
+        <source>Left column and four boxes (layout 1)</source>
+        <target>Linke Spalte und vier Kästen (Layout 1)</target>
       </trans-unit>
       <trans-unit id="teasercard.el.cardtype.5">
-        <source>Left column with a countdown and four boxes</source>
-        <target>Linke Spalte mit Countdown und vier Kästen</target>
+        <source>Left column and four boxes (layout 2)</source>
+        <target>Linke Spalte und vier Kästen (Layout 2)</target>
       </trans-unit>
       <trans-unit id="teasercard.el.countdowndate">
         <source>Countdown to the date</source>

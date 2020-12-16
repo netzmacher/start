@@ -42,8 +42,8 @@
 
 <div class="jumboteaserContainer{plusouterwrapClass}{imageClass}">
 	<div class="jumboteaserTextoverlay">
-		<f:render partial="Wrap" arguments="{tag: 'h1', link: content.cta, text: content.title}"/>
-		<f:render partial="Wrap" arguments="{tag: 'p', link: content.cta, text: content.subtitle}"/>
+		<f:render partial="Wrap" arguments="{tag: settings.start.ce.jumboteaser.html.tagtitle, class: settings.start.ce.jumboteaser.css.title, text: content.title}"/>
+		<f:render partial="Wrap" arguments="{tag: settings.start.ce.jumboteaser.html.tagsubtitle, class: settings.start.ce.jumboteaser.css.subtitle, text: content.subtitle}"/>
 		<f:if condition="{content.cta}">
 			<p>
 			<f:link.typolink class="{settings.start.ce.jumboteaser.css.button}" parameter="{content.cta}">{content.buttonlabel}</f:link.typolink>

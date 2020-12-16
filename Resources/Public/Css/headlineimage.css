@@ -12,58 +12,39 @@
 	justify-content: center;
 }
 
-.headlinetextoverlay h1,
-.headlinetextoverlay p {
-	color:white;
-	line-height:1.3;
-	text-shadow: 0 0 6px black; 
-}
-.woImage .headlinetextoverlay h1,
-.woImage .headlinetextoverlay p {
-	color:black;
-	text-shadow: none;
-}
-.headlinetextoverlay h1 {
-	text-transform: uppercase;
-}
-.headlinetextoverlay h1 a,
-.headlinetextoverlay p a {
+.wiImage .headlinetextoverlay h1,
+.wiImage .headlinetextoverlay p {
 	color:white;
 }
-.woImage .headlinetextoverlay h1 a,
-.woImage .headlinetextoverlay p a {
-	color:black;
+.wiImage .headlinetextoverlay h1 a,
+.wiImage .headlinetextoverlay p a {
+	color:white;
 }
 
-.headlinetextoverlay p a {
-	font-weight:normal;
-}
-.headlinetextoverlay h1 {
-	/*font-size:1.4em;*/
+/*.headlinetextoverlay h1 {
 	font-size:2em;
 }
 .headlinetextoverlay p {
-	/*font-size:1em;*/
 	font-size:1.2em;
-}
+}*/
 
 /* 700px x 500px*/
 @media only screen and (min-width: 43.75em) and (min-height: 31.25em) {
-	.headlinetextoverlay h1 {
+/*	.headlinetextoverlay h1 {
 		font-size:2em;
 	}
 	.headlinetextoverlay p {
 		font-size:1.2em;
-	}
+	}*/
 }
 /* 360px x 650px */
 @media only screen and (min-width: 22.5em) and (min-height: 40.625em) {
-	.headlinetextoverlay h1 {
+/*	.headlinetextoverlay h1 {
 		font-size:3em;
 	}
 	.headlinetextoverlay p {
 		font-size:1.2em;
-	}
+	}*/
 }
 
 /* 1.000px x 500px */
@@ -74,10 +55,10 @@
 
 /* 700px x 700px */
 @media only screen and (min-height: 43.75em) and (min-width: 43.75em) {
-	.headlinetextoverlay h1 {
+/*	.headlinetextoverlay h1 {
 		font-size:4em;
 	}
 	.headlinetextoverlay p {
 		font-size:1.8em;
-	}
+	}*/
 }

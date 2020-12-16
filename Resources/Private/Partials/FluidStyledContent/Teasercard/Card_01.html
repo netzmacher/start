@@ -3,18 +3,20 @@
 </f:variable>
 
 <div class="large-8 columns boxleft">
-	<f:render partial="Wrap" arguments="{tag: 'h2', class: 'countdown', text: title, noNl2br: 1}"/>
-	<f:render partial="Wrap" arguments="{tag: 'h3', text: content.subtitle0}"/>
+	<f:render partial="Wrap" arguments="{tag: settings.start.ce.teasercard.html.tagtitle, class: settings.start.ce.teasercard.css.title, text: title, noNl2br: 1}"/>
+	<f:render partial="Wrap" arguments="{tag: settings.start.ce.teasercard.html.tagsubtitle, class: settings.start.ce.teasercard.css.subtitle, text: content.subtitle0}"/>
 </div>
 <div class="large-4 columns boxright">
 	<div class="{settings.start.ce.teasercard.css.panel}">
-		<f:render partial="Wrap" arguments="{tag: 'h3', link: content.cta1, text: content.title1}"/>
-		<f:render partial="Wrap" arguments="{tag: 'p', link: content.cta1, text: content.subtitle1}"/>
+		<f:render partial="Wrap" arguments="{tag: settings.start.ce.teasercard.html.paneltagtitle, class: settings.start.ce.teasercard.css.paneltitle, text: content.title1}"/>
+		<f:render partial="Wrap" arguments="{tag: settings.start.ce.teasercard.html.paneltagsubtitle, class: settings.start.ce.teasercard.css.panelsubtitle, text: content.subtitle1}"/>
 		<f:if condition='{content.cta1}'>
 			<f:link.typolink parameter="{content.cta1}" class="{settings.start.ce.teasercard.css.panelbutton}">{content.buttonlabel1}</f:link.typolink>
 		</f:if>
 	</div>
 	<f:if condition='{content.cta0}'>
-		<f:link.typolink parameter="{content.cta0}" class="{settings.start.ce.teasercard.css.button}">{content.buttonlabel0}</f:link.typolink>
+		<div class="{settings.start.ce.teasercard.css.divbutton}">
+			<f:link.typolink parameter="{content.cta0}" class="{settings.start.ce.teasercard.css.button}">{content.buttonlabel0}</f:link.typolink>
+		</div>
 	</f:if>
 </div>	

@@ -6,10 +6,10 @@
 	}
 </style>
 
-<f:variable name="imageClass"> woImage</f:variable>
+<f:variable name="imageClass"></f:variable>
 <f:if condition="{images.0}">
+	<f:variable name="imageClass"> wiImage</f:variable>
 	<f:variable name="brightness"><f:cObject typoscriptObjectPath="lib.start.calc" data="(100-{content.brightness})/100"/></f:variable>
-	<f:variable name="imageClass"></f:variable>
 	<style>
 		.headlinecontainer {
 			background-image:
@@ -20,22 +20,18 @@
 	</style>
 </f:if>
 
-<f:variable name="headerTag">{data.header_layout}</f:variable>
-<f:if condition="{headerTag}=='0'">
-	<f:then>
-		<f:variable name="headerTag">h1</f:variable>	
-	</f:then>
-	<f:else if="{headerTag}=='100'">
-		<f:variable name="headerTag"></f:variable>	
-	</f:else>
-	<f:else>
-		<f:variable name="headerTag">h{data.header_layout}</f:variable>	
-	</f:else>
+<f:variable name="plusouterwrapClass"></f:variable>
+<f:if condition="{settings.start.ce.jumboteaser.css.plusouterwrap}">
+	<f:variable name="plusouterwrapClass"> {settings.start.ce.headlineimage.css.plusouterwrap}</f:variable>
 </f:if>
 
-<div class="headlinecontainer{imageClass}" >
-	<div class="headlinetextoverlay {content.paddingleftright}">
-		<f:render partial="Wrap" arguments="{tag: headerTag, link: data.header_link, text: data.header}"/>
-		<f:render partial="Wrap" arguments="{tag: 'p', link: data.header_link, text: data.subheader}"/>
+<div class="headlinecontainer{plusouterwrapClass}{imageClass}" >
+	<div class="headlinetextoverlay">
+		<f:render partial="Wrap" arguments="{tag: settings.start.ce.headlineimage.html.tagtitle, class: settings.start.ce.headlineimage.css.title, text: content.title}"/>
+		<f:render partial="Wrap" arguments="{tag: settings.start.ce.headlineimage.html.tagsubtitle, class: settings.start.ce.headlineimage.css.subtitle, text: content.subtitle}"/>
 	</div>
 </div>
+
+<f:section name="archive">
+	<div class="headlinetextoverlay {content.paddingleftright}">
+</f:section>

@@ -4,6 +4,45 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 8.0.41
   20-12-16
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0394: [TASK] HeadlineImage. Here: Header with br.
+						New files:
+						* Configuration/TypoScript/Base/Config/constants/ce/headlineimage.ts
+						Affected files:
+						* Configuration
+							* FlexForm/startHeadlineimage.xml
+							* TypoScript/Base
+								* Config/constants/ce
+									* jumboteaser.ts
+									* teasercard.ts
+							* lib/contentElement/settings/start/ce.ts
+						* Resources
+							* Private
+								* Language
+									* Backend.xlf
+									* de.Backend.xlf
+								* Partials/FluidStyledContent
+									* Teasercard
+										* Card_01.html
+										* Card_04.html
+								* Templates/FluidStyledContent
+									* Headlineimage/Headlineimage.html
+									* Jumboteaser/Jumboteaser.html
+									* Teasercard/Teasercard.html
+							* Public/Css/headlineimage.css
+						Removed files:
+						* Resources
+							* Private
+								* Partials/FluidStyledContent/Teasercard/Card_05.html
+								* Templates/FluidStyledContent
+									* Jumboteaser
+										* Jumboteaser.201215.dwildt.html
+										* Jumboteaser_1.html
+									* Teasercard/Teasercard.201215dwildt.html
+							* Public/Css
+								* headlineimage.dwildt.bak.css
+								* jumboteaser.dwildt.bak.css
+								* jumboteaser_1.css
+								* teasercard.201215.dwildt.css	
 	* #v0342: [TASK] Teaser Container. Here: Classes by constant editor
 	* #v0327: [TASK] Jumboteaser. Here: Classes by constant editor
 						New files:
