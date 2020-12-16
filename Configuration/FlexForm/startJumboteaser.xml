@@ -82,6 +82,30 @@
 							</config>
 						</TCEforms>
 					</distanceFromTop>
+					<croptopbottom>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.croptopbottom</label>
+							<config>
+								<type>select</type>
+								<renderType>selectSingle</renderType>
+								<default>center</default>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.croptopbottom.center</numIndex>
+										<numIndex index="1">center</numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.croptopbottom.top</numIndex>
+										<numIndex index="1">top</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.croptopbottom.bottom</numIndex>
+										<numIndex index="1">bottom</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</croptopbottom>
 				</el>
 			</ROOT>
 		</sDEF>

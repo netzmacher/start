@@ -251,16 +251,16 @@
         <target>Bild abschneiden von ...</target>
       </trans-unit>
 			<trans-unit id="headlineimage.el.croptopbottom.bottom">
-        <source>below</source>
-        <target>unten</target>
+        <source>above</source>
+        <target>oben</target>
       </trans-unit>
 			<trans-unit id="headlineimage.el.croptopbottom.center">
         <source>above and below</source>
         <target>oben und unten</target>
       </trans-unit>
 			<trans-unit id="headlineimage.el.croptopbottom.top">
-        <source>above</source>
-        <target>oben</target>
+        <source>below</source>
+        <target>unten</target>
       </trans-unit>
 			<trans-unit id="headlineimage.el.paddingleftright">
         <source>Margin left and right</source>
@@ -299,13 +299,29 @@
         <source>Label of the button</source>
         <target>Beschriftung des Buttons</target>
       </trans-unit>
+			<trans-unit id="jumboteaser.el.croptopbottom">
+        <source>Crop the picture from ...</source>
+        <target>Bild abschneiden von ...</target>
+      </trans-unit>
+			<trans-unit id="jumboteaser.el.croptopbottom.bottom">
+        <source>above</source>
+        <target>oben</target>
+      </trans-unit>
+			<trans-unit id="jumboteaser.el.croptopbottom.center">
+        <source>above and below</source>
+        <target>oben und unten</target>
+      </trans-unit>
+			<trans-unit id="jumboteaser.el.croptopbottom.top">
+        <source>below</source>
+        <target>unten</target>
+      </trans-unit>
       <trans-unit id="jumboteaser.el.cta">
         <source>Call-to-cction-Link</source>
         <target>Call-to-Action-Link</target>
       </trans-unit>
       <trans-unit id="jumboteaser.el.distanceFromTop">
-        <source>Space between text and top margin (in percent)</source>
-        <target>Abstand zwischen Text und oberen Rand (in Prozent)</target>
+        <source>Space between text and top margin (in percent). 0: Distance above and below is the same.</source>
+        <target>Abstand zwischen Text und oberen Rand (in Prozent). 0: Abstand oben und unten ist gleich.</target>
       </trans-unit>
       <trans-unit id="jumboteaser.el.responsiveheightsmall">
         <source>Height of the top bar in small views (in pixel). 0 if there isn't any top bar.</source>
@@ -385,16 +401,16 @@
         <target>Bild abschneiden von ...</target>
       </trans-unit>
 			<trans-unit id="teasercard.el.croptopbottom.bottom">
-        <source>below</source>
-        <target>unten</target>
+        <source>above</source>
+        <target>oben</target>
       </trans-unit>
 			<trans-unit id="teasercard.el.croptopbottom.center">
         <source>above and below</source>
         <target>oben und unten</target>
       </trans-unit>
 			<trans-unit id="teasercard.el.croptopbottom.top">
-        <source>above</source>
-        <target>oben</target>
+        <source>below</source>
+        <target>unten</target>
       </trans-unit>
       <trans-unit id="teasercard.el.cta">
         <source>Call-to-cction-Link</source>

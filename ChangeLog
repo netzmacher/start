@@ -1,6 +1,24 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.41
+  20-12-16
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0327: [TASK] Jumboteaser. Here: integration of the image as background image 2/2
+						Affected files:
+						* Configuration/FlexForm/startJumboteaser.xml
+						* Resources
+							* Private
+								* Language
+									* Backend.xlf
+									* de.Backend.xlf
+								* Templates/FluidStyledContent
+									* Headlineimage/Headlineimage.html
+									* Jumboteaser/Jumboteaser.html
+							* Public/Css/jumboteaser.css
+							Commit:
+							* 
+
 8.0.40
   20-12-15
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com

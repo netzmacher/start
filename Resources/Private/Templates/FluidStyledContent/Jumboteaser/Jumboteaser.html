@@ -2,29 +2,41 @@
 	.jumboteaserContainer {
 		height: calc(100vh - {content.responsiveheightsmall}px);
 	}
-			.teasercard {
-				filter: brightness({content.brightness}%);
-			}
 </style>
 
+<f:if condition="{content.distanceFromTop}">
+	.jumboteaserTextoverlay {
+	top: {content.distanceFromTop}%;
+	}
+</f:if>
+
 <f:if condition="{content.breakpoint}">
-	<f:then>
-		<style>
-			@media only screen and (min-width: {content.breakpoint}px) {
-				.jumboteaserContainer {
-					height: calc(100vh - {content.responsiveheightmedium}px);
-				}
+	<style>
+		@media only screen and (min-width: {content.breakpoint}px) {
+			.jumboteaserContainer {
+				height: calc(100vh - {content.responsiveheightmedium}px);
 			}
-		</style>
-	</f:then>
+		}
+	</style>
 </f:if>
 
+<f:variable name="imageClass"></f:variable>
 <f:if condition="{images.0}">
-	<f:variable name="classWiImage">wiImage</f:variable>
+	<f:variable name="brightness"><f:cObject typoscriptObjectPath="lib.start.calc" data="(100-{content.brightness})/100"/></f:variable>
+	<f:variable name="imageClass"> wiImage</f:variable>
+	<style>
+		.jumboteaserContainer {
+			background-image:
+				linear-gradient(rgba(0,0,0,{brightness}), rgba(0,0,0,{brightness})),
+			url(<f:uri.image image="{images.0}" />);
+			background-position: center {content.croptopbottom};
+		}
+	</style>
 </f:if>
 
-<div class="jumboteaserContainer {classWiImage}">
-	<div class="jumboteaserTextoverlay" style="top:{content.distanceFromTop}%;">
+
+<div class="jumboteaserContainer{imageClass}">
+	<div class="jumboteaserTextoverlay">
 		<f:render partial="Wrap" arguments="{tag: 'h1', link: content.cta, text: content.title}"/>
 		<f:render partial="Wrap" arguments="{tag: 'p', link: content.cta, text: content.subtitle}"/>
 		<f:if condition="{content.cta}">
@@ -33,9 +45,4 @@
 			</p>
 		</f:if>
 	</div>
-	<f:if condition="{images.0}">
-		<div class="beimage">
-			<f:image image="{images.0.originalFile}"/>
-		</div>
-	</f:if>
 </div>
