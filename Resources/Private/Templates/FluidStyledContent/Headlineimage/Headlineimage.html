@@ -1,37 +1,48 @@
-<style>
-	.headlinetextoverlay {
-		padding-top:{content.paddingtopbottom}px;
-		padding-bottom:{content.paddingtopbottom}px;
-		text-align: {data.header_position};
-	}
-</style>
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true"> 
+	<f:layout name="Default" />
+	<f:section name="Main">
 
-<f:variable name="imageClass"></f:variable>
-<f:if condition="{images.0}">
-	<f:variable name="imageClass"> wiImage</f:variable>
-	<f:variable name="brightness"><f:cObject typoscriptObjectPath="lib.start.calc" data="(100-{content.brightness})/100"/></f:variable>
-	<style>
-		.headlinecontainer {
-			background-image:
-				linear-gradient(rgba(0,0,0,{brightness}), rgba(0,0,0,{brightness})),
-				url(<f:uri.image image="{images.0}" />);
-			background-position: center {content.croptopbottom};
-		}
-	</style>
-</f:if>
+		<style>
+			#c{data.uid} .headlinetextoverlay {
+				padding-top:{content.paddingtopbottom}px;
+				padding-bottom:{content.paddingtopbottom}px;
+				text-align: {data.header_position};
+			}
+		</style>
 
-<f:variable name="plusouterwrapClass"></f:variable>
-<f:if condition="{settings.start.ce.jumboteaser.css.plusouterwrap}">
-	<f:variable name="plusouterwrapClass"> {settings.start.ce.headlineimage.css.plusouterwrap}</f:variable>
-</f:if>
+		<f:variable name="imageClass"></f:variable>
+		<f:if condition="{images.0}">
+			<f:variable name="imageClass"> wiImage</f:variable>
+			<f:variable name="brightness"><f:cObject typoscriptObjectPath="lib.start.calc" data="(100-{content.brightness})/100"/></f:variable>
+			<style>
+				#c{data.uid} .headlinecontainer {
+					background-image: linear-gradient(rgba(0,0,0,<f:format.raw>{brightness}</f:format.raw>), rgba(0,0,0,<f:format.raw>{brightness}</f:format.raw>)),
+					url(<f:uri.image image="{images.0}" />);
+					background-position: center {content.croptopbottom};
+				}
+			</style>
+		</f:if>
 
-<div class="headlinecontainer{plusouterwrapClass}{imageClass}" >
-	<div class="headlinetextoverlay">
-		<f:render partial="Wrap" arguments="{tag: settings.start.ce.headlineimage.html.tagtitle, class: settings.start.ce.headlineimage.css.title, text: content.title}"/>
-		<f:render partial="Wrap" arguments="{tag: settings.start.ce.headlineimage.html.tagsubtitle, class: settings.start.ce.headlineimage.css.subtitle, text: content.subtitle}"/>
-	</div>
-</div>
+		<f:variable name="plusouterwrapClass"></f:variable>
+		<f:if condition="{settings.start.ce.jumboteaser.css.plusouterwrap}">
+			<f:variable name="plusouterwrapClass"> {settings.start.ce.headlineimage.css.plusouterwrap}</f:variable>
+		</f:if>
 
-<f:section name="archive">
-	<div class="headlinetextoverlay {content.paddingleftright}">
-</f:section>
+		<div class="headlinecontainer{plusouterwrapClass}{imageClass}" >
+			<div class="headlinetextoverlay">
+				<f:render partial="Wrap" arguments="{tag: settings.start.ce.headlineimage.html.tagtitle, class: settings.start.ce.headlineimage.css.title, text: content.title}"/>
+				<f:render partial="Wrap" arguments="{tag: settings.start.ce.headlineimage.html.tagsubtitle, class: settings.start.ce.headlineimage.css.subtitle, text: content.subtitle}"/>
+			</div>
+		</div>
+
+	</f:section>
+	<f:section name="archive">
+		<div class="headlinetextoverlay {content.paddingleftright}">
+	</f:section>
+
+
+	<f:section name="debug">
+		<f:debug title="@oewiewgh">{images.0.originalFile}</f:debug>
+	</f:section>
+</html>
+
