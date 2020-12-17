@@ -259,7 +259,7 @@
 							</config>
 						</TCEforms>
 					</buttonlabel1>
-						<textalign1>
+					<textalign1>
 						<TCEforms>
 							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.textalign</label>
 							<config>
@@ -636,7 +636,7 @@
 				</el>
 			</ROOT>
 		</box4>
-<!--		<responsive>
+		<!--		<responsive>
 			<ROOT>
 				<TCEforms>
 					<sheetTitle>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.sheet.responsive</sheetTitle>

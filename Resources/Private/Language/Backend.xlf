@@ -294,6 +294,30 @@
         <source>Subheader</source>
         <target>Untertitel</target>
       </trans-unit>
+			<trans-unit id="headlineimage.el.textalign">
+        <source>Text align</source>
+        <target>Ausrichtung</target>
+      </trans-unit>
+			<trans-unit id="headlineimage.el.textalign.center">
+        <source>center</source>
+        <target>mittig</target>
+      </trans-unit>
+			<trans-unit id="headlineimage.el.textalign.default">
+        <source>default</source>
+        <target>Standard</target>
+      </trans-unit>
+			<trans-unit id="headlineimage.el.textalign.justify">
+        <source>justify</source>
+        <target>Block</target>
+      </trans-unit>
+			<trans-unit id="headlineimage.el.textalign.left">
+        <source>left</source>
+        <target>links</target>
+      </trans-unit>
+			<trans-unit id="headlineimage.el.textalign.right">
+        <source>right</source>
+        <target>rechts</target>
+      </trans-unit>
       <trans-unit id="headlineimage.el.title">
         <source>Header</source>
         <target>Titel</target>

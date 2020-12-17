@@ -2,26 +2,31 @@
 	<f:layout name="Default" />
 	<f:section name="Main">
 
+		<f:variable name="imageClass"></f:variable>
+		<f:if condition="{images.0}">
+			<f:variable name="imageClass"> wiImage</f:variable>
+			<f:variable name="brightness"><f:cObject typoscriptObjectPath="lib.start.calc" data="(100-{content.brightness})/100"/></f:variable>
+		</f:if>
+
 		<style>
 			#c{data.uid} .headlinetextoverlay {
 				padding-top:{content.paddingtopbottom}px;
 				padding-bottom:{content.paddingtopbottom}px;
 				text-align: {data.header_position};
 			}
-		</style>
-
-		<f:variable name="imageClass"></f:variable>
-		<f:if condition="{images.0}">
-			<f:variable name="imageClass"> wiImage</f:variable>
-			<f:variable name="brightness"><f:cObject typoscriptObjectPath="lib.start.calc" data="(100-{content.brightness})/100"/></f:variable>
-			<style>
-				#c{data.uid} .headlinecontainer {
-					background-image: linear-gradient(rgba(0,0,0,<f:format.raw>{brightness}</f:format.raw>), rgba(0,0,0,<f:format.raw>{brightness}</f:format.raw>)),
+			<f:if condition="{images.0}">
+			#c{data.uid} .headlinecontainer {
+				background-image: linear-gradient(rgba(0,0,0,<f:format.raw>{brightness}</f:format.raw>), rgba(0,0,0,<f:format.raw>{brightness}</f:format.raw>)),
 					url(<f:uri.image image="{images.0}" />);
-					background-position: center {content.croptopbottom};
-				}
-			</style>
-		</f:if>
+				background-position: center {content.croptopbottom};
+			}
+			</f:if>
+			<f:if condition="{content.textalign}">
+			#c{data.uid} .headlinetextoverlay {
+				text-align: {content.textalign};
+			}
+			</f:if>
+		</style>
 
 		<f:variable name="plusouterwrapClass"></f:variable>
 		<f:if condition="{settings.start.ce.jumboteaser.css.plusouterwrap}">

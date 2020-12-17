@@ -28,6 +28,38 @@
 							</config>
 						</TCEforms>
 					</subtitle>
+					<textalign>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.textalign</label>
+							<config>
+								<type>select</type>
+								<renderType>selectSingle</renderType>
+								<default></default>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.textalign.default</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.textalign.left</numIndex>
+										<numIndex index="1">left</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.textalign.center</numIndex>
+										<numIndex index="1">center</numIndex>
+									</numIndex>
+									<numIndex index="3">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.textalign.right</numIndex>
+										<numIndex index="1">right</numIndex>
+									</numIndex>
+									<numIndex index="4">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.textalign.justify</numIndex>
+										<numIndex index="1">justify</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</textalign>
 				</el>
 			</ROOT>
 		</text>
