@@ -372,6 +372,11 @@
         <target>Text</target>
       </trans-unit>
 
+			<trans-unit id="jumpbox.el.color">
+        <source>Colour</source>
+        <target>Farbe</target>
+      </trans-unit>
+
 			<trans-unit id="teasercard.el.breakpoint">
         <source>Big view from pixel:</source>
         <target>Großer Bildschirm ab Pixel:</target>
@@ -381,8 +386,8 @@
         <target>Helligkeit</target>
       </trans-unit>
       <trans-unit id="teasercard.el.buttonlabel">
-        <source>Call To Action text</source>
-        <target>Call To Action text</target>
+        <source>Call-to-action-text</source>
+        <target>Call-To-Action-Text</target>
       </trans-unit>
       <trans-unit id="teasercard.el.cardtype">
         <source>Card Type</source>
@@ -436,7 +441,23 @@
         <source>Call-to-cction-Link</source>
         <target>Call-to-Action-Link</target>
       </trans-unit>
-      <trans-unit id="teasercard.el.minheightbox">
+			<trans-unit id="teasercard.el.fontsize">
+        <source>Font size</source>
+        <target>Textgröße</target>
+      </trans-unit>
+			<trans-unit id="teasercard.el.fontsize.default">
+        <source>medium (default)</source>
+        <target>normal (Standard)</target>
+      </trans-unit>
+			<trans-unit id="teasercard.el.fontsize.larger">
+        <source>larger</source>
+        <target>größer</target>
+      </trans-unit>
+			<trans-unit id="teasercard.el.fontsize.smaller">
+        <source>smaller</source>
+        <target>kleiner</target>
+      </trans-unit>
+			<trans-unit id="teasercard.el.minheightbox">
         <source>Height of the box</source>
         <target>Höhe des Kastens</target>
       </trans-unit>
@@ -459,6 +480,30 @@
       <trans-unit id="teasercard.el.subtitle">
         <source>Subheader</source>
         <target>Untertitel</target>
+      </trans-unit>
+			<trans-unit id="teasercard.el.textalign">
+        <source>Text align</source>
+        <target>Ausrichtung</target>
+      </trans-unit>
+			<trans-unit id="teasercard.el.textalign.center">
+        <source>center</source>
+        <target>mittig</target>
+      </trans-unit>
+			<trans-unit id="teasercard.el.textalign.default">
+        <source>default</source>
+        <target>Standard</target>
+      </trans-unit>
+			<trans-unit id="teasercard.el.textalign.justify">
+        <source>justify</source>
+        <target>Block</target>
+      </trans-unit>
+			<trans-unit id="teasercard.el.textalign.left">
+        <source>left</source>
+        <target>links</target>
+      </trans-unit>
+			<trans-unit id="teasercard.el.textalign.right">
+        <source>right</source>
+        <target>rechts</target>
       </trans-unit>
       <trans-unit id="teasercard.el.title">
         <source>Header</source>
@@ -491,10 +536,6 @@
       <trans-unit id="teasercard.sheet.sDEF">
         <source>Configuration</source>
         <target>Einstellungen</target>
-      </trans-unit>
-      <trans-unit id="jumpbox.el.color">
-        <source>Colour</source>
-        <target>Farbe</target>
       </trans-unit>
 			
     </body>

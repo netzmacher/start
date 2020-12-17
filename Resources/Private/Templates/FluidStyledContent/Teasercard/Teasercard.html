@@ -2,31 +2,12 @@
 	<f:layout name="Default" />
 	<f:section name="Main">
 
-		<style>
-			#c{data.uid} .teasercardcontainer.type-1 .panel {
-				min-height:{content.minheightbox}px;
-			}
-			#c{data.uid} .teasercardcontainer.type-4 .panel,
-			#c{data.uid} .teasercardcontainer.type-5 .panel {
-				min-height:{content.minheightboxes}px;
-			}
-			#c{data.uid} .teasercardtextoverlay {
-				padding: {content.padding}px {content.padding}px calc({content.padding}px - 1.25rem) {content.padding}px;
-			}
-		</style>
-
 		<f:variable name="imageClass"></f:variable>
 		<f:if condition="{images.0} && {content.cardtype} != 3">
 			<f:variable name="imageClass"> wiImage</f:variable>
-			<f:variable name="brightness"><f:cObject typoscriptObjectPath="lib.start.calc" data="(100-{content.brightness})/100"/></f:variable>
-			<style>
-				#c{data.uid} .teasercardcontainer {
-					background-image: linear-gradient(rgba(0,0,0,<f:format.raw>{brightness}</f:format.raw>), rgba(0,0,0,<f:format.raw>{brightness}</f:format.raw>)),
-						url(<f:uri.image image="{images.0}" />);
-					background-position: center {content.croptopbottom};
-				}
-			</style>
 		</f:if>
+
+		<f:render partial="Teasercard/Style" arguments="{_all}"/>
 
 		<f:variable name="plusouterwrapClass"></f:variable>
 		<f:if condition="{settings.start.ce.teasercard.css.plusouterwrap}">

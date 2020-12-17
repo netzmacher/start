@@ -1,0 +1,49 @@
+<f:if condition="{images.0} && {content.cardtype} != 3">
+	<f:variable name="brightness"><f:cObject typoscriptObjectPath="lib.start.calc" data="(100-{content.brightness})/100"/></f:variable>
+</f:if>
+
+<style>
+	#c{data.uid} .teasercardcontainer.type-1 .panel {
+		min-height:{content.minheightbox}px;
+	}
+	#c{data.uid} .teasercardcontainer.type-4 .panel,
+	#c{data.uid} .teasercardcontainer.type-5 .panel {
+		min-height:{content.minheightboxes}px;
+	}
+	#c{data.uid} .teasercardtextoverlay {
+		padding: {content.padding}px {content.padding}px calc({content.padding}px - 1.25rem) {content.padding}px;
+	}
+
+	<f:if condition="{images.0} && {content.cardtype} != 3">
+	#c{data.uid} .teasercardcontainer {
+		background-image: linear-gradient(rgba(0,0,0,<f:format.raw>{brightness}</f:format.raw>), rgba(0,0,0,<f:format.raw>{brightness}</f:format.raw>)),
+			url(<f:uri.image image="{images.0}" />);
+		background-position: center {content.croptopbottom};
+	}
+	</f:if>
+
+	<f:if condition="{content.textalign1}">
+	#c{data.uid} .teasercardcontainer .box-1 {
+		text-align: {content.textalign1};
+	}
+	</f:if>
+
+	<f:if condition="{content.textalign2}">
+	#c{data.uid} .teasercardcontainer .box-2 {
+		text-align: {content.textalign2};
+	}
+	</f:if>
+
+	<f:if condition="{content.textalign3}">
+	#c{data.uid} .teasercardcontainer .box-3 {
+		text-align: {content.textalign3};
+	}
+	</f:if>
+
+	<f:if condition="{content.textalign4}">
+	#c{data.uid} .teasercardcontainer .box-4 {
+		text-align: {content.textalign4};
+	}
+	</f:if>
+
+</style>

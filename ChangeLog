@@ -1,8 +1,8 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
-8.0.41
-  20-12-16
+8.0.42
+  20-12-17
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
 	* #v0554: [BUGFIX] Headlineimage, Jumboteaser, Teasercard: ID for dynamic CSS classes
 						Affected files:
@@ -11,7 +11,11 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 							* Jumboteaser/Jumboteaser.html
 							* Teasercard/Teasercard.html
 						Commit:
-						* 
+						* b283cefc0a9d02fe24ca1425b1a057be8424bd04
+
+8.0.41
+  20-12-16
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
 	* #v0394: [TASK] HeadlineImage. Here: Header with br.
 						New files:
 						* Configuration/TypoScript/Base/Config/constants/ce/headlineimage.ts

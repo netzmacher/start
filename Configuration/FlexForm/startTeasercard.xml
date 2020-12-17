@@ -97,7 +97,7 @@
 					<minheightbox>
 						<TCEforms>
 							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.minheightbox</label>
-							<displayCond>FIELD:sDEF.cardtype:IN:1,3</displayCond>
+							<displayCond>FIELD:sDEF.cardtype:IN:1</displayCond>
 							<config>
 								<type>input</type>
 								<size>3</size>
@@ -184,6 +184,7 @@
 			<ROOT>
 				<TCEforms>
 					<sheetTitle>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.sheet.countdown</sheetTitle>
+					<displayCond>FIELD:sDEF.cardtype:IN:1,4,5</displayCond>
 				</TCEforms>
 				<type>array</type>
 				<el>
@@ -251,12 +252,69 @@
 					<buttonlabel1>
 						<TCEforms>
 							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.buttonlabel</label>
+							<displayCond>FIELD:sDEF.cardtype:IN:1,3</displayCond>
 							<config>
 								<type>input</type>
 								<default>Details</default>
 							</config>
 						</TCEforms>
 					</buttonlabel1>
+						<textalign1>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.textalign</label>
+							<config>
+								<type>select</type>
+								<renderType>selectSingle</renderType>
+								<default></default>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.textalign.default</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.textalign.left</numIndex>
+										<numIndex index="1">left</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.textalign.center</numIndex>
+										<numIndex index="1">center</numIndex>
+									</numIndex>
+									<numIndex index="3">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.textalign.right</numIndex>
+										<numIndex index="1">right</numIndex>
+									</numIndex>
+									<numIndex index="4">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.textalign.justify</numIndex>
+										<numIndex index="1">justify</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</textalign1>
+					<fontsize1>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.fontsize</label>
+							<config>
+								<type>select</type>
+								<renderType>selectSingle</renderType>
+								<default>default</default>
+								<items>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.fontsize.smaller</numIndex>
+										<numIndex index="1">smaller</numIndex>
+									</numIndex>
+									<numIndex index="3">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.fontsize.default</numIndex>
+										<numIndex index="1">default</numIndex>
+									</numIndex>
+									<numIndex index="4">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.fontsize.larger</numIndex>
+										<numIndex index="1">larger</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</fontsize1>
 				</el>
 			</ROOT>
 		</box1>
@@ -300,12 +358,69 @@
 					<buttonlabel2>
 						<TCEforms>
 							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.buttonlabel</label>
+							<displayCond>FIELD:sDEF.cardtype:IN:1</displayCond>
 							<config>
 								<type>input</type>
 								<default>Details</default>
 							</config>
 						</TCEforms>
 					</buttonlabel2>
+					<textalign2>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.textalign</label>
+							<config>
+								<type>select</type>
+								<renderType>selectSingle</renderType>
+								<default></default>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.textalign.default</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.textalign.left</numIndex>
+										<numIndex index="1">left</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.textalign.center</numIndex>
+										<numIndex index="1">center</numIndex>
+									</numIndex>
+									<numIndex index="3">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.textalign.right</numIndex>
+										<numIndex index="1">right</numIndex>
+									</numIndex>
+									<numIndex index="4">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.textalign.justify</numIndex>
+										<numIndex index="1">justify</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</textalign2>
+					<fontsize2>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.fontsize</label>
+							<config>
+								<type>select</type>
+								<renderType>selectSingle</renderType>
+								<default>default</default>
+								<items>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.fontsize.smaller</numIndex>
+										<numIndex index="1">smaller</numIndex>
+									</numIndex>
+									<numIndex index="3">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.fontsize.default</numIndex>
+										<numIndex index="1">default</numIndex>
+									</numIndex>
+									<numIndex index="4">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.fontsize.larger</numIndex>
+										<numIndex index="1">larger</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</fontsize2>
 				</el>
 			</ROOT>
 		</box2>
@@ -349,12 +464,69 @@
 					<buttonlabel3>
 						<TCEforms>
 							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.buttonlabel</label>
+							<displayCond>FIELD:sDEF.cardtype:IN:1</displayCond>
 							<config>
 								<type>input</type>
 								<default>Details</default>
 							</config>
 						</TCEforms>
 					</buttonlabel3>
+					<textalign3>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.textalign</label>
+							<config>
+								<type>select</type>
+								<renderType>selectSingle</renderType>
+								<default></default>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.textalign.default</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.textalign.left</numIndex>
+										<numIndex index="1">left</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.textalign.center</numIndex>
+										<numIndex index="1">center</numIndex>
+									</numIndex>
+									<numIndex index="3">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.textalign.right</numIndex>
+										<numIndex index="1">right</numIndex>
+									</numIndex>
+									<numIndex index="4">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.textalign.justify</numIndex>
+										<numIndex index="1">justify</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</textalign3>
+					<fontsize3>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.fontsize</label>
+							<config>
+								<type>select</type>
+								<renderType>selectSingle</renderType>
+								<default>default</default>
+								<items>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.fontsize.smaller</numIndex>
+										<numIndex index="1">smaller</numIndex>
+									</numIndex>
+									<numIndex index="3">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.fontsize.default</numIndex>
+										<numIndex index="1">default</numIndex>
+									</numIndex>
+									<numIndex index="4">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.fontsize.larger</numIndex>
+										<numIndex index="1">larger</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</fontsize3>
 				</el>
 			</ROOT>
 		</box3>
@@ -398,12 +570,69 @@
 					<buttonlabel4>
 						<TCEforms>
 							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.buttonlabel</label>
+							<displayCond>FIELD:sDEF.cardtype:IN:1</displayCond>
 							<config>
 								<type>input</type>
 								<default>Details</default>
 							</config>
 						</TCEforms>
 					</buttonlabel4>
+					<textalign4>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.textalign</label>
+							<config>
+								<type>select</type>
+								<renderType>selectSingle</renderType>
+								<default></default>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.textalign.default</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.textalign.left</numIndex>
+										<numIndex index="1">left</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.textalign.center</numIndex>
+										<numIndex index="1">center</numIndex>
+									</numIndex>
+									<numIndex index="3">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.textalign.right</numIndex>
+										<numIndex index="1">right</numIndex>
+									</numIndex>
+									<numIndex index="4">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.textalign.justify</numIndex>
+										<numIndex index="1">justify</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</textalign4>
+					<fontsize4>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.fontsize</label>
+							<config>
+								<type>select</type>
+								<renderType>selectSingle</renderType>
+								<default>default</default>
+								<items>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.fontsize.smaller</numIndex>
+										<numIndex index="1">smaller</numIndex>
+									</numIndex>
+									<numIndex index="3">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.fontsize.default</numIndex>
+										<numIndex index="1">default</numIndex>
+									</numIndex>
+									<numIndex index="4">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.fontsize.larger</numIndex>
+										<numIndex index="1">larger</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</fontsize4>
 				</el>
 			</ROOT>
 		</box4>
