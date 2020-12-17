@@ -20,8 +20,8 @@
 .wiImage .jumboteaserTextoverlay p {
 	color:white;
 }
-.wiImage .jumboteaserTextoverlay h1 a,
-.wiImage .jumboteaserTextoverlay p a {
+.wiImage .jumboteaserTextoverlay h1 a:not(.button),
+.wiImage .jumboteaserTextoverlay p a:not(.button) {
 	color:white;
 }
 
