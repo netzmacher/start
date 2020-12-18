@@ -1,7 +1,6 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true"> 
 	<f:layout name="Default" />
 	<f:section name="Main">
-
 		<style>
 			#c{data.uid} .jumboteaserContainer {
 				height: calc(100vh - {content.responsiveheightsmall}px);
@@ -53,6 +52,12 @@
 					<f:link.typolink class="{settings.start.ce.jumboteaser.css.button}" parameter="{content.cta}">{content.buttonlabel}</f:link.typolink>
 					</p>
 				</f:if>
+				<button class="jumboteaser_down" onClick="
+					if(<f:format.raw>{content.breakpoint}</f:format.raw> < window.innerWidth)
+						var menuheight = <f:format.raw>{content.responsiveheightmedium}</f:format.raw>;
+					else
+						var menuheight = <f:format.raw>{content.responsiveheightsmall}</f:format.raw>;
+					window.scrollTo({ top: window.innerHeight - menuheight , behavior: 'smooth' });">&#5167;</button>
 			</div>
 		</div>
 
