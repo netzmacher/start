@@ -8,6 +8,7 @@ page {
     startNormalize			= {$start.foundation.files.css.normalize}
     startFoundation			= {$start.foundation.files.css.foundation}
     startStart					= {$start.foundation.files.css.basic}
+    startCssArrow		= {$start.foundation.files.css.arrow}
 			// if.isTrue = $start.css.a.wiIcon (here: {$start.foundation.css.a.wiIcon})
     startCssAWiIcon			= {$start.foundation.files.css.aTagWiIcon}
     startCssAWiIcon {
@@ -37,9 +38,10 @@ startPrint {
     startNormalize  = {$start.foundation.files.css.normalize}
     startFoundation = {$start.foundation.files.css.foundation}
     startStart			= {$start.foundation.files.css.basic}
+    startCssArrow		= {$start.foundation.files.css.arrow}
+			// if.isTrue = $start.css.a.wiIcon (here: {$start.css.a.wiIcon})
     startCssAWiIcon = {$start.foundation.files.css.aTagWiIcon}
     startCssAWiIcon {
-				// if.isTrue = $start.css.a.wiIcon (here: {$start.css.a.wiIcon})
 			if = 
 			if {
 				isTrue = {$start.css.a.wiIcon}

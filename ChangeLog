@@ -1,8 +1,26 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.43
+  20-12-19
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0555: [TASK] Jumboteaser one page down. Improvements.
+						New files:
+						* Resources
+							* Private/Partials/FluidStyledContent/Javascript/Onepagedown.html
+							* Public/Css/arrow.css
+						Affected files:
+						* Configuration/TypoScript/Foundation
+							* Page/includeCSS.ts
+							* Start/Constants/Foundation/filescss.ts
+						* Resources
+							* Private/Templates/FluidStyledContent/Jumboteaser/Jumboteaser.html
+							* Public/Css/jumboteaser.css
+						Commit:
+						* 
+
 8.0.42
-  20-12-17
+  20-12-18
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
 	* #v0554: [BUGFIX] Headlineimage, Jumboteaser, Teasercard: ID for dynamic CSS classes
 						Affected files:
