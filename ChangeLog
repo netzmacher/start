@@ -4,6 +4,17 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 8.0.43
   20-12-19
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0392: [FEATURE] siteLineTop wrap class can configures by Constant Editor
+						Category: [START - FOUNDATION - SITELINETOP]
+						New files:
+						* Configuration/TypoScript/Foundation/Start/Constants/Foundation/SiteLineTop/main.ts
+						Affected files:
+						* Configuration/TypoScript
+							* Base/Start/Lib/sitelineTop.ts
+							* Foundation/Start/Constants/Foundation/SiteLineTop/_constants.ts
+						* Resources/Public/Css/jumboteaser.css
+						Commit
+						* 
 	* #v0555: [TASK] Jumboteaser one page down. Improvements.
 						New files:
 						* Resources

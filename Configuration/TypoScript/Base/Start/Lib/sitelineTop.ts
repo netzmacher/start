@@ -170,7 +170,7 @@ start {
 			}
 			stdWrap {
 				required  = 1
-				wrap      = <div class="siteLineTop siteLineTopNavigation hide-for-small-only"><div class="row siteLine"><div class="columns">|</div></div></div>
+				wrap      = <div class="{$start.foundation.sitelinetop.outerwrapclass}"><div class="row siteLine"><div class="columns">|</div></div></div>
 			}
 		}			
 	}
