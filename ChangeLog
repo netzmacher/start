@@ -1,6 +1,18 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.44
+  20-12-21
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #i0047: [TASK] Bugfix Backendlayout "Column 6". Remove card 5 from Teaser card Container
+						* Classes/Provider/BackendLayoutDataProvider.php
+						* Configuration/FlexForm/startTeasercard.xml
+						* Resources/Private/Language
+							* Backend.xlf
+							* de.Backend.xlf
+						Commit:
+						* 7d34ac69f79783890909a9f45031b23371232d15
+
 8.0.43
   20-12-19
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com

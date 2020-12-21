@@ -426,12 +426,8 @@
         <target>Bild links und ein Kasten</target>
       </trans-unit>	
       <trans-unit id="teasercard.el.cardtype.4">
-        <source>Left column and four boxes (layout 1)</source>
-        <target>Linke Spalte und vier Kästen (Layout 1)</target>
-      </trans-unit>
-      <trans-unit id="teasercard.el.cardtype.5">
-        <source>Left column and four boxes (layout 2)</source>
-        <target>Linke Spalte und vier Kästen (Layout 2)</target>
+        <source>Left column and four boxes</source>
+        <target>Linke Spalte und vier Kästen</target>
       </trans-unit>
       <trans-unit id="teasercard.el.countdowndate">
         <source>Countdown to the date</source>

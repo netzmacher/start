@@ -424,8 +424,8 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
             3 {
               columns {
                 1 {
-                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.wo
-                  colPos  = 6
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.footer
+                  colPos  = 21
                   colspan = 12
                 }
               }
