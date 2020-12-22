@@ -94,7 +94,7 @@ $extIcons = [
 		'ext-start-teasercard' => [
 				'identifier' => 'ext-start-teasercard'
 				, 'key' => 'txStartTeasercard' // <- Key must be the part behind contain- of the identifier!
-				, 'label' => 'Page Media'
+				, 'label' => 'Teaser Cards'
 				, 'source' => 'EXT:start/ext_icon.svg'
 				, 'source' => 'EXT:start/Resources/Public/Images/Icons/txStartTeasercard.svg'
 		],
