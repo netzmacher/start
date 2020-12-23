@@ -4,7 +4,7 @@
     <header/>
     <body>
 
-      <trans-unit id="Teasercard.title">
+      <trans-unit id="teasercard.title">
         <source>Headline with wallpaper and boxes</source>
         <target>Container mit Hintergrundbild und Kästen</target>
       </trans-unit>

@@ -193,6 +193,7 @@
 								<size>8</size>
 								<max>10</max>
 								<eval>date</eval>
+								<dbType>datetime</dbType>
 								<checkbox>1</checkbox>
 							</config>
 						</TCEforms>

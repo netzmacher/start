@@ -1,9 +1,8 @@
 <script>
 	function onepagedown() {
-		
 		var breakpoint = <f:format.raw>{content.breakpoint}</f:format.raw>;
-		var responsiveheightmedium = <f:format.raw>{content.responsiveheightmedium}</f:format.raw>;
-		var responsiveheightsmall = <f:format.raw>{content.responsiveheightsmall}</f:format.raw>;
+		var responsiveheightmedium = <f:format.raw>{content.responsiveheightmediumscroll}</f:format.raw>;
+		var responsiveheightsmall = <f:format.raw>{content.responsiveheightsmallscroll}</f:format.raw>;
 		
 		if (breakpoint < window.innerWidth)
 		{
@@ -14,6 +13,5 @@
 			var menuheight = responsiveheightsmall;
 		}
 		window.scrollTo({top: window.innerHeight - menuheight, behavior: 'smooth'});
-	
 	}
 </script>
