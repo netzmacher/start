@@ -4,6 +4,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 8.0.44
   20-12-21
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0327: [TASK] Jumboteaser. New CSS property: .jumboteaserContainer{ background-size: cover; }
 	* #i0047: [TASK] Bugfix Backendlayout "Column 6". Remove card 5 from Teaser card Container
 						* Classes/Provider/BackendLayoutDataProvider.php
 						* Configuration/FlexForm/startTeasercard.xml

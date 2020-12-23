@@ -15,7 +15,7 @@
 
 .jumboteaserContainer .onepagedown {
 	position: absolute;
-	top:calc(100vH - 13rem);
+	top:calc(100vH - 10rem);
 }
 .jumboteaserTextoverlay {
 	text-align: center;
@@ -44,6 +44,13 @@
 .jumboteaserTextoverlay p {
 	font-size:1.1em;
 }*/
+
+/* 1025px */
+@media only screen and (min-width: 64.0625rem) {
+	.jumboteaserContainer .onepagedown {
+		top:calc(100vH - 19rem);
+	}
+}
 
 /* 700px x 500px*/
 @media only screen and (min-width: 43.75em) and (min-height: 31.25em) {
