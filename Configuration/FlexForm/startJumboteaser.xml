@@ -126,6 +126,16 @@
 							</config>
 						</TCEforms>
 					</responsiveheightsmall>
+					<responsiveheightsmallscroll>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.responsiveheightsmallscroll</label>
+							<config>
+								<type>input</type>
+								<default>0</default>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</responsiveheightsmallscroll>
 					<responsiveheightmedium>
 						<TCEforms>
 							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.responsiveheightmedium</label>
@@ -136,6 +146,16 @@
 							</config>
 						</TCEforms>
 					</responsiveheightmedium>
+                                        <responsiveheightmediumscroll>
+                                                <TCEforms>
+                                                        <label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.responsiveheightmediumscroll</label>
+                                                        <config>
+                                                                <type>input</type>
+                                                                <default>0</default>
+                                                                <eval>int</eval>
+                                                        </config>
+                                                </TCEforms>
+                                        </responsiveheightmediumscroll>
 					<breakpoint>
 						<TCEforms>
 							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.breakpoint</label>

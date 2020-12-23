@@ -4,6 +4,16 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 8.0.45
   20-12-22
 	Author: Fredrik Boström (verdigado eG), support@verdigado.com
+	* #v571 bugfix Onepagedown.html
+						Affected files:
+						* Configuration/FlexForm/startJumboteaser.xml
+						* Resources/Private/Partials/FluidStyledContent/Javascript/Onepagedown.html
+						* Resources/Private/Language/Backend.xlf
+
+
+8.0.45
+  20-12-22
+	Author: Fredrik Boström (verdigado eG), support@verdigado.com
 	* #v568 [BUGFIX] Flexform countdown feld zählt beim Speichern im Backend: Datum -1 Tag / txstartTeaserCard
 						Affected files:
 						* Configuration/TCA/Overrides/tt_content/teasercard.xlf

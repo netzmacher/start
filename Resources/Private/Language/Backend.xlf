@@ -371,9 +371,17 @@
         <source>Height of the top bar in small views (in pixel). 0 if there isn't any top bar.</source>
         <target>Höhe des Menüs oder der Kopfzeile auf kleinen Bildschirmen (in Pixel). 0, wenn keins vorhanden ist.</target>
       </trans-unit>
+      <trans-unit id="jumboteaser.el.responsiveheightsmallscroll">
+        <source>Height of the top bar in small views after scrolling (in pixel). 0 if there isn't any top bar.</source>
+        <target>Höhe des Menüs oder der Kopfzeile auf kleinen Bildschirmen nach scrollen (in Pixel). 0, wenn keins vorhanden ist.</target>
+      </trans-unit>
       <trans-unit id="jumboteaser.el.responsiveheightmedium">
         <source>Height of the top bar in big views (in pixel). 0 if there isn't any top bar.</source>
         <target>Höhe des Menüs oder der Kopfzeile auf großen Bildschirmen (in Pixel). 0, wenn keins vorhanden ist.</target>
+      </trans-unit>
+      <trans-unit id="jumboteaser.el.responsiveheightmediumscroll">
+        <source>Height of the top bar in big views after scrolling (in pixel). 0 if there isn't any top bar.</source>
+        <target>Höhe des Menüs oder der Kopfzeile auf großen Bildschirmen nach scrollen (in Pixel). 0, wenn keins vorhanden ist.</target>
       </trans-unit>
       <trans-unit id="jumboteaser.el.subtitle">
         <source>Subheader</source>
