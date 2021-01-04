@@ -78,6 +78,14 @@
                 <numIndex index="1">6/3/3</numIndex>
               </numIndex>
               <numIndex index="10" type="array">
+                <numIndex index="0">6|6|12</numIndex>
+                <numIndex index="1">6/6/12</numIndex>
+              </numIndex>
+              <numIndex index="12" type="array">
+                <numIndex index="0">12|6|6</numIndex>
+                <numIndex index="1">12/6/6</numIndex>
+              </numIndex>
+              <numIndex index="13" type="array">
                 <numIndex index="0">12|12|12</numIndex>
                 <numIndex index="1">12/12/12</numIndex>
               </numIndex>
@@ -137,6 +145,14 @@
                 <numIndex index="1">6/3/3</numIndex>
               </numIndex>
               <numIndex index="10" type="array">
+                <numIndex index="0">6|6|12</numIndex>
+                <numIndex index="1">6/6/12</numIndex>
+              </numIndex>
+              <numIndex index="12" type="array">
+                <numIndex index="0">12|6|6</numIndex>
+                <numIndex index="1">12/6/6</numIndex>
+              </numIndex>
+              <numIndex index="13" type="array">
                 <numIndex index="0">12|12|12</numIndex>
                 <numIndex index="1">12/12/12</numIndex>
               </numIndex>
@@ -196,6 +212,14 @@
                 <numIndex index="1">6/3/3</numIndex>
               </numIndex>
               <numIndex index="10" type="array">
+                <numIndex index="0">6|6|12</numIndex>
+                <numIndex index="1">6/6/12</numIndex>
+              </numIndex>
+              <numIndex index="12" type="array">
+                <numIndex index="0">12|6|6</numIndex>
+                <numIndex index="1">12/6/6</numIndex>
+              </numIndex>
+              <numIndex index="13" type="array">
                 <numIndex index="0">12|12|12 (recommended)</numIndex>
                 <numIndex index="1">12/12/12</numIndex>
               </numIndex>

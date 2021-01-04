@@ -1,6 +1,15 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.46
+  21-01-04
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0577: [TASK] Grid elements 3 columns: plus 12|6|6 and 6|6|12
+						Affected file:
+						* Configuration/FlexForm/startCol03.xml
+						Commit:
+						* 
+
 8.0.45
   20-12-22
 	Author: Fredrik Boström (verdigado eG), support@verdigado.com
