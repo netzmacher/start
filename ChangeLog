@@ -1,6 +1,15 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.47
+  21-01-04
+	Author: Fredrik Boström (verdigado eG), support@verdigado.com
+	* #v0491: [SUPPORT] Powermail Formular - link statt Link Text in opt-in Mail
+						Affected files:
+						*Configuration/TCA/Overrides/Default/sys_template.php
+						New files:
+						* Configuration/TypoScript/Extensions/powermail/setup.ts
+						* Resources/Private/Templates/Powermail/Templates/Mail/OptinMail.html
 8.0.46
   21-01-04
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
