@@ -1,4 +1,4 @@
-<f:variable name="then" value="{content.countdowndate}" />
+<f:variable name="then" value="{f:format.date(format: 'U', date: '{content.countdowndate}')}" />
 <f:variable name="now" value="{f:format.date(date: '', format: 'U')}" />
 <f:variable name="diff" value="{then - now}" />
 <f:if condition="{diff} > 0">
@@ -15,7 +15,7 @@
 	<f:variable name="daysM" value="{daysm - daysh}" />
 	<f:variable name="daysM" value="{daysM/1000}" />
 </f:if>
-
+then{then}now{now}diff{diff}
 <f:section name="calendar">
 	<f:if condition="{daysM} >= 1">
 		<span class="number"><f:format.number decimals="0">{daysM}</f:format.number></span>

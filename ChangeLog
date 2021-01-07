@@ -1,6 +1,13 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.0.48
+  21-01-07
+	Author: Fredrik Boström (verdigado eG), support@verdigado.com
+	* #v0606: [BUGFIX] Teasercard Container Wahl: Counter funktioniert nicht
+						Affected files:
+						* Resources/Private/Partials/FluidStyledContent/Teasercard/Countdown.html
+
 8.0.47
   21-01-04
 	Author: Fredrik Boström (verdigado eG), support@verdigado.com
@@ -10,6 +17,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						New files:
 						* Configuration/TypoScript/Extensions/powermail/setup.ts
 						* Resources/Private/Templates/Powermail/Templates/Mail/OptinMail.html
+
 8.0.46
   21-01-04
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
