@@ -6,8 +6,8 @@
 	<f:image image="{images.0.originalFile}" class="cover"/>
 </div>
 <div class="large-8 columns boxright">
-	<f:render partial="Wrap" arguments="{tag: 'h2', class: 'countdown', text: title, noNl2br: 1}"/>
-	<f:render partial="Wrap" arguments="{tag: 'p', text: content.subtitle0}"/>
+	<f:render partial="Wrap" arguments="{tag: settings.start.ce.teasercard.html.paneltagtitle, class: settings.start.ce.teasercard.css.paneltitle, link: content.cta1, text: content.title1}"/>
+	<f:render partial="Wrap" arguments="{tag: settings.start.ce.teasercard.html.paneltagsubtitle, class: settings.start.ce.teasercard.css.panelsubtitle, link: content.cta1, text: content.subtitle1}"/>
 	<f:if condition='{content.cta1}'>
 		<f:link.typolink parameter="{content.cta1}" class="{settings.start.ce.teasercard.css.button}">{content.buttonlabel1}</f:link.typolink>
 	</f:if>

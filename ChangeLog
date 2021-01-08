@@ -1,11 +1,20 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.1.1
+  21-01-08
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0620: [BUGFIX] Teasercard-Container with image on the left side: Text boxes were filled with wrong values
+						Affected file:
+						* Resources/Private/Partials/FluidStyledContent/Teasercard/Card_03.html
+						Commit:
+						* 
+
 8.1.0
   21-01-07
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
 	* #v0517: [FEATURE] Headline image. Don't use div.headlinecontainer and div.headlinetextoverlay, if h1 and h2 is missing
-						Affected files:
+						Affected file:
 						* Resources/Private/Templates/FluidStyledContent/Headlineimage/Headlineimage.html
 						Commit:
 						* dc76e6f
