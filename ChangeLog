@@ -8,7 +8,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						Affected files:
 						* Resources/Private/Templates/FluidStyledContent/Headlineimage/Headlineimage.html
 						Commit:
-						* 
+						* dc76e6f
 	* #v0608: [FEATURE] Configuration for data-src, data-srcset / responsive image
 						Affected files:
 						* Configuration/TypoScript/Base/lib/contentElement/paths.ts
@@ -25,7 +25,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 								* sys_file_reference.xlf
 							* Partials/Responsiveimage/Media/Rendering/Image.html
 						Commit
-						* 
+						* dc76e6f
 
 8.0.48
   21-01-07
