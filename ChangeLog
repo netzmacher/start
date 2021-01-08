@@ -6,6 +6,9 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 	Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com
 	* #i0600: [FEATURE] org_staff: single record for content element records 
 						Affected files:
+						* Resources/Public/Css/a-icon.css
+						Commit:
+						* 53619b9
 
 8.1.1
   21-01-08
