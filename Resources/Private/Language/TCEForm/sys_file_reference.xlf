@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2021-01-07T15:11:39Z" product-name="start">
+    <header/>
+    <body>
+      <trans-unit id="crop.default.title">
+        <source>Desktop</source>
+        <target>Desktop</target>
+      </trans-unit>
+      <trans-unit id="crop.smartphone.title">
+        <source>Smartphone</source>
+        <target>Smartphone</target>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>

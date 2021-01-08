@@ -1,6 +1,32 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.1.0
+  21-01-07
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v0517: [FEATURE] Headline image. Don't use div.headlinecontainer and div.headlinetextoverlay, if h1 and h2 is missing
+						Affected files:
+						* Resources/Private/Templates/FluidStyledContent/Headlineimage/Headlineimage.html
+						Commit:
+						* 
+	* #v0608: [FEATURE] Configuration for data-src, data-srcset / responsive image
+						Affected files:
+						* Configuration/TypoScript/Base/lib/contentElement/paths.ts
+						* Resources/Private/Templates/FluidStyledContent/Foundation/Partials/Media/Rendering/Image177.html
+						* ext_conf_template.txt
+						* ext_localconf.php
+						New files:
+						* Configuration/TSconfig/Page
+							* TCEFORM.php
+							* TCEFORM/sys_file_reference/crop.ts
+						* Resources/Private
+							* Language/TCEForm
+								* de.sys_file_reference.xlf
+								* sys_file_reference.xlf
+							* Partials/Responsiveimage/Media/Rendering/Image.html
+						Commit
+						* 
+
 8.0.48
   21-01-07
 	Author: Fredrik Boström (verdigado eG), support@verdigado.com
@@ -12,8 +38,12 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
   21-01-04
 	Author: Fredrik Boström (verdigado eG), support@verdigado.com
 	* #v0491: [SUPPORT] Powermail Formular - link statt Link Text in opt-in Mail
+						-------------------
+						NEW STATIC TEMPLATE
+						* Start [20.8.1] powermail optin
+						-------------------
 						Affected files:
-						*Configuration/TCA/Overrides/Default/sys_template.php
+						* Configuration/TCA/Overrides/Default/sys_template.php
 						New files:
 						* Configuration/TypoScript/Extensions/powermail/setup.ts
 						* Resources/Private/Templates/Powermail/Templates/Mail/OptinMail.html

@@ -27,24 +27,21 @@
 			</f:if>
 		</style>
 
-		<f:variable name="plusouterwrapClass"></f:variable>
-		<f:if condition="{settings.start.ce.jumboteaser.css.plusouterwrap}">
-			<f:variable name="plusouterwrapClass"> {settings.start.ce.headlineimage.css.plusouterwrap}</f:variable>
+		<f:if condition="{content.title} || {content.subtitle}">
+			<div class="headlinecontainer{imageClass}" >
+				<div class="headlinetextoverlay">
+					<f:render partial="Wrap" arguments="{tag: settings.start.ce.headlineimage.html.tagtitle, class: settings.start.ce.headlineimage.css.title, text: content.title}"/>
+					<f:render partial="Wrap" arguments="{tag: settings.start.ce.headlineimage.html.tagsubtitle, class: settings.start.ce.headlineimage.css.subtitle, text: content.subtitle}"/>
+				</div>
+			</div>
 		</f:if>
 
-		<div class="headlinecontainer{plusouterwrapClass}{imageClass}" >
-			<div class="headlinetextoverlay">
-				<f:render partial="Wrap" arguments="{tag: settings.start.ce.headlineimage.html.tagtitle, class: settings.start.ce.headlineimage.css.title, text: content.title}"/>
-				<f:render partial="Wrap" arguments="{tag: settings.start.ce.headlineimage.html.tagsubtitle, class: settings.start.ce.headlineimage.css.subtitle, text: content.subtitle}"/>
-			</div>
-		</div>
-
+		<f:debug title="@oewiewgh">{_all}</f:debug>
 	</f:section>
+
 	<f:section name="archive">
 		<div class="headlinetextoverlay {content.paddingleftright}">
 	</f:section>
-
-
 	<f:section name="debug">
 		<f:debug title="@oewiewgh">{images.0.originalFile}</f:debug>
 	</f:section>

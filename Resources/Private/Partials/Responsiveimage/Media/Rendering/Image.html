@@ -1,0 +1,18 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+	<f:media 
+		class="image-embed-item" 
+		file="{file}" 
+		width="{dimensions.width}" 
+		height="{dimensions.height}" 
+		alt="{file.alternative}" 
+		title="{file.title}" 
+		loading="{settings.media.lazyLoading}" 
+    additionalAttributes="{
+			srcset:  \"{f:uri.image(image: file, treatIdAsReference: 1, maxWidth: 400, cropVariant: 'smartphone')} 400w,
+								{f:uri.image(image: file, treatIdAsReference: 1, maxWidth: 800, cropVariant: 'default')} 800w,
+								{f:uri.image(image: file, treatIdAsReference: 1, maxWidth: 1200, cropVariant: 'default')} 1200w,
+								{f:uri.image(image: file, treatIdAsReference: 1, maxWidth: 1600, cropVariant: 'default')} 1600w,
+								{f:uri.image(image: file, treatIdAsReference: 1, maxWidth: 1920, cropVariant: 'default')} 1920w\"
+		}"
+		/>
+</html>

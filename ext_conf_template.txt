@@ -33,6 +33,9 @@ beLanguage = English
   # cat=Modul//100;					type=boolean; label= Disable Module:Disable the Start Module in the Module > Web
 modulDisabled  = 0
 
+	# cat=Responsive images//100;		type=boolean; label= Disable:Disable it, if you are using responsive images by another extension
+responsiveimagesDisabled = 0
+
 	# cat=TCA//100;							type=boolean; label= Pages:Disable additional TCA properties for the table pages.
 tcaPagesDisabled = 0
 	# cat=TCA//101;							type=boolean; label= Content:Disable additional TCA properties for the table tt_content.

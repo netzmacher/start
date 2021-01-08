@@ -62,6 +62,9 @@ call_user_func( function ()
 	//\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:start/Configuration/TSconfig/Page/tx_gridelements.ts">');
 	require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TSconfig/Page/tx_gridelements.php' );
 
+	// #v0608, 210107, dwildt, 1+
+	require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TSconfig/Page/TCEFORM.php' );
+
 	/*	 * ****************************************************************************
 	 * Direct Mail Hooks
 	 * **************************************************************************** */
