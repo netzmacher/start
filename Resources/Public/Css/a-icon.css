@@ -1,24 +1,24 @@
-#startBox01 a.internal-link::after {
+a.internal-link::after {
 	content: "\f165";
 	font-family: "foundation-icons";
 	padding-left: .4em;
 }
 
-#startBox01 a[href^="mailto"]::after,
-#startBox01 a[href^="javascript:linkTo_UnCryptMailto"]::after {
+a[href^="mailto"]::after,
+a[href^="javascript:linkTo_UnCryptMailto"]::after {
 	content: "\f16d";
 	font-family: "foundation-icons";
 	padding-left: .4em;
 }
 
-#startBox01 a.external-link::after,
-#startBox01 a.external-link-new-window::after {
+a.external-link::after,
+a.external-link-new-window::after {
 	content: "\f12d";
 	font-family: "foundation-icons";
 	padding-left: .4em;
 }
 
-#startBox01 a.download::after {
+a.download::after {
 	content: "\f143";
 	font-family: "foundation-icons";
 	padding-left: .4em;
