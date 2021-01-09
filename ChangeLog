@@ -1,6 +1,15 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.1.3
+  21-01-09
+	Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com
+	* #i0627: [TASK] article-tag isn't proper: tag is removed
+						Affected files:
+						* Configuration/TypoScript/Base/Start/Structure/setup/content.ts
+						Commit:
+						* 
+
 8.1.2
   21-01-08
 	Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com
