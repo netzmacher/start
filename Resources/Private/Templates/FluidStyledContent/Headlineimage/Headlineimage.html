@@ -5,7 +5,6 @@
 		<f:variable name="imageClass"></f:variable>
 		<f:if condition="{images.0}">
 			<f:variable name="imageClass"> wiImage</f:variable>
-			<f:variable name="brightness"><f:cObject typoscriptObjectPath="lib.start.calc" data="(100-{content.brightness})/100"/></f:variable>
 		</f:if>
 		<f:variable name="desktop">{settings.start.image.breakpoint.desktop}</f:variable>
 		<f:variable name="smartphone">{settings.start.image.breakpoint.smartphone}</f:variable>
@@ -13,7 +12,7 @@
 
 		<style>
 			#c{data.uid} .headlinecontainer .bg-image {
-				filter: brightness({content.brightness}%);
+				filter: brightness({content.brightness22}%);
 				height: {content.heightsmartphone}px;
 				object-position: {content.imagexposition} {content.imageyposition};
 			}

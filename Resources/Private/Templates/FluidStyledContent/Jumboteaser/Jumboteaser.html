@@ -8,7 +8,6 @@
 		</f:if>
 		<f:variable name="imageClass"></f:variable>
 		<f:if condition="{images.0}">
-			<f:variable name="brightness"><f:cObject typoscriptObjectPath="lib.start.calc" data="(100-{content.brightness})/100"/></f:variable>
 			<f:variable name="imageClass"> wiImage</f:variable>
 		</f:if>
 		<f:variable name="desktop">{settings.start.image.breakpoint.desktop}</f:variable>
@@ -26,7 +25,7 @@
 				}
 			}
 			#c{data.uid} .jumboteaserContainer .bg-image {
-				filter: brightness({content.brightness}%);
+				filter: brightness({content.brightness22}%);
 				object-position: {content.imagexposition} {content.imageyposition};
 			}
 			#c{data.uid} .jumboteaserTextoverlay {

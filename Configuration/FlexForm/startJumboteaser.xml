@@ -96,7 +96,7 @@
 				</TCEforms>
 				<type>array</type>
 				<el>
-					<brightness>
+					<brightness22>
 						<TCEforms>
 							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.brightness</label>
 							<config>
@@ -104,14 +104,14 @@
 								<size>3</size>
 								<max>3</max>
 								<eval>int,trim</eval>
-								<default>50</default>
+								<default>85</default>
 								<range>
 									<lower>0</lower>
 									<upper>100</upper>
 								</range>
 							</config>
 						</TCEforms>
-					</brightness>
+					</brightness22>
 					<imagexposition>
 						<TCEforms>
 							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.imagexposition</label>
