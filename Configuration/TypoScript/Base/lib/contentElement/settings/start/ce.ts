@@ -47,7 +47,7 @@ lib {
 						// empty statement for proper comments only
 					jumboteaser {
 					}
-						// css
+						// css, html
 					jumboteaser =
 					jumboteaser {
 							// empty statement for proper comments only

@@ -7,19 +7,26 @@
 			<f:variable name="imageClass"> wiImage</f:variable>
 			<f:variable name="brightness"><f:cObject typoscriptObjectPath="lib.start.calc" data="(100-{content.brightness})/100"/></f:variable>
 		</f:if>
+		<f:variable name="desktop">{settings.start.image.breakpoint.desktop}</f:variable>
+		<f:variable name="smartphone">{settings.start.image.breakpoint.smartphone}</f:variable>
+		<f:variable name="tablet">{settings.start.image.breakpoint.tablet}</f:variable>
 
 		<style>
-			#c{data.uid} .headlinetextoverlay {
-				padding-top:{content.paddingtopbottom}px;
-				padding-bottom:{content.paddingtopbottom}px;
+			#c{data.uid} .headlinecontainer .bg-image {
+				filter: brightness({content.brightness}%);
+				height: {content.heightsmartphone}px;
+				object-position: {content.imagexposition} {content.imageyposition};
 			}
-			<f:if condition="{images.0}">
-			#c{data.uid} .headlinecontainer {
-				background-image: linear-gradient(rgba(0,0,0,<f:format.raw>{brightness}</f:format.raw>), rgba(0,0,0,<f:format.raw>{brightness}</f:format.raw>)),
-					url(<f:uri.image image="{images.0}" />);
-				background-position: center {content.croptopbottom};
+			@media only screen and (min-width: {smartphone}px) {
+				#c{data.uid} .headlinecontainer .bg-image {
+					height: {content.heighttablet}px;
+				}
 			}
-			</f:if>
+			@media only screen and (min-width: {tablet}px) {
+				#c{data.uid} .headlinecontainer .bg-image {
+					height: {content.heightdesktop}px;
+				}
+			}
 			<f:if condition="{content.textalign}">
 			#c{data.uid} .headlinetextoverlay {
 				text-align: {content.textalign};
@@ -33,6 +40,20 @@
 					<f:render partial="Wrap" arguments="{tag: settings.start.ce.headlineimage.html.tagtitle, class: settings.start.ce.headlineimage.css.title, text: content.title}"/>
 					<f:render partial="Wrap" arguments="{tag: settings.start.ce.headlineimage.html.tagsubtitle, class: settings.start.ce.headlineimage.css.subtitle, text: content.subtitle}"/>
 				</div>
+				<f:if condition="{images.0}">
+					<f:media 
+						class="bg-image" 
+						file="{images.0}" 
+						alt="{images.0.alternative}" 
+						title="{images.0.title}" 
+						loading="{settings.media.lazyLoading}" 
+						additionalAttributes="{
+							srcset:  \" {f:uri.image(image: images.0, treatIdAsReference: 1, maxWidth: smartphone, cropVariant: 'smartphone')} {smartphone}w,
+													{f:uri.image(image: images.0, treatIdAsReference: 1, maxWidth: tablet, cropVariant: 'tablet')} {tablet}w,
+													{f:uri.image(image: images.0, treatIdAsReference: 1, maxWidth: desktop, cropVariant: 'default')} {desktop}w\"
+						}"
+						/>
+				</f:if>
 			</div>
 		</f:if>
 

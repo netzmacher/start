@@ -246,49 +246,49 @@
         <source>Brightness</source>
         <target>Helligkeit</target>
       </trans-unit>
-			<trans-unit id="headlineimage.el.croptopbottom">
-        <source>Crop the picture from ...</source>
-        <target>Bild abschneiden von ...</target>
+			<trans-unit id="headlineimage.el.heightdesktop">
+        <source>Height: Desktop</source>
+        <target>Höhe: Desktop</target>
       </trans-unit>
-			<trans-unit id="headlineimage.el.croptopbottom.bottom">
-        <source>above</source>
-        <target>oben</target>
+			<trans-unit id="headlineimage.el.heightsmartphone">
+        <source>Height: Smartphone</source>
+        <target>Höhe: Smartphone</target>
       </trans-unit>
-			<trans-unit id="headlineimage.el.croptopbottom.center">
-        <source>above and below</source>
-        <target>oben und unten</target>
+			<trans-unit id="headlineimage.el.heighttablet">
+        <source>Height: Tablet</source>
+        <target>Höhe: Tablet</target>
       </trans-unit>
-			<trans-unit id="headlineimage.el.croptopbottom.top">
-        <source>below</source>
-        <target>unten</target>
+			<trans-unit id="headlineimage.el.imagexposition">
+        <source>Vertical arrangement</source>
+        <target>Vertikal Anordnung</target>
       </trans-unit>
-			<trans-unit id="headlineimage.el.paddingleftright">
-        <source>Margin left and right</source>
-        <target>Rand links und rechts</target>
+      <trans-unit id="headlineimage.el.imagexposition.center">
+        <source>Center</source>
+        <target>Mitte</target>
       </trans-unit>
-			<trans-unit id="headlineimage.el.paddingleftright.default">
-        <source>Default</source>
-        <target>Standard</target>
+      <trans-unit id="headlineimage.el.imagexposition.left">
+        <source>Left</source>
+        <target>Links</target>
       </trans-unit>
-			<trans-unit id="headlineimage.el.paddingleftright.08percent">
-        <source>1 | 10 | 1</source>
-        <target>1 | 10 | 1</target>
+      <trans-unit id="headlineimage.el.imagexposition.right">
+        <source>Right</source>
+        <target>Rechts</target>
       </trans-unit>
-			<trans-unit id="headlineimage.el.paddingleftright.17percent">
-        <source>2 | 8 | 2</source>
-        <target>2 | 8 | 2</target>
+      <trans-unit id="headlineimage.el.imageyposition">
+        <source>Horizontal arrangement</source>
+        <target>Horizontale Anordnung</target>
       </trans-unit>
-			<trans-unit id="headlineimage.el.paddingleftright.25percent">
-        <source>3 | 6 | 3</source>
-        <target>3 | 6 | 3</target>
+      <trans-unit id="headlineimage.el.imageyposition.bottom">
+        <source>Bottom</source>
+        <target>Unten</target>
       </trans-unit>
-			<trans-unit id="headlineimage.el.paddingleftright.33percent">
-        <source>4 | 4 | 4</source>
-        <target>4 | 4 | 4</target>
+      <trans-unit id="headlineimage.el.imageyposition.center">
+        <source>Center</source>
+        <target>Mitte</target>
       </trans-unit>
-			<trans-unit id="headlineimage.el.paddingtopbottom">
-        <source>Margin above and below</source>
-        <target>Rand oben und unten</target>
+      <trans-unit id="headlineimage.el.imageyposition.top">
+        <source>Above</source>
+        <target>Oben</target>
       </trans-unit>
       <trans-unit id="headlineimage.el.subtitle">
         <source>Subheader</source>
@@ -323,8 +323,8 @@
         <target>Titel</target>
       </trans-unit>
       <trans-unit id="headlineimage.sheet.sDEF">
-        <source>Adjustments</source>
-        <target>Einstellungen</target>
+        <source>Image</source>
+        <target>Bild</target>
       </trans-unit>
       <trans-unit id="headlineimage.sheet.text">
         <source>Text</source>
@@ -332,8 +332,8 @@
       </trans-unit>
 
 			<trans-unit id="jumboteaser.el.breakpoint">
-        <source>Breakpoint for the big view (in pixel). 0 if there isn't any top bar.</source>
-        <target>Breakpoint für großen Bildschirm (in Pixel). 0, wenn kein Menü bzw. Kopfzeile vorhanden ist.</target>
+        <source>Large sreens: Breakpoint (in pixel). 0 if there isn't any header area.</source>
+        <target>Große Bildschirme: Breakpoint (in Pixel). 0, wenn kein Kopfbereich vorhanden ist.</target>
       </trans-unit>
 			<trans-unit id="jumboteaser.el.brightness">
         <source>Brightness</source>
@@ -363,25 +363,65 @@
         <source>Call-to-cction-Link</source>
         <target>Call-to-Action-Link</target>
       </trans-unit>
-      <trans-unit id="jumboteaser.el.distanceFromTop">
-        <source>Space between text and top margin (in percent). 0: Distance above and below is the same.</source>
-        <target>Abstand zwischen Text und oberen Rand (in Prozent). 0: Abstand oben und unten ist gleich.</target>
+      <trans-unit id="jumboteaser.el.imagexposition">
+        <source>Vertical arrangement</source>
+        <target>Vertikal Anordnung</target>
+      </trans-unit>
+      <trans-unit id="jumboteaser.el.imagexposition.center">
+        <source>Center</source>
+        <target>Mitte</target>
+      </trans-unit>
+      <trans-unit id="jumboteaser.el.imagexposition.left">
+        <source>Left</source>
+        <target>Links</target>
+      </trans-unit>
+      <trans-unit id="jumboteaser.el.imagexposition.right">
+        <source>Right</source>
+        <target>Rechts</target>
+      </trans-unit>
+      <trans-unit id="jumboteaser.el.imageyposition">
+        <source>Horizontal arrangement</source>
+        <target>Horizontale Anordnung</target>
+      </trans-unit>
+      <trans-unit id="jumboteaser.el.imageyposition.bottom">
+        <source>Bottom</source>
+        <target>Unten</target>
+      </trans-unit>
+      <trans-unit id="jumboteaser.el.imageyposition.center">
+        <source>Center</source>
+        <target>Mitte</target>
+      </trans-unit>
+      <trans-unit id="jumboteaser.el.imageyposition.top">
+        <source>Above</source>
+        <target>Oben</target>
+      </trans-unit>
+      <trans-unit id="jumboteaser.el.positiondesktop">
+        <source>Desktop: vertical position. 50: in the middle.</source>
+        <target>Desktop: Vertikale Postion. 50: in der Mitte.</target>
+      </trans-unit>
+      <trans-unit id="jumboteaser.el.positiontablet">
+        <source>Tablet: vertical position. 50: in the middle.</source>
+        <target>Tablet: Vertikale Postion. 50: in der Mitte.</target>
+      </trans-unit>
+      <trans-unit id="jumboteaser.el.positionsmartphone">
+        <source>Smartphone: vertical position. 50: in the middle.</source>
+        <target>Smartphone: Vertikale Postion. 50: in der Mitte.</target>
       </trans-unit>
       <trans-unit id="jumboteaser.el.responsiveheightsmall">
-        <source>Height of the top bar in small views (in pixel). 0 if there isn't any top bar.</source>
-        <target>Höhe des Menüs oder der Kopfzeile auf kleinen Bildschirmen (in Pixel). 0, wenn keins vorhanden ist.</target>
+        <source>Small screen: Height (in pixels). 0 if there is no header area.</source>
+        <target>Kleiner Bildschirm: Höhe (in Pixel). 0, wenn kein Kopfbereich vorhanden ist.</target>
       </trans-unit>
       <trans-unit id="jumboteaser.el.responsiveheightsmallscroll">
-        <source>Height of the top bar in small views after scrolling (in pixel). 0 if there isn't any top bar.</source>
-        <target>Höhe des Menüs oder der Kopfzeile auf kleinen Bildschirmen nach scrollen (in Pixel). 0, wenn keins vorhanden ist.</target>
+        <source>Small screen: Height reduced (in pixels). 0 if there is no header area.</source>
+        <target>Kleiner Bildschirm: Höhe verkleinert (in Pixel). 0, wenn kein Kopfbereich vorhanden ist.</target>
       </trans-unit>
       <trans-unit id="jumboteaser.el.responsiveheightmedium">
-        <source>Height of the top bar in big views (in pixel). 0 if there isn't any top bar.</source>
-        <target>Höhe des Menüs oder der Kopfzeile auf großen Bildschirmen (in Pixel). 0, wenn keins vorhanden ist.</target>
+        <source>Large screen: Height (in pixels). 0 if there is no header area.</source>
+        <target>Großer Bildschirm: Höhe (in Pixel). 0, wenn kein Kopfbereich vorhanden ist.</target>
       </trans-unit>
       <trans-unit id="jumboteaser.el.responsiveheightmediumscroll">
-        <source>Height of the top bar in big views after scrolling (in pixel). 0 if there isn't any top bar.</source>
-        <target>Höhe des Menüs oder der Kopfzeile auf großen Bildschirmen nach scrollen (in Pixel). 0, wenn keins vorhanden ist.</target>
+        <source>Large screen: Height reduced (in pixels). 0 if there is no header area.</source>
+        <target>Großer Bildschirm: Höhe verkleinert (in Pixel). 0, wenn kein Kopfbereich vorhanden ist.</target>
       </trans-unit>
       <trans-unit id="jumboteaser.el.subtitle">
         <source>Subheader</source>
@@ -391,13 +431,17 @@
         <source>Header</source>
         <target>Titel</target>
       </trans-unit>
-      <trans-unit id="jumboteaser.sheet.sDEF">
-        <source>Adjustments</source>
-        <target>Einstellungen</target>
+      <trans-unit id="jumboteaser.sheet.image">
+        <source>Image</source>
+        <target>Bild</target>
       </trans-unit>
       <trans-unit id="jumboteaser.sheet.responsive">
-        <source>Responsive Design</source>
-        <target>Responsive Design</target>
+        <source>Header</source>
+        <target>Kopfbereich</target>
+      </trans-unit>
+      <trans-unit id="jumboteaser.sheet.sDEF">
+        <source>Content</source>
+        <target>Inhalt</target>
       </trans-unit>
       <trans-unit id="jumboteaser.sheet.text">
         <source>Text</source>

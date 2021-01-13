@@ -86,78 +86,102 @@
 							</config>
 						</TCEforms>
 					</brightness>
-					<croptopbottom>
+					<imagexposition>
 						<TCEforms>
-							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.croptopbottom</label>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.imagexposition</label>
 							<config>
 								<type>select</type>
 								<renderType>selectSingle</renderType>
 								<default>center</default>
 								<items>
 									<numIndex index="0">
-										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.croptopbottom.center</numIndex>
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.imagexposition.center</numIndex>
 										<numIndex index="1">center</numIndex>
 									</numIndex>
 									<numIndex index="1">
-										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.croptopbottom.top</numIndex>
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.imagexposition.left</numIndex>
+										<numIndex index="1">left</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.imagexposition.right</numIndex>
+										<numIndex index="1">right</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</imagexposition>
+					<imageyposition>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.imageyposition</label>
+							<config>
+								<type>select</type>
+								<renderType>selectSingle</renderType>
+								<default>center</default>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.imageyposition.center</numIndex>
+										<numIndex index="1">center</numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.imageyposition.top</numIndex>
 										<numIndex index="1">top</numIndex>
 									</numIndex>
 									<numIndex index="2">
-										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.croptopbottom.bottom</numIndex>
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.imageyposition.bottom</numIndex>
 										<numIndex index="1">bottom</numIndex>
 									</numIndex>
 								</items>
 							</config>
 						</TCEforms>
-					</croptopbottom>
-					<paddingtopbottom>
+					</imageyposition>
+					<heightsmartphone>
 						<TCEforms>
-							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.paddingtopbottom</label>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.heightsmartphone</label>
 							<config>
 								<type>input</type>
 								<size>3</size>
 								<max>3</max>
 								<eval>int,trim</eval>
-								<default>100</default>
+								<default>300</default>
 								<range>
 									<lower>0</lower>
 									<upper>999</upper>
 								</range>
 							</config>
 						</TCEforms>
-					</paddingtopbottom>
-<!--					<paddingleftright>
+					</heightsmartphone>
+					<heighttablet>
 						<TCEforms>
-							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.paddingleftright</label>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.heighttablet</label>
 							<config>
-								<type>select</type>
-								<renderType>selectSingle</renderType>
-								<default>startWiPaddingLeftRightDefault</default>
-								<items>
-									<numIndex index="0">
-										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.paddingleftright.default</numIndex>
-										<numIndex index="1">startWiPaddingLeftRightDefault</numIndex>
-									</numIndex>
-									<numIndex index="1">
-										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.paddingleftright.08percent</numIndex>
-										<numIndex index="1">startWiMarginLeftRight08percent</numIndex>
-									</numIndex>
-									<numIndex index="2">
-										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.paddingleftright.17percent</numIndex>
-										<numIndex index="1">startWiMarginLeftRight17percent</numIndex>
-									</numIndex>
-									<numIndex index="3">
-										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.paddingleftright.25percent</numIndex>
-										<numIndex index="1">startWiMarginLeftRight25percent</numIndex>
-									</numIndex>
-									<numIndex index="4">
-										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.paddingleftright.33percent</numIndex>
-										<numIndex index="1">startWiMarginLeftRight33percent</numIndex>
-									</numIndex>
-								</items>
+								<type>input</type>
+								<size>3</size>
+								<max>3</max>
+								<eval>int,trim</eval>
+								<default>400</default>
+								<range>
+									<lower>0</lower>
+									<upper>999</upper>
+								</range>
 							</config>
 						</TCEforms>
-					</paddingleftright>-->
+					</heighttablet>
+					<heightdesktop>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:headlineimage.el.heightdesktop</label>
+							<config>
+								<type>input</type>
+								<size>3</size>
+								<max>3</max>
+								<eval>int,trim</eval>
+								<default>500</default>
+								<range>
+									<lower>0</lower>
+									<upper>999</upper>
+								</range>
+							</config>
+						</TCEforms>
+					</heightdesktop>
 				</el>
 			</ROOT>
 		</sDEF>

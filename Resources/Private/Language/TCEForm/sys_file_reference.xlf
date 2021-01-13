@@ -3,13 +3,29 @@
   <file source-language="en" datatype="plaintext" original="messages" date="2021-01-07T15:11:39Z" product-name="start">
     <header/>
     <body>
+      <trans-unit id="crop.default.NaN">
+        <source>Free</source>
+        <target>Frei</target>
+      </trans-unit>
       <trans-unit id="crop.default.title">
         <source>Desktop</source>
         <target>Desktop</target>
       </trans-unit>
+      <trans-unit id="crop.smartphone.NaN">
+        <source>Free</source>
+        <target>Frei</target>
+      </trans-unit>
       <trans-unit id="crop.smartphone.title">
         <source>Smartphone</source>
         <target>Smartphone</target>
+      </trans-unit>
+      <trans-unit id="crop.tablet.NaN">
+        <source>Free</source>
+        <target>Frei</target>
+      </trans-unit>
+      <trans-unit id="crop.tablet.title">
+        <source>Tablet</source>
+        <target>Tablet</target>
       </trans-unit>
     </body>
   </file>

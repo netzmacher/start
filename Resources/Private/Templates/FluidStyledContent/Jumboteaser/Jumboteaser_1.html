@@ -11,36 +11,32 @@
 			<f:variable name="brightness"><f:cObject typoscriptObjectPath="lib.start.calc" data="(100-{content.brightness})/100"/></f:variable>
 			<f:variable name="imageClass"> wiImage</f:variable>
 		</f:if>
-		<f:variable name="desktop">{settings.start.image.breakpoint.desktop}</f:variable>
-		<f:variable name="smartphone">{settings.start.image.breakpoint.smartphone}</f:variable>
-		<f:variable name="tablet">{settings.start.image.breakpoint.tablet}</f:variable>
-		
+
 		<style>
 			#c{data.uid} .jumboteaserContainer {
 				height: calc(100vh - {content.responsiveheightsmall}px);
 			}
+
+			<f:if condition="{content.distanceFromTop}">
+			#c{data.uid} .jumboteaserTextoverlay {
+				top: {content.distanceFromTop}%;
+			}
+			</f:if>
+
 			<f:if condition="{content.breakpoint}">
 			@media only screen and (min-width: {content.breakpoint}px) {
 				#c{data.uid} .jumboteaserContainer {
 					height: calc(100vh - {content.responsiveheightmedium}px);
 				}
 			}
-			#c{data.uid} .jumboteaserContainer .bg-image {
-				filter: brightness({content.brightness}%);
-				object-position: {content.imagexposition} {content.imageyposition};
-			}
-			#c{data.uid} .jumboteaserTextoverlay {
-				top: {content.positionsmartphone}%;
-			}
-			@media only screen and (min-width: {smartphone}px) {
-				#c{data.uid} .jumboteaserTextoverlay {
-					top: {content.positiontablet}%;
-				}
-			}
-			@media only screen and (min-width: {tablet}px) {
-				#c{data.uid} .jumboteaserTextoverlay {
-					top: {content.positiondesktop}%;
-				}
+			</f:if>
+
+			<f:if condition="{images.000XXX}">
+			#c{data.uid} .jumboteaserContainer {
+				background-image: linear-gradient(rgba(0,0,0,<f:format.raw>{brightness}</f:format.raw>), rgba(0,0,0,<f:format.raw>{brightness}</f:format.raw>)),
+					url(<f:uri.image image="{images.0}" />);
+				background-position: center {content.croptopbottom};
+				background-size: cover;
 			}
 			</f:if>
 		</style>
@@ -52,16 +48,19 @@
 				<f:media 
 					class="bg-image" 
 					file="{images.0}" 
-					alt="{images.0.alternative}" 
-					title="{images.0.title}" 
+					alt="{file.alternative}" 
+					title="{file.title}" 
 					loading="{settings.media.lazyLoading}" 
 					additionalAttributes="{
-						srcset:  \" {f:uri.image(image: images.0, treatIdAsReference: 1, maxWidth: smartphone, cropVariant: 'smartphone')} {smartphone}w,
-												{f:uri.image(image: images.0, treatIdAsReference: 1, maxWidth: tablet, cropVariant: 'tablet')} {tablet}w,
-												{f:uri.image(image: images.0, treatIdAsReference: 1, maxWidth: desktop, cropVariant: 'default')} {desktop}w\"
-					}"
-				/>
+						srcset:  \" {f:uri.image(image: file, treatIdAsReference: 1, maxWidth: 400, cropVariant: 'smartphone')} 400w,
+												{f:uri.image(image: file, treatIdAsReference: 1, maxWidth: 800, cropVariant: 'default')} 800w,
+												{f:uri.image(image: file, treatIdAsReference: 1, maxWidth: 1200, cropVariant: 'default')} 1200w,
+												{f:uri.image(image: file, treatIdAsReference: 1, maxWidth: 1600, cropVariant: 'default')} 1600w,
+												{f:uri.image(image: file, treatIdAsReference: 1, maxWidth: 1920, cropVariant: 'default')} 1920w\"
+						}"
+					/>
 			</f:if>
+			<img id="hintergrund" src="../Resources/Public/Images/Backend/typo3-start_loginBackgroundImage.jpg" border="0" alt="Hintergrundbild">
 			<div class="jumboteaserTextoverlay">
 				<f:render partial="Wrap" arguments="{tag: settings.start.ce.jumboteaser.html.tagtitle, class: settings.start.ce.jumboteaser.css.title, text: content.title}"/>
 				<f:render partial="Wrap" arguments="{tag: settings.start.ce.jumboteaser.html.tagsubtitle, class: settings.start.ce.jumboteaser.css.subtitle, text: content.subtitle}"/>

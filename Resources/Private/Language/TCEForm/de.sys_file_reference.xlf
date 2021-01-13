@@ -19,6 +19,14 @@
         <source>Smartphone</source>
         <target>Smartphone</target>
       </trans-unit>
+      <trans-unit id="crop.tablet.NaN">
+        <source>Free</source>
+        <target>Frei</target>
+      </trans-unit>
+      <trans-unit id="crop.tablet.title">
+        <source>Tablet</source>
+        <target>Tablet</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

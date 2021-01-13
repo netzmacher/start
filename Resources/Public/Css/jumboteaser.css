@@ -7,18 +7,37 @@
  */
 
 .jumboteaserContainer {
-	overflow:hidden;
-	display: flex;
 	align-items: center;
 	justify-content: center;
+	overflow:hidden;
+	position: relative;
+}
+
+.jumboteaserContainer .bg-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: relative;
+	z-index: 1;
 }
 
 .jumboteaserContainer .onepagedown {
 	position: absolute;
-	top:calc(100vH - 10rem);
+	/*top:calc(100vH - 10rem);*/
+  top: 89%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	z-index: 2;
 }
 .jumboteaserTextoverlay {
+	width: 100%;
 	text-align: center;
+	position: absolute;
+	z-index: 2;
+	overflow: hidden;
+  /*top: 50%;  <- set by content editor! */
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .jumboteaserContainer.wiImage h1,
@@ -33,66 +52,4 @@
 .jumboteaserContainer .onepagedown .arrow {
   border-width: 0 .75rem .75rem 0;
   padding: .75rem;
-}
-
-/*.jumboteaserTextoverlay a.button {
-	font-size:0.75em;
-}
-.jumboteaserTextoverlay h1 {
-	font-size:2em;
-}
-.jumboteaserTextoverlay p {
-	font-size:1.1em;
-}*/
-
-/* 1025px */
-@media only screen and (min-width: 64.0625rem) {
-	.jumboteaserContainer .onepagedown {
-		top:calc(100vH - 19rem);
-	}
-}
-
-/* 700px x 500px*/
-@media only screen and (min-width: 43.75em) and (min-height: 31.25em) {
-	/*	.jumboteaserTextoverlay a.button {
-			font-size:0.75em;
-		}
-		.jumboteaserTextoverlay h1 {
-			font-size:3em;
-		}
-		.jumboteaserTextoverlay p {
-			font-size:1.2em;
-		}*/
-}
-/* 360px x 650px */
-@media only screen and (min-width: 22.5em) and (min-height: 40.625em) {
-	/*	.jumboteaserTextoverlay a.button {
-			font-size:0.75em;
-		}
-		.jumboteaserTextoverlay h1 {
-			font-size:3em;
-		}
-		.jumboteaserTextoverlay p {
-			font-size:1.2em;
-		}*/
-}
-
-/* 1.000px x 500px */
-@media only screen and (min-width: 62.5em) and (min-height: 31.25em) {
-	/*	.jumboteaserTextoverlay {
-			max-width: 50%;
-		}*/
-}
-
-/* 700px x 700px */
-@media only screen and (min-height: 43.75em) and (min-width: 43.75em) {
-	/*	.jumboteaserTextoverlay a.button {
-			font-size:0.75em;
-		}
-		.jumboteaserTextoverlay h1 {
-			font-size:5em;
-		}
-		.jumboteaserTextoverlay p {
-			font-size:1.8em;
-		}*/
 }

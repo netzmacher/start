@@ -56,6 +56,46 @@
 				</TCEforms>
 				<type>array</type>
 				<el>
+					<positionsmartphone>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.positionsmartphone</label>
+							<config>
+								<type>input</type>
+								<default>50</default>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</positionsmartphone>
+					<positiontablet>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.positiontablet</label>
+							<config>
+								<type>input</type>
+								<default>50</default>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</positiontablet>
+					<positiondesktop>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.positiondesktop</label>
+							<config>
+								<type>input</type>
+								<default>50</default>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</positiondesktop>
+				</el>
+			</ROOT>
+		</sDEF>
+		<image>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.sheet.image</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
 					<brightness>
 						<TCEforms>
 							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.brightness</label>
@@ -72,43 +112,57 @@
 							</config>
 						</TCEforms>
 					</brightness>
-					<distanceFromTop>
+					<imagexposition>
 						<TCEforms>
-							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.distanceFromTop</label>
-							<config>
-								<type>input</type>
-								<default>30</default>
-								<eval>int</eval>
-							</config>
-						</TCEforms>
-					</distanceFromTop>
-					<croptopbottom>
-						<TCEforms>
-							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.croptopbottom</label>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.imagexposition</label>
 							<config>
 								<type>select</type>
 								<renderType>selectSingle</renderType>
 								<default>center</default>
 								<items>
 									<numIndex index="0">
-										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.croptopbottom.center</numIndex>
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.imagexposition.center</numIndex>
 										<numIndex index="1">center</numIndex>
 									</numIndex>
 									<numIndex index="1">
-										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.croptopbottom.top</numIndex>
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.imagexposition.left</numIndex>
+										<numIndex index="1">left</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.imagexposition.right</numIndex>
+										<numIndex index="1">right</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</imagexposition>
+					<imageyposition>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.imageyposition</label>
+							<config>
+								<type>select</type>
+								<renderType>selectSingle</renderType>
+								<default>center</default>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.imageyposition.center</numIndex>
+										<numIndex index="1">center</numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.imageyposition.top</numIndex>
 										<numIndex index="1">top</numIndex>
 									</numIndex>
 									<numIndex index="2">
-										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.croptopbottom.bottom</numIndex>
+										<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.imageyposition.bottom</numIndex>
 										<numIndex index="1">bottom</numIndex>
 									</numIndex>
 								</items>
 							</config>
 						</TCEforms>
-					</croptopbottom>
+					</imageyposition>
 				</el>
 			</ROOT>
-		</sDEF>
+		</image>
 		<responsive>
 			<ROOT>
 				<TCEforms>
@@ -146,16 +200,16 @@
 							</config>
 						</TCEforms>
 					</responsiveheightmedium>
-                                        <responsiveheightmediumscroll>
-                                                <TCEforms>
-                                                        <label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.responsiveheightmediumscroll</label>
-                                                        <config>
-                                                                <type>input</type>
-                                                                <default>0</default>
-                                                                <eval>int</eval>
-                                                        </config>
-                                                </TCEforms>
-                                        </responsiveheightmediumscroll>
+					<responsiveheightmediumscroll>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.responsiveheightmediumscroll</label>
+							<config>
+								<type>input</type>
+								<default>0</default>
+								<eval>int</eval>
+							</config>
+						</TCEforms>
+					</responsiveheightmediumscroll>
 					<breakpoint>
 						<TCEforms>
 							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.el.breakpoint</label>

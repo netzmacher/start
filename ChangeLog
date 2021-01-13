@@ -1,6 +1,41 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.2.0
+  21-01-13
+	Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com
+	* #i0617: [TASK] Headline-Image: <img> with srcset and without CSS background-image
+	* #i0616: [TASK] Jumboteaser: <img> with srcset and without CSS background-image
+	* #i0608: [FEATURE] <img> srcset for smartphone, tablet and desktop
+						Affected files:
+						* Configuration
+							* FlexForm
+								* startHeadlineimage.xml
+								* startJumboteaser.xml
+							* TSconfig/Page/TCEFORM/sys_file_reference/crop.ts
+							* TypoScript/Base
+								* Page/Page/constants/responsive.ts
+								* lib/contentElement/settings/start/ce.ts
+						* Resources
+							* Private
+								* Language
+									* Backend.xlf
+									* TCEForm
+										* de.sys_file_reference.xlf
+										* sys_file_reference.xlf
+									* de.Backend.xlf
+								* Partials/Responsiveimage/Media/Rendering/Image.html
+								* Templates/FluidStyledContent
+									* Headlineimage/Headlineimage.html
+									* Jumboteaser/Jumboteaser.html
+							* Public/Css
+								* headlineimage.css
+								* jumboteaser.css
+						New file:
+						* Configuration/TypoScript/Base/lib/contentElement/settings/start/image.ts
+						Commit:
+						*
+
 8.1.3
   21-01-09
 	Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com
