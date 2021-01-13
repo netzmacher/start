@@ -19,4 +19,7 @@
 			<f:link.typolink parameter="{content.cta0}" class="{settings.start.ce.teasercard.css.button}">{content.buttonlabel0}</f:link.typolink>
 		</div>
 	</f:if>
+	<f:if condition="{content.note}">
+		<f:render partial="Wrap" arguments="{tag: 'p', class: 'small', text: content.note, nl2br: 1}"/>
+	</f:if>
 </div>	

@@ -537,6 +537,18 @@
         <source>Height of the boxes</source>
         <target>Höhe der Kästen</target>
       </trans-unit>
+      <trans-unit id="teasercard.el.note">
+        <source>Text</source>
+        <target>Text</target>
+      </trans-unit>
+      <trans-unit id="teasercard.el.linklabel">
+        <source>Label</source>
+        <target>Bezeichung</target>
+      </trans-unit>
+      <trans-unit id="teasercard.el.linkvalue">
+        <source>Link</source>
+        <target>Link</target>
+      </trans-unit>
 			<trans-unit id="teasercard.el.padding">
         <source>Margin</source>
         <target>Rand</target>
@@ -604,6 +616,14 @@
       <trans-unit id="teasercard.sheet.countdown">
         <source>Countdown</source>
         <target>Countdown</target>
+      </trans-unit>
+      <trans-unit id="teasercard.sheet.links">
+        <source>Links</source>
+        <target>Links</target>
+      </trans-unit>
+      <trans-unit id="teasercard.sheet.note">
+        <source>Note</source>
+        <target>Bemerkung</target>
       </trans-unit>
       <trans-unit id="teasercard.sheet.sDEF">
         <source>Configuration</source>

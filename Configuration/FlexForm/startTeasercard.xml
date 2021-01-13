@@ -176,6 +176,27 @@
 				</el>
 			</ROOT>
 		</box0>
+		<note>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.sheet.note</sheetTitle>
+					<displayCond>FIELD:sDEF.cardtype:IN:1,4,5</displayCond>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<note>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.note</label>
+							<config>
+								<type>text</type>
+								<cols>40</cols>
+								<rows>3</rows>
+							</config>
+						</TCEforms>
+					</note>
+				</el>
+			</ROOT>
+		</note>
 		<countdown>
 			<ROOT>
 				<TCEforms>
@@ -355,7 +376,7 @@
 					<buttonlabel2>
 						<TCEforms>
 							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.buttonlabel</label>
-							<displayCond>FIELD:sDEF.cardtype:IN:1</displayCond>
+							
 							<config>
 								<type>input</type>
 								<default>Details</default>
@@ -461,7 +482,7 @@
 					<buttonlabel3>
 						<TCEforms>
 							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.buttonlabel</label>
-							<displayCond>FIELD:sDEF.cardtype:IN:1</displayCond>
+							
 							<config>
 								<type>input</type>
 								<default>Details</default>
@@ -567,7 +588,7 @@
 					<buttonlabel4>
 						<TCEforms>
 							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.buttonlabel</label>
-							<displayCond>FIELD:sDEF.cardtype:IN:1</displayCond>
+							
 							<config>
 								<type>input</type>
 								<default>Details</default>
@@ -633,45 +654,70 @@
 				</el>
 			</ROOT>
 		</box4>
-		<!--		<responsive>
+		<links>
 			<ROOT>
 				<TCEforms>
-					<sheetTitle>LLL:EXT:start/Resources/Private/Language/Backend.xlf:jumboteaser.sheet.responsive</sheetTitle>
+					<sheetTitle>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.sheet.links</sheetTitle>
+					<displayCond>FIELD:sDEF.cardtype:IN:3</displayCond>
 				</TCEforms>
 				<type>array</type>
 				<el>
-					<responsiveheightsmall>
+					<linkvalue1>
 						<TCEforms>
-							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.responsiveheightsmall</label>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.linkvalue</label>
 							<config>
 								<type>input</type>
-								<default>0</default>
-								<eval>int</eval>
+								<renderType>inputLink</renderType>
 							</config>
 						</TCEforms>
-					</responsiveheightsmall>
-					<responsiveheightmedium>
+					</linkvalue1>
+					<linklabel1>
 						<TCEforms>
-							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.responsiveheightmedium</label>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.linklabel</label>
 							<config>
 								<type>input</type>
-								<default>0</default>
-								<eval>int</eval>
+								<default>Link 1</default>
 							</config>
 						</TCEforms>
-					</responsiveheightmedium>
-					<breakpoint>
+					</linklabel1>
+					<linkvalue2>
 						<TCEforms>
-							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.breakpoint</label>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.linkvalue</label>
 							<config>
 								<type>input</type>
-								<default>0</default>
-								<eval>int</eval>
+								<renderType>inputLink</renderType>
 							</config>
 						</TCEforms>
-					</breakpoint>
+					</linkvalue2>
+					<linklabel2>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.linklabel</label>
+							<config>
+								<type>input</type>
+								<default>Link 2</default>
+							</config>
+						</TCEforms>
+					</linklabel2>
+					<linkvalue3>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.linkvalue</label>
+							<config>
+								<type>input</type>
+								<renderType>inputLink</renderType>
+							</config>
+						</TCEforms>
+					</linkvalue3>
+					<linklabel3>
+						<TCEforms>
+							<label>LLL:EXT:start/Resources/Private/Language/Backend.xlf:teasercard.el.linklabel</label>
+							<config>
+								<type>input</type>
+								<default>Link 3</default>
+							</config>
+						</TCEforms>
+					</linklabel3>
 				</el>
 			</ROOT>
-		</responsive>-->
+		</links>
 	</sheets>
 </T3DataStructure>

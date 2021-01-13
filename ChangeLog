@@ -1,12 +1,31 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.2.1
+  21-01-13
+	Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com
+	* #v0635, #v0636: [TASK] Teasercards are improved
+						Affected files:
+						* Configuration/FlexForm/startTeasercard.xml
+						* Resources/Private
+							* Language
+								* Backend.xlf
+								* de.Backend.xlf
+							* Partials/FluidStyledContent
+								* Teasercard
+									* Card_01.html
+									* Card_03.html
+									* Card_04.html
+								* Wrap.html
+						Commit:
+						* 
+
 8.2.0
   21-01-13
 	Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com
-	* #i0617: [TASK] Headline-Image: <img> with srcset and without CSS background-image
-	* #i0616: [TASK] Jumboteaser: <img> with srcset and without CSS background-image
-	* #i0608: [FEATURE] <img> srcset for smartphone, tablet and desktop
+	* #v0617: [TASK] Headline-Image: <img> with srcset and without CSS background-image
+	* #v0616: [TASK] Jumboteaser: <img> with srcset and without CSS background-image
+	* #v0608: [FEATURE] <img> srcset for smartphone, tablet and desktop
 						Affected files:
 						* Configuration
 							* FlexForm
@@ -39,7 +58,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 8.1.3
   21-01-09
 	Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com
-	* #i0627: [TASK] article-tag isn't proper: tag is removed
+	* #v0627: [TASK] article-tag isn't proper: tag is removed
 						Affected files:
 						* Configuration/TypoScript/Base/Start/Structure/setup/content.ts
 						Commit:
@@ -48,7 +67,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 8.1.2
   21-01-08
 	Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com
-	* #i0600: [FEATURE] org_staff: single record for content element records 
+	* #v0600: [FEATURE] org_staff: single record for content element records 
 						Affected files:
 						* Resources/Public/Css/a-icon.css
 						Commit:
