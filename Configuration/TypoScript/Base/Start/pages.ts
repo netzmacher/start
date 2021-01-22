@@ -16,11 +16,11 @@ start {
   pages.news										=
   # cat=start - pages*//305; type=int+; label=Newsletter:Uid of page which the form for subscribing the newsletter
   pages.newslettersubscription	=
-  # cat=start - pages*//306; type=int+; label=RSS:Uid of the rss feed. Main Feed with an icon in the top navigation.
+  # cat=start - pages*//306; type=int+; label=RSS:Uid of the rss feed. If set, an icon will displayed in the top navigation and this tag wll added to the HTML code: <link rel="alternate" type="application/rss+xml" ...
   pages.rss 										=
   # cat=start - pages*//307; type=string; label=RSS title:Title of the feed in the link tag.
   pages.rss.tagtitle						= News
-  # cat=start - pages*//308; type=int+; label=RSS 2:Uid of the rss feed. Another feed in html code without any icon.
+  # cat=start - pages*//308; type=int+; label=RSS 2:Uid of the rss feed. Another feed in html code without any icon. If set, this tag wll added to the HTML code: <link rel="alternate" type="application/rss+xml" ...
   pages.rss2 										=
   # cat=start - pages*//309; type=string; label=RSS 2 title:Title of the second feed in the link tag.
   pages.rss2.tagtitle						= Calendar
