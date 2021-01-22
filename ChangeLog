@@ -1,6 +1,18 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.2.2
+  21-01-22
+	Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com
+	* #v0600: [FEATURE] Integration of another RSS feed. See:
+						* Constant Editor: START - PAGES
+						Affected files:
+						* Configuration/TypoScript/Base
+							* Page/Page/headerData/333.rss.ts
+							* Start/pages.ts
+						Commit:
+						* 
+
 8.2.1
   21-01-13
 	Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com

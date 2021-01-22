@@ -16,9 +16,15 @@ start {
   pages.news										=
   # cat=start - pages*//305; type=int+; label=Newsletter:Uid of page which the form for subscribing the newsletter
   pages.newslettersubscription	=
-  # cat=start - pages*//306; type=int+; label=RSS:Uid of the rss feed
+  # cat=start - pages*//306; type=int+; label=RSS:Uid of the rss feed. Main Feed with an icon in the top navigation.
   pages.rss 										=
-  # cat=start - pages*//307; type=int+; label=Shop:Uid of page which contains your shop.
+  # cat=start - pages*//307; type=string; label=RSS title:Title of the feed in the link tag.
+  pages.rss.tagtitle						= News
+  # cat=start - pages*//308; type=int+; label=RSS 2:Uid of the rss feed. Another feed in html code without any icon.
+  pages.rss2 										=
+  # cat=start - pages*//309; type=string; label=RSS 2 title:Title of the second feed in the link tag.
+  pages.rss2.tagtitle						= Calendar
+  # cat=start - pages*//310; type=int+; label=Shop:Uid of page which contains your shop.
   pages.shop										=
   # cat=start - pages*//400; type=int+; label=Print:Page with header and footer for the print page.
   pages.print										= 9999999
