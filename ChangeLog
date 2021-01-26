@@ -590,7 +590,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						-------------
 						NEW BEHAVIOUR
 						-------------
-						If left oder right columns are empty, an empty placeholder will set with 1px height.
+						If left or right columns are empty, an empty placeholder will set with 1px height.
 						That <div> affects, that the empty column will displayed in full width.
 						If you don't like this effect, please change the CSS properties like in the line below:
 						.startVisHiddenHeight1 { display: none; }
