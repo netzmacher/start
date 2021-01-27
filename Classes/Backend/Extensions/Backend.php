@@ -8,7 +8,7 @@ use Netzmacher\Start\Utility\Typo3VersionUtility;
 /* * *************************************************************
  *  Copyright notice
  *
- *  (c) 2020 - Dirk Wildt <http://wildt.at.die-netzmacher.de/>
+ *  (c) 2020-2021 - Dirk Wildt <http://wildt.at.die-netzmacher.de/>
  *
  *  All rights reserved
  *

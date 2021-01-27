@@ -2,7 +2,7 @@
 namespace Netzmacher\Start\Frontend\ContentObject;
 
 /*
- *  Copyright (c) 2020 - Dirk Wildt, http://wildt.at.die-netzmacher.de
+ *  Copyright (c) 2020-2021 - Dirk Wildt, http://wildt.at.die-netzmacher.de
  *
  * This file is part of the TYPO3 CMS project.
  *

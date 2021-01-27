@@ -1,7 +1,7 @@
 <?php
 
 /*
- * (c) 2020 - This file is part of the package Netzmacher\Start
+ * (c) 2020-2021 - This file is part of the package Netzmacher\Start
  *
  * For the full copyright and license information, please read the
  * LICENSE file that was distributed with this source code.
