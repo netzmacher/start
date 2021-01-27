@@ -1,0 +1,31 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true"> 
+	<f:layout name="Default" />
+	<f:section name="Form">
+
+		<f:variable name="formaction"><f:uri.typolink parameter="{settings.form.pid}" /></f:variable>
+		<f:variable name="hiddenaction"></f:variable>
+		<f:if condition="{settings.action.value}">
+			<f:variable name="hiddenaction"><input type="hidden" name="{settings.action.param}" value="{settings.action.value}"></f:variable>
+		</f:if>
+		<f:variable name="hiddencontrolleraction"></f:variable>
+		<f:if condition="{settings.controller.value}">
+			<f:variable name="hiddencontrolleraction"><input type="hidden" name="{settings.controller.param}" value="{settings.controller.value}"></f:variable>
+		</f:if>
+
+		<form id="siteLineTopSearch" action="{formaction}" method="{settings.form.method}">
+			<input type="text" name="{settings.input.name}" placeholder="{settings.input.placeholder}">
+			<f:format.raw>{hiddenaction}</f:format.raw>
+			<f:format.raw>{hiddencontroller}</f:format.raw>
+			<a href="#" onclick="$(this).closest('form').submit()">
+				<i class="fi-magnifying-glass"></i>
+			</a>
+		</form>
+	</f:section>
+
+	<f:section name="Main">
+		<f:if condition="{currentPid} != {settings.form.pid}">
+			<f:render section="Form" arguments="{_all}"/>
+		</f:if>
+	</f:section>
+
+</html>

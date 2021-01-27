@@ -1,6 +1,20 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.2.4
+  21-01-27
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #t5976: [TASK] ke_search: searchbox is improved. TypoScript/HTML > FLUID_TEMPLATE
+						Affected file:
+						* Configuration/TypoScript/Base/Start/Lib/sitelineTop.ts
+						New file:
+						* Resources/Private/Templates/foundation-5.5.3/Templates/Navigation/Searchbox.html
+	* #i0048: [TASK] Improve TypoScript
+						Affected file:
+						* Configuration/TypoScript/Base/lib/start/calc.ts
+						New file:
+						* Configuration/TypoScript/Base/lib/start/replace.ts
+
 8.2.3
   21-01-27
 	Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com

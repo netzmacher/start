@@ -136,22 +136,62 @@ start {
 					// social media links
 				20 < start.lib.socialmedia
 					// Searchform
-				30 = TEXT
+				30 = FLUIDTEMPLATE
 				30 {
 					if.isTrue = {$start.foundation.sitelinetop.searchform.enabled}
-					value (
-
-							<form id="siteLineTopSearch" action="index.php?id={$start.foundation.sitelinetop.searchform.pid}&amp;no_cache=1" method="{$start.foundation.sitelinetop.searchform.method}">
-								<input type="hidden" name="no_cache" value="1">
-									<input type="text" name="{$start.foundation.sitelinetop.searchform.param}" placeholder="{$start.foundation.sitelinetop.searchform.placeholder}">
-										<input type="hidden" name="{$start.foundation.sitelinetop.searchform.action.param}" value="{$start.foundation.sitelinetop.searchform.action.value}">
-										<input type="hidden" name="{$start.foundation.sitelinetop.searchform.controller.param}" value="{$start.foundation.sitelinetop.searchform.controller.value}">
-									<a href="#" onclick="$(this).closest('form').submit()">
-										<i class="fi-magnifying-glass"></i>
-									</a>
-							</form>
-
-)
+					templateName = Searchbox
+						// 10 = EXT:start/Resources/Private/Templates/foundation-5.5.3/Templates/Navigation/
+					templateRootPaths =
+					templateRootPaths {
+						10 = EXT:start/Resources/Private/Templates/foundation-5.5.3/Templates/Navigation/
+					}
+						// 10 = EXT:start/Resources/Private/Templates/foundation-5.5.3/Layouts/Navigation/
+					layoutRootPaths =
+					layoutRootPaths {
+						10 = EXT:start/Resources/Private/Templates/foundation-5.5.3/Layouts/Navigation/
+					}
+						// 10 = EXT:start/Resources/Private/Templates/foundation-5.5.3/Partials/Navigation/
+					partialRootPaths =
+					partialRootPaths {
+						10 = EXT:start/Resources/Private/Templates/foundation-5.5.3/Partials/Navigation/
+					}
+						// action, controller, form, input
+					settings =
+					settings {
+							// param, value
+						action =
+						action {
+							param				= {$start.foundation.sitelinetop.searchform.action.param}
+							value				= {$start.foundation.sitelinetop.searchform.action.value}
+						}
+							// param, value
+						controller =
+						controller {
+							param				= {$start.foundation.sitelinetop.searchform.controller.param}
+							value				= {$start.foundation.sitelinetop.searchform.controller.value}
+						}
+							// name, placeholder
+						form =
+						form {
+							method			= {$start.foundation.sitelinetop.searchform.method}
+							pid					= {$start.foundation.sitelinetop.searchform.pid}
+						}
+							// name, placeholder
+						input =
+						input {
+							name				= {$start.foundation.sitelinetop.searchform.param}
+							placeholder = {$start.foundation.sitelinetop.searchform.placeholder}
+						}
+					}
+					// currentPid
+					variables =
+					variables {
+							// field = pid
+						currentPid = TEXT
+						currentPid {
+							data = page:uid
+						}
+					}
 				}
 					// start: foundation sidenav
 				40 = COA
