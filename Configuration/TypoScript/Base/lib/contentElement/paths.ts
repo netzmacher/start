@@ -42,8 +42,23 @@ lib {
 			// start: 177 (clearingthumbs), 207 (Jumboteaser)
 		partialRootPaths =
 		partialRootPaths {
-			// #v0608. 200107, dwildt: :TODO: dependency on responsiveimagesDisabled
-			170 = EXT:start/Resources/Private/Partials/Responsiveimage/
+			170 = 
+			170 {
+				cObject = TEXT
+				cObject {
+					if =
+					if {
+						isTrue =
+						isTrue {
+							cObject = USER
+							cObject {
+								userFunc = Netzmacher\Start\Userfunc\IfUserfunc->enableResponsiveimages
+							}
+						}
+					}
+					value = EXT:start/Resources/Private/Partials/Responsiveimage/
+				}
+			}
 				// if.isTrue = {start.templates.image.foundation.clearingthumbs} (here: {$start.templates.image.foundation.clearingthumbs}): EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Partials/
 			177 = 
 			177 {

@@ -33,7 +33,7 @@ beLanguage = English
   # cat=Modul//100;					type=boolean; label= Disable Module:Disable the Start Module in the Module > Web
 modulDisabled  = 0
 
-	# cat=Responsive images//100;		type=boolean; label= Disable:Disable it, if you are using responsive images by another extension
+	# cat=Responsive images//100;		type=boolean; label= Disable:Disable it, if you are using responsive images by another extension. This is a feature from TYPO3 10.4 only.
 responsiveimagesDisabled = 0
 
 	# cat=TCA//100;							type=boolean; label= Pages:Disable additional TCA properties for the table pages.

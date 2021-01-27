@@ -19,5 +19,22 @@ lib {
 				current = 1
 			}
 		}
+		test = COA
+		test {
+			10 = TEXT
+			10 {
+				value = TEST a:
+			}
+			40 = USER
+			40 {
+				userFunc = Netzmacher\Start\Userfunc\IfUserfunc->enableResponsiveimages
+			}
+			50 = TEXT
+			50 {
+				value = :b
+			}
+
+		}
 	}
 }
+

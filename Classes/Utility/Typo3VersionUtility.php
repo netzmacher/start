@@ -35,7 +35,7 @@ if( !defined( 'TYPO3_MODE' ) )
  * @author  Dirk Wildt <http://wildt.at.die-netzmacher.de>
  * @package TYPO3
  * @subpackage  startgreen
- * @version     5.3.8
+	 * @version 8.2.3
  * @since       5.3.8
  */
 class Typo3VersionUtility
@@ -45,10 +45,10 @@ class Typo3VersionUtility
 	 * get( ):
 	 *
 	 * @return  integer
-	 * @version 5.3.8
+	 * @version 8.2.3
 	 * @since 5.3.8
 	 */
-	static function get()
+	static public function get()
 	{
 		static $TYPO3v = NULL;
 
@@ -63,29 +63,108 @@ class Typo3VersionUtility
 		$version = $version + ( ( int ) $bugfix ) * 1;
 		$TYPO3v = $version;
 
-		if( $TYPO3v >= 6000000 )
-		{
-			return $TYPO3v;
-		}
-
-		$prompt = '<h1>ERROR</h1>
-        <h2>Unproper TYPO3 version</h2>
-        <ul>
-          <li>
-            TYPO3 version is smaller than 6.0.0
-          </li>
-          <li>
-            constant TYPO3_version: ' . TYPO3_version . '
-          </li>
-          <li>
-            integer $TYPO3v: ' . ( int ) $TYPO3v . '
-          </li>
-          <li>
-            ' . __METHOD__ . ' (#' . __LINE__ . ')
-          </li>
-        </ul>
-          ';
-		die( $prompt );
+		return $TYPO3v;
 	}
 
+	/**
+	 * isGreaterThan087( ):
+	 *
+	 * @return  int
+	 * @version 8.2.3
+	 * @since 8.2.3
+	 */
+	static public function isGreaterThan087(): int
+	{
+		$t3version = self::get();
+		if( $t3version >= 8007000 )
+		{
+			return 1;
+		}
+		return 0;
+	}
+
+	/**
+	 * isGreaterThan095( ):
+	 *
+	 * @return  int
+	 * @version 8.2.3
+	 * @since 8.2.3
+	 */
+	static public function isGreaterThan095(): int
+	{
+		$t3version = self::get();
+		if( $t3version >= 9005000 )
+		{
+			return 1;
+		}
+		return 0;
+	}
+
+	/**
+	 * isGreaterThan104( ):
+	 *
+	 * @return  int
+	 * @version 8.2.3
+	 * @since 8.2.3
+	 */
+	static public function isGreaterThan104(): int
+	{
+		$t3version = self::get();
+		if( $t3version >= 10004000 )
+		{
+			return 1;
+		}
+		return 0;
+	}
+
+	/**
+	 * isSmallerThan087( ):
+	 *
+	 * @return  int
+	 * @version 8.2.3
+	 * @since 8.2.3
+	 */
+	static public function isSmallerThan087(): int
+	{
+		$t3version = self::get();
+		if( $t3version < 8007000 )
+		{
+			return 1;
+		}
+		return 0;
+	}
+
+	/**
+	 * isSmallerThan095( ):
+	 *
+	 * @return  int
+	 * @version 8.2.3
+	 * @since 8.2.3
+	 */
+	static public function isSmallerThan095(): int
+	{
+		$t3version = self::get();
+		if( $t3version < 9005000 )
+		{
+			return 1;
+		}
+		return 0;
+	}
+
+	/**
+	 * isSmallerThan104( ):
+	 *
+	 * @return  int
+	 * @version 8.2.3
+	 * @since 8.2.3
+	 */
+	static public function isSmallerThan104(): int
+	{
+		$t3version = self::get();
+		if( $t3version < 10004000 )
+		{
+			return 1;
+		}
+		return 0;
+	}
 }

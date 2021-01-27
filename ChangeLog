@@ -1,6 +1,27 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.2.3
+  21-01-27
+	Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com
+	* #v0736: [TASK] If property "responsive image" is disabled in the extension manager
+						or TYPO3 is smaller than 10.4, the template 
+						EXT:start/Resources/Private/Partials/Responsiveimage/ must not included
+						Affected files:
+						* Classes/Utility/Typo3VersionUtility.php
+						* Configuration
+							* TSconfig/Page/TCEFORM.php
+							* TypoScript/Base/lib
+								* contentElement/paths.ts
+								* start/calc.ts
+						* ext_conf_template.txt
+						New files:
+						* Classes/Userfunc/IfUserfunc.php
+						:ref:
+						* #v0608
+						Commit:
+
+
 8.2.2
   21-01-22
 	Author: Dirk Wildt (verdigado eG), dirk.wildt@verdigado.com
@@ -64,6 +85,8 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 								* jumboteaser.css
 						New file:
 						* Configuration/TypoScript/Base/lib/contentElement/settings/start/image.ts
+						:ref:
+						* #v0736
 						Commit:
 						* 4b1e179
 
