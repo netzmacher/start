@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+  <meta>
+    <langDisable>1</langDisable>
+  </meta>
+  <sheets>
+    <mode>EXT:start/Configuration/FlexForm/Plugin/Searchform/flexform_mode.xml</mode>
+    <form>EXT:start/Configuration/FlexForm/Plugin/Searchform/flexform_form.xml</form>
+    <input>EXT:start/Configuration/FlexForm/Plugin/Searchform/flexform_input.xml</input>
+    <action>EXT:start/Configuration/FlexForm/Plugin/Searchform/flexform_action.xml</action>
+    <controller>EXT:start/Configuration/FlexForm/Plugin/Searchform/flexform_controller.xml</controller>
+  </sheets>
+</T3DataStructure>

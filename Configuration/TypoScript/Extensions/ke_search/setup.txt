@@ -1,0 +1,3 @@
+plugin.tx_kesearch_pi1 {
+	templateRootPaths.20 = EXT:start/Resources/Private/Templates/KeSearch/Templates/
+}

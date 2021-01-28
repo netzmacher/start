@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+	<ROOT>
+		<TCEforms>
+			<sheetTitle>LLL:EXT:start/Resources/Private/Language/Flexform/Searchform.xlf:pi_flexform.sheet.mode</sheetTitle>
+		</TCEforms>
+		<type>array</type>
+		<el>
+			<mode>
+				<TCEforms>
+					<exclude>0</exclude>
+					<label>LLL:EXT:start/Resources/Private/Language/Flexform/Searchform.xlf:pi_flexform.sheet.mode.mode</label>
+					<onChange>reload</onChange>
+					<config>
+						<type>select</type>
+						<renderType>selectSingle</renderType>
+						<default>typoscript</default>
+						<items type="array">
+							<numIndex index="0" type="array">
+								<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Flexform/Searchform.xlf:pi_flexform.sheet.mode.mode.user</numIndex>
+								<numIndex index="1">user</numIndex>
+							</numIndex>
+							<numIndex index="1" type="array">
+								<numIndex index="0">LLL:EXT:start/Resources/Private/Language/Flexform/Searchform.xlf:pi_flexform.sheet.mode.mode.typoscript</numIndex>
+								<numIndex index="1">typoscript</numIndex>
+							</numIndex>
+						</items>
+					</config>
+				</TCEforms>
+			</mode>
+		</el>
+	</ROOT>
+</T3DataStructure>

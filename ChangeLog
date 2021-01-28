@@ -1,6 +1,62 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.2.5
+  21-01-28
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #t5977: [FEATURE] Plugin searchform
+						Affected files:
+						* Classes
+							* Controller/AbstractController.php
+							* Utility/Typo3VersionUtility.php
+						* Configuration/TCA/Overrides
+							* Default/sys_template.php
+							* tt_content.php
+						* ext_localconf.php
+						New files:
+						* Classes
+							* Controller/SearchformController.php
+							* Utility/FlexformValueUtility.php
+						* Configuration
+							* ExtLocalconf
+								* ConfigurePlugin
+									* 09.5.php
+									* 10.4.php
+								* index.php
+							* FlexForm/Plugin/Searchform
+								* flexform.xml
+								* flexform_action.xml
+								* flexform_controller.xml
+								* flexform_form.xml
+								* flexform_input.xml
+								* flexform_mode.xml
+							* TCA/Overrides/tt_content
+								* addPlugin.php
+								* registerPlugin.php
+								* tt_content.php
+							* TypoScript
+								* Base/plugin/tx_start_pi1
+									* settings/setup.ts
+									* view
+										* constants.ts
+										* setup.ts
+								* Extensions/ke_search/setup.txt
+						* Resources/Private
+							* Language/Flexform
+								* Searchform.xlf
+								* de.Searchform.xlf
+							* Layouts/FluidStyledContent/Default.html
+							* Templates
+								* KeSearch/Templates/SearchForm.html
+								* foundation-5.5.3
+									* Layouts/Default.html
+									* Templates/Searchform/Searchform.html
+						* Resources/Public/Images/Icons
+							* txStartSearchform.gif
+							* txStartSearchform.svg
+						Commit:
+						* 
+
 8.2.4
   21-01-27
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de

@@ -92,5 +92,11 @@ call_user_func( function ()
 			'priority' => 40,
 			'class' => \Netzmacher\Start\Flexform\Teasercard\Countdownhelp::class,
 	];
+
+	/*	 * ****************************************************************************
+	 * configurationPlugin
+	 * **************************************************************************** */
+
+	require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/ExtLocalconf/index.php' );
 }
 );

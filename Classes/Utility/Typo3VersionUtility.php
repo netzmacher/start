@@ -158,6 +158,23 @@ class Typo3VersionUtility
 	 * @version 8.2.3
 	 * @since 8.2.3
 	 */
+	static public function isSmallerThan100(): int
+	{
+		$t3version = self::get();
+		if( $t3version < 10000000 )
+		{
+			return 1;
+		}
+		return 0;
+	}
+
+	/**
+	 * isSmallerThan104( ):
+	 *
+	 * @return  int
+	 * @version 8.2.3
+	 * @since 8.2.3
+	 */
 	static public function isSmallerThan104(): int
 	{
 		$t3version = self::get();

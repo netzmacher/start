@@ -25,17 +25,7 @@ $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'txStartPagemedia' ] = $GLOBALS[ '
 // ##i0325, 200506, dwildt, +
 $typo3Version = Netzmacher\Start\Utility\Typo3VersionUtility::get();
 
-/* #84 Jumboteaser, 201016, fbostroem, +1 */
-require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TCA/Overrides/tt_content/jumboteaser.php' );
-
-/* #90 Support Teaser Card Container, 201118, fbostroem +1 */
-require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TCA/Overrides/tt_content/teasercard.php' );
-
-/* Headlineimage, 201204, fbostroem +1 */
-require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TCA/Overrides/tt_content/headlineimage.php' );
-
-/* Jumpbox, 201209, fbostroem +1 */
-require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TCA/Overrides/tt_content/jumpbox.php' );
+require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TCA/Overrides/tt_content/tt_content.php' );
 
 
 switch( TRUE )

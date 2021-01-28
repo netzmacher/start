@@ -1,0 +1,51 @@
+<f:layout name="General" />
+
+<f:section name="content">
+	<div class="kesearchbox">
+		<form method="get" id="form_kesearch_pi1" name="form_kesearch_pi1"  action="{f:uri.page(pageUid: targetpage)}">
+			<fieldset class="kesearch_searchbox">
+				<f:if condition="{targetpage}">
+					<input type="hidden" name="id" value="{targetpage}" />
+				</f:if>
+				<f:if condition="{lparam}">
+					<input type="hidden" name="L" value="{lparam}" />
+				</f:if>
+				<f:if condition="{mpparam}">
+					<input type="hidden" name="MP" value="{mpparam}" />
+				</f:if>
+				<f:if condition="{typeparam}">
+					<input type="hidden" name="type" value="{typeparam}" />
+				</f:if>
+
+				<input id="kesearchpagenumber" type="hidden" name="tx_kesearch_pi1[page]" value="{page}" />
+				<input id="resetFilters" type="hidden" name="tx_kesearch_pi1[resetFilters]" value="0" />
+				<input id="sortByField" type="hidden" name="tx_kesearch_pi1[sortByField]" value="{sortByField}" />
+				<input id="sortByDir" type="hidden" name="tx_kesearch_pi1[sortByDir]" value="{sortByDir}" />
+
+				<div class="row">
+					<div class="columns small-10 col-sm-10" style="padding-right:0;">
+						<input type="text" name="tx_kesearch_pi1[sword]" value="{searchword -> f:format.raw()}" placeholder="{searchwordDefault}" />
+					</div>
+					<div class="columns small-2 col-sm-2" style="padding-left:0;">
+						<button class="postfix fi-magnifying-glass btn btn-info btn-lg btn-block" style="border:0;padding:0;" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+					</div>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</f:section>
+
+<div class="startsearchform">
+	<f:form pageUid="{formpid}" name="startsearchform" method="{formmethod}">
+		<f:format.raw>{hiddenaction}</f:format.raw>
+		<f:format.raw>{hiddencontroller}</f:format.raw>
+		<div class="row">
+			<div class="columns small-10 col-sm-10" style="padding-right:0;">
+				<input type="text" name="{inputname}" placeholder="{inputplaceholder}" value="{all.sword}" />
+			</div>
+			<div class="columns small-2 col-sm-2" style="padding-left:0;">
+				<button class="postfix fi-magnifying-glass btn btn-info btn-lg btn-block" style="border:0;padding:0;" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+			</div>
+		</div>
+	</f:form>
+</div>

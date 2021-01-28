@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2021-01-28T15:11:39Z" product-name="start">
+    <header/>
+    <body>
+
+      <trans-unit id="tt_content.Searchform">
+        <source>Start: Searchform</source>
+        <target>Start: Suchformular</target>
+      </trans-unit>
+			
+			<trans-unit id="pi_flexform.sheet.action">
+        <source>Action</source>
+        <target>Action</target>
+      </trans-unit>
+			<trans-unit id="pi_flexform.sheet.action.param">
+        <source>Parameter</source>
+        <target>Parameter</target>
+      </trans-unit>
+			<trans-unit id="pi_flexform.sheet.action.value">
+        <source>Value</source>
+        <target>Wert</target>
+      </trans-unit>
+
+			<trans-unit id="pi_flexform.sheet.controller">
+        <source>Controller</source>
+        <target>Controller</target>
+      </trans-unit>
+			<trans-unit id="pi_flexform.sheet.controller.param">
+        <source>Parameter</source>
+        <target>Parameter</target>
+      </trans-unit>
+			<trans-unit id="pi_flexform.sheet.controller.value">
+        <source>Value</source>
+        <target>Wert</target>
+      </trans-unit>
+
+			<trans-unit id="pi_flexform.sheet.form">
+        <source>Form</source>
+        <target>Formular</target>
+      </trans-unit>
+      <trans-unit id="pi_flexform.sheet.form.method">
+        <source>Send method</source>
+        <target>Versandmethode</target>
+      </trans-unit>
+      <trans-unit id="pi_flexform.sheet.form.method.get">
+        <source>get</source>
+        <target>get</target>
+      </trans-unit>
+      <trans-unit id="pi_flexform.sheet.form.method.post">
+        <source>post</source>
+        <target>post</target>
+      </trans-unit>
+      <trans-unit id="pi_flexform.sheet.form.pid">
+        <source>Result page</source>
+        <target>Seite mit der Trefferliste</target>
+      </trans-unit>
+
+			<trans-unit id="pi_flexform.sheet.input">
+        <source>Input field</source>
+        <target>Eingabefeld</target>
+      </trans-unit>
+			<trans-unit id="pi_flexform.sheet.input.name">
+        <source>Name</source>
+        <target>Name</target>
+      </trans-unit>
+			<trans-unit id="pi_flexform.sheet.input.placeholder">
+        <source>Placeholder</source>
+        <target>Platzhalter</target>
+      </trans-unit>
+
+			<trans-unit id="pi_flexform.sheet.mode">
+        <source>Mode</source>
+        <target>Modus</target>
+      </trans-unit>
+      <trans-unit id="pi_flexform.sheet.mode.mode">
+        <source>Settings</source>
+        <target>Einstellungen</target>
+      </trans-unit>
+      <trans-unit id="pi_flexform.sheet.mode.mode.user">
+        <source>Individual settings</source>
+        <target>Individuelle Einstellungen</target>
+      </trans-unit>
+      <trans-unit id="pi_flexform.sheet.mode.mode.typoscript">
+        <source>Recommended presets</source>
+        <target>Empfohlene Einstellungen</target>
+      </trans-unit>
+
+    </body>
+  </file>
+</xliff>

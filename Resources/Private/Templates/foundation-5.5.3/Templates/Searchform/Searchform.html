@@ -1,0 +1,30 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true"> 
+	<f:layout name="Default" />
+	<f:section name="content">
+
+		<f:variable name="hiddenaction"></f:variable>
+		<f:if condition="{settings.action.value}">
+			<f:variable name="hiddenaction"><f:form.hidden name="{actionparam}" value="{actionvalue}" /></f:variable>
+		</f:if>
+		<f:variable name="hiddencontrolleraction"></f:variable>
+		<f:if condition="{settings.controller.value}">
+			<f:variable name="hiddencontrolleraction"><f:form.hidden name="{controllerparam}" value="{controllervalue}" /></f:variable>
+		</f:if>
+
+		<div class="startsearchform">
+			<f:form pageUid="{formpid}" name="startsearchform" method="{formmethod}">
+				<f:format.raw>{hiddenaction}</f:format.raw>
+				<f:format.raw>{hiddencontroller}</f:format.raw>
+				<div class="row">
+					<div class="columns small-10 col-sm-10" style="padding-right:0;">
+						<input type="text" name="{inputname}" placeholder="{inputplaceholder}" value="{all.sword}" />
+					</div>
+					<div class="columns small-2 col-sm-2" style="padding-left:0;">
+						<button class="postfix fi-magnifying-glass btn btn-info btn-lg btn-block" style="border:0;padding:0;" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+					</div>
+				</div>
+			</f:form>
+		</div>
+
+	</f:section>
+</html>

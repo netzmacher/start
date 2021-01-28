@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16pt" version="1.1" xmlns="http://www.w3.org/2000/svg" height="16pt" viewBox="0 0 16 16" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="Grad0" y1="0" x1="0" y2="16" gradientUnits="userSpaceOnUse" x2="16">
+   <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+   <stop offset="50%" stop-color="#ff5b09" stop-opacity="1"/>
+  </linearGradient>
+ </defs>
+ <g id="Hintergrund">
+  <g transform="translate(0, -1.13687e-13)">
+   <path style="fill:url(#Grad0); fill-rule:evenodd;" d="M0 0 L16 0 L16 16 L0 16 L0 0 Z"/>
+   <path style="fill:none; stroke:none;" d="M0 0 L16 0 L16 16 L0 16 L0 0 Z"/>
+  </g>
+  <path style="fill:#ffffff; fill-rule:nonzero;stroke:none;" d="M8.01499 0 C4.90405 0 2.38384 2.52144 2.38384 5.63097 C2.38384 6.69452 2.67876 7.68892 3.19118 8.53743 L0.461036 11.2676 L0.470538 11.2771 C0.179135 11.556 0.000175968 11.9519 0.000175968 12.3994 C0 13.2639 0.688738 13.94 1.55239 13.9398 C1.99354 13.9396 2.38806 13.7632 2.66961 13.476 L2.67647 13.4828 L5.49337 10.6658 C6.25214 11.0464 7.10805 11.2619 8.01499 11.2619 C11.1261 11.2619 13.6458 8.74085 13.6458 5.63097 C13.6458 2.52144 11.1259 0 8.01499 0 Z M8.04912 9.04774 C6.10468 9.04774 4.52959 7.47212 4.52959 5.52838 C4.52959 3.58499 6.10468 2.00903 8.04912 2.00903 C9.99357 2.00903 11.5683 3.58482 11.5683 5.52838 C11.5685 7.47212 9.99357 9.04774 8.04912 9.04774 Z" transform="translate(1.17711, 1.03)"/>
+ </g>
+</svg>

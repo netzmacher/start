@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+	<ROOT>
+		<TCEforms>
+			<sheetTitle>LLL:EXT:start/Resources/Private/Language/Flexform/Searchform.xlf:pi_flexform.sheet.controller</sheetTitle>
+			<displayCond>FIELD:mode.mode:=:user</displayCond>
+		</TCEforms>
+		<type>array</type>
+		<el>
+			<param>
+				<TCEforms>
+					<exclude>1</exclude>
+					<label>LLL:EXT:start/Resources/Private/Language/Flexform/Searchform.xlf:pi_flexform.sheet.controller.param</label>
+					<config>
+						<type>input</type>
+						<eval>trim</eval>
+					</config>
+				</TCEforms>
+			</param>
+			<value>
+				<TCEforms>
+					<exclude>1</exclude>
+					<label>LLL:EXT:start/Resources/Private/Language/Flexform/Searchform.xlf:pi_flexform.sheet.controller.value</label>
+					<config>
+						<type>input</type>
+						<eval>trim</eval>
+					</config>
+				</TCEforms>
+			</value>
+		</el>
+	</ROOT>
+</T3DataStructure>
