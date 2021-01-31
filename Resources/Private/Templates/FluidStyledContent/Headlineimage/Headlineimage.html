@@ -6,9 +6,6 @@
 		<f:if condition="{images.0}">
 			<f:variable name="imageClass"> wiImage</f:variable>
 		</f:if>
-		<f:variable name="desktop">{settings.start.image.breakpoint.desktop}</f:variable>
-		<f:variable name="smartphone">{settings.start.image.breakpoint.smartphone}</f:variable>
-		<f:variable name="tablet">{settings.start.image.breakpoint.tablet}</f:variable>
 
 		<style>
 			#c{data.uid} .headlinecontainer .bg-image {
@@ -40,18 +37,7 @@
 					<f:render partial="Wrap" arguments="{tag: settings.start.ce.headlineimage.html.tagsubtitle, class: settings.start.ce.headlineimage.css.subtitle, text: content.subtitle}"/>
 				</div>
 				<f:if condition="{images.0}">
-					<f:media 
-						class="bg-image" 
-						file="{images.0}" 
-						alt="{images.0.alternative}" 
-						title="{images.0.title}" 
-						loading="{settings.media.lazyLoading}" 
-						additionalAttributes="{
-							srcset:  \" {f:uri.image(image: images.0, treatIdAsReference: 1, maxWidth: smartphone, cropVariant: 'smartphone')} {smartphone}w,
-													{f:uri.image(image: images.0, treatIdAsReference: 1, maxWidth: tablet, cropVariant: 'tablet')} {tablet}w,
-													{f:uri.image(image: images.0, treatIdAsReference: 1, maxWidth: desktop, cropVariant: 'default')} {desktop}w\"
-						}"
-						/>
+					<f:render partial="FluidStyledContent/Image/087" arguments="{_all}" />
 				</f:if>
 			</div>
 		</f:if>

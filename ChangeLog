@@ -1,10 +1,48 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.2.6
+  21-01-30
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #t5981: [TASK] Downgrade 8.7: lazy-loading
+						Affected files:
+						* Configuration/TypoScript/Base/lib/start/_setup.ts
+						* Documentation/Upgrades/Start/Index.rst
+						* Resources/Private
+							* Partials/Responsiveimage/Media/Rendering/Image.html
+							* Templates/FluidStyledContent
+								* Foundation/Partials/Media/Rendering/Image177.html
+								* Headlineimage/Headlineimage.html
+								* Jumboteaser/Jumboteaser.html
+						New files:
+						* Classes/Userfunc/Typo3VersionUserfunc.php
+						* Configuration/TypoScript/Base/lib/start/t3version.ts
+						* Documentation/Upgrades/Start/8002000/Index.rst
+						* Resources/Private
+							* Partials
+								* FluidStyledContent/Image
+									* 087.html
+									* 104.html
+									* Version.html
+								* Responsiveimage/Media/Rendering/Image
+									* 087.html
+									* 104.html
+									* Version.html
+							* Templates/FluidStyledContent/Foundation/Partials/Media/Rendering/Image
+								* 087.html
+								* 104.html
+								* Version.html
+							Commit
+							* 
+
 8.2.5
   21-01-28
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
 	* #t5977: [FEATURE] Plugin searchform
+						-------------------
+						NEW STATIC TEMPLATE
+						* Start [20.8.1] Start [20.8.1] Facetted search form 
+						-------------------
 						Affected files:
 						* Classes
 							* Controller/AbstractController.php

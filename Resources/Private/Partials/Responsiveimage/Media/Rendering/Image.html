@@ -1,20 +1,3 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
-	<f:variable name="desktop">{settings.start.image.breakpoint.desktop}</f:variable>
-	<f:variable name="smartphone">{settings.start.image.breakpoint.smartphone}</f:variable>
-	<f:variable name="tablet">{settings.start.image.breakpoint.tablet}</f:variable>
-
-	<f:media 
-		class="image-embed-item" 
-		file="{file}" 
-		width="{dimensions.width}" 
-		height="{dimensions.height}" 
-		alt="{file.alternative}" 
-		title="{file.title}" 
-		loading="{settings.media.lazyLoading}" 
-    additionalAttributes="{
-			srcset:  \" {f:uri.image(image: file, treatIdAsReference: 1, maxWidth: smartphone, cropVariant: 'smartphone')} {smartphone}w,
-									{f:uri.image(image: file, treatIdAsReference: 1, maxWidth: tablet, cropVariant: 'tablet')} {tablet}w,
-									{f:uri.image(image: file, treatIdAsReference: 1, maxWidth: desktop, cropVariant: 'default')} {desktop}w\"
-		}"
-	/>
+	<f:render partial="Responsiveimage/Media/Rendering/Image" arguments="{_all}" />
 </html>

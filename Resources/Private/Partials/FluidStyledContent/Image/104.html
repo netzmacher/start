@@ -1,0 +1,15 @@
+<f:variable name="desktop">{settings.start.image.breakpoint.desktop}</f:variable>
+<f:variable name="smartphone">{settings.start.image.breakpoint.smartphone}</f:variable>
+<f:variable name="tablet">{settings.start.image.breakpoint.tablet}</f:variable>
+<f:media 
+	class="bg-image" 
+	file="{images.0}" 
+	alt="{images.0.alternative}" 
+	title="{images.0.title}" 
+	loading="{settings.media.lazyLoading}" 
+	additionalAttributes="{
+		srcset:  \" {f:uri.image(image: images.0, treatIdAsReference: 1, maxWidth: smartphone, cropVariant: 'smartphone')} {smartphone}w,
+								{f:uri.image(image: images.0, treatIdAsReference: 1, maxWidth: tablet, cropVariant: 'tablet')} {tablet}w,
+								{f:uri.image(image: images.0, treatIdAsReference: 1, maxWidth: desktop, cropVariant: 'default')} {desktop}w\"
+	}"
+/>

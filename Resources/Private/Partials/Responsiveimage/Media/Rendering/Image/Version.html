@@ -1,0 +1,8 @@
+<f:if condition="{f:cObject(typoscriptObjectPath:'lib.start.t3version.isSmallerThan104')}" >
+	<f:then>
+		<f:render partial="Responsiveimage/Media/Rendering/Image/087" arguments="{_all}" />
+	</f:then>
+	<f:else>
+		<f:render partial="Responsiveimage/Media/Rendering/Image/104" arguments="{_all}" />
+	</f:else>
+</f:if>
