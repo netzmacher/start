@@ -1,6 +1,15 @@
 WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
+8.2.7
+  21-01-30
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #i0050: [TASK] Improved CSS for search button ke_search template
+						Affected files:
+						* Resources/Private/Templates/KeSearch/Templates/SearchForm.html
+						Commit:
+						* 
+
 8.2.6
   21-01-30
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
