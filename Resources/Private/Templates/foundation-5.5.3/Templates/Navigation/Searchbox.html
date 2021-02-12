@@ -23,8 +23,10 @@
 	</f:section>
 
 	<f:section name="Main">
-		<f:if condition="{currentPid} != {settings.form.pid}">
-			<f:render section="Form" arguments="{_all}"/>
+		<f:if condition="{isEnabled}">
+			<f:if condition="{currentPid} != {settings.form.pid}">
+				<f:render section="Form" arguments="{_all}"/>
+			</f:if>
 		</f:if>
 	</f:section>
 

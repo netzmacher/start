@@ -138,7 +138,6 @@ start {
 					// Searchform
 				30 = FLUIDTEMPLATE
 				30 {
-					if.isTrue = {$start.foundation.sitelinetop.searchform.enabled}
 					templateName = Searchbox
 						// 10 = EXT:start/Resources/Private/Templates/foundation-5.5.3/Templates/Navigation/
 					templateRootPaths =
@@ -183,13 +182,18 @@ start {
 							placeholder = {$start.foundation.sitelinetop.searchform.placeholder}
 						}
 					}
-					// currentPid
+					// currentPid, isEnabled
 					variables =
 					variables {
-							// field = pid
+							// data = page:uid
 						currentPid = TEXT
 						currentPid {
 							data = page:uid
+						}
+							// data = page:uid
+						isEnabled = TEXT
+						isEnabled {
+							value = {$start.foundation.sitelinetop.searchform.enabled}
 						}
 					}
 				}

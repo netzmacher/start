@@ -6,6 +6,12 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 8.2.9
   21-02-12
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #i0053: [BUGFIX] {$start.foundation.sitelinetop.searchform.enabled} wasn't respected
+						Affected files:
+						* Configuration/TypoScript/Base/Start/Lib/sitelineTop.ts
+						* Resources/Private/Templates/foundation-5.5.3/Templates/Navigation/Searchbox.html
+						Commit:
+						* 
 	* #i0052: [TASK] CSS for form in siteLineTop was missing. Improvement:
 						CSS for powermail and tx_news depends on both extensions.
 						Affected files:
