@@ -6,15 +6,15 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 8.2.9
   21-02-12
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
-	* #i0052: [TASK] CSS for form in siteLineTop was missing.
-						Include of CSS improved: CSS for powermail and tx_news depends on both extensions
+	* #i0052: [TASK] CSS for form in siteLineTop was missing. Improvement:
+						CSS for powermail and tx_news depends on both extensions.
 						Affected files:
 						* Classes/Userfunc/ExtensionWrapper.php
 						* Configuration/TypoScript/Foundation/Page/includeCSS.ts
 						New file:
 						* Resources/Public/Css/Extensions/foundation.css
 						Commit:
-						* 
+						* 1bec463
 
 8.2.8
   21-02-11
