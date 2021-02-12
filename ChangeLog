@@ -11,7 +11,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						* Configuration/TypoScript/Base/Start/Lib/sitelineTop.ts
 						* Resources/Private/Templates/foundation-5.5.3/Templates/Navigation/Searchbox.html
 						Commit:
-						* 
+						* dd75407
 	* #i0052: [TASK] CSS for form in siteLineTop was missing. Improvement:
 						CSS for powermail and tx_news depends on both extensions.
 						Affected files:
