@@ -6,9 +6,9 @@ page {
   includeCSS =
   includeCSS {
     startNormalize			= {$start.foundation.files.css.normalize}
-    startFoundation			= {$start.foundation.files.css.foundation}
+    startFoundationApp	= {$start.foundation.files.css.foundation}
     startStart					= {$start.foundation.files.css.basic}
-    startCssArrow		= {$start.foundation.files.css.arrow}
+    startCssArrow				= {$start.foundation.files.css.arrow}
 			// if.isTrue = $start.css.a.wiIcon (here: {$start.foundation.css.a.wiIcon})
     startCssAWiIcon			= {$start.foundation.files.css.aTagWiIcon}
     startCssAWiIcon {
@@ -19,36 +19,43 @@ page {
 			}
 		}
     startDataCeColumns	= {$start.foundation.files.css.dataCeColumns}
+    startFoundation			= EXT:start/Resources/Public/Css/Extensions/foundation.css
     startMegamenu				= {$start.foundation.files.css.megamenu}
 		// #i0224, 190404, dwildt
 		//startRteCodesnippet = EXT:start/Resources/Public/CKeditor/4.11.3/Plugins/codesnippet/lib/highlight/styles/default.css
     startPowermail			= {$start.foundation.files.css.powermail}
-    startTxnews					= EXT:start/Resources/Public/Css/Extensions/tx_news.css
-  }
-}
-
-  // #71476
-startPrint {
-		// empty statement for proper comments only
-  includeCSS {
-	}
-		// startNormalize, startFoundation, startStart, startCssAWiIcon (if.isTrue = "{$start.css.a.wiIcon}")
-  includeCSS =
-  includeCSS {
-    startNormalize  = {$start.foundation.files.css.normalize}
-    startFoundation = {$start.foundation.files.css.foundation}
-    startStart			= {$start.foundation.files.css.basic}
-    startCssArrow		= {$start.foundation.files.css.arrow}
-			// if.isTrue = $start.css.a.wiIcon (here: {$start.css.a.wiIcon})
-    startCssAWiIcon = {$start.foundation.files.css.aTagWiIcon}
-    startCssAWiIcon {
-			if = 
+			// if ExtensionWrapper->isLoadedPowermail()
+    startPowermail {
+				// if.isTrue  ExtensionWrapper->isLoadedPowermail()
+			if =
 			if {
-				isTrue = {$start.css.a.wiIcon}
+					// isTrue  ExtensionWrapper->isLoadedPowermail()
+				isTrue =
+				isTrue {
+						// userFunc = Netzmacher\Start\Userfunc\ExtensionWrapper->isLoadedPowermail
+					cObject = USER
+					cObject {
+						userFunc = Netzmacher\Start\Userfunc\ExtensionWrapper->isLoadedPowermail
+					}
+				}
 			}
-		}
-    startMegamenu		= {$start.foundation.files.css.megamenu}
-    startPowermail	= {$start.foundation.files.css.powermail}
-    startTxnews			= EXT:start/Resources/Public/Css/Extensions/tx_news.css
+	  }
+    startTxnews					= EXT:start/Resources/Public/Css/Extensions/tx_news.css
+			// if ExtensionWrapper->isLoadedTxnews()
+    startTxnews {
+				// if.isTrue  ExtensionWrapper->isLoadedTxnews()
+			if =
+			if {
+					// isTrue  ExtensionWrapper->isLoadedTxnews()
+				isTrue =
+				isTrue {
+						// userFunc = Netzmacher\Start\Userfunc\ExtensionWrapper->isLoadedTxnews
+					cObject = USER
+					cObject {
+						userFunc = Netzmacher\Start\Userfunc\ExtensionWrapper->isLoadedTxnews
+					}
+				}
+			}
+	  }
   }
 }

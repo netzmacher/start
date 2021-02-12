@@ -15,7 +15,7 @@ declare(strict_types = 1);
  * @author    Dirk Wildt <http://wildt.at.die-netzmacher.de>
  * @package    TYPO3
  * @subpackage    start
- * @version  8.0.1
+ * @version  8.2.8
  * @since    8.0.1
  */
 
@@ -32,6 +32,9 @@ class ExtensionWrapper
 	/**
 	 * @param string $extensionKey
 	 * @return bool
+	 * 
+	 * @version 8.0.1
+	 * @since 8.0.1
 	 */
 	public static function isLoaded( $extensionKey ): bool
 	{
@@ -40,8 +43,33 @@ class ExtensionWrapper
 	}
 
 	/**
+	 * @return bool
+	 * 
+	 * @version 8.2.8
+	 * @since 8.2.8
+	 */
+	public static function isLoadedPowermail( ): bool
+	{
+		return self::isLoaded('powermail');
+	}
+
+	/**
+	 * @return bool
+	 * 
+	 * @version 8.2.8
+	 * @since 8.2.8
+	 */
+	public static function isLoadedTxnews( ): bool
+	{
+		return self::isLoaded('tx_news');
+	}
+
+	/**
 	 * @param string $extensionKey
 	 * @return bool
+	 * 
+	 * @version 8.0.1
+	 * @since 8.0.1
 	 */
 	public static function isNotLoaded( $extensionKey ): bool
 	{

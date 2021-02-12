@@ -1,0 +1,38 @@
+form#siteLineTopSearch {
+	background-color: rgba(255, 213, 0, 0.2);
+	border-radius: 1em;
+	float: right;
+	margin-left: 1em;
+	padding: 0 1em;
+}
+form#siteLineTopSearch input {
+	background: transparent;
+	border: 0px;
+	color: #FFFFFF;
+	display: inline;
+	height: 2em;
+	font-weight: bold;	
+	margin: 0;
+	width: 10rem;
+}
+
+form#siteLineTopSearch input::-webkit-input-placeholder
+{
+  color:    #FFFFFF;
+	font-weight: normal;	
+}
+form#siteLineTopSearch input:-moz-placeholder 
+{
+  color:    #FFFFFF;
+	font-weight: normal;	
+}
+form#siteLineTopSearch input::-moz-placeholder 
+{
+  color: #FFFFFF;
+	font-weight: normal;	
+}
+form#siteLineTopSearch input:-ms-input-placeholder 
+{
+  color:    #FFFFFF;
+	font-weight: normal;	
+}
