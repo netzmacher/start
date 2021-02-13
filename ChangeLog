@@ -10,7 +10,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						Affected file:
 						* Configuration/TypoScript/Base/lib/contentElement/paths.ts
 						Commit:
-						* 
+						* b184958
 	* #i0054: [TASK] Update for EXT:browser 9.7.8, EXT:startgreen 4.3.55, EXT:xblog 0.24.7
 						Affected files:
 						* Resources/Public/Css
