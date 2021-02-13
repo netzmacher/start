@@ -6,6 +6,11 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 8.2.10
   21-02-13
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #i0055: [BUGFIX] Path to template wasn't proper
+						Affected file:
+						* Configuration/TypoScript/Base/lib/contentElement/paths.ts
+						Commit:
+						* 
 	* #i0054: [TASK] Update for EXT:browser 9.7.8, EXT:startgreen 4.3.55, EXT:xblog 0.24.7
 						Affected files:
 						* Resources/Public/Css

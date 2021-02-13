@@ -56,7 +56,7 @@ lib {
 							}
 						}
 					}
-					value = EXT:start/Resources/Private/Partials/Responsiveimage/
+					value = EXT:start/Resources/Private/Partials/
 				}
 			}
 				// if.isTrue = {start.templates.image.foundation.clearingthumbs} (here: {$start.templates.image.foundation.clearingthumbs}): EXT:start/Resources/Private/Templates/FluidStyledContent/Foundation/Partials/
