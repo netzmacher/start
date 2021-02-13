@@ -1,14 +1,14 @@
-#startBox01 div.mega-menu-content {
+div.mega-menu-content {
 	z-index: 999;
   -webkit-box-shadow: 0 20px 30px -20px black;
   -moz-box-shadow: 0 20px 30px -20px black;
   box-shadow: 0 20px 30px -20px black;
 }
-#startBox01 div.mega-menu-content > .row {
+div.mega-menu-content > .row {
 	margin:0;
 }
-#startBox01 div[id*='mega-menu-']{
+div[id*='mega-menu-']{
 }
-#startBox01 .show {
+.show {
 	display: block;
 }

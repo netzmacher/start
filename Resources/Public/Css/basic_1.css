@@ -12,41 +12,41 @@ body {
 	}
 }
 /* #i0260, #t4060, 1+ */
-.slick-sync figcaption {
+#startBox01 .slick-sync figcaption {
 	display: none;
 }
 
-.row.expanded {
+#startBox01 .row.expanded {
 	max-width: inherit;
 	padding:0;
 	width: 100%;
 }
-.row.expanded > .columns {
+#startBox01 .row.expanded > .columns {
 	padding:0;
 }
-.row.main.fullwidth {
+#startBox01 .row.main.fullwidth {
 	max-width: inherit;
 	width: 100%;
 }
 
 @media print {
-  a,
-  a:visited {
+  #startBox01 a,
+  #startBox01 a:visited {
     text-decoration: inherit; }
 
-  a[href]:after {
+  #startBox01 a[href]:after {
     content: ""; }
 }
 
-.align-center { text-align: center; }
-.align-right { text-align: right; }
-.align-left { text-align: left; }
+#startBox01 .align-center { text-align: center; }
+#startBox01 .align-right { text-align: right; }
+#startBox01 .align-left { text-align: left; }
 
 /* #i0091, 170303, dwildt: responsive images */
-figure,
-div.csc-textpic .csc-textpic-imagewrap figure,
-figcaption,
-figcaption.csc-textpic-caption {
+#startBox01 figure,
+#startBox01 div.csc-textpic .csc-textpic-imagewrap figure,
+#startBox01 figcaption,
+#startBox01 figcaption.csc-textpic-caption {
 	display: block;
 	margin: 0;
 }
@@ -55,15 +55,15 @@ figcaption.csc-textpic-caption {
 }
 
 /* #i0091, 170303, dwildt: responsive images */
-div.csc-textpic div.csc-textpic-imagecolumn,
-.csc-textpic-imagewrap {
+#startBox01 div.csc-textpic div.csc-textpic-imagecolumn,
+#startBox01 .csc-textpic-imagewrap {
 	max-width: 100%;
 }
-.csc-textpic-center img {
+#startBox01 .csc-textpic-center img {
 	margin:0 auto;
 }
 
-.clearing-thumbs .tx_browser_wrapbefore {
+#startBox01 .clearing-thumbs .tx_browser_wrapbefore {
 	clear: both;
 }
 
@@ -341,11 +341,11 @@ div.csc-textpic div.csc-textpic-imagecolumn,
   margin-bottom: 1rem;	
 }
 
-body .maincontentleft {
+#startBox01 .maincontentleft {
 	/* #i0246, 190618, dwildt, 1- */
 	/*padding-left:0rem;*/
 }
-body .maincontentright {
+#startBox01 .maincontentright {
 	padding-right:0rem;
 }
 
@@ -359,158 +359,148 @@ body .maincontentright {
 .startWoMarginLeft {
 	margin-left: -0.9375rem;
 }
-.startWoMarginLeft figcaption {
-	padding-left: 0.9375rem;
-}
 .startWoMarginLeftRight {
 	/*margin: 0 -0.9375rem;*/
 	margin-left: -0.9375rem;
 	margin-right: -0.9375rem;
 }
-.startWoMarginLeftRight figcaption {
-	padding-left: 0.9375rem;
-	padding-right: 0.9375rem;
-}
 .startWoMarginRight {
 	margin-right: -0.9375rem;
-}
-.startWoMarginRight figcaption {
-	padding-right: 0.9375rem;
 }
 .startTopMinus1Em {
 	margin-top: -0.9375rem;
 }
 
-.fi-icon-125 div:first-child {
+#startBox01 .fi-icon-125 div:first-child {
 	height: 12.5rem;
 }
 
-.fi-icon-125 div:first-child i {
+#startBox01 .fi-icon-125 div:first-child i {
 	font-size: 12.5rem;
 	position: relative;
 	top: -2.5rem;
 }
 
-body .pad-left {
+#startBox01 .pad-left {
   padding-left: 0.9375rem;
 }
-body .pad-right {
+#startBox01 .pad-right {
   padding-right: 0.9375rem;
 }
 
-body .no-pad-left {
+#startBox01 .no-pad-left {
   padding-left: 0;
 }
-body .no-pad-right {
+#startBox01 .no-pad-right {
   padding-right: 0;
 }
 
-.text-overflow-ellipsis {
+#startBox01 .text-overflow-ellipsis {
 	overflow: hidden;
 	text-overflow:ellipsis;
 	white-space: nowrap;
 }
 
-.vertical nav li.separator {
+#startBox01 .vertical nav li.separator {
 	color:transparent;
 	line-height:2.8125rem
 }
 
-.siteLineTop div.icons {
+#startBox01 .siteLineTop div.icons {
 	float:right;
 	font-size: 1.4em;
 }
-.siteLineTop ul a,
-.siteLineTop div.icons a {
+#startBox01 .siteLineTop ul a,
+#startBox01 .siteLineTop div.icons a {
 	/*color:#FFFFFF;*/
 }
-.siteLineTop div.icons a {
+#startBox01 .siteLineTop div.icons a {
 	margin-left:.6em;
 	position:relative;
 	top:-5px;
 }
-.siteLineTop ul a:active,
-.siteLineTop ul a:hover,
-.siteLineTop ul a:focus,
-.siteLineTop div.icons a:active,
-.siteLineTop div.icons a:hover,
-.siteLineTop div.icons a:focus {
+#startBox01 .siteLineTop ul a:active,
+#startBox01 .siteLineTop ul a:hover,
+#startBox01 .siteLineTop ul a:focus,
+#startBox01 .siteLineTop div.icons a:active,
+#startBox01 .siteLineTop div.icons a:hover,
+#startBox01 .siteLineTop div.icons a:focus {
 	/*color:#FFD500;*/
 }
 
 /* #t4959, 200422, dwildt, 13-*/
-/*.siteLine .side-nav {
+/*#startBox01 .siteLine .side-nav {
 	padding: 0;
 	text-align:right;
 }
-.siteLine .side-nav li {
+#startBox01 .siteLine .side-nav li {
 	display: inline-block;
 	font-size:.85em;
 	text-align:center;
 }
-.siteLine .side-nav li a {
+#startBox01 .siteLine .side-nav li a {
   font-weight:normal;
 	padding:0 0 0 1em;
 }*/
 
 /* #t4959, 200422, dwildt, 13+*/
-ul.vertical {
+#startBox01 ul.vertical {
 	padding: 0;
 }
-ul.vertical.right {
+#startBox01 ul.vertical.right {
 	text-align:right;
 }
-ul.vertical li {
+#startBox01 ul.vertical li {
 	display: inline-block;
 	font-size:.85em;
 	margin: 0 0 0 1rem;
 	text-align:center;
 }
-ul.vertical li:first-child {
+#startBox01 ul.vertical li:first-child {
 	margin: 0;
 }
-ul.vertical li a {
+#startBox01 ul.vertical li a {
   font-weight:normal;
 	padding: 0;
 }
 
 /* #i0292, 191218, dwildt, +*/
-ul.breadcrumbs {
+#startBox01 ul.breadcrumbs {
 	margin: 0 auto;
 }
 /* #i0193, 181028, dwildt, +*/
-footer ul.side-nav {
+#startBox01 footer ul.side-nav {
 	padding: 0;
 }
 /* #i0193, 181028, dwildt, +*/
-footer .side-nav h3 {
+#startBox01 footer .side-nav h3 {
 	font-size: 1rem;
 	margin: 0;
 	text-transform: uppercase;
 }
 /* #i0193, 181028, dwildt, +*/
-footer .side-nav li a:not(.button) {
+#startBox01 footer .side-nav li a:not(.button) {
 	padding: 0;
 }
 /* #i0320, 200421, dwildt, +*/
-footer.expanded {
+#startBox01 footer.expanded {
 	max-width: 100%;
 }
 
-ul.language-menu li {
+#startBox01 ul.language-menu li {
 	border-left: 1px solid #000;
 	display: inline;
 	padding: 0 0.5rem;
 }
-ul.language-menu li:first-child {
+#startBox01 ul.language-menu li:first-child {
 	border: inherit;
 	padding-left: 0;
 }
-ul.language-menu li:last-child {
+#startBox01 ul.language-menu li:last-child {
 	padding-right: 0;
 }
 
-p.copyright {
+#startBox01 p.copyright {
 	font-size:.75rem;
 	margin:0;
 	padding:1rem 0 0 0;
@@ -532,18 +522,18 @@ p.copyright {
 	.startFigCaptionHideForSmallOnly figcaption {
 		display: block;
 	}
-	.vertical nav {
+	#startBox01 .vertical nav {
 		position:fixed;
 		z-index:2;
 	}
-	.vertical nav ul.left,
-	.vertical nav ul.right {
+	#startBox01 .vertical nav ul.left,
+	#startBox01 .vertical nav ul.right {
 		float:none !important;
 	}
-	.vertical nav li {
+	#startBox01 .vertical nav li {
 		float:none;
 	}
-	.vertical nav li.divider {
+	#startBox01 .vertical nav li.divider {
 		height:inherit;
 	}
 }
