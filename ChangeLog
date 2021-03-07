@@ -3,6 +3,17 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+8.2.21
+  21-03-07
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #i0056: [TASK] Newsletter:
+						* No thanks, I'm not interested :( > No thanks :(
+						* Nein danke, ich bin nicht interessiert :( > Nein danke :(
+						Affected file:
+						* Configuration/TypoScript/Base/Start/Structure/setup/content.ts
+						Commit
+						* 
+
 8.2.10
   21-02-13
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com

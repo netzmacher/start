@@ -211,10 +211,10 @@ start {
 								</div>
 
 )
-							value = No thanks, I'm not interested :(
+							value = No thanks :(
 							lang {
-								de = Nein danke, ich bin nicht interessiert :(
-								en = No thanks, I'm not interested :(
+								de = Nein danke :(
+								en = No thanks :(
 							}
 						}
 					}
