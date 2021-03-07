@@ -10,7 +10,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						Affected file:
 						* Classes/Userfunc/ExtensionWrapper.php
 						Commit
-						* 
+						* f3d177b
 	* #i0057: [TASK] Update for ke_search 3.x
 						Affected file:
 						* Configuration/TypoScript/Extensions/ke_search/setup.txt
