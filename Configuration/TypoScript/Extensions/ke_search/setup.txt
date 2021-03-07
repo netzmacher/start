@@ -1,3 +1,6 @@
 plugin.tx_kesearch_pi1 {
+	// ke_search 2.x
 	templateRootPaths.20 = EXT:start/Resources/Private/Templates/KeSearch/Templates/
+	// ke_search 3.x
+	view.templateRootPaths.20 = EXT:start/Resources/Private/Templates/KeSearch/Templates/
 }

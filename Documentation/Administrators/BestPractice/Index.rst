@@ -32,4 +32,5 @@ Best Practice
   PageMedia/Index
   RSS/Index
   RTE/Index
+  Search/Index
   Themes/Index

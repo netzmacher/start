@@ -6,6 +6,11 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 8.2.21
   21-03-07
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #i0057: [TASK] Update for ke_search 3.x
+						Affected file:
+						* Configuration/TypoScript/Extensions/ke_search/setup.txt
+						Commit
+						* 
 	* #i0056: [TASK] Newsletter:
 						* No thanks, I'm not interested :( > No thanks :(
 						* Nein danke, ich bin nicht interessiert :( > Nein danke :(
