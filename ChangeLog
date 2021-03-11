@@ -3,6 +3,15 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+8.2.22
+  21-03-11
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #i0059: [TASK] Improve jss: if (topBarPosition === undefined) { return; } 
+						Affected file:
+						* Resources/Public/JavaScript/Libs/start/megamenu.js
+						Commit:
+						*
+
 8.2.21
   21-03-07
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com

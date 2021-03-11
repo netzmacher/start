@@ -33,6 +33,9 @@ $(window).on('load resize scroll', function (e) {
 
 function updateMegaMenu() {
 	var topBarPosition = $('nav.top-bar').position();
+	if (topBarPosition === undefined) {
+		return;
+	}
 	var topBarHeight = $('nav.top-bar').height();
 	var topBarMarginLeft = parseInt($('nav.top-bar').css('margin-left'));
 	$('.mega-menu-content').css('top', topBarPosition.top + topBarHeight);
