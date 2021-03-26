@@ -3,6 +3,19 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+8.2.23
+  21-03-26
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #i0060: [TASK] Optimise Typoscript for gridelements bootstrap
+						* Configuration/TypoScript/Extensions/gridelements/bootstrap/setup
+							* accordionOrTabs.ts
+							* columns_01.ts
+							* columns_02.ts
+							* columns_03.ts
+							* columns_04.ts
+							* columns_05.ts                                                                                                                                        
+							* columns_06.ts  
+
 8.2.22
   21-03-11
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com

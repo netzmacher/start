@@ -2,16 +2,16 @@ start {
     // for proper comments only
   gridelements {
   }
-    // start: 1 column ({$start.gridelement.col1})
+    // start: 1 column (startCol01)
   gridelements =
   gridelements {
-    {$start.gridelement.col1} < lib.gridelements.defaultGridSetup
+    startCol01 < lib.gridelements.defaultGridSetup
       // for proper comments only
-    {$start.gridelement.col1} {
+    startCol01 {
     }
       // 1 column: wrap, columns
-    {$start.gridelement.col1} =
-    {$start.gridelement.col1} {
+    startCol01 =
+    startCol01 {
       wrap {
         stdWrap {
 						// <div class="row {field:flexform_class}">|</div>
@@ -74,4 +74,4 @@ start {
   }
 }
 
-tt_content.gridelements_pi1.20.10.setup.{$start.gridelement.col1} < start.gridelements.{$start.gridelement.col1}
+tt_content.gridelements_pi1.20.10.setup.startCol01 < start.gridelements.startCol01
