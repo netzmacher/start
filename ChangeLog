@@ -3,10 +3,31 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+8.2.25
+  21-04-22
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #i0062: [BUGFIX] media: additionalAttributes hadn't proper quotation, "/>" was missing
+						Thanks to support@trojahn.de for bugfix
+						Affected files:
+						* Configuration/TypoScript/Base/Page/Page/63148/63148.ts
+						* Resources/Private
+							* Partials
+								* FluidStyledContent/Image/104.html
+								* Responsiveimage/Media/Rendering/Image/104.html
+							* Templates/FluidStyledContent/Foundation/Partials/Media/Rendering/Image/104.html
+
+8.2.24
+  21-03-27
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #i0061: [TASK] Optimise error prompt
+						Affected file:
+						* Configuration/TypoScript/Base/Page/Page/63148/63148.ts
+
 8.2.23
   21-03-26
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
 	* #i0060: [TASK] Optimise Typoscript for gridelements bootstrap
+						Affected files:
 						* Configuration/TypoScript/Extensions/gridelements/bootstrap/setup
 							* accordionOrTabs.ts
 							* columns_01.ts

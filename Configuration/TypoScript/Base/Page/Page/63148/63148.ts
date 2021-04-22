@@ -36,7 +36,7 @@ page {
                   Das aktuelle Backend-Layout "|" kann nicht verarbeitet werden.<br />
                   Bitte leere den TYPO-Frontend-Cache.<br />
                   Ist das aktuelle Backend Layout eines einer anderen Erweiterung, fehlt eventuell ein entsprechendes TypoScript-Template.<br />
-                  Wenn Du das Problem nicht beheben kann, w&auml;hle bitte ein g&uuml;ltiges Backend-Layout.<br />
+                  Wenn Du das Problem nicht beheben kannst, w&auml;hle bitte ein g&uuml;ltiges Backend-Layout.<br />
                   Das ist eine Meldung der Erweiterung Start TYPO3 Responsive! (EXT:start). 
                 </div>
 )
