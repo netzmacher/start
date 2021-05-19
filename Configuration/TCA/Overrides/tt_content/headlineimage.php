@@ -17,21 +17,25 @@
 				'txStartHeadlineimage'
 );
 
+$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'palettes' ][ 'tx_start_headlineimage_general' ] = [
+		'showitem' => ''
+		. 'CType, colPos,'
+		,
+		'canNotCollapse' => 1,
+];
 $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'palettes' ][ 'tx_start_headlineimage_header' ] = [
 		'label' => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.headers',
 		'showitem' => '
-header;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header_formlabel, --linebreak--,
-header_layout;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header_layout_formlabel,
-header_position;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header_position_formlabel, --linebreak--,
-subheader;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:subheader_formlabel, --linebreak--,
-header_link;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header_link_formlabel,
+				header;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header_formlabel,
+				header_layout;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header_layout_formlabel, --linebreak--,
+				header_link;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:header_link_formlabel,
 ',
 ];
 
 $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'txStartHeadlineimage' ] = [
 		'showitem' => '
 	--div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
-		--palette--;;general,
+		--palette--;;tx_start_headlineimage_general,
 		--palette--;;tx_start_headlineimage_header,
 		pi_flexform,
 	--div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.images,

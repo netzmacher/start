@@ -6,6 +6,11 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 8.3.0
   21-05-19
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v1167: [TASK] Improved: TCA Jumboteaser and Headlineimage
+						Affected files:
+						* Configuration/TCA/Overrides/tt_content
+							* headlineimage.php
+							* jumboteaser.php
 	* #v1151: [TASK] Update for EXT:copyright
 						Affected files:
 						* Resources/Private

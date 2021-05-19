@@ -1,31 +1,39 @@
 <?php
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTcaSelectItem(
-	'tt_content',
-	'CType',
-	[
+				'tt_content', 'CType', [
 		'LLL:EXT:start/Configuration/TCA/Overrides/tt_content/jumboteaser.xlf:jumboteaser.title',
 		'txStartJumboteaser',
 		'ext-start-jumboteaser',
-	],
-	'textmedia',
-	'after'
+				], 'textmedia', 'after'
 );
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue(
-    // 'list_type' does not apply here
-    '*',
-    // Flexform configuration schema file
-    'FILE:EXT:start/Configuration/FlexForm/startJumboteaser.xml',
-    // ctype
-    'txStartJumboteaser'
+				// 'list_type' does not apply here
+				'*',
+				// Flexform configuration schema file
+				'FILE:EXT:start/Configuration/FlexForm/startJumboteaser.xml',
+				// ctype
+				'txStartJumboteaser'
 );
 
-$GLOBALS['TCA']['tt_content']['types']['txStartJumboteaser'] = [
-	'showitem' => '
+$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'palettes' ][ 'txStartJumboteaserGeneral' ] = [
+		'showitem' => ''
+		. 'CType, colPos,'
+		,
+		'canNotCollapse' => 1,
+];
+$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'palettes' ][ 'txStartJumboteaserHeader' ] = [
+		'showitem' => ''
+		. 'header, header_layout,'
+		,
+		'canNotCollapse' => 1,
+];
+$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'txStartJumboteaser' ] = [
+		'showitem' => '
 	--div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
-		--palette--;;general,
-		--palette--;;headers,
+		--palette--;;txStartJumboteaserGeneral,
+		--palette--;;txStartJumboteaserHeader,
 		pi_flexform,
 	--div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.images,
 		image,
