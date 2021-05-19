@@ -1,0 +1,4 @@
+[master ee97b1b] [BUGFIX] media: additionalAttributes hadn't proper quotation, /
+ 6 files changed, 62 insertions(+), 39 deletions(-)
+ rewrite Resources/Private/Partials/Responsiveimage/Media/Rendering/Image/104.html (100%)
+ rewrite Resources/Private/Templates/FluidStyledContent/Foundation/Partials/Media/Rendering/Image/104.html (100%)

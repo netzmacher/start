@@ -3,6 +3,41 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+8.3.0
+  21-05-19
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v1151: [TASK] Update for EXT:copyright
+						Affected files:
+						* Resources/Private
+							* Partials
+								* FluidStyledContent
+									* Image
+										* 087.html
+										* 104.html
+									* Wrap.html
+								* Responsiveimage/Media/Rendering/Image
+									* 087.html
+									* 104.html
+							* Templates/FluidStyledContent
+								* Headlineimage/Headlineimage.html
+								* Jumboteaser/Jumboteaser.html
+	* #i0064: [TASK] Cleanup code and *.xlf
+						Affected files:
+						* Configuration
+							* TCA/Overrides
+								* 6.2
+									* de.tt_content.xlf
+									* tt_content.xlf
+								* Default
+									* de.tt_content.xlf
+									* tt_content.xlf
+							* TypoScript/EMail/Start/Structure/Email/content.ts
+	* #i0063: [TASK] Compytibillity TYPO3 10.4 Headlineimage and Jumboteaser (lazyloading)
+						Affected files:
+						* Resources/Private/Templates/FluidStyledContent
+							* Headlineimage/Headlineimage.html                                                                                                                                       
+							* Jumboteaser/Jumboteaser.html  
+
 8.2.25
   21-04-22
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de

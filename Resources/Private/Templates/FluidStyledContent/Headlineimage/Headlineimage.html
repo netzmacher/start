@@ -6,7 +6,6 @@
 		<f:if condition="{images.0}">
 			<f:variable name="imageClass"> wiImage</f:variable>
 		</f:if>
-
 		<style>
 			#c{data.uid} .headlinecontainer .bg-image {
 				filter: brightness({content.brightness22}%);
@@ -33,14 +32,15 @@
 		<f:if condition="{content.title} || {content.subtitle}">
 			<div class="headlinecontainer{imageClass}" >
 				<div class="headlinetextoverlay">
-					<f:render partial="Wrap" arguments="{tag: settings.start.ce.headlineimage.html.tagtitle, class: settings.start.ce.headlineimage.css.title, text: content.title}"/>
-					<f:render partial="Wrap" arguments="{tag: settings.start.ce.headlineimage.html.tagsubtitle, class: settings.start.ce.headlineimage.css.subtitle, text: content.subtitle}"/>
+					<f:render partial="Wrap" arguments="{tag: settings.start.ce.headlineimage.html.tagtitle, class: settings.start.ce.headlineimage.css.title, image: images.0, link: data.header_link, text: content.title}"/>
+					<f:render partial="Wrap" arguments="{tag: settings.start.ce.headlineimage.html.tagsubtitle, class: settings.start.ce.headlineimage.css.subtitle, image: images.0, link: data.header_link, text: content.subtitle}"/>
 				</div>
 				<f:if condition="{images.0}">
-					<f:render partial="FluidStyledContent/Image/087" arguments="{_all}" />
+					<f:render partial="FluidStyledContent/Image/Version" arguments="{_all}" />
 				</f:if>
 			</div>
 		</f:if>
+		<f:debug title="@kjlhghvb">{data.header_link}</f:debug>
 
 	</f:section>
 

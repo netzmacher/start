@@ -22,28 +22,12 @@ start {
           // CONTENT, stdWrap
         main = COA
         main {
-						// 4.1.3, #i0172, dwildt, -
-					XXX20 = COA
-					XXX20 {
-						10 = TEXT
-						10 {
-							value = Newsletter |
-							noTrimWrap = || |
-						}
-						20 = TEXT
-						20 {
-							data = date : U
-							strftime = %A, %e. %B %Y
-						}
-            stdWrap {
-              wrap = <p class="newsletter">|</p>					
-						}
-					}
 						// table, select, stdWrap
           30 < styles.content.get
           30 {
             select {
-              where = colPos=0
+							//orderBy = sorting DESC
+              where = {#colPos}=0
             }
           }
         }

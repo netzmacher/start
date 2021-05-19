@@ -198,23 +198,23 @@
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startPanel">
         <source>Panel (panel)</source>
-        <target>Panel (panel)</target>
+        <target>Kasten (panel)</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startPanelCallout">
         <source>Panel Callout (panel callout)</source>
-        <target>Panel Callout (panel callout)</target>
+        <target>Kasten Callout (panel callout)</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startPanelCalloutRadius">
         <source>Panel Callout Radius (panel callout radius)</source>
-        <target>Panel Callout Radius (panel callout radius)</target>
+        <target>Kasten Callout Radius (panel callout radius)</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startPanelRadius">
         <source>Panel Radius (panel radius)</source>
-        <target>Panel Radius (panel radius)</target>
+        <target>Kasten Radius (panel radius)</target>
       </trans-unit>			
       <trans-unit id="tx_start_additionalclassdefined.startShadow">
         <source>Shadow (startShadow)</source>
-        <target>Shadow (startShadow)</target>
+        <target>Schatten (startShadow)</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startTextAlignCenter">
         <source>Text-align: center (startTextAlignCenter)</source>

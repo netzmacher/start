@@ -34,7 +34,6 @@ switch( TRUE )
  * Backend Styling
  * **************************************************************************** */
 
-//require_once( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/ExtTables/Extensions/Backend.php' );
 \Netzmacher\Start\Backend\Extensions\Backend::Style();
 
 /* * ********************************************************************************************

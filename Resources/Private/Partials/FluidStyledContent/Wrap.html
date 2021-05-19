@@ -1,5 +1,10 @@
 <f:if condition="{text}">
 	<f:if condition="{tag}">
+		<f:if condition="{image}">
+			<f:then>
+				<f:variable name="title"> title="{image.title} {image.properties.copyright -> f:format.stripTags()}"</f:variable>
+			</f:then>
+		</f:if>
 		<f:if condition="{noNl2br} != 1">
 			<f:then>
 				<f:variable name="content"><f:link.typolink parameter="{link}"><f:format.nl2br>{text}</f:format.nl2br></f:link.typolink></f:variable>
@@ -10,11 +15,9 @@
 		</f:if>
 		<f:if condition="{class}">
 			<f:then>
-				<{tag} class="{class}"><f:format.raw>{content}</f:format.raw></{tag}>
+				<f:variable name="class"> class="{class}"</f:variable>
 			</f:then>
-			<f:else>
-				<{tag}><f:format.raw>{content}</f:format.raw></{tag}>				
-			</f:else>
 		</f:if>
+		<{tag}{class -> f:format.raw()}{title -> f:format.raw()}><f:format.raw>{content}</f:format.raw></{tag}>
 	</f:if>
 </f:if>

@@ -246,7 +246,7 @@
       </trans-unit>			
       <trans-unit id="tx_start_additionalclassdefined.startShadow">
         <source>Shadow (startShadow)</source>
-        <target>Shadow (startShadow)</target>
+        <target>Schatten (startShadow)</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startTextAlignCenter">
         <source>Text-align: center (startTextAlignCenter)</source>

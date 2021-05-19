@@ -4,8 +4,8 @@
 <f:media 
 	class="bg-image" 
 	file="{images.0}" 
-	alt="{images.0.alternative}" 
-	title="{images.0.title}" 
+	alt="{images.0.alternative} {images.0.properties.copyright -> f:format.stripTags()}" 
+	title="{images.0.title} {images.0.properties.copyright -> f:format.stripTags()}" 
 	additionalAttributes="{
 		srcset:  \" {f:uri.image(image: images.0, treatIdAsReference: 1, maxWidth: smartphone, cropVariant: 'smartphone')} {smartphone}w,
 								{f:uri.image(image: images.0, treatIdAsReference: 1, maxWidth: tablet, cropVariant: 'tablet')} {tablet}w,
