@@ -9,6 +9,7 @@
 		<f:variable name="imageClass"></f:variable>
 		<f:if condition="{images.0}">
 			<f:variable name="imageClass"> wiImage</f:variable>
+			<f:variable name="title"> title="{images.0.title} {images.0.properties.copyright -> f:format.stripTags()}"</f:variable>
 		</f:if>
 
 		<style>
@@ -47,7 +48,7 @@
 			<f:if condition="{images.0}">
 				<f:render partial="FluidStyledContent/Image/Version" arguments="{_all}" />
 			</f:if>
-			<div class="jumboteaserTextoverlay">
+			<div class="jumboteaserTextoverlay"{title}>
 				<f:render partial="Wrap" arguments="{tag: settings.start.ce.jumboteaser.html.tagtitle, class: settings.start.ce.jumboteaser.css.title, image: images.0, link: data.header_link, text: content.title}"/>
 				<f:render partial="Wrap" arguments="{tag: settings.start.ce.jumboteaser.html.tagsubtitle, class: settings.start.ce.jumboteaser.css.subtitle, image: images.0, link: data.header_link, text: content.subtitle}"/>
 				<f:if condition="{content.cta}">
