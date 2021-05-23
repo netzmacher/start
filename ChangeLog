@@ -8,6 +8,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
 	* #v1182: [TASK] Make TypoScript conditions compatible with TYPO3 8.7 and 10.4
 						Affected files:
+						* 199
 
 8.3.0
   21-05-19
