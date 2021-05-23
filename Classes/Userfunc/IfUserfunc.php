@@ -5,7 +5,7 @@ declare(strict_types = 1);
 namespace Netzmacher\Start\Userfunc;
 
 use Netzmacher\Start\Backend\Extensionmanager;
-use Netzmacher\Start\Utility\Typo3VersionUtility;
+use Netzmacher\Start\Userfunc\Typo3VersionUserfunc;
 
 /*
  * (c) 2021 - This file is part of the package Netzmacher\Start
@@ -39,7 +39,7 @@ class IfUserfunc
 			return 0;
 		}
 		// RETURN 0, if current TYPO3 version is smaller than 10.4
-		if( Typo3VersionUtility::isSmallerThan104() )
+		if( Typo3VersionUserfunc::isSmallerThan104() )
 		{
 			return 0;
 		}

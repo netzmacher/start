@@ -23,21 +23,10 @@ $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'ctrl' ][ 'typeicon_classes' ][ 'txStartPagem
 $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'txStartPagemedia' ] = $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'types' ][ 'header' ];
 
 // ##i0325, 200506, dwildt, +
-$typo3Version = Netzmacher\Start\Utility\Typo3VersionUtility::get();
+$typo3Version = Netzmacher\Start\Userfunc\Typo3VersionUserfunc::get();
 
 require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TCA/Overrides/tt_content/tt_content.php' );
-
-
-switch( TRUE )
-{
-	case($typo3Version < 8000000):
-		require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TCA/Overrides/6.2/tt_content.php' );
-		break;
-	case($typo3Version >= 8000000):
-	default:
-		require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TCA/Overrides/Default/tt_content.php' );
-		break;
-}
+require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( 'start' ) . 'Configuration/TCA/Overrides/Default/tt_content.php' );
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTcaSelectItem(
 				'tt_content'

@@ -5,7 +5,7 @@ if( !defined( 'TYPO3_MODE' ) )
 	die( 'Access denied.' );
 }
 
-$typo3Version =  Netzmacher\Start\Utility\Typo3VersionUtility::get();
+$typo3Version =  Netzmacher\Start\Userfunc\Typo3VersionUserfunc::get();
 switch( true )
 {
 	case($typo3Version < 10000000):

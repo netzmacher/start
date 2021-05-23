@@ -2,7 +2,7 @@
 
 namespace Netzmacher\Start\Backend;
 
-use Netzmacher\Start\Utility\Typo3VersionUtility;
+use Netzmacher\Start\Userfunc\Typo3VersionUserfunc;
 
 /* * *************************************************************
  *
@@ -71,10 +71,10 @@ class Extensionmanager
 	{
 		switch( TRUE )
 		{
-			case(Typo3VersionUtility::Get() < 10000000):
+			case(Typo3VersionUserfunc::Get() < 10000000):
 				self::$_extConf = $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ $extKey ];
 				break;
-			case(Typo3VersionUtility::Get() >= 10000000):
+			case(Typo3VersionUserfunc::Get() >= 10000000):
 			default:
 				self::$_extConf = $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXTENSIONS' ][ $extKey ];
 				break;
@@ -94,7 +94,7 @@ class Extensionmanager
 	{
 		// #t5946, 200928, ftrojahn, 1-/+: do not serialize in TYPO2 10.x
 		//switch( self::$_wasSerialised )
-		switch( self::$_wasSerialised && Typo3VersionUtility::Get() < 10000000 )
+		switch( self::$_wasSerialised && Typo3VersionUserfunc::Get() < 10000000 )
 		{
 			case(true):
 				self::$_extConf = serialize( self::$_extConf );
@@ -105,10 +105,10 @@ class Extensionmanager
 		}
 		switch( TRUE )
 		{
-			case(Typo3VersionUtility::Get() < 10000000):
+			case(Typo3VersionUserfunc::Get() < 10000000):
 				$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXT' ][ 'extConf' ][ $extKey ] = self::$_extConf;
 				break;
-			case(Typo3VersionUtility::Get() >= 10000000):
+			case(Typo3VersionUserfunc::Get() >= 10000000):
 			default:
 				$GLOBALS[ 'TYPO3_CONF_VARS' ][ 'EXTENSIONS' ][ $extKey ] = self::$_extConf;
 				break;

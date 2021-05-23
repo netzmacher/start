@@ -3,6 +3,12 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+8.3.1
+  21-05-23
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v1182: [TASK] Make TypoScript conditions compatible with TYPO3 8.7 and 10.4
+						Affected files:
+
 8.3.0
   21-05-19
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
@@ -1320,7 +1326,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						* https://docs.typo3.org/c/typo3/cms-dashboard/master/en-us/Index.html
 
   Improvements:
-	* #i0325: Use Typo3VersionUtility::get()
+	* #i0325: Use Typo3VersionUserfunc::get()
 
 7.0.0
   20-04-30

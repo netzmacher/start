@@ -2,7 +2,7 @@
 
 namespace Netzmacher\Start\Controller;
 
-use Netzmacher\Start\Utility\Typo3VersionUtility;
+use Netzmacher\Start\Userfunc\Typo3VersionUserfunc;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Frontend\ContentObject\ContentObjectRenderer;
 
@@ -165,7 +165,7 @@ abstract class AbstractController extends \TYPO3\CMS\Extbase\Mvc\Controller\Acti
 
 		switch( true )
 		{
-			case(Typo3VersionUtility::isSmallerThan100()):
+			case(Typo3VersionUserfunc::isSmallerThan100()):
 				$this->_oTypoScriptService = GeneralUtility::makeInstance( 'TYPO3\\CMS\\Extbase\\Service\\TypoScriptService' );
 				return;
 			default:

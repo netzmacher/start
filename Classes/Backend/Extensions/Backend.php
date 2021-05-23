@@ -3,7 +3,7 @@
 namespace Netzmacher\Start\Backend\Extensions;
 
 use Netzmacher\Start\Backend\Extensionmanager;
-use Netzmacher\Start\Utility\Typo3VersionUtility;
+use Netzmacher\Start\Userfunc\Typo3VersionUserfunc;
 
 /* * *************************************************************
  *  Copyright notice
@@ -76,11 +76,11 @@ class Backend
 
 		switch( TRUE )
 		{
-			case ( Typo3VersionUtility::Get() < 7006000 ):
+			case ( Typo3VersionUserfunc::Get() < 7006000 ):
 				$GLOBALS[ 'TBE_STYLES' ][ 'logo' ] = '../typo3conf/ext/start/Resources/Public/Images/Backend/typo3-start_backendLogo@2x.png';
 				$GLOBALS[ 'TBE_STYLES' ][ 'logo_login' ] = '../typo3conf/ext/start/Resources/Public/Images/Backend/typo3-start_loginLogo-v6.2.jpg';
 				break;
-			case ( Typo3VersionUtility::Get() < 8007000 ):
+			case ( Typo3VersionUserfunc::Get() < 8007000 ):
 				$GLOBALS[ 'TBE_STYLES' ][ 'logo' ] = '../typo3conf/ext/start/Resources/Public/Images/Backend/typo3-start_backendLogo@2x.png';
 				break;
 			default:

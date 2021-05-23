@@ -10,7 +10,7 @@ if( !defined( 'TYPO3_MODE' ) )
  * **************************************************************************** */
 
 // ##i0325, 200506, dwildt, +
-$typo3Version = Netzmacher\Start\Utility\Typo3VersionUtility::get();
+$typo3Version = Netzmacher\Start\Userfunc\Typo3VersionUserfunc::get();
 
 /* * ****************************************************************************
  * Page TSConfig
