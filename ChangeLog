@@ -3,6 +3,15 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+8.3.2
+  21-05-23
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #i0065: [BUGFIX] Netzmacher\T3foundation\Userfunc\ContentUserfunc -> Netzmacher\Start\Userfunc\ContentUserfunc
+						Affected files:
+						* Configuration/TypoScript/Base
+							* 087/page/63146.ts
+							* 104/page/63146.ts
+
 8.3.1
   21-05-23
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
