@@ -11,7 +11,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 8.3.2
   21-05-23
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
-	* #i0065: [TASK] Prompt for deprectead template
+	* #i0065: [TASK] Prompt for deprecated template
 						[BUGFIX] Netzmacher\T3foundation\Userfunc\ContentUserfunc -> Netzmacher\Start\Userfunc\ContentUserfunc
 						Affected files:
 						* Configuration/TypoScript/Base
