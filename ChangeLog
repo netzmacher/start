@@ -3,8 +3,15 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+8.3.4
+  21-06-08
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #t1232: [TASK] Clean up code: remove FileContentObject
+						Romved file:
+						* Classes/Frontend/ContentObject/FileContentObject.php
+
 8.3.3
-  21-005-29
+  21-05-29
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
 	* #i0066: [BUGFIX] request.getPageArguments().get('L') -> request.getQueryParams()['L']
 
