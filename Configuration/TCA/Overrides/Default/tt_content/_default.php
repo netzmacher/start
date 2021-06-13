@@ -785,12 +785,18 @@ ExtensionManagementUtility::addFieldsToPalette(
 				, ''
 );
 
+
 ExtensionManagementUtility::addFieldsToPalette(
 				'tt_content'
-				, 'tx_start_palettetext'
+				, 'tx_start_paletteintegrator'
+				, 'tx_start_additionalclass,'
 				, ''
-				. 'tx_start_additionalclass,'
-				. '--linebreak--,'
+);
+
+ExtensionManagementUtility::addFieldsToPalette(
+				'tt_content'
+				, 'tx_start_paletteproperties'
+				, ''
 				. 'tx_start_classbackground,'
 				. 'tx_start_classcontainer,'
 				. 'tx_start_classeffect,'
@@ -884,7 +890,8 @@ ExtensionManagementUtility::addToAllTCAtypes(
 				, '--div--;LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:div.style,'
 				. '  --palette--;LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:palette.deprecated;tx_start_palettedeprecated,'
 				. '  --palette--;LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:palette.color;tx_start_palettecolor,'
-				. '  --palette--;LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:palette.css;tx_start_palettetext,'
+				. '  --palette--;LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:palette.properties;tx_start_paletteproperties,'
+				. '  --palette--;LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:palette.integrator;tx_start_paletteintegrator,'
 				, ''
 				, 'after:linkToTop'
 );

@@ -103,13 +103,17 @@
         <source>Colors</source>
         <target>Farben</target>
       </trans-unit>
-			<trans-unit id="palette.css">
-        <source>Style properties</source>
-        <target>Stil-Eigenschaften</target>
-      </trans-unit>
 			<trans-unit id="palette.deprecated">
         <source>DEPRECATED: use properties below!</source>
         <target>VERALTET: benutze die Einstellungen unten!</target>
+      </trans-unit>
+			<trans-unit id="palette.integrators">
+        <source>For Integrators</source>
+        <target>Für Integratoren</target>
+      </trans-unit>
+			<trans-unit id="palette.properties">
+        <source>Style properties</source>
+        <target>Stil-Eigenschaften</target>
       </trans-unit>
 
 			<trans-unit id="tx_start_additionalclass">
