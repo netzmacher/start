@@ -107,7 +107,7 @@
         <source>DEPRECATED: use properties below!</source>
         <target>VERALTET: benutze die Einstellungen unten!</target>
       </trans-unit>
-			<trans-unit id="palette.integrators">
+			<trans-unit id="palette.integrator">
         <source>For Integrators</source>
         <target>Für Integratoren</target>
       </trans-unit>
