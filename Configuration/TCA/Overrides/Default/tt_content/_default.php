@@ -124,7 +124,7 @@ $temporaryColumns = [
 				],
 		],
 		'tx_start_additionalclass' => [
-				'exclude' => 0,
+				'exclude' => 1,
 				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclass',
 				'config' => [
 						'type' => 'input',
@@ -133,7 +133,7 @@ $temporaryColumns = [
 				]
 		],
 		'tx_start_additionalclassdefined' => [
-				'exclude' => 0,
+				'exclude' => 1,
 				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined',
 				'config' => [
 						'type' => 'select',
@@ -426,7 +426,7 @@ $temporaryColumns = [
 				],
 		],
 		'tx_start_classbackground' => [
-				'exclude' => 0,
+				'exclude' => 1,
 				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classbackground',
 				'config' => [
 						'type' => 'select',
@@ -444,7 +444,7 @@ $temporaryColumns = [
 				],
 		],
 		'tx_start_classcontainer' => [
-				'exclude' => 0,
+				'exclude' => 1,
 				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classcontainer',
 				'config' => [
 						'type' => 'select',
@@ -495,7 +495,7 @@ $temporaryColumns = [
 				],
 		],
 		'tx_start_classeffect' => [
-				'exclude' => 0,
+				'exclude' => 1,
 				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classeffect',
 				'config' => [
 						'type' => 'select',
@@ -513,7 +513,7 @@ $temporaryColumns = [
 				],
 		],
 		'tx_start_classform' => [
-				'exclude' => 0,
+				'exclude' => 1,
 				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classform',
 				'config' => [
 						'type' => 'select',
@@ -564,7 +564,7 @@ $temporaryColumns = [
 				],
 		],
 		'tx_start_classimage' => [
-				'exclude' => 0,
+				'exclude' => 1,
 				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classimage',
 				'config' => [
 						'type' => 'select',
@@ -596,7 +596,7 @@ $temporaryColumns = [
 		
 		
 		'tx_start_classmargin' => [
-				'exclude' => 0,
+				'exclude' => 1,
 				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classmargin',
 				'config' => [
 						'type' => 'select',
@@ -632,7 +632,7 @@ $temporaryColumns = [
 
 		
 		'tx_start_classmargingrid' => [
-				'exclude' => 0,
+				'exclude' => 1,
 				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classmargingrid',
 				'config' => [
 						'type' => 'select',
@@ -677,7 +677,7 @@ $temporaryColumns = [
 
 		
 		'tx_start_classpanel' => [
-				'exclude' => 0,
+				'exclude' => 1,
 				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classpanel',
 				'config' => [
 						'type' => 'select',
@@ -703,7 +703,7 @@ $temporaryColumns = [
 				],
 		],
 		'tx_start_classshadow' => [
-				'exclude' => 0,
+				'exclude' => 1,
 				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classshadow',
 				'config' => [
 						'type' => 'select',
@@ -717,7 +717,7 @@ $temporaryColumns = [
 				],
 		],
 		'tx_start_classtext' => [
-				'exclude' => 0,
+				'exclude' => 1,
 				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classtext',
 				'config' => [
 						'type' => 'select',
