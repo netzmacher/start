@@ -13,6 +13,17 @@ What's new
 ==========
 
 
+Tab [Style] for content elements
+--------------------------------
+
+8.4.0
+
+Content elements git the tab [Style] for managing an individual style for the current 
+element. See
+
+* :ref:`Users > Best Practice > Styling <users_bestpractice_styling>`
+
+
 Backend Layouts – here: folder
 ------------------------------
 

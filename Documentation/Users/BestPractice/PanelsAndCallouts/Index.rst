@@ -16,11 +16,11 @@ You can control panels and callouts with so called defined CSS classes.
 You have only to pick up the panel class in the select box.
 
 
-.. figure:: 01_css_class_defined.jpg
+.. figure:: panel.jpg
 	:width: 600px
-	:alt: Panel CSS classes
+	:alt: Content element with the tab [Style]
 
-	Panel CSS classes
+	Content element with the tab [Style]
 
 
 .. figure:: 02_css_class_defined_01_theme_white.jpg

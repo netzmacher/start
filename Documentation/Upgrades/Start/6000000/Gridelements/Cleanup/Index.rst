@@ -49,7 +49,7 @@ List configured grid elements
 
 
 Remove configured grid elements
------------------------------
+-------------------------------
 
 .. code:: php
 
