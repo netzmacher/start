@@ -4,7 +4,8 @@ use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 use Netzmacher\Start\Backend\Extensionmanager;
 
 // #i0180, 180622, dwildt, 3+
-if( Extensionmanager::getProperty( 'tcaTtcontentDisabled' )){
+if( Extensionmanager::getProperty( 'tcaTtcontentDisabled' ) )
+{
 	return;
 }
 
@@ -82,6 +83,46 @@ $temporaryColumns = [
 						'default' => ''
 				]
 		],
+		'tx_start_csscolor' => [
+				'exclude' => 1,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_csscolor',
+				'description' => 'renderType=colorpicker',
+				'config' => [
+						'type' => 'input',
+						'renderType' => 'colorpicker',
+						'size' => 10,
+				],
+		],
+		'tx_start_csscolorbe' => [
+				'exclude' => 1,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_csscolorbe',
+				'description' => 'renderType=colorpicker',
+				'config' => [
+						'type' => 'input',
+						'renderType' => 'colorpicker',
+						'size' => 10,
+				],
+		],
+		'tx_start_csscolorhref' => [
+				'exclude' => 1,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_csscolorhref',
+				'description' => 'renderType=colorpicker',
+				'config' => [
+						'type' => 'input',
+						'renderType' => 'colorpicker',
+						'size' => 10,
+				],
+		],
+		'tx_start_csscolorhrefhover' => [
+				'exclude' => 1,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_csscolorhrefhover',
+				'description' => 'renderType=colorpicker',
+				'config' => [
+						'type' => 'input',
+						'renderType' => 'colorpicker',
+						'size' => 10,
+				],
+		],
 		'tx_start_additionalclass' => [
 				'exclude' => 0,
 				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclass',
@@ -96,14 +137,14 @@ $temporaryColumns = [
 				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined',
 				'config' => [
 						'type' => 'select',
-						  // #i0162, 180525, dwildt, 1+
+						// #i0162, 180525, dwildt, 1+
 						'enableMultiSelectFilterTextfield' => 1,
-							// #t1668, 171206, dwildt, 1+
+						// #t1668, 171206, dwildt, 1+
 						'renderType' => 'selectMultipleSideBySide',
 						'minitems' => 0,
 						'maxitems' => 99,
-						  // 180525, dwildt, 1+
-						'size' => '20',
+						// 180525, dwildt, 1+
+						'size' => '5',
 						'items' => [
 								'' => [
 										'0' => '',
@@ -134,7 +175,7 @@ $temporaryColumns = [
 										'1' => 'startEffectShake01',
 								),
 								'startEffectZoom01' => array(
-										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/6.2/tt_content.xlf:tx_start_additionalclassdefined.startEffectZoom01',
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_additionalclassdefined.startEffectZoom01',
 										'1' => 'startEffectZoom01',
 								),
 								'startDivFonts' => [
@@ -384,6 +425,332 @@ $temporaryColumns = [
 						],
 				],
 		],
+		'tx_start_classbackground' => [
+				'exclude' => 0,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classbackground',
+				'config' => [
+						'type' => 'select',
+						'renderType' => 'selectSingleBox',
+						'items' => [
+								'startBackgroundFixed' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classbackground.startBackgroundFixed',
+										'1' => 'startBackgroundFixed',
+								),
+								'startBackgroundScroll' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classbackground.startBackgroundScroll',
+										'1' => 'startBackgroundScroll',
+								),
+						],
+				],
+		],
+		'tx_start_classcontainer' => [
+				'exclude' => 0,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classcontainer',
+				'config' => [
+						'type' => 'select',
+						'renderType' => 'selectSingleBox',
+						'size' => '10',
+						'items' => [
+								'startContainer' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classcontainer.startContainer',
+										'1' => 'startContainer',
+								],
+								'startWidth0125' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classcontainer.startWidth0125',
+										'1' => 'startWidth0125',
+								],
+								'startWidth0250' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classcontainer.startWidth0250',
+										'1' => 'startWidth0250',
+								],
+								'startWidth0375' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classcontainer.startWidth0375',
+										'1' => 'startWidth0375',
+								],
+								'startWidth0500' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classcontainer.startWidth0500',
+										'1' => 'startWidth0500',
+								],
+								'startWidth0625' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classcontainer.startWidth0625',
+										'1' => 'startWidth0625',
+								],
+								'startWidth0750' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classcontainer.startWidth0750',
+										'1' => 'startWidth0750',
+								],
+								'startWidth0875' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classcontainer.startWidth0875',
+										'1' => 'startWidth0875',
+								],
+								'startWidth1000' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classcontainer.startWidth1000',
+										'1' => 'startWidth1000',
+								],
+								'startWidth1125' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classcontainer.startWidth1125',
+										'1' => 'startWidth1125',
+								],
+						],
+				],
+		],
+		'tx_start_classeffect' => [
+				'exclude' => 0,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classeffect',
+				'config' => [
+						'type' => 'select',
+						'renderType' => 'selectSingleBox',
+						'items' => [
+								'startEffectShake01' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classeffect.startEffectShake01',
+										'1' => 'startEffectShake01',
+								),
+								'startEffectZoom01' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classeffect.startEffectZoom01',
+										'1' => 'startEffectZoom01',
+								),
+						],
+				],
+		],
+		'tx_start_classform' => [
+				'exclude' => 0,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classform',
+				'config' => [
+						'type' => 'select',
+						'renderType' => 'selectSingleBox',
+						'size' => 10,
+						'items' => [
+								'startFormLegendWo' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classform.startFormLegendWo',
+										'1' => 'startFormLegendWo',
+								],
+								'startFormFieldsetWoAll' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classform.startFormFieldsetWoAll',
+										'1' => 'startFormFieldsetWoAll',
+								],
+								'startFormFieldsetWiBorderTop' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classform.startFormFieldsetWiBorderTop',
+										'1' => 'startFormFieldsetWiBorderTop',
+								],
+								'startFormFieldsetWiBorderRight' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classform.startFormFieldsetWiBorderRight',
+										'1' => 'startFormFieldsetWiBorderRight',
+								],
+								'startFormFieldsetWiBorderBottom' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classform.startFormFieldsetWiBorderBottom',
+										'1' => 'startFormFieldsetWiBorderBottom',
+								],
+								'startFormFieldsetWiBorderLeft' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classform.startFormFieldsetWiBorderLeft',
+										'1' => 'startFormFieldsetWiBorderLeft',
+								],
+								'startFormFieldsetWiPaddingTop' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classform.startFormFieldsetWiPaddingTop',
+										'1' => 'startFormFieldsetWiPaddingTop',
+								],
+								'startFormFieldsetWiPaddingRight' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classform.startFormFieldsetWiPaddingRight',
+										'1' => 'startFormFieldsetWiPaddingRight',
+								],
+								'startFormFieldsetWiPaddingBottom' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classform.startFormFieldsetWiPaddingBottom',
+										'1' => 'startFormFieldsetWiPaddingBottom',
+								],
+								'startFormFieldsetWiPaddingLeft' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classform.startFormFieldsetWiPaddingLeft',
+										'1' => 'startFormFieldsetWiPaddingLeft',
+								],
+						],
+				],
+		],
+		'tx_start_classimage' => [
+				'exclude' => 0,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classimage',
+				'config' => [
+						'type' => 'select',
+						'renderType' => 'selectSingleBox',
+						'items' => [
+								'startFigCaptionHideForSmallOnly' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classimage.startFigCaptionHideForSmallOnly',
+										'1' => 'startFigCaptionHideForSmallOnly',
+								],
+								'startImgCircle' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classimage.startImgCircle',
+										'1' => 'startImgCircle',
+								],
+								'startImgCircleReset' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classimage.startImgCircleReset',
+										'1' => 'startImgCircleReset',
+								],
+								'startImgWiShadow' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classimage.startImgWiShadow',
+										'1' => 'startImgWiShadow',
+								],
+								'startImgWiShadowReset' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classimage.startImgWiShadowReset',
+										'1' => 'startImgWiShadowReset',
+								],
+						],
+				],
+		],
+		
+		
+		'tx_start_classmargin' => [
+				'exclude' => 0,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classmargin',
+				'config' => [
+						'type' => 'select',
+						'renderType' => 'selectSingleBox',
+						'items' => [
+								'startWiMarginAuto' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classmargin.startWiMarginAuto',
+										'1' => 'startWiMarginAuto',
+								),
+								'startWiMarginDefault' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classmargin.startWiMarginDefault',
+										'1' => 'startWiMarginDefault',
+								],
+								'startWoMarginLeft' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classmargin.startWoMarginLeft',
+										'1' => 'startWoMarginLeft',
+								],
+								'startWoMargin' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classmargin.startWoMarginLeftRight',
+										'1' => 'startWoMarginLeftRight',
+								],
+								'startWoMarginRight' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classmargin.startWoMarginRight',
+										'1' => 'startWoMarginRight',
+								],
+								'startTopMinus1Em' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classmargin.startTopMinus1Em',
+										'1' => 'startTopMinus1Em',
+								],
+						],
+				],
+		],
+
+		
+		'tx_start_classmargingrid' => [
+				'exclude' => 0,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classmargingrid',
+				'config' => [
+						'type' => 'select',
+						'renderType' => 'selectSingleBox',
+						'size' => 8,
+						'items' => [
+								'startWiMarginLeftRight8percent' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classmargingrid.startWiMarginLeftRight08percent',
+										'1' => 'startWiMarginLeftRight08percent',
+								),
+								'startWiMarginLeft17percent' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classmargingrid.startWiMarginLeft17percent',
+										'1' => 'startWiMarginLeft17percent',
+								),
+								'startWiMarginLeftRight17percent' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classmargingrid.startWiMarginLeftRight17percent',
+										'1' => 'startWiMarginLeftRight17percent',
+								),
+								'startWiMarginLeftRight25percent' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classmargingrid.startWiMarginLeftRight25percent',
+										'1' => 'startWiMarginLeftRight25percent',
+								),
+								'startWiMarginLeft25percent' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classmargingrid.startWiMarginLeft25percent',
+										'1' => 'startWiMarginLeft25percent',
+								),
+								'startWiMarginLeftRight33percent' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classmargingrid.startWiMarginLeftRight33percent',
+										'1' => 'startWiMarginLeftRight33percent',
+								),
+								'startWiMarginRight25percent' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classmargingrid.startWiMarginRight25percent',
+										'1' => 'startWiMarginRight25percent',
+								),
+								'startWiMarginRight17percent' => array(
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classmargingrid.startWiMarginRight17percent',
+										'1' => 'startWiMarginRight17percent',
+								),
+						],
+				],
+		],
+
+		
+		'tx_start_classpanel' => [
+				'exclude' => 0,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classpanel',
+				'config' => [
+						'type' => 'select',
+						'renderType' => 'selectSingleBox',
+						'items' => [
+								'startPanel' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classpanel.startPanel',
+										'1' => 'panel',
+								],
+								'startPanelRadius' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classpanel.startPanelRadius',
+										'1' => 'panel radius',
+								],
+								'startPanelCallout' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classpanel.startPanelCallout',
+										'1' => 'panel callout',
+								],
+								'startPanelCalloutRadius' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classpanel.startPanelCalloutRadius',
+										'1' => 'panel callout radius',
+								],
+						],
+				],
+		],
+		'tx_start_classshadow' => [
+				'exclude' => 0,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classshadow',
+				'config' => [
+						'type' => 'select',
+						'renderType' => 'selectSingleBox',
+						'items' => [
+								'startShadow' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classshadow.startShadow',
+										'1' => 'startShadow',
+								],
+						],
+				],
+		],
+		'tx_start_classtext' => [
+				'exclude' => 0,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classtext',
+				'config' => [
+						'type' => 'select',
+						'renderType' => 'selectSingleBox',
+						'items' => [
+								'startTextAlignCenter' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classtext.startTextAlignCenter',
+										'1' => 'startTextAlignCenter',
+								],
+								'startTextAlignJustify' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classtext.startTextAlignJustify',
+										'1' => 'startTextAlignJustify',
+								],
+								'startTextAlignLeft' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classtext.startTextAlignLeft',
+										'1' => 'startTextAlignLeft',
+								],
+								'startTextAlignRight' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classtext.startTextAlignRight',
+										'1' => 'startTextAlignRight',
+								],
+								'startHyphensAuto' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classtext.startHyphensAuto',
+										'1' => 'startHyphensAuto',
+								],
+								'startHyphensNone' => [
+										'0' => 'LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_classtext.startHyphensNone',
+										'1' => 'startHyphensNone',
+								],
+						],
+				],
+		],
+
 ];
 
 ExtensionManagementUtility::addTCAcolumns(
@@ -405,11 +772,38 @@ ExtensionManagementUtility::addFieldsToPalette(
 
 ExtensionManagementUtility::addFieldsToPalette(
 				'tt_content'
-				, 'tx_start_palettecss'
+				, 'tx_start_palettecolor'
+				, 'tx_start_csscolorbe,tx_start_csscolor,tx_start_csscolorhref,tx_start_csscolorhrefhover,'
+				, ''
+);
+
+ExtensionManagementUtility::addFieldsToPalette(
+				'tt_content'
+				, 'tx_start_palettedeprecated'
+				, ''
+				. 'tx_start_additionalclassdefined,'
+				, ''
+);
+
+ExtensionManagementUtility::addFieldsToPalette(
+				'tt_content'
+				, 'tx_start_palettetext'
 				, ''
 				. 'tx_start_additionalclass,'
 				. '--linebreak--,'
-				. 'tx_start_additionalclassdefined'
+				. 'tx_start_classbackground,'
+				. 'tx_start_classcontainer,'
+				. 'tx_start_classeffect,'
+				. '--linebreak--,'
+				. 'tx_start_classform,'
+				. 'tx_start_classimage,'
+				. 'tx_start_classmargin,'
+				. '--linebreak--,'
+				. 'tx_start_classmargingrid,'
+				. 'tx_start_classpanel,'
+				. 'tx_start_classshadow,'
+				. '--linebreak--,'
+				. 'tx_start_classtext,'
 				, ''
 );
 
@@ -487,25 +881,13 @@ ExtensionManagementUtility::addTcaSelectItem(
 
 ExtensionManagementUtility::addToAllTCAtypes(
 				'tt_content'
-				, '--palette--;LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:tx_start_palettecss;tx_start_palettecss'
+				, '--div--;LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:div.style,'
+				. '  --palette--;LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:palette.deprecated;tx_start_palettedeprecated,'
+				. '  --palette--;LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:palette.color;tx_start_palettecolor,'
+				. '  --palette--;LLL:EXT:start/Configuration/TCA/Overrides/Default/tt_content.xlf:palette.css;tx_start_palettetext,'
 				, ''
 				, 'after:linkToTop'
 );
-
-// 180701, dwildt, -: imageheight and imagewidth doesn't respect 'c' (crop)
-//// Allow to setup imageheight with 'c' like 100c
-//unset($GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'imageheight' ][ 'config' ][ 'eval' ]);
-//unset($GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'imageheight' ][ 'config' ][ 'range' ]);
-//$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'imageheight' ][ 'config' ][ 'max' ] = '5';
-//$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'imageheight' ][ 'config' ][ 'size' ] = '5';
-//$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'imageheight' ][ 'config' ][ 'type' ] = 'input';
-//
-//  // Allow to setup imagewidth with 'c' like 100c
-//unset($GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'imagewidth' ][ 'config' ][ 'eval' ]);
-//unset($GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'imagewidth' ][ 'config' ][ 'range' ]);
-//$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'imagewidth' ][ 'config' ][ 'max' ] = '5';
-//$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'imagewidth' ][ 'config' ][ 'size' ] = '5';
-//$GLOBALS[ 'TCA' ][ 'tt_content' ][ 'columns' ][ 'imagewidth' ][ 'config' ][ 'type' ] = 'input';
 
 $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'ctrl' ][ 'typeicon_classes' ][ 'menu' ] = 'ext-start';
 $GLOBALS[ 'TCA' ][ 'tt_content' ][ 'ctrl' ][ 'typeicon_classes' ][ 'txStartBreadcrumbs' ] = 'ext-start-breadcrumbs';

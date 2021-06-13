@@ -25,6 +25,20 @@ CREATE TABLE tt_content (
 	menu_type varchar(30) NOT NULL default '0', 
   tx_start_additionalclass tinytext,
   tx_start_additionalclassdefined tinytext,
+  tx_start_classbackground tinytext,
+  tx_start_classcontainer tinytext,
+  tx_start_classeffect tinytext,
+  tx_start_classform tinytext,
+  tx_start_classimage tinytext,
+  tx_start_classmargin tinytext,
+  tx_start_classmargingrid tinytext,
+  tx_start_classpanel tinytext,
+  tx_start_classshadow tinytext,
+  tx_start_classtext tinytext,
+  tx_start_csscolor tinytext,
+  tx_start_csscolorbe tinytext,
+  tx_start_csscolorhref tinytext,
+  tx_start_csscolorhrefhover tinytext,
 );
 
 -- #i0185, 180719, dwildt

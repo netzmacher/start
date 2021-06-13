@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2019-12-15T10:03:57Z" product-name="start">
+  <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2021-06-13T10:03:57Z" product-name="start">
     <header/>
     <body>
 
@@ -37,6 +37,11 @@
         <target>Haupt-Menü (optimiert für das Framework Start TYPO3 Responsive!)</target>
       </trans-unit>
 
+      <trans-unit id="div.style">
+        <source>Style</source>
+        <target>Stil</target>
+      </trans-unit>
+			
       <trans-unit id="menu_type">
         <source>Menu</source>
         <target>Menü</target>
@@ -94,18 +99,43 @@
         <target>Miniaturbilder aus Verzeichnissen (foundation)</target>
       </trans-unit>
 
-			<trans-unit id="tx_start_palettecss">
-        <source>Additional CSS</source>
-        <target>Zusätzliches CSS</target>
+			<trans-unit id="palette.color">
+        <source>Colors</source>
+        <target>Farben</target>
+      </trans-unit>
+			<trans-unit id="palette.css">
+        <source>Style properties</source>
+        <target>Stil-Eigenschaften</target>
+      </trans-unit>
+			<trans-unit id="palette.deprecated">
+        <source>DEPRECATED: use properties below!</source>
+        <target>VERALTET: benutze die Einstellungen unten!</target>
       </trans-unit>
 
 			<trans-unit id="tx_start_additionalclass">
-        <source>CSS class</source>
-        <target>CSS-Klasse</target>
+        <source>Add an individual CSS class</source>
+        <target>Individuelle CSS-Klasse hinzufügen</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined">
-        <source>CSS class (defined)</source>
-        <target>CSS-Klasse (definiert)</target>
+        <source>CSS class (defined) [DEPRECATED use properties below!]</source>
+        <target>CSS-Klasse (definiert) [VERALTET: verwende die Eigenschaften unten!]</target>
+      </trans-unit>
+
+			<trans-unit id="tx_start_csscolor">
+        <source>Font</source>
+        <target>Schrift</target>
+      </trans-unit>
+			<trans-unit id="tx_start_csscolorbe">
+        <source>Background</source>
+        <target>Hintergrund</target>
+      </trans-unit>
+			<trans-unit id="tx_start_csscolorhref">
+        <source>Link</source>
+        <target>Link</target>
+      </trans-unit>
+			<trans-unit id="tx_start_csscolorhrefhover">
+        <source>Link mouse over</source>
+        <target>Link bei Maus-Kontakt</target>
       </trans-unit>
 			
       <trans-unit id="tx_start_additionalclassdefined.startDiv">
@@ -133,232 +163,503 @@
         <target>--- Start: Ränder --------------------------------------</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startBackgroundFixed">
-        <source>Background: fixed (startBackgroundFixed)</source>
-        <target>Hintergrund: fixiert (startBackgroundFixed)</target>
+        <source>Background: fixed [DEPRECATED use porperties below]</source>
+        <target>Hintergrund: fixiert [VERALTET benutze Einstellungen unten]</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startBackgroundScroll">
-        <source>Background: scroll (startBackgroundScroll)</source>
-        <target>Hintergrund: mitrollend (startBackgroundScroll)</target>
+        <source>Background: scroll [DEPRECATED use porperties below]</source>
+        <target>Hintergrund: mitrollend [VERALTET benutze Einstellungen unten]</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startBackgroundWhite">
-        <source>Background: white (startBackgroundWhite)</source>
-        <target>Hintergrund: weiß (startBackgroundWhite)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startContainer">
-        <source>Container (startContainer)</source>
-        <target>Container (startContainer)</target>
+        <source>Background: white [DEPRECATED use background color above]</source>
+        <target>Hintergrund: weiß [VERALTET benutze Einstellungen unten]</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startEffectShake01">
-        <source>Effects: shake (startEffectShake01)</source>
-        <target>Effekte: Schütteln (startEffectShake01)</target>
+        <source>Effects: shake [DEPRECATED use porperties below]</source>
+        <target>Effekte: Schütteln [VERALTET benutze Einstellungen unten]</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startEffectZoom01">
-        <source>Effects: zoom (startEffectZoom01)</source>
-        <target>Effekte: Vergrößern (startEffectZoom01)</target>
+        <source>Effects: zoom [DEPRECATED use porperties below]</source>
+        <target>Effekte: Vergrößern [VERALTET benutze Einstellungen unten]</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startFigCaptionHideForSmallOnly">
-        <source>Images: Caption hide for mobile (startFigCaptionHideForSmallOnly)</source>
-        <target>Bilder: Unterschrift für Smartphone verstecken (startFigCaptionHideForSmallOnly)</target>
+        <source>Images: Caption hide for mobile [DEPRECATED use property below]</source>
+        <target>Bilder: Unterschrift für Smartphone verstecken [VERALTET verwende Eigenschaft unten]</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startFormFieldsetWiBorderBottom">
-        <source>Form: border line below (startFormFieldsetWiBorderBottom)</source>
-        <target>Formular: Randlinie unten (startFormFieldsetWiBorderBottom)</target>
+        <source>Form: border line below [DEPRECATED use property below]</source>
+        <target>Formular: Randlinie unten [VERALTET verwende Eigenschaft unten]</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startFormFieldsetWiBorderLeft">
-        <source>Form: border line left (startFormFieldsetWiBorderLeft)</source>
-        <target>Formular: Randlinie links (startFormFieldsetWiBorderLeft)</target>
+        <source>Form: border line left [DEPRECATED use property below]</source>
+        <target>Formular: Randlinie links [VERALTET verwende Eigenschaft unten]</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startFormFieldsetWiBorderRight">
-        <source>Form: border line right (startFormFieldsetWiBorderRight)</source>
-        <target>Formular: Randlinie rechts (startFormFieldsetWiBorderRight)</target>
+        <source>Form: border line right [DEPRECATED use property below]</source>
+        <target>Formular: Randlinie rechts [VERALTET verwende Eigenschaft unten]</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startFormFieldsetWiBorderTop">
-        <source>Form: border line top (startFormFieldsetWiBorderTop)</source>
-        <target>Formular: Randlinie oben (startFormFieldsetWiBorderTop)</target>
+        <source>Form: border line top [DEPRECATED use property below]</source>
+        <target>Formular: Randlinie oben [VERALTET verwende Eigenschaft unten]</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startFormFieldsetWiPaddingBottom">
-        <source>Form: padding below (startFormFieldsetWiPaddingBottom)</source>
-        <target>Formular: Abstand unten (startFormFieldsetWiPaddingBottom)</target>
+        <source>Form: padding below [DEPRECATED use property below]</source>
+        <target>Formular: Abstand unten [VERALTET verwende Eigenschaft unten]</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startFormFieldsetWiPaddingLeft">
-        <source>Form: padding left (startFormFieldsetWiPaddingLeft)</source>
-        <target>Formular: Abstand links (startFormFieldsetWiPaddingLeft)</target>
+        <source>Form: padding left [DEPRECATED use property below]</source>
+        <target>Formular: Abstand links [VERALTET verwende Eigenschaft unten]</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startFormFieldsetWiPaddingRight">
-        <source>Form: padding right (startFormFieldsetWiPaddingRight)</source>
-        <target>Formular: Abstand rechts (startFormFieldsetWiPaddingRight)</target>
+        <source>Form: padding right [DEPRECATED use property below]</source>
+        <target>Formular: Abstand rechts [VERALTET verwende Eigenschaft unten]</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startFormFieldsetWiPaddingTop">
-        <source>Form: padding top (startFormFieldsetWiPaddingTop)</source>
-        <target>Formular: Abstand oben (startFormFieldsetWiPaddingTop)</target>
+        <source>Form: padding top [DEPRECATED use property below]</source>
+        <target>Formular: Abstand oben [VERALTET verwende Eigenschaft unten]</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startFormFieldsetWoAll">
-        <source>Form: without border, margin, padding (startFormFieldsetWoAll)</source>
-        <target>Formular: ohne Randlinie, Außen- und Innenabstand (startFormFieldsetWoAll)</target>
+        <source>Form: without border, margin, padding [DEPRECATED use property below]</source>
+        <target>Formular: ohne Randlinie, Außen- und Innenabstand [VERALTET verwende Eigenschaft unten]</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startFormLegendWo">
-        <source>Form: hide legend (startFormLegendWo)</source>
-        <target>Formular: Legende ausblenden (startFormLegendWo)</target>
+        <source>Form: hide legend [DEPRECATED use property below]</source>
+        <target>Formular: Legende ausblenden [VERALTET verwende Eigenschaft unten]</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startFontLightOnDark">
-        <source>Font: light on dark (startFontLightOnDark)</source>
-        <target>Schrift: hell auf dunkel (startFontLightOnDark)</target>
+        <source>Font: light on dark [DEPRECATED use porperties below]</source>
+        <target>Schrift: hell auf dunkel [VERALTET benutze Einstellungen unten]</target>
       </trans-unit>
       <trans-unit id="tx_start_additionalclassdefined.startHyphensAuto">
+        <source>Hyphenation: auto [DEPRECATED use property below]</source>
+        <target>Silbentrennung: automatisch [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startHyphensNone">
+        <source>Hyphenation: none [DEPRECATED use property below]</source>
+        <target>Silbentrennung: keine [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startImgCircle">
+        <source>Images: circle [DEPRECATED use property below]</source>
+        <target>Bilder: Kreis [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startImgCircleReset">
+        <source>Images: reset circle [DEPRECATED use property below]</source>
+        <target>Bilder: Kreis zurücksetzen [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startImgWiShadow">
+        <source>Images: shadow [DEPRECATED use property below]</source>
+        <target>Bilder: Schatten [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startImgWiShadowReset">
+        <source>Images: reset shadow [DEPRECATED use property below]</source>
+        <target>Bilder: Schatten zurücksetzen [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startPanel">
+        <source>Panel [DEPRECATED use property below]</source>
+        <target>Tafel [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startPanelCallout">
+        <source>Panel Callout [DEPRECATED use property below]</source>
+        <target>Tafel Callout [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startPanelCalloutRadius">
+        <source>Panel Callout Radius [DEPRECATED use property below]</source>
+        <target>Tafel Callout abgerundet [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startPanelRadius">
+        <source>Panel Radius [DEPRECATED use property below]</source>
+        <target>Tafel abgerundet [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>			
+      <trans-unit id="tx_start_additionalclassdefined.startShadow">
+        <source>Shadow [DEPRECATED use property below]</source>
+        <target>Schatten [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startTextAlignCenter">
+        <source>Text-align: center [DEPRECATED use property below]</source>
+        <target>Text-Ausrichtung: zentriert [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startTextAlignJustify">
+        <source>Text-align: justifiy [DEPRECATED use property below]</source>
+        <target>Text-Ausrichtung: Block [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startTextAlignLeft">
+        <source>Text-align: left [DEPRECATED use property below]</source>
+        <target>Text-Ausrichtung: linksbündig [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startTextAlignRight">
+        <source>Text-align: right [DEPRECATED use property below]</source>
+        <target>Text-Ausrichtung: rechtsbündig [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startContainer">
+        <source>Container [DEPRECATED use  property below]</source>
+        <target>Container [VERALTET benutze Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWidth0125">
+        <source>Width: 12.5rem [DEPRECATED use  property below]</source>
+        <target>Breite: 12.5rem [VERALTET benutze Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWidth0250">
+        <source>Width: 25.0rem [DEPRECATED use  property below]</source>
+        <target>Breite: 25.0rem [VERALTET benutze Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWidth0375">
+        <source>Width: 37.5rem [DEPRECATED use  property below]</source>
+        <target>Breite: 37.5rem [VERALTET benutze Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWidth0500">
+        <source>Width: 50.0rem [DEPRECATED use  property below]</source>
+        <target>Breite: 50.0rem [VERALTET benutze Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWidth0625">
+        <source>Width: 62.5rem [DEPRECATED use  property below]</source>
+        <target>Breite: 62.5rem [VERALTET benutze Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWidth0750">
+        <source>Width: 75.0rem [DEPRECATED use  property below]</source>
+        <target>Breite: 75.0rem [VERALTET benutze Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWidth0875">
+        <source>Width: 87.5rem [DEPRECATED use  property below]</source>
+        <target>Breite: 87.5rem [VERALTET benutze Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWidth1000">
+        <source>Width: 100.0rem [DEPRECATED use  property below]</source>
+        <target>Breite: 100.0rem [VERALTET benutze Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWidth1125">
+        <source>Width: 112.5rem [DEPRECATED use  property below]</source>
+        <target>Breite: 112.5rem [VERALTET benutze Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWiMarginAuto">
+        <source>Margin: auto/centered [DEPRECATED use property below]</source>
+        <target>Ränder: automatisch/zentriert [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWiMarginDefault">
+        <source>Margin: default [DEPRECATED use property below]</source>
+        <target>Ränder: Standard [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWiMarginLeft17percent">
+        <source>Margin: 2 | 10 – left | content [DEPRECATED use property below]</source>
+        <target>Ränder: 2 | 10 – links | Inhalt [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWiMarginLeftRight08percent">
+        <source>Margin: 1 | 10 | 1 – left | content | right [DEPRECATED use property below]</source>
+        <target>Ränder: 1 | 10 | 1 – links | Inhalt | rechts [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWiMarginLeftRight17percent">
+        <source>Margin: 2 | 8 | 2 – left | content | right [DEPRECATED use property below]</source>
+        <target>Ränder: 2 | 8 | 2 – links | Inhalt | rechts [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWiMarginLeftRight25percent">
+        <source>Margin: 3 | 6 | 3 – left | content | right [DEPRECATED use property below]</source>
+        <target>Ränder: 3 | 6 | 3 – links | Inhalt | rechts [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWiMarginLeft25percent">
+        <source>Margin: 3 | 9 – left | content [DEPRECATED use property below]</source>
+        <target>Ränder: 3 | 9 – links | Inhalt [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWiMarginLeftRight33percent">
+        <source>Margin: 4 | 4 | 4 – left | content | right [DEPRECATED use property below]</source>
+        <target>Ränder: 4 | 4 | 4 – links | Inhalt | rechts [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWiMarginRight25percent">
+        <source>Margin: 9 | 3 – content | right [DEPRECATED use property below]</source>
+        <target>Ränder: 9 | 3 – Inhalt | rechts [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWiMarginRight17percent">
+        <source>Margin: 10 | 2 – content | right [DEPRECATED use property below]</source>
+        <target>Ränder: 10 | 2 – Inhalt | rechts [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWoMarginBottom">
+        <source>Margin: without bottom [DEPRECATED use property below]</source>
+        <target>Ränder: ohne unten [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWoMarginLeft">
+        <source>Margin: without left [DEPRECATED use property below]</source>
+        <target>Ränder: ohne links [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWoMarginLeftRight">
+        <source>Margin: without left and right [DEPRECATED use property below]</source>
+        <target>Ränder: ohne links und rechts [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startWoMarginRight">
+        <source>Margin: without right [DEPRECATED use property below]</source>
+        <target>Ränder: ohne rechts [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+      <trans-unit id="tx_start_additionalclassdefined.startTopMinus1Em">
+        <source>Margin: Top -1em [DEPRECATED use property below]</source>
+        <target>Ränder: Oben -1em [VERALTET verwende Eigenschaft unten]</target>
+      </trans-unit>
+
+      <trans-unit id="tx_start_classbackground">
+        <source>Background</source>
+        <target>Hintergrund</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classbackground.startBackgroundFixed">
+        <source>Fixed</source>
+        <target>Fixiert</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classbackground.startBackgroundScroll">
+        <source>Scrolling (default)</source>
+        <target>Rollend (Standard)</target>
+      </trans-unit>
+
+			<trans-unit id="tx_start_classcontainer">
+        <source>Container and Width</source>
+        <target>Container und Breite</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classcontainer.startContainer">
+        <source>Container</source>
+        <target>Container</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classcontainer.startWidth0125">
+        <source>Width: 12.5rem</source>
+        <target>Breite: 12.5rem</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classcontainer.startWidth0250">
+        <source>Width: 25.0rem</source>
+        <target>Breite: 25.0rem</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classcontainer.startWidth0375">
+        <source>Width: 37.5rem</source>
+        <target>Breite: 37.5rem</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classcontainer.startWidth0500">
+        <source>Width: 50.0rem</source>
+        <target>Breite: 50.0rem</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classcontainer.startWidth0625">
+        <source>Width: 62.5rem</source>
+        <target>Breite: 62.5rem</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classcontainer.startWidth0750">
+        <source>Width: 75.0rem</source>
+        <target>Breite: 75.0rem</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classcontainer.startWidth0875">
+        <source>Width: 87.5rem</source>
+        <target>Breite: 87.5rem</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classcontainer.startWidth1000">
+        <source>Width: 100.0rem</source>
+        <target>Breite: 100.0rem</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classcontainer.startWidth1125">
+        <source>Width: 112.5rem</source>
+        <target>Breite: 112.5rem</target>
+      </trans-unit>
+
+      <trans-unit id="tx_start_classeffect">
+        <source>Effect</source>
+        <target>Effekt</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classeffect.startEffectShake01">
+        <source>Shake</source>
+        <target>Schütteln</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classeffect.startEffectZoom01">
+        <source>Zoom in in case of a mouse over</source>
+        <target>Vergrößern bei Maus-Kontakt</target>
+      </trans-unit>
+
+			<trans-unit id="tx_start_classform">
+        <source>Form</source>
+        <target>Formulare</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classform.startFormFieldsetWiBorderBottom">
+        <source>Border line below</source>
+        <target>Randlinie unten</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classform.startFormFieldsetWiBorderLeft">
+        <source>Border line left</source>
+        <target>Randlinie links</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classform.startFormFieldsetWiBorderRight">
+        <source>Border line right</source>
+        <target>Randlinie rechts</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classform.startFormFieldsetWiBorderTop">
+        <source>Border line top</source>
+        <target>Randlinie oben</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classform.startFormFieldsetWiPaddingBottom">
+        <source>Padding below</source>
+        <target>Abstand unten</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classform.startFormFieldsetWiPaddingLeft">
+        <source>Padding left</source>
+        <target>Abstand links</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classform.startFormFieldsetWiPaddingRight">
+        <source>Padding right</source>
+        <target>Abstand rechts</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classform.startFormFieldsetWiPaddingTop">
+        <source>Padding top</source>
+        <target>Abstand oben</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classform.startFormFieldsetWoAll">
+        <source>Remove borders, margins and paddings</source>
+        <target>Entferne Randlinien, Außen- und Innenabstände</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classform.startFormLegendWo">
+        <source>Hide legend</source>
+        <target>Legende ausblenden</target>
+      </trans-unit>
+
+
+			<trans-unit id="tx_start_classimage">
+        <source>Images</source>
+        <target>Bilder</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classimage.startFigCaptionHideForSmallOnly">
+        <source>Caption hide for mobile</source>
+        <target>Bildunterschrift für Smartphone verstecken</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classimage.startImgCircle">
+        <source>Circle</source>
+        <target>Kreis</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classimage.startImgCircleReset">
+        <source>Circle: reset</source>
+        <target>Kreis: zurücksetzen</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classimage.startImgWiShadow">
+        <source>Shadow</source>
+        <target>Schatten</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classimage.startImgWiShadowReset">
+        <source>Shadow: reset</source>
+        <target>Schatten: zurücksetzen</target>
+      </trans-unit>
+
+			<trans-unit id="tx_start_classmargin">
+        <source>Margin</source>
+        <target>Ränder</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classmargin.startWiMarginAuto">
+        <source>auto/centered</source>
+        <target>automatisch/zentriert</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classmargin.startWiMarginDefault">
+        <source>default</source>
+        <target>Standard</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classmargin.startWoMarginBottom">
+        <source>without bottom</source>
+        <target>ohne unten</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classmargin.startWoMarginLeft">
+        <source>without left</source>
+        <target>ohne links</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classmargin.startWoMarginLeftRight">
+        <source>without left and right</source>
+        <target>ohne links und rechts</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classmargin.startWoMarginRight">
+        <source>without right</source>
+        <target>ohne rechts</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classmargin.startTopMinus1Em">
+        <source>Top -1em</source>
+        <target>Oben -1em</target>
+      </trans-unit>
+
+			<trans-unit id="tx_start_classmargingrid">
+        <source>Margin (Grid)</source>
+        <target>Ränder (Gerüst)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classmargingrid.startWiMarginLeft17percent">
+        <source>2 | 10 – left | content</source>
+        <target>2 | 10 – links | Inhalt</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classmargingrid.startWiMarginLeftRight08percent">
+        <source>1 | 10 | 1 – left | content | right</source>
+        <target>1 | 10 | 1 – links | Inhalt | rechts</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classmargingrid.startWiMarginLeftRight17percent">
+        <source>2 | 8 | 2 – left | content | right</source>
+        <target>2 | 8 | 2 – links | Inhalt | rechts</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classmargingrid.startWiMarginLeftRight25percent">
+        <source>3 | 6 | 3 – left | content | right</source>
+        <target>3 | 6 | 3 – links | Inhalt | rechts</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classmargingrid.startWiMarginLeft25percent">
+        <source>3 | 9 – left | content</source>
+        <target>3 | 9 – links | Inhalt</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classmargingrid.startWiMarginLeftRight33percent">
+        <source>4 | 4 | 4 – left | content | right</source>
+        <target>4 | 4 | 4 – links | Inhalt | rechts</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classmargingrid.startWiMarginRight25percent">
+        <source>9 | 3 – content | right</source>
+        <target>9 | 3 – Inhalt | rechts</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classmargingrid.startWiMarginRight17percent">
+        <source>10 | 2 – content | right</source>
+        <target>10 | 2 – Inhalt | rechts</target>
+      </trans-unit>
+
+			<trans-unit id="tx_start_classpanel">
+        <source>Panel</source>
+        <target>Tafel (Panel)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classpanel.startPanel">
+        <source>Panel</source>
+        <target>Tafel</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classpanel.startPanelCallout">
+        <source>Panel Callout</source>
+        <target>Tafel Ausruf</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classpanel.startPanelCalloutRadius">
+        <source>Panel Callout Radius</source>
+        <target>Tafel Ausruf – Ecken abgerundet</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classpanel.startPanelRadius">
+        <source>Panel Radius</source>
+        <target>Tafel – Ecken abgerundet</target>
+      </trans-unit>			
+
+      <trans-unit id="tx_start_classshadow">
+        <source>Shadow</source>
+        <target>Schatten</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classshadow.startShadow">
+        <source>Shadow</source>
+        <target>Schatten</target>
+      </trans-unit>
+
+      <trans-unit id="tx_start_classtext">
+        <source>Text</source>
+        <target>Text</target>
+      </trans-unit>
+      <trans-unit id="tx_start_classtext.startHyphensAuto">
         <source>Hyphenation: auto</source>
         <target>Silbentrennung: automatisch</target>
       </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startHyphensNone">
+      <trans-unit id="tx_start_classtext.startHyphensNone">
         <source>Hyphenation: none</source>
         <target>Silbentrennung: keine</target>
       </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startImgCircle">
-        <source>Images: circle (startImgCircle)</source>
-        <target>Bilder: Kreis (startImgCircle)</target>
+      <trans-unit id="tx_start_classtext.startTextAlignCenter">
+        <source>Align: center</source>
+        <target>Ausrichtung: zentriert</target>
       </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startImgCircleReset">
-        <source>Images: reset circle (startImgCircleReset)</source>
-        <target>Bilder: Kreis zurücksetzen (startImgCircleReset)</target>
+      <trans-unit id="tx_start_classtext.startTextAlignJustify">
+        <source>Align: justifiy</source>
+        <target>Ausrichtung: Block</target>
       </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startImgWiShadow">
-        <source>Images: shadow (startImgWiShadow)</source>
-        <target>Bilder: Schatten (startImgWiShadow)</target>
+      <trans-unit id="tx_start_classtext.startTextAlignLeft">
+        <source>Align: left</source>
+        <target>Ausrichtung: linksbündig</target>
       </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startImgWiShadowReset">
-        <source>Images: reset shadow (startImgWiShadowReset)</source>
-        <target>Bilder: Schatten zurücksetzen (startImgWiShadowReset)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startPanel">
-        <source>Panel (panel)</source>
-        <target>Kasten (panel)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startPanelCallout">
-        <source>Panel Callout (panel callout)</source>
-        <target>Kasten Callout (panel callout)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startPanelCalloutRadius">
-        <source>Panel Callout Radius (panel callout radius)</source>
-        <target>Kasten Callout abgerundet (panel callout radius)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startPanelRadius">
-        <source>Panel Radius (panel radius)</source>
-        <target>Kasten abgerundet (panel radius)</target>
-      </trans-unit>			
-      <trans-unit id="tx_start_additionalclassdefined.startShadow">
-        <source>Shadow (startShadow)</source>
-        <target>Schatten (startShadow)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startTextAlignCenter">
-        <source>Text-align: center (startTextAlignCenter)</source>
-        <target>Text-Ausrichtung: zentriert (startTextAlignCenter)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startTextAlignJustify">
-        <source>Text-align: justifiy (startTextAlignJustify)</source>
-        <target>Text-Ausrichtung: Block (startTextAlignJustify)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startTextAlignLeft">
-        <source>Text-align: left (startTextAlignLeft)</source>
-        <target>Text-Ausrichtung: linksbündig (startTextAlignLeft)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startTextAlignRight">
-        <source>Text-align: right (startTextAlignRight)</source>
-        <target>Text-Ausrichtung: rechtsbündig (startTextAlignRight)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startWidth0125">
-        <source>Width: 12.5rem (startWidth0125)</source>
-        <target>Breite: 12.5rem (startWidth0125)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startWidth0250">
-        <source>Width: 25.0rem (startWidth0250)</source>
-        <target>Breite: 25.0rem (startWidth0250)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startWidth0375">
-        <source>Width: 37.5rem (startWidth0375)</source>
-        <target>Breite: 37.5rem (startWidth0375)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startWidth0500">
-        <source>Width: 50.0rem (startWidth0500)</source>
-        <target>Breite: 50.0rem (startWidth0500)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startWidth0625">
-        <source>Width: 62.5rem (startWidth0625)</source>
-        <target>Breite: 62.5rem (startWidth0625)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startWidth0750">
-        <source>Width: 75.0rem (startWidth0750)</source>
-        <target>Breite: 75.0rem (startWidth0750)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startWidth0875">
-        <source>Width: 87.5rem (startWidth0875)</source>
-        <target>Breite: 87.5rem (startWidth0875)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startWidth1000">
-        <source>Width: 100.0rem (startWidth1000)</source>
-        <target>Breite: 100.0rem (startWidth1000)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startWidth1125">
-        <source>Width: 112.5rem (startWidth1125)</source>
-        <target>Breite: 112.5rem (startWidth1125)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startWiMarginAuto">
-        <source>Margin: auto/centered (startWiMarginAuto)</source>
-        <target>Ränder: automatisch/zentriert (startWiMarginAuto)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startWiMarginDefault">
-        <source>Margin: default (startWiMarginDefault)</source>
-        <target>Ränder: Standard (startWiMarginDefault)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startWiMarginLeft17percent">
-        <source>Margin: 2 | 10 – left | content (startWiMarginLeft17percent)</source>
-        <target>Ränder: 2 | 10 – links | Inhalt (startWiMarginLeft17percent)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startWiMarginLeftRight08percent">
-        <source>Margin: 1 | 10 | 1 – left | content | right (startWiMarginLeftRight08percent)</source>
-        <target>Ränder: 1 | 10 | 1 – links | Inhalt | rechts (startWiMarginLeftRight08percent)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startWiMarginLeftRight17percent">
-        <source>Margin: 2 | 8 | 2 – left | content | right (startWiMarginLeftRight17percent)</source>
-        <target>Ränder: 2 | 8 | 2 – links | Inhalt | rechts (startWiMarginLeftRight17percent)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startWiMarginLeftRight25percent">
-        <source>Margin: 3 | 6 | 3 – left | content | right (startWiMarginLeftRight25percent)</source>
-        <target>Ränder: 3 | 6 | 3 – links | Inhalt | rechts (startWiMarginLeftRight25percent)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startWiMarginLeft25percent">
-        <source>Margin: 3 | 9 – left | content (startWiMarginLeft25percent)</source>
-        <target>Ränder: 3 | 9 – links | Inhalt (startWiMarginLeft25percent)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startWiMarginLeftRight33percent">
-        <source>Margin: 4 | 4 | 4 – left | content | right (startWiMarginLeftRight33percent)</source>
-        <target>Ränder: 4 | 4 | 4 – links | Inhalt | rechts (startWiMarginLeftRight33percent)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startWiMarginRight25percent">
-        <source>Margin: 9 | 3 – content | right (startWiMarginRight25percent)</source>
-        <target>Ränder: 9 | 3 – Inhalt | rechts (startWiMarginRight25percent)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startWiMarginRight17percent">
-        <source>Margin: 10 | 2 – content | right (startWiMarginRight17percent)</source>
-        <target>Ränder: 10 | 2 – Inhalt | rechts (startWiMarginRight17percent)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startWoMarginBottom">
-        <source>Margin: without bottom (startWoMarginBottom)</source>
-        <target>Ränder: ohne unten (startWoMarginBottom)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startWoMarginLeft">
-        <source>Margin: without left (startWoMarginLeft)</source>
-        <target>Ränder: ohne links (startWoMarginLeft)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startWoMarginLeftRight">
-        <source>Margin: without left and right (startWoMarginLeftRight)</source>
-        <target>Ränder: ohne links und rechts (startWoMarginLeftRight)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startWoMarginRight">
-        <source>Margin: without right (startWoMarginRight)</source>
-        <target>Ränder: ohne rechts (startWoMarginRight)</target>
-      </trans-unit>
-      <trans-unit id="tx_start_additionalclassdefined.startTopMinus1Em">
-        <source>Margin: Top -1em (startWoMarginTopMinus1Em)</source>
-        <target>Ränder: Oben -1em (startWoMarginTopMinus1Em)</target>
+      <trans-unit id="tx_start_classtext.startTextAlignRight">
+        <source>Align: right</source>
+        <target>Ausrichtung: rechtsbündig</target>
       </trans-unit>
 			
     </body>

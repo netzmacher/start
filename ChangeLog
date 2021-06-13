@@ -3,10 +3,26 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+8.3.5
+  21-06-12
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #t6152: [FEATURE] Improve tx_start_additionalclassdefined
+						* Own div/tab [style]
+						* Palette for each "categorie"
+						* Palette with color for CSS class color and background-color
+						Affected files:
+						* Configuration
+							* TCA/Overrides/Default
+								* tt_content.xlf
+								* tt_content/_default.php
+						* ext_tables.sql
+						:ref:
+						EXT:t3foundation #t6153
+
 8.3.4
   21-06-08
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
-	* #t1232: [TASK] Clean up code: remove FileContentObject
+	* #v1232: [TASK] Clean up code: remove FileContentObject
 						Romved file:
 						* Classes/Frontend/ContentObject/FileContentObject.php
 
