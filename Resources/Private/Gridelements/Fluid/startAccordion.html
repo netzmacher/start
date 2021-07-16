@@ -3,7 +3,7 @@
 		<dd class="accordion-navigation">
 			<a href="#c{element.uid}-accordion-{element.uid}">{element.header}</a>
 			<div id="c{element.uid}-accordion-{element.uid}" class="content">
-				<f:cObject typoscriptObjectPath="tt_content" data="{element}" />
+				<f:cObject typoscriptObjectPath="tt_content.{element.CType}" data="{element}"  table="tt_content"/>
 			</div>
 		</dd>
 	</f:for>

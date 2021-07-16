@@ -3,6 +3,23 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+8.4.1
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #t6202: [FEATURE] Gridelement: Accordion, Tab with support for all content elements
+						Affected files:
+						* Resources/Private/Gridelements/Fluid
+							* orbit.html                                                                                                                                                                       
+							* startAccordion.html                                                                                                                                                              
+							* startTab.html                    
+	* #i0067: [TASK] Unique uid in class of images
+						* Resources/Private
+							* Partials/Responsiveimage/Media/Rendering/Image
+								* 087.html                                                                                                                                             
+								* 104.html                                                                                                                                             
+							* Templates/FluidStyledContent/Foundation/Partials/Media/Rendering/Image
+								* 087.html                                                                                                                                             
+								* 104.html                                                                                                                                             
+
 8.4.0
   21-06-12
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de

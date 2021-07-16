@@ -4,23 +4,22 @@
       <f:alias map="{item: slide.item.el}">
         <f:if condition="{item.disable.vDEF} < 1" >
           <li>
-          <f:image src="uploads/media/{item.image.vDEF}" alt="" title="" />
+						<f:image src="uploads/media/{item.image.vDEF}" alt="" title="" />
+						<div class="orbit-caption">
+							<f:if condition="{item.title.vDEF}">
+								<h2>{item.title.vDEF}</h2>
+							</f:if>
 
-          <div class="orbit-caption">
-            <f:if condition="{item.title.vDEF}">
-              <h2>{item.title.vDEF}</h2>
-            </f:if>
-
-            <f:if condition="{item.text.vDEF}">
-              <f:format.html>{item.text.vDEF}</f:format.html>
-            </f:if>
-            <!--
-            <f:if condition="{i.total} > 1">
-                <span class="orbit-prev"><img src="/fileadmin/_template/img/orbit-prev.png" alt="" /></span>
-                <span class="orbit-next"><img src="/fileadmin/_template/img/orbit-next.png" alt="" /></span>
-            </f:if>
-            -->
-          </div>
+							<f:if condition="{item.text.vDEF}">
+								<f:format.html>{item.text.vDEF}</f:format.html>
+							</f:if>
+							<!--
+							<f:if condition="{i.total} > 1">
+									<span class="orbit-prev"><img src="/fileadmin/_template/img/orbit-prev.png" alt="" /></span>
+									<span class="orbit-next"><img src="/fileadmin/_template/img/orbit-next.png" alt="" /></span>
+							</f:if>
+							-->
+						</div>
           </li>
         </f:if>
       </f:alias>

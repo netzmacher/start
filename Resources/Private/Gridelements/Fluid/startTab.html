@@ -6,7 +6,7 @@
 <div class="tabs-content">
 	<f:for each="{data.tx_gridelements_view_children}" as="element">
 		<div class="content" id="tabs-{element.uid}">
-			<f:cObject typoscriptObjectPath="tt_content" data="{element}" />
+			<f:cObject typoscriptObjectPath="tt_content.{element.CType}" data="{element}"  table="tt_content"/>
 		</div>
 	</f:for>
 </div>
