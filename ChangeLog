@@ -3,6 +3,12 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+8.4.2
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #t6210: [BUGFIX] TYPO3 8.7: Displays image manipulation for default, tablet and smartphone
+						Affected file:
+						* Configuration/TSconfig/Page/TCEFORM.php
+
 8.4.1
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
 	* #t6202: [FEATURE] Gridelement: Accordion, Tab with support for all content elements
