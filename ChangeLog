@@ -3,6 +3,12 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+8.4.4
+  21-08-20
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #i0319: [TASK] Improvment locallang: 
+						* Please move the template ... to ... > Please replace the template ... with ...
+
 8.4.3
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
 	* #v1398: [BUGFIX] TYPO3 10.4: Remove dependency on EXT:dashboard

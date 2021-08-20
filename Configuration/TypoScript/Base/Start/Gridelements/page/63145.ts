@@ -7,8 +7,8 @@ page {
 		value (
 			<div style="background:red;color:white;font-weight:bold;padding:1em;text-align:center;">
 				You are using a deprecated TypoScript Template<br />
-				Please move the template "Start [DEPRECATED!] +Gridelements"<br />
-				to "Start [20.4.1] Gridelements" depending on your responsive framework.<br />
+				Please replace the template "Start [DEPRECATED!] +Gridelements"<br />
+				with "Start [20.4.1] Gridelements" depending on your responsive framework.<br />
 				<br />
 				This is a prompt by the EXT:start. Sorry for the trouble.
 			</div>

@@ -60,7 +60,7 @@ class ContentUserfunc
 		$content = ''
 						. '<div style="background:red;color:white;font-weight:bold;padding:1em;text-align:center;">'
 						. '  You are using a TypoScript Template for TYPO3 8.7 but your TYPO3 version is greater.<br />'
-						. '  Please move the template "' . $conf[ 'currentTS' ] . '" to "' . $conf[ 'propperTS' ] . '"<br />'
+						. '  Please replace the template "' . $conf[ 'currentTS' ] . '" with "' . $conf[ 'propperTS' ] . '"<br />'
 						. '  <br />'
 						. '  This is a prompt by the EXT:start. Sorry for the trouble.<br />'
 						. ' ' . __METHOD__ . '#' . __LINE__
@@ -86,7 +86,7 @@ class ContentUserfunc
 		$content = ''
 						. '<div style="background:red;color:white;font-weight:bold;padding:1em;text-align:center;">'
 						. '  You are using a TypoScript Template for TYPO3 10.4 but your TYPO3 version is smaller.<br />'
-						. '  Please move the template "' . $conf[ 'currentTS' ] . '" to "' . $conf[ 'propperTS' ] . '"<br />'
+						. '  Please replace the template "' . $conf[ 'currentTS' ] . '" with "' . $conf[ 'propperTS' ] . '"<br />'
 						. '  <br />'
 						. '  This is a prompt by the EXT:start. Sorry for the trouble.<br />'
 						. ' ' . __METHOD__ . '#' . __LINE__
