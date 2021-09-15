@@ -3,10 +3,20 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+8.4.5
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #i0069: [BUGFIX] #t5780 recovered
+						* Bootstrape temmplate: TypoScript object path "start.lib.bootstrap.divAdditionalClass.begin" does not exist
+						* BE AWARE: divAdditionalClass is deprecated.
+						Affected file:
+						* Configuration/TypoScript/Bootstrap/Base/setup.txt                                                                                                                                                                     
+						Moved file:
+						* Configuration/TypoScript/Bootstrap/Base/start/XXX_setup.ts -> _setup.ts
+
 8.4.4
   21-08-20
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
-	* #i0319: [TASK] Improvment locallang: 
+	* #i0068: [TASK] Improvment locallang: 
 						* Please move the template ... to ... > Please replace the template ... with ...
 
 8.4.3
