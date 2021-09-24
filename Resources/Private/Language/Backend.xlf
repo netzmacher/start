@@ -73,6 +73,10 @@
         <source>Start Bronze 2: | MAIN | right |</source>
         <target>Start Bronze 2: | INHALT | rechts |</target>
       </trans-unit>
+      <trans-unit id="backend_layout.bronze_02_gcms">
+        <source>Start Bronze 2 GCMS: | MAIN | right 2 rows, second row 2 columns |</source>
+        <target>Start Bronze 2 GCMS: | INHALT | rechts 2 Zeilen, 2. Zeile 2 Spalten |</target>
+      </trans-unit>
       <trans-unit id="backend_layout.bronze_03">
         <source>Start Bronze 3: | left | MAIN |</source>
         <target>Start Bronze 3: | links | INHALT |</target>
@@ -173,6 +177,18 @@
       <trans-unit id="backend_layout.column.content.right">
         <source>Right margin</source>
         <target>Rechte Spalte</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.column.content.rightbottomleft">
+        <source>Right margin bottom left</source>
+        <target>Rechte Spalte unten links</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.column.content.rightbottomright">
+        <source>Right margin bottonm right</source>
+        <target>Rechte Spalte unten rechts</target>
+      </trans-unit>
+      <trans-unit id="backend_layout.column.content.righttop">
+        <source>Right margin top</source>
+        <target>Rechte Spalte oben</target>
       </trans-unit>
       <trans-unit id="backend_layout.column.content.top">
         <source>Above the content</source>

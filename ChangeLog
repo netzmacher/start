@@ -3,10 +3,23 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+8.4.5
+  21-09-24
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v1579: [TASK] Integration backend layout 'Start Bronze 2 GCMS'
+						Affected files:
+						* Classes/Provider/BackendLayoutDataProvider.php
+						* Resources/Private/Language
+							* Backend.xlf
+							* de.Backend.xlf
+						* ext_conf_template.txt
+						New file:
+						* Resources/Public/Images/BackendLayouts/start_bronze_02_gcms.gif
+
 8.4.4
   21-08-20
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
-	* #i0319: [TASK] Improvment locallang: 
+	* #i0319: [TASK] Improvement locallang: 
 						* Please move the template ... to ... > Please replace the template ... with ...
 
 8.4.3

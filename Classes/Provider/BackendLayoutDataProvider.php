@@ -41,11 +41,10 @@ use Netzmacher\Start\Backend\Extensionmanager;
  * @package    TYPO3
  * @subpackage  start
  *
- * @version 8.0.4
+ * @version 8.4.5
  * @since 0.0.1
  */
-class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout\DataProviderInterface
-{
+class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout\DataProviderInterface {
 
 	/**
 	 * Return backendLayoutsDisabled
@@ -56,9 +55,8 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
 	 * @since 4.1.7
 	 * @internal #i0179
 	 */
-	static private function _backendLayoutsAreDisabled()
-	{
-		return Extensionmanager::getProperty( 'backendLayoutsDisabled' );
+	static private function _backendLayoutsAreDisabled() {
+		return Extensionmanager::getProperty('backendLayoutsDisabled');
 	}
 
 	/**
@@ -68,55 +66,55 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
 	 * @version 5.2.0
 	 * @since 5.2.0
 	 */
-	private function _initBackendLayouts()
-	{
+	private function _initBackendLayouts() {
 		$backendLayout = null;
 
-		if( Extensionmanager::getProperty( 'backendLayoutsEnableDefault' ) )
-		{
-			$backendLayout = ( array ) $backendLayout + $this->backendLayoutsDefault;
-		}
-		$backendLayoutsEnableStartBlue = Extensionmanager::getProperty( 'backendLayoutsEnableStartBlue' );
-		if( $backendLayoutsEnableStartBlue === NULL )
-		{
-			$backendLayoutsEnableStartBlue = true;
-		}
-		if( $backendLayoutsEnableStartBlue )
-		{
-			$backendLayout = ( array ) $backendLayout + $this->backendLayoutsBlue;
-		}
-		$backendLayoutsEnableStartBronze = Extensionmanager::getProperty( 'backendLayoutsEnableStartBronze' );
-		if( $backendLayoutsEnableStartBronze === NULL )
-		{
-			$backendLayoutsEnableStartBronze = true;
-		}
-		if( $backendLayoutsEnableStartBronze )
-		{
-			$backendLayout = ( array ) $backendLayout + $this->backendLayoutsBronze;
-		}
-		$backendLayoutsEnableStartSilver = Extensionmanager::getProperty( 'backendLayoutsEnableStartSilver' );
-		if( $backendLayoutsEnableStartSilver === NULL )
-		{
-			$backendLayoutsEnableStartSilver = true;
-		}
-		if( $backendLayoutsEnableStartSilver )
-		{
-			$backendLayout = ( array ) $backendLayout + $this->backendLayoutsSilver;
-		}
-		if( Extensionmanager::getProperty( 'backendLayoutsEnableStartFolder' ) )
-		{
-			$backendLayout = ( array ) $backendLayout + $this->backendLayoutsFolder;
-		}
-		if( Extensionmanager::getProperty( 'backendLayoutsEnableStartNewsletter' ) )
-		{
-			$backendLayout = ( array ) $backendLayout + $this->backendLayoutsNewsletter;
-		}
-		if( Extensionmanager::getProperty( 'backendLayoutsEnableStartDeprecated' ) )
-		{
-			$backendLayout = ( array ) $backendLayout + $this->backendLayoutsDeprecated;
+		if (Extensionmanager::getProperty('backendLayoutsEnableDefault')) {
+			$backendLayout = (array) $backendLayout + $this->backendLayoutsDefault;
 		}
 
-		return ( array ) $backendLayout;
+		$backendLayoutsEnableStartBlue = Extensionmanager::getProperty('backendLayoutsEnableStartBlue');
+		if ($backendLayoutsEnableStartBlue === NULL) {
+			$backendLayoutsEnableStartBlue = true;
+		}
+		if ($backendLayoutsEnableStartBlue) {
+			$backendLayout = (array) $backendLayout + $this->backendLayoutsBlue;
+		}
+
+		$backendLayoutsEnableStartBronze = Extensionmanager::getProperty('backendLayoutsEnableStartBronze');
+		if ($backendLayoutsEnableStartBronze === NULL) {
+			$backendLayoutsEnableStartBronze = true;
+		}
+		if ($backendLayoutsEnableStartBronze) {
+			$backendLayout = (array) $backendLayout + $this->backendLayoutsBronze;
+		}
+
+		$backendLayoutsEnableStartBronzeGcms = Extensionmanager::getProperty('backendLayoutsEnableStartBronzeGcms');
+		if ($backendLayoutsEnableStartBronzeGcms) {
+			$backendLayout = (array) $backendLayout + $this->backendLayoutsBronzeGcms;
+		}
+
+		$backendLayoutsEnableStartSilver = Extensionmanager::getProperty('backendLayoutsEnableStartSilver');
+		if ($backendLayoutsEnableStartSilver === NULL) {
+			$backendLayoutsEnableStartSilver = true;
+		}
+		if ($backendLayoutsEnableStartSilver) {
+			$backendLayout = (array) $backendLayout + $this->backendLayoutsSilver;
+		}
+
+		if (Extensionmanager::getProperty('backendLayoutsEnableStartFolder')) {
+			$backendLayout = (array) $backendLayout + $this->backendLayoutsFolder;
+		}
+
+		if (Extensionmanager::getProperty('backendLayoutsEnableStartNewsletter')) {
+			$backendLayout = (array) $backendLayout + $this->backendLayoutsNewsletter;
+		}
+
+		if (Extensionmanager::getProperty('backendLayoutsEnableStartDeprecated')) {
+			$backendLayout = (array) $backendLayout + $this->backendLayoutsDeprecated;
+		}
+
+		return (array) $backendLayout;
 	}
 
 	/**
@@ -126,18 +124,16 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
 	 * @version 5.2.0
 	 * @since 0.0.1
 	 */
-	public function addBackendLayouts( DataProviderContext $dataProviderContext, BackendLayoutCollection $backendLayoutCollection )
-	{
-		if( self::_backendLayoutsAreDisabled() )
-		{
+	public function addBackendLayouts(DataProviderContext $dataProviderContext, BackendLayoutCollection $backendLayoutCollection) {
+		unset($dataProviderContext);
+		if (self::_backendLayoutsAreDisabled()) {
 			return;
 		}
 		$backendLayouts = $this->_initBackendLayouts();
-		foreach( $backendLayouts as $key => $data )
-		{
-			$data[ 'uid' ] = $key;
-			$backendLayout = $this->createBackendLayout( $data );
-			$backendLayoutCollection->add( $backendLayout );
+		foreach ($backendLayouts as $key => $data) {
+			$data['uid'] = $key;
+			$backendLayout = $this->createBackendLayout($data);
+			$backendLayoutCollection->add($backendLayout);
 		}
 	}
 
@@ -149,11 +145,10 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
 	 * @version 1.1.1
 	 * @since 0.0.1
 	 */
-	protected function createBackendLayout( array $data )
-	{
-		$backendLayout = BackendLayout::create( $data[ 'uid' ], $data[ 'title' ], $data[ 'config' ] );
-		$backendLayout->setIconPath( $this->getIconPath( $data[ 'icon' ] ) );
-		$backendLayout->setData( $data );
+	protected function createBackendLayout(array $data) {
+		$backendLayout = BackendLayout::create($data['uid'], $data['title'], $data['config']);
+		$backendLayout->setIconPath($this->getIconPath($data['icon']));
+		$backendLayout->setData($data);
 		return $backendLayout;
 	}
 
@@ -166,17 +161,15 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
 	 * @version 1.1.1
 	 * @since 0.0.1
 	 */
-	public function getBackendLayout( $identifier, $pageId )
-	{
-		if( self::_backendLayoutsAreDisabled() )
-		{
+	public function getBackendLayout($identifier, $pageId) {
+		unset($pageId);
+		if (self::_backendLayoutsAreDisabled()) {
 			return;
 		}
 		$backendLayout = NULL;
 		$backendLayouts = $this->_initBackendLayouts();
-		if( array_key_exists( $identifier, $backendLayouts ) )
-		{
-			return $this->createBackendLayout( $backendLayouts[ $identifier ] );
+		if (array_key_exists($identifier, $backendLayouts)) {
+			return $this->createBackendLayout($backendLayouts[$identifier]);
 		}
 		return $backendLayout;
 	}
@@ -189,11 +182,9 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
 	 * @version 1.1.1
 	 * @since 0.0.1
 	 */
-	protected function getIconPath( $icon )
-	{
+	protected function getIconPath($icon) {
 		$iconPath = '';
-		if( !empty( $icon ) )
-		{
+		if (!empty($icon)) {
 			$iconPath = $icon;
 		}
 		return $iconPath;
@@ -1248,6 +1239,84 @@ class BackendLayoutDataProvider implements \TYPO3\CMS\Backend\View\BackendLayout
         }
       ',
 					'icon' => 'EXT:start/Resources/Public/Images/BackendLayouts/start_bronze_04.gif'
+			),
+	);
+
+	/**
+	 * Default Backend Layouts Bronze
+	 *
+	 * @var array
+	 * @version 8.4.5
+	 * @since 8.4.5
+	 */
+	protected $backendLayoutsBronzeGcms = array(
+			'bronze_02_gcms' => array(
+					'title' => 'LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.bronze_02_gcms',
+					'config' => '
+        backend_layout {
+          colCount = 12
+          rowCount = 4
+          rows {
+            1 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.header
+                  colPos  = 11
+                  colspan = 12
+                }
+              }
+            }
+						2 {
+							columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content
+                  colPos  = 0
+                  colspan = 6
+									rowspan = 2
+                }
+								2 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.righttop
+                  colPos  = 3
+									colspan = 6
+								}
+							}
+						}
+						3 {
+							columns {
+								1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.rightbottomleft
+                  colPos  = 1
+									colspan = 3
+								}
+								2 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.content.rightbottomright
+                  colPos  = 2
+									colspan = 3
+								}
+							}
+						}
+						4 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.footer
+                  colPos  = 21
+                  colspan = 12
+                }
+              }
+            }
+            5 {
+              columns {
+                1 {
+                  name = LLL:EXT:start/Resources/Private/Language/Backend.xlf:backend_layout.column.hidden
+                  colPos  = -2
+                  colspan = 12
+                }
+              }
+            }
+          }
+        }
+      ',
+					'icon' => 'EXT:start/Resources/Public/Images/BackendLayouts/start_bronze_02_gcms.gif'
 			),
 	);
 
