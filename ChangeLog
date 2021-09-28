@@ -3,7 +3,22 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+8.4.6
+  21-09-24
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v1589: [TASK] Integration backend layout 'Start Bronze 2 GCMS' (frontend)
+						Affected files:
+						* Configuration/TypoScript/Base/Default
+							* Page/Page
+								* 63148/bronze.ts
+								* constants/view/be_layout/settingsGrid2Columns.ts
+							* Start/Structure/setup/content.ts
+						Affected files:
+						* Resources/Private/Templates/foundation-5.5.3/Templates/Be_layout/Bronze_02_gcms.html
+						:ref: #v1579
+
 8.4.5
+  21-09-24
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
 	* #i0069: [BUGFIX] #t5780 recovered
 						* Bootstrape temmplate: TypoScript object path "start.lib.bootstrap.divAdditionalClass.begin" does not exist
@@ -12,11 +27,22 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						* Configuration/TypoScript/Bootstrap/Base/setup.txt                                                                                                                                                                     
 						Moved file:
 						* Configuration/TypoScript/Bootstrap/Base/start/XXX_setup.ts -> _setup.ts
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v1579: [TASK] Integration backend layout 'Start Bronze 2 GCMS' (backend)
+						Affected files:
+						* Classes/Provider/BackendLayoutDataProvider.php
+						* Resources/Private/Language
+							* Backend.xlf
+							* de.Backend.xlf
+						* ext_conf_template.txt
+						New file:
+						* Resources/Public/Images/BackendLayouts/start_bronze_02_gcms.gif
+						:ref: #v1589
 
 8.4.4
   21-08-20
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
-	* #i0068: [TASK] Improvment locallang: 
+	* #i0319: [TASK] Improvement locallang: 
 						* Please move the template ... to ... > Please replace the template ... with ...
 
 8.4.3
