@@ -1,0 +1,29 @@
+<f:layout name="bronze" />
+<f:section name="content">
+  <div id="maincontent" class="maincontent">
+		<div class="{settings.classRow} {settings.classRowPlusMain}">
+			<div class="{settings.classColMainContentMainGcms} {settings.classCell} maincontentmain main">
+				<!--content-->
+				<f:cObject typoscriptObjectPath="start.structure.content.main" />
+				<!--/content-->
+			</div>
+			<div class="{settings.classColMainContentRightGcms} {settings.classCell} maincontentright right gcms">
+				<div class="{settings.classRow} {settings.classRowPlusMain}">
+					<div class="{settings.classColMainContentMain} {settings.classCell} maincontentmain righttop">
+						<f:cObject typoscriptObjectPath="start.structure.content.rightTop" />
+					</div>
+					<div class="{settings.classRow} {settings.classRowPlusMain} rightbottom">
+						<div class="columns large-6 col-6 rightbottomleft">
+							<f:cObject typoscriptObjectPath="start.structure.content.rightBottomLeft" />
+						</div>
+						<div class="columns large-6 col-6 rightbottomright">
+							<f:cObject typoscriptObjectPath="start.structure.content.rightBottomRight" />
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+</div>
+</f:section>

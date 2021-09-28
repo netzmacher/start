@@ -69,7 +69,7 @@ start {
           }
         }
       }
-        // 20 = COA, 110 = TEXT
+        // COA: COA, TEXT
       left = COA
       left {
 					// 10 = LOAD_REGISTER, 20 = TEXT
@@ -121,7 +121,7 @@ start {
 					value = <div class="startVisHiddenHeight1"></div>
 				}
       }
-        // CONTENT, stdWrap
+        // CONTENT, COA
       main = COA
       main {
         // table, select, stdWrap
@@ -139,6 +139,7 @@ start {
 						}
 					}	
         }
+					// if, 10: COA, 30: COA, 50: COA
 				90 = COA
 				90 {
 					if < start.rules.newsletterModal 
@@ -239,7 +240,7 @@ start {
 					}
 				}
       }
-        // CONTENT, stdWrap
+        // COA: LOAD_REGISTER, TEXT
       right = COA
       right {
 					// 10 = LOAD_REGISTER, 20 = TEXT
@@ -290,6 +291,51 @@ start {
 					//data = register:startContentLeft
 					value = <div class="startVisHiddenHeight1"></div>
 				}
+      }
+			rightBottomLeft < .right
+      rightBottomLeft {
+        // table, select, stdWrap
+        20 < styles.content.get
+        20 {
+          select {
+            where = colPos=1
+          }
+          slide = -1
+          stdWrap {
+            required  = 1
+            wrap      = <!--rightBottomLeft-->|<!--TYPO3SEARCH_end--><!--/rightBottomLeft-->
+          }
+        }
+      }
+			rightBottomRight < .right
+      rightBottomRight {
+        // table, select, stdWrap
+        20 < styles.content.get
+        20 {
+          select {
+            where = colPos=2
+          }
+          slide = -1
+          stdWrap {
+            required  = 1
+            wrap      = <!--rightBottomRight-->|<!--TYPO3SEARCH_end--><!--/rightBottomRight-->
+          }
+        }
+      }
+			rightTop < .right
+      rightTop {
+        // table, select, stdWrap
+        20 < styles.content.get
+        20 {
+          select {
+            where = colPos=3
+          }
+          slide = -1
+          stdWrap {
+            required  = 1
+            wrap      = <!--rightTop-->|<!--TYPO3SEARCH_end--><!--/rightTop-->
+          }
+        }
       }
         // CONTENT, stdWrap
       topLeft = COA

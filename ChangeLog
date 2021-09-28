@@ -3,10 +3,24 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+8.4.6
+  21-09-24
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v1589: [TASK] Integration backend layout 'Start Bronze 2 GCMS' (frontend)
+						Affected files:
+						* Configuration/TypoScript/Base/Default
+							* Page/Page
+								* 63148/bronze.ts
+								* constants/view/be_layout/settingsGrid2Columns.ts
+							* Start/Structure/setup/content.ts
+						Affected files:
+						* Resources/Private/Templates/foundation-5.5.3/Templates/Be_layout/Bronze_02_gcms.html
+						:ref: #v1579
+
 8.4.5
   21-09-24
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
-	* #v1579: [TASK] Integration backend layout 'Start Bronze 2 GCMS'
+	* #v1579: [TASK] Integration backend layout 'Start Bronze 2 GCMS' (backend)
 						Affected files:
 						* Classes/Provider/BackendLayoutDataProvider.php
 						* Resources/Private/Language
@@ -15,6 +29,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						* ext_conf_template.txt
 						New file:
 						* Resources/Public/Images/BackendLayouts/start_bronze_02_gcms.gif
+						:ref: #v1589
 
 8.4.4
   21-08-20

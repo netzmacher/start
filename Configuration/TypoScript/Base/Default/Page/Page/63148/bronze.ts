@@ -62,6 +62,17 @@ page {
         classColMainContentRight  = small-12 medium-{$start.fluid.path.be_layout.settings.grid.columns02.margin}
       }
     }
+    start__bronze_02_gcms < .start__bronze_01
+    start__bronze_02_gcms {
+      templateName = Bronze_02_gcms.html
+				// classColMainContentRight
+      settings =
+      settings {
+        classColMainContentMain   >
+        classColMainContentMainGcms   = small-12 medium-{$start.fluid.path.be_layout.settings.grid.columns02.mainGcms}
+        classColMainContentRightGcms  = small-12 medium-{$start.fluid.path.be_layout.settings.grid.columns02.marginGcms}
+      }
+    }
       // Two columns: left | content
     start__bronze_03 < .start__bronze_01
     start__bronze_03 {
