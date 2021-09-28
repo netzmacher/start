@@ -12,7 +12,7 @@ $EM_CONF[ 'start' ] = array(
 		'createDirs' => '',
 		'clearCacheOnLoad' => 1,
 		'version' => '8.4.6',
-		'constraints' => array(
+			'constraints' => array(
 				'depends' => array(
 						'typo3' => '8.7.0-10.9.99',
 				),
