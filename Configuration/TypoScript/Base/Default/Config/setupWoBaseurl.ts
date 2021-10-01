@@ -1,7 +1,6 @@
 config {
   absRefPrefix                      = {$start.config.absRefPrefix}
   admPanel                          = {$start.config.admPanel}
-  baseURL                           = {$start.config.baseURL}
   cache_clearAtMidnight             = {$start.config.cache_clearAtMidnight}
   compressCss                       = {$start.compress.css}
   compressJs                        = {$start.compress.jss}

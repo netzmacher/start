@@ -3,6 +3,28 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+8.4.7
+  21-10-01
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v1525: [TASK] Remove TypoScript property baseURL / remove HTML property "base href" (from TYPO3 10.4 only)
+						Affected files:
+						* Configuration/TypoScript/Base
+							* 087
+								* constants.txt
+								* setup.txt
+							* 104/config/_setup.ts
+							* Default/setup.txt
+						New files:
+						* Configuration/TypoScript/Base/087/config
+							* constants/configBaseurl.ts
+							* setup.ts
+						Moved files:
+						* Configuration/TypoScript/Base
+							* 104/config/baseURL.ts -> XXXbaseURL.ts
+							* Default/Config
+								* constants/config/config.ts -> configWoBaseurl.ts
+								* setup.ts -> setupWoBaseurl.ts
+
 8.4.6
   21-09-24
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com

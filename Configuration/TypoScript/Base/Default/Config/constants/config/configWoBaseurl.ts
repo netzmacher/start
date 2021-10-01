@@ -5,10 +5,6 @@ start {
     absRefPrefix                      = /
     # cat=start - config*//101; type=boolean; label= Admin Panel:Display the admin panel in the frontend for a logged in backend user
     admPanel                          = 1
-    # cat=start - config*//102; type=string;  label= Base URL*:*Obligate! Your base URL with ending slash. Example: http://die-netzmacher.de/
-    baseURL                           =
-    # cat=start - config*//103; type=string;  label= Base URL for https*:*Obligate! Your base URL with ending slash. Example: https://die-netzmacher.de/
-    baseURLhttps                      = Please configure TypoScript Constant start.config.baseURLhttps
     # cat=start - config*//107; type=options[html5,none,xhtml_11,xhtml_basic,xhtml_frames,xhtml+rdfa_10,xhtml_strict,xhtml_trans];  label= Document type:html5 for the HTML5 doctype. none for no doctype at all. xhtml_11 for the XHTML 1.1 doctype. xhtml_basic for the XHTML basic doctype. xhtml_frames for the XHTML 1.0 Frameset doctype. xhtml_strict for the XHTML 1.0 Strict doctype. xhtml+rdfa_10 for the XHTML+RDFa 1.0 doctype. xhtml_trans for the XHTML 1.0 Transitional doctype.
     doctype                           = html5
     # cat=start - config*//108; type=boolean; label= Clear cache at midnight:Obligated, if your are using calender items.
