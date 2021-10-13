@@ -129,6 +129,10 @@
 				<source>Layout</source>
 				<target>Layout</target>
 			</trans-unit>
+			<trans-unit id="headerPages">
+				<source>Pages</source>
+				<target>Seiten</target>
+			</trans-unit>
 			<trans-unit id="headerSocialmedia">
 				<source>Social media</source>
 				<target>Social Media</target>
@@ -238,6 +242,10 @@
 				<source>Links for a dozen social media channels. From Facebook to Instagram to Youtube</source>
 				<target>Links für ein Dutzend Social-Media-Kanäle. Von Facebook über Instagram bis Youtube</target>
 			</trans-unit>
+			<trans-unit id="listTableTdDescriptionPages">
+				<source>Assign pages such as calendars, news, and newsletter forms</source>
+				<target>Zuweisen von Seiten wie Kalender, Nachrichten und Newsletterformular</target>
+			</trans-unit>
 			<trans-unit id="listTableTdDescriptionUnit">
 				<source>Your name or your unit</source>
 				<target>Dein Name oder der Deiner Firma</target>
@@ -257,6 +265,10 @@
 			<trans-unit id="listTableTdPlaceSocialmedia">
 				<source>In the head in the upper right corner of each page</source>
 				<target>Im Kopfbereich oben rechts auf jeder Seite</target>
+			</trans-unit>
+			<trans-unit id="listTableTdPlacePages">
+				<source>Different places on the website</source>
+				<target>Verschiedene Orte auf der Website</target>
 			</trans-unit>
 			<trans-unit id="listTableTdPlaceUnit">
 				<source>In the header and in the menu on each page</source>
@@ -286,6 +298,10 @@
 				<source>Social Media</source>
 				<target>Social Media</target>
 			</trans-unit>
+			<trans-unit id="listTableTdSubjectPages">
+				<source>Pages</source>
+				<target>Seiten</target>
+			</trans-unit>
 			<trans-unit id="listTableTdSubjectUnit">
 				<source>Staff / Company</source>
 				<target>Person / Firma</target>
@@ -313,6 +329,14 @@
 			<trans-unit id="mlang_labels_tabdescr">
 				<source>mlang_labels_tabdescr</source>
 				<target>mlang_labels_tabdescr</target>
+			</trans-unit>
+			<trans-unit id="optionInherit">
+				<source>Inherit</source>
+				<target>Erben</target>
+			</trans-unit>
+			<trans-unit id="optionNoPage">
+				<source>No page</source>
+				<target>Keine Seite</target>
 			</trans-unit>
 			<trans-unit id="socialmediaFooterPrompt">
 				<source><![CDATA[

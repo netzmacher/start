@@ -2,7 +2,8 @@
 
 namespace Netzmacher\Start\Domain\Repository;
 
-//use TYPO3\CMS\Core\Utility\GeneralUtility;
+use TYPO3\CMS\Core\Database\ConnectionPool;
+use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 /* * *
  *
@@ -21,23 +22,67 @@ namespace Netzmacher\Start\Domain\Repository;
 class PageRepository extends \TYPO3\CMS\Extbase\Persistence\Repository
 {
 
-//	public function findPages()
-//	{
-//		$query = $this->createQuery();
-//    $query->getQuerySettings()->setRespectStoragePage(TRUE);
-//
-//		$result = $query->execute();
-//		//echo (serialize($result)) . PHP_EOL;
-//		return $result;
-//	}
-//
-//	public function findCurrentPage()
-//	{
-//		$pageId = GeneralUtility::_GP('id');
-//
-//		$result = $this->findByUid($pageId);
-//		echo (serialize($result)) . PHP_EOL;
-//		return $result;
-//	}
+	private function _getPagetree( $pageId, $level = 0, $prefix = '', $arrOptions = [] )
+	{
+		$_pids = [];
+
+		$result = $this->findSubpages( $pageId );
+		$rows = $result->fetchAll();
+
+		foreach( $rows as $row )
+		{
+			$level = $level + 1;
+			if( $level > 1000 )
+			{
+				$csvPids = implode( ',', $_pids );
+				return $csvPids;
+			}
+			$arrOptions[ $row[ 'uid' ] ] = substr( $prefix . ' ' . $row[ 'title' ], 0, 50 );
+			$prefix = $prefix . '...';
+			list($subpages, $arrOptions) = $this->_getPagetree( $row[ 'uid' ], $level, $prefix, $arrOptions );
+			switch( true )
+			{
+				case(empty( $subpages )):
+					$_pids[] = $row[ 'uid' ];
+					break;
+				case(!empty( $subpages )):
+				default:
+					$_pids[] = $row[ 'uid' ] . ',' . $subpages;
+					break;
+			}
+			$prefix = substr( $prefix, 0, strlen( '...' ) * -1 );
+		}
+
+		$csvPids = implode( ',', $_pids );
+		return [
+				$csvPids
+				, $arrOptions ];
+	}
+
+	public function findSubpages( $pageId )
+	{
+		$queryBuilder = GeneralUtility::makeInstance( ConnectionPool::class )->getQueryBuilderForTable( 'pages' );
+		$queryBuilder
+						->select( 'uid', 'title' )
+						->from( 'pages' )
+            ->orderBy('sorting')
+						->where(
+										$queryBuilder->expr()->eq( 'pid', $queryBuilder->createNamedParameter( $pageId ) )
+						)
+		;
+
+//		debug( $queryBuilder->getSQL() );
+//		debug( $queryBuilder->getParameters() );
+
+		$result = $queryBuilder->execute();
+		return $result;
+	}
+
+	public function getPagetree( $pageId )
+	{
+		list($subpages, $arrOptions) = $this->_getPagetree( $pageId );
+		unset( $subpages );
+		return $arrOptions;
+	}
 
 }

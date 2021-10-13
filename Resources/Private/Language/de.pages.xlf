@@ -11,14 +11,6 @@
 				<source>E-mail</source>
 				<target>E-Mail</target>
 			</trans-unit>
-			<trans-unit id="txStartgreenCiDevisionLabel">
-				<source>Header: Name of your party</source>
-				<target>Kopfbereich: Name Deiner Partei</target>
-			</trans-unit>
-			<trans-unit id="txStartgreenCiDevisionShort">
-				<source>Header: Your name or the name of your unit</source>
-				<target>Kopfbereich: Name Deiner Person oder Firma</target>
-			</trans-unit>
 			<trans-unit id="txStartFoundationTopbarName">
 				<source>Main menu: label on the top level</source>
 				<target>Hauptmenü: Bezeichnung auf oberster Ebene</target>
@@ -26,6 +18,30 @@
 			<trans-unit id="txStartFoundationTopbarTitle">
 				<source>Main menu: label in case of a mouse over</source>
 				<target>Hauptmenü: Bezeichnung bei Mouse-Over</target>
+			</trans-unit>
+			<trans-unit id="txStartPagesCalendar">
+				<source>Calendar</source>
+				<target>Kalender</target>
+			</trans-unit>
+			<trans-unit id="txStartPagesGdpr">
+				<source>GDPR</source>
+				<target>Datenschutzerklärung (DSGVO)</target>
+			</trans-unit>
+			<trans-unit id="txStartPagesNews">
+				<source>News</source>
+				<target>Nachrichten</target>
+			</trans-unit>
+			<trans-unit id="txStartPagesNewsletter">
+				<source>Newsletter-subscription-form</source>
+				<target>Newsletter-Bestellformular</target>
+			</trans-unit>
+			<trans-unit id="txStartPagesRoot">
+				<source>Root page</source>
+				<target>Startseite</target>
+			</trans-unit>
+			<trans-unit id="txStartPagesRss">
+				<source>RSS feed</source>
+				<target>RSS-Feed</target>
 			</trans-unit>
 			<trans-unit id="txStartSocialFacebook">
 				<source>Facebook</source>
@@ -74,6 +90,18 @@
 			<trans-unit id="txStartSocialYoutube">
 				<source>Youtube</source>
 				<target>Youtube</target>
+			</trans-unit>
+			<trans-unit id="txStartgreenCiDevisionLabel">
+				<source>Header: Name of your party</source>
+				<target>Kopfbereich: Name Deiner Partei</target>
+			</trans-unit>
+			<trans-unit id="txStartgreenCiDevisionShort">
+				<source>Header: Your name or the name of your unit</source>
+				<target>Kopfbereich: Name Deiner Person oder Firma</target>
+			</trans-unit>
+			<trans-unit id="txStartgreenCssBackgroundListnum">
+				<source>Wallpaper</source>
+				<target>Hintergrund</target>
 			</trans-unit>
 		</body>
 	</file>

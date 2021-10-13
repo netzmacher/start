@@ -3,6 +3,51 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+8.5.0
+  21-10-13
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v1633: [FEATURE] Enable to manage id of pages like navigation, calender, imprint, news amonmg others by the modul
+            *** UNDER CONSTRUCTION ***
+						Affected files:
+            * Classes
+              * Controller/ModuleController.php
+              * Domain
+                * Model/Page.php
+                * Repository/PageRepository.php
+            * Configuration
+              * TCA/Overrides
+                * Default/pages.php
+                * de.pages.xlf
+                * pages.xlf
+              * TypoScript/Base/Default/Start/Lib
+                * sitelineTop.ts
+                * socialmedia.ts
+            * Resources
+              * Private
+                * Backend
+                  * Layouts/Default.html
+                  * Partials/Forms/FieldsSocialmedia.html
+                  * Templates/Module
+                    * Contact.html
+                    * List.html
+                    * Socialmedia.html
+                    * Unit.html
+                * Language
+                  * de.locallang_md1.xlf
+                  * de.pages.xlf
+                  * locallang_md1.xlf
+                  * pages.xlf
+              * Public/Css/Module/Styles.css
+            * ext_localconf.php
+            * ext_tables.php
+            * ext_tables.sql
+						New files:
+            * Resources/Private/Backend
+              * Partials/Forms
+                * Buttons.html
+                * FieldsPages.html
+              * Templates/Module/Pages.html
+
 8.4.7
   21-10-01
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com

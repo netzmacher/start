@@ -70,6 +70,48 @@ class Page extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
 	protected $txStartFoundationTopbarTitle = '';
 
 	/**
+	 * txStartPagesCalendar
+	 * 
+	 * @var string
+	 */
+	protected $txStartPagesCalendar = '';
+
+	/**
+	 * txStartPagesGdpr
+	 * 
+	 * @var string
+	 */
+	protected $txStartPagesGdpr = '';
+
+	/**
+	 * txStartPagesNews
+	 * 
+	 * @var string
+	 */
+	protected $txStartPagesNews = '';
+
+	/**
+	 * txStartPagesNewsletter
+	 * 
+	 * @var string
+	 */
+	protected $txStartPagesNewsletter = '';
+
+	/**
+	 * txStartPagesRoot
+	 * 
+	 * @var string
+	 */
+	protected $txStartPagesRoot = '';
+
+	/**
+	 * txStartPagesRss
+	 * 
+	 * @var string
+	 */
+	protected $txStartPagesRss = '';
+
+	/**
 	 * txStartSocialFacebook
 	 * 
 	 * @var string
@@ -89,13 +131,6 @@ class Page extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
 	 * @var string
 	 */
 	protected $txStartSocialGithub = '';
-
-	/**
-	 * txStartSocialGoogleplus
-	 * 
-	 * @var string
-	 */
-	protected $txStartSocialGoogleplus = '';
 
 	/**
 	 * txStartSocialInstagram
@@ -317,6 +352,132 @@ class Page extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
 	}
 
 	/**
+	 * Returns the txStartPagesCalendar
+	 * 
+	 * @return string $txStartPagesCalendar
+	 */
+	public function getTxStartPagesCalendar()
+	{
+		return $this->txStartPagesCalendar;
+	}
+
+	/**
+	 * Sets the txStartPagesCalendar
+	 * 
+	 * @param string $txStartPagesCalendar
+	 * @return void
+	 */
+	public function setTxStartPagesCalendar( $txStartPagesCalendar )
+	{
+		$this->txStartPagesCalendar = $txStartPagesCalendar;
+	}
+
+	/**
+	 * Returns the txStartPagesGdpr
+	 * 
+	 * @return string $txStartPagesGdpr
+	 */
+	public function getTxStartPagesGdpr()
+	{
+		return $this->txStartPagesGdpr;
+	}
+
+	/**
+	 * Sets the txStartPagesGdpr
+	 * 
+	 * @param string $txStartPagesGdpr
+	 * @return void
+	 */
+	public function setTxStartPagesGdpr( $txStartPagesGdpr )
+	{
+		$this->txStartPagesGdpr = $txStartPagesGdpr;
+	}
+
+	/**
+	 * Returns the txStartPagesNews
+	 * 
+	 * @return string $txStartPagesNews
+	 */
+	public function getTxStartPagesNews()
+	{
+		return $this->txStartPagesNews;
+	}
+
+	/**
+	 * Sets the txStartPagesNews
+	 * 
+	 * @param string $txStartPagesNews
+	 * @return void
+	 */
+	public function setTxStartPagesNews( $txStartPagesNews )
+	{
+		$this->txStartPagesNews = $txStartPagesNews;
+	}
+
+	/**
+	 * Returns the txStartPagesNewsletter
+	 * 
+	 * @return string $txStartPagesNewsletter
+	 */
+	public function getTxStartPagesNewsletter()
+	{
+		return $this->txStartPagesNewsletter;
+	}
+
+	/**
+	 * Sets the txStartPagesNewsletter
+	 * 
+	 * @param string $txStartPagesNewsletter
+	 * @return void
+	 */
+	public function setTxStartPagesNewsletter( $txStartPagesNewsletter )
+	{
+		$this->txStartPagesNewsletter = $txStartPagesNewsletter;
+	}
+
+	/**
+	 * Returns the txStartPagesRoot
+	 * 
+	 * @return string $txStartPagesRoot
+	 */
+	public function getTxStartPagesRoot()
+	{
+		return $this->txStartPagesRoot;
+	}
+
+	/**
+	 * Sets the txStartPagesRoot
+	 * 
+	 * @param string $txStartPagesRoot
+	 * @return void
+	 */
+	public function setTxStartPagesRoot( $txStartPagesRoot )
+	{
+		$this->txStartPagesRoot = $txStartPagesRoot;
+	}
+
+	/**
+	 * Returns the txStartPagesRss
+	 * 
+	 * @return string $txStartPagesRss
+	 */
+	public function getTxStartPagesRss()
+	{
+		return $this->txStartPagesRss;
+	}
+
+	/**
+	 * Sets the txStartPagesRss
+	 * 
+	 * @param string $txStartPagesRss
+	 * @return void
+	 */
+	public function setTxStartPagesRss( $txStartPagesRss )
+	{
+		$this->txStartPagesRss = $txStartPagesRss;
+	}
+
+	/**
 	 * Returns the txStartSocialFacebook
 	 * 
 	 * @return string $txStartSocialFacebook
@@ -377,27 +538,6 @@ class Page extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
 	public function setTxStartSocialGithub( $txStartSocialGithub )
 	{
 		$this->txStartSocialGithub = $txStartSocialGithub;
-	}
-
-	/**
-	 * Returns the txStartSocialGoogleplus
-	 * 
-	 * @return string $txStartSocialGoogleplus
-	 */
-	public function getTxStartSocialGoogleplus()
-	{
-		return $this->txStartSocialGoogleplus;
-	}
-
-	/**
-	 * Sets the txStartSocialGoogleplus
-	 * 
-	 * @param string $txStartSocialGoogleplus
-	 * @return void
-	 */
-	public function setTxStartSocialGoogleplus( $txStartSocialGoogleplus )
-	{
-		$this->txStartSocialGoogleplus = $txStartSocialGoogleplus;
 	}
 
 	/**

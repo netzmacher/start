@@ -75,3 +75,7 @@ table .button:hover {
 	background:#EEE;
 }*/
 
+.form-group label {
+  display:block;
+}
+

@@ -4,13 +4,25 @@
     <header/>
     <body>
 
+			<trans-unit id="optionInherit">
+				<source>Inherit</source>
+				<target>Erben</target>
+			</trans-unit>
+			<trans-unit id="optionNoPage">
+				<source>No page</source>
+				<target>Keine Seite</target>
+			</trans-unit>
       <trans-unit id="tx_start_addressline">
         <source>Addressline</source>
         <target>Adresszeile</target>
       </trans-unit>
       <trans-unit id="tx_start_divstart">
-        <source>Start!</source>
-        <target>Start!</target>
+        <source>My Website</source>
+        <target>Meine Website</target>
+      </trans-unit>
+      <trans-unit id="tx_start_divpages">
+        <source>My Pages</source>
+        <target>Meine Seiten</target>
       </trans-unit>
       <trans-unit id="tx_start_email">
         <source>E-mail</source>
@@ -27,6 +39,30 @@
       <trans-unit id="tx_start_megamenu">
         <source>Megamenu (runs only on top-level pages)</source>
         <target>Mega-Menü (für Seiten oberster Ebene)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_pages_calendar">
+        <source>Calendar</source>
+        <target>Kalender</target>
+      </trans-unit>
+      <trans-unit id="tx_start_pages_gdpr">
+        <source>GDPR</source>
+        <target>Datenschutzerklärung (DSGVO)</target>
+      </trans-unit>
+      <trans-unit id="tx_start_pages_news">
+        <source>News</source>
+        <target>Nachrichten</target>
+      </trans-unit>
+      <trans-unit id="tx_start_pages_newsletter">
+        <source>Newsletter form</source>
+        <target>Newsletter Bestell-Formular</target>
+      </trans-unit>
+      <trans-unit id="tx_start_pages_root">
+        <source>Root page</source>
+        <target>Startseite</target>
+      </trans-unit>
+      <trans-unit id="tx_start_pages_rss">
+        <source>Page with calendar</source>
+        <target>Seite mit dem Kalender</target>
       </trans-unit>
       <trans-unit id="tx_start_phone">
         <source>International phone number for devices (like +493012345678)</source>
@@ -47,10 +83,6 @@
       <trans-unit id="tx_start_social_github">
         <source>github</source>
         <target>Github</target>
-      </trans-unit>
-      <trans-unit id="tx_start_social_googleplus">
-        <source>google+</source>
-        <target>Goggle+</target>
       </trans-unit>
       <trans-unit id="tx_start_social_instagram">
         <source>instagram</source>
@@ -91,6 +123,10 @@
       <trans-unit id="tx_start_palettefoundation">
         <source>Top bar</source>
         <target>Hauptmenü</target>
+      </trans-unit>
+      <trans-unit id="tx_start_palettepages">
+        <source>Pages</source>
+        <target>Seiten</target>
       </trans-unit>
       <trans-unit id="tx_start_palettesocialmedia">
         <source>Social media</source>

@@ -19,6 +19,30 @@
 				<source>Main menu: label in case of a mouse over</source>
 				<target>Hauptmenü: Bezeichnung bei Mouse-Over</target>
 			</trans-unit>
+			<trans-unit id="txStartPagesCalendar">
+				<source>Calendar</source>
+				<target>Kalender</target>
+			</trans-unit>
+			<trans-unit id="txStartPagesGdpr">
+				<source>GDPR</source>
+				<target>Datenschutzerklärung (DSGVO)</target>
+			</trans-unit>
+			<trans-unit id="txStartPagesNews">
+				<source>News</source>
+				<target>Nachrichten</target>
+			</trans-unit>
+			<trans-unit id="txStartPagesNewsletter">
+				<source>Newsletter-subscription-form</source>
+				<target>Newsletter-Bestellformular</target>
+			</trans-unit>
+			<trans-unit id="txStartPagesRoot">
+				<source>Root page</source>
+				<target>Startseite</target>
+			</trans-unit>
+			<trans-unit id="txStartPagesRss">
+				<source>RSS feed</source>
+				<target>RSS-Feed</target>
+			</trans-unit>
 			<trans-unit id="txStartSocialFacebook">
 				<source>Facebook</source>
 				<target>Facebook</target>
