@@ -3,6 +3,21 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+8.5.1
+  21-10-21
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v1633: [FEATURE] Enable to manage id of pages. Here:
+            * Enable configuration for each page (only root page is possible now)
+            * Change value of non selected page from 0 to -2
+            * Integration TypoScript
+						Affected files:
+            * Classes/Controller/ModuleController.php
+            * Resources/Private/Backend/Templates/Module
+              * Contact.html
+              * Pages.html
+              * Socialmedia.html
+              * Unit.html
+
 8.5.0
   21-10-13
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com

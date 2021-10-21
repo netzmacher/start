@@ -2,8 +2,10 @@
 
 namespace Netzmacher\Start\Controller;
 
-use TYPO3\CMS\Core\Utility\GeneralUtility;
 use Netzmacher\Start\Utility\Localisation;
+use TYPO3\CMS\Core\Utility\GeneralUtility;
+use TYPO3\CMS\Core\Messaging\FlashMessage;
+use TYPO3\CMS\Core\Messaging\FlashMessageQueue;
 
 /* * *
  *
@@ -32,75 +34,90 @@ class ModuleController extends AbstractController
    */
   private $_llPath = 'start/Resources/Private/Language/locallang_md1.xlf';
 
-	/**
-	 * _actionWiPage
-	 * 
-	 * @param \Netzmacher\Start\Domain\Model\Page $page
-	 * @param object $sysdomain
-	 * @return void
-	 * @version 8.5.0
-	 * @since 8.5.0
-	 */
-	//private function _actionWiPage( \Netzmacher\Start\Domain\Model\Page $page, $sysdomain )
-	private function _actionWiPage( \Netzmacher\Start\Domain\Model\Page $page )
-	{
-		$arrPagetree = $this->pageRepository->getPagetree( $page->getPid() );
-		$pagetreeDefaults = [
-				-1 => Localisation::getLabel( $this->_llPath, 'optionInherit' )
-				, 0 => Localisation::getLabel( $this->_llPath, 'optionNoPage' )
-				, '-' => '--------------------------------'
-		];
-		$arrPagetree = $pagetreeDefaults + $arrPagetree;
+  /**
+   * _actionWiPage
+   * 
+   * @param \Netzmacher\Start\Domain\Model\Page $page
+   * @param object $sysdomain
+   * @return void
+   * @version 8.5.0
+   * @since 8.5.0
+   */
+  //private function _actionWiPage( \Netzmacher\Start\Domain\Model\Page $page, $sysdomain )
+  private function _actionWiPage( \Netzmacher\Start\Domain\Model\Page $page )
+  {
+    $arrPagetree      = $this->pageRepository->getPagetree( $page->getPid() );
+    $pagetreeDefaults = [
+        -1  => Localisation::getLabel( $this->_llPath, 'optionInherit' )
+        , 0   => Localisation::getLabel( $this->_llPath, 'optionNoPage' )
+        , '-' => '--------------------------------'
+    ];
+    $arrPagetree      = $pagetreeDefaults + $arrPagetree;
 
-		$this->view->assignMultiple(
-						[
-								'page' => $page
+    $this->view->assignMultiple(
+            [
+                'page'                   => $page
 //								, 'sysdomain' => $sysdomain
-								, 'arrPagetree' => $arrPagetree
-								, 'btnCancel' => Localisation::getLabel( $this->_llPath, 'btnCancel' )
-								, 'btnSend' => Localisation::getLabel( $this->_llPath, 'btnSend' )
-								, 'headerHeader' => Localisation::getLabel( $this->_llPath, 'headerHeader' )
-								, 'header404' => Localisation::getLabel( $this->_llPath, 'header404' )
-								, 'headerMisc' => Localisation::getLabel( $this->_llPath, 'headerMisc' )
-								, 'headerPages' => Localisation::getLabel( $this->_llPath, 'headerPages' )
-								, 'headerSeo' => Localisation::getLabel( $this->_llPath, 'headerSeo' )
-								, 'headerSocial' => Localisation::getLabel( $this->_llPath, 'headerSocial' )
-								, 'headerTheme' => Localisation::getLabel( $this->_llPath, 'headerTheme' )
-								, 'listHeaderPromptWiPage' => Localisation::getLabel( $this->_llPath, 'listHeaderPromptWiPage' )
-						]
-		);
-	}
+                , 'arrPagetree'            => $arrPagetree
+                , 'btnCancel'              => Localisation::getLabel( $this->_llPath, 'btnCancel' )
+                , 'btnSend'                => Localisation::getLabel( $this->_llPath, 'btnSend' )
+                , 'headerHeader'           => Localisation::getLabel( $this->_llPath, 'headerHeader' )
+                , 'header404'              => Localisation::getLabel( $this->_llPath, 'header404' )
+                , 'headerMisc'             => Localisation::getLabel( $this->_llPath, 'headerMisc' )
+                , 'headerPages'            => Localisation::getLabel( $this->_llPath, 'headerPages' )
+                , 'headerSeo'              => Localisation::getLabel( $this->_llPath, 'headerSeo' )
+                , 'headerSocial'           => Localisation::getLabel( $this->_llPath, 'headerSocial' )
+                , 'headerTheme'            => Localisation::getLabel( $this->_llPath, 'headerTheme' )
+                , 'listHeaderPromptWiPage' => Localisation::getLabel( $this->_llPath, 'listHeaderPromptWiPage' )
+            ]
+    );
+  }
 
-	/**
-	 * _getRootpid
-	 * 
-	 * @return integer
-	 * @version 8.5.0
-	 * @since 8.5.0
-	 */
-	private function _getRootpid()
-	{
-		$rootPid = 0;
+  /**
+   * _getRootpid
+   * 
+   * @return integer
+   * @version 8.5.0
+   * @since 8.5.0
+   */
+  private function _getRootpid()
+  {
+    // #v1633, 211021, dwildt: enable configuration on each page
+    $pageId  = GeneralUtility::_GP( 'id' );
+//    var_dump(__METHOD__, __LINE__, $pageId);
+//    die();
+//    $message = GeneralUtility::makeInstance( 'TYPO3\\CMS\\Core\\Messaging\\FlashMessage',
+//                                             'pageId: ' . $pageId,
+//                                             'TYPO3 is not running on an Apache-Webserver',
+//                                             FlashMessage::WARNING,
+//                                             TRUE
+//    );
+//    $flashMessageQueue = GeneralUtility::makeInstance( FlashMessageQueue::class);
+//    $flashMessageQueue->addMessage( $message );
 
-		$pageId = GeneralUtility::_GP( 'id' );
-		if( $pageId < 1 )
-		{
-			return $rootPid;
-		}
+    return $pageId;
 
-		$rootLineUtility = new \TYPO3\CMS\Core\Utility\RootlineUtility( $pageId );
-		$rootline = $rootLineUtility->get();
-		foreach( $rootline as $page )
-		{
-			if( !$page[ 'is_siteroot' ] )
-			{
-				continue;
-			}
-			$rootPid = $page[ 'uid' ];
-			break;
-		}
-		return $rootPid;
-	}
+    $rootPid = 0;
+
+    $pageId = GeneralUtility::_GP( 'id' );
+    if ( $pageId < 1 )
+    {
+      return $rootPid;
+    }
+
+    $rootLineUtility = new \TYPO3\CMS\Core\Utility\RootlineUtility( $pageId );
+    $rootline        = $rootLineUtility->get();
+    foreach ( $rootline as $page )
+    {
+      if ( !$page[ 'is_siteroot' ] )
+      {
+        continue;
+      }
+      $rootPid = $page[ 'uid' ];
+      break;
+    }
+    return $rootPid;
+  }
 
   /**
    * _listActionWiPage
@@ -177,47 +194,47 @@ class ModuleController extends AbstractController
     );
   }
 
-	/**
-	 * _pagesAction
-	 *
-	 * @return	void
+  /**
+   * _pagesAction
+   *
+   * @return	void
    * @version 8.5.0
    * @since 8.5.0
-	 */
-	private function _pagesAction()
-	{
-		$rootPid = $this->_getRootpid();
+   */
+  private function _pagesAction()
+  {
+    $rootPid = $this->_getRootpid();
 
-		switch( true )
-		{
-			case($rootPid > 0):
+    switch ( true )
+    {
+      case($rootPid > 0):
 
-				$page = $this->pageRepository->findByUid( $rootPid );
+        $page = $this->pageRepository->findByUid( $rootPid );
 //				$sysdomain = $this->sysdomainRepository->findByPid( $rootPid );
 //				$sysdomain = $sysdomain->getFirst();
-				switch( true )
-				{
-					case(!method_exists( $page, 'getDoktype' )):
-						// page is disabled
-						$this->_listActionWoPage();
-						break 2;
-					case( $page->getDoktype() == 1 ):
-					case( $page->getDoktype() == 3 ):
-					case( $page->getDoktype() == 4 ):
-					case( $page->getDoktype() == 7 ):
+        switch ( true )
+        {
+          case(!method_exists( $page, 'getDoktype' )):
+            // page is disabled
+            $this->_listActionWoPage();
+            break 2;
+          case( $page->getDoktype() == 1 ):
+          case( $page->getDoktype() == 3 ):
+          case( $page->getDoktype() == 4 ):
+          case( $page->getDoktype() == 7 ):
 //						$this->_actionWiPage( $page, $sysdomain );
-						$this->_actionWiPage( $page );
-						break 2;
-					default:
-						$this->_listActionWoPage();
-						break 2;
-				}
-			case($rootPid == 0):
-			default:
-				$this->_listActionWoPage();
-				break;
-		}
-	}
+            $this->_actionWiPage( $page );
+            break 2;
+          default:
+            $this->_listActionWoPage();
+            break 2;
+        }
+      case($rootPid == 0):
+      default:
+        $this->_listActionWoPage();
+        break;
+    }
+  }
 
   /**
    * _viewAssign
@@ -323,7 +340,7 @@ class ModuleController extends AbstractController
    */
   public function pagesAction( \Netzmacher\Start\Domain\Model\Page $page )
   {
-		$this->_pagesAction();
+    $this->_pagesAction();
   }
 
   /**

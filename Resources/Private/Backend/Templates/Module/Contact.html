@@ -2,7 +2,7 @@
   <f:layout name="Default" />
 
   <f:section name="content">
-    <h1>{page.title}: {headerContact}</h1>
+    <h1>{headerContact}: {page.title}: </h1>
     <f:render partial="FormErrors" />
     <f:form action="update" name="page" object="{page}" >
 			<f:render partial="Forms/FieldsContact" arguments="{page:page}" />
