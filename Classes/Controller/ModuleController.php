@@ -4,8 +4,6 @@ namespace Netzmacher\Start\Controller;
 
 use Netzmacher\Start\Utility\Localisation;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
-use TYPO3\CMS\Core\Messaging\FlashMessage;
-use TYPO3\CMS\Core\Messaging\FlashMessageQueue;
 
 /* * *
  *
@@ -49,7 +47,7 @@ class ModuleController extends AbstractController
     $arrPagetree      = $this->pageRepository->getPagetree( $page->getPid() );
     $pagetreeDefaults = [
         -1  => Localisation::getLabel( $this->_llPath, 'optionInherit' )
-        , 0   => Localisation::getLabel( $this->_llPath, 'optionNoPage' )
+        , -2   => Localisation::getLabel( $this->_llPath, 'optionNoPage' )
         , '-' => '--------------------------------'
     ];
     $arrPagetree      = $pagetreeDefaults + $arrPagetree;

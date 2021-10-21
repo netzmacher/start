@@ -12,6 +12,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
             * Integration TypoScript
 						Affected files:
             * Classes/Controller/ModuleController.php
+            * Configuration/TCA/Overrides/Default/pages.php            
             * Resources/Private/Backend/Templates/Module
               * Contact.html
               * Pages.html

@@ -471,8 +471,8 @@ ExtensionManagementUtility::addToAllTCAtypes(
         . '  --palette--;LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_palettefoundation;tx_start_palettefoundation,'
         . '  --palette--;LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_palettenavigation;tx_start_palettenavigation,'
 // 211013, dwildt, 2-: Pages should managed by the module. Editing dirctly can cause unwanted effects.
-//        . '--div--;LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_divpages,'
-//        . '	 --palette--;LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_palettepages;tx_start_palettepages,'
+        . '--div--;LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_divpages,'
+        . '	 --palette--;LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_palettepages;tx_start_palettepages,'
         , ''
         , 'after:categories'
 );
