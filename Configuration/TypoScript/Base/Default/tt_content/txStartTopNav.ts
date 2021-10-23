@@ -51,11 +51,33 @@ tt_content.txStartTopNav {
 		topNavHasSearchform					= {$start.foundation.topbar.searchform}
 		topNavMobileShowParentLink	= {$start.foundation.topbar.mobile_show_parent_link}
 		topNavPosition							= {$start.foundation.topbar.position}
-		topNavRootPid								= {$start.pages.root}
+      // #v1633, 211021, dwildt, +
+//		topNavRootPid								= {$start.pages.root}
 		topNavSearchformButton			= {$start.foundation.topbar.searchform.button}
 		topNavStoplevel							= {$start.foundation.topbar.stoplevel}
 	}
 	variables {
+      // #v1633, 211021, dwildt, +
+//    topNavRootPid = CASE
+//    topNavRootPid {
+//      key {
+//        data = levelfield:-1,tx_start_pages_root,slide
+//      }
+//        // inherit
+//      default = TEXT
+//      default {
+//        data = levelfield:-1,tx_start_pages_root,slide
+//          // Downwards compatibility
+//        ifEmpty = {$start.pages.root}
+//      }
+//        // no page
+//      -1 = TEXT
+//      -1 {
+//        value = 
+//      }
+//        // devider
+//      - < .-1
+//    }
 			// li.menu-icon
 		topNavMenuIcon = TEXT
 		topNavMenuIcon {

@@ -1,56 +1,59 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
-	<table class="woPaddingLeft fullWidth">
-		<tr class="white">
-			<td width="33.3%">
-				<div class="form-group">
-					<label for="txStartPagesRoot">
-						<f:translate key="LLL:EXT:start/Resources/Private/Language/pages.xlf:txStartPagesRoot" />
-					</label>
-					<f:form.select property="txStartPagesRoot" options="{arrPagetree}"  size="30" value="{page.txStartPagesRoot}"/>
-				</div>
-			</td>      
-			<td width="33.4%">
-				<div class="form-group">
-					<label for="txStartPagesCalendar">
-						<f:translate key="LLL:EXT:start/Resources/Private/Language/pages.xlf:txStartPagesCalendar" />
-					</label>
-					<f:form.select property="txStartPagesCalendar" options="{arrPagetree}"  size="30" value="{page.txStartPagesCalendar}"/>
-				</div>
-			</td>
-			<td width="33.3%">
-				<div class="form-group">
-					<label for="txStartPagesGdpr">
-						<f:translate key="LLL:EXT:start/Resources/Private/Language/pages.xlf:txStartPagesGdpr" />
-					</label>
-					<f:form.select property="txStartPagesGdpr" options="{arrPagetree}"  size="30" value="{page.txStartPagesGdpr}"/>
-				</div>
-			</td>
-		</tr>
-		<tr class="white">
-			<td width="33.3%">
-				<div class="form-group">
-					<label for="txStartPagesNews">
-						<f:translate key="LLL:EXT:start/Resources/Private/Language/pages.xlf:txStartPagesNews" />
-					</label>
-					<f:form.select property="txStartPagesNews" options="{arrPagetree}"  size="30" value="{page.txStartPagesNews}"/>
-				</div>
-			</td>
-			<td width="33.4%">
-				<div class="form-group">
-					<label for="txStartPagesNewsletter">
-						<f:translate key="LLL:EXT:start/Resources/Private/Language/pages.xlf:txStartPagesNewsletter" />
-					</label>
-					<f:form.select property="txStartPagesNewsletter" options="{arrPagetree}"  size="30" value="{page.txStartPagesNewsletter}"/>
-				</div>
-			</td>
-			<td width="33.3%">
-				<div class="form-group">
-					<label for="txStartPagesRss">
-						<f:translate key="LLL:EXT:start/Resources/Private/Language/pages.xlf:txStartPagesRss" />
-					</label>
-					<f:form.select property="txStartPagesRss" options="{arrPagetree}"  size="30" value="{page.txStartPagesRss}"/>
-				</div>
-			</td>
-		</tr>
-	</table>
+  <table class="woPaddingLeft fullWidth">
+    <tr class="white">
+      <td width="33.3%">
+        <div class="form-group">
+          <label for="txStartPagesRoot">
+            <f:translate key="LLL:EXT:start/Resources/Private/Language/pages.xlf:txStartPagesRoot" />
+          </label>
+          <f:form.select property="txStartPagesRoot" options="{arrPagetree}"  size="20" value="{page.txStartPagesRoot}"/>
+        </div>
+      </td>      
+      <td width="33.4%">
+        <div class="form-group">
+          <label for="txStartPagesCalendar">
+            <f:translate key="LLL:EXT:start/Resources/Private/Language/pages.xlf:txStartPagesCalendar" />
+          </label>
+          <f:form.select property="txStartPagesCalendar" options="{arrPagetree}"  size="20" value="{page.txStartPagesCalendar}"/>
+        </div>
+      </td>
+      <td width="33.3%">
+        <div class="form-group">
+          <label for="txStartPagesGdpr">
+            <f:translate key="LLL:EXT:start/Resources/Private/Language/pages.xlf:txStartPagesGdpr" />
+          </label>
+          <f:form.select property="txStartPagesGdpr" options="{arrPagetree}"  size="20" value="{page.txStartPagesGdpr}"/>
+        </div>
+      </td>
+    </tr>
+  </table>
+  <f:render partial="Forms/Buttons" arguments="{_all}" />
+  <table class="woPaddingLeft fullWidth">
+    <tr class="white">
+      <td width="33.3%">
+        <div class="form-group">
+          <label for="txStartPagesNews">
+            <f:translate key="LLL:EXT:start/Resources/Private/Language/pages.xlf:txStartPagesNews" />
+          </label>
+          <f:form.select property="txStartPagesNews" options="{arrPagetree}"  size="20" value="{page.txStartPagesNews}"/>
+        </div>
+      </td>
+      <td width="33.4%">
+        <div class="form-group">
+          <label for="txStartPagesNewsletter">
+            <f:translate key="LLL:EXT:start/Resources/Private/Language/pages.xlf:txStartPagesNewsletter" />
+          </label>
+          <f:form.select property="txStartPagesNewsletter" options="{arrPagetree}"  size="20" value="{page.txStartPagesNewsletter}"/>
+        </div>
+      </td>
+      <td width="33.3%">
+        <div class="form-group">
+          <label for="txStartPagesRss">
+            <f:translate key="LLL:EXT:start/Resources/Private/Language/pages.xlf:txStartPagesRss" />
+          </label>
+          <f:form.select property="txStartPagesRss" options="{arrPagetree}"  size="20" value="{page.txStartPagesRss}"/>
+        </div>
+      </td>
+    </tr>
+  </table>
 </html>

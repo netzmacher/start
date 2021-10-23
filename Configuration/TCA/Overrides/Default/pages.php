@@ -99,11 +99,11 @@ $temporaryColumns = array(
             'items'               => [
                 [
                     'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:optionInherit',
-                    -1,
+                    '',
                 ],
                 [
                     'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:optionNoPage',
-                    0,
+                    -1,
                 ],
             ],
             'maxitems'            => 1,
@@ -131,11 +131,11 @@ $temporaryColumns = array(
             'items'               => [
                 [
                     'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:optionInherit',
-                    -1,
+                    '',
                 ],
                 [
                     'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:optionNoPage',
-                    0,
+                    -1,
                 ],
             ],
             'maxitems'            => 1,
@@ -163,11 +163,11 @@ $temporaryColumns = array(
             'items'               => [
                 [
                     'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:optionInherit',
-                    -1,
+                    '',
                 ],
                 [
                     'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:optionNoPage',
-                    0,
+                    -1,
                 ],
             ],
             'maxitems'            => 1,
@@ -195,11 +195,11 @@ $temporaryColumns = array(
             'items'               => [
                 [
                     'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:optionInherit',
-                    -1,
+                    '',
                 ],
                 [
                     'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:optionNoPage',
-                    0,
+                    -1,
                 ],
             ],
             'maxitems'            => 1,
@@ -227,11 +227,11 @@ $temporaryColumns = array(
             'items'               => [
                 [
                     'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:optionInherit',
-                    -1,
+                    '',
                 ],
                 [
                     'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:optionNoPage',
-                    0,
+                    -1,
                 ],
             ],
             'maxitems'            => 1,
@@ -259,11 +259,11 @@ $temporaryColumns = array(
             'items'               => [
                 [
                     'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:optionInherit',
-                    -1,
+                    '',
                 ],
                 [
                     'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:optionNoPage',
-                    0,
+                    -1,
                 ],
             ],
             'maxitems'            => 1,

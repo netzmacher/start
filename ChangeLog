@@ -11,13 +11,24 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
             * Change value of non selected page from 0 to -2
             * Integration TypoScript
 						Affected files:
-            * Classes/Controller/ModuleController.php
-            * Configuration/TCA/Overrides/Default/pages.php            
-            * Resources/Private/Backend/Templates/Module
-              * Contact.html
-              * Pages.html
-              * Socialmedia.html
-              * Unit.html
+            * Classes
+              * Controller/ModuleController.php
+              * Domain/Repository/PageRepository.php
+            * Configuration
+              * TCA/Overrides/Default/pages.php            
+              * TypoScript/Base/Default/tt_content/txStartTopNav.ts
+            * Resources/Private
+              * Backend
+                * Partials/Forms/FieldsPages.html
+                * Templates/Module
+                  * Contact.html
+                  * Pages.html
+                  * Socialmedia.html
+                  * Unit.html
+              * Language
+                * de.locallang_md1.xlf
+                * locallang_md1.xlf
+            * ext_tables.sql
 
 8.5.0
   21-10-13

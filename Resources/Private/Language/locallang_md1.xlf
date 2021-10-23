@@ -338,6 +338,16 @@
 				<source>No page</source>
 				<target>Keine Seite</target>
 			</trans-unit>
+			<trans-unit id="promptUseRootPage">
+				<source><![CDATA[
+          This isn't the home page. Please setup the properties below only,
+          if you know, what you are doing.
+				]]></source>
+				<target><![CDATA[
+          Das ist nicht die Startseite. Ändere die Einstellungen unten nur, 
+          wenn Du weißt, was Du tust. 
+				]]></target>
+			</trans-unit>			
 			<trans-unit id="socialmediaFooterPrompt">
 				<source><![CDATA[
 					<h2>
