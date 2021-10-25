@@ -20,18 +20,18 @@ $extIcons = [
     ],
 ];
 
-foreach ( $extIcons as $extIcon )
+foreach ($extIcons as $extIcon)
 {
-  $TCA[ 'pages' ][ 'columns' ][ 'module' ][ 'config' ][ 'items' ][]           = [
-      $extIcon[ 'label' ]
-      , $extIcon[ 'key' ]
-      , $extIcon[ 'identifier' ]
+  $TCA['pages']['columns']['module']['config']['items'][]           = [
+      $extIcon['label']
+      , $extIcon['key']
+      , $extIcon['identifier']
   ];
-  $TCA[ 'pages' ][ 'ctrl' ][ 'typeicon_classes' ][ $extIcon[ 'identifier' ] ] = $extIcon[ 'identifier' ];
+  $TCA['pages']['ctrl']['typeicon_classes'][$extIcon['identifier']] = $extIcon['identifier'];
 }
 
 // #i0180, 180622, dwildt, 3+
-if ( Extensionmanager::getProperty( 'tcaPagesDisabled' ) )
+if (Extensionmanager::getProperty('tcaPagesDisabled'))
 {
   return;
 }
@@ -470,9 +470,12 @@ ExtensionManagementUtility::addToAllTCAtypes(
         . '	 --palette--;LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_palettesocialmedia;tx_start_palettesocialmedia,'
         . '  --palette--;LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_palettefoundation;tx_start_palettefoundation,'
         . '  --palette--;LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_palettenavigation;tx_start_palettenavigation,'
-// 211013, dwildt, 2-: Pages should managed by the module. Editing dirctly can cause unwanted effects.
-        . '--div--;LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_divpages,'
-        . '	 --palette--;LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_palettepages;tx_start_palettepages,'
+// 211013, dwildt, 2-: Pages should managed by the module.
+// Editing directly can cause unwanted effects.
+//  * Pages within folders won't displayed
+//  * null value for an id can't handled: value inherit is impossible
+//        . '--div--;LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_divpages,'
+//        . '	 --palette--;LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_palettepages;tx_start_palettepages,'
         , ''
         , 'after:categories'
 );

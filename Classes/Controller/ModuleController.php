@@ -87,8 +87,13 @@ class ModuleController extends AbstractController
     $this->view->assignMultiple(
             [
                 'page'              => $page
+                , 'arrPagetree'       => $this->_getArrPagetree()
                 , 'btnCancel'         => Localisation::getLabel($this->_llPath, 'btnCancel')
                 , 'btnSend'           => Localisation::getLabel($this->_llPath, 'btnSend')
+                , 'footerContact'     => Localisation::getLabel($this->_llPath, 'footerContact')
+                , 'footerPages'       => Localisation::getLabel($this->_llPath, 'footerPages')
+                , 'footerSocialmedia' => Localisation::getLabel($this->_llPath, 'footerSocialmedia')
+                , 'footerUnit'        => Localisation::getLabel($this->_llPath, 'footerUnit')
                 , 'headerBanner'      => Localisation::getLabel($this->_llPath, 'headerBanner')
                 , 'headerContact'     => Localisation::getLabel($this->_llPath, 'headerContact')
                 , 'headerLayout'      => Localisation::getLabel($this->_llPath, 'headerLayout')
@@ -96,10 +101,6 @@ class ModuleController extends AbstractController
                 , 'headerSocialmedia' => Localisation::getLabel($this->_llPath, 'headerSocialmedia')
                 , 'headerUnit'        => Localisation::getLabel($this->_llPath, 'headerUnit')
                 , 'headerWallpaper'   => Localisation::getLabel($this->_llPath, 'headerWallpaper')
-                , 'footerContact'     => Localisation::getLabel($this->_llPath, 'contactFooterPrompt')
-                , 'footerPages'       => Localisation::getLabel($this->_llPath, 'pagesFooterPrompt')
-                , 'footerSocialmedia' => Localisation::getLabel($this->_llPath, 'socialmediaFooterPrompt')
-                , 'footerUnit'        => Localisation::getLabel($this->_llPath, 'unitFooterPrompt')
             ]
     );
   }
@@ -136,15 +137,15 @@ class ModuleController extends AbstractController
                 , 'listTableTdDescriptionBanner'      => Localisation::getLabel($this->_llPath, 'listTableTdDescriptionBanner')
                 , 'listTableTdDescriptionContact'     => Localisation::getLabel($this->_llPath, 'listTableTdDescriptionContact')
                 , 'listTableTdDescriptionLayout'      => Localisation::getLabel($this->_llPath, 'listTableTdDescriptionLayout')
-                , 'listTableTdDescriptionSocialmedia' => Localisation::getLabel($this->_llPath, 'listTableTdDescriptionSocialmedia')
                 , 'listTableTdDescriptionPages'       => Localisation::getLabel($this->_llPath, 'listTableTdDescriptionPages')
+                , 'listTableTdDescriptionSocialmedia' => Localisation::getLabel($this->_llPath, 'listTableTdDescriptionSocialmedia')
                 , 'listTableTdDescriptionUnit'        => Localisation::getLabel($this->_llPath, 'listTableTdDescriptionUnit')
                 , 'listTableTdDescriptionWallpaper'   => Localisation::getLabel($this->_llPath, 'listTableTdDescriptionWallpaper')
                 , 'listTableTdPlaceBanner'            => Localisation::getLabel($this->_llPath, 'listTableTdPlaceBanner')
                 , 'listTableTdPlaceContact'           => Localisation::getLabel($this->_llPath, 'listTableTdPlaceContact')
                 , 'listTableTdPlaceLayout'            => Localisation::getLabel($this->_llPath, 'listTableTdPlaceLayout')
-                , 'listTableTdPlaceSocialmedia'       => Localisation::getLabel($this->_llPath, 'listTableTdPlaceSocialmedia')
                 , 'listTableTdPlacePages'             => Localisation::getLabel($this->_llPath, 'listTableTdPlacePages')
+                , 'listTableTdPlaceSocialmedia'       => Localisation::getLabel($this->_llPath, 'listTableTdPlaceSocialmedia')
                 , 'listTableTdPlaceUnit'              => Localisation::getLabel($this->_llPath, 'listTableTdPlaceUnit')
                 , 'listTableTdPlaceWallpaper'         => Localisation::getLabel($this->_llPath, 'listTableTdPlaceWallpaper')
                 , 'listTableTdPrecedenceRecommended'  => Localisation::getLabel($this->_llPath, 'listTableTdPrecedenceRecommended')
@@ -152,8 +153,8 @@ class ModuleController extends AbstractController
                 , 'listTableTdSubjectBanner'          => Localisation::getLabel($this->_llPath, 'listTableTdSubjectBanner')
                 , 'listTableTdSubjectContact'         => Localisation::getLabel($this->_llPath, 'listTableTdSubjectContact')
                 , 'listTableTdSubjectLayout'          => Localisation::getLabel($this->_llPath, 'listTableTdSubjectLayout')
-                , 'listTableTdSubjectSocialmedia'     => Localisation::getLabel($this->_llPath, 'listTableTdSubjectSocialmedia')
                 , 'listTableTdSubjectPages'           => Localisation::getLabel($this->_llPath, 'listTableTdSubjectPages')
+                , 'listTableTdSubjectSocialmedia'     => Localisation::getLabel($this->_llPath, 'listTableTdSubjectSocialmedia')
                 , 'listTableTdSubjectUnit'            => Localisation::getLabel($this->_llPath, 'listTableTdSubjectUnit')
                 , 'listTableTdSubjectWallpaper'       => Localisation::getLabel($this->_llPath, 'listTableTdSubjectWallpaper')
             ]
@@ -175,34 +176,6 @@ class ModuleController extends AbstractController
                 , 'footerHelpSupport' => Localisation::getLabel($this->_llPath, 'defaultFooterHelpSupport')
                 , 'headerLabel'       => Localisation::getLabel($this->_llPath, 'listHeaderLabelWoPage')
                 , 'headerPrompt'      => Localisation::getLabel($this->_llPath, 'listHeaderPromptWoPage')
-            ]
-    );
-  }
-
-  /**
-   * _viewAssignPage
-   * 
-   * @param   \Netzmacher\Start\Domain\Model\Page $page
-   * @return  void
-   * @version 8.5.1
-   * @since   8.5.0
-   */
-  private function _viewAssignPage(\Netzmacher\Start\Domain\Model\Page $page)
-  {
-    $this->view->assignMultiple(
-            [
-                'page'                   => $page
-                , 'arrPagetree'            => $this->_getArrPagetree()
-                , 'btnCancel'              => Localisation::getLabel($this->_llPath, 'btnCancel')
-                , 'btnSend'                => Localisation::getLabel($this->_llPath, 'btnSend')
-                , 'headerHeader'           => Localisation::getLabel($this->_llPath, 'headerHeader')
-                , 'header404'              => Localisation::getLabel($this->_llPath, 'header404')
-                , 'headerMisc'             => Localisation::getLabel($this->_llPath, 'headerMisc')
-                , 'headerPages'            => Localisation::getLabel($this->_llPath, 'headerPages')
-                , 'headerSeo'              => Localisation::getLabel($this->_llPath, 'headerSeo')
-                , 'headerSocial'           => Localisation::getLabel($this->_llPath, 'headerSocial')
-                , 'headerTheme'            => Localisation::getLabel($this->_llPath, 'headerTheme')
-                , 'listHeaderPromptWiPage' => Localisation::getLabel($this->_llPath, 'listHeaderPromptWiPage')
             ]
     );
   }
@@ -285,7 +258,7 @@ class ModuleController extends AbstractController
   public function pagesAction(\Netzmacher\Start\Domain\Model\Page $page)
   {
     $this->_promptThisIsNotTheRootPage();
-    $this->_viewAssignPage($page);
+    $this->_viewAssign($page);
   }
 
   /**

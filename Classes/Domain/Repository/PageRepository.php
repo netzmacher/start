@@ -58,7 +58,7 @@ class PageRepository extends \TYPO3\CMS\Extbase\Persistence\Repository
   {
     $_pids = [];
 
-    $result = $this->findSubpages($pageId);
+    $result = $this->findSubpages((int) $pageId);
     $rows   = $result->fetchAll();
 
     foreach ($rows as $row)

@@ -61,8 +61,8 @@
         <target>Startseite</target>
       </trans-unit>
       <trans-unit id="tx_start_pages_rss">
-        <source>Page with calendar</source>
-        <target>Seite mit dem Kalender</target>
+        <source>RSS feed</source>
+        <target>RSS-Feed</target>
       </trans-unit>
       <trans-unit id="tx_start_phone">
         <source>International phone number for devices (like +493012345678)</source>

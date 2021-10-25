@@ -15,7 +15,47 @@
 				<source>Send</source>
 				<target>Speichern</target>
 			</trans-unit>
-			<trans-unit id="contactFooterPrompt">
+			<trans-unit id="defaultFooterHelpSupport">
+				<source><![CDATA[
+					<h2>
+						Help and Support
+					</h2>
+					<p>
+						<a class="btn btn-info" href="https://docs.typo3.org/typo3cms/extensions/start/" target="_blank" title="Online manual Start TYPO3 Responsive at typo3.org">Online manual Start TYPO3 Responsive</a>
+						<a class="btn btn-default" href="https://docs.typo3.org/typo3cms/GettingStartedTutorial/" target="_blank" title="TYPO3 Getting Started Tutorial">TYPO3 Getting Started</a>
+						<a class="btn btn-default" href="https://docs.typo3.org/typo3cms/EditorsTutorial/" target="_blank" title="TYPO3 Tutorial for Editors">TYPO3 For Editors</a>
+						<a class="btn btn-warning" href="https://typo3-gruene.de/support" target="_blank" title="Fee-based support of die Netzmacher, the developers of TYPO3 GRÜNE">Fee-based support</a>
+					</p>			
+				]]></source>
+				<target><![CDATA[
+					<h2>
+						Hilfe und Support
+					</h2>
+					<p>
+						<a class="btn btn-info" href="https://docs.typo3.org/typo3cms/extensions/start/" target="_blank" title="Online-Handbuch Start TYPO3 Responsiveauf typo3.org">Online-Handbuch Start TYPO3 Responsive</a>
+						<a class="btn btn-default" href="https://docs.typo3.org/typo3cms/GettingStartedTutorial/" target="_blank" title="TYPO3 Getting Started Tutorial">TYPO3 Getting Started</a>
+						<a class="btn btn-default" href="https://docs.typo3.org/typo3cms/EditorsTutorial/" target="_blank" title="TYPO3 Tutorial for Editors">TYPO3 For Editors</a>
+						<a class="btn btn-warning" href="https://typo3-gruene.de/support" target="_blank" title="Kostenpflichtiger Support der Netzmacher, den Entwicklern von TYPO3 GRÜNE">Kostenpflichtiger Support</a>
+					</p>			
+				]]></target>
+			</trans-unit>			
+			<trans-unit id="fmBanner">
+				<source>You manage the banners in the [TYPO3 GRÜNE!] tab in the properties of your page</source>
+				<target>Die Banner verwaltest Du im Reiter [TYPO3 GRÜNE!] bei den Eigenschaften Deiner Seite</target>
+			</trans-unit>
+			<trans-unit id="fmClearFeCache">
+				<source>Please empty the frontend cache. See the lightning icon in the top right corner of the bar.</source>
+				<target>Bitte leere den Frontend-Cache. Siehe Blitz-Icon oben rechts in der Leiste.</target>
+			</trans-unit>
+			<trans-unit id="fmLayout">
+				<source>You manage the layout of your page in the [appearance] tab in the properties of your page</source>
+				<target>Das Layout Deiner Seite verwaltest Du im Reiter [Erscheinungsbild] bei den Eigenschaften Deiner Seite</target>
+			</trans-unit>
+			<trans-unit id="fmUpdate">
+				<source>Your changes have been saved.</source>
+				<target>Deine Änderungen wurden gespeichert.</target>
+			</trans-unit>
+			<trans-unit id="footerContact">
 				<source><![CDATA[
 					<h2>
 						Address line
@@ -77,45 +117,177 @@
 					</ul>
 				]]></target>
 			</trans-unit>
-			<trans-unit id="defaultFooterHelpSupport">
+      <trans-unit id="footerPages">
+        <source><![CDATA[
+					<h2>
+						Pages
+					</h2>
+          <p>
+            On the website, these pages are automatically linked in some places.
+            Select the pages only on the top page – your home page.
+            Your selection is inherited on all child pages.
+          </p>
+					<ul>
+						<li>
+              <strong>Home:</strong> The homepage of your website. 
+              Often referred to as a home page. Usually symbolized in the side tree with a globe. 
+						</li>
+						<li>
+              <strong>Calendar:</strong> The page with your calendar.
+						</li>
+						<li>
+              <strong>News:</strong> The page with your messages. 
+						</li>
+						<li>
+              <strong>Newsletter form:</strong> The page with your form to unsubscribe and unsubscribe from the newsletter. 
+						</li>
+						<li>
+              <strong> Privacy Policy (GDPR):</strong> The page with your privacy policy. 
+						</li>
+						<li>
+              <strong>RSS Feed:</strong> The page with your RSS feed.
+						</li>
+					</ul>
+				]]></source>
+        <target><![CDATA[
+					<h2>
+						Seiten
+					</h2>
+          <p>
+            Auf der Website wird auf diese Seiten an manchen Stellen automatisch verlinkt.
+            Wähle die Seiten nur auf der obersten Seite – Deiner Startseite – aus.
+            Deine Auswahl wird auf alle untergeordneten Seiten vererbt.
+          </p>
+					<ul>
+						<li>
+              <strong>Startseite:</strong> Die Startseite Deiner Webiste. Wird gerne auch als Home-Page bezeichnet.
+              Wird im Seitenbaum in der Regel mit einer Weltkugel symbolisiert. 
+						</li>
+						<li>
+              <strong>Datenschutzerklärung (DSGVO):</strong> Die Seite mit Deiner Datenschutzerklärung.
+						</li>
+						<li>
+              <strong>Kalender:</strong> Die Seite mit Deinem Kalender.
+						</li>
+						<li>
+              <strong>Nachrichten:</strong> Die Seite mit Deinen Nachrichten.
+						</li>
+						<li>
+              <strong>Newsletter-Formular:</strong> Die Seite mit Deinem Formular für die An- und Abmeldung des Newsletters.
+						</li>
+						<li>
+              <strong>RSS-Feed:</strong> Die Seite mit Deinem RSS-Feed.
+						</li>
+					</ul>
+				]]></target>
+      </trans-unit>
+			<trans-unit id="footerSocialmedia">
 				<source><![CDATA[
 					<h2>
-						Help and Support
+						Explanation
 					</h2>
-					<p>
-						<a class="btn btn-info" href="https://docs.typo3.org/typo3cms/extensions/start/" target="_blank" title="Online manual Start TYPO3 Responsive at typo3.org">Online manual Start TYPO3 Responsive</a>
-						<a class="btn btn-default" href="https://docs.typo3.org/typo3cms/GettingStartedTutorial/" target="_blank" title="TYPO3 Getting Started Tutorial">TYPO3 Getting Started</a>
-						<a class="btn btn-default" href="https://docs.typo3.org/typo3cms/EditorsTutorial/" target="_blank" title="TYPO3 Tutorial for Editors">TYPO3 For Editors</a>
-						<a class="btn btn-warning" href="https://typo3-gruene.de/support" target="_blank" title="Fee-based support of die Netzmacher, the developers of TYPO3 GRÜNE">Fee-based support</a>
-					</p>			
+					<ul>
+						<li>
+							<strong>Icons:</strong> Specified links will replaced by icons.
+						</li>
+						<li>
+							<strong>Place:</strong> The icons appear at the top right of each page.
+						</li>
+						<li>
+							<strong>Recommende format:</strong> https
+						</li>
+						<li>
+							<strong>Example:</strong> https://www.facebook.com/netzmacher/ 
+						</li>
+					</ul>
 				]]></source>
 				<target><![CDATA[
 					<h2>
-						Hilfe und Support
+						Erläuterung
 					</h2>
-					<p>
-						<a class="btn btn-info" href="https://docs.typo3.org/typo3cms/extensions/start/" target="_blank" title="Online-Handbuch Start TYPO3 Responsiveauf typo3.org">Online-Handbuch Start TYPO3 Responsive</a>
-						<a class="btn btn-default" href="https://docs.typo3.org/typo3cms/GettingStartedTutorial/" target="_blank" title="TYPO3 Getting Started Tutorial">TYPO3 Getting Started</a>
-						<a class="btn btn-default" href="https://docs.typo3.org/typo3cms/EditorsTutorial/" target="_blank" title="TYPO3 Tutorial for Editors">TYPO3 For Editors</a>
-						<a class="btn btn-warning" href="https://typo3-gruene.de/support" target="_blank" title="Kostenpflichtiger Support der Netzmacher, den Entwicklern von TYPO3 GRÜNE">Kostenpflichtiger Support</a>
-					</p>			
+					<ul>
+						<li>
+							<strong>Icons:</strong> Angegebene Links werden durch Icons ersetzt.
+						</li>
+						<li>
+							<strong>Ort:</strong> Die Icons erscheinen oben rechts auf jeder Seite.
+						</li>
+						<li>
+							<strong>Empfohlenes Format:</strong> https
+						</li>
+						<li>
+							<strong>Beispiel:</strong> https://www.facebook.com/netzmacher/ 
+						</li>
+					</ul>
 				]]></target>
-			</trans-unit>			
-			<trans-unit id="fmBanner">
-				<source>You manage the banners in the [TYPO3 GRÜNE!] tab in the properties of your page</source>
-				<target>Die Banner verwaltest Du im Reiter [TYPO3 GRÜNE!] bei den Eigenschaften Deiner Seite</target>
 			</trans-unit>
-			<trans-unit id="fmClearFeCache">
-				<source>Please empty the frontend cache. See the lightning icon in the top right corner of the bar.</source>
-				<target>Bitte leere den Frontend-Cache. Siehe Blitz-Icon oben rechts in der Leiste.</target>
-			</trans-unit>
-			<trans-unit id="fmLayout">
-				<source>You manage the layout of your page in the [appearance] tab in the properties of your page</source>
-				<target>Das Layout Deiner Seite verwaltest Du im Reiter [Erscheinungsbild] bei den Eigenschaften Deiner Seite</target>
-			</trans-unit>
-			<trans-unit id="fmUpdate">
-				<source>Your changes have been saved.</source>
-				<target>Deine Änderungen wurden gespeichert.</target>
+			<trans-unit id="footerUnit">
+				<source><![CDATA[
+					<h2>
+						Main menu
+					</h2>
+					<h3>
+						Label on the top level
+					</h3>
+					<ul>
+						<li>
+							<strong>Place:</strong> First entry (left) in the menu bar at the top of every page
+						</li>
+						<li>
+							<strong>Recommended format:</strong> <i>Short form of name / company</i>
+						</li>
+						<li>
+							<strong>Example:</strong> Netzmacher
+						</li>
+					</ul>
+					<h3>
+						Label with mouse-over
+					</h3>
+					<ul>
+						<li>
+							<strong>Place:</strong> First entry (left) in the menu bar during mouse over
+						</li>
+						<li>
+							<strong>Recommended format:</strong> <i>Full label for name / company</i>
+						</li>
+						<li>
+							<strong>Example:</strong> Die Netzmacher
+						</li>
+					</ul>
+				]]></source>
+				<target><![CDATA[
+					<h2>
+						Hauptmenü
+					</h2>
+					<h3>
+						Bezeichnung auf oberster Ebene
+					</h3>
+					<ul>
+						<li>
+							<strong>Ort:</strong> Erster Eintrag (links) in der Menüleiste oben auf jeder Seite
+						</li>
+						<li>
+							<strong>Empfohlenes Format:</strong> <i>Kurzform Name/Firma</i>
+						</li>
+						<li>
+							<strong>Beispiel:</strong> Netzmacher
+						</li>
+					</ul>
+					<h3>
+						Bezeichnung bei Mouse-Over
+					</h3>
+					<ul>
+						<li>
+							<strong>Ort:</strong> Erster Eintrag (links) in der Menüleiste bei Berührung mit der Maus
+						</li>
+						<li>
+							<strong>Empfohlenes Format:</strong> <i>Vollständige Bezeichnung Name / Firma</i>
+						</li>
+						<li>
+							<strong>Beispiel:</strong> Die Netzmacher
+						</li>
+					</ul>
+				]]></target>
 			</trans-unit>
 			<trans-unit id="headerBanner">
 				<source>Banner</source>
@@ -348,114 +520,6 @@
           wenn Du weißt, was Du tust. 
 				]]></target>
 			</trans-unit>			
-			<trans-unit id="socialmediaFooterPrompt">
-				<source><![CDATA[
-					<h2>
-						Explanation
-					</h2>
-					<ul>
-						<li>
-							<strong>Icons:</strong> Specified links will replaced by icons.
-						</li>
-						<li>
-							<strong>Place:</strong> The icons appear at the top right of each page.
-						</li>
-						<li>
-							<strong>Recommende format:</strong> https
-						</li>
-						<li>
-							<strong>Example:</strong> https://www.facebook.com/netzmacher/ 
-						</li>
-					</ul>
-				]]></source>
-				<target><![CDATA[
-					<h2>
-						Erläuterung
-					</h2>
-					<ul>
-						<li>
-							<strong>Icons:</strong> Angegebene Links werden durch Icons ersetzt.
-						</li>
-						<li>
-							<strong>Ort:</strong> Die Icons erscheinen oben rechts auf jeder Seite.
-						</li>
-						<li>
-							<strong>Empfohlenes Format:</strong> https
-						</li>
-						<li>
-							<strong>Beispiel:</strong> https://www.facebook.com/netzmacher/ 
-						</li>
-					</ul>
-				]]></target>
-			</trans-unit>
-			<trans-unit id="unitFooterPrompt">
-				<source><![CDATA[
-					<h2>
-						Main menu
-					</h2>
-					<h3>
-						Label on the top level
-					</h3>
-					<ul>
-						<li>
-							<strong>Place:</strong> First entry (left) in the menu bar at the top of every page
-						</li>
-						<li>
-							<strong>Recommended format:</strong> <i>Short form of name / company</i>
-						</li>
-						<li>
-							<strong>Example:</strong> Netzmacher
-						</li>
-					</ul>
-					<h3>
-						Label with mouse-over
-					</h3>
-					<ul>
-						<li>
-							<strong>Place:</strong> First entry (left) in the menu bar during mouse over
-						</li>
-						<li>
-							<strong>Recommended format:</strong> <i>Full label for name / company</i>
-						</li>
-						<li>
-							<strong>Example:</strong> Die Netzmacher
-						</li>
-					</ul>
-				]]></source>
-				<target><![CDATA[
-					<h2>
-						Hauptmenü
-					</h2>
-					<h3>
-						Bezeichnung auf oberster Ebene
-					</h3>
-					<ul>
-						<li>
-							<strong>Ort:</strong> Erster Eintrag (links) in der Menüleiste oben auf jeder Seite
-						</li>
-						<li>
-							<strong>Empfohlenes Format:</strong> <i>Kurzform Name/Firma</i>
-						</li>
-						<li>
-							<strong>Beispiel:</strong> Netzmacher
-						</li>
-					</ul>
-					<h3>
-						Bezeichnung bei Mouse-Over
-					</h3>
-					<ul>
-						<li>
-							<strong>Ort:</strong> Erster Eintrag (links) in der Menüleiste bei Berührung mit der Maus
-						</li>
-						<li>
-							<strong>Empfohlenes Format:</strong> <i>Vollständige Bezeichnung Name / Firma</i>
-						</li>
-						<li>
-							<strong>Beispiel:</strong> Die Netzmacher
-						</li>
-					</ul>
-				]]></target>
-			</trans-unit>
 		</body>
 	</file>
 </xliff>

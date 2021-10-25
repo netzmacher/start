@@ -3,6 +3,30 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+8.5.2
+  21-10-21
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v1633: [FEATURE] Enable to manage id of pages.
+            * Classes
+              * Controller/ModuleController.php
+              * Domain/Repository/PageRepository.php
+            * Configuration
+              * TCA/Overrides
+                * Default/pages.php
+                * de.pages.xlf
+                * pages.xlf
+              * TypoScript/Base/Default/tt_content/txStartTopNav.ts
+            * Resources
+              * Private
+                * Backend
+                  * Layouts/Default.html
+                  * Partials/Forms/FieldsPages.html
+                  * Templates/Module/List.html
+                * Language
+                  * de.locallang_md1.xlf
+                  * locallang_md1.xlf
+              * Public/Css/Module/Styles.css
+
 8.5.1
   21-10-21
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
@@ -17,17 +41,19 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
             * Configuration
               * TCA/Overrides/Default/pages.php            
               * TypoScript/Base/Default/tt_content/txStartTopNav.ts
-            * Resources/Private
-              * Backend
-                * Partials/Forms/FieldsPages.html
-                * Templates/Module
-                  * Contact.html
-                  * Pages.html
-                  * Socialmedia.html
-                  * Unit.html
-              * Language
-                * de.locallang_md1.xlf
-                * locallang_md1.xlf
+            * Resources
+              * Private
+                * Backend
+                  * Partials/Forms/FieldsPages.html
+                  * Templates/Module
+                    * Contact.html
+                    * Pages.html
+                    * Socialmedia.html
+                    * Unit.html
+                * Language
+                  * de.locallang_md1.xlf
+                  * locallang_md1.xlf
+              * Public/Css/Module/Styles.css
             * ext_tables.sql
 
 8.5.0
