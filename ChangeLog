@@ -7,6 +7,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
   21-10-25
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
 	* #v1633: [FEATURE] Enable to manage id of pages.
+              Affected files:
             * Classes
               * Controller/ModuleController.php
               * Domain/Repository/PageRepository.php
