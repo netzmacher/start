@@ -64,7 +64,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
   21-09-24
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
 	* #i0069: [BUGFIX] #t5780 recovered
-						* Bootstrape temmplate: TypoScript object path "start.lib.bootstrap.divAdditionalClass.begin" does not exist
+						* Bootstrap temmplate: TypoScript object path "start.lib.bootstrap.divAdditionalClass.begin" does not exist
 						* BE AWARE: divAdditionalClass is deprecated.
 						Affected file:
 						* Configuration/TypoScript/Bootstrap/Base/setup.txt                                                                                                                                                                     
