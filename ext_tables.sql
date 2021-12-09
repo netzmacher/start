@@ -6,6 +6,7 @@ CREATE TABLE pages (
   tx_start_megamenu varchar(128) default NULL,
   tx_start_phone varchar(128) default NULL,
   tx_start_phonelabel varchar(128) default NULL,
+  tx_start_social_cloud varchar(196) default NULL,
   tx_start_social_facebook varchar(196) default NULL,
   tx_start_social_flickr varchar(196) default NULL,
   tx_start_social_github varchar(196) default NULL,

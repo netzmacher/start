@@ -108,6 +108,16 @@ $temporaryColumns = array(
 						'eval' => 'trim',
 				)
 		),
+		'tx_start_social_cloud' => array(
+				'exclude' => 0,
+				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_cloud',
+				'config' => array(
+						'type' => 'input',
+						'size' => '30',
+						'max' => '192',
+						'eval' => 'trim',
+				)
+		),
 		'tx_start_social_facebook' => array(
 				'exclude' => 0,
 				'label' => 'LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_facebook',
@@ -261,13 +271,15 @@ ExtensionManagementUtility::addFieldsToPalette(
 ExtensionManagementUtility::addFieldsToPalette(
 				'pages'
 				, 'tx_start_palettesocialmedia'
-				, 'tx_start_social_facebook,tx_start_social_flickr,tx_start_social_github,'
+				, 'tx_start_social_cloud,tx_start_social_facebook,tx_start_social_flickr,'
 				. '--linebreak--,'
-				. 'tx_start_social_googleplus,tx_start_social_instagram,tx_start_social_linkedin,'
+				. 'tx_start_social_github,tx_start_social_googleplus,tx_start_social_instagram,'
 				. '--linebreak--,'
-				. 'tx_start_social_picasa,tx_start_social_pinterest,tx_start_social_spotify,'
+				. 'tx_start_social_linkedin,tx_start_social_picasa,tx_start_social_pinterest,'
 				. '--linebreak--,'
-				. 'tx_start_social_twitter,tx_start_social_vimeo,tx_start_social_youtube'
+				. 'tx_start_social_spotify,tx_start_social_twitter,tx_start_social_vimeo,'
+				. '--linebreak--,'
+				. 'tx_start_social_youtube,'
 				, ''
 );
 

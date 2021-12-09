@@ -36,6 +36,10 @@
         <source>Visible phone number</source>
         <target>Sichtbare Telefonnummer</target>
       </trans-unit>
+      <trans-unit id="tx_start_social_cloud">
+        <source>cloud</source>
+        <target>Cloud</target>
+      </trans-unit>
       <trans-unit id="tx_start_social_facebook">
         <source>facebook</source>
         <target>Facebook</target>

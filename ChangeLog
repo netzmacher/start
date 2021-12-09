@@ -3,6 +3,27 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+8.4.8
+  21-12-09
+	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
+	* #i6293: [FEATURE] Additional field tx_start_social_cloud
+            -------------------------
+            ATTENTION
+            ---------
+            start.lib.socialmedia.20
+            * All elements moved 10 further. From 10 to 20, from 20 to 30 and so on.
+            -------------------------
+						Affected files:
+            * Configuration
+              * TCA/Overrides
+                * Default/pages.php
+                * de.pages.xlf
+                * pages.xlf
+              * TypoScript/Base/Default/Start/Lib/socialmedia.ts
+            * ext_emconf.php
+            * ext_localconf.php
+            * ext_tables.sql
+
 8.4.7
   21-10-01
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com

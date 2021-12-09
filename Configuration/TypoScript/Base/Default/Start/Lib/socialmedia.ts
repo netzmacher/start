@@ -98,22 +98,22 @@ start {
 				// social media links
 			20 = COA
 			20 {
-					// facebook
+					// cloud
 				10 = TEXT
 				10 {
 					if {
 						isTrue {
-							data = levelfield:-1, tx_start_social_facebook, slide
+							data = levelfield:-1, tx_start_social_cloud, slide
 						}
 					}
-					value = <i class="fi-social-facebook"></i>
+					value = <i class="fi-cloud"></i>
 					typolink {
 						parameter {
 							cObject = COA
 							cObject {
 								10 = TEXT
 								10 {
-									data = levelfield:-1, tx_start_social_facebook, slide
+									data = levelfield:-1, tx_start_social_cloud, slide
 									noTrimWrap = || |
 								}
 								20 = TEXT
@@ -128,7 +128,7 @@ start {
 								}
 								40 = TEXT
 								40 {
-									data = LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_facebook
+									data = LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_cloud
 									noTrimWrap = |"|"|
 								}
 							}
@@ -136,9 +136,32 @@ start {
 					}
 				}
 				20 < .10
-					// flickr
+					// facebook
 				20 = TEXT
 				20 {
+					if {
+						isTrue {
+							data = levelfield:-1, tx_start_social_facebook, slide
+						}
+					}
+					value = <i class="fi-social-facebook"></i>
+					typolink {
+						parameter {
+							cObject {
+								10 {
+    							data = levelfield:-1, tx_start_social_facebook, slide
+								}
+								40 {
+									data = LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_facebook
+								}
+							}
+						}
+					}
+				}
+				30 < .10
+					// flickr
+				30 = TEXT
+				30 {
 					if {
 						isTrue {
 							data = levelfield:-1, tx_start_social_flickr, slide
@@ -158,10 +181,10 @@ start {
 						}
 					}
 				}
-				30 < .10
+				40 < .10
 					// github
-				30 = TEXT
-				30 {
+				40 = TEXT
+				40 {
 					if {
 						isTrue {
 							data = levelfield:-1, tx_start_social_github, slide
@@ -181,10 +204,10 @@ start {
 						}
 					}
 				}
-				40 < .10
+				50 < .10
 					// googleplus
-				40 = TEXT
-				40 {
+				50 = TEXT
+				50 {
 					if {
 						isTrue {
 							data = levelfield:-1, tx_start_social_googleplus, slide
@@ -204,10 +227,10 @@ start {
 						}
 					}
 				}
-				50 < .10
+				60 < .10
 					// instagram
-				50 = TEXT
-				50 {
+				60 = TEXT
+				60 {
 					if {
 						isTrue {
 							data = levelfield:-1, tx_start_social_instagram, slide
@@ -227,10 +250,10 @@ start {
 						}
 					}
 				}
-				60 < .10
+				70 < .10
 					// linkedin
-				60 = TEXT
-				60 {
+				70 = TEXT
+				70 {
 					if {
 						isTrue {
 							data = levelfield:-1, tx_start_social_linkedin, slide
@@ -250,10 +273,10 @@ start {
 						}
 					}
 				}
-				70 < .10
+				80 < .10
 					// picasa
-				70 = TEXT
-				70 {
+				80 = TEXT
+				80 {
 					if {
 						isTrue {
 							data = levelfield:-1, tx_start_social_picasa, slide
@@ -273,10 +296,10 @@ start {
 						}
 					}
 				}
-				80 < .10
+				90 < .10
 					// pinterest
-				80 = TEXT
-				80 {
+				90 = TEXT
+				90 {
 					if {
 						isTrue {
 							data = levelfield:-1, tx_start_social_pinterest, slide
@@ -296,10 +319,10 @@ start {
 						}
 					}
 				}
-				90 < .10
+				100 < .10
 					// spotify
-				90 = TEXT
-				90 {
+				100 = TEXT
+				100 {
 					if {
 						isTrue {
 							data = levelfield:-1, tx_start_social_spotify, slide
@@ -319,10 +342,10 @@ start {
 						}
 					}
 				}
-				100 < .10
+				110 < .10
 					// twitter
-				100 = TEXT
-				100 {
+				110 = TEXT
+				110 {
 					if {
 						isTrue {
 							data = levelfield:-1, tx_start_social_twitter, slide
@@ -342,10 +365,10 @@ start {
 						}
 					}
 				}
-				110 < .10
+				120 < .10
 					// vimeo
-				110 = TEXT
-				110 {
+				120 = TEXT
+				120 {
 					if {
 						isTrue {
 							data = levelfield:-1, tx_start_social_vimeo, slide
@@ -365,10 +388,10 @@ start {
 						}
 					}
 				}
-				120 < .10
+				130 < .10
 					// youtube
-				120 = TEXT
-				120 {
+				130 = TEXT
+				130 {
 					if {
 						isTrue {
 							data = levelfield:-1, tx_start_social_youtube, slide

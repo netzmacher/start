@@ -36,6 +36,7 @@ call_user_func( function ()
 					. 'tx_start_megamenu,'
 					. 'tx_start_phone,'
 					. 'tx_start_phonelabel,'
+					. 'tx_start_social_cloud,'
 					. 'tx_start_social_facebook,'
 					. 'tx_start_social_flickr,'
 					. 'tx_start_social_github,'
