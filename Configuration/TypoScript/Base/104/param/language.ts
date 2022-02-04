@@ -1,4 +1,4 @@
-[request.getQueryParams()['L'] == "{$start.config.language1.sys_language_uid}"]
+[traverse(request.getQueryParams())['L'] == "{$start.config.language1.sys_language_uid}"]
 	config {
 		htmlTag_langKey   = {$start.config.language1.htmlTag_langKey}
 		htmlTag_setParams	= {$start.config.language1.htmlTag_setParams}
@@ -8,7 +8,7 @@
 	}
 [global]
 
-[request.getQueryParams()['L'] == "{$start.config.language2.sys_language_uid}"]
+[traverse(request.getQueryParams())['L'] == "{$start.config.language2.sys_language_uid}"]
 	config {
 		htmlTag_langKey   = {$start.config.language2.htmlTag_langKey}
 		htmlTag_setParams	= {$start.config.language2.htmlTag_setParams}
