@@ -3,6 +3,18 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+8.4.9
+  22-02-04
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+  * #v1871: [TASK] Update ckeditor youtube plugin
+						Affected files:
+            * Configuration/RTE/Start.yaml
+            * Configuration/RTE/StartWiExternalPlugin.yaml
+						Removed files:
+            * Resources/Public/CKeditor/4.11.3/Plugins/youtube/*
+						News files:
+            * Resources/Public/CKeditor/Plugins/ckeditor-youtube-plugin/*
+
 8.4.8
   21-12-09
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
