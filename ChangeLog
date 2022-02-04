@@ -6,11 +6,6 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 8.4.9
   22-02-04
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
-  * #v1927: [TASK] request.getQueryParams() > traverse(request.getQueryParams())
-						Affected files:
-            * Configuration/TypoScript/Base/104/param
-              * debug.ts
-              * language.ts
   * #v1871: [TASK] Update ckeditor youtube plugin
 						Affected files:
             * Configuration/RTE

@@ -1,4 +1,4 @@
-[getTSFE().isBackendUserLoggedIn() && (traverse(request.getQueryParams())['debug']) == 1]
+[getTSFE().isBackendUserLoggedIn() && (request.getQueryParams()['debug']) == 1]
 	// Next line has relevance for EXT:min. If EXT:min isn't installed next line doesn't matter
 	plugin.tx_min.tinysource.enable = 0
 	config {
