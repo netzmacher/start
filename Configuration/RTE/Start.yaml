@@ -68,7 +68,7 @@ editor:
 #      - chkPrivacy
 
   externalPlugins:
-    youtube: { resource: "EXT:start/Resources/Public/CKeditor/Plugins/ckeditor-youtube-plugin/youtube/"}
+    youtube: { resource: "EXT:start/Resources/Public/CKeditor/Plugins/youtube/"}
 
 # #i0230: Allow iframe
 processing:

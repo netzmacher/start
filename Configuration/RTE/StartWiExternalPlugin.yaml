@@ -70,7 +70,7 @@ editor:
 
     # #i0230
   externalPlugins:
-    youtube: { resource: "EXT:start/Resources/Public/CKeditor/Plugins/ckeditor-youtube-plugin/youtube/"}
+    youtube: { resource: "EXT:start/Resources/Public/CKeditor/Plugins/youtube/"}
 
   plugins:
     addExternal:
