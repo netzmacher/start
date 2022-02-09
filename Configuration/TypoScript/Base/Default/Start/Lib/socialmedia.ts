@@ -32,12 +32,6 @@ start {
 							if.isTrue.data = levelfield:-1, tx_start_social_github, slide
 							value = 1
 						}
-							// if.isTrue.data = levelfield:-1, tx_start_social_googleplus, slide
-						40 = TEXT
-						40 {
-							if.isTrue.data = levelfield:-1, tx_start_social_googleplus, slide
-							value = 1
-						}
 							// if.isTrue.data = levelfield:-1, tx_start_social_instagram, slide
 						50 = TEXT
 						50 {
@@ -199,29 +193,6 @@ start {
 								}
 								40 {
 									data = LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_github
-								}
-							}
-						}
-					}
-				}
-				50 < .10
-					// googleplus
-				50 = TEXT
-				50 {
-					if {
-						isTrue {
-							data = levelfield:-1, tx_start_social_googleplus, slide
-						}
-					}
-					value = <i class="fi-social-google-plus"></i>
-					typolink {
-						parameter {
-							cObject {
-								10 {
-									data = levelfield:-1, tx_start_social_googleplus, slide
-								}
-								40 {
-									data = LLL:EXT:start/Configuration/TCA/Overrides/pages.xlf:tx_start_social_googleplus
 								}
 							}
 						}

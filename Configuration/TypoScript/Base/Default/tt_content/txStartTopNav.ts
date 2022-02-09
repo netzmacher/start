@@ -51,11 +51,33 @@ tt_content.txStartTopNav {
 		topNavHasSearchform					= {$start.foundation.topbar.searchform}
 		topNavMobileShowParentLink	= {$start.foundation.topbar.mobile_show_parent_link}
 		topNavPosition							= {$start.foundation.topbar.position}
-		topNavRootPid								= {$start.pages.root}
+      // #v1633, 211021, dwildt, +
+//		topNavRootPid								= {$start.pages.root}
 		topNavSearchformButton			= {$start.foundation.topbar.searchform.button}
 		topNavStoplevel							= {$start.foundation.topbar.stoplevel}
 	}
 	variables {
+      // #v1633, 211021, dwildt, +
+//    topNavRootPid = CASE
+//    topNavRootPid {
+//      key {
+//        data = levelfield:-1,tx_start_pages_root,slide
+//      }
+//        // inherit
+//      default = TEXT
+//      default {
+//        data = levelfield:-1,tx_start_pages_root,slide
+//          // Downwards compatibility
+//        ifEmpty = {$start.pages.root}
+//      }
+//        // no page
+//      -1 = TEXT
+//      -1 {
+//        value = 
+//      }
+//        // devider
+//      - < .1
+//    }
 			// li.menu-icon
 		topNavMenuIcon = TEXT
 		topNavMenuIcon {
@@ -81,11 +103,36 @@ tt_content.txStartTopNav {
 					cObject = COA
 					cObject {
 							// URL
-						10 = TEXT
-						10 {
-							data = leveluid:0
-							noTrimWrap = || |
-						}
+              // #v1633, 211021, dwildt, +
+            10 = CASE
+            10 {
+                // data = levelfield:-1,tx_start_pages_root,slide
+              key = 
+              key {
+                data = levelfield:-1,tx_start_pages_root,slide
+              }
+                // inherit. data = levelfield:-1,tx_start_pages_root,slide
+              default = TEXT
+              default {
+                data = levelfield:-1,tx_start_pages_root,slide
+                  // Downwards compatibility
+                ifEmpty = {$start.pages.root}
+                ifEmpty {
+                   ifEmpty = TEXT
+                   ifEmpty {
+                     data = leveluid:0
+                  }
+                }
+                noTrimWrap = || |
+              }
+                // no page. value = 
+              -1 = TEXT
+              -1 {
+                value = 
+              }
+                // devider
+              - < .1
+            }
 							// target
 						20 = TEXT
 						20 {

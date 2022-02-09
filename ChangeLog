@@ -3,7 +3,7 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
-8.4.9
+8.5.4
   22-02-04
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
   * #v1871: [TASK] Update ckeditor youtube plugin
@@ -16,7 +16,7 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
 						News files:
             * Resources/Public/CKeditor/Plugins/youtube/*
 
-8.4.8
+8.5.3
   21-12-09
 	Author: Dirk Wildt (Die Netzmacher), http://wildt.at.die-netzmacher.de
 	* #i6293: [FEATURE] Additional field tx_start_social_cloud
@@ -27,6 +27,72 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
             * All elements moved 10 further. From 10 to 20, from 20 to 30 and so on.
             -------------------------
 						Affected files:
+
+8.5.2
+  21-10-25
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v1633: [FEATURE] Enable to manage id of pages.
+              Affected files:
+            * Classes
+              * Controller/ModuleController.php
+              * Domain/Repository/PageRepository.php
+            * Configuration
+              * TCA/Overrides
+                * Default/pages.php
+                * de.pages.xlf
+                * pages.xlf
+              * TypoScript/Base/Default/tt_content/txStartTopNav.ts
+            * Resources
+              * Private
+                * Backend
+                  * Layouts/Default.html
+                  * Partials/Forms/FieldsPages.html
+                  * Templates/Module/List.html
+                * Language
+                  * de.locallang_md1.xlf
+                  * locallang_md1.xlf
+              * Public/Css/Module/Styles.css
+
+8.5.1
+  21-10-21
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v1633: [FEATURE] Enable to manage id of pages. Here:
+            * Enable configuration for each page (only root page is possible now)
+            * Change value of non selected page from 0 to -2
+            * Integration TypoScript
+						Affected files:
+            * Classes
+              * Controller/ModuleController.php
+              * Domain/Repository/PageRepository.php
+            * Configuration
+              * TCA/Overrides/Default/pages.php            
+              * TypoScript/Base/Default/tt_content/txStartTopNav.ts
+            * Resources
+              * Private
+                * Backend
+                  * Partials/Forms/FieldsPages.html
+                  * Templates/Module
+                    * Contact.html
+                    * Pages.html
+                    * Socialmedia.html
+                    * Unit.html
+                * Language
+                  * de.locallang_md1.xlf
+                  * locallang_md1.xlf
+              * Public/Css/Module/Styles.css
+            * ext_tables.sql
+
+8.5.0
+  21-10-13
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+	* #v1633: [FEATURE] Enable to manage id of pages like navigation, calender, imprint, news amonmg others by the modul
+            *** UNDER CONSTRUCTION ***
+						Affected files:
+            * Classes
+              * Controller/ModuleController.php
+              * Domain
+                * Model/Page.php
+                * Repository/PageRepository.php
             * Configuration
               * TCA/Overrides
                 * Default/pages.php
@@ -36,6 +102,35 @@ NEWSLETTER: https://die-netzmacher.de/newsletter/
             * ext_emconf.php
             * ext_localconf.php
             * ext_tables.sql
+              * TypoScript/Base/Default/Start/Lib
+                * sitelineTop.ts
+                * socialmedia.ts
+            * Resources
+              * Private
+                * Backend
+                  * Layouts/Default.html
+                  * Partials/Forms/FieldsSocialmedia.html
+                  * Templates/Module
+                    * Contact.html
+                    * List.html
+                    * Socialmedia.html
+                    * Unit.html
+                * Language
+                  * de.locallang_md1.xlf
+                  * de.pages.xlf
+                  * locallang_md1.xlf
+                  * pages.xlf
+              * Public/Css/Module/Styles.css
+            * ext_localconf.php
+            * ext_tables.php
+            * ext_tables.sql
+						New files:
+            * Resources/Private/Backend
+              * Partials/Forms
+                * Buttons.html
+                * FieldsPages.html
+              * Templates/Module/Pages.html
+
 
 8.4.7
   21-10-01

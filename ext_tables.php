@@ -59,7 +59,7 @@ if( TYPO3_MODE === 'BE' )
 								, 'md1' // Submodule key
 								, '' // Position
 								, [
-						'Module' => 'list, banner, contact, layout, socialmedia, update, unit, wallpaper'
+						'Module' => 'list, banner, contact, layout, pages, socialmedia, update, unit, wallpaper'
 								]
 								, [
 						'access' => 'user,group'
