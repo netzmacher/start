@@ -3,6 +3,14 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+8.5.5
+  22-02-18
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+  * #v2053: [BUGFIX] Data too long for column tx_start_social_*
+            * varchar > tinytext
+						Affected file:
+            * ext_tables.sql
+
 8.5.4
   22-02-04
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com
