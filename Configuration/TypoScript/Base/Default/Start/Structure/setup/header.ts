@@ -21,7 +21,7 @@ start {
           select {
             where = colPos=12
           }
-          slide = -1
+          slide = {$start.fluid.path.be_layout.slide}
           stdWrap {
             required  = 1
             wrap      = <!--headerbottom--><section class="header headerbottom"><div class="row"><div class="small-12 columns"> |</div></div></section><!--/headerbottom-->
@@ -38,7 +38,7 @@ start {
           select {
             where = colPos=11
           }
-          slide = -1
+          slide = {$start.fluid.path.be_layout.slide}
           stdWrap {
             required  = 1
             wrap      = <!--headermain--><section class="header headermain"><div class="row"><div class="small-12 columns"> |</div></div></section><!--/headermain-->
@@ -55,7 +55,7 @@ start {
           select {
             where = colPos=10
           }
-          slide = -1
+          slide = {$start.fluid.path.be_layout.slide}
           stdWrap {
             required  = 1
             wrap      = <!--headertop--><section class="header headertop"><div class="row"><div class="small-12 columns"> |</div></div></section><!--/headertop-->

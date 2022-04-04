@@ -1,4 +1,5 @@
 .git.local/**
 .svn/**
+Documentation-GENERATED-temp/**
 nbproject/**
 tmp/**

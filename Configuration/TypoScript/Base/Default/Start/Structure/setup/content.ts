@@ -22,7 +22,7 @@ start {
           select {
             where = colPos=3
           }
-          slide = -1
+          slide = {$start.fluid.path.be_layout.slide}
           stdWrap {
             required  = 1
             wrap      = <!--contentbottom--><section class="content contentbottom"><div class="row"><div class="columns"> |</div></div></section><!--/contentbottom-->
@@ -38,7 +38,7 @@ start {
           select {
             where = colPos=4
           }
-          slide = -1
+          slide = {$start.fluid.path.be_layout.slide}
           stdWrap {
             required  = 1
             wrap      = <!--bottomLeft-->|<!--TYPO3SEARCH_end--><!--/bottomLeft-->
@@ -85,7 +85,7 @@ start {
 								select {
 									where = colPos=1
 								}
-								slide = -1
+								slide = {$start.fluid.path.be_layout.slide}
 							}	
 						}
 					}
@@ -256,7 +256,7 @@ start {
 								select {
 									where = colPos=2
 								}
-								slide = -1
+								slide = {$start.fluid.path.be_layout.slide}
 							}	
 						}
 					}
@@ -300,7 +300,7 @@ start {
           select {
             where = colPos=1
           }
-          slide = -1
+          slide = {$start.fluid.path.be_layout.slide}
           stdWrap {
             required  = 1
             wrap      = <!--rightBottomLeft-->|<!--TYPO3SEARCH_end--><!--/rightBottomLeft-->
@@ -315,7 +315,7 @@ start {
           select {
             where = colPos=2
           }
-          slide = -1
+          slide = {$start.fluid.path.be_layout.slide}
           stdWrap {
             required  = 1
             wrap      = <!--rightBottomRight-->|<!--TYPO3SEARCH_end--><!--/rightBottomRight-->
@@ -330,7 +330,7 @@ start {
           select {
             where = colPos=3
           }
-          slide = -1
+          slide = {$start.fluid.path.be_layout.slide}
           stdWrap {
             required  = 1
             wrap      = <!--rightTop-->|<!--TYPO3SEARCH_end--><!--/rightTop-->
@@ -346,7 +346,7 @@ start {
           select {
             where = colPos=1
           }
-          slide = -1
+          slide = {$start.fluid.path.be_layout.slide}
           stdWrap {
             required  = 1
             wrap      = <!--topLeft-->|<!--TYPO3SEARCH_end--><!--/topLeft-->

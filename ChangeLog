@@ -3,6 +3,24 @@ WHAT IS NEW: https://bit.ly/2TeRnRS
 NEWSLETTER: https://die-netzmacher.de/newsletter/
 
 
+8.5.6
+  22-04-04
+	Author: Dirk Wildt (verdigado eG), support@verdigado.com
+  * #v2512: [FEATURE] slide and inheritance are configurable by Constant Editor 
+						Affected files:
+            * Configuration/TypoScript/Base/Default
+              * Page/Page/constants/view/be_layout/_constants.ts
+              * Start
+                * Lib/footer/main.ts
+                * Structure/setup
+                  * content.ts
+                  * footer-wi-case.bak.ts
+                  * footer.ts
+                  * header.ts
+						New files:
+            * Configuration/TypoScript/Base/Default/Page/Page/constants/view/be_layout/slide.ts
+            * Documentation/Administrators/BestPractice/BackendLayouts/Slide/Index.rst
+
 8.5.5
   22-02-18
 	Author: Dirk Wildt (verdigado eG), support@verdigado.com

@@ -21,7 +21,7 @@ start {
           select {
             where = colPos=22
           }
-          slide = -1
+          slide = {$start.fluid.path.be_layout.slide}
           stdWrap {
             required  = 1
             wrap      = <!--footerbottom--><section class="footer footerbottom"><div class="row"><div class="columns"> |</div></div></section><!--/footerbottom-->

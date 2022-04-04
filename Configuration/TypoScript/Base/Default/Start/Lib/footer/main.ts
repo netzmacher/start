@@ -152,7 +152,7 @@ start {
 					select {
 						where = colPos=21
 					}
-					slide = -1
+					slide = {$start.fluid.path.be_layout.slide}
 				}
 					// tx_start_addressline, tx_start_email
 				40 = COA

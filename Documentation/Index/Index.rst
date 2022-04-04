@@ -25,7 +25,11 @@ Backend Layouts
 
 * :ref:`Extensionmanager <administrators_setup_extensionmanager_backendlayout>`
 
-* :ref:`Folder <administrators_bestpractice_backendlayouts>`
+* :ref:`Folder <administrators_bestpractice_backendlayouts_folder>`
+
+* :ref:`Inheritance <administrators_bestpractice_backendlayouts_slide>`
+
+* :ref:`Slide <administrators_bestpractice_backendlayouts_slide>`
 
 :ref:`Backend Style <administrators_setup_extensionmanager_backendstyle>`
 
@@ -87,7 +91,7 @@ E
 
 :ref:`Effects <users_bestpractice_effects>`
 
- :ref:`Shaking <users_bestpractice_effects>`
+:ref:`Shaking <users_bestpractice_effects>`
 
 Element
 
@@ -165,6 +169,8 @@ Image
 * :ref:`Shaking <users_bestpractice_effects>`
 
 :ref:`Indexed Search <administrators_bestpractice_indexedsearch>`
+
+:ref:`Inheritance <administrators_bestpractice_backendlayouts_slide>`
 
 
 K
@@ -281,6 +287,8 @@ S
 Search
 
 * :ref:`Indexed Search <administrators_bestpractice_indexedsearch>`
+
+:ref:`Slide <administrators_bestpractice_backendlayouts_slide>`
 
 Social Media
 
