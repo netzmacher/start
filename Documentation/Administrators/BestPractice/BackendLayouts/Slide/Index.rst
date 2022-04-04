@@ -18,4 +18,4 @@ This is the behaviour of the backend layouts of the EXT:start by default.
 
 You can disabel this property by the Constant Editor. See
 
-* [Start - VIEW - BE_LAYOUT - SLIDE]
+* [START - VIEW - BE_LAYOUT - SLIDE]
