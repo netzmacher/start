@@ -122,7 +122,7 @@ body {
 .startEffectZoom01:hover {
   -ms-transform: scale(1.05); /* IE 9 */
   -webkit-transform: scale(1.05); /* Safari 3-8 */
-  transform: scale(1.05); 
+  transform: scale(1.05);
 	z-index:10;
 }
 
@@ -132,7 +132,7 @@ body {
   2% { transform: skewX(-5deg); }
   3% { transform: skewX(5deg); }
   4% { transform: skewX(0deg); }
-  100% { transform: skewX(0deg); }  
+  100% { transform: skewX(0deg); }
 }
 
 .startFontLightOnDark,
@@ -182,6 +182,8 @@ body {
 .startHyphensAuto,
 .startHyphensAuto p {
 	hyphens:auto;
+	-ms-hyphens: auto;
+	-webkit-hyphens: auto;
 }
 .startHyphensNone,
 .startHyphensNone p {
@@ -195,9 +197,9 @@ body {
 	border-radius: inherit;
 }
 .startImgWiShadow,
-.startImgWiShadow div.csc-textpic, 
-.startImgWiShadow div.csc-textpic div.csc-textpic-imagerow, 
-.startImgWiShadow div.csc-textpic div.csc-textpic-imagewrap, 
+.startImgWiShadow div.csc-textpic,
+.startImgWiShadow div.csc-textpic div.csc-textpic-imagerow,
+.startImgWiShadow div.csc-textpic div.csc-textpic-imagewrap,
 .startImgWiShadow ul.csc-uploads li {
 	overflow: visible;
 }
@@ -208,9 +210,9 @@ body {
   box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 .startImgWiShadowReset,
-.startImgWiShadowReset div.csc-textpic, 
-.startImgWiShadowReset div.csc-textpic div.csc-textpic-imagerow, 
-.startImgWiShadowReset div.csc-textpic div.csc-textpic-imagewrap, 
+.startImgWiShadowReset div.csc-textpic,
+.startImgWiShadowReset div.csc-textpic div.csc-textpic-imagerow,
+.startImgWiShadowReset div.csc-textpic div.csc-textpic-imagewrap,
 .startImgWiShadowReset ul.csc-uploads li {
 	overflow: hidden;
 }
@@ -338,7 +340,7 @@ body {
 
 .startWoMarginBottom {
   padding-bottom: 0;
-  margin-bottom: 1rem;	
+  margin-bottom: 1rem;
 }
 
 #startBox01 .maincontentleft {
